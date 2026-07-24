@@ -14,6 +14,13 @@ except ImportError:
     HAS_ZONEINFO = False
 
 # ==========================================
+# AUTOMATIC ROOT DIRECTORY ANCHOR
+# ==========================================
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, ".."))
+os.chdir(ROOT_DIR)  # Forces current working directory to repository root
+
+# ==========================================
 # CONFIGURATION & CONSTANTS
 # ==========================================
 SITE_DOMAIN = "https://weatherfootball.com"
@@ -61,7 +68,6 @@ def get_effective_matchday_date():
         est_tz = zoneinfo.ZoneInfo("America/New_York")
         now_est = datetime.datetime.now(est_tz)
     else:
-        # Fallback for standard UTC-5 offset
         utc_now = datetime.datetime.now(timezone.utc)
         now_est = utc_now - timedelta(hours=5)
 
@@ -178,7 +184,6 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
         except ValueError:
             start_idx = 1
 
-        # Slice 5-hour kickoff window (1h pre to 3h post)
         actual_start = max(0, start_idx - 1)
         actual_end = min(len(time_array), start_idx + 4)
 
@@ -210,7 +215,7 @@ def generate_soccer_matchup_analysis(weather, is_dome):
 
     notes = []
     if weather['windSpeed'] >= 15 and weather['precip'] > 0:
-        notes.push("🌧️💨 <b>Heavy Weather Alert:</b> Rain wet pitch accelerates ball skidding while gusty winds severely affect long balls and goal kicks.")
+        notes.append("🌧️💨 <b>Heavy Weather Alert:</b> Rain wet pitch accelerates ball skidding while gusty winds severely affect long balls and goal kicks.")
     elif weather['windSpeed'] >= 15:
         notes.append("💨 <b>High Winds:</b> Wind speeds over 15 mph will cause trajectory drift on aerial crosses, long passes, and goal kicks.")
     elif weather['precip'] > 0:
@@ -248,7 +253,6 @@ def render_game_card_html(game):
     elif w['windSpeed'] >= 15:
         bg_class = "bg-weather-cloudy"
 
-    # Status Badge Text
     if game['status'] == 'in':
         badge_text = game.get('clock') or 'LIVE'
         badge_style = "bg-danger text-white border-danger"
@@ -263,13 +267,8 @@ def render_game_card_html(game):
             badge_text = "SCHEDULED"
         badge_style = "bg-light text-dark border"
 
-    weather_emoji_line = f"Roof Closed 🌡️{w['temp']}°" if is_dome else f"🌧️{w['precip']}\" 🌡️{w['temp']}° 💨{w['windSpeed']}mph"
-    if is_too_early:
-        weather_emoji_line = "Roof Closed" if is_dome else "🔭 Forecast Pending..."
-
     radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&zoom=10&level=surface&overlay=rain&product=ecmwf"
 
-    # Hourly Forecast Scroll
     hourly_html = ""
     if not is_too_early and not is_dome and w.get('hourly'):
         hours_markup = ""
@@ -475,7 +474,7 @@ __MATCH_CARDS_GRID__
 # MAIN INGESTION & GENERATION ENGINE
 # ==========================================
 def main():
-    print("🚀 Running WeatherFootball Static Site Builder...")
+    print(f"🚀 Running WeatherFootball Static Site Builder from root: {os.getcwd()}")
 
     # 1. Effective Date Calculation (3:00 AM EST Rollover)
     effective_dt = get_effective_matchday_date()
@@ -500,10 +499,9 @@ def main():
     events = scoreboard_data.get('events', [])
     print(f"⚽ Found {len(events)} fixtures on ESPN master board.")
 
-    # Data collections for page rendering
     today_games = []
-    teams_registry = {}   # team_slug -> { name, logo, league_name, games: [] }
-    leagues_registry = {} # league_slug -> { name, logo, games: [] }
+    teams_registry = {}
+    leagues_registry = {}
 
     # 4. Process Each Game
     for event in events:
@@ -513,16 +511,11 @@ def main():
         status = event['status']['type']['state']
         clock = event['status']['type'].get('shortDetail', '')
 
-        league_info = event.get('season', {})
         league_name = event.get('league', {}).get('name') or comp.get('league', {}).get('name') or "Global Football"
-        
-        # Capture league logo
         league_logos = event.get('league', {}).get('logos', []) or comp.get('league', {}).get('logos', [])
         league_logo = league_logos[0]['href'] if league_logos else ""
-
         league_slug = slugify(league_name)
 
-        # Competitors
         home_comp = next((c for c in comp['competitors'] if c['homeAway'] == 'home'), None)
         away_comp = next((c for c in comp['competitors'] if c['homeAway'] == 'away'), None)
 
@@ -538,12 +531,10 @@ def main():
         home_slug = slugify(home_team)
         away_slug = slugify(away_team)
 
-        # Stadium processing
         espn_venue = comp.get('venue', {})
         venue_id = str(espn_venue.get('id', slugify(espn_venue.get('fullName', 'default-stadium'))))
         stadium_info = get_or_update_stadium(stadiums_db, venue_id, espn_venue)
 
-        # Fetch Weather
         if stadium_info['roof'] in ["Dome", "Retractable"]:
             weather = {"status": "ok", "temp": 70, "windSpeed": 0, "precip": 0.0, "hourly": []}
         else:
@@ -571,7 +562,6 @@ def main():
 
         today_games.append(game_obj)
 
-        # Registry Population
         if league_slug not in leagues_registry:
             leagues_registry[league_slug] = {"name": league_name, "slug": league_slug, "logo": league_logo, "games": []}
         leagues_registry[league_slug]["games"].append(game_obj)
@@ -581,7 +571,6 @@ def main():
                 teams_registry[team_slug] = {"name": team_name, "slug": team_slug, "logo": team_logo, "league": league_name, "games": []}
             teams_registry[team_slug]["games"].append(game_obj)
 
-    # Save updated stadiums registry
     save_stadiums_db(stadiums_db)
 
     # 5. Build Search Dropdown Options HTML
@@ -591,9 +580,7 @@ def main():
     for t_slug, t_data in sorted(teams_registry.items(), key=lambda x: x[1]['name']):
         search_options_html += f'                    <option value="{t_data["name"]}" data-url="/teams/{t_slug}/"></option>\n'
 
-    # ==========================================
     # PAGE GENERATOR 1: MAIN HOMEPAGE
-    # ==========================================
     print("\n🌐 Generating Homepage (/index.html)...")
     home_cards_html = "".join([render_game_card_html(g) for g in today_games]) if today_games else """
         <div class="col-12 text-center py-5">
@@ -619,18 +606,12 @@ def main():
 
     write_if_changed("index.html", home_content)
 
-    # ==========================================
     # PAGE GENERATOR 2: LEAGUE PAGES
-    # ==========================================
     print(f"\n🏆 Generating {len(leagues_registry)} League Pages (/leagues/)...")
     for l_slug, l_data in leagues_registry.items():
         cards_html = "".join([render_game_card_html(g) for g in l_data['games']])
         
-        schema_json = json.dumps({
-            "@context": "https://schema.org",
-            "@type": "SportsEvent",
-            "name": f"{l_data['name']} Matches"
-        }, indent=2)
+        schema_json = json.dumps({"@context": "https://schema.org", "@type": "SportsEvent", "name": f"{l_data['name']} Matches"}, indent=2)
 
         content = MASTER_HTML_TEMPLATE
         content = content.replace("__PAGE_TITLE__", f"{l_data['name']} Match Weather Forecasts | WeatherFootball")
@@ -646,18 +627,12 @@ def main():
 
         write_if_changed(os.path.join("leagues", l_slug, "index.html"), content)
 
-    # ==========================================
     # PAGE GENERATOR 3: TEAM PAGES
-    # ==========================================
     print(f"\n🛡️ Generating {len(teams_registry)} Team Pages (/teams/)...")
     for t_slug, t_data in teams_registry.items():
         cards_html = "".join([render_game_card_html(g) for g in t_data['games']])
         
-        schema_json = json.dumps({
-            "@context": "https://schema.org",
-            "@type": "SportsTeam",
-            "name": t_data['name']
-        }, indent=2)
+        schema_json = json.dumps({"@context": "https://schema.org", "@type": "SportsTeam", "name": t_data['name']}, indent=2)
 
         content = MASTER_HTML_TEMPLATE
         content = content.replace("__PAGE_TITLE__", f"{t_data['name']} Weather Forecast & Stadium Pitch Analytics")
