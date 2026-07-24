@@ -496,7 +496,7 @@
             document.querySelectorAll('.local-time-badge').forEach(el => {
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
-                    el.textContent = dt.toLocaleString(undefined, {weekday: 'short', hour: 'numeric', minute: '2-digit'});
+                    el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                 }
             });
             // Localize future banner times

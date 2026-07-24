@@ -266,7 +266,7 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">90'+1'</span>
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
@@ -293,7 +293,7 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Paraguayan Primera</span>
                     </div>
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">90'+1'</span>
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -501,7 +501,7 @@
             document.querySelectorAll('.local-time-badge').forEach(el => {
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
-                    el.textContent = dt.toLocaleString(undefined, {weekday: 'short', hour: 'numeric', minute: '2-digit'});
+                    el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                 }
             });
             // Localize future banner times
