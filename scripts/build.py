@@ -117,7 +117,7 @@ def geocode_venue_multi_stage(venue_name, city, country, home_team):
     1. Stadium Name + Clean City
     2. Stadium Name Alone
     3. Clean City + Country Fallback
-    4. Home Team Name Fallback (For matches with omitted venue data)
+    4. Home Team Name Fallback (For USL / ASEAN / Central America matches with omitted venue data)
     5. Country Fallback (Capital/Centroid)
     """
     clean_city = city.split(',')[0].strip() if city else ""
@@ -441,11 +441,7 @@ def render_game_card_html(game, is_compact_default=True):
         <div class="card game-card shadow-sm {border_class} {bg_class}">
             <!-- COMPACT RIBBON VIEW (STACKED TEAMS) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_ribbon};">
-                <div class="d-flex align-items-center justify-content-between mb-2">
-                    <div class="d-flex align-items-center text-truncate me-2">
-                        {league_logo_img}
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">{game['league_name']}</span>
-                    </div>
+                <div class="d-flex align-items-center justify-content-end mb-2">
                     <span class="badge {badge_style} flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>
                 </div>
                 
@@ -555,6 +551,13 @@ __SCHEMA_JSON__
         .hour-icon { font-size: 1.2rem; }
         .hour-pop { font-size: 0.65rem; color: #0d6efd; font-weight: 700; height: 12px; }
         .hour-temp { font-size: 0.8rem; font-weight: 600; }
+        
+        /* SLEEK LEAGUE HEADER BADGE */
+        .league-badge-header {
+            display: inline-flex; align-items: center; background-color: #e9ecef; color: #495057; border-radius: 30px; padding: 6px 16px; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.3px; text-decoration: none; border: 1px solid #dee2e6; transition: all 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
+        .league-badge-header:hover { background-color: #dee2e6; color: #212529; }
+        .league-badge-header img { width: 16px; height: 16px; object-fit: contain; margin-right: 8px; }
 
         @keyframes weather-flow { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
         .bg-weather-sunny { background: linear-gradient(-45deg, #e3f2fd, #e1f5fe, #f1f8e9); background-size: 300% 300%; animation: weather-flow 15s ease infinite; }
@@ -770,9 +773,6 @@ def main():
 
     save_stadiums_db(stadiums_db)
 
-    # Chronological Sorting by Game Kickoff Time
-    today_games.sort(key=lambda x: x['game_time'])
-
     # 5. Build Dual Datalist Options HTML (League vs Team)
     league_search_options_html = ""
     for l_slug, l_data in sorted(leagues_registry.items(), key=lambda x: x[1]['name']):
@@ -809,19 +809,17 @@ def main():
             # Sort games within league chronologically
             ldata['games'].sort(key=lambda x: x['game_time'])
             
-            logo_html = f'<img src="{ldata["logo"]}" style="width: 20px; height: 20px; object-fit: contain;" class="me-2">' if ldata["logo"] else ''
+            logo_html = f'<img src="{ldata["logo"]}">' if ldata["logo"] else ''
             
-            # League Header Link
+            # Sleek Pill-Shaped League Header Link
             home_cards_html += f"""
-            <div class="col-12 mb-3 mt-4">
-                <a href="/leagues/{ldata['slug']}/" class="d-flex align-items-center bg-dark text-white py-2 px-3 rounded text-decoration-none shadow-sm" style="transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
-                    {logo_html}
-                    <h5 class="mb-0 fw-bold" style="font-size: 1.1rem; letter-spacing: 0.5px;">{lname}</h5>
-                    <span class="ms-auto" style="font-size: 0.9rem;">➔</span>
+            <div class="col-12 mb-2 mt-3 ps-1">
+                <a href="/leagues/{ldata['slug']}/" class="league-badge-header">
+                    {logo_html} {lname} <span class="ms-1" style="font-size: 0.7rem; opacity: 0.6;">➔</span>
                 </a>
             </div>
             """
-            # Render Game Cards
+            # Render Game Cards (without the league name repeated in the compact view header)
             for g in ldata['games']:
                 home_cards_html += render_game_card_html(g, is_compact_default=True)
     else:
