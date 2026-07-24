@@ -257,7 +257,7 @@
         <div class="row w-100 m-0 p-0 justify-content-center">
 
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401854541">
-        <div class="card game-card shadow-sm  bg-weather-sunny">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
@@ -276,7 +276,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️58°<br>💨5mph 💧96%
+                            🌧️39% 🌡️78°<br>💨3mph 💧79%
                         </span>
                     </div>
                 </div>
@@ -308,55 +308,55 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">58°F</div>
+                <div class="fw-bold">78°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 96%</div>
+                <div class="fw-bold text-dark">💧 79%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">0%</div>
+                <div class="fw-bold text-primary">39%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
         <div class="hourly-scroll-container">
                 <div class="hour-card">
                     <div class="hour-time">12PM</div>
-                    <div class="hour-icon">☀️</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">58°</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">39%</div>
+                    <div class="hour-temp">84°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time">1PM</div>
-                    <div class="hour-icon">☀️</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">58°</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">33%</div>
+                    <div class="hour-temp">83°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time">2PM</div>
-                    <div class="hour-icon">☀️</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">57°</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">31%</div>
+                    <div class="hour-temp">83°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time">3PM</div>
-                    <div class="hour-icon">☀️</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">57°</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">31%</div>
+                    <div class="hour-temp">83°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time">4PM</div>
-                    <div class="hour-icon">☀️</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">56°</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">34%</div>
+                    <div class="hour-temp">82°</div>
                 </div></div>
         <div class="mt-2 mb-1">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=-8.83333&lon=125.75&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Chonburi UTA Stadium')">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=15.5&lon=101.0&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Chonburi UTA Stadium')">
                 🗺️ Live Weather Radar
             </button>
         </div>
@@ -384,18 +384,11 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Localize scheduled game times
+            // Localize scheduled game times (including Month and Day for multi-week slates)
             document.querySelectorAll('.local-time-badge').forEach(el => {
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
                     el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
-                }
-            });
-            // Localize future banner times
-            document.querySelectorAll('.local-future-badge').forEach(el => {
-                const dt = new Date(el.dataset.futuretime);
-                if (!isNaN(dt)) {
-                    el.textContent = dt.toLocaleString(undefined, {weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                 }
             });
         });

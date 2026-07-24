@@ -339,18 +339,11 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Localize scheduled game times
+            // Localize scheduled game times (including Month and Day for multi-week slates)
             document.querySelectorAll('.local-time-badge').forEach(el => {
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
                     el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
-                }
-            });
-            // Localize future banner times
-            document.querySelectorAll('.local-future-badge').forEach(el => {
-                const dt = new Date(el.dataset.futuretime);
-                if (!isNaN(dt)) {
-                    el.textContent = dt.toLocaleString(undefined, {weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                 }
             });
         });

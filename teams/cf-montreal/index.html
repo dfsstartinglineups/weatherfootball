@@ -276,7 +276,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️76°<br>💨10mph 💧43%
+                            🌧️0% 🌡️76°<br>💨9mph 💧43%
                         </span>
                     </div>
                 </div>
@@ -320,7 +320,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">10 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">9 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -384,7 +384,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️41% 🌡️76°<br>💨10mph 💧43%
+                            🌧️41% 🌡️76°<br>💨9mph 💧43%
                         </span>
                     </div>
                 </div>
@@ -428,7 +428,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">10 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">9 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -492,18 +492,11 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Localize scheduled game times
+            // Localize scheduled game times (including Month and Day for multi-week slates)
             document.querySelectorAll('.local-time-badge').forEach(el => {
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
                     el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
-                }
-            });
-            // Localize future banner times
-            document.querySelectorAll('.local-future-badge').forEach(el => {
-                const dt = new Date(el.dataset.futuretime);
-                if (!isNaN(dt)) {
-                    el.textContent = dt.toLocaleString(undefined, {weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                 }
             });
         });
