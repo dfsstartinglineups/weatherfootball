@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Weather for Cambodia vs Singapore match at Venue Unlisted | Pitch Wind & Rain Forecast</title>
+    <meta name="description" content="Live weather forecast for today's Cambodia vs Singapore match at Venue Unlisted. Track stadium wind speed, rain delay risks, temperature, and live pitch conditions.">
+    <meta name="keywords" content="Singapore game weather, Singapore stadium wind, Singapore pitch forecast, Singapore rain delay risk">
+    <link rel="canonical" href="https://weatherfootball.com/teams/singapore/" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- OpenGraph / Social Meta -->
+    <meta property="og:title" content="Singapore Game Weather">
+    <meta property="og:description" content="Matchday weather analytics and stadium wind forecasts for Singapore.">
+    <meta property="og:url" content="https://weatherfootball.com/teams/singapore/">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Singapore Game Weather">
+    <meta name="twitter:description" content="Matchday weather analytics and stadium wind forecasts for Singapore.">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        .main-container { max-width: 1200px; margin: 20px auto; padding: 0 15px; }
+        .game-card { border: 1px solid #dee2e6; border-radius: 12px; background: white; overflow: hidden; }
+        .weather-row { font-size: 0.9rem; border-top: 1px solid #f1f3f5; padding-top: 8px; margin-top: 8px; }
+        .stadium-name { color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px; }
+        
+        .hourly-scroll-container { display: flex; overflow-x: auto; gap: 8px; padding: 8px 4px; margin-top: 8px; border-top: 1px solid rgba(0,0,0,0.05); }
+        .hour-card { display: flex; flex-direction: column; align-items: center; min-width: 55px; text-align: center; }
+        .hour-time { font-size: 0.7rem; font-weight: 600; color: #6c757d; }
+        .hour-icon { font-size: 1.2rem; }
+        .hour-pop { font-size: 0.65rem; color: #0d6efd; font-weight: 700; height: 12px; }
+        .hour-temp { font-size: 0.8rem; font-weight: 600; }
+        
+        /* SLEEK LEAGUE HEADER DIVIDER */
+        .league-section-title { 
+            font-size: 0.75rem; 
+            font-weight: 800; 
+            text-transform: uppercase; 
+            letter-spacing: 0.5px; 
+            color: #6c757d; 
+            margin: 1.5rem 0 0.5rem 0.25rem; 
+            display: flex; 
+            align-items: center; 
+        }
+        .league-section-title a { 
+            color: inherit; 
+            text-decoration: none; 
+            transition: color 0.2s; 
+            display: flex; 
+            align-items: center; 
+        }
+        .league-section-title a:hover { color: #0d6efd; }
+        .league-section-title::after { 
+            content: ""; 
+            flex: 1; 
+            border-bottom: 1px solid #e9ecef; 
+            margin-left: 10px; 
+        }
+
+        @keyframes weather-flow { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+        .bg-weather-sunny { background: linear-gradient(-45deg, #e3f2fd, #e1f5fe, #f1f8e9); background-size: 300% 300%; animation: weather-flow 15s ease infinite; }
+        .bg-weather-cloudy { background: linear-gradient(-45deg, #f5f5f5, #e0e0e0, #eeeeee); background-size: 300% 300%; animation: weather-flow 20s ease infinite; }
+        .bg-weather-rain { background: linear-gradient(180deg, #e3f2fd, #cfd8dc, #eceff1); background-size: 200% 200%; animation: weather-flow 8s ease infinite; }
+        .bg-weather-storm { background: linear-gradient(-45deg, #e1bee7, #cfd8dc, #e0e0e0); background-size: 300% 300%; animation: weather-flow 10s ease infinite; }
+        .bg-weather-roof { background-color: #ffffff; }
+    </style>
+</head>
+<body>
+    <nav class="navbar shadow-sm py-2 sticky-top" style="background-color: #0f172a;">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+            <a href="/" class="navbar-brand text-white fw-bold m-0" style="font-style: italic; font-size: 1.5rem;">
+                Weather <span style="color: #5ac8fa;">Football</span>
+            </a>
+            
+            <div class="d-flex align-items-center gap-2 flex-wrap">
+                <!-- LEAGUE SEARCH -->
+                <input list="league-search-options" id="league-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🏆 League..." onchange="if(this.value) { const opt = document.querySelector('#league-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
+                <datalist id="league-search-options">
+<option value="ASEAN Champ, Group A" data-url="/leagues/asean-champ-group-a/"></option>
+<option value="ASEAN Champ, Group B" data-url="/leagues/asean-champ-group-b/"></option>
+<option value="Argentine LPF" data-url="/leagues/argentine-lpf/"></option>
+<option value="Bolivian Liga Profesional" data-url="/leagues/bolivian-liga-profesional/"></option>
+<option value="Carabao Cup, First Round" data-url="/leagues/carabao-cup-first-round/"></option>
+<option value="Carabao Cup, Preliminary Round" data-url="/leagues/carabao-cup-preliminary-round/"></option>
+<option value="Chilean Primera" data-url="/leagues/chilean-primera/"></option>
+<option value="Club Friendly" data-url="/leagues/club-friendly/"></option>
+<option value="Colombian Primera A" data-url="/leagues/colombian-primera-a/"></option>
+<option value="Danish Superliga" data-url="/leagues/danish-superliga/"></option>
+<option value="Guatemalan Liga Nacional" data-url="/leagues/guatemalan-liga-nacional/"></option>
+<option value="Leagues Cup" data-url="/leagues/leagues-cup/"></option>
+<option value="Leagues Cup, Group 1" data-url="/leagues/leagues-cup-group-1/"></option>
+<option value="Leagues Cup, Group 2" data-url="/leagues/leagues-cup-group-2/"></option>
+<option value="Liga AUF Uruguaya" data-url="/leagues/liga-auf-uruguaya/"></option>
+<option value="Liga FPD" data-url="/leagues/liga-fpd/"></option>
+<option value="Liga MX" data-url="/leagues/liga-mx/"></option>
+<option value="Liga de Expansión MX" data-url="/leagues/liga-de-expansion-mx/"></option>
+<option value="MLS" data-url="/leagues/mls/"></option>
+<option value="NWSL" data-url="/leagues/nwsl/"></option>
+<option value="Paraguayan Primera" data-url="/leagues/paraguayan-primera/"></option>
+<option value="Peru Liga 1" data-url="/leagues/peru-liga-1/"></option>
+<option value="Russian Premier" data-url="/leagues/russian-premier/"></option>
+<option value="Salvadoran Primera" data-url="/leagues/salvadoran-primera/"></option>
+<option value="Swedish Allsvenskan" data-url="/leagues/swedish-allsvenskan/"></option>
+<option value="USL Championship" data-url="/leagues/usl-championship/"></option>
+
+                </datalist>
+
+                <!-- TEAM SEARCH -->
+                <input list="team-search-options" id="team-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🔍 Team..." onchange="if(this.value) { const opt = document.querySelector('#team-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
+                <datalist id="team-search-options">
+<option value="2 de Mayo" data-url="/teams/2-de-mayo/"></option>
+<option value="ABB" data-url="/teams/abb/"></option>
+<option value="AC Milan" data-url="/teams/ac-milan/"></option>
+<option value="Alianza Atlético" data-url="/teams/alianza-atletico/"></option>
+<option value="América" data-url="/teams/america/"></option>
+<option value="Angel City FC" data-url="/teams/angel-city-fc/"></option>
+<option value="Antigua GFC" data-url="/teams/antigua-gfc/"></option>
+<option value="Atlanta United FC" data-url="/teams/atlanta-united-fc/"></option>
+<option value="Atlante" data-url="/teams/atlante/"></option>
+<option value="Atlas" data-url="/teams/atlas/"></option>
+<option value="Atlético de San Luis" data-url="/teams/atletico-de-san-luis/"></option>
+<option value="Aurora" data-url="/teams/aurora/"></option>
+<option value="Austin FC" data-url="/teams/austin-fc/"></option>
+<option value="Banfield" data-url="/teams/banfield/"></option>
+<option value="Bay FC" data-url="/teams/bay-fc/"></option>
+<option value="Bayern Munich" data-url="/teams/bayern-munich/"></option>
+<option value="Birmingham Legion FC" data-url="/teams/birmingham-legion-fc/"></option>
+<option value="Borussia Dortmund" data-url="/teams/borussia-dortmund/"></option>
+<option value="Boston Legacy FC" data-url="/teams/boston-legacy-fc/"></option>
+<option value="Bristol City" data-url="/teams/bristol-city/"></option>
+<option value="Bromley" data-url="/teams/bromley/"></option>
+<option value="CD FAS" data-url="/teams/cd-fas/"></option>
+<option value="CD Municipal Limeño" data-url="/teams/cd-municipal-limeno/"></option>
+<option value="CF Montréal" data-url="/teams/cf-montreal/"></option>
+<option value="CSKA Moscow" data-url="/teams/cska-moscow/"></option>
+<option value="Cambodia" data-url="/teams/cambodia/"></option>
+<option value="Celtic" data-url="/teams/celtic/"></option>
+<option value="Central Córdoba (Santiago del Estero)" data-url="/teams/central-cordoba-santiago-del-estero/"></option>
+<option value="Cerro Porteño" data-url="/teams/cerro-porteno/"></option>
+<option value="Charlotte FC" data-url="/teams/charlotte-fc/"></option>
+<option value="Chicago Fire FC" data-url="/teams/chicago-fire-fc/"></option>
+<option value="Chicago Stars FC" data-url="/teams/chicago-stars-fc/"></option>
+<option value="Colo Colo" data-url="/teams/colo-colo/"></option>
+<option value="Colorado Rapids" data-url="/teams/colorado-rapids/"></option>
+<option value="Columbus Crew" data-url="/teams/columbus-crew/"></option>
+<option value="Correcaminos UAT" data-url="/teams/correcaminos-uat/"></option>
+<option value="Crawley Town" data-url="/teams/crawley-town/"></option>
+<option value="Cruz Azul" data-url="/teams/cruz-azul/"></option>
+<option value="Crystal Palace" data-url="/teams/crystal-palace/"></option>
+<option value="Cusco FC" data-url="/teams/cusco-fc/"></option>
+<option value="D.C. United" data-url="/teams/dc-united/"></option>
+<option value="Danubio" data-url="/teams/danubio/"></option>
+<option value="Denver Summit FC" data-url="/teams/denver-summit-fc/"></option>
+<option value="Deportes Limache" data-url="/teams/deportes-limache/"></option>
+<option value="Deportivo Cali" data-url="/teams/deportivo-cali/"></option>
+<option value="Deportivo Mixco" data-url="/teams/deportivo-mixco/"></option>
+<option value="Deportivo Pereira" data-url="/teams/deportivo-pereira/"></option>
+<option value="Durango" data-url="/teams/durango/"></option>
+<option value="FC Baltika Kaliningrad" data-url="/teams/fc-baltika-kaliningrad/"></option>
+<option value="FC Cincinnati" data-url="/teams/fc-cincinnati/"></option>
+<option value="FC Dallas" data-url="/teams/fc-dallas/"></option>
+<option value="FC Juarez" data-url="/teams/fc-juarez/"></option>
+<option value="Fortuna Düsseldorf" data-url="/teams/fortuna-dusseldorf/"></option>
+<option value="Galatasaray" data-url="/teams/galatasaray/"></option>
+<option value="Gimnasia (Mendoza)" data-url="/teams/gimnasia-mendoza/"></option>
+<option value="Gimnasia La Plata" data-url="/teams/gimnasia-la-plata/"></option>
+<option value="Gotham FC" data-url="/teams/gotham-fc/"></option>
+<option value="Guadalajara" data-url="/teams/guadalajara/"></option>
+<option value="Houston Dash" data-url="/teams/houston-dash/"></option>
+<option value="Houston Dynamo FC" data-url="/teams/houston-dynamo-fc/"></option>
+<option value="Huracán" data-url="/teams/huracan/"></option>
+<option value="Instituto (Córdoba)" data-url="/teams/instituto-cordoba/"></option>
+<option value="Inter Miami CF" data-url="/teams/inter-miami-cf/"></option>
+<option value="Jaguares de Córdoba" data-url="/teams/jaguares-de-cordoba/"></option>
+<option value="Juventus" data-url="/teams/juventus/"></option>
+<option value="Kansas City Current" data-url="/teams/kansas-city-current/"></option>
+<option value="LA Galaxy" data-url="/teams/la-galaxy/"></option>
+<option value="LAFC" data-url="/teams/lafc/"></option>
+<option value="León" data-url="/teams/leon/"></option>
+<option value="Liga MX All-Stars" data-url="/teams/liga-mx-all-stars/"></option>
+<option value="Liverpool" data-url="/teams/liverpool/"></option>
+<option value="Llaneros FC" data-url="/teams/llaneros-fc/"></option>
+<option value="Los Chankas" data-url="/teams/los-chankas/"></option>
+<option value="MLS All-Stars" data-url="/teams/mls-all-stars/"></option>
+<option value="Manchester United" data-url="/teams/manchester-united/"></option>
+<option value="Marquense" data-url="/teams/marquense/"></option>
+<option value="Middlesbrough" data-url="/teams/middlesbrough/"></option>
+<option value="Mineros de Zacatecas" data-url="/teams/mineros-de-zacatecas/"></option>
+<option value="Minnesota United FC" data-url="/teams/minnesota-united-fc/"></option>
+<option value="Monterrey" data-url="/teams/monterrey/"></option>
+<option value="Montevideo City Torque" data-url="/teams/montevideo-city-torque/"></option>
+<option value="Monza" data-url="/teams/monza/"></option>
+<option value="Municipal" data-url="/teams/municipal/"></option>
+<option value="Nashville SC" data-url="/teams/nashville-sc/"></option>
+<option value="Necaxa" data-url="/teams/necaxa/"></option>
+<option value="New England Revolution" data-url="/teams/new-england-revolution/"></option>
+<option value="New Mexico United" data-url="/teams/new-mexico-united/"></option>
+<option value="New York City FC" data-url="/teams/new-york-city-fc/"></option>
+<option value="North Carolina Courage" data-url="/teams/north-carolina-courage/"></option>
+<option value="Odense Boldklub" data-url="/teams/odense-boldklub/"></option>
+<option value="Orlando City SC" data-url="/teams/orlando-city-sc/"></option>
+<option value="Orlando Pride" data-url="/teams/orlando-pride/"></option>
+<option value="PSV Eindhoven" data-url="/teams/psv-eindhoven/"></option>
+<option value="Pachuca" data-url="/teams/pachuca/"></option>
+<option value="Philadelphia Union" data-url="/teams/philadelphia-union/"></option>
+<option value="Platense" data-url="/teams/platense/"></option>
+<option value="Port Vale" data-url="/teams/port-vale/"></option>
+<option value="Portland Thorns FC" data-url="/teams/portland-thorns-fc/"></option>
+<option value="Portland Timbers" data-url="/teams/portland-timbers/"></option>
+<option value="Puebla" data-url="/teams/puebla/"></option>
+<option value="Pumas UNAM" data-url="/teams/pumas-unam/"></option>
+<option value="Pérez Zeledón" data-url="/teams/perez-zeledon/"></option>
+<option value="Querétaro" data-url="/teams/queretaro/"></option>
+<option value="Racing Club" data-url="/teams/racing-club/"></option>
+<option value="Racing Louisville FC" data-url="/teams/racing-louisville-fc/"></option>
+<option value="Real Salt Lake" data-url="/teams/real-salt-lake/"></option>
+<option value="Red Bull New York" data-url="/teams/red-bull-new-york/"></option>
+<option value="Rochdale" data-url="/teams/rochdale/"></option>
+<option value="Rosenborg" data-url="/teams/rosenborg/"></option>
+<option value="Rubio Ñú" data-url="/teams/rubio-nu/"></option>
+<option value="SV Wehen Wiesbaden" data-url="/teams/sv-wehen-wiesbaden/"></option>
+<option value="San Diego FC" data-url="/teams/san-diego-fc/"></option>
+<option value="San Diego Wave FC" data-url="/teams/san-diego-wave-fc/"></option>
+<option value="San Jose Earthquakes" data-url="/teams/san-jose-earthquakes/"></option>
+<option value="Santos" data-url="/teams/santos/"></option>
+<option value="Saprissa" data-url="/teams/saprissa/"></option>
+<option value="Seattle Reign FC" data-url="/teams/seattle-reign-fc/"></option>
+<option value="Seattle Sounders FC" data-url="/teams/seattle-sounders-fc/"></option>
+<option value="Singapore" data-url="/teams/singapore/"></option>
+<option value="Sporting Kansas City" data-url="/teams/sporting-kansas-city/"></option>
+<option value="Sportivo Trinidense" data-url="/teams/sportivo-trinidense/"></option>
+<option value="St. Louis CITY SC" data-url="/teams/st-louis-city-sc/"></option>
+<option value="Standard Liege" data-url="/teams/standard-liege/"></option>
+<option value="Stevenage" data-url="/teams/stevenage/"></option>
+<option value="Sunderland" data-url="/teams/sunderland/"></option>
+<option value="Tepatitlán FC" data-url="/teams/tepatitlan-fc/"></option>
+<option value="Tigres UANL" data-url="/teams/tigres-uanl/"></option>
+<option value="Tijuana" data-url="/teams/tijuana/"></option>
+<option value="Timor-Leste" data-url="/teams/timor-leste/"></option>
+<option value="Toluca" data-url="/teams/toluca/"></option>
+<option value="Toronto FC" data-url="/teams/toronto-fc/"></option>
+<option value="Tranmere Rovers" data-url="/teams/tranmere-rovers/"></option>
+<option value="Universitario" data-url="/teams/universitario/"></option>
+<option value="Unión (Santa Fe)" data-url="/teams/union-santa-fe/"></option>
+<option value="Utah Royals" data-url="/teams/utah-royals/"></option>
+<option value="Vancouver Whitecaps" data-url="/teams/vancouver-whitecaps/"></option>
+<option value="Viborg FF" data-url="/teams/viborg-ff/"></option>
+<option value="Vietnam" data-url="/teams/vietnam/"></option>
+<option value="Villarreal" data-url="/teams/villarreal/"></option>
+<option value="Västerås SK" data-url="/teams/vasteras-sk/"></option>
+<option value="Vélez Sarsfield" data-url="/teams/velez-sarsfield/"></option>
+<option value="Walsall" data-url="/teams/walsall/"></option>
+<option value="Washington Spirit" data-url="/teams/washington-spirit/"></option>
+<option value="Wolverhampton Wanderers" data-url="/teams/wolverhampton-wanderers/"></option>
+<option value="Wrexham" data-url="/teams/wrexham/"></option>
+<option value="Wycombe Wanderers" data-url="/teams/wycombe-wanderers/"></option>
+<option value="York City" data-url="/teams/york-city/"></option>
+<option value="Örgryte IS" data-url="/teams/orgryte-is/"></option>
+
+                </datalist>
+
+                <a href="/" class="btn btn-sm btn-outline-light px-3 fw-bold" style="font-size: 0.75rem;">Full Slate</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <div class="text-center mb-3">
+            <h1 class="fw-bold h3">Singapore Weather</h1>
+            <p class="text-muted small m-0">League: ASEAN Champ, Group A | Stadium Pitch Analytics</p>
+        </div>
+
+        
+        
+        <div class="row w-100 m-0 p-0 justify-content-center">
+
+    <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401854540">
+        <div class="card game-card shadow-sm border-danger border-3 bg-weather-storm">
+            <!-- COMPACT RIBBON VIEW -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-start mb-2">
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
+                </div>
+                
+                <div class="d-flex align-items-center justify-content-between gap-2">
+                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/countries/500/sin.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Singapore</span>
+                        </div>
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/countries/500/cam.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Cambodia</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
+                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
+                            🌧️84% 🌡️77°<br>💨1mph 💧99%
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">ASEAN Champ, Group A</span>
+                    </div>
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
+                </div>
+                
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Venue Unlisted</span>
+                    </div>
+                    
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/countries/500/sin.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/singapore/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Singapore</a>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <a href="/teams/cambodia/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Cambodia</a>
+                            <img src="https://a.espncdn.com/i/teamlogos/countries/500/cam.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">77°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 99%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">84%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">11AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">84%</div>
+                    <div class="hour-temp">84°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">12PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">75%</div>
+                    <div class="hour-temp">82°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">1PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">67%</div>
+                    <div class="hour-temp">80°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">2PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">60%</div>
+                    <div class="hour-temp">80°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">3PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">57%</div>
+                    <div class="hour-temp">79°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=13.0&lon=105.0&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Venue Unlisted')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+
+    <!-- LIVE RADAR MODAL -->
+    <div class="modal fade" id="radarModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content shadow">
+                <div class="modal-header bg-dark text-white border-0 py-2">
+                    <h5 class="modal-title fw-bold" style="font-size: 1rem;" id="radarModalTitle">Live Weather Radar</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0 bg-light" style="height: 60vh;">
+                    <iframe id="radarFrame" src="" class="w-100 h-100 border-0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showRadar(url, venueName) {
+            document.getElementById('radarModalTitle').innerText = 'Radar: ' + venueName;
+            document.getElementById('radarFrame').src = url;
+            new bootstrap.Modal(document.getElementById('radarModal')).show();
+        }
+
+        function toggleSingleCard(element) {
+            const card = element.closest('.game-card');
+            const ribbon = card.querySelector('.ribbon-view');
+            const full = card.querySelector('.full-card-view');
+            if (ribbon.style.display === 'none') {
+                ribbon.style.display = 'block';
+                full.style.display = 'none';
+            } else {
+                ribbon.style.display = 'none';
+                full.style.display = 'block';
+            }
+        }
+
+        function toggleAllCards() {
+            const ribbons = document.querySelectorAll('.ribbon-view');
+            const fulls = document.querySelectorAll('.full-card-view');
+            const btn = document.getElementById('expand-toggle-btn');
+            if (!ribbons.length) return;
+            
+            const isCurrentlyCompact = Array.from(ribbons).some(r => r.style.display !== 'none');
+            
+            ribbons.forEach(r => r.style.display = isCurrentlyCompact ? 'none' : 'block');
+            fulls.forEach(f => f.style.display = isCurrentlyCompact ? 'block' : 'none');
+            
+            if (btn) {
+                btn.innerHTML = isCurrentlyCompact ? '▲ Collapse All Cards' : '▼ Expand All Cards';
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
