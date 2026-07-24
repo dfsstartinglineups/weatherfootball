@@ -80,7 +80,7 @@ def get_effective_matchday_date():
     return effective_time
 
 # ==========================================
-# STADIUM DATABASE & GEOCODING (OPEN-METEO)
+# DATABASE LOADERS
 # ==========================================
 def load_stadiums_db():
     if os.path.exists(STADIUMS_FILE):
@@ -95,6 +95,22 @@ def save_stadiums_db(stadiums_db):
     content = json.dumps(stadiums_db, indent=4, sort_keys=True)
     write_if_changed(STADIUMS_FILE, content)
 
+def load_master_registry():
+    if os.path.exists(MASTER_REGISTRY_FILE):
+        try:
+            with open(MASTER_REGISTRY_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"⚠️ Error loading {MASTER_REGISTRY_FILE}: {e}")
+    return {"leagues": {}, "teams": {}}
+
+def save_master_registry(registry):
+    content = json.dumps(registry, indent=4, sort_keys=True)
+    write_if_changed(MASTER_REGISTRY_FILE, content)
+
+# ==========================================
+# STADIUM GEOCODING (OPEN-METEO)
+# ==========================================
 def geocode_query_open_meteo(query_text):
     """Hits Open-Meteo's fast geocoding API."""
     if not query_text or not query_text.strip():
@@ -118,40 +134,34 @@ def geocode_venue_multi_stage(venue_name, city, country, home_team):
     1. Stadium Name + Clean City
     2. Stadium Name Alone
     3. Clean City + Country Fallback
-    4. Home Team Name Fallback (For USL / ASEAN / Central America matches with omitted venue data)
+    4. Home Team Name Fallback
     5. Country Fallback (Capital/Centroid)
     """
     clean_city = city.split(',')[0].strip() if city else ""
 
     if venue_name and venue_name not in ["Unknown Stadium", "Venue Unlisted"] and clean_city:
         lat, lon = geocode_query_open_meteo(f"{venue_name} {clean_city}")
-        if lat != 0.0 and lon != 0.0:
-            return lat, lon
+        if lat != 0.0 and lon != 0.0: return lat, lon
 
     if venue_name and venue_name not in ["Unknown Stadium", "Venue Unlisted"]:
         lat, lon = geocode_query_open_meteo(venue_name)
-        if lat != 0.0 and lon != 0.0:
-            return lat, lon
+        if lat != 0.0 and lon != 0.0: return lat, lon
 
     if clean_city:
         loc_q = f"{clean_city}, {country}".strip(", ") if country else clean_city
         lat, lon = geocode_query_open_meteo(loc_q)
-        if lat != 0.0 and lon != 0.0:
-            return lat, lon
+        if lat != 0.0 and lon != 0.0: return lat, lon
 
     if home_team and home_team != "TBD":
         lat, lon = geocode_query_open_meteo(f"{home_team} stadium")
-        if lat != 0.0 and lon != 0.0:
-            return lat, lon
+        if lat != 0.0 and lon != 0.0: return lat, lon
 
         lat, lon = geocode_query_open_meteo(home_team)
-        if lat != 0.0 and lon != 0.0:
-            return lat, lon
+        if lat != 0.0 and lon != 0.0: return lat, lon
 
     if country:
         lat, lon = geocode_query_open_meteo(country)
-        if lat != 0.0 and lon != 0.0:
-            return lat, lon
+        if lat != 0.0 and lon != 0.0: return lat, lon
 
     return 0.0, 0.0
 
@@ -189,7 +199,7 @@ def get_or_update_stadium(stadiums_db, venue_id, venue_info, home_team=""):
     return stadium_entry
 
 # ==========================================
-# WEATHER PIPELINE (WITH RELATIVE HUMIDITY)
+# WEATHER PIPELINE
 # ==========================================
 def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
     if lat == 0.0 or lon == 0.0:
@@ -265,9 +275,10 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
     return None
 
 # ==========================================
-# CARD HTML GENERATORS
+# HTML GENERATORS
 # ==========================================
 def render_game_card_html(game, is_compact_default=True):
+    """Generates the full weather card HTML for a game happening today."""
     w = game['weather']
     is_dome = game['stadium']['roof'] in ["Dome", "Retractable"]
     is_no_coords = w.get('status') == "no_coords"
@@ -463,12 +474,12 @@ def render_future_card_html(game):
             
             <div class="d-flex justify-content-center align-items-center mb-3 gap-2">
                 <div class="text-end" style="flex:1;">
-                    <img src="{game['away_logo']}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                    <img src="{game.get('away_logo', '')}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
                     <div class="fw-bold text-dark mt-1" style="font-size: 0.85rem;">{game['away_team']}</div>
                 </div>
                 <div class="text-muted fw-bold" style="font-size: 0.8rem;">@</div>
                 <div class="text-start" style="flex:1;">
-                    <img src="{game['home_logo']}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                    <img src="{game.get('home_logo', '')}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
                     <div class="fw-bold text-dark mt-1" style="font-size: 0.85rem;">{game['home_team']}</div>
                 </div>
             </div>
@@ -522,10 +533,6 @@ MASTER_HTML_TEMPLATE = """<!DOCTYPE html>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="__OG_TITLE__">
     <meta name="twitter:description" content="__OG_DESC__">
-    
-    <script type="application/ld+json">
-__SCHEMA_JSON__
-    </script>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -675,7 +682,7 @@ __MATCH_CARDS_GRID__
 def main():
     print(f"🚀 Running WeatherFootball Static Site Builder from root: {os.getcwd()}")
 
-    # 1. Effective Date Calculation (3:00 AM EST Rollover)
+    # 1. Effective Date Calculation
     effective_dt = get_effective_matchday_date()
     date_str_today = effective_dt.strftime("%Y%m%d")
     date_str_display = effective_dt.strftime("%A, %B %d, %Y")
@@ -687,17 +694,7 @@ def main():
 
     # 2. Load Databases
     stadiums_db = load_stadiums_db()
-    
-    master_registry = {"leagues": {}, "teams": {}}
-    if os.path.exists(MASTER_REGISTRY_FILE):
-        try:
-            with open(MASTER_REGISTRY_FILE, 'r', encoding='utf-8') as f:
-                master_registry = json.load(f)
-        except Exception as e:
-            print(f"⚠️ Error loading Master Registry: {e}")
-            
-    if "leagues" not in master_registry: master_registry["leagues"] = {}
-    if "teams" not in master_registry: master_registry["teams"] = {}
+    master_registry = load_master_registry()
 
     # 3. Fetch Master ESPN Scoreboards (Today + Future)
     print(f"📡 Fetching Today's Slate ({date_str_today})...")
@@ -740,13 +737,14 @@ def main():
 
         home_team = home_comp['team']['displayName']
         away_team = away_comp['team']['displayName']
-        
-        home_logo = home_comp['team'].get('logo', '') or (home_comp['team'].get('logos', [{}])[0].get('href', ''))
-        away_logo = away_comp['team'].get('logo', '') or (away_comp['team'].get('logos', [{}])[0].get('href', ''))
-
         home_slug = slugify(home_team)
         away_slug = slugify(away_team)
         
+        home_logos = home_comp['team'].get('logos', [])
+        home_logo = home_comp['team'].get('logo', '') or (home_logos[0].get('href', '') if home_logos else '')
+        away_logos = away_comp['team'].get('logos', [])
+        away_logo = away_comp['team'].get('logo', '') or (away_logos[0].get('href', '') if away_logos else '')
+
         # Update Master Registry
         master_registry["leagues"][league_slug] = {"name": league_name, "slug": league_slug}
         master_registry["teams"][home_slug] = {"name": home_team, "slug": home_slug, "league": league_name}
@@ -794,12 +792,13 @@ def main():
         
         home_team = home_comp['team']['displayName']
         away_team = away_comp['team']['displayName']
-        
-        home_logo = home_comp['team'].get('logo', '') or (home_comp['team'].get('logos', [{}])[0].get('href', ''))
-        away_logo = away_comp['team'].get('logo', '') or (away_comp['team'].get('logos', [{}])[0].get('href', ''))
-
         home_slug = slugify(home_team)
         away_slug = slugify(away_team)
+        
+        home_logos = home_comp['team'].get('logos', [])
+        home_logo = home_comp['team'].get('logo', '') or (home_logos[0].get('href', '') if home_logos else '')
+        away_logos = away_comp['team'].get('logos', [])
+        away_logo = away_comp['team'].get('logo', '') or (away_logos[0].get('href', '') if away_logos else '')
         
         # Update Master Registry
         master_registry["leagues"][league_slug] = {"name": league_name, "slug": league_slug}
@@ -820,8 +819,9 @@ def main():
             "stadium_name": espn_venue.get('fullName') or espn_venue.get('displayName') or 'TBD Stadium'
         })
 
+    # Save cleanly using existing helper function implementations
     save_stadiums_db(stadiums_db)
-    save_json(MASTER_REGISTRY_FILE, master_registry)
+    save_master_registry(master_registry)
 
     today_games.sort(key=lambda x: x['game_time'])
 
@@ -871,7 +871,8 @@ def main():
             </div>
         </div>"""
 
-    schema_json = json.dumps({"@context": "https://schema.org", "@type": "WebSite", "name": "Weather Football", "url": SITE_DOMAIN}, indent=2)
+    # Schema output
+    schema_json = "" 
 
     home_content = MASTER_HTML_TEMPLATE
     home_content = home_content.replace("__PAGE_TITLE__", f"Today's Football Game Weather Forecasts & Stadium Pitch Conditions ({date_str_seo})")
@@ -909,7 +910,6 @@ def main():
             else:
                 cards_html = render_dormant_banner()
 
-        schema_json = json.dumps({"@context": "https://schema.org", "@type": "SportsEvent", "name": f"{l_data['name']} Matches"}, indent=2)
         content = MASTER_HTML_TEMPLATE
         content = content.replace("__PAGE_TITLE__", f"{l_data['name']} Match Weather Forecasts & Stadium Pitch Wind")
         content = content.replace("__META_DESC__", f"Live game weather today for {l_data['name']} matches. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts.")
@@ -923,7 +923,7 @@ def main():
         content = content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
         content = content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
         content = content.replace("__MATCH_CARDS_GRID__", cards_html)
-        content = content.replace("__SCHEMA_JSON__", schema_json)
+        content = content.replace("__SCHEMA_JSON__", "")
 
         write_if_changed(os.path.join("leagues", l_slug, "index.html"), content)
 
@@ -951,8 +951,6 @@ def main():
                 page_title = f"{t_data['name']} Game Weather Forecast | Stadium Wind & Rain"
                 meta_desc = f"Game weather analytics, stadium wind speed, and rain delay risks for {t_data['name']}."
 
-        schema_json = json.dumps({"@context": "https://schema.org", "@type": "SportsTeam", "name": t_data['name']}, indent=2)
-
         content = MASTER_HTML_TEMPLATE
         content = content.replace("__PAGE_TITLE__", page_title)
         content = content.replace("__META_DESC__", meta_desc)
@@ -966,7 +964,7 @@ def main():
         content = content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
         content = content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
         content = content.replace("__MATCH_CARDS_GRID__", cards_html)
-        content = content.replace("__SCHEMA_JSON__", schema_json)
+        content = content.replace("__SCHEMA_JSON__", "")
 
         write_if_changed(os.path.join("teams", t_slug, "index.html"), content)
 
