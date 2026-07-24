@@ -72,9 +72,7 @@ def get_effective_matchday_date():
     else:
         utc_now = datetime.datetime.now(timezone.utc)
         now_est = utc_now - timedelta(hours=5)
-
-    effective_time = now_est - timedelta(hours=3)
-    return effective_time
+    return now_est - timedelta(hours=3)
 
 def load_json(filepath, default_val):
     """Safely loads JSON from a file, returning default_val if it fails."""
@@ -564,7 +562,7 @@ __MATCH_CARDS_GRID__
             document.querySelectorAll('.local-time-badge').forEach(el => {
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
-                    el.textContent = dt.toLocaleString(undefined, {weekday: 'short', hour: 'numeric', minute: '2-digit'});
+                    el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                 }
             });
             // Localize future banner times
