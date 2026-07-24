@@ -682,29 +682,30 @@ __MATCH_CARDS_GRID__
 def main():
     print(f"🚀 Running WeatherFootball Static Site Builder from root: {os.getcwd()}")
 
-    # 1. Effective Date Calculation
+    # 1. Effective Date Calculation (3:00 AM EST Rollover)
     effective_dt = get_effective_matchday_date()
-    date_str_today = effective_dt.strftime("%Y%m%d")
+    date_str_espn = effective_dt.strftime("%Y%m%d")
     date_str_display = effective_dt.strftime("%A, %B %d, %Y")
     date_str_seo = effective_dt.strftime("%B %d, %Y")
-    
-    start_future_dt = effective_dt + timedelta(days=1)
-    end_future_dt = effective_dt + timedelta(days=14)
-    date_str_future = f"{start_future_dt.strftime('%Y%m%d')}-{end_future_dt.strftime('%Y%m%d')}"
+    print(f"📅 Target Matchday Date: {date_str_display} (ESPN param: {date_str_espn})")
 
-    # 2. Load Databases
+    # 2. Load Stadium Database
     stadiums_db = load_stadiums_db()
     master_registry = load_master_registry()
 
     # 3. Fetch Master ESPN Scoreboards (Today + Future)
-    print(f"📡 Fetching Today's Slate ({date_str_today})...")
-    espn_url_today = f"https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard?dates={date_str_today}"
+    print(f"📡 Fetching Today's Slate ({date_str_espn})...")
+    espn_url_today = f"https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard?dates={date_str_espn}"
     try:
         res_today = HTTP.get(espn_url_today, timeout=15)
         events_today = res_today.json().get('events', []) if res_today.status_code == 200 else []
     except Exception as e:
         print(f"❌ Error fetching Today: {e}")
         events_today = []
+
+    start_future_dt = effective_dt + timedelta(days=1)
+    end_future_dt = effective_dt + timedelta(days=14)
+    date_str_future = f"{start_future_dt.strftime('%Y%m%d')}-{end_future_dt.strftime('%Y%m%d')}"
 
     print(f"🔭 Fetching 14-Day Look-Ahead ({date_str_future})...")
     espn_url_future = f"https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard?dates={date_str_future}"
@@ -840,7 +841,9 @@ def main():
             </button>
         </div>"""
 
-    sitemap_urls = [f"{SITE_DOMAIN}/"]
+    # URLs for the Sitemaps
+    league_urls = [f"{SITE_DOMAIN}/"]
+    team_urls = []
 
     # 7. Generate Homepage
     print("\n🌐 Generating Homepage (/index.html)...")
@@ -871,8 +874,7 @@ def main():
             </div>
         </div>"""
 
-    # Schema output
-    schema_json = "" 
+    schema_json = json.dumps({"@context": "https://schema.org", "@type": "WebSite", "name": "Weather Football", "url": SITE_DOMAIN}, indent=2)
 
     home_content = MASTER_HTML_TEMPLATE
     home_content = home_content.replace("__PAGE_TITLE__", f"Today's Football Game Weather Forecasts & Stadium Pitch Conditions ({date_str_seo})")
@@ -896,13 +898,12 @@ def main():
     for l_slug, l_data in master_registry['leagues'].items():
         if l_slug == "global-football": continue
         
-        sitemap_urls.append(f"{SITE_DOMAIN}/leagues/{l_slug}/")
+        league_urls.append(f"{SITE_DOMAIN}/leagues/{l_slug}/")
         l_today = [g for g in today_games if g['league_slug'] == l_slug]
         
         if l_today:
             cards_html = "".join([render_game_card_html(g, is_compact_default=True) for g in l_today])
         else:
-            # Show future matches or dormant banner for league
             l_future = [g for g in future_games if g['league_slug'] == l_slug]
             if l_future:
                 l_future.sort(key=lambda x: x['game_time'])
@@ -930,7 +931,7 @@ def main():
     # 9. Generate Team Pages (From Master Registry)
     print(f"\n🛡️ Generating {len(master_registry['teams'])} Team Pages (/teams/)...")
     for t_slug, t_data in master_registry['teams'].items():
-        sitemap_urls.append(f"{SITE_DOMAIN}/teams/{t_slug}/")
+        team_urls.append(f"{SITE_DOMAIN}/teams/{t_slug}/")
         t_today = [g for g in today_games if g['home_slug'] == t_slug or g['away_slug'] == t_slug]
         
         if t_today:
@@ -968,16 +969,32 @@ def main():
 
         write_if_changed(os.path.join("teams", t_slug, "index.html"), content)
 
-    # 10. Generate sitemap.xml
-    print("\n🗺️ Generating sitemap.xml...")
-    sitemap_content = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for url in sitemap_urls:
-        sitemap_content += f"  <url>\n    <loc>{url}</loc>\n    <changefreq>daily</changefreq>\n  </url>\n"
-    sitemap_content += "</urlset>"
-    
-    write_if_changed("sitemap.xml", sitemap_content)
+    # 10. Generate Sitemaps (Leagues, Teams, and Master Index)
+    print("\n🗺️ Generating Sitemaps...")
+    lastmod_date = datetime.datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    print("✅ Build complete! Master registry updated, all static pages generated, sitemap created.")
+    # Leagues Sitemap (Includes Homepage)
+    sitemap_leagues_content = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    for url in league_urls:
+        sitemap_leagues_content += f"  <url>\n    <loc>{url}</loc>\n    <lastmod>{lastmod_date}</lastmod>\n    <changefreq>daily</changefreq>\n  </url>\n"
+    sitemap_leagues_content += "</urlset>"
+    write_if_changed("sitemap-leagues.xml", sitemap_leagues_content)
+
+    # Teams Sitemap
+    sitemap_teams_content = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    for url in team_urls:
+        sitemap_teams_content += f"  <url>\n    <loc>{url}</loc>\n    <lastmod>{lastmod_date}</lastmod>\n    <changefreq>daily</changefreq>\n  </url>\n"
+    sitemap_teams_content += "</urlset>"
+    write_if_changed("sitemap-teams.xml", sitemap_teams_content)
+
+    # Master Sitemap Index
+    sitemap_index_content = '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    sitemap_index_content += f"  <sitemap>\n    <loc>{SITE_DOMAIN}/sitemap-leagues.xml</loc>\n    <lastmod>{lastmod_date}</lastmod>\n  </sitemap>\n"
+    sitemap_index_content += f"  <sitemap>\n    <loc>{SITE_DOMAIN}/sitemap-teams.xml</loc>\n    <lastmod>{lastmod_date}</lastmod>\n  </sitemap>\n"
+    sitemap_index_content += "</sitemapindex>"
+    write_if_changed("sitemap.xml", sitemap_index_content)
+
+    print("✅ Build complete! Master registry updated, all static pages generated, and sitemaps created.")
 
 if __name__ == "__main__":
     main()
