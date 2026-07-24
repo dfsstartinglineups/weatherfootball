@@ -93,7 +93,7 @@ def save_json(filepath, data):
 # STADIUM GEOCODING & CACHE SANITIZATION
 # ==========================================
 def validate_and_clean_stadiums_db(stadiums_db):
-    """Purges stadium cache entries that have blatantly impossible coordinates (e.g. US stadium in Europe/Greece)."""
+    """Purges stadium cache entries that have blatantly impossible coordinates."""
     purged_count = 0
     for v_id, s in list(stadiums_db.items()):
         country = str(s.get("country", "")).upper()
@@ -398,7 +398,7 @@ def render_game_card_html(game, is_compact_default=True):
     return f"""
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-{game['id']}">
         <div class="card game-card shadow-sm {border_class} {bg_class}">
-            <!-- COMPACT RIBBON VIEW -->
+            <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_ribbon};">
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     {badge_html}
@@ -406,12 +406,12 @@ def render_game_card_html(game, is_compact_default=True):
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="{game['away_logo']}" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">{game['away_team']}</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
                             <img src="{game['home_logo']}" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
                             <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">{game['home_team']}</span>
+                        </div>
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="{game['away_logo']}" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">{game['away_team']}</span>
                         </div>
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
@@ -422,7 +422,7 @@ def render_game_card_html(game, is_compact_default=True):
                 </div>
             </div>
 
-            <!-- EXPANDED FULL CARD VIEW -->
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
             <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_full};">
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
@@ -436,13 +436,13 @@ def render_game_card_html(game, is_compact_default=True):
                     </div>
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
-                            <img src="{game['away_logo']}" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                            <a href="/teams/{game['away_slug']}/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">{game['away_team']}</a>
+                            <img src="{game['home_logo']}" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/{game['home_slug']}/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">{game['home_team']}</a>
                         </div>
                         <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
                         <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
-                            <a href="/teams/{game['home_slug']}/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">{game['home_team']}</a>
-                            <img src="{game['home_logo']}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/{game['away_slug']}/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">{game['away_team']}</a>
+                            <img src="{game['away_logo']}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
                         </div>
                     </div>
                     {weather_section}
@@ -450,6 +450,41 @@ def render_game_card_html(game, is_compact_default=True):
             </div>
         </div>
     </div>"""
+
+def render_future_card_html(game):
+    """Generates the static banner for the 14-day look-ahead."""
+    try:
+        dt = datetime.datetime.fromisoformat(game['game_time'].replace('Z', '+00:00'))
+        formatted_date = dt.strftime('%a, %b %d at %I:%M %p UTC')
+    except Exception:
+        formatted_date = "Date TBD"
+
+    return f"""
+    <div class="col-12 mb-3 px-2">
+        <div class="card p-4 text-center border shadow-sm bg-light h-100" style="border-radius: 12px;">
+            <div class="mb-2">
+                <span class="badge bg-secondary px-3 py-1">NO MATCH TODAY</span>
+            </div>
+            <h6 class="fw-bold text-muted mb-3 text-uppercase" style="font-size: 0.75rem; letter-spacing: 1px;">Next Scheduled Match</h6>
+            
+            <div class="d-flex justify-content-center align-items-center mb-3 gap-2">
+                <div class="text-end" style="flex:1;">
+                    <img src="{game.get('home_logo', '')}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                    <div class="fw-bold text-dark mt-1" style="font-size: 0.85rem;">{game['home_team']}</div>
+                </div>
+                <div class="text-muted fw-bold" style="font-size: 0.8rem;">vs</div>
+                <div class="text-start" style="flex:1;">
+                    <img src="{game.get('away_logo', '')}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                    <div class="fw-bold text-dark mt-1" style="font-size: 0.85rem;">{game['away_team']}</div>
+                </div>
+            </div>
+
+            <div class="text-primary fw-bold" style="font-size: 0.85rem;">📅 <span class="local-future-badge" data-futuretime="{game['game_time']}">{formatted_date}</span></div>
+            <div class="small text-muted mt-1">📍 {game.get('stadium_name', 'TBD Stadium')}</div>
+            <div class="small text-muted mt-3 pt-3 border-top" style="font-size: 0.7rem;">Weather forecast will be available roughly 14 days before kickoff.</div>
+        </div>
+    </div>
+    """
 
 def render_dormant_banner():
     return """
