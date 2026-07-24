@@ -258,7 +258,7 @@
 
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-762421">
         <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
-            <!-- COMPACT RIBBON VIEW -->
+            <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-24T21:30Z" style="font-size: 0.65rem;">Jul 24, 09:30 PM UTC</span>
@@ -266,12 +266,12 @@
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7466.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Sportivo Trinidense</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2671.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
                             <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Cerro Porteño</span>
+                        </div>
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7466.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Sportivo Trinidense</span>
                         </div>
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
@@ -282,7 +282,7 @@
                 </div>
             </div>
 
-            <!-- EXPANDED FULL CARD VIEW -->
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
             <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
@@ -296,13 +296,13 @@
                     </div>
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7466.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                            <a href="/teams/sportivo-trinidense/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Sportivo Trinidense</a>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2671.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/cerro-porteno/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Cerro Porteño</a>
                         </div>
                         <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
                         <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
-                            <a href="/teams/cerro-porteno/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Cerro Porteño</a>
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2671.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/sportivo-trinidense/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Sportivo Trinidense</a>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7466.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
                         </div>
                     </div>
                     

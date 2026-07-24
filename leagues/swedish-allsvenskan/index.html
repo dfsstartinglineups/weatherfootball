@@ -263,7 +263,7 @@
 
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401842769">
         <div class="card game-card shadow-sm  bg-weather-sunny">
-            <!-- COMPACT RIBBON VIEW -->
+            <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
@@ -271,12 +271,12 @@
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131552.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Örgryte IS</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/22163.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
                             <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Västerås SK</span>
+                        </div>
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131552.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Örgryte IS</span>
                         </div>
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
@@ -287,7 +287,7 @@
                 </div>
             </div>
 
-            <!-- EXPANDED FULL CARD VIEW -->
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
             <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
@@ -301,13 +301,13 @@
                     </div>
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131552.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                            <a href="/teams/orgryte-is/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Örgryte IS</a>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/22163.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/vasteras-sk/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Västerås SK</a>
                         </div>
                         <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
                         <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
-                            <a href="/teams/vasteras-sk/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Västerås SK</a>
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/22163.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/orgryte-is/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Örgryte IS</a>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131552.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
                         </div>
                     </div>
                     
