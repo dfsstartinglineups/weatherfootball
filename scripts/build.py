@@ -4,6 +4,7 @@ import re
 import time
 import requests
 import datetime
+import unicodedata
 from datetime import timedelta, timezone
 
 # Optional zoneinfo import for Python 3.9+
@@ -33,13 +34,18 @@ HTTP = requests.Session()
 # HELPER FUNCTIONS
 # ==========================================
 def slugify(text):
-    """Convert text into clean, SEO-friendly URL slug."""
+    """
+    Convert text into clean, ASCII-only, SEO-friendly URL slug.
+    Strips accents/diacritics (e.g. 'América' -> 'america', 'Rubio Ñú' -> 'rubio-nu')
+    """
     if not text:
         return "unknown"
+    # Normalize unicode to separate characters from diacritical marks, then encode to ASCII
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
     text = text.lower().strip()
     text = re.sub(r'[^\w\s-]', '', text)
     text = re.sub(r'[\s_-]+', '-', text)
-    return text
+    return text.strip('-')
 
 def write_if_changed(filepath, new_content):
     """Writes content ONLY if changed or missing to preserve Git history."""
@@ -608,9 +614,11 @@ def main():
 
     save_stadiums_db(stadiums_db)
 
-    # 5. Build Search Dropdown Options HTML
+    # 5. Build Search Dropdown Options HTML (Filtering out generic 'global-football')
     search_options_html = ""
     for l_slug, l_data in sorted(leagues_registry.items(), key=lambda x: x[1]['name']):
+        if l_slug == "global-football":
+            continue
         search_options_html += f'                    <option value="{l_data["name"]} (League)" data-url="/leagues/{l_slug}/"></option>\n'
     for t_slug, t_data in sorted(teams_registry.items(), key=lambda x: x[1]['name']):
         search_options_html += f'                    <option value="{t_data["name"]}" data-url="/teams/{t_slug}/"></option>\n'
@@ -641,11 +649,14 @@ def main():
 
     write_if_changed("index.html", home_content)
 
-    # PAGE GENERATOR 2: LEAGUE PAGES
-    print(f"\n🏆 Generating {len(leagues_registry)} League Pages (/leagues/)...")
+    # PAGE GENERATOR 2: LEAGUE PAGES (Skip generic 'global-football')
+    print(f"\n🏆 Generating League Pages (/leagues/)...")
     for l_slug, l_data in leagues_registry.items():
+        if l_slug == "global-football":
+            print(f"  ⏭️  Skipping generic league page generation for: {l_slug}")
+            continue
+
         cards_html = "".join([render_game_card_html(g) for g in l_data['games']])
-        
         schema_json = json.dumps({"@context": "https://schema.org", "@type": "SportsEvent", "name": f"{l_data['name']} Matches"}, indent=2)
 
         content = MASTER_HTML_TEMPLATE
@@ -666,7 +677,6 @@ def main():
     print(f"\n🛡️ Generating {len(teams_registry)} Team Pages (/teams/)...")
     for t_slug, t_data in teams_registry.items():
         cards_html = "".join([render_game_card_html(g) for g in t_data['games']])
-        
         schema_json = json.dumps({"@context": "https://schema.org", "@type": "SportsTeam", "name": t_data['name']}, indent=2)
 
         content = MASTER_HTML_TEMPLATE
