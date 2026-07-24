@@ -896,26 +896,43 @@ def main():
         team_urls.append(f"{SITE_DOMAIN}/teams/{t_slug}/")
         team_games = [g for g in all_games_processed if g['home_slug'] == t_slug or g['away_slug'] == t_slug]
         
+        today_games_for_team = [g for g in team_games if g['id'] in today_event_ids]
+        has_game_today = len(today_games_for_team) > 0
+        
         if team_games:
             cards_html = "".join([render_game_card_html(g, is_compact_default=False) for g in team_games])
-            matchup_str = f"{team_games[0]['home_team']} vs {team_games[0]['away_team']}"
-            venue_str = team_games[0]['stadium']['name']
-            page_title = f"Weather Forecast for {matchup_str} at {venue_str} | Pitch Wind & Rain"
-            meta_desc = f"Live weather forecast for the upcoming {matchup_str} match at {venue_str}. Track stadium wind speed, rain delay risks, and pitch conditions."
+            next_game = today_games_for_team[0] if has_game_today else team_games[0]
+            matchup_str = f"{next_game['home_team']} vs {next_game['away_team']}"
+            venue_str = next_game['stadium']['name']
         else:
             cards_html = render_dormant_banner()
-            page_title = f"{t_data['name']} Game Weather Forecast | Stadium Wind & Rain"
-            meta_desc = f"Game weather analytics, stadium wind speed, and rain delay risks for {t_data['name']}."
+            matchup_str = ""
+            venue_str = ""
+
+        if has_game_today:
+            page_title = f"Today's {matchup_str} Weather Forecast at {venue_str} ({date_str_seo})"
+            meta_desc = f"Today's {matchup_str} match weather forecast at {venue_str} for {date_str_seo}. Track stadium wind speed, rain delay risks, temperature, and live pitch conditions."
+            hero_heading = f"Today's {matchup_str} Weather at {venue_str} ({date_str_seo})"
+            hero_subheading = f"League: {t_data.get('league', 'Global Football')} | Stadium Pitch Analytics for {date_str_display}"
+        else:
+            if team_games:
+                page_title = f"Weather Forecast for {matchup_str} at {venue_str} | Pitch Wind & Rain"
+                meta_desc = f"Live weather forecast for the upcoming {matchup_str} match at {venue_str}. Track stadium wind speed, rain delay risks, and pitch conditions."
+            else:
+                page_title = f"{t_data['name']} Game Weather Forecast | Stadium Wind & Rain"
+                meta_desc = f"Game weather analytics, stadium wind speed, and rain delay risks for {t_data['name']}."
+            hero_heading = f"{t_data['name']} Weather"
+            hero_subheading = f"League: {t_data.get('league', 'Global Football')} | Stadium Pitch Analytics"
 
         content = MASTER_HTML_TEMPLATE
         content = content.replace("__PAGE_TITLE__", page_title)
         content = content.replace("__META_DESC__", meta_desc)
         content = content.replace("__SEO_KEYWORDS__", f"{t_data['name']} game weather, {t_data['name']} stadium wind, {t_data['name']} pitch forecast, {t_data['name']} rain delay risk")
         content = content.replace("__CANONICAL_URL__", f"{SITE_DOMAIN}/teams/{t_slug}/")
-        content = content.replace("__OG_TITLE__", f"{t_data['name']} Game Weather")
-        content = content.replace("__OG_DESC__", f"Matchday weather analytics and stadium wind forecasts for {t_data['name']}.")
-        content = content.replace("__HERO_HEADING__", f"{t_data['name']} Weather")
-        content = content.replace("__HERO_SUBHEADING__", f"League: {t_data.get('league', 'Global Football')} | Stadium Pitch Analytics")
+        content = content.replace("__OG_TITLE__", page_title)
+        content = content.replace("__OG_DESC__", meta_desc)
+        content = content.replace("__HERO_HEADING__", hero_heading)
+        content = content.replace("__HERO_SUBHEADING__", hero_subheading)
         content = content.replace("__TOGGLE_CONTROLS_ROW__", "")
         content = content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
         content = content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
@@ -968,7 +985,7 @@ def main():
 </sitemapindex>'''
     write_if_changed("sitemap.xml", sitemap_index_content)
 
-    print("✅ Build complete! Title, H1, and description formatting updated for active league pages.")
+    print("✅ Build complete! Team pages now retain full matchup and venue data alongside 'Today's' and the date.")
 
 if __name__ == "__main__":
     main()
