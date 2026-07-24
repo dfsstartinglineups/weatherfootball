@@ -52,7 +52,10 @@ def write_if_changed(filepath, new_content):
         except Exception as e:
             print(f"  ⚠️ Error reading {filepath}: {e}")
 
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    dir_path = os.path.dirname(filepath)
+    if dir_path:
+        os.makedirs(dir_path, exist_ok=True)
+
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(new_content)
     print(f"  📝 Updated: {filepath}")
@@ -83,7 +86,6 @@ def load_stadiums_db():
     return {}
 
 def save_stadiums_db(stadiums_db):
-    os.makedirs("data", exist_ok=True)
     content = json.dumps(stadiums_db, indent=4, sort_keys=True)
     write_if_changed(STADIUMS_FILE, content)
 
@@ -109,21 +111,18 @@ def geocode_venue_cascading(venue_name, city, country):
     3-Stage Cascading Geocoder:
     1. Stadium Name + City
     2. Stadium Name Alone
-    3. City + Country Fallback (Guarantees coordinates for weather)
+    3. City + Country Fallback
     """
-    # Stage 1: Stadium Name + City
     if venue_name and city:
         lat, lon = geocode_query_open_meteo(f"{venue_name} {city}")
         if lat != 0.0 and lon != 0.0:
             return lat, lon
 
-    # Stage 2: Stadium Name alone
     if venue_name and venue_name != "Unknown Stadium":
         lat, lon = geocode_query_open_meteo(venue_name)
         if lat != 0.0 and lon != 0.0:
             return lat, lon
 
-    # Stage 3: City + Country Fallback
     location_str = f"{city}, {country}".strip(", ")
     if location_str:
         lat, lon = geocode_query_open_meteo(location_str)
@@ -197,7 +196,6 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
         "end_date": next_day_str
     }
 
-    # Fetch with up to 3 retries for resilience
     for attempt in range(3):
         try:
             res = HTTP.get(url, params=params, timeout=15)
