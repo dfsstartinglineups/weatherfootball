@@ -111,40 +111,62 @@ def geocode_query_open_meteo(query_text):
         print(f"   ⚠️ Geocode error for '{query_text}': {e}")
     return 0.0, 0.0
 
-def geocode_venue_cascading(venue_name, city, country):
+def geocode_venue_multi_stage(venue_name, city, country, home_team):
     """
-    3-Stage Cascading Geocoder with City Sanitization (e.g. "Houston, Texas" -> "Houston")
+    5-Stage Cascading Geocoder to guarantee coordinates:
     1. Stadium Name + Clean City
     2. Stadium Name Alone
-    3. Clean City Fallback
+    3. Clean City + Country Fallback
+    4. Home Team Name Fallback (For USL / ASEAN / Central America matches with omitted venue data)
+    5. Country Fallback (Capital/Centroid)
     """
     clean_city = city.split(',')[0].strip() if city else ""
 
-    if venue_name and clean_city:
+    # Stage 1: Venue + Clean City
+    if venue_name and venue_name != "Unknown Stadium" and clean_city:
         lat, lon = geocode_query_open_meteo(f"{venue_name} {clean_city}")
         if lat != 0.0 and lon != 0.0:
             return lat, lon
 
+    # Stage 2: Venue Name Alone
     if venue_name and venue_name != "Unknown Stadium":
         lat, lon = geocode_query_open_meteo(venue_name)
         if lat != 0.0 and lon != 0.0:
             return lat, lon
 
+    # Stage 3: City + Country
     if clean_city:
-        lat, lon = geocode_query_open_meteo(clean_city)
+        loc_q = f"{clean_city}, {country}".strip(", ") if country else clean_city
+        lat, lon = geocode_query_open_meteo(loc_q)
+        if lat != 0.0 and lon != 0.0:
+            return lat, lon
+
+    # Stage 4: Home Team Fallback
+    if home_team:
+        lat, lon = geocode_query_open_meteo(f"{home_team} stadium")
+        if lat != 0.0 and lon != 0.0:
+            return lat, lon
+
+        lat, lon = geocode_query_open_meteo(home_team)
+        if lat != 0.0 and lon != 0.0:
+            return lat, lon
+
+    # Stage 5: Country Fallback
+    if country:
+        lat, lon = geocode_query_open_meteo(country)
         if lat != 0.0 and lon != 0.0:
             return lat, lon
 
     return 0.0, 0.0
 
-def get_or_update_stadium(stadiums_db, venue_id, venue_info):
-    """Retrieves cached stadium data or geocodes with cascading fallback."""
+def get_or_update_stadium(stadiums_db, venue_id, venue_info, home_team=""):
+    """Retrieves cached stadium data or geocodes with multi-tier fallback."""
     if venue_id in stadiums_db:
         cached = stadiums_db[venue_id]
         if cached.get("lat") != 0.0 and cached.get("lon") != 0.0:
             return cached
 
-    name = venue_info.get("fullName", "Unknown Stadium")
+    name = venue_info.get("fullName") or venue_info.get("displayName") or "Unknown Stadium"
     city = venue_info.get("address", {}).get("city", "")
     country = venue_info.get("address", {}).get("country", "")
     is_indoor = venue_info.get("indoor", False)
@@ -153,8 +175,8 @@ def get_or_update_stadium(stadiums_db, venue_id, venue_info):
     lon = float(venue_info.get("geometry", {}).get("coordinates", [0, 0])[0]) if "geometry" in venue_info else 0.0
 
     if lat == 0.0 or lon == 0.0:
-        print(f"  🔍 Geocoding venue: {name} ({city}, {country})...")
-        lat, lon = geocode_venue_cascading(name, city, country)
+        print(f"  🔍 Geocoding venue: {name} ({city}, {country}) | Home: {home_team}...")
+        lat, lon = geocode_venue_multi_stage(name, city, country, home_team)
 
     stadium_entry = {
         "id": venue_id,
@@ -243,25 +265,39 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
     print(f"   ⚠️ Open-Meteo request failed after retries for ({lat}, {lon})")
     return None
 
-def generate_soccer_matchup_analysis(weather, is_dome):
+def generate_football_matchup_analysis(weather, is_dome):
     if is_dome:
         return "🏟️ <b>Indoor Environment:</b> Controlled stadium climate. Zero wind or rain impact on ball movement or pitch velocity."
 
-    notes = []
-    if weather['windSpeed'] >= 15 and weather['precip'] > 0:
-        notes.append("🌧️💨 <b>Heavy Weather Alert:</b> Rain wet pitch accelerates ball skidding while gusty winds severely affect long balls and goal kicks.")
-    elif weather['windSpeed'] >= 15:
-        notes.append("💨 <b>High Winds:</b> Wind speeds over 15 mph will cause trajectory drift on aerial crosses, long passes, and goal kicks.")
-    elif weather['precip'] > 0:
-        notes.append("🌧️ <b>Slippery Pitch:</b> Rain will speed up pitch play, leading to faster ball skidding and potential slipping risks.")
+    hourly = weather.get('hourly', [])
+    max_pop = max([h.get('precipChance', 0) for h in hourly], default=0) if hourly else 0
+    precip = weather.get('precip', 0.0)
+    wind = weather.get('windSpeed', 0)
+    temp = weather.get('temp', 72)
 
-    if weather['temp'] >= 85:
+    notes = []
+    has_heavy_rain = max_pop >= 60 or precip >= 0.2
+    has_rain = max_pop >= 20 or precip > 0.0
+    has_high_wind = wind >= 15
+
+    if has_heavy_rain and has_high_wind:
+        notes.append(f"🌧️💨 <b>Heavy Weather Warning ({max_pop}% Rain Chance):</b> Gusty winds and heavy rain will make high balls unpredictable and cause significant pitch skidding.")
+    elif has_heavy_rain:
+        notes.append(f"🌧️ <b>Wet Pitch Alert ({max_pop}% Rain Chance):</b> Sustained rainfall will make the pitch slick, accelerating ball speed and slipping hazards.")
+    elif has_rain and has_high_wind:
+        notes.append(f"🌧️💨 <b>Slick & Gusty Conditions ({max_pop}% Rain Chance):</b> Rain combined with wind gusts over 15 mph will affect crossing accuracy and turf traction.")
+    elif has_rain:
+        notes.append(f"🌧️ <b>Rain Risk ({max_pop}% Chance):</b> Expected rain during the match window will create slick pitch surface conditions.")
+    elif has_high_wind:
+        notes.append(f"💨 <b>High Winds ({wind} mph):</b> Wind speeds over 15 mph will cause trajectory drift on aerial crosses, long passes, and goal kicks.")
+
+    if temp >= 85:
         notes.append("🔥 <b>Heat Warning:</b> High temperatures may prompt official hydration breaks mid-half.")
-    elif weather['temp'] <= 32:
-        notes.append("❄️ <b>Freezing Turf:</b> Cold conditions cause a firm pitch and reduced ball bounce elasticity.")
+    elif temp <= 32:
+        notes.append("❄️ <b>Freezing Pitch:</b> Cold conditions cause firm turf density and altered ball bounce elasticity.")
 
     if not notes:
-        return "✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected."
+        return "✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected."
     return "<br>".join(notes)
 
 # ==========================================
@@ -367,8 +403,8 @@ def render_game_card_html(game, is_compact_default=True):
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            {generate_soccer_matchup_analysis(w, is_dome)}
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            {generate_football_matchup_analysis(w, is_dome)}
         </div>""" if not is_too_early else """
         <div class="text-center p-3 mt-2 border-top">
             <h6 class="text-muted mb-1">🔭 Early Forecast</h6>
@@ -666,9 +702,10 @@ def main():
         home_slug = slugify(home_team)
         away_slug = slugify(away_team)
 
-        espn_venue = comp.get('venue', {})
-        venue_id = str(espn_venue.get('id', slugify(espn_venue.get('fullName', 'default-stadium'))))
-        stadium_info = get_or_update_stadium(stadiums_db, venue_id, espn_venue)
+        # Inspect both comp['venue'] and event['venue'] for venue data
+        espn_venue = comp.get('venue') or event.get('venue') or {}
+        venue_id = str(espn_venue.get('id', slugify(espn_venue.get('fullName') or espn_venue.get('displayName') or home_team)))
+        stadium_info = get_or_update_stadium(stadiums_db, venue_id, espn_venue, home_team=home_team)
 
         if stadium_info['roof'] in ["Dome", "Retractable"]:
             weather = {"status": "ok", "temp": 70, "windSpeed": 0, "precip": 0.0, "hourly": []}
