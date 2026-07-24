@@ -117,7 +117,7 @@ def geocode_venue_multi_stage(venue_name, city, country, home_team):
     1. Stadium Name + Clean City
     2. Stadium Name Alone
     3. Clean City + Country Fallback
-    4. Home Team Name Fallback (For USL / ASEAN / Central America matches with omitted venue data)
+    4. Home Team Name Fallback (For matches with omitted venue data)
     5. Country Fallback (Capital/Centroid)
     """
     clean_city = city.split(',')[0].strip() if city else ""
@@ -791,9 +791,41 @@ def main():
             </button>
         </div>"""
 
-    # PAGE GENERATOR 1: MAIN HOMEPAGE (Compact Default = True)
+    # PAGE GENERATOR 1: MAIN HOMEPAGE (Grouped by League -> Sorted by Time)
     print("\n🌐 Generating Homepage (/index.html)...")
-    home_cards_html = "".join([render_game_card_html(g, is_compact_default=True) for g in today_games]) if today_games else """
+    
+    home_cards_html = ""
+    if today_games:
+        # Group by League Name
+        grouped_games = {}
+        for g in today_games:
+            lname = g['league_name']
+            if lname not in grouped_games:
+                grouped_games[lname] = {"slug": g['league_slug'], "logo": g['league_logo'], "games": []}
+            grouped_games[lname]["games"].append(g)
+
+        # Sort Leagues Alphabetically
+        for lname, ldata in sorted(grouped_games.items(), key=lambda x: x[0]):
+            # Sort games within league chronologically
+            ldata['games'].sort(key=lambda x: x['game_time'])
+            
+            logo_html = f'<img src="{ldata["logo"]}" style="width: 20px; height: 20px; object-fit: contain;" class="me-2">' if ldata["logo"] else ''
+            
+            # League Header Link
+            home_cards_html += f"""
+            <div class="col-12 mb-3 mt-4">
+                <a href="/leagues/{ldata['slug']}/" class="d-flex align-items-center bg-dark text-white py-2 px-3 rounded text-decoration-none shadow-sm" style="transition: opacity 0.2s;" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
+                    {logo_html}
+                    <h5 class="mb-0 fw-bold" style="font-size: 1.1rem; letter-spacing: 0.5px;">{lname}</h5>
+                    <span class="ms-auto" style="font-size: 0.9rem;">➔</span>
+                </a>
+            </div>
+            """
+            # Render Game Cards
+            for g in ldata['games']:
+                home_cards_html += render_game_card_html(g, is_compact_default=True)
+    else:
+        home_cards_html = """
         <div class="col-12 text-center py-5">
             <div class="alert alert-light border shadow-sm d-inline-block px-4 py-3">
                 <h5>⚽ No Football Matches Scheduled Today</h5>
