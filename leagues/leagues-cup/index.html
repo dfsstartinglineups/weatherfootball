@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leagues Cup Match Weather Forecasts & Stadium Pitch Wind</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Live game weather and forecasts for Leagues Cup matches. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts.">
     <meta name="keywords" content="Leagues Cup weather today, Leagues Cup stadium wind, Leagues Cup rain forecast, football match weather today">
     <link rel="canonical" href="https://weatherfootball.com/leagues/leagues-cup/" />
@@ -282,7 +293,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️2% 🌡️77°<br>💨3mph 💧62%
+                            🌧️2% 🌡️77°<br>💨2mph 💧62%
                         </span>
                     </div>
                 </div>
@@ -326,7 +337,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -409,7 +420,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -419,7 +430,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');

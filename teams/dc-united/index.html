@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast for D.C. United vs Toronto FC at Audi Field | Pitch Wind & Rain</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Live weather forecast for the upcoming D.C. United vs Toronto FC match at Audi Field. Track stadium wind speed, rain delay risks, and pitch conditions.">
     <meta name="keywords" content="D.C. United game weather, D.C. United stadium wind, D.C. United pitch forecast, D.C. United rain delay risk">
     <link rel="canonical" href="https://weatherfootball.com/teams/dc-united/" />
@@ -277,7 +288,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️2% 🌡️80°<br>💨6mph 💧41%
+                            🌧️2% 🌡️79°<br>💨6mph 💧41%
                         </span>
                     </div>
                 </div>
@@ -309,7 +320,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">80°F</div>
+                <div class="fw-bold">79°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -385,7 +396,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️31% 🌡️80°<br>💨6mph 💧41%
+                            🌧️31% 🌡️79°<br>💨6mph 💧41%
                         </span>
                     </div>
                 </div>
@@ -417,7 +428,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">80°F</div>
+                <div class="fw-bold">79°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -512,7 +523,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -522,7 +533,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');

@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Today's Vélez Sarsfield vs Instituto (Córdoba) Weather Forecast at José Amalfitani (July 24, 2026)</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Today's Vélez Sarsfield vs Instituto (Córdoba) match weather forecast at José Amalfitani for July 24, 2026. Track stadium wind speed, rain delay risks, temperature, and live pitch conditions.">
     <meta name="keywords" content="Vélez Sarsfield game weather, Vélez Sarsfield stadium wind, Vélez Sarsfield pitch forecast, Vélez Sarsfield rain delay risk">
     <link rel="canonical" href="https://weatherfootball.com/teams/velez-sarsfield/" />
@@ -262,7 +273,7 @@
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">26'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">33'</span>
                 </div>
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
@@ -277,7 +288,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️2% 🌡️52°<br>💨2mph 💧100%
+                            🌧️4% 🌡️52°<br>💨2mph 💧100%
                         </span>
                     </div>
                 </div>
@@ -289,7 +300,7 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Argentine LPF</span>
                     </div>
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">26'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">33'</span>
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -317,7 +328,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">2%</div>
+                <div class="fw-bold text-primary">4%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -340,7 +351,7 @@
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-24T23:00Z">11PM</div>
-                    <div class="hour-icon">☀️</div>
+                    <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">51°</div>
                 </div>
@@ -404,7 +415,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -414,7 +425,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');

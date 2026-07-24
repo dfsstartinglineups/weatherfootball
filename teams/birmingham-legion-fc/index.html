@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birmingham Legion FC Game Weather Forecast | Stadium Wind & Rain</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Game weather analytics, stadium wind speed, and rain delay risks for Birmingham Legion FC.">
     <meta name="keywords" content="Birmingham Legion FC game weather, Birmingham Legion FC stadium wind, Birmingham Legion FC pitch forecast, Birmingham Legion FC rain delay risk">
     <link rel="canonical" href="https://weatherfootball.com/teams/birmingham-legion-fc/" />
@@ -304,7 +315,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -314,7 +325,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');

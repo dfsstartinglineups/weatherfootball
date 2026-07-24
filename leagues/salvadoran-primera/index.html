@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Today's Salvadoran Primera Match Weather Forecasts & Stadium Pitch Wind (July 24, 2026)</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Today's Salvadoran Primera match weather forecasts and stadium pitch conditions for July 24, 2026. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts.">
     <meta name="keywords" content="Salvadoran Primera weather today, Salvadoran Primera stadium wind, Salvadoran Primera rain forecast, football match weather today">
     <link rel="canonical" href="https://weatherfootball.com/leagues/salvadoran-primera/" />
@@ -340,25 +351,25 @@
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T01:00Z">1AM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">68%</div>
+                    <div class="hour-pop">72%</div>
                     <div class="hour-temp">73°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T02:00Z">2AM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">37%</div>
+                    <div class="hour-pop">44%</div>
                     <div class="hour-temp">73°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T03:00Z">3AM</div>
                     <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-pop">24%</div>
                     <div class="hour-temp">73°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T04:00Z">4AM</div>
                     <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-pop">22%</div>
                     <div class="hour-temp">72°</div>
                 </div></div>
         <div class="mt-2 mb-1">
@@ -409,7 +420,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -419,7 +430,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');

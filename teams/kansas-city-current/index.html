@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast for Boston Legacy FC vs Kansas City Current at Centreville Bank Stadium | Pitch Wind & Rain</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Live weather forecast for the upcoming Boston Legacy FC vs Kansas City Current match at Centreville Bank Stadium. Track stadium wind speed, rain delay risks, and pitch conditions.">
     <meta name="keywords" content="Kansas City Current game weather, Kansas City Current stadium wind, Kansas City Current pitch forecast, Kansas City Current rain delay risk">
     <link rel="canonical" href="https://weatherfootball.com/teams/kansas-city-current/" />
@@ -614,7 +625,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -624,7 +635,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');

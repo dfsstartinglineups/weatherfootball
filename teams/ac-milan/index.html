@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast for Celtic vs AC Milan at Celtic Park | Pitch Wind & Rain</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Live weather forecast for the upcoming Celtic vs AC Milan match at Celtic Park. Track stadium wind speed, rain delay risks, and pitch conditions.">
     <meta name="keywords" content="AC Milan game weather, AC Milan stadium wind, AC Milan pitch forecast, AC Milan rain delay risk">
     <link rel="canonical" href="https://weatherfootball.com/teams/ac-milan/" />
@@ -277,7 +288,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️28% 🌡️60°<br>💨10mph 💧77%
+                            🌧️45% 🌡️60°<br>💨10mph 💧77%
                         </span>
                     </div>
                 </div>
@@ -317,7 +328,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">28%</div>
+                <div class="fw-bold text-primary">45%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -328,8 +339,8 @@
         <div class="hourly-scroll-container">
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T13:00Z">1PM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">28%</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">45%</div>
                     <div class="hour-temp">64°</div>
                 </div>
                 <div class="hour-card">
@@ -404,7 +415,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -414,7 +425,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');

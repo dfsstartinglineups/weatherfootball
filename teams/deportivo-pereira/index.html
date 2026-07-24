@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Today's Llaneros FC vs Deportivo Pereira Weather Forecast at Estadio Bello Horizonte - Rey Pele (July 24, 2026)</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Today's Llaneros FC vs Deportivo Pereira match weather forecast at Estadio Bello Horizonte - Rey Pele for July 24, 2026. Track stadium wind speed, rain delay risks, temperature, and live pitch conditions.">
     <meta name="keywords" content="Deportivo Pereira game weather, Deportivo Pereira stadium wind, Deportivo Pereira pitch forecast, Deportivo Pereira rain delay risk">
     <link rel="canonical" href="https://weatherfootball.com/teams/deportivo-pereira/" />
@@ -277,7 +288,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️14% 🌡️82°<br>💨2mph 💧76%
+                            🌧️10% 🌡️82°<br>💨2mph 💧76%
                         </span>
                     </div>
                 </div>
@@ -317,7 +328,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">14%</div>
+                <div class="fw-bold text-primary">10%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -340,7 +351,7 @@
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T00:00Z">12AM</div>
-                    <div class="hour-icon">⛅</div>
+                    <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">79°</div>
                 </div>
@@ -404,7 +415,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -414,7 +425,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');

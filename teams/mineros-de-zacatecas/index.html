@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Today's Mineros de Zacatecas vs Correcaminos UAT Weather Forecast at Estadio Carlos Vega Villalba (July 24, 2026)</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Today's Mineros de Zacatecas vs Correcaminos UAT match weather forecast at Estadio Carlos Vega Villalba for July 24, 2026. Track stadium wind speed, rain delay risks, temperature, and live pitch conditions.">
     <meta name="keywords" content="Mineros de Zacatecas game weather, Mineros de Zacatecas stadium wind, Mineros de Zacatecas pitch forecast, Mineros de Zacatecas rain delay risk">
     <link rel="canonical" href="https://weatherfootball.com/teams/mineros-de-zacatecas/" />
@@ -277,7 +288,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️6% 🌡️75°<br>💨8mph 💧34%
+                            🌧️2% 🌡️75°<br>💨8mph 💧34%
                         </span>
                     </div>
                 </div>
@@ -317,7 +328,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">6%</div>
+                <div class="fw-bold text-primary">2%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -334,13 +345,13 @@
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T01:00Z">1AM</div>
-                    <div class="hour-icon">⛅</div>
+                    <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">71°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T02:00Z">2AM</div>
-                    <div class="hour-icon">⛅</div>
+                    <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">69°</div>
                 </div>
@@ -404,7 +415,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -414,7 +425,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');

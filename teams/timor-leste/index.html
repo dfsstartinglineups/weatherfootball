@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Today's Timor-Leste vs Vietnam Weather Forecast at Chonburi UTA Stadium (July 24, 2026)</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Today's Timor-Leste vs Vietnam match weather forecast at Chonburi UTA Stadium for July 24, 2026. Track stadium wind speed, rain delay risks, temperature, and live pitch conditions.">
     <meta name="keywords" content="Timor-Leste game weather, Timor-Leste stadium wind, Timor-Leste pitch forecast, Timor-Leste rain delay risk">
     <link rel="canonical" href="https://weatherfootball.com/teams/timor-leste/" />
@@ -334,26 +345,26 @@
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-24T13:00Z">1PM</div>
-                    <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">33%</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">26%</div>
                     <div class="hour-temp">83°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-24T14:00Z">2PM</div>
-                    <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">31%</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">83°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-24T15:00Z">3PM</div>
-                    <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">31%</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">83°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-24T16:00Z">4PM</div>
-                    <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">34%</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">82°</div>
                 </div></div>
         <div class="mt-2 mb-1">
@@ -404,7 +415,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -414,7 +425,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');

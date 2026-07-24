@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Today's Tijuana vs León Weather Forecast at Estadio Caliente (July 24, 2026)</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Today's Tijuana vs León match weather forecast at Estadio Caliente for July 24, 2026. Track stadium wind speed, rain delay risks, temperature, and live pitch conditions.">
     <meta name="keywords" content="Tijuana game weather, Tijuana stadium wind, Tijuana pitch forecast, Tijuana rain delay risk">
     <link rel="canonical" href="https://weatherfootball.com/teams/tijuana/" />
@@ -330,13 +341,13 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T02:00Z">2AM</div>
                     <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">76°</div>
+                    <div class="hour-temp">77°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T03:00Z">3AM</div>
                     <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">71°</div>
+                    <div class="hour-temp">73°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T04:00Z">4AM</div>
@@ -354,7 +365,7 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T06:00Z">6AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">68°</div>
+                    <div class="hour-temp">67°</div>
                 </div></div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=32.5027&lon=-117.00371&detailLat=32.5027&detailLon=-117.00371&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Estadio Caliente')">
@@ -493,7 +504,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️13% 🌡️95°<br>💨9mph 💧40%
+                            🌧️13% 🌡️95°<br>💨10mph 💧40%
                         </span>
                     </div>
                 </div>
@@ -537,7 +548,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">9 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">10 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -620,7 +631,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -630,7 +641,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');

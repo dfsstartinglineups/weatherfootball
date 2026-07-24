@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast for Necaxa vs Monterrey at Estadio Victoria | Pitch Wind & Rain</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Live weather forecast for the upcoming Necaxa vs Monterrey match at Estadio Victoria. Track stadium wind speed, rain delay risks, and pitch conditions.">
     <meta name="keywords" content="Monterrey game weather, Monterrey stadium wind, Monterrey pitch forecast, Monterrey rain delay risk">
     <link rel="canonical" href="https://weatherfootball.com/teams/monterrey/" />
@@ -277,7 +288,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️8% 🌡️86°<br>💨3mph 💧21%
+                            🌧️7% 🌡️86°<br>💨3mph 💧21%
                         </span>
                     </div>
                 </div>
@@ -317,7 +328,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">8%</div>
+                <div class="fw-bold text-primary">7%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -334,7 +345,7 @@
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-26T23:00Z">11PM</div>
-                    <div class="hour-icon">☀️</div>
+                    <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">86°</div>
                 </div>
@@ -366,7 +377,7 @@
         </div>
     </div>
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401877022">
-        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+        <div class="card game-card shadow-sm border-danger border-3 bg-weather-storm">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
@@ -385,7 +396,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️43% 🌡️89°<br>💨4mph 💧20%
+                            🌧️53% 🌡️89°<br>💨4mph 💧20%
                         </span>
                     </div>
                 </div>
@@ -425,7 +436,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">43%</div>
+                <div class="fw-bold text-primary">53%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -437,31 +448,31 @@
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-02T00:00Z">12AM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">43%</div>
+                    <div class="hour-pop">53%</div>
                     <div class="hour-temp">71°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-02T01:00Z">1AM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">42%</div>
+                    <div class="hour-pop">53%</div>
                     <div class="hour-temp">70°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-02T02:00Z">2AM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">38%</div>
+                    <div class="hour-pop">49%</div>
                     <div class="hour-temp">69°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-02T03:00Z">3AM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">34%</div>
+                    <div class="hour-pop">45%</div>
                     <div class="hour-temp">68°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-02T04:00Z">4AM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">29%</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">40%</div>
                     <div class="hour-temp">67°</div>
                 </div></div>
         <div class="mt-2 mb-1">
@@ -620,7 +631,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -630,7 +641,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');

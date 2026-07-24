@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Today's Swedish Allsvenskan Match Weather Forecasts & Stadium Pitch Wind (July 24, 2026)</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="Today's Swedish Allsvenskan match weather forecasts and stadium pitch conditions for July 24, 2026. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts.">
     <meta name="keywords" content="Swedish Allsvenskan weather today, Swedish Allsvenskan stadium wind, Swedish Allsvenskan rain forecast, football match weather today">
     <link rel="canonical" href="https://weatherfootball.com/leagues/swedish-allsvenskan/" />
@@ -409,7 +420,7 @@
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -419,7 +430,6 @@
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');
