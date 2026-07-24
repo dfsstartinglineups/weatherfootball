@@ -316,7 +316,8 @@ def render_game_card_html(game, is_compact_default=True):
         
         badge_html = f'<span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="{game["game_time"]}" style="font-size: 0.65rem;">{fallback_text}</span>'
 
-    radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&zoom=10&level=surface&overlay=rain&product=ecmwf"
+    # Rich parameters for Windy radar initialization
+    radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&detailLat={game['stadium']['lat']}&detailLon={game['stadium']['lon']}&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1"
 
     if is_no_coords:
         weather_emoji_line = "⚠️ Weather Info<br>Not Available"
@@ -451,41 +452,6 @@ def render_game_card_html(game, is_compact_default=True):
         </div>
     </div>"""
 
-def render_future_card_html(game):
-    """Generates the static banner for the 14-day look-ahead."""
-    try:
-        dt = datetime.datetime.fromisoformat(game['game_time'].replace('Z', '+00:00'))
-        formatted_date = dt.strftime('%a, %b %d at %I:%M %p UTC')
-    except Exception:
-        formatted_date = "Date TBD"
-
-    return f"""
-    <div class="col-12 mb-3 px-2">
-        <div class="card p-4 text-center border shadow-sm bg-light h-100" style="border-radius: 12px;">
-            <div class="mb-2">
-                <span class="badge bg-secondary px-3 py-1">NO MATCH TODAY</span>
-            </div>
-            <h6 class="fw-bold text-muted mb-3 text-uppercase" style="font-size: 0.75rem; letter-spacing: 1px;">Next Scheduled Match</h6>
-            
-            <div class="d-flex justify-content-center align-items-center mb-3 gap-2">
-                <div class="text-end" style="flex:1;">
-                    <img src="{game.get('home_logo', '')}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                    <div class="fw-bold text-dark mt-1" style="font-size: 0.85rem;">{game['home_team']}</div>
-                </div>
-                <div class="text-muted fw-bold" style="font-size: 0.8rem;">vs</div>
-                <div class="text-start" style="flex:1;">
-                    <img src="{game.get('away_logo', '')}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                    <div class="fw-bold text-dark mt-1" style="font-size: 0.85rem;">{game['away_team']}</div>
-                </div>
-            </div>
-
-            <div class="text-primary fw-bold" style="font-size: 0.85rem;">📅 <span class="local-future-badge" data-futuretime="{game['game_time']}">{formatted_date}</span></div>
-            <div class="small text-muted mt-1">📍 {game.get('stadium_name', 'TBD Stadium')}</div>
-            <div class="small text-muted mt-3 pt-3 border-top" style="font-size: 0.7rem;">Weather forecast will be available roughly 14 days before kickoff.</div>
-        </div>
-    </div>
-    """
-
 def render_dormant_banner():
     return """
     <div class="col-12 mb-3 px-2">
@@ -498,7 +464,7 @@ def render_dormant_banner():
     """
 
 # ==========================================
-# MASTER HTML TEMPLATE
+# MASTER HTML PAGE TEMPLATE
 # ==========================================
 MASTER_HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="en">
@@ -611,12 +577,37 @@ __MATCH_CARDS_GRID__
                     el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                 }
             });
+
+            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            const radarModal = document.getElementById('radarModal');
+            if (radarModal) {
+                radarModal.addEventListener('hidden.bs.modal', () => {
+                    const iframe = document.getElementById('radarFrame');
+                    if (iframe) iframe.src = '';
+                });
+            }
         });
 
+        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
-            document.getElementById('radarModalTitle').innerText = 'Radar: ' + venueName;
-            document.getElementById('radarFrame').src = url;
-            new bootstrap.Modal(document.getElementById('radarModal')).show();
+            const modalElement = document.getElementById('radarModal');
+            const modalTitle = document.getElementById('radarModalTitle');
+            const iframe = document.getElementById('radarFrame');
+            
+            if (modalTitle) modalTitle.innerText = 'Radar: ' + venueName;
+
+            const myModal = bootstrap.Modal.getOrCreateInstance(modalElement);
+
+            // Clear map frame before open
+            if (iframe) iframe.src = '';
+
+            const loadMap = function () {
+                if (iframe) iframe.src = url; 
+                modalElement.removeEventListener('shown.bs.modal', loadMap); 
+            };
+
+            modalElement.addEventListener('shown.bs.modal', loadMap);
+            myModal.show();
         }
 
         function toggleSingleCard(element) {
@@ -933,7 +924,7 @@ def main():
 </sitemapindex>'''
     write_if_changed("sitemap.xml", sitemap_index_content)
 
-    print("✅ Build complete! All stadium caches sanitized, static pages re-rendered, and sitemaps generated.")
+    print("✅ Build complete! Radar popup lifecycle updated, static pages re-rendered, and sitemaps generated.")
 
 if __name__ == "__main__":
     main()
