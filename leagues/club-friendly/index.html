@@ -4,24 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Friendly Match Weather Forecasts & Stadium Pitch Wind</title>
-    <meta name="description" content="Live game weather today for Club Friendly matches. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts.">
+    <meta name="description" content="Live game weather and forecasts for Club Friendly matches. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts.">
     <meta name="keywords" content="Club Friendly weather today, Club Friendly stadium wind, Club Friendly rain forecast, football match weather today">
     <link rel="canonical" href="https://weatherfootball.com/leagues/club-friendly/" />
 
-    <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     
-    <!-- OpenGraph / Social Meta -->
     <meta property="og:title" content="Club Friendly Game Weather & Stadium Wind Forecasts">
     <meta property="og:description" content="Real-time pitch rain risks and stadium wind metrics for Club Friendly matches.">
     <meta property="og:url" content="https://weatherfootball.com/leagues/club-friendly/">
     <meta property="og:type" content="website">
     
-    <!-- Twitter Tags -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Club Friendly Game Weather & Stadium Wind Forecasts">
     <meta name="twitter:description" content="Real-time pitch rain risks and stadium wind metrics for Club Friendly matches.">
@@ -45,31 +42,10 @@
         .hour-pop { font-size: 0.65rem; color: #0d6efd; font-weight: 700; height: 12px; }
         .hour-temp { font-size: 0.8rem; font-weight: 600; }
         
-        /* SLEEK LEAGUE HEADER DIVIDER */
-        .league-section-title { 
-            font-size: 0.75rem; 
-            font-weight: 800; 
-            text-transform: uppercase; 
-            letter-spacing: 0.5px; 
-            color: #6c757d; 
-            margin: 1.5rem 0 0.5rem 0.25rem; 
-            display: flex; 
-            align-items: center; 
-        }
-        .league-section-title a { 
-            color: inherit; 
-            text-decoration: none; 
-            transition: color 0.2s; 
-            display: flex; 
-            align-items: center; 
-        }
+        .league-section-title { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; margin: 1.5rem 0 0.5rem 0.25rem; display: flex; align-items: center; }
+        .league-section-title a { color: inherit; text-decoration: none; transition: color 0.2s; display: flex; align-items: center; }
         .league-section-title a:hover { color: #0d6efd; }
-        .league-section-title::after { 
-            content: ""; 
-            flex: 1; 
-            border-bottom: 1px solid #e9ecef; 
-            margin-left: 10px; 
-        }
+        .league-section-title::after { content: ""; flex: 1; border-bottom: 1px solid #e9ecef; margin-left: 10px; }
 
         @keyframes weather-flow { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
         .bg-weather-sunny { background: linear-gradient(-45deg, #e3f2fd, #e1f5fe, #f1f8e9); background-size: 300% 300%; animation: weather-flow 15s ease infinite; }
@@ -87,10 +63,8 @@
             </a>
             
             <div class="d-flex align-items-center gap-2 flex-wrap">
-                <!-- LEAGUE SEARCH -->
                 <input list="league-search-options" id="league-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🏆 League..." onchange="if(this.value) { const opt = document.querySelector('#league-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
-                <datalist id="league-search-options">
-<option value="ASEAN Champ, Group A" data-url="/leagues/asean-champ-group-a/"></option>
+                <datalist id="league-search-options"><option value="ASEAN Champ, Group A" data-url="/leagues/asean-champ-group-a/"></option>
 <option value="ASEAN Champ, Group B" data-url="/leagues/asean-champ-group-b/"></option>
 <option value="Argentine LPF" data-url="/leagues/argentine-lpf/"></option>
 <option value="Bolivian Liga Profesional" data-url="/leagues/bolivian-liga-profesional/"></option>
@@ -116,13 +90,10 @@
 <option value="Salvadoran Primera" data-url="/leagues/salvadoran-primera/"></option>
 <option value="Swedish Allsvenskan" data-url="/leagues/swedish-allsvenskan/"></option>
 <option value="USL Championship" data-url="/leagues/usl-championship/"></option>
+</datalist>
 
-                </datalist>
-
-                <!-- TEAM SEARCH -->
                 <input list="team-search-options" id="team-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🔍 Team..." onchange="if(this.value) { const opt = document.querySelector('#team-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
-                <datalist id="team-search-options">
-<option value="2 de Mayo" data-url="/teams/2-de-mayo/"></option>
+                <datalist id="team-search-options"><option value="2 de Mayo" data-url="/teams/2-de-mayo/"></option>
 <option value="ABB" data-url="/teams/abb/"></option>
 <option value="AC Milan" data-url="/teams/ac-milan/"></option>
 <option value="Alianza Atlético" data-url="/teams/alianza-atletico/"></option>
@@ -270,8 +241,7 @@
 <option value="Wycombe Wanderers" data-url="/teams/wycombe-wanderers/"></option>
 <option value="York City" data-url="/teams/york-city/"></option>
 <option value="Örgryte IS" data-url="/teams/orgryte-is/"></option>
-
-                </datalist>
+</datalist>
 
                 <a href="/" class="btn btn-sm btn-outline-light px-3 fw-bold" style="font-size: 0.75rem;">Full Slate</a>
             </div>
@@ -281,16 +251,14 @@
     <div class="main-container">
         <div class="text-center mb-3">
             <h1 class="fw-bold h3">Club Friendly Weather</h1>
-            <p class="text-muted small m-0">Live Stadium Wind, Rain Risks & Pitch Analytics</p>
+            <p class="text-muted small m-0">Live Stadium Wind, Rain Risks & Upcoming Pitch Analytics</p>
         </div>
-
         
         <div class="d-flex justify-content-end mb-3 px-1">
             <button id="expand-toggle-btn" class="btn btn-sm btn-white shadow-sm border fw-bold text-secondary" style="border-radius: 20px; font-size: 0.8rem;" onclick="toggleAllCards()">
                 ▼ Expand All Cards
             </button>
         </div>
-        
         <div class="row w-100 m-0 p-0 justify-content-center">
 
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401869196">
@@ -300,7 +268,6 @@
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -314,7 +281,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️96% 🌡️59°<br>💨1mph 💧90%
+                            🌧️96% 🌡️58°<br>💨1mph 💧90%
                         </span>
                     </div>
                 </div>
@@ -328,12 +295,10 @@
                     </div>
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Lerkendal Stadion</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/360.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -346,10 +311,9 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">59°F</div>
+                <div class="fw-bold">58°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -412,7 +376,6 @@
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -426,7 +389,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️64°<br>💨1mph 💧54%
+                            🌧️0% 🌡️64°<br>💨2mph 💧55%
                         </span>
                     </div>
                 </div>
@@ -440,12 +403,10 @@
                     </div>
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Raiffeisen Arena (Linz)</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4007.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -458,14 +419,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">64°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 54%</div>
+                <div class="fw-bold text-dark">💧 55%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -473,7 +433,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -510,6 +470,762 @@
                 </div></div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=48.30639&lon=14.28611&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Raiffeisen Arena (Linz)')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401886527">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                <div class="d-flex align-items-center justify-content-start mb-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 11:00 AM UTC</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-2">
+                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/124.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Borussia Dortmund</span>
+                        </div>
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/9707.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Fortuna Düsseldorf</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
+                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
+                            🌧️0% 🌡️73°<br>💨3mph 💧38%
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 11:00 AM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Merkur Spiel-Arena</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/124.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/borussia-dortmund/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Borussia Dortmund</a>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <a href="/teams/fortuna-dusseldorf/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Fortuna Düsseldorf</a>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/9707.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">73°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 38%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">0%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">10AM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">78°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">11AM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">81°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">12PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">83°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">1PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">85°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">2PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">86°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=51.22319&lon=6.77927&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Merkur Spiel-Arena')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401869197">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                <div class="d-flex align-items-center justify-content-start mb-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 01:30 PM UTC</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-2">
+                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Bayern Munich</span>
+                        </div>
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3769.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">SV Wehen Wiesbaden</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
+                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
+                            🌧️0% 🌡️70°<br>💨2mph 💧44%
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 01:30 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 BRITA-Arena</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/bayern-munich/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Bayern Munich</a>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <a href="/teams/sv-wehen-wiesbaden/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">SV Wehen Wiesbaden</a>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3769.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">70°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 44%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">0%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">12PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">84°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">1PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">86°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">2PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">87°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">3PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">88°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">4PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">86°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=50.08601&lon=8.24435&zoom=10&level=surface&overlay=rain&product=ecmwf', 'BRITA-Arena')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401891770">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+            <!-- COMPACT RIBBON VIEW -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                <div class="d-flex align-items-center justify-content-start mb-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 02:00 PM UTC</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-2">
+                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/384.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Crystal Palace</span>
+                        </div>
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3129.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Bromley</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
+                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
+                            🌧️44% 🌡️90°<br>💨6mph 💧55%
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 02:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 RELOC8 EM Community Stadium</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/384.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/crystal-palace/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Crystal Palace</a>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <a href="/teams/bromley/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Bromley</a>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3129.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">90°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 55%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">44%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">6 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">1PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">43%</div>
+                    <div class="hour-temp">81°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">2PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">44%</div>
+                    <div class="hour-temp">84°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">3PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">44%</div>
+                    <div class="hour-temp">84°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">4PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">40%</div>
+                    <div class="hour-temp">85°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">5PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">37%</div>
+                    <div class="hour-temp">88°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=34.54426&lon=-91.96903&zoom=10&level=surface&overlay=rain&product=ecmwf', 'RELOC8 EM Community Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401886529">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                <div class="d-flex align-items-center justify-content-start mb-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 02:00 PM UTC</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-2">
+                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">AC Milan</span>
+                        </div>
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/256.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Celtic</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
+                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
+                            🌧️1% 🌡️80°<br>💨7mph 💧43%
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 02:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Celtic Park</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/ac-milan/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">AC Milan</a>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <a href="/teams/celtic/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Celtic</a>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/256.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">80°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 43%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">1%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">1PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">72°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">2PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">74°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">3PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">77°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">4PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">79°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">5PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">81°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=39.9687&lon=-77.58721&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Celtic Park')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401886521">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+            <!-- COMPACT RIBBON VIEW -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                <div class="d-flex align-items-center justify-content-start mb-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 04:00 PM UTC</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-2">
+                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/102.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Villarreal</span>
+                        </div>
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/148.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">PSV Eindhoven</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
+                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
+                            🌧️25% 🌡️76°<br>💨4mph 💧75%
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 04:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Philips Stadion</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/102.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/villarreal/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Villarreal</a>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <a href="/teams/psv-eindhoven/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">PSV Eindhoven</a>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/148.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">76°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 75%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">25%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">3PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">78°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">4PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">83°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">5PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">86°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">6PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">86°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">7PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">25%</div>
+                    <div class="hour-temp">88°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=36.29923&lon=-89.75119&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Philips Stadion')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401886530">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                <div class="d-flex align-items-center justify-content-start mb-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 06:00 PM UTC</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-2">
+                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/111.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Juventus</span>
+                        </div>
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/559.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Standard Liege</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
+                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
+                            🌧️0% 🌡️71°<br>💨4mph 💧49%
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 06:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Stade Maurice Dufrasne</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/111.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/juventus/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Juventus</a>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <a href="/teams/standard-liege/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Standard Liege</a>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/559.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">71°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 49%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">0%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">5PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">81°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">6PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">80°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">7PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">79°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">8PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">77°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">9PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">76°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=50.63373&lon=5.56749&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Stade Maurice Dufrasne')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401869427">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                <div class="d-flex align-items-center justify-content-start mb-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 10:00 PM UTC</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between gap-2">
+                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/366.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Sunderland</span>
+                        </div>
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/364.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Liverpool</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
+                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
+                            🌧️0% 🌡️65°<br>💨3mph 💧55%
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 10:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 GEODIS Park</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/366.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/sunderland/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Sunderland</a>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <a href="/teams/liverpool/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Liverpool</a>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/364.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">65°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 55%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">0%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">9PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">58°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">10PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">57°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">11PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">55°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">12AM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">54°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">1AM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">53°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=38.67351&lon=29.4058&zoom=10&level=surface&overlay=rain&product=ecmwf', 'GEODIS Park')">
                 🗺️ Live Weather Radar
             </button>
         </div>

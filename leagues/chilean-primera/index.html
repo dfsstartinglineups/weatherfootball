@@ -4,24 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chilean Primera Match Weather Forecasts & Stadium Pitch Wind</title>
-    <meta name="description" content="Live game weather today for Chilean Primera matches. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts.">
+    <meta name="description" content="Live game weather and forecasts for Chilean Primera matches. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts.">
     <meta name="keywords" content="Chilean Primera weather today, Chilean Primera stadium wind, Chilean Primera rain forecast, football match weather today">
     <link rel="canonical" href="https://weatherfootball.com/leagues/chilean-primera/" />
 
-    <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     
-    <!-- OpenGraph / Social Meta -->
     <meta property="og:title" content="Chilean Primera Game Weather & Stadium Wind Forecasts">
     <meta property="og:description" content="Real-time pitch rain risks and stadium wind metrics for Chilean Primera matches.">
     <meta property="og:url" content="https://weatherfootball.com/leagues/chilean-primera/">
     <meta property="og:type" content="website">
     
-    <!-- Twitter Tags -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Chilean Primera Game Weather & Stadium Wind Forecasts">
     <meta name="twitter:description" content="Real-time pitch rain risks and stadium wind metrics for Chilean Primera matches.">
@@ -45,31 +42,10 @@
         .hour-pop { font-size: 0.65rem; color: #0d6efd; font-weight: 700; height: 12px; }
         .hour-temp { font-size: 0.8rem; font-weight: 600; }
         
-        /* SLEEK LEAGUE HEADER DIVIDER */
-        .league-section-title { 
-            font-size: 0.75rem; 
-            font-weight: 800; 
-            text-transform: uppercase; 
-            letter-spacing: 0.5px; 
-            color: #6c757d; 
-            margin: 1.5rem 0 0.5rem 0.25rem; 
-            display: flex; 
-            align-items: center; 
-        }
-        .league-section-title a { 
-            color: inherit; 
-            text-decoration: none; 
-            transition: color 0.2s; 
-            display: flex; 
-            align-items: center; 
-        }
+        .league-section-title { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; margin: 1.5rem 0 0.5rem 0.25rem; display: flex; align-items: center; }
+        .league-section-title a { color: inherit; text-decoration: none; transition: color 0.2s; display: flex; align-items: center; }
         .league-section-title a:hover { color: #0d6efd; }
-        .league-section-title::after { 
-            content: ""; 
-            flex: 1; 
-            border-bottom: 1px solid #e9ecef; 
-            margin-left: 10px; 
-        }
+        .league-section-title::after { content: ""; flex: 1; border-bottom: 1px solid #e9ecef; margin-left: 10px; }
 
         @keyframes weather-flow { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
         .bg-weather-sunny { background: linear-gradient(-45deg, #e3f2fd, #e1f5fe, #f1f8e9); background-size: 300% 300%; animation: weather-flow 15s ease infinite; }
@@ -87,10 +63,8 @@
             </a>
             
             <div class="d-flex align-items-center gap-2 flex-wrap">
-                <!-- LEAGUE SEARCH -->
                 <input list="league-search-options" id="league-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🏆 League..." onchange="if(this.value) { const opt = document.querySelector('#league-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
-                <datalist id="league-search-options">
-<option value="ASEAN Champ, Group A" data-url="/leagues/asean-champ-group-a/"></option>
+                <datalist id="league-search-options"><option value="ASEAN Champ, Group A" data-url="/leagues/asean-champ-group-a/"></option>
 <option value="ASEAN Champ, Group B" data-url="/leagues/asean-champ-group-b/"></option>
 <option value="Argentine LPF" data-url="/leagues/argentine-lpf/"></option>
 <option value="Bolivian Liga Profesional" data-url="/leagues/bolivian-liga-profesional/"></option>
@@ -116,13 +90,10 @@
 <option value="Salvadoran Primera" data-url="/leagues/salvadoran-primera/"></option>
 <option value="Swedish Allsvenskan" data-url="/leagues/swedish-allsvenskan/"></option>
 <option value="USL Championship" data-url="/leagues/usl-championship/"></option>
+</datalist>
 
-                </datalist>
-
-                <!-- TEAM SEARCH -->
                 <input list="team-search-options" id="team-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🔍 Team..." onchange="if(this.value) { const opt = document.querySelector('#team-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
-                <datalist id="team-search-options">
-<option value="2 de Mayo" data-url="/teams/2-de-mayo/"></option>
+                <datalist id="team-search-options"><option value="2 de Mayo" data-url="/teams/2-de-mayo/"></option>
 <option value="ABB" data-url="/teams/abb/"></option>
 <option value="AC Milan" data-url="/teams/ac-milan/"></option>
 <option value="Alianza Atlético" data-url="/teams/alianza-atletico/"></option>
@@ -270,8 +241,7 @@
 <option value="Wycombe Wanderers" data-url="/teams/wycombe-wanderers/"></option>
 <option value="York City" data-url="/teams/york-city/"></option>
 <option value="Örgryte IS" data-url="/teams/orgryte-is/"></option>
-
-                </datalist>
+</datalist>
 
                 <a href="/" class="btn btn-sm btn-outline-light px-3 fw-bold" style="font-size: 0.75rem;">Full Slate</a>
             </div>
@@ -281,16 +251,14 @@
     <div class="main-container">
         <div class="text-center mb-3">
             <h1 class="fw-bold h3">Chilean Primera Weather</h1>
-            <p class="text-muted small m-0">Live Stadium Wind, Rain Risks & Pitch Analytics</p>
+            <p class="text-muted small m-0">Live Stadium Wind, Rain Risks & Upcoming Pitch Analytics</p>
         </div>
-
         
         <div class="d-flex justify-content-end mb-3 px-1">
             <button id="expand-toggle-btn" class="btn btn-sm btn-white shadow-sm border fw-bold text-secondary" style="border-radius: 20px; font-size: 0.8rem;" onclick="toggleAllCards()">
                 ▼ Expand All Cards
             </button>
         </div>
-        
         <div class="row w-100 m-0 p-0 justify-content-center">
 
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401850597">
@@ -298,9 +266,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:30 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:30 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -314,7 +281,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️43% 🌡️63°<br>💨2mph 💧58%
+                            🌧️43% 🌡️63°<br>💨2mph 💧60%
                         </span>
                     </div>
                 </div>
@@ -326,14 +293,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Chilean Primera</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:30 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:30 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Monumental David Arellano</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/19195.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -346,14 +311,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">63°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 58%</div>
+                <div class="fw-bold text-dark">💧 60%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">

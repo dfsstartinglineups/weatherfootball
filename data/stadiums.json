@@ -1,4 +1,14 @@
 {
+    "10224": {
+        "city": "Pawtucket, Rhode Island",
+        "country": "USA",
+        "id": "10224",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Centreville Bank Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10319": {
         "city": "Linz",
         "country": "Austria",
@@ -6,6 +16,26 @@
         "lat": 48.30639,
         "lon": 14.28611,
         "name": "Raiffeisen Arena (Linz)",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10332": {
+        "city": "Middlesbrough",
+        "country": "England",
+        "id": "10332",
+        "lat": 38.89483,
+        "lon": -77.05553,
+        "name": "Riverside Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10421": {
+        "city": "St. Louis, Missouri",
+        "country": "USA",
+        "id": "10421",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Energizer Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19,6 +49,46 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10645": {
+        "city": "Pachuca",
+        "country": "Mexico",
+        "id": "10645",
+        "lat": 20.11697,
+        "lon": -98.73329,
+        "name": "Estadio Hidalgo",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10646": {
+        "city": "San Nicol\u00e1s de los Garza",
+        "country": "Mexico",
+        "id": "10646",
+        "lat": 25.74167,
+        "lon": -100.30222,
+        "name": "Estadio Universitario",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10660": {
+        "city": "Foxborough, Massachusetts",
+        "country": "USA",
+        "id": "10660",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Gillette Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10661": {
+        "city": "Miami, Florida",
+        "country": "USA",
+        "id": "10661",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Nu Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10678": {
         "city": "Viborg",
         "country": "Denmark",
@@ -26,6 +96,16 @@
         "lat": 56.45319,
         "lon": 9.40201,
         "name": "Viborg Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10714": {
+        "city": "Bromley",
+        "country": "England",
+        "id": "10714",
+        "lat": 34.54426,
+        "lon": -91.96903,
+        "name": "RELOC8 EM Community Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -89,6 +169,106 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11017": {
+        "city": "Centennial",
+        "country": "USA",
+        "id": "11017",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Centennial Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11130": {
+        "city": "",
+        "country": "USA",
+        "id": "11130",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Texas Health Mansfield Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1264": {
+        "city": "Puebla",
+        "country": "Mexico",
+        "id": "1264",
+        "lat": 19.04778,
+        "lon": -98.20723,
+        "name": "Estadio Cuauht\u00e9moc",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1266": {
+        "city": "Torre\u00f3n",
+        "country": "Mexico",
+        "id": "1266",
+        "lat": 25.54389,
+        "lon": -103.41898,
+        "name": "Estadio Corona",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "136": {
+        "city": "Wolverhampton",
+        "country": "England",
+        "id": "136",
+        "lat": 34.54426,
+        "lon": -91.96903,
+        "name": "Molineux Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1402": {
+        "city": "Aguascalientes",
+        "country": "Mexico",
+        "id": "1402",
+        "lat": 21.88262,
+        "lon": -102.2843,
+        "name": "Estadio Victoria",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1423": {
+        "city": "Carson, California",
+        "country": "USA",
+        "id": "1423",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Dignity Health Sports Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1452": {
+        "city": "Chicago, Illinois",
+        "country": "USA",
+        "id": "1452",
+        "lat": 46.73183,
+        "lon": -117.16017,
+        "name": "Soldier Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "146": {
+        "city": "Birkenhead",
+        "country": "England",
+        "id": "146",
+        "lat": 34.54426,
+        "lon": -91.96903,
+        "name": "Prenton Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "161": {
+        "city": "Glasgow",
+        "country": "Scotland",
+        "id": "161",
+        "lat": 39.9687,
+        "lon": -77.58721,
+        "name": "Celtic Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1672": {
         "city": "Mexico City",
         "country": "Mexico",
@@ -109,6 +289,36 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "208": {
+        "city": "Bristol",
+        "country": "England",
+        "id": "208",
+        "lat": 51.44012,
+        "lon": -2.61655,
+        "name": "Ashton Gate",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "215": {
+        "city": "Wycombe",
+        "country": "England",
+        "id": "215",
+        "lat": 42.15393,
+        "lon": -85.47277,
+        "name": "Adams Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2266": {
+        "city": "Bridgeview, Illinois",
+        "country": "USA",
+        "id": "2266",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "SeatGeek Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "2658": {
         "city": "Santiago",
         "country": "Chile",
@@ -116,6 +326,16 @@
         "lat": -33.45694,
         "lon": -70.64827,
         "name": "Estadio Monumental David Arellano",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2731": {
+        "city": "Commerce City, Colorado",
+        "country": "USA",
+        "id": "2731",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Dick's Sporting Goods Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -129,6 +349,86 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3278": {
+        "city": "Montreal",
+        "country": "Canada",
+        "id": "3278",
+        "lat": 45.50884,
+        "lon": -73.58781,
+        "name": "Stade Saputo",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3305": {
+        "city": "Ciudad Ju\u00e1rez",
+        "country": "Mexico",
+        "id": "3305",
+        "lat": 31.72024,
+        "lon": -106.46084,
+        "name": "Estadio Ol\u00edmpico Benito Ju\u00e1rez",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3364": {
+        "city": "Wiesbaden",
+        "country": "Germany",
+        "id": "3364",
+        "lat": 50.08601,
+        "lon": 8.24435,
+        "name": "BRITA-Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3631": {
+        "city": "Le\u00f3n de los Aldamas",
+        "country": "Mexico",
+        "id": "3631",
+        "lat": 23.0,
+        "lon": -102.0,
+        "name": "Estadio Le\u00f3n",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3714": {
+        "city": "Sandy, Utah",
+        "country": "USA",
+        "id": "3714",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "America First Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3719": {
+        "city": "D\u00fcsseldorf",
+        "country": "Germany",
+        "id": "3719",
+        "lat": 51.22319,
+        "lon": 6.77927,
+        "name": "Merkur Spiel-Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3869": {
+        "city": "Stanford, California",
+        "country": "USA",
+        "id": "3869",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Stanford Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3938": {
+        "city": "Liege",
+        "country": "Belgium",
+        "id": "3938",
+        "lat": 50.63373,
+        "lon": 5.56749,
+        "name": "Stade Maurice Dufrasne",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4046": {
         "city": "Cali",
         "country": "Colombia",
@@ -136,6 +436,16 @@
         "lat": 3.43054,
         "lon": -76.5199,
         "name": "Deportivo Cali",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4061": {
+        "city": "Chester, Pennsylvania",
+        "country": "USA",
+        "id": "4061",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Subaru Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -149,6 +459,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4370": {
+        "city": "Vancouver",
+        "country": "Canada",
+        "id": "4370",
+        "lat": 49.24966,
+        "lon": -123.11934,
+        "name": "BC Place",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4383": {
         "city": "Portland, Oregon",
         "country": "USA",
@@ -156,6 +476,26 @@
         "lat": 35.16681,
         "lon": -80.80757,
         "name": "Providence Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4418": {
+        "city": "Charlotte, North Carolina",
+        "country": "USA",
+        "id": "4418",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Bank of America Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4685": {
+        "city": "Santiago de Quer\u00e9taro",
+        "country": "Mexico",
+        "id": "4685",
+        "lat": 20.58806,
+        "lon": -100.38806,
+        "name": "Estadio Corregidora",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -169,6 +509,36 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4896": {
+        "city": "New York City",
+        "country": "USA",
+        "id": "4896",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Yankee Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4906": {
+        "city": "San Luis Potosi",
+        "country": "Mexico",
+        "id": "4906",
+        "lat": 22.15234,
+        "lon": -100.97135,
+        "name": "Estadio Libertad Financiera",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4910": {
+        "city": "Toluca",
+        "country": "Mexico",
+        "id": "4910",
+        "lat": 19.28786,
+        "lon": -99.65324,
+        "name": "Estadio Nemesio D\u00edez Riega",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4913": {
         "city": "Tijuana",
         "country": "Mexico",
@@ -176,6 +546,26 @@
         "lat": 32.5027,
         "lon": -117.00371,
         "name": "Estadio Caliente",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5": {
+        "city": "Eindhoven",
+        "country": "Netherlands",
+        "id": "5",
+        "lat": 36.29923,
+        "lon": -89.75119,
+        "name": "Philips Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5009": {
+        "city": "Guadalajara",
+        "country": "Mexico",
+        "id": "5009",
+        "lat": 20.67738,
+        "lon": -103.34749,
+        "name": "Estadio Akron",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -249,6 +639,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6072": {
+        "city": "San Jose, California",
+        "country": "USA",
+        "id": "6072",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "PayPal Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6089": {
         "city": "Sullana",
         "country": "Peru",
@@ -266,6 +666,36 @@
         "lat": 39.32983,
         "lon": -76.60163,
         "name": "Estadio El Tr\u00e9bol",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6538": {
+        "city": "Saint Paul, Minnesota",
+        "country": "USA",
+        "id": "6538",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Allianz Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6541": {
+        "city": "Cary, North Carolina",
+        "country": "USA",
+        "id": "6541",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "WakeMed Soccer Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6587": {
+        "city": "Kansas City, Kansas",
+        "country": "USA",
+        "id": "6587",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Children's Mercy Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -299,6 +729,46 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7604": {
+        "city": "Washington, District of Columbia",
+        "country": "USA",
+        "id": "7604",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Audi Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7605": {
+        "city": "Los Angeles, California",
+        "country": "USA",
+        "id": "7605",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "BMO Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8390": {
+        "city": "Louisville, Kentucky",
+        "country": "USA",
+        "id": "8390",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Lynn Family Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8445": {
+        "city": "Guadalajara",
+        "country": "Mexico",
+        "id": "8445",
+        "lat": 20.67738,
+        "lon": -103.34749,
+        "name": "Estadio Jalisco",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8478": {
         "city": "Tepatitl\u00e1n de Morelos",
         "country": "Mexico",
@@ -306,6 +776,86 @@
         "lat": 20.81692,
         "lon": -102.76347,
         "name": "Estadio Gregorio Tepa G\u00f3mez",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8673": {
+        "city": "Austin, Texas",
+        "country": "USA",
+        "id": "8673",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Q2 Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8674": {
+        "city": "Cincinnati, Ohio",
+        "country": "USA",
+        "id": "8674",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "TQL Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8689": {
+        "city": "Columbus, Ohio",
+        "country": "USA",
+        "id": "8689",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "ScottsMiracle-Gro Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8902": {
+        "city": "York",
+        "country": "England",
+        "id": "8902",
+        "lat": 34.54426,
+        "lon": -91.96903,
+        "name": "LNER Community Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8993": {
+        "city": "Nashville, Tennessee",
+        "country": "USA",
+        "id": "8993",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "GEODIS Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9195": {
+        "city": "San Diego, California",
+        "country": "USA",
+        "id": "9195",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Snapdragon Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9606": {
+        "city": "Harrison, New Jersey",
+        "country": "USA",
+        "id": "9606",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Red Bull Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9895": {
+        "city": "Kansas City, Missouri",
+        "country": "USA",
+        "id": "9895",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "CPKC Stadium",
         "roof": "Open",
         "surface": "Grass"
     },

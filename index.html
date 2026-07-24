@@ -8,20 +8,17 @@
     <meta name="keywords" content="today game weather, live football stadium weather, pitch wind speed, rain delay football, today match weather forecast">
     <link rel="canonical" href="https://weatherfootball.com/" />
 
-    <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     
-    <!-- OpenGraph / Social Meta -->
     <meta property="og:title" content="Today's Live Football Stadium Weather & Wind Forecasts">
     <meta property="og:description" content="Track real-time pitch rain risks, stadium wind direction, and weather impact analytics for today's football matches.">
     <meta property="og:url" content="https://weatherfootball.com/">
     <meta property="og:type" content="website">
     
-    <!-- Twitter Tags -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Today's Live Football Stadium Weather & Wind Forecasts">
     <meta name="twitter:description" content="Track real-time pitch rain risks, stadium wind direction, and weather impact analytics for today's football matches.">
@@ -50,31 +47,10 @@
         .hour-pop { font-size: 0.65rem; color: #0d6efd; font-weight: 700; height: 12px; }
         .hour-temp { font-size: 0.8rem; font-weight: 600; }
         
-        /* SLEEK LEAGUE HEADER DIVIDER */
-        .league-section-title { 
-            font-size: 0.75rem; 
-            font-weight: 800; 
-            text-transform: uppercase; 
-            letter-spacing: 0.5px; 
-            color: #6c757d; 
-            margin: 1.5rem 0 0.5rem 0.25rem; 
-            display: flex; 
-            align-items: center; 
-        }
-        .league-section-title a { 
-            color: inherit; 
-            text-decoration: none; 
-            transition: color 0.2s; 
-            display: flex; 
-            align-items: center; 
-        }
+        .league-section-title { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; margin: 1.5rem 0 0.5rem 0.25rem; display: flex; align-items: center; }
+        .league-section-title a { color: inherit; text-decoration: none; transition: color 0.2s; display: flex; align-items: center; }
         .league-section-title a:hover { color: #0d6efd; }
-        .league-section-title::after { 
-            content: ""; 
-            flex: 1; 
-            border-bottom: 1px solid #e9ecef; 
-            margin-left: 10px; 
-        }
+        .league-section-title::after { content: ""; flex: 1; border-bottom: 1px solid #e9ecef; margin-left: 10px; }
 
         @keyframes weather-flow { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
         .bg-weather-sunny { background: linear-gradient(-45deg, #e3f2fd, #e1f5fe, #f1f8e9); background-size: 300% 300%; animation: weather-flow 15s ease infinite; }
@@ -92,10 +68,8 @@
             </a>
             
             <div class="d-flex align-items-center gap-2 flex-wrap">
-                <!-- LEAGUE SEARCH -->
                 <input list="league-search-options" id="league-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🏆 League..." onchange="if(this.value) { const opt = document.querySelector('#league-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
-                <datalist id="league-search-options">
-<option value="ASEAN Champ, Group A" data-url="/leagues/asean-champ-group-a/"></option>
+                <datalist id="league-search-options"><option value="ASEAN Champ, Group A" data-url="/leagues/asean-champ-group-a/"></option>
 <option value="ASEAN Champ, Group B" data-url="/leagues/asean-champ-group-b/"></option>
 <option value="Argentine LPF" data-url="/leagues/argentine-lpf/"></option>
 <option value="Bolivian Liga Profesional" data-url="/leagues/bolivian-liga-profesional/"></option>
@@ -121,13 +95,10 @@
 <option value="Salvadoran Primera" data-url="/leagues/salvadoran-primera/"></option>
 <option value="Swedish Allsvenskan" data-url="/leagues/swedish-allsvenskan/"></option>
 <option value="USL Championship" data-url="/leagues/usl-championship/"></option>
+</datalist>
 
-                </datalist>
-
-                <!-- TEAM SEARCH -->
                 <input list="team-search-options" id="team-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🔍 Team..." onchange="if(this.value) { const opt = document.querySelector('#team-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
-                <datalist id="team-search-options">
-<option value="2 de Mayo" data-url="/teams/2-de-mayo/"></option>
+                <datalist id="team-search-options"><option value="2 de Mayo" data-url="/teams/2-de-mayo/"></option>
 <option value="ABB" data-url="/teams/abb/"></option>
 <option value="AC Milan" data-url="/teams/ac-milan/"></option>
 <option value="Alianza Atlético" data-url="/teams/alianza-atletico/"></option>
@@ -275,8 +246,7 @@
 <option value="Wycombe Wanderers" data-url="/teams/wycombe-wanderers/"></option>
 <option value="York City" data-url="/teams/york-city/"></option>
 <option value="Örgryte IS" data-url="/teams/orgryte-is/"></option>
-
-                </datalist>
+</datalist>
 
                 <a href="/" class="btn btn-sm btn-outline-light px-3 fw-bold" style="font-size: 0.75rem;">Full Slate</a>
             </div>
@@ -288,14 +258,12 @@
             <h1 class="fw-bold h3">Today's Live Football Game Weather</h1>
             <p class="text-muted small m-0">Matchday Slate & Stadium Pitch Forecasts for Friday, July 24, 2026</p>
         </div>
-
         
         <div class="d-flex justify-content-end mb-3 px-1">
             <button id="expand-toggle-btn" class="btn btn-sm btn-white shadow-sm border fw-bold text-secondary" style="border-radius: 20px; font-size: 0.8rem;" onclick="toggleAllCards()">
                 ▼ Expand All Cards
             </button>
         </div>
-        
         <div class="row w-100 m-0 p-0 justify-content-center">
 
             <div class="col-12 w-100 px-1">
@@ -310,7 +278,6 @@
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -338,12 +305,10 @@
                     </div>
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Venue Unlisted</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/countries/500/sin.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -355,7 +320,6 @@
                             <img src="https://a.espncdn.com/i/teamlogos/countries/500/cam.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
                         </div>
                     </div>
-                    
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
@@ -427,7 +391,6 @@
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -441,7 +404,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️57°<br>💨5mph 💧96%
+                            🌧️0% 🌡️58°<br>💨5mph 💧96%
                         </span>
                     </div>
                 </div>
@@ -455,12 +418,10 @@
                     </div>
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Chonburi UTA Stadium</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/countries/500/vie.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -473,10 +434,9 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">57°F</div>
+                <div class="fw-bold">58°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -544,7 +504,6 @@
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">HT</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -558,7 +517,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️2% 🌡️54°<br>💨0mph 💧57%
+                            🌧️2% 🌡️54°<br>💨1mph 💧58%
                         </span>
                     </div>
                 </div>
@@ -572,12 +531,10 @@
                     </div>
                     <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">HT</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Víctor Antonio Legrotaglie</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11989.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -590,14 +547,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">54°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 57%</div>
+                <div class="fw-bold text-dark">💧 58%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -605,7 +561,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">0 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -654,9 +610,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Fri 10:00 PM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 24, 10:00 PM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -670,7 +625,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️2% 🌡️56°<br>💨3mph 💧96%
+                            🌧️2% 🌡️55°<br>💨3mph 💧98%
                         </span>
                     </div>
                 </div>
@@ -682,14 +637,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Argentine LPF</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Fri 10:00 PM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 24, 10:00 PM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Presidente Perón (Cilindro de Avellaneda)</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/9.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -702,14 +655,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">56°F</div>
+                <div class="fw-bold">55°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 96%</div>
+                <div class="fw-bold text-dark">💧 98%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -766,9 +718,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Fri 10:00 PM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 24, 10:00 PM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -782,7 +733,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️2% 🌡️56°<br>💨3mph 💧96%
+                            🌧️2% 🌡️55°<br>💨3mph 💧98%
                         </span>
                     </div>
                 </div>
@@ -794,14 +745,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Argentine LPF</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Fri 10:00 PM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 24, 10:00 PM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 José Amalfitani</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2975.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -814,14 +763,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">56°F</div>
+                <div class="fw-bold">55°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 96%</div>
+                <div class="fw-bold text-dark">💧 98%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -878,9 +826,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:15 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:15 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -894,7 +841,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️56°<br>💨3mph 💧96%
+                            🌧️0% 🌡️55°<br>💨3mph 💧98%
                         </span>
                     </div>
                 </div>
@@ -906,14 +853,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Argentine LPF</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:15 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:15 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Tomás Adolfo Ducó</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/235.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -926,14 +871,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">56°F</div>
+                <div class="fw-bold">55°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 96%</div>
+                <div class="fw-bold text-dark">💧 98%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -984,9 +928,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:15 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:15 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -1000,7 +943,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️56°<br>💨3mph 💧96%
+                            🌧️0% 🌡️55°<br>💨3mph 💧98%
                         </span>
                     </div>
                 </div>
@@ -1012,14 +955,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Argentine LPF</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:15 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:15 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Ciudad de Vicente López</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -1032,14 +973,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">56°F</div>
+                <div class="fw-bold">55°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 96%</div>
+                <div class="fw-bold text-dark">💧 98%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1095,9 +1035,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Fri 11:00 PM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 24, 11:00 PM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -1111,7 +1050,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️79°<br>💨0mph 💧2%
+                            🌧️0% 🌡️78°<br>💨0mph 💧1%
                         </span>
                     </div>
                 </div>
@@ -1123,14 +1062,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Bolivian Liga Profesional</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Fri 11:00 PM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 24, 11:00 PM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Félix Capriles</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/130875.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -1143,14 +1080,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">79°F</div>
+                <div class="fw-bold">78°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 2%</div>
+                <div class="fw-bold text-dark">💧 1%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1212,9 +1148,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:30 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:30 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -1228,7 +1163,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️43% 🌡️63°<br>💨2mph 💧58%
+                            🌧️43% 🌡️63°<br>💨2mph 💧60%
                         </span>
                     </div>
                 </div>
@@ -1240,14 +1175,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Chilean Primera</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:30 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:30 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Monumental David Arellano</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/19195.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -1260,14 +1193,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">63°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 58%</div>
+                <div class="fw-bold text-dark">💧 60%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1325,7 +1257,6 @@
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -1339,7 +1270,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️96% 🌡️59°<br>💨1mph 💧90%
+                            🌧️96% 🌡️58°<br>💨1mph 💧90%
                         </span>
                     </div>
                 </div>
@@ -1353,12 +1284,10 @@
                     </div>
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Lerkendal Stadion</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/360.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -1371,10 +1300,9 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">59°F</div>
+                <div class="fw-bold">58°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1437,7 +1365,6 @@
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -1451,7 +1378,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️64°<br>💨1mph 💧54%
+                            🌧️0% 🌡️64°<br>💨2mph 💧55%
                         </span>
                     </div>
                 </div>
@@ -1465,12 +1392,10 @@
                     </div>
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Raiffeisen Arena (Linz)</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4007.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -1483,14 +1408,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">64°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 54%</div>
+                <div class="fw-bold text-dark">💧 55%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1498,7 +1422,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -1552,9 +1476,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Fri 11:10 PM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 24, 11:10 PM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -1580,14 +1503,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Colombian Primera A</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Fri 11:10 PM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 24, 11:10 PM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Bello Horizonte - Rey Pele</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/5486.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -1599,7 +1520,6 @@
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7915.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
                         </div>
                     </div>
-                    
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
@@ -1664,9 +1584,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 01:15 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 01:15 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -1680,7 +1599,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️94% 🌡️83°<br>💨2mph 💧54%
+                            🌧️94% 🌡️83°<br>💨2mph 💧56%
                         </span>
                     </div>
                 </div>
@@ -1692,14 +1611,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Colombian Primera A</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 01:15 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 01:15 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Deportivo Cali</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/10309.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -1712,14 +1629,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">83°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 54%</div>
+                <div class="fw-bold text-dark">💧 56%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1783,7 +1699,6 @@
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -1797,7 +1712,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️41% 🌡️61°<br>💨10mph 💧88%
+                            🌧️41% 🌡️60°<br>💨10mph 💧86%
                         </span>
                     </div>
                 </div>
@@ -1811,12 +1726,10 @@
                     </div>
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Viborg Stadion</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11550.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -1829,14 +1742,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">61°F</div>
+                <div class="fw-bold">60°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 88%</div>
+                <div class="fw-bold text-dark">💧 86%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1898,9 +1810,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:00 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -1914,7 +1825,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️100% 🌡️80°<br>💨5mph 💧38%
+                            🌧️100% 🌡️79°<br>💨5mph 💧41%
                         </span>
                     </div>
                 </div>
@@ -1926,14 +1837,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Guatemalan Liga Nacional</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:00 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Pensativo</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7252.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -1946,14 +1855,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">80°F</div>
+                <div class="fw-bold">79°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 38%</div>
+                <div class="fw-bold text-dark">💧 41%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2004,9 +1912,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 02:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 02:00 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -2020,7 +1927,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️2% 🌡️80°<br>💨6mph 💧38%
+                            🌧️2% 🌡️80°<br>💨6mph 💧40%
                         </span>
                     </div>
                 </div>
@@ -2032,14 +1939,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Guatemalan Liga Nacional</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 02:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 02:00 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio El Trébol</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20036.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -2052,14 +1957,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">80°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 38%</div>
+                <div class="fw-bold text-dark">💧 40%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2121,9 +2025,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Fri 10:00 PM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 24, 10:00 PM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -2137,7 +2040,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️56°<br>💨5mph 💧85%
+                            🌧️0% 🌡️55°<br>💨5mph 💧86%
                         </span>
                     </div>
                 </div>
@@ -2149,14 +2052,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Liga AUF Uruguaya</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Fri 10:00 PM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 24, 10:00 PM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Centenario</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4817.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -2169,14 +2070,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">56°F</div>
+                <div class="fw-bold">55°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 85%</div>
+                <div class="fw-bold text-dark">💧 86%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2238,9 +2138,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 02:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 02:00 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -2254,7 +2153,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️83% 🌡️71°<br>💨1mph 💧84%
+                            🌧️83% 🌡️70°<br>💨1mph 💧85%
                         </span>
                     </div>
                 </div>
@@ -2266,14 +2165,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Liga FPD</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 02:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 02:00 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Ricardo Saprissa</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7234.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -2286,14 +2183,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">71°F</div>
+                <div class="fw-bold">70°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 84%</div>
+                <div class="fw-bold text-dark">💧 85%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2355,9 +2251,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 03:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 03:00 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -2371,7 +2266,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️80% 🌡️82°<br>💨3mph 💧18%
+                            🌧️80% 🌡️82°<br>💨3mph 💧17%
                         </span>
                     </div>
                 </div>
@@ -2383,14 +2278,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Liga MX</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 03:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 03:00 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Banorte</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/227.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -2403,14 +2296,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">82°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 18%</div>
+                <div class="fw-bold text-dark">💧 17%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2467,9 +2359,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 03:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 03:00 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -2483,7 +2374,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️1% 🌡️84°<br>💨7mph 💧55%
+                            🌧️1% 🌡️84°<br>💨7mph 💧57%
                         </span>
                     </div>
                 </div>
@@ -2495,14 +2386,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Liga MX</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 03:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 03:00 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Caliente</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/228.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -2515,14 +2404,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">84°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 55%</div>
+                <div class="fw-bold text-dark">💧 57%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2584,9 +2472,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 01:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 01:00 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -2600,7 +2487,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️6% 🌡️75°<br>💨9mph 💧36%
+                            🌧️6% 🌡️75°<br>💨8mph 💧36%
                         </span>
                     </div>
                 </div>
@@ -2612,14 +2499,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Liga de Expansión MX</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 01:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 01:00 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Carlos Vega Villalba</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/8931.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -2631,7 +2516,6 @@
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/17514.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
                         </div>
                     </div>
-                    
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
@@ -2647,7 +2531,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">9 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">8 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -2696,9 +2580,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 01:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 01:00 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -2724,14 +2607,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Liga de Expansión MX</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 01:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 01:00 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Gregorio Tepa Gómez</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -2743,7 +2624,6 @@
                             <img src="https://a.espncdn.com/guid/763ce445-4f2c-3dc4-bb2a-a682c33f108c/logos/default.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
                         </div>
                     </div>
-                    
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
@@ -2813,9 +2693,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:00 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -2829,7 +2708,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️5% 🌡️65°<br>💨3mph 💧54%
+                            🌧️5% 🌡️65°<br>💨3mph 💧55%
                         </span>
                     </div>
                 </div>
@@ -2841,14 +2720,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">NWSL</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:00 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Shell Energy Stadium</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/22187.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -2861,14 +2738,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">65°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 54%</div>
+                <div class="fw-bold text-dark">💧 55%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2919,9 +2795,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:00 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -2935,7 +2810,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️5% 🌡️65°<br>💨3mph 💧54%
+                            🌧️5% 🌡️65°<br>💨3mph 💧55%
                         </span>
                     </div>
                 </div>
@@ -2947,14 +2822,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">NWSL</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:00 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Inter&Co Stadium</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15360.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -2967,14 +2840,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">65°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 54%</div>
+                <div class="fw-bold text-dark">💧 55%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -3025,9 +2897,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 02:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 02:00 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -3041,7 +2912,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️21% 🌡️73°<br>💨2mph 💧94%
+                            🌧️21% 🌡️73°<br>💨1mph 💧92%
                         </span>
                     </div>
                 </div>
@@ -3053,14 +2924,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">NWSL</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 02:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 02:00 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Providence Park</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15364.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -3073,14 +2942,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">73°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 94%</div>
+                <div class="fw-bold text-dark">💧 92%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -3088,7 +2956,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -3142,9 +3010,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">77'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">84'</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -3158,7 +3025,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️82% 🌡️71°<br>💨4mph 💧86%
+                            🌧️82% 🌡️71°<br>💨3mph 💧87%
                         </span>
                     </div>
                 </div>
@@ -3170,14 +3037,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Paraguayan Primera</span>
                     </div>
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">77'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">84'</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Río Parapití</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/10080.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -3190,14 +3055,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">71°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 86%</div>
+                <div class="fw-bold text-dark">💧 87%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -3205,7 +3069,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -3254,9 +3118,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Fri 09:30 PM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 24, 09:30 PM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -3270,7 +3133,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️24% 🌡️68°<br>💨5mph 💧79%
+                            🌧️24% 🌡️67°<br>💨4mph 💧80%
                         </span>
                     </div>
                 </div>
@@ -3282,14 +3145,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Paraguayan Primera</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Fri 09:30 PM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 24, 09:30 PM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio ueno La Nueva Olla</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7466.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -3302,14 +3163,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">68°F</div>
+                <div class="fw-bold">67°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 79%</div>
+                <div class="fw-bold text-dark">💧 80%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -3317,7 +3177,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -3371,9 +3231,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">38'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">45'</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -3387,7 +3246,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️14% 🌡️85°<br>💨5mph 💧54%
+                            🌧️14% 🌡️85°<br>💨6mph 💧54%
                         </span>
                     </div>
                 </div>
@@ -3399,14 +3258,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Peru Liga 1</span>
                     </div>
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">38'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">45'</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Campeones del '36</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/22168.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -3418,7 +3275,6 @@
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/5267.png" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
                         </div>
                     </div>
-                    
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
@@ -3434,7 +3290,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">6 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -3483,9 +3339,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 01:30 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 01:30 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -3499,7 +3354,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️72°<br>💨3mph 💧65%
+                            🌧️0% 🌡️72°<br>💨3mph 💧66%
                         </span>
                     </div>
                 </div>
@@ -3511,14 +3366,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Peru Liga 1</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 01:30 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 01:30 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Monumental de Lima</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/11995.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -3531,14 +3384,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">72°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 65%</div>
+                <div class="fw-bold text-dark">💧 66%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -3602,7 +3454,6 @@
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -3616,7 +3467,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️10% 🌡️63°<br>💨2mph 💧76%
+                            🌧️10% 🌡️63°<br>💨2mph 💧77%
                         </span>
                     </div>
                 </div>
@@ -3630,12 +3481,10 @@
                     </div>
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 VEB Arena</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21949.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -3648,14 +3497,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">63°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 76%</div>
+                <div class="fw-bold text-dark">💧 77%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -3717,9 +3565,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 01:30 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 01:30 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -3733,7 +3580,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️88% 🌡️91°<br>💨4mph 💧39%
+                            🌧️88% 🌡️91°<br>💨4mph 💧38%
                         </span>
                     </div>
                 </div>
@@ -3745,14 +3592,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Salvadoran Primera</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 01:30 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 01:30 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Estadio Óscar Alberto Quiteño</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7231.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -3765,14 +3610,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">91°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 39%</div>
+                <div class="fw-bold text-dark">💧 38%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -3836,7 +3680,6 @@
                 <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -3850,7 +3693,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️67°<br>💨12mph 💧50%
+                            🌧️0% 🌡️67°<br>💨12mph 💧51%
                         </span>
                     </div>
                 </div>
@@ -3864,12 +3707,10 @@
                     </div>
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Hitachi Energy Arena</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131552.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -3882,14 +3723,13 @@
                         </div>
                     </div>
                     
-                    
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">67°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 50%</div>
+                <div class="fw-bold text-dark">💧 51%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -3951,9 +3791,8 @@
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:00 AM UTC</span>
                 </div>
-                
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
                         <div class="d-flex align-items-center text-truncate gap-1">
@@ -3979,14 +3818,12 @@
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">USL Championship</span>
                     </div>
-                    <span class="badge bg-light text-dark border flex-shrink-0" style="font-size: 0.65rem;">Sat 12:00 AM</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0" style="font-size: 0.65rem;">Jul 25, 12:00 AM UTC</span>
                 </div>
-                
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Venue Unlisted</span>
                     </div>
-                    
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
                             <img src="https://a.espncdn.com/i/teamlogos/soccer/500/19408.png" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
@@ -3999,10 +3836,9 @@
                         </div>
                     </div>
                     
-                    
         <div class="text-center p-3 mt-2 border-top">
             <h6 class="text-warning fw-bold mb-1">⚠️ Weather Info Not Available</h6>
-            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium coordinates or venue location unlisted for this fixture.</p>
+            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium coordinates unlisted.</p>
         </div>
                 </div>
             </div>
