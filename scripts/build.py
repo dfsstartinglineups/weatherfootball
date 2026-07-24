@@ -472,6 +472,17 @@ MASTER_HTML_TEMPLATE = """<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>__PAGE_TITLE__</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XL59G5DSWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XL59G5DSWQ');
+    </script>
+    
     <meta name="description" content="__META_DESC__">
     <meta name="keywords" content="__SEO_KEYWORDS__">
     <link rel="canonical" href="__CANONICAL_URL__" />
@@ -590,7 +601,7 @@ __MATCH_CARDS_GRID__
                 }
             });
 
-            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -600,7 +611,6 @@ __MATCH_CARDS_GRID__
             }
         });
 
-        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
             const modalElement = document.getElementById('radarModal');
             const modalTitle = document.getElementById('radarModalTitle');
