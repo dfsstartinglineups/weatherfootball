@@ -113,13 +113,15 @@ def geocode_query_open_meteo(query_text):
 
 def geocode_venue_cascading(venue_name, city, country):
     """
-    3-Stage Cascading Geocoder:
-    1. Stadium Name + City
+    3-Stage Cascading Geocoder with City Sanitization (e.g. "Houston, Texas" -> "Houston")
+    1. Stadium Name + Clean City
     2. Stadium Name Alone
-    3. City + Country Fallback
+    3. Clean City Fallback
     """
-    if venue_name and city:
-        lat, lon = geocode_query_open_meteo(f"{venue_name} {city}")
+    clean_city = city.split(',')[0].strip() if city else ""
+
+    if venue_name and clean_city:
+        lat, lon = geocode_query_open_meteo(f"{venue_name} {clean_city}")
         if lat != 0.0 and lon != 0.0:
             return lat, lon
 
@@ -128,9 +130,8 @@ def geocode_venue_cascading(venue_name, city, country):
         if lat != 0.0 and lon != 0.0:
             return lat, lon
 
-    location_str = f"{city}, {country}".strip(", ")
-    if location_str:
-        lat, lon = geocode_query_open_meteo(location_str)
+    if clean_city:
+        lat, lon = geocode_query_open_meteo(clean_city)
         if lat != 0.0 and lon != 0.0:
             return lat, lon
 
@@ -271,7 +272,7 @@ def render_game_card_html(game, is_compact_default=True):
     is_dome = game['stadium']['roof'] in ["Dome", "Retractable"]
     is_too_early = w.get('status') in ["too_early", "no_coords"] or w.get('temp') == "--"
 
-    # Compute Max Rain Chance (%) during the match window
+    # Compute Max Rain Chance (%) during match window
     hourly = w.get('hourly', [])
     max_pop = max([h.get('precipChance', 0) for h in hourly], default=0) if hourly else 0
 
@@ -307,9 +308,9 @@ def render_game_card_html(game, is_compact_default=True):
 
     radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&zoom=10&level=surface&overlay=rain&product=ecmwf"
 
-    weather_emoji_line = f"Roof Closed 🌡️{w['temp']}°" if is_dome else f"🌧️{max_pop}% 🌡️{w['temp']}° 💨{w['windSpeed']}mph"
+    weather_emoji_line = f"Roof Closed<br>🌡️{w['temp']}°" if is_dome else f"🌧️{max_pop}%<br>🌡️{w['temp']}° 💨{w['windSpeed']}mph"
     if is_too_early:
-        weather_emoji_line = "Roof Closed" if is_dome else "🔭 Forecast pending"
+        weather_emoji_line = "Roof Closed" if is_dome else "🔭 Forecast<br>pending"
 
     show_ribbon = "block" if is_compact_default else "none"
     show_full = "none" if is_compact_default else "block"
@@ -379,25 +380,34 @@ def render_game_card_html(game, is_compact_default=True):
     return f"""
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-{game['id']}">
         <div class="card game-card shadow-sm {border_class} {bg_class}">
-            <!-- COMPACT RIBBON VIEW -->
+            <!-- COMPACT RIBBON VIEW (STACKED TEAMS) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_ribbon};">
-                <div class="d-flex align-items-center justify-content-between mb-1">
+                <div class="d-flex align-items-center justify-content-between mb-2">
                     <div class="d-flex align-items-center text-truncate me-2">
                         {league_logo_img}
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">{game['league_name']}</span>
                     </div>
                     <span class="badge {badge_style} flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>
                 </div>
-                <div class="d-flex align-items-center justify-content-between mt-1 gap-2">
-                    <div class="d-flex align-items-center text-truncate gap-1" style="max-width: 60%;">
-                        <img src="{game['away_logo']}" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
-                        <span class="fw-bold text-dark text-truncate" style="font-size: 0.8rem;">{game['away_team']}</span>
-                        <span class="text-muted small">vs</span>
-                        <span class="fw-bold text-dark text-truncate" style="font-size: 0.8rem;">{game['home_team']}</span>
-                        <img src="{game['home_logo']}" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                
+                <div class="d-flex align-items-center justify-content-between gap-2">
+                    <!-- Stacked Teams Column (Left) -->
+                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="{game['away_logo']}" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">{game['away_team']}</span>
+                        </div>
+                        <div class="d-flex align-items-center text-truncate gap-1">
+                            <img src="{game['home_logo']}" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
+                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">{game['home_team']}</span>
+                        </div>
                     </div>
-                    <div class="fw-bold text-primary text-end flex-shrink-0" style="font-size: 0.75rem;">
-                        {weather_emoji_line}
+
+                    <!-- Weather Info Vertical Column (Right) -->
+                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
+                        <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
+                            {weather_emoji_line}
+                        </span>
                     </div>
                 </div>
             </div>
@@ -501,11 +511,19 @@ __SCHEMA_JSON__
                 Weather <span style="color: #5ac8fa;">Football</span>
             </a>
             
-            <div class="d-flex align-items-center gap-2">
-                <input list="nav-search-options" id="nav-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 220px;" placeholder="🔍 Search Team / League..." onchange="if(this.value) { const opt = document.querySelector('#nav-search-options option[value=\\''+this.value+'\\']'); if(opt) window.location.href = opt.dataset.url; }">
-                <datalist id="nav-search-options">
-__SEARCH_OPTIONS__
+            <div class="d-flex align-items-center gap-2 flex-wrap">
+                <!-- LEAGUE SEARCH -->
+                <input list="league-search-options" id="league-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🏆 League..." onchange="if(this.value) { const opt = document.querySelector('#league-search-options option[value=\\''+this.value+'\\']'); if(opt) window.location.href = opt.dataset.url; }">
+                <datalist id="league-search-options">
+__LEAGUE_SEARCH_OPTIONS__
                 </datalist>
+
+                <!-- TEAM SEARCH -->
+                <input list="team-search-options" id="team-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🔍 Team..." onchange="if(this.value) { const opt = document.querySelector('#team-search-options option[value=\\''+this.value+'\\']'); if(opt) window.location.href = opt.dataset.url; }">
+                <datalist id="team-search-options">
+__TEAM_SEARCH_OPTIONS__
+                </datalist>
+
                 <a href="/" class="btn btn-sm btn-outline-light px-3 fw-bold" style="font-size: 0.75rem;">Full Slate</a>
             </div>
         </div>
@@ -693,14 +711,16 @@ def main():
     # Chronological Sorting by Game Kickoff Time
     today_games.sort(key=lambda x: x['game_time'])
 
-    # 5. Build Search Dropdown Options HTML (Filtering out generic 'global-football')
-    search_options_html = ""
+    # 5. Build Dual Datalist Options HTML (League vs Team)
+    league_search_options_html = ""
     for l_slug, l_data in sorted(leagues_registry.items(), key=lambda x: x[1]['name']):
         if l_slug == "global-football":
             continue
-        search_options_html += f'                    <option value="{l_data["name"]} (League)" data-url="/leagues/{l_slug}/"></option>\n'
+        league_search_options_html += f'                    <option value="{l_data["name"]}" data-url="/leagues/{l_slug}/"></option>\n'
+
+    team_search_options_html = ""
     for t_slug, t_data in sorted(teams_registry.items(), key=lambda x: x[1]['name']):
-        search_options_html += f'                    <option value="{t_data["name"]}" data-url="/teams/{t_slug}/"></option>\n'
+        team_search_options_html += f'                    <option value="{t_data["name"]}" data-url="/teams/{t_slug}/"></option>\n'
 
     toggle_row_html = """
         <div class="d-flex justify-content-end mb-3 px-1">
@@ -715,7 +735,7 @@ def main():
         <div class="col-12 text-center py-5">
             <div class="alert alert-light border shadow-sm d-inline-block px-4 py-3">
                 <h5>⚽ No Matches Scheduled Today</h5>
-                <p class="text-muted mb-0 small">Use the search bar above to view upcoming match schedules and stadium forecasts.</p>
+                <p class="text-muted mb-0 small">Use the search bars above to view upcoming match schedules and stadium forecasts.</p>
             </div>
         </div>"""
 
@@ -730,7 +750,8 @@ def main():
     home_content = home_content.replace("__HERO_HEADING__", "Live Football Stadium Weather")
     home_content = home_content.replace("__HERO_SUBHEADING__", f"Matchday Slate for {date_str_display}")
     home_content = home_content.replace("__TOGGLE_CONTROLS_ROW__", toggle_row_html if today_games else "")
-    home_content = home_content.replace("__SEARCH_OPTIONS__", search_options_html)
+    home_content = home_content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
+    home_content = home_content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
     home_content = home_content.replace("__MATCH_CARDS_GRID__", home_cards_html)
     home_content = home_content.replace("__SCHEMA_JSON__", schema_json)
 
@@ -756,7 +777,8 @@ def main():
         content = content.replace("__HERO_HEADING__", f"{l_data['name']} Weather")
         content = content.replace("__HERO_SUBHEADING__", f"Active Slate & Stadium Forecasts")
         content = content.replace("__TOGGLE_CONTROLS_ROW__", toggle_row_html)
-        content = content.replace("__SEARCH_OPTIONS__", search_options_html)
+        content = content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
+        content = content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
         content = content.replace("__MATCH_CARDS_GRID__", cards_html)
         content = content.replace("__SCHEMA_JSON__", schema_json)
 
@@ -778,7 +800,8 @@ def main():
         content = content.replace("__HERO_HEADING__", f"{t_data['name']} Forecast")
         content = content.replace("__HERO_SUBHEADING__", f"League: {t_data['league']}")
         content = content.replace("__TOGGLE_CONTROLS_ROW__", "")
-        content = content.replace("__SEARCH_OPTIONS__", search_options_html)
+        content = content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
+        content = content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
         content = content.replace("__MATCH_CARDS_GRID__", cards_html)
         content = content.replace("__SCHEMA_JSON__", schema_json)
 
