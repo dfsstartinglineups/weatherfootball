@@ -510,7 +510,7 @@ __SCHEMA_JSON__
         .hour-pop { font-size: 0.65rem; color: #0d6efd; font-weight: 700; height: 12px; }
         .hour-temp { font-size: 0.8rem; font-weight: 600; }
         
-        .league-section-title { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; margin: 1.5rem 0 0.5rem 0.25rem; display: flex; align-items: center; }
+        .league-section-title { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; margin: 1.5rem 0 0.5rem 0.25rem; display: flex; align-items: center; scroll-margin-top: 70px; }
         .league-section-title a { color: inherit; text-decoration: none; transition: color 0.2s; display: flex; align-items: center; }
         .league-section-title a:hover { color: #0d6efd; }
         .league-section-title::after { content: ""; flex: 1; border-bottom: 1px solid #e9ecef; margin-left: 10px; }
@@ -792,9 +792,28 @@ def main():
             if lname not in grouped_games: grouped_games[lname] = {"slug": g['league_slug'], "games": []}
             grouped_games[lname]["games"].append(g)
 
+        # Build Homepage Quick-Jump Select options from leagues on today's schedule
+        home_jump_options = '<option value="" selected disabled>⚽ Jump to League...</option>\n'
+        for lname, ldata in sorted(grouped_games.items(), key=lambda x: x[0]):
+            home_jump_options += f'                    <option value="league-section-{ldata["slug"]}">{lname}</option>\n'
+
+        home_toggle_row_html = f"""
+        <div class="d-flex justify-content-between align-items-center mb-3 px-1 flex-wrap gap-2">
+            <div>
+                <select class="form-select form-select-sm fw-bold shadow-sm text-secondary" style="max-width: 240px; border-radius: 20px; font-size: 0.8rem;" onchange="if(this.value) {{ const target = document.getElementById(this.value); if(target) target.scrollIntoView({{behavior: 'smooth', block: 'start'}}); }}">
+                    {home_jump_options}
+                </select>
+            </div>
+            <div>
+                <button id="expand-toggle-btn" class="btn btn-sm btn-white shadow-sm border fw-bold text-secondary" style="border-radius: 20px; font-size: 0.8rem;" onclick="toggleAllCards()">
+                    ▼ Expand All Cards
+                </button>
+            </div>
+        </div>"""
+
         for lname, ldata in sorted(grouped_games.items(), key=lambda x: x[0]):
             home_cards_html += f"""
-            <div class="col-12 w-100 px-1">
+            <div class="col-12 w-100 px-1" id="league-section-{ldata['slug']}">
                 <div class="league-section-title">
                     <a href="/leagues/{ldata['slug']}/">{lname} <span style="font-size: 0.65rem; margin-left: 4px;">➔</span></a>
                 </div>
@@ -802,6 +821,7 @@ def main():
             for g in ldata['games']:
                 home_cards_html += render_game_card_html(g, is_compact_default=True)
     else:
+        home_toggle_row_html = ""
         home_cards_html = """
         <div class="col-12 text-center py-5">
             <div class="alert alert-light border shadow-sm d-inline-block px-4 py-3">
@@ -820,7 +840,7 @@ def main():
     home_content = home_content.replace("__OG_DESC__", f"Track real-time pitch rain risks, stadium wind direction, and weather impact analytics for today's football matches.")
     home_content = home_content.replace("__HERO_HEADING__", "Today's Live Football Game Weather")
     home_content = home_content.replace("__HERO_SUBHEADING__", f"Matchday Slate & Stadium Pitch Forecasts for {date_str_display}")
-    home_content = home_content.replace("__TOGGLE_CONTROLS_ROW__", toggle_row_html if home_games else "")
+    home_content = home_content.replace("__TOGGLE_CONTROLS_ROW__", home_toggle_row_html)
     home_content = home_content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
     home_content = home_content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
     home_content = home_content.replace("__MATCH_CARDS_GRID__", home_cards_html)
@@ -935,7 +955,7 @@ def main():
 </sitemapindex>'''
     write_if_changed("sitemap.xml", sitemap_index_content)
 
-    print("✅ Build complete! Hourly forecast localizations added, static pages re-rendered, and sitemaps updated.")
+    print("✅ Build complete! Left-aligned daily league jump menu added to homepage.")
 
 if __name__ == "__main__":
     main()
