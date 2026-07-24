@@ -40,7 +40,6 @@ def slugify(text):
     """
     if not text:
         return "unknown"
-    # Normalize unicode to separate characters from diacritical marks, then encode to ASCII
     text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
     text = text.lower().strip()
     text = re.sub(r'[^\w\s-]', '', text)
@@ -265,9 +264,9 @@ def generate_soccer_matchup_analysis(weather, is_dome):
     return "<br>".join(notes)
 
 # ==========================================
-# CARD HTML GENERATOR
+# CARD HTML GENERATOR (DUAL COMPACT / EXPANDED)
 # ==========================================
-def render_game_card_html(game):
+def render_game_card_html(game, is_compact_default=True):
     w = game['weather']
     is_dome = game['stadium']['roof'] in ["Dome", "Retractable"]
     is_too_early = w.get('status') in ["too_early", "no_coords"] or w.get('temp') == "--"
@@ -302,6 +301,13 @@ def render_game_card_html(game):
         badge_style = "bg-light text-dark border"
 
     radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&zoom=10&level=surface&overlay=rain&product=ecmwf"
+
+    weather_emoji_line = f"Roof Closed 🌡️{w['temp']}°" if is_dome else f"🌧️{w['precip']}\" 🌡️{w['temp']}° 💨{w['windSpeed']}mph"
+    if is_too_early:
+        weather_emoji_line = "Roof Closed" if is_dome else "🔭 Forecast pending"
+
+    show_ribbon = "block" if is_compact_default else "none"
+    show_full = "none" if is_compact_default else "block"
 
     hourly_html = ""
     if not is_too_early and not is_dome and w.get('hourly'):
@@ -350,7 +356,7 @@ def render_game_card_html(game):
         </div>
         {hourly_html}
         <div class="mt-2 mb-2">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="showRadar('{radar_url}', '{game['stadium']['name']}')">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('{radar_url}', '{game['stadium']['name']}')">
                 🗺️ Live Weather Radar
             </button>
         </div>
@@ -368,32 +374,58 @@ def render_game_card_html(game):
     return f"""
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-{game['id']}">
         <div class="card game-card shadow-sm {border_class} {bg_class}">
-            <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
-                <div class="d-flex align-items-center text-truncate">
-                    {league_logo_img}
-                    <span class="fw-bold text-truncate" style="font-size: 0.75rem;">{game['league_name']}</span>
+            <!-- COMPACT RIBBON VIEW -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_ribbon};">
+                <div class="d-flex align-items-center justify-content-between mb-1">
+                    <div class="d-flex align-items-center text-truncate me-2">
+                        {league_logo_img}
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">{game['league_name']}</span>
+                    </div>
+                    <span class="badge {badge_style} flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>
                 </div>
-                <span class="badge {badge_style} flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>
+                <div class="d-flex align-items-center justify-content-between mt-1 gap-2">
+                    <div class="d-flex align-items-center text-truncate gap-1" style="max-width: 60%;">
+                        <img src="{game['away_logo']}" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate" style="font-size: 0.8rem;">{game['away_team']}</span>
+                        <span class="text-muted small">vs</span>
+                        <span class="fw-bold text-dark text-truncate" style="font-size: 0.8rem;">{game['home_team']}</span>
+                        <img src="{game['home_logo']}" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                    </div>
+                    <div class="fw-bold text-primary text-end flex-shrink-0" style="font-size: 0.75rem;">
+                        {weather_emoji_line}
+                    </div>
+                </div>
             </div>
-            
-            <div class="card-body px-2 pt-2 pb-2">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                    <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 {game['stadium']['name']}</span>
+
+            <!-- EXPANDED FULL CARD VIEW -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_full};">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        {league_logo_img}
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">{game['league_name']}</span>
+                    </div>
+                    <span class="badge {badge_style} flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>
                 </div>
                 
-                <div class="d-flex justify-content-between align-items-center px-1 mb-1">
-                    <div class="d-flex align-items-center text-truncate" style="width: 45%;">
-                        <img src="{game['away_logo']}" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                        <a href="/teams/{game['away_slug']}/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;">{game['away_team']}</a>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 {game['stadium']['name']}</span>
                     </div>
-                    <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
-                    <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
-                        <a href="/teams/{game['home_slug']}/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;">{game['home_team']}</a>
-                        <img src="{game['home_logo']}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                    
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="{game['away_logo']}" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <a href="/teams/{game['away_slug']}/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">{game['away_team']}</a>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <a href="/teams/{game['home_slug']}/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">{game['home_team']}</a>
+                            <img src="{game['home_logo']}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
                     </div>
+                    
+                    {weather_section}
                 </div>
-                
-                {weather_section}
             </div>
         </div>
     </div>"""
@@ -475,10 +507,12 @@ __SEARCH_OPTIONS__
     </nav>
 
     <div class="main-container">
-        <div class="text-center mb-4">
+        <div class="text-center mb-3">
             <h1 class="fw-bold h3">__HERO_HEADING__</h1>
-            <p class="text-muted small">__HERO_SUBHEADING__</p>
+            <p class="text-muted small m-0">__HERO_SUBHEADING__</p>
         </div>
+
+        __TOGGLE_CONTROLS_ROW__
         
         <div class="row w-100 m-0 p-0 justify-content-center">
 __MATCH_CARDS_GRID__
@@ -505,6 +539,35 @@ __MATCH_CARDS_GRID__
             document.getElementById('radarModalTitle').innerText = 'Radar: ' + venueName;
             document.getElementById('radarFrame').src = url;
             new bootstrap.Modal(document.getElementById('radarModal')).show();
+        }
+
+        function toggleSingleCard(element) {
+            const card = element.closest('.game-card');
+            const ribbon = card.querySelector('.ribbon-view');
+            const full = card.querySelector('.full-card-view');
+            if (ribbon.style.display === 'none') {
+                ribbon.style.display = 'block';
+                full.style.display = 'none';
+            } else {
+                ribbon.style.display = 'none';
+                full.style.display = 'block';
+            }
+        }
+
+        function toggleAllCards() {
+            const ribbons = document.querySelectorAll('.ribbon-view');
+            const fulls = document.querySelectorAll('.full-card-view');
+            const btn = document.getElementById('expand-toggle-btn');
+            if (!ribbons.length) return;
+            
+            const isCurrentlyCompact = Array.from(ribbons).some(r => r.style.display !== 'none');
+            
+            ribbons.forEach(r => r.style.display = isCurrentlyCompact ? 'none' : 'block');
+            fulls.forEach(f => f.style.display = isCurrentlyCompact ? 'block' : 'none');
+            
+            if (btn) {
+                btn.innerHTML = isCurrentlyCompact ? '▲ Collapse All Cards' : '▼ Expand All Cards';
+            }
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -537,6 +600,15 @@ def main():
         print(f"❌ Error fetching ESPN Scoreboard: {e}")
         scoreboard_data = {}
 
+    # Build Top-Level ESPN Leagues Lookup Map
+    top_leagues = scoreboard_data.get('leagues', [])
+    leagues_map = {}
+    for l in top_leagues:
+        l_id = str(l.get('id', ''))
+        l_name = l.get('name') or l.get('displayName') or l.get('midsizeName') or l.get('abbreviation')
+        if l_id and l_name:
+            leagues_map[l_id] = l_name
+
     events = scoreboard_data.get('events', [])
     print(f"⚽ Found {len(events)} fixtures on ESPN master board.")
 
@@ -552,8 +624,22 @@ def main():
         status = event['status']['type']['state']
         clock = event['status']['type'].get('shortDetail', '')
 
-        league_name = event.get('league', {}).get('name') or comp.get('league', {}).get('name') or "Global Football"
-        league_logos = event.get('league', {}).get('logos', []) or comp.get('league', {}).get('logos', [])
+        # Robust League Name Extraction
+        league_obj = event.get('league') or comp.get('league') or {}
+        league_id = str(league_obj.get('id', ''))
+        
+        league_name = (
+            league_obj.get('name') or 
+            league_obj.get('displayName') or 
+            league_obj.get('midsizeName') or 
+            league_obj.get('abbreviation') or 
+            leagues_map.get(league_id) or 
+            comp.get('league', {}).get('name') or 
+            event.get('season', {}).get('slug', '').replace('-', ' ').title() or 
+            "Global Football"
+        )
+
+        league_logos = league_obj.get('logos', []) or comp.get('league', {}).get('logos', [])
         league_logo = league_logos[0]['href'] if league_logos else ""
         league_slug = slugify(league_name)
 
@@ -614,6 +700,9 @@ def main():
 
     save_stadiums_db(stadiums_db)
 
+    # Chronological Sorting by Game Kickoff Time
+    today_games.sort(key=lambda x: x['game_time'])
+
     # 5. Build Search Dropdown Options HTML (Filtering out generic 'global-football')
     search_options_html = ""
     for l_slug, l_data in sorted(leagues_registry.items(), key=lambda x: x[1]['name']):
@@ -623,9 +712,16 @@ def main():
     for t_slug, t_data in sorted(teams_registry.items(), key=lambda x: x[1]['name']):
         search_options_html += f'                    <option value="{t_data["name"]}" data-url="/teams/{t_slug}/"></option>\n'
 
-    # PAGE GENERATOR 1: MAIN HOMEPAGE
+    toggle_row_html = """
+        <div class="d-flex justify-content-end mb-3 px-1">
+            <button id="expand-toggle-btn" class="btn btn-sm btn-white shadow-sm border fw-bold text-secondary" style="border-radius: 20px; font-size: 0.8rem;" onclick="toggleAllCards()">
+                ▼ Expand All Cards
+            </button>
+        </div>"""
+
+    # PAGE GENERATOR 1: MAIN HOMEPAGE (Compact Default = True)
     print("\n🌐 Generating Homepage (/index.html)...")
-    home_cards_html = "".join([render_game_card_html(g) for g in today_games]) if today_games else """
+    home_cards_html = "".join([render_game_card_html(g, is_compact_default=True) for g in today_games]) if today_games else """
         <div class="col-12 text-center py-5">
             <div class="alert alert-light border shadow-sm d-inline-block px-4 py-3">
                 <h5>⚽ No Matches Scheduled Today</h5>
@@ -643,20 +739,22 @@ def main():
     home_content = home_content.replace("__OG_DESC__", "Track pitch rain, wind speeds, and stadium conditions for all live soccer matches.")
     home_content = home_content.replace("__HERO_HEADING__", "Live Football Stadium Weather")
     home_content = home_content.replace("__HERO_SUBHEADING__", f"Matchday Slate for {date_str_display}")
+    home_content = home_content.replace("__TOGGLE_CONTROLS_ROW__", toggle_row_html if today_games else "")
     home_content = home_content.replace("__SEARCH_OPTIONS__", search_options_html)
     home_content = home_content.replace("__MATCH_CARDS_GRID__", home_cards_html)
     home_content = home_content.replace("__SCHEMA_JSON__", schema_json)
 
     write_if_changed("index.html", home_content)
 
-    # PAGE GENERATOR 2: LEAGUE PAGES (Skip generic 'global-football')
+    # PAGE GENERATOR 2: LEAGUE PAGES (Compact Default = True, Skip generic 'global-football')
     print(f"\n🏆 Generating League Pages (/leagues/)...")
     for l_slug, l_data in leagues_registry.items():
         if l_slug == "global-football":
             print(f"  ⏭️  Skipping generic league page generation for: {l_slug}")
             continue
 
-        cards_html = "".join([render_game_card_html(g) for g in l_data['games']])
+        l_data['games'].sort(key=lambda x: x['game_time'])
+        cards_html = "".join([render_game_card_html(g, is_compact_default=True) for g in l_data['games']])
         schema_json = json.dumps({"@context": "https://schema.org", "@type": "SportsEvent", "name": f"{l_data['name']} Matches"}, indent=2)
 
         content = MASTER_HTML_TEMPLATE
@@ -667,16 +765,18 @@ def main():
         content = content.replace("__OG_DESC__", f"Track real-time rain risks and wind metrics for {l_data['name']} fixtures.")
         content = content.replace("__HERO_HEADING__", f"{l_data['name']} Weather")
         content = content.replace("__HERO_SUBHEADING__", f"Active Slate & Stadium Forecasts")
+        content = content.replace("__TOGGLE_CONTROLS_ROW__", toggle_row_html)
         content = content.replace("__SEARCH_OPTIONS__", search_options_html)
         content = content.replace("__MATCH_CARDS_GRID__", cards_html)
         content = content.replace("__SCHEMA_JSON__", schema_json)
 
         write_if_changed(os.path.join("leagues", l_slug, "index.html"), content)
 
-    # PAGE GENERATOR 3: TEAM PAGES
+    # PAGE GENERATOR 3: TEAM PAGES (Compact Default = False -> Fully Expanded)
     print(f"\n🛡️ Generating {len(teams_registry)} Team Pages (/teams/)...")
     for t_slug, t_data in teams_registry.items():
-        cards_html = "".join([render_game_card_html(g) for g in t_data['games']])
+        t_data['games'].sort(key=lambda x: x['game_time'])
+        cards_html = "".join([render_game_card_html(g, is_compact_default=False) for g in t_data['games']])
         schema_json = json.dumps({"@context": "https://schema.org", "@type": "SportsTeam", "name": t_data['name']}, indent=2)
 
         content = MASTER_HTML_TEMPLATE
@@ -687,6 +787,7 @@ def main():
         content = content.replace("__OG_DESC__", f"Live stadium weather analysis and pitch conditions for {t_data['name']}.")
         content = content.replace("__HERO_HEADING__", f"{t_data['name']} Forecast")
         content = content.replace("__HERO_SUBHEADING__", f"League: {t_data['league']}")
+        content = content.replace("__TOGGLE_CONTROLS_ROW__", "")
         content = content.replace("__SEARCH_OPTIONS__", search_options_html)
         content = content.replace("__MATCH_CARDS_GRID__", cards_html)
         content = content.replace("__SCHEMA_JSON__", schema_json)
