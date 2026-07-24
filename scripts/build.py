@@ -90,42 +90,89 @@ def save_json(filepath, data):
     write_if_changed(filepath, content)
 
 # ==========================================
-# STADIUM GEOCODING (OPEN-METEO)
+# STADIUM GEOCODING & CACHE SANITIZATION
 # ==========================================
-def geocode_query_open_meteo(query_text):
+def validate_and_clean_stadiums_db(stadiums_db):
+    """Purges stadium cache entries that have blatantly impossible coordinates (e.g. US stadium in Europe/Greece)."""
+    purged_count = 0
+    for v_id, s in list(stadiums_db.items()):
+        country = str(s.get("country", "")).upper()
+        lat = s.get("lat", 0.0)
+        lon = s.get("lon", 0.0)
+
+        # Sanity Check: Americas (USA, Canada, Mexico, etc.) must have negative longitude
+        is_americas = country in ["USA", "UNITED STATES", "CANADA", "MEXICO", "US"] or "USA" in country
+        if is_americas and lon > 0:
+            print(f"  🧹 Purging corrupted cache for [{v_id}] {s.get('name')} (Longitude {lon}° East is in Europe/Asia!)")
+            del stadiums_db[v_id]
+            purged_count += 1
+        elif lat == 0.0 and lon == 0.0:
+            del stadiums_db[v_id]
+            purged_count += 1
+            
+    if purged_count > 0:
+        print(f"  ✨ Sanitized {purged_count} bad entries from stadiums database.")
+
+def geocode_query_open_meteo(query_text, country_hint=""):
+    """Hits Open-Meteo's fast geocoding API with explicit country filtering."""
     if not query_text or not query_text.strip(): return 0.0, 0.0
-    url = f"https://geocoding-api.open-meteo.com/v1/search?name={requests.utils.quote(query_text)}&count=1&language=en&format=json"
+
+    clean_q = re.sub(r'[^\w\s]', ' ', query_text).strip()
+    clean_q = re.sub(r'\s+', ' ', clean_q)
+    if not clean_q: return 0.0, 0.0
+
+    url = f"https://geocoding-api.open-meteo.com/v1/search?name={requests.utils.quote(clean_q)}&count=10&language=en&format=json"
     try:
         resp = HTTP.get(url, timeout=8)
         if resp.status_code == 200:
             results = resp.json().get("results", [])
-            if results: return float(results[0]["latitude"]), float(results[0]["longitude"])
-    except Exception:
-        pass
+            if results:
+                if country_hint:
+                    ch_lower = country_hint.lower()
+                    for r in results:
+                        r_country = r.get("country", "").lower()
+                        r_code = r.get("country_code", "").lower()
+                        if ch_lower in r_country or r_code == ch_lower or (ch_lower in ["usa", "united states", "us"] and r_code == "us"):
+                            return float(r["latitude"]), float(r["longitude"])
+                            
+                return float(results[0]["latitude"]), float(results[0]["longitude"])
+    except Exception as e:
+        print(f"   ⚠️ Geocode error for '{query_text}': {e}")
     return 0.0, 0.0
 
 def geocode_venue_multi_stage(venue_name, city, country, home_team):
-    clean_city = city.split(',')[0].strip() if city else ""
-    
+    """Cascading Geocoder with country validation to prevent cross-continent mismapping."""
+    city_parts = [p.strip() for p in city.split(',') if p.strip()] if city else []
+    clean_city = city_parts[0] if city_parts else ""
+    country_hint = country.strip() if country else ""
+
+    # Stage 1: Stadium Name + City (Filtered by Country)
     if venue_name and venue_name not in ["Unknown Stadium", "Venue Unlisted"] and clean_city:
-        lat, lon = geocode_query_open_meteo(f"{venue_name} {clean_city}")
-        if lat != 0.0: return lat, lon
+        lat, lon = geocode_query_open_meteo(f"{venue_name} {clean_city}", country_hint)
+        if lat != 0.0 and lon != 0.0: return lat, lon
 
+    # Stage 2: Stadium Name Alone (Filtered by Country)
     if venue_name and venue_name not in ["Unknown Stadium", "Venue Unlisted"]:
-        lat, lon = geocode_query_open_meteo(venue_name)
-        if lat != 0.0: return lat, lon
+        lat, lon = geocode_query_open_meteo(venue_name, country_hint)
+        if lat != 0.0 and lon != 0.0: return lat, lon
 
+    # Stage 3: Clean City Alone (Filtered by Country)
     if clean_city:
-        lat, lon = geocode_query_open_meteo(f"{clean_city}, {country}".strip(", ") if country else clean_city)
-        if lat != 0.0: return lat, lon
+        lat, lon = geocode_query_open_meteo(clean_city, country_hint)
+        if lat != 0.0 and lon != 0.0: return lat, lon
 
+    # Stage 4: Home Team Fallback
     if home_team and home_team != "TBD":
-        lat, lon = geocode_query_open_meteo(f"{home_team} stadium")
-        if lat != 0.0: return lat, lon
+        lat, lon = geocode_query_open_meteo(f"{home_team} stadium", country_hint)
+        if lat != 0.0 and lon != 0.0: return lat, lon
 
-    if country:
-        lat, lon = geocode_query_open_meteo(country)
-        if lat != 0.0: return lat, lon
+        lat, lon = geocode_query_open_meteo(home_team, country_hint)
+        if lat != 0.0 and lon != 0.0: return lat, lon
+
+    # Stage 5: Country Centroid
+    if country_hint:
+        lat, lon = geocode_query_open_meteo(country_hint)
+        if lat != 0.0 and lon != 0.0: return lat, lon
 
     return 0.0, 0.0
 
@@ -267,7 +314,6 @@ def render_game_card_html(game, is_compact_default=True):
         except Exception:
             fallback_text = "SCHEDULED"
         
-        # Local timezone rendering via JS attribute
         badge_html = f'<span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="{game["game_time"]}" style="font-size: 0.65rem;">{fallback_text}</span>'
 
     radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&zoom=10&level=surface&overlay=rain&product=ecmwf"
@@ -405,41 +451,6 @@ def render_game_card_html(game, is_compact_default=True):
         </div>
     </div>"""
 
-def render_future_card_html(game):
-    """Generates the static banner for the 14-day look-ahead."""
-    try:
-        dt = datetime.datetime.fromisoformat(game['game_time'].replace('Z', '+00:00'))
-        formatted_date = dt.strftime('%a, %b %d at %I:%M %p UTC')
-    except Exception:
-        formatted_date = "Date TBD"
-
-    return f"""
-    <div class="col-12 mb-3 px-2">
-        <div class="card p-4 text-center border shadow-sm bg-light h-100" style="border-radius: 12px;">
-            <div class="mb-2">
-                <span class="badge bg-secondary px-3 py-1">NO MATCH TODAY</span>
-            </div>
-            <h6 class="fw-bold text-muted mb-3 text-uppercase" style="font-size: 0.75rem; letter-spacing: 1px;">Next Scheduled Match</h6>
-            
-            <div class="d-flex justify-content-center align-items-center mb-3 gap-2">
-                <div class="text-end" style="flex:1;">
-                    <img src="{game.get('away_logo', '')}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                    <div class="fw-bold text-dark mt-1" style="font-size: 0.85rem;">{game['away_team']}</div>
-                </div>
-                <div class="text-muted fw-bold" style="font-size: 0.8rem;">@</div>
-                <div class="text-start" style="flex:1;">
-                    <img src="{game.get('home_logo', '')}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                    <div class="fw-bold text-dark mt-1" style="font-size: 0.85rem;">{game['home_team']}</div>
-                </div>
-            </div>
-
-            <div class="text-primary fw-bold" style="font-size: 0.85rem;">📅 <span class="local-future-badge" data-futuretime="{game['game_time']}">{formatted_date}</span></div>
-            <div class="small text-muted mt-1">📍 {game.get('stadium_name', 'TBD Stadium')}</div>
-            <div class="small text-muted mt-3 pt-3 border-top" style="font-size: 0.7rem;">Weather forecast will be available roughly 14 days before kickoff.</div>
-        </div>
-    </div>
-    """
-
 def render_dormant_banner():
     return """
     <div class="col-12 mb-3 px-2">
@@ -558,18 +569,11 @@ __MATCH_CARDS_GRID__
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Localize scheduled game times
+            // Localize scheduled game times (including Month and Day for multi-week slates)
             document.querySelectorAll('.local-time-badge').forEach(el => {
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
                     el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
-                }
-            });
-            // Localize future banner times
-            document.querySelectorAll('.local-future-badge').forEach(el => {
-                const dt = new Date(el.dataset.futuretime);
-                if (!isNaN(dt)) {
-                    el.textContent = dt.toLocaleString(undefined, {weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                 }
             });
         });
@@ -629,6 +633,8 @@ def main():
     date_str_future = f"{start_future_dt.strftime('%Y%m%d')}-{end_future_dt.strftime('%Y%m%d')}"
 
     stadiums_db = load_json(STADIUMS_FILE, {})
+    validate_and_clean_stadiums_db(stadiums_db)
+
     master_registry = load_json(MASTER_REGISTRY_FILE, {"leagues": {}, "teams": {}})
     if "leagues" not in master_registry: master_registry["leagues"] = {}
     if "teams" not in master_registry: master_registry["teams"] = {}
@@ -651,7 +657,6 @@ def main():
         print(f"❌ Error fetching Future: {e}")
         events_future = []
 
-    # Combine all events, removing duplicates by game ID
     all_events_raw = events_today + events_future
     unique_events = {}
     for ev in all_events_raw:
@@ -714,7 +719,7 @@ def main():
             "stadium": stadium_info,
             "weather": weather
         })
-        time.sleep(0.05) # Prevent Open-Meteo rate limiting on massive slates
+        time.sleep(0.02)
 
     save_json(STADIUMS_FILE, stadiums_db)
     save_json(MASTER_REGISTRY_FILE, master_registry)
@@ -849,11 +854,10 @@ def main():
 
         write_if_changed(os.path.join("teams", t_slug, "index.html"), content)
 
-    # 10. Generate Sitemaps (Main, Leagues, Teams, and Master Index)
+    # 10. Generate Sitemaps
     print("\n🗺️ Generating Sitemaps...")
     lastmod_date = datetime.datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    # Main Sitemap (Homepage)
     sitemap_main_content = f'''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -865,21 +869,18 @@ def main():
 </urlset>'''
     write_if_changed("sitemap-main.xml", sitemap_main_content)
 
-    # Leagues Sitemap
     sitemap_leagues_content = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for url in league_urls:
         sitemap_leagues_content += f"  <url>\n    <loc>{url}</loc>\n    <lastmod>{lastmod_date}</lastmod>\n    <changefreq>daily</changefreq>\n  </url>\n"
     sitemap_leagues_content += "</urlset>"
     write_if_changed("sitemap-leagues.xml", sitemap_leagues_content)
 
-    # Teams Sitemap
     sitemap_teams_content = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for url in team_urls:
         sitemap_teams_content += f"  <url>\n    <loc>{url}</loc>\n    <lastmod>{lastmod_date}</lastmod>\n    <changefreq>daily</changefreq>\n  </url>\n"
     sitemap_teams_content += "</urlset>"
     write_if_changed("sitemap-teams.xml", sitemap_teams_content)
 
-    # Master Sitemap Index
     sitemap_index_content = f'''<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
@@ -897,7 +898,7 @@ def main():
 </sitemapindex>'''
     write_if_changed("sitemap.xml", sitemap_index_content)
 
-    print("✅ Build complete! Master registry updated, all static pages generated, and sitemaps created.")
+    print("✅ Build complete! All stadium caches sanitized, static pages re-rendered, and sitemaps generated.")
 
 if __name__ == "__main__":
     main()
