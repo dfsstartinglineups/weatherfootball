@@ -79,38 +79,30 @@ def get_effective_matchday_date():
     effective_time = now_est - timedelta(hours=3)
     return effective_time
 
+def load_json(filepath, default_val):
+    """Safely loads JSON from a file, returning default_val if it fails."""
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"⚠️ Error loading {filepath}: {e}")
+    return default_val
+
+def save_json(filepath, data):
+    """Safely saves data to JSON using the write_if_changed pipeline."""
+    content = json.dumps(data, indent=4, sort_keys=True)
+    write_if_changed(filepath, content)
+
 # ==========================================
-# DATABASE LOADERS
+# STADIUM DATABASE & GEOCODING (OPEN-METEO)
 # ==========================================
 def load_stadiums_db():
-    if os.path.exists(STADIUMS_FILE):
-        try:
-            with open(STADIUMS_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except Exception as e:
-            print(f"⚠️ Error loading {STADIUMS_FILE}: {e}")
-    return {}
+    return load_json(STADIUMS_FILE, {})
 
 def save_stadiums_db(stadiums_db):
-    content = json.dumps(stadiums_db, indent=4, sort_keys=True)
-    write_if_changed(STADIUMS_FILE, content)
+    save_json(STADIUMS_FILE, stadiums_db)
 
-def load_master_registry():
-    if os.path.exists(MASTER_REGISTRY_FILE):
-        try:
-            with open(MASTER_REGISTRY_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except Exception as e:
-            print(f"⚠️ Error loading {MASTER_REGISTRY_FILE}: {e}")
-    return {"leagues": {}, "teams": {}}
-
-def save_master_registry(registry):
-    content = json.dumps(registry, indent=4, sort_keys=True)
-    write_if_changed(MASTER_REGISTRY_FILE, content)
-
-# ==========================================
-# STADIUM GEOCODING (OPEN-METEO)
-# ==========================================
 def geocode_query_open_meteo(query_text):
     """Hits Open-Meteo's fast geocoding API."""
     if not query_text or not query_text.strip():
@@ -130,12 +122,7 @@ def geocode_query_open_meteo(query_text):
 
 def geocode_venue_multi_stage(venue_name, city, country, home_team):
     """
-    5-Stage Cascading Geocoder to guarantee coordinates when possible:
-    1. Stadium Name + Clean City
-    2. Stadium Name Alone
-    3. Clean City + Country Fallback
-    4. Home Team Name Fallback
-    5. Country Fallback (Capital/Centroid)
+    5-Stage Cascading Geocoder to guarantee coordinates when possible.
     """
     clean_city = city.split(',')[0].strip() if city else ""
 
@@ -199,7 +186,7 @@ def get_or_update_stadium(stadiums_db, venue_id, venue_info, home_team=""):
     return stadium_entry
 
 # ==========================================
-# WEATHER PIPELINE
+# WEATHER PIPELINE (WITH RELATIVE HUMIDITY)
 # ==========================================
 def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
     if lat == 0.0 or lon == 0.0:
@@ -278,7 +265,6 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
 # HTML GENERATORS
 # ==========================================
 def render_game_card_html(game, is_compact_default=True):
-    """Generates the full weather card HTML for a game happening today."""
     w = game['weather']
     is_dome = game['stadium']['roof'] in ["Dome", "Retractable"]
     is_no_coords = w.get('status') == "no_coords"
@@ -534,6 +520,10 @@ MASTER_HTML_TEMPLATE = """<!DOCTYPE html>
     <meta name="twitter:title" content="__OG_TITLE__">
     <meta name="twitter:description" content="__OG_DESC__">
     
+    <script type="application/ld+json">
+__SCHEMA_JSON__
+    </script>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body { background-color: #f8f9fa; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
@@ -684,28 +674,27 @@ def main():
 
     # 1. Effective Date Calculation (3:00 AM EST Rollover)
     effective_dt = get_effective_matchday_date()
-    date_str_espn = effective_dt.strftime("%Y%m%d")
+    date_str_today = effective_dt.strftime("%Y%m%d")
     date_str_display = effective_dt.strftime("%A, %B %d, %Y")
     date_str_seo = effective_dt.strftime("%B %d, %Y")
-    print(f"📅 Target Matchday Date: {date_str_display} (ESPN param: {date_str_espn})")
+    
+    start_future_dt = effective_dt + timedelta(days=1)
+    end_future_dt = effective_dt + timedelta(days=14)
+    date_str_future = f"{start_future_dt.strftime('%Y%m%d')}-{end_future_dt.strftime('%Y%m%d')}"
 
-    # 2. Load Stadium Database
+    # 2. Load Databases
     stadiums_db = load_stadiums_db()
     master_registry = load_master_registry()
 
     # 3. Fetch Master ESPN Scoreboards (Today + Future)
-    print(f"📡 Fetching Today's Slate ({date_str_espn})...")
-    espn_url_today = f"https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard?dates={date_str_espn}"
+    print(f"📡 Fetching Today's Slate ({date_str_today})...")
+    espn_url_today = f"https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard?dates={date_str_today}"
     try:
         res_today = HTTP.get(espn_url_today, timeout=15)
         events_today = res_today.json().get('events', []) if res_today.status_code == 200 else []
     except Exception as e:
         print(f"❌ Error fetching Today: {e}")
         events_today = []
-
-    start_future_dt = effective_dt + timedelta(days=1)
-    end_future_dt = effective_dt + timedelta(days=14)
-    date_str_future = f"{start_future_dt.strftime('%Y%m%d')}-{end_future_dt.strftime('%Y%m%d')}"
 
     print(f"🔭 Fetching 14-Day Look-Ahead ({date_str_future})...")
     espn_url_future = f"https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard?dates={date_str_future}"
@@ -793,8 +782,6 @@ def main():
         
         home_team = home_comp['team']['displayName']
         away_team = away_comp['team']['displayName']
-        home_slug = slugify(home_team)
-        away_slug = slugify(away_team)
         
         home_logos = home_comp['team'].get('logos', [])
         home_logo = home_comp['team'].get('logo', '') or (home_logos[0].get('href', '') if home_logos else '')
@@ -842,7 +829,7 @@ def main():
         </div>"""
 
     # URLs for the Sitemaps
-    league_urls = [f"{SITE_DOMAIN}/"]
+    league_urls = []
     team_urls = []
 
     # 7. Generate Homepage
@@ -969,11 +956,23 @@ def main():
 
         write_if_changed(os.path.join("teams", t_slug, "index.html"), content)
 
-    # 10. Generate Sitemaps (Leagues, Teams, and Master Index)
+    # 10. Generate Sitemaps (Main, Leagues, Teams, and Master Index)
     print("\n🗺️ Generating Sitemaps...")
     lastmod_date = datetime.datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    # Leagues Sitemap (Includes Homepage)
+    # Main Sitemap (Homepage)
+    sitemap_main_content = f'''<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{SITE_DOMAIN}/</loc>
+    <lastmod>{lastmod_date}</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>'''
+    write_if_changed("sitemap-main.xml", sitemap_main_content)
+
+    # Leagues Sitemap
     sitemap_leagues_content = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for url in league_urls:
         sitemap_leagues_content += f"  <url>\n    <loc>{url}</loc>\n    <lastmod>{lastmod_date}</lastmod>\n    <changefreq>daily</changefreq>\n  </url>\n"
@@ -988,10 +987,21 @@ def main():
     write_if_changed("sitemap-teams.xml", sitemap_teams_content)
 
     # Master Sitemap Index
-    sitemap_index_content = '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    sitemap_index_content += f"  <sitemap>\n    <loc>{SITE_DOMAIN}/sitemap-leagues.xml</loc>\n    <lastmod>{lastmod_date}</lastmod>\n  </sitemap>\n"
-    sitemap_index_content += f"  <sitemap>\n    <loc>{SITE_DOMAIN}/sitemap-teams.xml</loc>\n    <lastmod>{lastmod_date}</lastmod>\n  </sitemap>\n"
-    sitemap_index_content += "</sitemapindex>"
+    sitemap_index_content = f'''<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>{SITE_DOMAIN}/sitemap-main.xml</loc>
+    <lastmod>{lastmod_date}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>{SITE_DOMAIN}/sitemap-leagues.xml</loc>
+    <lastmod>{lastmod_date}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>{SITE_DOMAIN}/sitemap-teams.xml</loc>
+    <lastmod>{lastmod_date}</lastmod>
+  </sitemap>
+</sitemapindex>'''
     write_if_changed("sitemap.xml", sitemap_index_content)
 
     print("✅ Build complete! Master registry updated, all static pages generated, and sitemaps created.")
