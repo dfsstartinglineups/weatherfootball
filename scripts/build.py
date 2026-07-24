@@ -72,7 +72,9 @@ def get_effective_matchday_date():
     else:
         utc_now = datetime.datetime.now(timezone.utc)
         now_est = utc_now - timedelta(hours=5)
-    return now_est - timedelta(hours=3)
+
+    effective_time = now_est - timedelta(hours=3)
+    return effective_time
 
 def load_json(filepath, default_val):
     """Safely loads JSON from a file, returning default_val if it fails."""
@@ -256,17 +258,19 @@ def render_game_card_html(game, is_compact_default=True):
 
     if game['status'] == 'in':
         badge_text = game.get('clock') or 'LIVE'
-        badge_style = "bg-danger text-white border-danger"
+        badge_html = f'<span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>'
     elif game['status'] == 'post':
         badge_text = "FINAL"
-        badge_style = "bg-secondary text-white border-secondary"
+        badge_html = f'<span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>'
     else:
         try:
             d = datetime.datetime.fromisoformat(game['game_time'].replace('Z', '+00:00'))
-            badge_text = d.strftime('%b %d, %I:%M %p UTC')
+            fallback_text = d.strftime('%b %d, %I:%M %p UTC')
         except Exception:
-            badge_text = "SCHEDULED"
-        badge_style = "bg-light text-dark border border-secondary"
+            fallback_text = "SCHEDULED"
+        
+        # Local timezone rendering via JS attribute
+        badge_html = f'<span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="{game["game_time"]}" style="font-size: 0.65rem;">{fallback_text}</span>'
 
     radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&zoom=10&level=surface&overlay=rain&product=ecmwf"
 
@@ -353,7 +357,7 @@ def render_game_card_html(game, is_compact_default=True):
             <!-- COMPACT RIBBON VIEW -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_ribbon};">
                 <div class="d-flex align-items-center justify-content-start mb-2">
-                    <span class="badge {badge_style} flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>
+                    {badge_html}
                 </div>
                 <div class="d-flex align-items-center justify-content-between gap-2">
                     <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
@@ -380,7 +384,7 @@ def render_game_card_html(game, is_compact_default=True):
                     <div class="d-flex align-items-center text-truncate">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">{game['league_name']}</span>
                     </div>
-                    <span class="badge {badge_style} flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>
+                    {badge_html}
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -402,6 +406,41 @@ def render_game_card_html(game, is_compact_default=True):
             </div>
         </div>
     </div>"""
+
+def render_future_card_html(game):
+    """Generates the static banner for the 14-day look-ahead."""
+    try:
+        dt = datetime.datetime.fromisoformat(game['game_time'].replace('Z', '+00:00'))
+        formatted_date = dt.strftime('%a, %b %d at %I:%M %p UTC')
+    except Exception:
+        formatted_date = "Date TBD"
+
+    return f"""
+    <div class="col-12 mb-3 px-2">
+        <div class="card p-4 text-center border shadow-sm bg-light h-100" style="border-radius: 12px;">
+            <div class="mb-2">
+                <span class="badge bg-secondary px-3 py-1">NO MATCH TODAY</span>
+            </div>
+            <h6 class="fw-bold text-muted mb-3 text-uppercase" style="font-size: 0.75rem; letter-spacing: 1px;">Next Scheduled Match</h6>
+            
+            <div class="d-flex justify-content-center align-items-center mb-3 gap-2">
+                <div class="text-end" style="flex:1;">
+                    <img src="{game.get('away_logo', '')}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                    <div class="fw-bold text-dark mt-1" style="font-size: 0.85rem;">{game['away_team']}</div>
+                </div>
+                <div class="text-muted fw-bold" style="font-size: 0.8rem;">@</div>
+                <div class="text-start" style="flex:1;">
+                    <img src="{game.get('home_logo', '')}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                    <div class="fw-bold text-dark mt-1" style="font-size: 0.85rem;">{game['home_team']}</div>
+                </div>
+            </div>
+
+            <div class="text-primary fw-bold" style="font-size: 0.85rem;">📅 <span class="local-future-badge" data-futuretime="{game['game_time']}">{formatted_date}</span></div>
+            <div class="small text-muted mt-1">📍 {game.get('stadium_name', 'TBD Stadium')}</div>
+            <div class="small text-muted mt-3 pt-3 border-top" style="font-size: 0.7rem;">Weather forecast will be available roughly 14 days before kickoff.</div>
+        </div>
+    </div>
+    """
 
 def render_dormant_banner():
     return """
@@ -520,6 +559,23 @@ __MATCH_CARDS_GRID__
     </div>
 
     <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Localize scheduled game times
+            document.querySelectorAll('.local-time-badge').forEach(el => {
+                const dt = new Date(el.dataset.gametime);
+                if (!isNaN(dt)) {
+                    el.textContent = dt.toLocaleString(undefined, {weekday: 'short', hour: 'numeric', minute: '2-digit'});
+                }
+            });
+            // Localize future banner times
+            document.querySelectorAll('.local-future-badge').forEach(el => {
+                const dt = new Date(el.dataset.futuretime);
+                if (!isNaN(dt)) {
+                    el.textContent = dt.toLocaleString(undefined, {weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
+                }
+            });
+        });
+
         function showRadar(url, venueName) {
             document.getElementById('radarModalTitle').innerText = 'Radar: ' + venueName;
             document.getElementById('radarFrame').src = url;
