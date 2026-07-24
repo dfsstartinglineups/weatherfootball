@@ -276,7 +276,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️28% 🌡️60°<br>💨10mph 💧79%
+                            🌧️28% 🌡️60°<br>💨9mph 💧79%
                         </span>
                     </div>
                 </div>
@@ -320,37 +320,37 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">10 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">9 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
         <div class="hourly-scroll-container">
                 <div class="hour-card">
-                    <div class="hour-time">1PM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-07-25T13:00Z">1PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">28%</div>
                     <div class="hour-temp">64°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">2PM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-07-25T14:00Z">2PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">64°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">3PM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-07-25T15:00Z">3PM</div>
                     <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">64°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">4PM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-07-25T16:00Z">4PM</div>
                     <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">63°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">5PM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-07-25T17:00Z">5PM</div>
                     <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">63°</div>
@@ -389,6 +389,17 @@
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
                     el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
+                }
+            });
+
+            // Localize 5-hour forecast hourly timestamps into visitor's local timezone
+            document.querySelectorAll('.local-hour-time').forEach(el => {
+                const dt = new Date(el.dataset.timestamp);
+                if (!isNaN(dt)) {
+                    let hr = dt.getHours();
+                    const ampm = hr >= 12 ? 'PM' : 'AM';
+                    hr = hr % 12 || 12;
+                    el.textContent = `${hr}${ampm}`;
                 }
             });
 

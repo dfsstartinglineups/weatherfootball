@@ -326,31 +326,31 @@
         </div>
         <div class="hourly-scroll-container">
                 <div class="hour-card">
-                    <div class="hour-time">1AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-07-26T01:00Z">1AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">75°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">2AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-07-26T02:00Z">2AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">73°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">3AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-07-26T03:00Z">3AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">72°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">4AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-07-26T04:00Z">4AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">71°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">5AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-07-26T05:00Z">5AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">71°</div>
@@ -434,25 +434,25 @@
         </div>
         <div class="hourly-scroll-container">
                 <div class="hour-card">
-                    <div class="hour-time">12AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-02T00:00Z">12AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">86°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">1AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-02T01:00Z">1AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">83°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">2AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-02T02:00Z">2AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">80°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">3AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-02T03:00Z">3AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">78°</div>
@@ -536,31 +536,31 @@
         </div>
         <div class="hourly-scroll-container">
                 <div class="hour-card">
-                    <div class="hour-time">1AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T01:00Z">1AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">96°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">2AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T02:00Z">2AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">93°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">3AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T03:00Z">3AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">90°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">4AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T04:00Z">4AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">87°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time">5AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T05:00Z">5AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">85°</div>
@@ -599,6 +599,17 @@
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
                     el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
+                }
+            });
+
+            // Localize 5-hour forecast hourly timestamps into visitor's local timezone
+            document.querySelectorAll('.local-hour-time').forEach(el => {
+                const dt = new Date(el.dataset.timestamp);
+                if (!isNaN(dt)) {
+                    let hr = dt.getHours();
+                    const ampm = hr >= 12 ? 'PM' : 'AM';
+                    hr = hr % 12 || 12;
+                    el.textContent = `${hr}${ampm}`;
                 }
             });
 
