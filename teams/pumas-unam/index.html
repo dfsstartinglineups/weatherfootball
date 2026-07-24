@@ -276,7 +276,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️7% 🌡️105°<br>💨5mph 💧16%
+                            🌧️7% 🌡️105°<br>💨6mph 💧15%
                         </span>
                     </div>
                 </div>
@@ -312,7 +312,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 16%</div>
+                <div class="fw-bold text-dark">💧 15%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -320,7 +320,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">6 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -356,7 +356,7 @@
                     <div class="hour-temp">93°</div>
                 </div></div>
         <div class="mt-2 mb-1">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=31.72024&lon=-106.46084&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Estadio Olímpico Benito Juárez')">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=31.72024&lon=-106.46084&detailLat=31.72024&detailLon=-106.46084&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Estadio Olímpico Benito Juárez')">
                 🗺️ Live Weather Radar
             </button>
         </div>
@@ -458,7 +458,7 @@
                     <div class="hour-temp">78°</div>
                 </div></div>
         <div class="mt-2 mb-1">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=35.22709&lon=-80.84313&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Bank of America Stadium')">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=35.22709&lon=-80.84313&detailLat=35.22709&detailLon=-80.84313&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Bank of America Stadium')">
                 🗺️ Live Weather Radar
             </button>
         </div>
@@ -551,12 +551,37 @@
                     el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                 }
             });
+
+            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            const radarModal = document.getElementById('radarModal');
+            if (radarModal) {
+                radarModal.addEventListener('hidden.bs.modal', () => {
+                    const iframe = document.getElementById('radarFrame');
+                    if (iframe) iframe.src = '';
+                });
+            }
         });
 
+        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
-            document.getElementById('radarModalTitle').innerText = 'Radar: ' + venueName;
-            document.getElementById('radarFrame').src = url;
-            new bootstrap.Modal(document.getElementById('radarModal')).show();
+            const modalElement = document.getElementById('radarModal');
+            const modalTitle = document.getElementById('radarModalTitle');
+            const iframe = document.getElementById('radarFrame');
+            
+            if (modalTitle) modalTitle.innerText = 'Radar: ' + venueName;
+
+            const myModal = bootstrap.Modal.getOrCreateInstance(modalElement);
+
+            // Clear map frame before open
+            if (iframe) iframe.src = '';
+
+            const loadMap = function () {
+                if (iframe) iframe.src = url; 
+                modalElement.removeEventListener('shown.bs.modal', loadMap); 
+            };
+
+            modalElement.addEventListener('shown.bs.modal', loadMap);
+            myModal.show();
         }
 
         function toggleSingleCard(element) {

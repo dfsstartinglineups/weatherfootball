@@ -257,7 +257,7 @@
         <div class="row w-100 m-0 p-0 justify-content-center">
 
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-761693">
-        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+        <div class="card game-card shadow-sm border-danger border-3 bg-weather-storm">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
                 <div class="d-flex align-items-center justify-content-start mb-2">
@@ -276,7 +276,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️47% 🌡️80°<br>💨5mph 💧86%
+                            🌧️47% 🌡️75°<br>💨10mph 💧89%
                         </span>
                     </div>
                 </div>
@@ -308,11 +308,11 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">80°F</div>
+                <div class="fw-bold">75°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 86%</div>
+                <div class="fw-bold text-dark">💧 89%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -320,7 +320,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">10 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -356,7 +356,7 @@
                     <div class="hour-temp">74°</div>
                 </div></div>
         <div class="mt-2 mb-1">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=34.55211&lon=-77.9261&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Stanford Stadium')">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=34.55211&lon=-77.9261&detailLat=34.55211&detailLon=-77.9261&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Stanford Stadium')">
                 🗺️ Live Weather Radar
             </button>
         </div>
@@ -384,7 +384,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️25% 🌡️79°<br>💨4mph 💧41%
+                            🌧️25% 🌡️79°<br>💨5mph 💧41%
                         </span>
                     </div>
                 </div>
@@ -428,7 +428,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -464,7 +464,7 @@
                     <div class="hour-temp">71°</div>
                 </div></div>
         <div class="mt-2 mb-1">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=39.12711&lon=-84.51439&zoom=10&level=surface&overlay=rain&product=ecmwf', 'TQL Stadium')">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=39.12711&lon=-84.51439&detailLat=39.12711&detailLon=-84.51439&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'TQL Stadium')">
                 🗺️ Live Weather Radar
             </button>
         </div>
@@ -499,12 +499,37 @@
                     el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                 }
             });
+
+            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            const radarModal = document.getElementById('radarModal');
+            if (radarModal) {
+                radarModal.addEventListener('hidden.bs.modal', () => {
+                    const iframe = document.getElementById('radarFrame');
+                    if (iframe) iframe.src = '';
+                });
+            }
         });
 
+        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
-            document.getElementById('radarModalTitle').innerText = 'Radar: ' + venueName;
-            document.getElementById('radarFrame').src = url;
-            new bootstrap.Modal(document.getElementById('radarModal')).show();
+            const modalElement = document.getElementById('radarModal');
+            const modalTitle = document.getElementById('radarModalTitle');
+            const iframe = document.getElementById('radarFrame');
+            
+            if (modalTitle) modalTitle.innerText = 'Radar: ' + venueName;
+
+            const myModal = bootstrap.Modal.getOrCreateInstance(modalElement);
+
+            // Clear map frame before open
+            if (iframe) iframe.src = '';
+
+            const loadMap = function () {
+                if (iframe) iframe.src = url; 
+                modalElement.removeEventListener('shown.bs.modal', loadMap); 
+            };
+
+            modalElement.addEventListener('shown.bs.modal', loadMap);
+            myModal.show();
         }
 
         function toggleSingleCard(element) {

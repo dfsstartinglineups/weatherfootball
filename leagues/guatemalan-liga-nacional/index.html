@@ -281,7 +281,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️100% 🌡️78°<br>💨5mph 💧45%
+                            🌧️100% 🌡️77°<br>💨5mph 💧48%
                         </span>
                     </div>
                 </div>
@@ -313,11 +313,11 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">78°F</div>
+                <div class="fw-bold">77°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 45%</div>
+                <div class="fw-bold text-dark">💧 48%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -355,7 +355,7 @@
                     <div class="hour-temp">63°</div>
                 </div></div>
         <div class="mt-2 mb-1">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=14.55636&lon=-90.7332&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Estadio Pensativo')">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=14.55636&lon=-90.7332&detailLat=14.55636&detailLon=-90.7332&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Estadio Pensativo')">
                 🗺️ Live Weather Radar
             </button>
         </div>
@@ -383,7 +383,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️1% 🌡️80°<br>💨5mph 💧42%
+                            🌧️1% 🌡️80°<br>💨5mph 💧43%
                         </span>
                     </div>
                 </div>
@@ -419,7 +419,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 42%</div>
+                <div class="fw-bold text-dark">💧 43%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -463,7 +463,7 @@
                     <div class="hour-temp">69°</div>
                 </div></div>
         <div class="mt-2 mb-1">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=39.32983&lon=-76.60163&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Estadio El Trébol')">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=39.32983&lon=-76.60163&detailLat=39.32983&detailLon=-76.60163&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Estadio El Trébol')">
                 🗺️ Live Weather Radar
             </button>
         </div>
@@ -498,12 +498,37 @@
                     el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                 }
             });
+
+            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            const radarModal = document.getElementById('radarModal');
+            if (radarModal) {
+                radarModal.addEventListener('hidden.bs.modal', () => {
+                    const iframe = document.getElementById('radarFrame');
+                    if (iframe) iframe.src = '';
+                });
+            }
         });
 
+        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
-            document.getElementById('radarModalTitle').innerText = 'Radar: ' + venueName;
-            document.getElementById('radarFrame').src = url;
-            new bootstrap.Modal(document.getElementById('radarModal')).show();
+            const modalElement = document.getElementById('radarModal');
+            const modalTitle = document.getElementById('radarModalTitle');
+            const iframe = document.getElementById('radarFrame');
+            
+            if (modalTitle) modalTitle.innerText = 'Radar: ' + venueName;
+
+            const myModal = bootstrap.Modal.getOrCreateInstance(modalElement);
+
+            // Clear map frame before open
+            if (iframe) iframe.src = '';
+
+            const loadMap = function () {
+                if (iframe) iframe.src = url; 
+                modalElement.removeEventListener('shown.bs.modal', loadMap); 
+            };
+
+            modalElement.addEventListener('shown.bs.modal', loadMap);
+            myModal.show();
         }
 
         function toggleSingleCard(element) {

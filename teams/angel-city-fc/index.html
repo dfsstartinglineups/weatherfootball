@@ -276,7 +276,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️92°<br>💨7mph 💧44%
+                            🌧️0% 🌡️93°<br>💨7mph 💧43%
                         </span>
                     </div>
                 </div>
@@ -308,11 +308,11 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">92°F</div>
+                <div class="fw-bold">93°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 44%</div>
+                <div class="fw-bold text-dark">💧 43%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -356,7 +356,7 @@
                     <div class="hour-temp">82°</div>
                 </div></div>
         <div class="mt-2 mb-1">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=34.05223&lon=-118.24368&zoom=10&level=surface&overlay=rain&product=ecmwf', 'BMO Stadium')">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=34.05223&lon=-118.24368&detailLat=34.05223&detailLon=-118.24368&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'BMO Stadium')">
                 🗺️ Live Weather Radar
             </button>
         </div>
@@ -384,7 +384,7 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️5% 🌡️74°<br>💨5mph 💧90%
+                            🌧️5% 🌡️75°<br>💨5mph 💧89%
                         </span>
                     </div>
                 </div>
@@ -416,11 +416,11 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">74°F</div>
+                <div class="fw-bold">75°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 90%</div>
+                <div class="fw-bold text-dark">💧 89%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -464,7 +464,7 @@
                     <div class="hour-temp">85°</div>
                 </div></div>
         <div class="mt-2 mb-1">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=39.09973&lon=-94.57857&zoom=10&level=surface&overlay=rain&product=ecmwf', 'CPKC Stadium')">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=39.09973&lon=-94.57857&detailLat=39.09973&detailLon=-94.57857&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'CPKC Stadium')">
                 🗺️ Live Weather Radar
             </button>
         </div>
@@ -499,12 +499,37 @@
                     el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
                 }
             });
+
+            // Radar Modal cleanup listener (WeatherMLB lifecycle solution)
+            const radarModal = document.getElementById('radarModal');
+            if (radarModal) {
+                radarModal.addEventListener('hidden.bs.modal', () => {
+                    const iframe = document.getElementById('radarFrame');
+                    if (iframe) iframe.src = '';
+                });
+            }
         });
 
+        // WeatherMLB showRadar solution: delays iframe.src population until shown.bs.modal fires
         function showRadar(url, venueName) {
-            document.getElementById('radarModalTitle').innerText = 'Radar: ' + venueName;
-            document.getElementById('radarFrame').src = url;
-            new bootstrap.Modal(document.getElementById('radarModal')).show();
+            const modalElement = document.getElementById('radarModal');
+            const modalTitle = document.getElementById('radarModalTitle');
+            const iframe = document.getElementById('radarFrame');
+            
+            if (modalTitle) modalTitle.innerText = 'Radar: ' + venueName;
+
+            const myModal = bootstrap.Modal.getOrCreateInstance(modalElement);
+
+            // Clear map frame before open
+            if (iframe) iframe.src = '';
+
+            const loadMap = function () {
+                if (iframe) iframe.src = url; 
+                modalElement.removeEventListener('shown.bs.modal', loadMap); 
+            };
+
+            modalElement.addEventListener('shown.bs.modal', loadMap);
+            myModal.show();
         }
 
         function toggleSingleCard(element) {
