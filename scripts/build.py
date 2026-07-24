@@ -18,20 +18,22 @@ except ImportError:
 # ==========================================
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, ".."))
-os.chdir(ROOT_DIR)  # Forces current working directory to repository root
+os.chdir(ROOT_DIR)  # Forces working directory to repository root
 
 # ==========================================
 # CONFIGURATION & CONSTANTS
 # ==========================================
 SITE_DOMAIN = "https://weatherfootball.com"
 STADIUMS_FILE = os.path.join("data", "stadiums.json")
-NOMINATIM_HEADERS = {'User-Agent': 'WeatherFootball/1.0 (contact@weatherfootball.com)'}
+
+# HTTP Session with retry capabilities
+HTTP = requests.Session()
 
 # ==========================================
 # HELPER FUNCTIONS
 # ==========================================
 def slugify(text):
-    """Convert text into clean, SEO-friendly URL slug (e.g. 'Premier League' -> 'premier-league')"""
+    """Convert text into clean, SEO-friendly URL slug."""
     if not text:
         return "unknown"
     text = text.lower().strip()
@@ -40,10 +42,7 @@ def slugify(text):
     return text
 
 def write_if_changed(filepath, new_content):
-    """
-    Writes new_content to filepath ONLY if the file doesn't exist
-    or if the content has actually changed. Keeps Git history clean.
-    """
+    """Writes content ONLY if changed or missing to preserve Git history."""
     if os.path.exists(filepath):
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
@@ -60,10 +59,7 @@ def write_if_changed(filepath, new_content):
     return True
 
 def get_effective_matchday_date():
-    """
-    Calculates current date using a 3:00 AM EST crossover window.
-    Any time before 3:00 AM EST is treated as part of the previous day's matchday.
-    """
+    """Calculates date using 3:00 AM EST crossover window."""
     if HAS_ZONEINFO:
         est_tz = zoneinfo.ZoneInfo("America/New_York")
         now_est = datetime.datetime.now(est_tz)
@@ -75,7 +71,7 @@ def get_effective_matchday_date():
     return effective_time
 
 # ==========================================
-# STADIUM DATABASE & GEOCODING
+# STADIUM DATABASE & FAST GEOCODING (OPEN-METEO)
 # ==========================================
 def load_stadiums_db():
     if os.path.exists(STADIUMS_FILE):
@@ -91,22 +87,53 @@ def save_stadiums_db(stadiums_db):
     content = json.dumps(stadiums_db, indent=4, sort_keys=True)
     write_if_changed(STADIUMS_FILE, content)
 
-def geocode_venue(venue_name, city, country):
-    """Fallback geocoder using OpenStreetMap Nominatim API."""
-    query = f"{venue_name}, {city}, {country}".strip(", ")
-    url = f"https://nominatim.openstreetmap.org/search?q={requests.utils.quote(query)}&format=json&limit=1"
+def geocode_query_open_meteo(query_text):
+    """Hits Open-Meteo's fast geocoding API."""
+    if not query_text or not query_text.strip():
+        return 0.0, 0.0
+
+    url = f"https://geocoding-api.open-meteo.com/v1/search?name={requests.utils.quote(query_text)}&count=1&language=en&format=json"
     try:
-        time.sleep(1) # Respect Nominatim rate limit (1 req/sec)
-        resp = requests.get(url, headers=NOMINATIM_HEADERS, timeout=8)
-        if resp.status_code == 200 and resp.json():
-            data = resp.json()[0]
-            return float(data['lat']), float(data['lon'])
+        resp = HTTP.get(url, timeout=8)
+        if resp.status_code == 200:
+            data = resp.json()
+            results = data.get("results", [])
+            if results:
+                return float(results[0]["latitude"]), float(results[0]["longitude"])
     except Exception as e:
-        print(f"   ⚠️ Nominatim lookup failed for {query}: {e}")
+        print(f"   ⚠️ Geocode error for '{query_text}': {e}")
+    return 0.0, 0.0
+
+def geocode_venue_cascading(venue_name, city, country):
+    """
+    3-Stage Cascading Geocoder:
+    1. Stadium Name + City
+    2. Stadium Name Alone
+    3. City + Country Fallback (Guarantees coordinates for weather)
+    """
+    # Stage 1: Stadium Name + City
+    if venue_name and city:
+        lat, lon = geocode_query_open_meteo(f"{venue_name} {city}")
+        if lat != 0.0 and lon != 0.0:
+            return lat, lon
+
+    # Stage 2: Stadium Name alone
+    if venue_name and venue_name != "Unknown Stadium":
+        lat, lon = geocode_query_open_meteo(venue_name)
+        if lat != 0.0 and lon != 0.0:
+            return lat, lon
+
+    # Stage 3: City + Country Fallback
+    location_str = f"{city}, {country}".strip(", ")
+    if location_str:
+        lat, lon = geocode_query_open_meteo(location_str)
+        if lat != 0.0 and lon != 0.0:
+            return lat, lon
+
     return 0.0, 0.0
 
 def get_or_update_stadium(stadiums_db, venue_id, venue_info):
-    """Retrieves cached stadium data or geocodes and updates registry on the fly."""
+    """Retrieves cached stadium data or geocodes with cascading fallback."""
     if venue_id in stadiums_db:
         cached = stadiums_db[venue_id]
         if cached.get("lat") != 0.0 and cached.get("lon") != 0.0:
@@ -121,8 +148,8 @@ def get_or_update_stadium(stadiums_db, venue_id, venue_info):
     lon = float(venue_info.get("geometry", {}).get("coordinates", [0, 0])[0]) if "geometry" in venue_info else 0.0
 
     if lat == 0.0 or lon == 0.0:
-        print(f"  🔍 Geocoding missing coordinates for: {name} ({city}, {country})...")
-        lat, lon = geocode_venue(name, city, country)
+        print(f"  🔍 Geocoding venue: {name} ({city}, {country})...")
+        lat, lon = geocode_venue_cascading(name, city, country)
 
     stadium_entry = {
         "id": venue_id,
@@ -138,7 +165,7 @@ def get_or_update_stadium(stadiums_db, venue_id, venue_info):
     return stadium_entry
 
 # ==========================================
-# WEATHER PIPELINE (OPEN-METEO)
+# WEATHER PIPELINE (OPEN-METEO + RETRIES)
 # ==========================================
 def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
     if lat == 0.0 or lon == 0.0:
@@ -170,44 +197,47 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
         "end_date": next_day_str
     }
 
-    try:
-        res = requests.get(url, params=params, timeout=10)
-        if res.status_code != 200:
-            return None
-        data = res.json()
-        current = data.get('current', {})
-        time_array = data.get('hourly', {}).get('time', [])
-        target_time_str = utc_time.strftime('%Y-%m-%dT%H:00')
-
+    # Fetch with up to 3 retries for resilience
+    for attempt in range(3):
         try:
-            start_idx = time_array.index(target_time_str)
-        except ValueError:
-            start_idx = 1
+            res = HTTP.get(url, params=params, timeout=15)
+            if res.status_code == 200:
+                data = res.json()
+                current = data.get('current', {})
+                time_array = data.get('hourly', {}).get('time', [])
+                target_time_str = utc_time.strftime('%Y-%m-%dT%H:00')
 
-        actual_start = max(0, start_idx - 1)
-        actual_end = min(len(time_array), start_idx + 4)
+                try:
+                    start_idx = time_array.index(target_time_str)
+                except ValueError:
+                    start_idx = 1
 
-        hourly_slice = []
-        for i in range(actual_start, actual_end):
-            code = data['hourly'].get("weather_code", [0])[i]
-            hourly_slice.append({
-                "timestamp": time_array[i] + "Z",
-                "temp": int(data['hourly'].get("temperature_2m", [72])[i]),
-                "precipChance": data['hourly'].get("precipitation_probability", [0])[i],
-                "isThunderstorm": code in [95, 96, 99],
-                "isSnow": code in [71, 73, 75, 77, 85, 86]
-            })
+                actual_start = max(0, start_idx - 1)
+                actual_end = min(len(time_array), start_idx + 4)
 
-        return {
-            "status": "ok",
-            "temp": int(current.get('temperature_2m', 72)),
-            "windSpeed": int(current.get('wind_speed_10m', 0)),
-            "precip": round(float(current.get('precipitation', 0.0)), 2),
-            "hourly": hourly_slice
-        }
-    except Exception as e:
-        print(f"   ⚠️ Weather error: {e}")
-        return None
+                hourly_slice = []
+                for i in range(actual_start, actual_end):
+                    code = data['hourly'].get("weather_code", [0])[i]
+                    hourly_slice.append({
+                        "timestamp": time_array[i] + "Z",
+                        "temp": int(data['hourly'].get("temperature_2m", [72])[i]),
+                        "precipChance": data['hourly'].get("precipitation_probability", [0])[i],
+                        "isThunderstorm": code in [95, 96, 99],
+                        "isSnow": code in [71, 73, 75, 77, 85, 86]
+                    })
+
+                return {
+                    "status": "ok",
+                    "temp": int(current.get('temperature_2m', 72)),
+                    "windSpeed": int(current.get('wind_speed_10m', 0)),
+                    "precip": round(float(current.get('precipitation', 0.0)), 2),
+                    "hourly": hourly_slice
+                }
+        except requests.RequestException:
+            time.sleep(1)
+
+    print(f"   ⚠️ Open-Meteo request failed after retries for ({lat}, {lon})")
+    return None
 
 def generate_soccer_matchup_analysis(weather, is_dome):
     if is_dome:
@@ -333,7 +363,7 @@ def render_game_card_html(game):
 
     return f"""
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-{game['id']}">
-        <div class="card game-card shadow-sm {borderClass} {bg_class}">
+        <div class="card game-card shadow-sm {border_class} {bg_class}">
             <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                 <div class="d-flex align-items-center text-truncate">
                     {league_logo_img}
@@ -497,7 +527,7 @@ def main():
     print(f"📡 Ingesting ESPN Master Board...")
     
     try:
-        res = requests.get(espn_url, timeout=12)
+        res = HTTP.get(espn_url, timeout=15)
         scoreboard_data = res.json() if res.status_code == 200 else {}
     except Exception as e:
         print(f"❌ Error fetching ESPN Scoreboard: {e}")
