@@ -271,16 +271,21 @@ def render_game_card_html(game, is_compact_default=True):
     is_dome = game['stadium']['roof'] in ["Dome", "Retractable"]
     is_too_early = w.get('status') in ["too_early", "no_coords"] or w.get('temp') == "--"
 
+    # Compute Max Rain Chance (%) during the match window
+    hourly = w.get('hourly', [])
+    max_pop = max([h.get('precipChance', 0) for h in hourly], default=0) if hourly else 0
+
+    # Dynamic Color Coding Logic
     bg_class = "bg-weather-sunny"
     border_class = ""
     if is_too_early:
         bg_class = "bg-light"
     elif is_dome:
         bg_class = "bg-weather-roof"
-    elif w['precip'] > 0.5:
+    elif max_pop >= 50 or w['precip'] > 0.5:
         border_class = "border-danger border-3"
         bg_class = "bg-weather-storm"
-    elif w['precip'] > 0:
+    elif max_pop >= 20 or w['precip'] > 0:
         border_class = "border-warning border-3"
         bg_class = "bg-weather-rain"
     elif w['windSpeed'] >= 15:
@@ -302,7 +307,7 @@ def render_game_card_html(game, is_compact_default=True):
 
     radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&zoom=10&level=surface&overlay=rain&product=ecmwf"
 
-    weather_emoji_line = f"Roof Closed 🌡️{w['temp']}°" if is_dome else f"🌧️{w['precip']}\" 🌡️{w['temp']}° 💨{w['windSpeed']}mph"
+    weather_emoji_line = f"Roof Closed 🌡️{w['temp']}°" if is_dome else f"🌧️{max_pop}% 🌡️{w['temp']}° 💨{w['windSpeed']}mph"
     if is_too_early:
         weather_emoji_line = "Roof Closed" if is_dome else "🔭 Forecast pending"
 
@@ -310,9 +315,9 @@ def render_game_card_html(game, is_compact_default=True):
     show_full = "none" if is_compact_default else "block"
 
     hourly_html = ""
-    if not is_too_early and not is_dome and w.get('hourly'):
+    if not is_too_early and not is_dome and hourly:
         hours_markup = ""
-        for h in w['hourly'][:5]:
+        for h in hourly[:5]:
             try:
                 dt = datetime.datetime.fromisoformat(h['timestamp'].replace('Z', '+00:00'))
                 hr_str = dt.strftime('%I%p').lstrip('0')
@@ -346,7 +351,7 @@ def render_game_card_html(game, is_compact_default=True):
                 <div class="small text-muted" style="font-size: 0.7rem;">{game['stadium'].get('surface', 'Grass')}</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">{w['precip']}"</div>
+                <div class="fw-bold text-primary">{max_pop}%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -600,15 +605,6 @@ def main():
         print(f"❌ Error fetching ESPN Scoreboard: {e}")
         scoreboard_data = {}
 
-    # Build Top-Level ESPN Leagues Lookup Map
-    top_leagues = scoreboard_data.get('leagues', [])
-    leagues_map = {}
-    for l in top_leagues:
-        l_id = str(l.get('id', ''))
-        l_name = l.get('name') or l.get('displayName') or l.get('midsizeName') or l.get('abbreviation')
-        if l_id and l_name:
-            leagues_map[l_id] = l_name
-
     events = scoreboard_data.get('events', [])
     print(f"⚽ Found {len(events)} fixtures on ESPN master board.")
 
@@ -624,22 +620,16 @@ def main():
         status = event['status']['type']['state']
         clock = event['status']['type'].get('shortDetail', '')
 
-        # Robust League Name Extraction
-        league_obj = event.get('league') or comp.get('league') or {}
-        league_id = str(league_obj.get('id', ''))
-        
+        # Precision League Name Extraction using altGameNote
         league_name = (
-            league_obj.get('name') or 
-            league_obj.get('displayName') or 
-            league_obj.get('midsizeName') or 
-            league_obj.get('abbreviation') or 
-            leagues_map.get(league_id) or 
+            comp.get('altGameNote') or 
+            event.get('league', {}).get('name') or 
             comp.get('league', {}).get('name') or 
-            event.get('season', {}).get('slug', '').replace('-', ' ').title() or 
             "Global Football"
         )
 
-        league_logos = league_obj.get('logos', []) or comp.get('league', {}).get('logos', [])
+        league_obj = event.get('league') or comp.get('league') or {}
+        league_logos = league_obj.get('logos', [])
         league_logo = league_logos[0]['href'] if league_logos else ""
         league_slug = slugify(league_name)
 
