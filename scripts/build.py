@@ -79,7 +79,7 @@ def get_effective_matchday_date():
     return effective_time
 
 # ==========================================
-# STADIUM DATABASE & FAST GEOCODING (OPEN-METEO)
+# STADIUM DATABASE & GEOCODING (OPEN-METEO)
 # ==========================================
 def load_stadiums_db():
     if os.path.exists(STADIUMS_FILE):
@@ -113,7 +113,7 @@ def geocode_query_open_meteo(query_text):
 
 def geocode_venue_multi_stage(venue_name, city, country, home_team):
     """
-    5-Stage Cascading Geocoder to guarantee coordinates:
+    5-Stage Cascading Geocoder to guarantee coordinates when possible:
     1. Stadium Name + Clean City
     2. Stadium Name Alone
     3. Clean City + Country Fallback
@@ -123,13 +123,13 @@ def geocode_venue_multi_stage(venue_name, city, country, home_team):
     clean_city = city.split(',')[0].strip() if city else ""
 
     # Stage 1: Venue + Clean City
-    if venue_name and venue_name != "Unknown Stadium" and clean_city:
+    if venue_name and venue_name not in ["Unknown Stadium", "Venue Unlisted"] and clean_city:
         lat, lon = geocode_query_open_meteo(f"{venue_name} {clean_city}")
         if lat != 0.0 and lon != 0.0:
             return lat, lon
 
     # Stage 2: Venue Name Alone
-    if venue_name and venue_name != "Unknown Stadium":
+    if venue_name and venue_name not in ["Unknown Stadium", "Venue Unlisted"]:
         lat, lon = geocode_query_open_meteo(venue_name)
         if lat != 0.0 and lon != 0.0:
             return lat, lon
@@ -142,7 +142,7 @@ def geocode_venue_multi_stage(venue_name, city, country, home_team):
             return lat, lon
 
     # Stage 4: Home Team Fallback
-    if home_team:
+    if home_team and home_team != "TBD":
         lat, lon = geocode_query_open_meteo(f"{home_team} stadium")
         if lat != 0.0 and lon != 0.0:
             return lat, lon
@@ -166,7 +166,8 @@ def get_or_update_stadium(stadiums_db, venue_id, venue_info, home_team=""):
         if cached.get("lat") != 0.0 and cached.get("lon") != 0.0:
             return cached
 
-    name = venue_info.get("fullName") or venue_info.get("displayName") or "Unknown Stadium"
+    raw_name = venue_info.get("fullName") or venue_info.get("displayName") or ""
+    name = raw_name if raw_name else "Venue Unlisted"
     city = venue_info.get("address", {}).get("city", "")
     country = venue_info.get("address", {}).get("country", "")
     is_indoor = venue_info.get("indoor", False)
@@ -192,11 +193,11 @@ def get_or_update_stadium(stadiums_db, venue_id, venue_info, home_team=""):
     return stadium_entry
 
 # ==========================================
-# WEATHER PIPELINE (OPEN-METEO + RETRIES)
+# WEATHER PIPELINE (WITH RELATIVE HUMIDITY)
 # ==========================================
 def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
     if lat == 0.0 or lon == 0.0:
-        return {"status": "no_coords", "temp": "--", "windSpeed": 0, "precip": 0, "hourly": []}
+        return {"status": "no_coords", "temp": "--", "humidity": 0, "windSpeed": 0, "precip": 0, "hourly": []}
 
     try:
         utc_time = datetime.datetime.fromisoformat(kickoff_iso_str.replace('Z', '+00:00'))
@@ -208,14 +209,14 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
     days_diff = (utc_time.date() - datetime.datetime.now(timezone.utc).date()).days
 
     if days_diff > 14:
-        return {"status": "too_early", "temp": "--", "windSpeed": 0, "precip": 0, "hourly": []}
+        return {"status": "too_early", "temp": "--", "humidity": 0, "windSpeed": 0, "precip": 0, "hourly": []}
 
     url = "https://api.open-meteo.com/v1/forecast"
     params = {
         "latitude": lat,
         "longitude": lon,
-        "current": "temperature_2m,wind_speed_10m,precipitation",
-        "hourly": "temperature_2m,precipitation_probability,precipitation,weather_code",
+        "current": "temperature_2m,relative_humidity_2m,wind_speed_10m,precipitation",
+        "hourly": "temperature_2m,relative_humidity_2m,precipitation_probability,precipitation,weather_code",
         "temperature_unit": "fahrenheit",
         "wind_speed_unit": "mph",
         "precipitation_unit": "inch",
@@ -247,6 +248,7 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
                     hourly_slice.append({
                         "timestamp": time_array[i] + "Z",
                         "temp": int(data['hourly'].get("temperature_2m", [72])[i]),
+                        "humidity": int(data['hourly'].get("relative_humidity_2m", [50])[i]),
                         "precipChance": data['hourly'].get("precipitation_probability", [0])[i],
                         "isThunderstorm": code in [95, 96, 99],
                         "isSnow": code in [71, 73, 75, 77, 85, 86]
@@ -255,6 +257,7 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
                 return {
                     "status": "ok",
                     "temp": int(current.get('temperature_2m', 72)),
+                    "humidity": int(current.get('relative_humidity_2m', 50)),
                     "windSpeed": int(current.get('wind_speed_10m', 0)),
                     "precip": round(float(current.get('precipitation', 0.0)), 2),
                     "hourly": hourly_slice
@@ -267,37 +270,40 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
 
 def generate_football_matchup_analysis(weather, is_dome):
     if is_dome:
-        return "🏟️ <b>Indoor Environment:</b> Controlled stadium climate. Zero wind or rain impact on ball movement or pitch velocity."
+        return "🏟️ <b>Indoor Stadium Environment:</b> Climate controlled indoors. Zero rain, humidity, or wind impact on passing accuracy or pitch traction."
 
     hourly = weather.get('hourly', [])
     max_pop = max([h.get('precipChance', 0) for h in hourly], default=0) if hourly else 0
     precip = weather.get('precip', 0.0)
     wind = weather.get('windSpeed', 0)
     temp = weather.get('temp', 72)
+    humidity = weather.get('humidity', 50)
 
     notes = []
-    has_heavy_rain = max_pop >= 60 or precip >= 0.2
+    has_heavy_rain = max_pop >= 50 or precip >= 0.2
     has_rain = max_pop >= 20 or precip > 0.0
     has_high_wind = wind >= 15
 
     if has_heavy_rain and has_high_wind:
-        notes.append(f"🌧️💨 <b>Heavy Weather Warning ({max_pop}% Rain Chance):</b> Gusty winds and heavy rain will make high balls unpredictable and cause significant pitch skidding.")
+        notes.append(f"🌧️💨 <b>Heavy Weather Alert ({max_pop}% Rain Risk):</b> Sustained rainfall will create a slick pitch while gusty {wind} mph winds interfere with aerial balls and goal kicks.")
     elif has_heavy_rain:
-        notes.append(f"🌧️ <b>Wet Pitch Alert ({max_pop}% Rain Chance):</b> Sustained rainfall will make the pitch slick, accelerating ball speed and slipping hazards.")
+        notes.append(f"🌧️ <b>Wet Pitch Alert ({max_pop}% Rain Risk):</b> Rain during match hours will make the pitch surface slick, accelerating ball skidding and slipping risks.")
     elif has_rain and has_high_wind:
-        notes.append(f"🌧️💨 <b>Slick & Gusty Conditions ({max_pop}% Rain Chance):</b> Rain combined with wind gusts over 15 mph will affect crossing accuracy and turf traction.")
+        notes.append(f"🌧️💨 <b>Rain & Wind Risk ({max_pop}% Rain Chance):</b> Slick turf coupled with {wind} mph winds will affect cross trajectories and keeper handling.")
     elif has_rain:
-        notes.append(f"🌧️ <b>Rain Risk ({max_pop}% Chance):</b> Expected rain during the match window will create slick pitch surface conditions.")
+        notes.append(f"🌧️ <b>Slippery Pitch Risk ({max_pop}% Rain Chance):</b> Expected rain during match hours will make pitch surface traction wet and ball bounce fast.")
     elif has_high_wind:
-        notes.append(f"💨 <b>High Winds ({wind} mph):</b> Wind speeds over 15 mph will cause trajectory drift on aerial crosses, long passes, and goal kicks.")
+        notes.append(f"💨 <b>Wind Impact ({wind} mph):</b> Wind speeds exceeding 15 mph will cause trajectory drift on aerial crosses, long passes, and goal kicks.")
 
-    if temp >= 85:
-        notes.append("🔥 <b>Heat Warning:</b> High temperatures may prompt official hydration breaks mid-half.")
+    if temp >= 85 and humidity >= 65:
+        notes.append(f"🔥💧 <b>Sweltering Heat & Humidity ({temp}°F, {humidity}% Rel. Humidity):</b> High heat index could lead to player fatigue late in the match and trigger official hydration breaks.")
+    elif temp >= 85:
+        notes.append(f"🔥 <b>Heat Warning ({temp}°F):</b> Warm temperatures may prompt official hydration breaks mid-half.")
     elif temp <= 32:
-        notes.append("❄️ <b>Freezing Pitch:</b> Cold conditions cause firm turf density and altered ball bounce elasticity.")
+        notes.append(f"❄️ <b>Freezing Pitch ({temp}°F):</b> Cold conditions cause firm turf density and altered ball bounce elasticity.")
 
     if not notes:
-        return "✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected."
+        return "✅ <b>Optimal Pitch Conditions:</b> Mild weather, fair humidity, and light winds. No adverse weather impact expected on match play."
     return "<br>".join(notes)
 
 # ==========================================
@@ -306,16 +312,18 @@ def generate_football_matchup_analysis(weather, is_dome):
 def render_game_card_html(game, is_compact_default=True):
     w = game['weather']
     is_dome = game['stadium']['roof'] in ["Dome", "Retractable"]
-    is_too_early = w.get('status') in ["too_early", "no_coords"] or w.get('temp') == "--"
+    is_no_coords = w.get('status') == "no_coords"
+    is_too_early = w.get('status') in ["too_early"] or w.get('temp') == "--"
 
     # Compute Max Rain Chance (%) during match window
     hourly = w.get('hourly', [])
     max_pop = max([h.get('precipChance', 0) for h in hourly], default=0) if hourly else 0
+    humidity = w.get('humidity', 50)
 
     # Dynamic Color Coding Logic
     bg_class = "bg-weather-sunny"
     border_class = ""
-    if is_too_early:
+    if is_no_coords or is_too_early:
         bg_class = "bg-light"
     elif is_dome:
         bg_class = "bg-weather-roof"
@@ -344,15 +352,21 @@ def render_game_card_html(game, is_compact_default=True):
 
     radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&zoom=10&level=surface&overlay=rain&product=ecmwf"
 
-    weather_emoji_line = f"Roof Closed<br>🌡️{w['temp']}°" if is_dome else f"🌧️{max_pop}%<br>🌡️{w['temp']}° 💨{w['windSpeed']}mph"
-    if is_too_early:
-        weather_emoji_line = "Roof Closed" if is_dome else "🔭 Forecast<br>pending"
+    # Balanced 2-Row Weather Display with Relative Humidity
+    if is_no_coords:
+        weather_emoji_line = "⚠️ Weather Info<br>Not Available"
+    elif is_dome:
+        weather_emoji_line = f"Roof Closed<br>🌡️{w['temp']}° 💧{humidity}%"
+    elif is_too_early:
+        weather_emoji_line = "🔭 Forecast<br>Pending"
+    else:
+        weather_emoji_line = f"🌧️{max_pop}% 🌡️{w['temp']}°<br>💨{w['windSpeed']}mph 💧{humidity}%"
 
     show_ribbon = "block" if is_compact_default else "none"
     show_full = "none" if is_compact_default else "block"
 
     hourly_html = ""
-    if not is_too_early and not is_dome and hourly:
+    if not is_too_early and not is_no_coords and not is_dome and hourly:
         hours_markup = ""
         for h in hourly[:5]:
             try:
@@ -377,15 +391,28 @@ def render_game_card_html(game, is_compact_default=True):
                 </div>"""
         hourly_html = f'<div class="hourly-scroll-container">{hours_markup}</div>'
 
-    weather_section = f"""
+    if is_no_coords:
+        weather_section = """
+        <div class="text-center p-3 mt-2 border-top">
+            <h6 class="text-warning fw-bold mb-1">⚠️ Weather Info Not Available</h6>
+            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium coordinates or venue location unlisted for this fixture.</p>
+        </div>"""
+    elif is_too_early:
+        weather_section = """
+        <div class="text-center p-3 mt-2 border-top">
+            <h6 class="text-muted mb-1">🔭 Early Forecast</h6>
+            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium weather details available ~14 days before kickoff.</p>
+        </div>"""
+    else:
+        weather_section = f"""
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
                 <div class="fw-bold">{w['temp']}°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">🌱</div>
-                <div class="small text-muted" style="font-size: 0.7rem;">{game['stadium'].get('surface', 'Grass')}</div>
+                <div class="fw-bold text-dark">💧 {humidity}%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
                 <div class="fw-bold text-primary">{max_pop}%</div>
@@ -405,10 +432,6 @@ def render_game_card_html(game, is_compact_default=True):
         <div class="analysis-box">
             <span class="analysis-title">✨ Football Weather Impact</span>
             {generate_football_matchup_analysis(w, is_dome)}
-        </div>""" if not is_too_early else """
-        <div class="text-center p-3 mt-2 border-top">
-            <h6 class="text-muted mb-1">🔭 Early Forecast</h6>
-            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium weather details available ~14 days before kickoff.</p>
         </div>"""
 
     league_logo_img = f'<img src="{game["league_logo"]}" style="width: 16px; height: 16px; object-fit: contain;" class="me-1">' if game.get("league_logo") else ''
@@ -439,9 +462,9 @@ def render_game_card_html(game, is_compact_default=True):
                         </div>
                     </div>
 
-                    <!-- Weather Info Vertical Column (Right) -->
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
+                    <!-- Weather Info Vertical Column (Right - Balanced 2 Rows) -->
+                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
+                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
                             {weather_emoji_line}
                         </span>
                     </div>
@@ -491,6 +514,7 @@ MASTER_HTML_TEMPLATE = """<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>__PAGE_TITLE__</title>
     <meta name="description" content="__META_DESC__">
+    <meta name="keywords" content="__SEO_KEYWORDS__">
     <link rel="canonical" href="__CANONICAL_URL__" />
 
     <!-- Favicons -->
@@ -643,6 +667,7 @@ def main():
     effective_dt = get_effective_matchday_date()
     date_str_espn = effective_dt.strftime("%Y%m%d")
     date_str_display = effective_dt.strftime("%A, %B %d, %Y")
+    date_str_seo = effective_dt.strftime("%B %d, %Y")
     print(f"📅 Target Matchday Date: {date_str_display} (ESPN param: {date_str_espn})")
 
     # 2. Load Stadium Database
@@ -708,10 +733,10 @@ def main():
         stadium_info = get_or_update_stadium(stadiums_db, venue_id, espn_venue, home_team=home_team)
 
         if stadium_info['roof'] in ["Dome", "Retractable"]:
-            weather = {"status": "ok", "temp": 70, "windSpeed": 0, "precip": 0.0, "hourly": []}
+            weather = {"status": "ok", "temp": 70, "humidity": 45, "windSpeed": 0, "precip": 0.0, "hourly": []}
         else:
             weather = fetch_open_meteo_hourly(stadium_info['lat'], stadium_info['lon'], game_time) or {
-                "status": "error", "temp": "--", "windSpeed": 0, "precip": 0.0, "hourly": []
+                "status": "error", "temp": "--", "humidity": 0, "windSpeed": 0, "precip": 0.0, "hourly": []
             }
 
         game_obj = {
@@ -771,21 +796,22 @@ def main():
     home_cards_html = "".join([render_game_card_html(g, is_compact_default=True) for g in today_games]) if today_games else """
         <div class="col-12 text-center py-5">
             <div class="alert alert-light border shadow-sm d-inline-block px-4 py-3">
-                <h5>⚽ No Matches Scheduled Today</h5>
-                <p class="text-muted mb-0 small">Use the search bars above to view upcoming match schedules and stadium forecasts.</p>
+                <h5>⚽ No Football Matches Scheduled Today</h5>
+                <p class="text-muted mb-0 small">Use the search bars above to view upcoming match schedules, pitch conditions, and stadium wind forecasts.</p>
             </div>
         </div>"""
 
     schema_json = json.dumps({"@context": "https://schema.org", "@type": "WebSite", "name": "Weather Football", "url": SITE_DOMAIN}, indent=2)
 
     home_content = MASTER_HTML_TEMPLATE
-    home_content = home_content.replace("__PAGE_TITLE__", f"Live Soccer Weather & Pitch Forecasts | WeatherFootball")
-    home_content = home_content.replace("__META_DESC__", f"Live matchday weather forecasts, wind speeds, rain risks, and pitch conditions for global soccer.")
+    home_content = home_content.replace("__PAGE_TITLE__", f"Today's Football Game Weather Forecasts & Stadium Pitch Conditions ({date_str_seo})")
+    home_content = home_content.replace("__META_DESC__", f"View live game weather today ({date_str_seo}) across global football leagues. Track stadium wind speed, hourly rain risks, relative humidity, and pitch impact analytics.")
+    home_content = home_content.replace("__SEO_KEYWORDS__", "today game weather, live football stadium weather, pitch wind speed, rain delay football, today match weather forecast")
     home_content = home_content.replace("__CANONICAL_URL__", f"{SITE_DOMAIN}/")
-    home_content = home_content.replace("__OG_TITLE__", "Live Soccer Weather & Pitch Conditions")
-    home_content = home_content.replace("__OG_DESC__", "Track pitch rain, wind speeds, and stadium conditions for all live soccer matches.")
-    home_content = home_content.replace("__HERO_HEADING__", "Live Football Stadium Weather")
-    home_content = home_content.replace("__HERO_SUBHEADING__", f"Matchday Slate for {date_str_display}")
+    home_content = home_content.replace("__OG_TITLE__", f"Today's Live Football Stadium Weather & Wind Forecasts")
+    home_content = home_content.replace("__OG_DESC__", f"Track real-time pitch rain risks, stadium wind direction, and weather impact analytics for today's football matches.")
+    home_content = home_content.replace("__HERO_HEADING__", "Today's Live Football Game Weather")
+    home_content = home_content.replace("__HERO_SUBHEADING__", f"Matchday Slate & Stadium Pitch Forecasts for {date_str_display}")
     home_content = home_content.replace("__TOGGLE_CONTROLS_ROW__", toggle_row_html if today_games else "")
     home_content = home_content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
     home_content = home_content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
@@ -806,13 +832,14 @@ def main():
         schema_json = json.dumps({"@context": "https://schema.org", "@type": "SportsEvent", "name": f"{l_data['name']} Matches"}, indent=2)
 
         content = MASTER_HTML_TEMPLATE
-        content = content.replace("__PAGE_TITLE__", f"{l_data['name']} Match Weather Forecasts | WeatherFootball")
-        content = content.replace("__META_DESC__", f"Live stadium weather, rain delays, and pitch wind conditions for {l_data['name']}.")
+        content = content.replace("__PAGE_TITLE__", f"{l_data['name']} Match Weather Forecasts & Stadium Pitch Wind Today")
+        content = content.replace("__META_DESC__", f"Live game weather today for {l_data['name']} matches. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts.")
+        content = content.replace("__SEO_KEYWORDS__", f"{l_data['name']} weather today, {l_data['name']} stadium wind, {l_data['name']} rain forecast, football match weather today")
         content = content.replace("__CANONICAL_URL__", f"{SITE_DOMAIN}/leagues/{l_slug}/")
-        content = content.replace("__OG_TITLE__", f"{l_data['name']} Live Weather & Stadium Forecasts")
-        content = content.replace("__OG_DESC__", f"Track real-time rain risks and wind metrics for {l_data['name']} fixtures.")
-        content = content.replace("__HERO_HEADING__", f"{l_data['name']} Weather")
-        content = content.replace("__HERO_SUBHEADING__", f"Active Slate & Stadium Forecasts")
+        content = content.replace("__OG_TITLE__", f"{l_data['name']} Game Weather & Stadium Wind Forecasts Today")
+        content = content.replace("__OG_DESC__", f"Real-time pitch rain risks and stadium wind metrics for all active {l_data['name']} matches today.")
+        content = content.replace("__HERO_HEADING__", f"{l_data['name']} Game Weather Today")
+        content = content.replace("__HERO_SUBHEADING__", f"Live Stadium Wind, Rain Risks & Pitch Analytics")
         content = content.replace("__TOGGLE_CONTROLS_ROW__", toggle_row_html)
         content = content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
         content = content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
@@ -829,13 +856,14 @@ def main():
         schema_json = json.dumps({"@context": "https://schema.org", "@type": "SportsTeam", "name": t_data['name']}, indent=2)
 
         content = MASTER_HTML_TEMPLATE
-        content = content.replace("__PAGE_TITLE__", f"{t_data['name']} Weather Forecast & Stadium Pitch Analytics")
-        content = content.replace("__META_DESC__", f"View matchday weather forecasts, wind speeds, and rain risks for {t_data['name']}.")
+        content = content.replace("__PAGE_TITLE__", f"{t_data['name']} Game Weather Forecast Today | Stadium Wind & Rain")
+        content = content.replace("__META_DESC__", f"Live game weather forecast today for {t_data['name']}. Track stadium wind speed, rain delay risks, temperature, and pitch conditions.")
+        content = content.replace("__SEO_KEYWORDS__", f"{t_data['name']} game weather today, {t_data['name']} stadium wind, {t_data['name']} pitch forecast, {t_data['name']} rain delay risk")
         content = content.replace("__CANONICAL_URL__", f"{SITE_DOMAIN}/teams/{t_slug}/")
-        content = content.replace("__OG_TITLE__", f"{t_data['name']} Game Weather")
-        content = content.replace("__OG_DESC__", f"Live stadium weather analysis and pitch conditions for {t_data['name']}.")
-        content = content.replace("__HERO_HEADING__", f"{t_data['name']} Forecast")
-        content = content.replace("__HERO_SUBHEADING__", f"League: {t_data['league']}")
+        content = content.replace("__OG_TITLE__", f"{t_data['name']} Game Weather Today")
+        content = content.replace("__OG_DESC__", f"Live matchday weather analytics and stadium wind forecasts for {t_data['name']}.")
+        content = content.replace("__HERO_HEADING__", f"{t_data['name']} Weather Today")
+        content = content.replace("__HERO_SUBHEADING__", f"League: {t_data['league']} | Stadium Pitch Analytics")
         content = content.replace("__TOGGLE_CONTROLS_ROW__", "")
         content = content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
         content = content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
