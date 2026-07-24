@@ -95,14 +95,8 @@ def save_json(filepath, data):
     write_if_changed(filepath, content)
 
 # ==========================================
-# STADIUM DATABASE & GEOCODING (OPEN-METEO)
+# STADIUM GEOCODING (OPEN-METEO)
 # ==========================================
-def load_stadiums_db():
-    return load_json(STADIUMS_FILE, {})
-
-def save_stadiums_db(stadiums_db):
-    save_json(STADIUMS_FILE, stadiums_db)
-
 def geocode_query_open_meteo(query_text):
     """Hits Open-Meteo's fast geocoding API."""
     if not query_text or not query_text.strip():
@@ -262,7 +256,7 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
     return None
 
 # ==========================================
-# HTML GENERATORS
+# CARD HTML GENERATOR (DUAL COMPACT / EXPANDED)
 # ==========================================
 def render_game_card_html(game, is_compact_default=True):
     w = game['weather']
@@ -270,10 +264,12 @@ def render_game_card_html(game, is_compact_default=True):
     is_no_coords = w.get('status') == "no_coords"
     is_too_early = w.get('status') in ["too_early"] or w.get('temp') == "--"
 
+    # Compute Max Rain Chance (%) during match window
     hourly = w.get('hourly', [])
     max_pop = max([h.get('precipChance', 0) for h in hourly], default=0) if hourly else 0
     humidity = w.get('humidity', 50)
 
+    # Dynamic Color Coding Logic
     bg_class = "bg-weather-sunny"
     border_class = ""
     if is_no_coords or is_too_early:
@@ -305,6 +301,7 @@ def render_game_card_html(game, is_compact_default=True):
 
     radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&zoom=10&level=surface&overlay=rain&product=ecmwf"
 
+    # Balanced 2-Row Weather Display with Relative Humidity
     if is_no_coords:
         weather_emoji_line = "⚠️ Weather Info<br>Not Available"
     elif is_dome:
@@ -684,7 +681,13 @@ def main():
 
     # 2. Load Databases
     stadiums_db = load_stadiums_db()
-    master_registry = load_master_registry()
+    
+    # Load Master Registry safely
+    master_registry = load_json(MASTER_REGISTRY_FILE, {"leagues": {}, "teams": {}})
+    if "leagues" not in master_registry: 
+        master_registry["leagues"] = {}
+    if "teams" not in master_registry: 
+        master_registry["teams"] = {}
 
     # 3. Fetch Master ESPN Scoreboards (Today + Future)
     print(f"📡 Fetching Today's Slate ({date_str_today})...")
@@ -782,6 +785,8 @@ def main():
         
         home_team = home_comp['team']['displayName']
         away_team = away_comp['team']['displayName']
+        home_slug = slugify(home_team)
+        away_slug = slugify(away_team)
         
         home_logos = home_comp['team'].get('logos', [])
         home_logo = home_comp['team'].get('logo', '') or (home_logos[0].get('href', '') if home_logos else '')
@@ -808,8 +813,8 @@ def main():
         })
 
     # Save cleanly using existing helper function implementations
-    save_stadiums_db(stadiums_db)
-    save_master_registry(master_registry)
+    save_json(STADIUMS_FILE, stadiums_db)
+    save_json(MASTER_REGISTRY_FILE, master_registry)
 
     today_games.sort(key=lambda x: x['game_time'])
 
