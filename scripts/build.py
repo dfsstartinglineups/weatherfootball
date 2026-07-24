@@ -855,21 +855,33 @@ def main():
         
         league_urls.append(f"{SITE_DOMAIN}/leagues/{l_slug}/")
         league_games = [g for g in all_games_processed if g['league_slug'] == l_slug]
+        has_game_today = any(g['id'] in today_event_ids for g in league_games)
         
         if league_games:
             cards_html = "".join([render_game_card_html(g, is_compact_default=True) for g in league_games])
         else:
             cards_html = render_dormant_banner()
 
+        if has_game_today:
+            page_title = f"Today's {l_data['name']} Match Weather Forecasts & Stadium Pitch Wind ({date_str_seo})"
+            meta_desc = f"Today's {l_data['name']} match weather forecasts and stadium pitch conditions for {date_str_seo}. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts."
+            hero_heading = f"Today's {l_data['name']} Match Weather ({date_str_seo})"
+            hero_subheading = f"Live Stadium Wind, Rain Risks & Pitch Analytics for {date_str_display}"
+        else:
+            page_title = f"{l_data['name']} Match Weather Forecasts & Stadium Pitch Wind"
+            meta_desc = f"Live game weather and forecasts for {l_data['name']} matches. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts."
+            hero_heading = f"{l_data['name']} Weather"
+            hero_subheading = f"Live Stadium Wind, Rain Risks & Upcoming Pitch Analytics"
+
         content = MASTER_HTML_TEMPLATE
-        content = content.replace("__PAGE_TITLE__", f"{l_data['name']} Match Weather Forecasts & Stadium Pitch Wind")
-        content = content.replace("__META_DESC__", f"Live game weather and forecasts for {l_data['name']} matches. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts.")
+        content = content.replace("__PAGE_TITLE__", page_title)
+        content = content.replace("__META_DESC__", meta_desc)
         content = content.replace("__SEO_KEYWORDS__", f"{l_data['name']} weather today, {l_data['name']} stadium wind, {l_data['name']} rain forecast, football match weather today")
         content = content.replace("__CANONICAL_URL__", f"{SITE_DOMAIN}/leagues/{l_slug}/")
-        content = content.replace("__OG_TITLE__", f"{l_data['name']} Game Weather & Stadium Wind Forecasts")
-        content = content.replace("__OG_DESC__", f"Real-time pitch rain risks and stadium wind metrics for {l_data['name']} matches.")
-        content = content.replace("__HERO_HEADING__", f"{l_data['name']} Weather")
-        content = content.replace("__HERO_SUBHEADING__", f"Live Stadium Wind, Rain Risks & Upcoming Pitch Analytics")
+        content = content.replace("__OG_TITLE__", page_title)
+        content = content.replace("__OG_DESC__", meta_desc)
+        content = content.replace("__HERO_HEADING__", hero_heading)
+        content = content.replace("__HERO_SUBHEADING__", hero_subheading)
         content = content.replace("__TOGGLE_CONTROLS_ROW__", toggle_row_html if league_games else "")
         content = content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
         content = content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
@@ -956,7 +968,7 @@ def main():
 </sitemapindex>'''
     write_if_changed("sitemap.xml", sitemap_index_content)
 
-    print("✅ Build complete! League jump scroll margin increased for clean clearance under sticky header.")
+    print("✅ Build complete! Title, H1, and description formatting updated for active league pages.")
 
 if __name__ == "__main__":
     main()
