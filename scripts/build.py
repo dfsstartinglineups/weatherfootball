@@ -268,44 +268,6 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
     print(f"   ⚠️ Open-Meteo request failed after retries for ({lat}, {lon})")
     return None
 
-def generate_football_matchup_analysis(weather, is_dome):
-    if is_dome:
-        return "🏟️ <b>Indoor Stadium Environment:</b> Climate controlled indoors. Zero rain, humidity, or wind impact on passing accuracy or pitch traction."
-
-    hourly = weather.get('hourly', [])
-    max_pop = max([h.get('precipChance', 0) for h in hourly], default=0) if hourly else 0
-    precip = weather.get('precip', 0.0)
-    wind = weather.get('windSpeed', 0)
-    temp = weather.get('temp', 72)
-    humidity = weather.get('humidity', 50)
-
-    notes = []
-    has_heavy_rain = max_pop >= 50 or precip >= 0.2
-    has_rain = max_pop >= 20 or precip > 0.0
-    has_high_wind = wind >= 15
-
-    if has_heavy_rain and has_high_wind:
-        notes.append(f"🌧️💨 <b>Heavy Weather Alert ({max_pop}% Rain Risk):</b> Sustained rainfall will create a slick pitch while gusty {wind} mph winds interfere with aerial balls and goal kicks.")
-    elif has_heavy_rain:
-        notes.append(f"🌧️ <b>Wet Pitch Alert ({max_pop}% Rain Risk):</b> Rain during match hours will make the pitch surface slick, accelerating ball skidding and slipping risks.")
-    elif has_rain and has_high_wind:
-        notes.append(f"🌧️💨 <b>Rain & Wind Risk ({max_pop}% Rain Chance):</b> Slick turf coupled with {wind} mph winds will affect cross trajectories and keeper handling.")
-    elif has_rain:
-        notes.append(f"🌧️ <b>Slippery Pitch Risk ({max_pop}% Rain Chance):</b> Expected rain during match hours will make pitch surface traction wet and ball bounce fast.")
-    elif has_high_wind:
-        notes.append(f"💨 <b>Wind Impact ({wind} mph):</b> Wind speeds exceeding 15 mph will cause trajectory drift on aerial crosses, long passes, and goal kicks.")
-
-    if temp >= 85 and humidity >= 65:
-        notes.append(f"🔥💧 <b>Sweltering Heat & Humidity ({temp}°F, {humidity}% Rel. Humidity):</b> High heat index could lead to player fatigue late in the match and trigger official hydration breaks.")
-    elif temp >= 85:
-        notes.append(f"🔥 <b>Heat Warning ({temp}°F):</b> Warm temperatures may prompt official hydration breaks mid-half.")
-    elif temp <= 32:
-        notes.append(f"❄️ <b>Freezing Pitch ({temp}°F):</b> Cold conditions cause firm turf density and altered ball bounce elasticity.")
-
-    if not notes:
-        return "✅ <b>Optimal Pitch Conditions:</b> Mild weather, fair humidity, and light winds. No adverse weather impact expected on match play."
-    return "<br>".join(notes)
-
 # ==========================================
 # CARD HTML GENERATOR (DUAL COMPACT / EXPANDED)
 # ==========================================
@@ -424,24 +386,18 @@ def render_game_card_html(game, is_compact_default=True):
             </div>
         </div>
         {hourly_html}
-        <div class="mt-2 mb-2">
+        <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('{radar_url}', '{game['stadium']['name']}')">
                 🗺️ Live Weather Radar
             </button>
-        </div>
-        <div class="analysis-box">
-            <span class="analysis-title">✨ Football Weather Impact</span>
-            {generate_football_matchup_analysis(w, is_dome)}
         </div>"""
-
-    league_logo_img = f'<img src="{game["league_logo"]}" style="width: 16px; height: 16px; object-fit: contain;" class="me-1">' if game.get("league_logo") else ''
 
     return f"""
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-{game['id']}">
         <div class="card game-card shadow-sm {border_class} {bg_class}">
-            <!-- COMPACT RIBBON VIEW (STACKED TEAMS) -->
+            <!-- COMPACT RIBBON VIEW (STACKED TEAMS - TIME BADGE LEFT) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_ribbon};">
-                <div class="d-flex align-items-center justify-content-end mb-2">
+                <div class="d-flex align-items-center justify-content-start mb-2">
                     <span class="badge {badge_style} flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>
                 </div>
                 
@@ -471,7 +427,6 @@ def render_game_card_html(game, is_compact_default=True):
             <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_full};">
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
-                        {league_logo_img}
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">{game['league_name']}</span>
                     </div>
                     <span class="badge {badge_style} flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>
@@ -542,8 +497,6 @@ __SCHEMA_JSON__
         .game-card { border: 1px solid #dee2e6; border-radius: 12px; background: white; overflow: hidden; }
         .weather-row { font-size: 0.9rem; border-top: 1px solid #f1f3f5; padding-top: 8px; margin-top: 8px; }
         .stadium-name { color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px; }
-        .analysis-box { background-color: rgba(255, 255, 255, 0.7); border-left: 4px solid #0d6efd; padding: 8px 12px; margin-top: 10px; font-size: 0.8rem; border-radius: 0 4px 4px 0; }
-        .analysis-title { font-weight: 800; text-transform: uppercase; font-size: 0.7rem; color: #0d6efd; display: block; margin-bottom: 2px; }
         
         .hourly-scroll-container { display: flex; overflow-x: auto; gap: 8px; padding: 8px 4px; margin-top: 8px; border-top: 1px solid rgba(0,0,0,0.05); }
         .hour-card { display: flex; flex-direction: column; align-items: center; min-width: 55px; text-align: center; }
@@ -552,12 +505,31 @@ __SCHEMA_JSON__
         .hour-pop { font-size: 0.65rem; color: #0d6efd; font-weight: 700; height: 12px; }
         .hour-temp { font-size: 0.8rem; font-weight: 600; }
         
-        /* SLEEK LEAGUE HEADER BADGE */
-        .league-badge-header {
-            display: inline-flex; align-items: center; background-color: #e9ecef; color: #495057; border-radius: 30px; padding: 6px 16px; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.3px; text-decoration: none; border: 1px solid #dee2e6; transition: all 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        /* SLEEK LEAGUE HEADER DIVIDER */
+        .league-section-title { 
+            font-size: 0.75rem; 
+            font-weight: 800; 
+            text-transform: uppercase; 
+            letter-spacing: 0.5px; 
+            color: #6c757d; 
+            margin: 1.5rem 0 0.5rem 0.25rem; 
+            display: flex; 
+            align-items: center; 
         }
-        .league-badge-header:hover { background-color: #dee2e6; color: #212529; }
-        .league-badge-header img { width: 16px; height: 16px; object-fit: contain; margin-right: 8px; }
+        .league-section-title a { 
+            color: inherit; 
+            text-decoration: none; 
+            transition: color 0.2s; 
+            display: flex; 
+            align-items: center; 
+        }
+        .league-section-title a:hover { color: #0d6efd; }
+        .league-section-title::after { 
+            content: ""; 
+            flex: 1; 
+            border-bottom: 1px solid #e9ecef; 
+            margin-left: 10px; 
+        }
 
         @keyframes weather-flow { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
         .bg-weather-sunny { background: linear-gradient(-45deg, #e3f2fd, #e1f5fe, #f1f8e9); background-size: 300% 300%; animation: weather-flow 15s ease infinite; }
@@ -710,9 +682,6 @@ def main():
             "Global Football"
         )
 
-        league_obj = event.get('league') or comp.get('league') or {}
-        league_logos = league_obj.get('logos', [])
-        league_logo = league_logos[0]['href'] if league_logos else ""
         league_slug = slugify(league_name)
 
         home_comp = next((c for c in comp['competitors'] if c['homeAway'] == 'home'), None)
@@ -749,7 +718,6 @@ def main():
             "clock": clock,
             "league_name": league_name,
             "league_slug": league_slug,
-            "league_logo": league_logo,
             "home_team": home_team,
             "home_slug": home_slug,
             "home_logo": home_logo,
@@ -763,7 +731,7 @@ def main():
         today_games.append(game_obj)
 
         if league_slug not in leagues_registry:
-            leagues_registry[league_slug] = {"name": league_name, "slug": league_slug, "logo": league_logo, "games": []}
+            leagues_registry[league_slug] = {"name": league_name, "slug": league_slug, "games": []}
         leagues_registry[league_slug]["games"].append(game_obj)
 
         for team_name, team_slug, team_logo in [(home_team, home_slug, home_logo), (away_team, away_slug, away_logo)]:
@@ -772,6 +740,9 @@ def main():
             teams_registry[team_slug]["games"].append(game_obj)
 
     save_stadiums_db(stadiums_db)
+
+    # Chronological Sorting by Game Kickoff Time
+    today_games.sort(key=lambda x: x['game_time'])
 
     # 5. Build Dual Datalist Options HTML (League vs Team)
     league_search_options_html = ""
@@ -801,7 +772,7 @@ def main():
         for g in today_games:
             lname = g['league_name']
             if lname not in grouped_games:
-                grouped_games[lname] = {"slug": g['league_slug'], "logo": g['league_logo'], "games": []}
+                grouped_games[lname] = {"slug": g['league_slug'], "games": []}
             grouped_games[lname]["games"].append(g)
 
         # Sort Leagues Alphabetically
@@ -809,17 +780,15 @@ def main():
             # Sort games within league chronologically
             ldata['games'].sort(key=lambda x: x['game_time'])
             
-            logo_html = f'<img src="{ldata["logo"]}">' if ldata["logo"] else ''
-            
-            # Sleek Pill-Shaped League Header Link
+            # Sleek, minimalist section divider header
             home_cards_html += f"""
-            <div class="col-12 mb-2 mt-3 ps-1">
-                <a href="/leagues/{ldata['slug']}/" class="league-badge-header">
-                    {logo_html} {lname} <span class="ms-1" style="font-size: 0.7rem; opacity: 0.6;">➔</span>
-                </a>
+            <div class="col-12 w-100 px-1">
+                <div class="league-section-title">
+                    <a href="/leagues/{ldata['slug']}/">{lname} <span style="font-size: 0.65rem; margin-left: 4px;">➔</span></a>
+                </div>
             </div>
             """
-            # Render Game Cards (without the league name repeated in the compact view header)
+            # Render Game Cards
             for g in ldata['games']:
                 home_cards_html += render_game_card_html(g, is_compact_default=True)
     else:
@@ -885,9 +854,19 @@ def main():
         cards_html = "".join([render_game_card_html(g, is_compact_default=False) for g in t_data['games']])
         schema_json = json.dumps({"@context": "https://schema.org", "@type": "SportsTeam", "name": t_data['name']}, indent=2)
 
+        next_game = t_data['games'][0] if t_data['games'] else None
+        if next_game:
+            matchup_str = f"{next_game['home_team']} vs {next_game['away_team']}"
+            venue_str = next_game['stadium']['name']
+            page_title = f"Today's Weather for {matchup_str} match at {venue_str} | Pitch Wind & Rain Forecast"
+            meta_desc = f"Live weather forecast for today's {matchup_str} match at {venue_str}. Track stadium wind speed, rain delay risks, temperature, and live pitch conditions."
+        else:
+            page_title = f"{t_data['name']} Game Weather Forecast Today | Stadium Wind & Rain"
+            meta_desc = f"Live game weather forecast today for {t_data['name']}. Track stadium wind speed, rain delay risks, temperature, and pitch conditions."
+
         content = MASTER_HTML_TEMPLATE
-        content = content.replace("__PAGE_TITLE__", f"{t_data['name']} Game Weather Forecast Today | Stadium Wind & Rain")
-        content = content.replace("__META_DESC__", f"Live game weather forecast today for {t_data['name']}. Track stadium wind speed, rain delay risks, temperature, and pitch conditions.")
+        content = content.replace("__PAGE_TITLE__", page_title)
+        content = content.replace("__META_DESC__", meta_desc)
         content = content.replace("__SEO_KEYWORDS__", f"{t_data['name']} game weather today, {t_data['name']} stadium wind, {t_data['name']} pitch forecast, {t_data['name']} rain delay risk")
         content = content.replace("__CANONICAL_URL__", f"{SITE_DOMAIN}/teams/{t_slug}/")
         content = content.replace("__OG_TITLE__", f"{t_data['name']} Game Weather Today")
