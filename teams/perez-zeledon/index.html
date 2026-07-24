@@ -180,7 +180,7 @@
         <div class="row w-100 m-0 p-0 justify-content-center">
 
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401876881">
-        <div class="card game-card shadow-sm  bg-light">
+        <div class="card game-card shadow-sm border-danger border-3 bg-weather-storm">
             <!-- COMPACT RIBBON VIEW (STACKED TEAMS) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
                 <div class="d-flex align-items-center justify-content-between mb-2">
@@ -207,7 +207,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🔭 Forecast<br>pending
+                            🌧️83%<br>🌡️74° 💨2mph
                         </span>
                     </div>
                 </div>
@@ -241,9 +241,63 @@
                     </div>
                     
                     
-        <div class="text-center p-3 mt-2 border-top">
-            <h6 class="text-muted mb-1">🔭 Early Forecast</h6>
-            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium weather details available ~14 days before kickoff.</p>
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">74°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">🌱</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Grass</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">83%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">1AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">83%</div>
+                    <div class="hour-temp">66°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">2AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">66%</div>
+                    <div class="hour-temp">65°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">3AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">51%</div>
+                    <div class="hour-temp">65°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">4AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">42%</div>
+                    <div class="hour-temp">64°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">5AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">36%</div>
+                    <div class="hour-temp">64°</div>
+                </div></div>
+        <div class="mt-2 mb-2">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=9.96042&lon=-84.04481&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Estadio Ricardo Saprissa')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+        <div class="analysis-box">
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Wet Pitch Alert (83% Rain Chance):</b> Sustained rainfall will make the pitch slick, accelerating ball speed and slipping hazards.
         </div>
                 </div>
             </div>

@@ -186,7 +186,7 @@
         <div class="row w-100 m-0 p-0 justify-content-center">
 
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401854540">
-        <div class="card game-card shadow-sm  bg-light">
+        <div class="card game-card shadow-sm border-danger border-3 bg-weather-storm">
             <!-- COMPACT RIBBON VIEW (STACKED TEAMS) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-between mb-2">
@@ -213,7 +213,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🔭 Forecast<br>pending
+                            🌧️84%<br>🌡️76° 💨6mph
                         </span>
                     </div>
                 </div>
@@ -247,16 +247,70 @@
                     </div>
                     
                     
-        <div class="text-center p-3 mt-2 border-top">
-            <h6 class="text-muted mb-1">🔭 Early Forecast</h6>
-            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium weather details available ~14 days before kickoff.</p>
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">76°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">🌱</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Grass</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">84%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">6 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">11AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">84%</div>
+                    <div class="hour-temp">84°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">12PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">75%</div>
+                    <div class="hour-temp">80°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">1PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">67%</div>
+                    <div class="hour-temp">79°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">2PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">60%</div>
+                    <div class="hour-temp">79°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">3PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">57%</div>
+                    <div class="hour-temp">79°</div>
+                </div></div>
+        <div class="mt-2 mb-2">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=13.0&lon=105.0&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Unknown Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+        <div class="analysis-box">
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Wet Pitch Alert (84% Rain Chance):</b> Sustained rainfall will make the pitch slick, accelerating ball speed and slipping hazards.
         </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401854541">
-        <div class="card game-card shadow-sm  bg-light">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (STACKED TEAMS) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-between mb-2">
@@ -283,7 +337,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🔭 Forecast<br>pending
+                            🌧️0%<br>🌡️57° 💨6mph
                         </span>
                     </div>
                 </div>
@@ -317,9 +371,63 @@
                     </div>
                     
                     
-        <div class="text-center p-3 mt-2 border-top">
-            <h6 class="text-muted mb-1">🔭 Early Forecast</h6>
-            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium weather details available ~14 days before kickoff.</p>
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">57°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">🌱</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Grass</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">0%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">6 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">12PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">57°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">1PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">57°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">2PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">57°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">3PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">57°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">4PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">57°</div>
+                </div></div>
+        <div class="mt-2 mb-2">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=-8.83333&lon=125.75&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Chonburi UTA Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+        <div class="analysis-box">
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -353,7 +461,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🌧️96%<br>🌡️61° 💨2mph
+                            🌧️96%<br>🌡️61° 💨3mph
                         </span>
                     </div>
                 </div>
@@ -401,7 +509,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -442,8 +550,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Wet Pitch Alert (96% Rain Chance):</b> Sustained rainfall will make the pitch slick, accelerating ball speed and slipping hazards.
         </div>
                 </div>
             </div>
@@ -458,7 +566,7 @@
                         
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Russian Premier</span>
                     </div>
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">47'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">59'</span>
                 </div>
                 
                 <div class="d-flex align-items-center justify-content-between gap-2">
@@ -490,7 +598,7 @@
                         
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Russian Premier</span>
                     </div>
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">47'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">59'</span>
                 </div>
                 
                 <div class="card-body px-2 pt-2 pb-2">
@@ -566,8 +674,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -582,7 +690,7 @@
                         
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Swedish Allsvenskan</span>
                     </div>
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">54'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">65'</span>
                 </div>
                 
                 <div class="d-flex align-items-center justify-content-between gap-2">
@@ -601,7 +709,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🌧️0%<br>🌡️73° 💨10mph
+                            🌧️0%<br>🌡️73° 💨11mph
                         </span>
                     </div>
                 </div>
@@ -614,7 +722,7 @@
                         
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Swedish Allsvenskan</span>
                     </div>
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">54'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">65'</span>
                 </div>
                 
                 <div class="card-body px-2 pt-2 pb-2">
@@ -649,7 +757,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">10 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">11 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -690,8 +798,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -706,7 +814,7 @@
                         
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Danish Superliga</span>
                     </div>
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">54'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">65'</span>
                 </div>
                 
                 <div class="d-flex align-items-center justify-content-between gap-2">
@@ -725,7 +833,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🌧️41%<br>🌡️65° 💨13mph
+                            🌧️41%<br>🌡️64° 💨13mph
                         </span>
                     </div>
                 </div>
@@ -738,7 +846,7 @@
                         
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Danish Superliga</span>
                     </div>
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">54'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">65'</span>
                 </div>
                 
                 <div class="card-body px-2 pt-2 pb-2">
@@ -761,7 +869,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">65°F</div>
+                <div class="fw-bold">64°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -814,8 +922,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Rain Risk (41% Chance):</b> Expected rain during the match window will create slick pitch surface conditions.
         </div>
                 </div>
             </div>
@@ -830,7 +938,7 @@
                         
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
                     </div>
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">12'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">23'</span>
                 </div>
                 
                 <div class="d-flex align-items-center justify-content-between gap-2">
@@ -849,7 +957,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🌧️0%<br>🌡️73° 💨4mph
+                            🌧️0%<br>🌡️72° 💨4mph
                         </span>
                     </div>
                 </div>
@@ -862,7 +970,7 @@
                         
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
                     </div>
-                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">12'</span>
+                    <span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">23'</span>
                 </div>
                 
                 <div class="card-body px-2 pt-2 pb-2">
@@ -885,7 +993,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">73°F</div>
+                <div class="fw-bold">72°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -938,8 +1046,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -973,7 +1081,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🌧️82%<br>🌡️74° 💨5mph
+                            🌧️82%<br>🌡️75° 💨5mph
                         </span>
                     </div>
                 </div>
@@ -1009,7 +1117,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">74°F</div>
+                <div class="fw-bold">75°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1062,8 +1170,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Wet Pitch Alert (82% Rain Chance):</b> Sustained rainfall will make the pitch slick, accelerating ball speed and slipping hazards.
         </div>
                 </div>
             </div>
@@ -1186,8 +1294,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -1221,7 +1329,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🌧️14%<br>🌡️83° 💨0mph
+                            🌧️14%<br>🌡️84° 💨0mph
                         </span>
                     </div>
                 </div>
@@ -1257,7 +1365,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">83°F</div>
+                <div class="fw-bold">84°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1310,8 +1418,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -1434,8 +1542,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Rain Risk (24% Chance):</b> Expected rain during the match window will create slick pitch surface conditions.
         </div>
                 </div>
             </div>
@@ -1558,8 +1666,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -1682,8 +1790,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -1806,8 +1914,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -1930,8 +2038,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -2054,8 +2162,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -2172,7 +2280,7 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
+            <span class="analysis-title">✨ Football Weather Impact</span>
             🔥 <b>Heat Warning:</b> High temperatures may prompt official hydration breaks mid-half.
         </div>
                 </div>
@@ -2207,7 +2315,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🌧️5%<br>🌡️93° 💨7mph
+                            🌧️5%<br>🌡️94° 💨7mph
                         </span>
                     </div>
                 </div>
@@ -2243,7 +2351,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">93°F</div>
+                <div class="fw-bold">94°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2290,7 +2398,7 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
+            <span class="analysis-title">✨ Football Weather Impact</span>
             🔥 <b>Heat Warning:</b> High temperatures may prompt official hydration breaks mid-half.
         </div>
                 </div>
@@ -2395,7 +2503,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🌧️100%<br>🌡️82° 💨5mph
+                            🌧️100%<br>🌡️83° 💨5mph
                         </span>
                     </div>
                 </div>
@@ -2431,7 +2539,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">82°F</div>
+                <div class="fw-bold">83°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2478,8 +2586,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Wet Pitch Alert (100% Rain Chance):</b> Sustained rainfall will make the pitch slick, accelerating ball speed and slipping hazards.
         </div>
                 </div>
             </div>
@@ -2596,8 +2704,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -2714,8 +2822,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -2749,7 +2857,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🌧️43%<br>🌡️66° 💨1mph
+                            🌧️43%<br>🌡️67° 💨1mph
                         </span>
                     </div>
                 </div>
@@ -2785,7 +2893,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">66°F</div>
+                <div class="fw-bold">67°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2832,8 +2940,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Rain Risk (43% Chance):</b> Expected rain during the match window will create slick pitch surface conditions.
         </div>
                 </div>
             </div>
@@ -2867,7 +2975,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🌧️6%<br>🌡️73° 💨7mph
+                            🌧️6%<br>🌡️74° 💨8mph
                         </span>
                     </div>
                 </div>
@@ -2903,7 +3011,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">73°F</div>
+                <div class="fw-bold">74°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2915,7 +3023,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">8 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -2956,8 +3064,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -3080,8 +3188,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -3204,8 +3312,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Wet Pitch Alert (94% Rain Chance):</b> Sustained rainfall will make the pitch slick, accelerating ball speed and slipping hazards.
         </div>
                 </div>
             </div>
@@ -3328,15 +3436,15 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401899753">
-        <div class="card game-card shadow-sm  bg-light">
+        <div class="card game-card shadow-sm border-danger border-3 bg-weather-storm">
             <!-- COMPACT RIBBON VIEW (STACKED TEAMS) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-between mb-2">
@@ -3363,7 +3471,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🔭 Forecast<br>pending
+                            🌧️88%<br>🌡️87° 💨1mph
                         </span>
                     </div>
                 </div>
@@ -3397,9 +3505,63 @@
                     </div>
                     
                     
-        <div class="text-center p-3 mt-2 border-top">
-            <h6 class="text-muted mb-1">🔭 Early Forecast</h6>
-            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium weather details available ~14 days before kickoff.</p>
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">87°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">🌱</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Grass</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">88%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">12AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">88%</div>
+                    <div class="hour-temp">72°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">1AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">68%</div>
+                    <div class="hour-temp">71°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">2AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">37%</div>
+                    <div class="hour-temp">70°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">3AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">70°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">4AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">69°</div>
+                </div></div>
+        <div class="mt-2 mb-2">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=13.83333&lon=-88.91667&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Estadio Óscar Alberto Quiteño')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+        <div class="analysis-box">
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Wet Pitch Alert (88% Rain Chance):</b> Sustained rainfall will make the pitch slick, accelerating ball speed and slipping hazards.<br>🔥 <b>Heat Warning:</b> High temperatures may prompt official hydration breaks mid-half.
         </div>
                 </div>
             </div>
@@ -3522,15 +3684,15 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Rain Risk (21% Chance):</b> Expected rain during the match window will create slick pitch surface conditions.
         </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401876881">
-        <div class="card game-card shadow-sm  bg-light">
+        <div class="card game-card shadow-sm border-danger border-3 bg-weather-storm">
             <!-- COMPACT RIBBON VIEW (STACKED TEAMS) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-between mb-2">
@@ -3557,7 +3719,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🔭 Forecast<br>pending
+                            🌧️83%<br>🌡️74° 💨2mph
                         </span>
                     </div>
                 </div>
@@ -3591,16 +3753,70 @@
                     </div>
                     
                     
-        <div class="text-center p-3 mt-2 border-top">
-            <h6 class="text-muted mb-1">🔭 Early Forecast</h6>
-            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium weather details available ~14 days before kickoff.</p>
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">74°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">🌱</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Grass</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">83%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">1AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">83%</div>
+                    <div class="hour-temp">66°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">2AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">66%</div>
+                    <div class="hour-temp">65°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">3AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">51%</div>
+                    <div class="hour-temp">65°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">4AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">42%</div>
+                    <div class="hour-temp">64°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">5AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">36%</div>
+                    <div class="hour-temp">64°</div>
+                </div></div>
+        <div class="mt-2 mb-2">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=9.96042&lon=-84.04481&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Estadio Ricardo Saprissa')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+        <div class="analysis-box">
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Wet Pitch Alert (83% Rain Chance):</b> Sustained rainfall will make the pitch slick, accelerating ball speed and slipping hazards.
         </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401879515">
-        <div class="card game-card shadow-sm  bg-light">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (STACKED TEAMS) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 <div class="d-flex align-items-center justify-content-between mb-2">
@@ -3627,7 +3843,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🔭 Forecast<br>pending
+                            🌧️2%<br>🌡️81° 💨8mph
                         </span>
                     </div>
                 </div>
@@ -3661,9 +3877,63 @@
                     </div>
                     
                     
-        <div class="text-center p-3 mt-2 border-top">
-            <h6 class="text-muted mb-1">🔭 Early Forecast</h6>
-            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium weather details available ~14 days before kickoff.</p>
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">81°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">🌱</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Grass</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">2%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">8 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time">1AM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">74°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">2AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">72°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">3AM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">71°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">4AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">70°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time">5AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">69°</div>
+                </div></div>
+        <div class="mt-2 mb-2">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=39.32983&lon=-76.60163&zoom=10&level=surface&overlay=rain&product=ecmwf', 'Estadio El Trébol')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+        <div class="analysis-box">
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>
@@ -3697,7 +3967,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🌧️80%<br>🌡️77° 💨0mph
+                            🌧️80%<br>🌡️78° 💨0mph
                         </span>
                     </div>
                 </div>
@@ -3733,7 +4003,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">77°F</div>
+                <div class="fw-bold">78°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -3786,8 +4056,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            🌧️ <b>Wet Pitch Alert (80% Rain Chance):</b> Sustained rainfall will make the pitch slick, accelerating ball speed and slipping hazards.
         </div>
                 </div>
             </div>
@@ -3821,7 +4091,7 @@
                     <!-- Weather Info Vertical Column (Right) -->
                     <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 110px;">
                         <span class="fw-bold text-primary text-end" style="font-size: 0.75rem; line-height: 1.3;">
-                            🌧️1%<br>🌡️81° 💨3mph
+                            🌧️1%<br>🌡️83° 💨3mph
                         </span>
                     </div>
                 </div>
@@ -3857,7 +4127,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">81°F</div>
+                <div class="fw-bold">83°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -3910,8 +4180,8 @@
             </button>
         </div>
         <div class="analysis-box">
-            <span class="analysis-title">✨ Soccer Weather Impact</span>
-            ✅ <b>Optimal Pitch Conditions:</b> Mild temperatures and light winds. No adverse weather impact expected.
+            <span class="analysis-title">✨ Football Weather Impact</span>
+            ✅ <b>Optimal Pitch Conditions:</b> Fair temperatures and light winds. No adverse weather impact expected.
         </div>
                 </div>
             </div>

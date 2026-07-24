@@ -13,8 +13,8 @@
         "city": "Chonburi",
         "country": "Thailand",
         "id": "10458",
-        "lat": 0.0,
-        "lon": 0.0,
+        "lat": -8.83333,
+        "lon": 125.75,
         "name": "Chonburi UTA Stadium",
         "roof": "Open",
         "surface": "Grass"
@@ -53,8 +53,8 @@
         "city": "",
         "country": "El Salvador",
         "id": "10819",
-        "lat": 0.0,
-        "lon": 0.0,
+        "lat": 13.83333,
+        "lon": -88.91667,
         "name": "Estadio \u00d3scar Alberto Quite\u00f1o",
         "roof": "Open",
         "surface": "Grass"
@@ -73,8 +73,8 @@
         "city": "Estadio Nacional de Costa Rica",
         "country": "Costa Rica",
         "id": "10886",
-        "lat": 0.0,
-        "lon": 0.0,
+        "lat": 9.96042,
+        "lon": -84.04481,
         "name": "Estadio Ricardo Saprissa",
         "roof": "Open",
         "surface": "Grass"
@@ -263,8 +263,8 @@
         "city": "Estadio Cementos Progreso",
         "country": "Guatemala",
         "id": "6371",
-        "lat": 0.0,
-        "lon": 0.0,
+        "lat": 39.32983,
+        "lon": -76.60163,
         "name": "Estadio El Tr\u00e9bol",
         "roof": "Open",
         "surface": "Grass"
@@ -306,6 +306,26 @@
         "lat": 20.81692,
         "lon": -102.76347,
         "name": "Estadio Gregorio Tepa G\u00f3mez",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "birmingham-legion-fc": {
+        "city": "",
+        "country": "",
+        "id": "birmingham-legion-fc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Unknown Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "cambodia": {
+        "city": "",
+        "country": "",
+        "id": "cambodia",
+        "lat": 13.0,
+        "lon": 105.0,
+        "name": "Unknown Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
