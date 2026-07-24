@@ -350,7 +350,7 @@ def render_game_card_html(game, is_compact_default=True):
             pop_str = f"{h['precipChance']}%" if h['precipChance'] >= 20 else "&nbsp;"
             hours_markup += f"""
                 <div class="hour-card">
-                    <div class="hour-time">{hr_str}</div>
+                    <div class="hour-time local-hour-time" data-timestamp="{h['timestamp']}">{hr_str}</div>
                     <div class="hour-icon">{icon}</div>
                     <div class="hour-pop">{pop_str}</div>
                     <div class="hour-temp">{h['temp']}°</div>
@@ -575,6 +575,17 @@ __MATCH_CARDS_GRID__
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
                     el.textContent = dt.toLocaleString(undefined, {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
+                }
+            });
+
+            // Localize 5-hour forecast hourly timestamps into visitor's local timezone
+            document.querySelectorAll('.local-hour-time').forEach(el => {
+                const dt = new Date(el.dataset.timestamp);
+                if (!isNaN(dt)) {
+                    let hr = dt.getHours();
+                    const ampm = hr >= 12 ? 'PM' : 'AM';
+                    hr = hr % 12 || 12;
+                    el.textContent = `${hr}${ampm}`;
                 }
             });
 
@@ -924,7 +935,7 @@ def main():
 </sitemapindex>'''
     write_if_changed("sitemap.xml", sitemap_index_content)
 
-    print("✅ Build complete! Radar popup lifecycle updated, static pages re-rendered, and sitemaps generated.")
+    print("✅ Build complete! Hourly forecast localizations added, static pages re-rendered, and sitemaps updated.")
 
 if __name__ == "__main__":
     main()
