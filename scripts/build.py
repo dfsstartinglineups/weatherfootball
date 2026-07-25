@@ -310,7 +310,7 @@ def render_game_card_html(game, is_compact_default=True):
 
     if game['status'] == 'in':
         badge_text = game.get('clock') or 'LIVE'
-        badge_html = f'<span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">{badge_text}{score_str}</span>'
+        badge_html = f'<span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">{badge_text}{score_str}</span>'
     elif game['status'] == 'post':
         badge_text = "FINAL"
         badge_html = f'<span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">{badge_text}{score_str}</span>'
