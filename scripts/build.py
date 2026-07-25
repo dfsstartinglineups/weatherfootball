@@ -320,13 +320,14 @@ def render_game_card_html(game, is_compact_default=True):
     radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&detailLat={game['stadium']['lat']}&detailLon={game['stadium']['lon']}&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1"
 
     if is_no_coords:
-        weather_emoji_line = "⚠️ Weather Info<br>Not Available"
+        weather_emoji_line = "⚠️ No Weather Info"
     elif is_dome:
-        weather_emoji_line = f"Roof Closed<br>🌡️{w['temp']}° 💧{humidity}%"
+        weather_emoji_line = f"🏠 Roof Closed 🌡️{w['temp']}° 💧{humidity}%"
     elif is_too_early:
-        weather_emoji_line = "🔭 Forecast<br>Pending"
+        weather_emoji_line = "🔭 Forecast Pending"
     else:
-        weather_emoji_line = f"🌧️{max_pop}% 🌡️{w['temp']}°<br>💨{w['windSpeed']}mph 💧{humidity}%"
+        # Formatted strictly on one line to match the MLB style
+        weather_emoji_line = f"🌧️ {max_pop}% 🌡️ {w['temp']}° 💧 {humidity}% 💨 {w['windSpeed']}mph"
 
     show_ribbon = "block" if is_compact_default else "none"
     show_full = "none" if is_compact_default else "block"
@@ -400,27 +401,30 @@ def render_game_card_html(game, is_compact_default=True):
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-{game['id']}">
         <div class="card game-card shadow-sm {border_class} {bg_class}">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_ribbon};">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     {badge_html}
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="{game['home_logo']}" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">{game['home_team']}</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="{game['away_logo']}" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">{game['away_team']}</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            {weather_emoji_line}
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        {weather_emoji_line}
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="{game['away_logo']}" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">{game['away_team']}</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="{game['home_logo']}" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">{game['home_team']}</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
