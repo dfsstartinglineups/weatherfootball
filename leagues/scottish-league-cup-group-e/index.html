@@ -486,27 +486,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401874229">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-25T14:00Z" style="font-size: 0.65rem;">Jul 25, 02:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/408.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Forfar Athletic</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Brechin City</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️7% 🌡️46°<br>💨5mph 💧90%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 7% 🌡️ 46° 💧 90% 💨 5mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Brechin City</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/408.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Forfar Athletic</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -594,27 +597,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401874242">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-25T14:00Z" style="font-size: 0.65rem;">Jul 25, 02:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/405.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Stenhousemuir</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/259.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Livingston</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️65°<br>💨14mph 💧60%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 0% 🌡️ 65° 💧 64% 💨 13mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/259.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Livingston</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/405.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Stenhousemuir</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -647,7 +653,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 60%</div>
+                <div class="fw-bold text-dark">💧 64%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -655,7 +661,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">14 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">13 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -664,7 +670,7 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T13:00Z">1PM</div>
                     <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">65°</div>
+                    <div class="hour-temp">64°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T14:00Z">2PM</div>

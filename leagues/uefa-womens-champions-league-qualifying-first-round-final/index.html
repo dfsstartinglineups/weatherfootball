@@ -486,27 +486,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401899236">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-25T15:30Z" style="font-size: 0.65rem;">Jul 25, 03:30 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">PAOK</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Neftchi Baku PFC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️1% 🌡️82°<br>💨4mph 💧57%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 1% 🌡️ 82° 💧 57% 💨 4mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Neftchi Baku PFC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">PAOK</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -594,27 +597,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401899276">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-25T16:00Z" style="font-size: 0.65rem;">Jul 25, 04:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Athlone Town</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Czarni Sosnowiec</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️77°<br>💨6mph 💧33%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 0% 🌡️ 77° 💧 33% 💨 6mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Czarni Sosnowiec</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Athlone Town</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -702,27 +708,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401899235">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-25T17:00Z" style="font-size: 0.65rem;">Jul 25, 05:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Riga FC</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Wrexham</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️1% 🌡️70°<br>💨12mph 💧51%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 1% 🌡️ 71° 💧 51% 💨 12mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Wrexham</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Riga FC</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -751,7 +760,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">70°F</div>
+                <div class="fw-bold">71°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -772,7 +781,7 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T16:00Z">4PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">68°</div>
+                    <div class="hour-temp">69°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T17:00Z">5PM</div>
@@ -790,13 +799,13 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T19:00Z">7PM</div>
                     <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-temp">65°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T20:00Z">8PM</div>
                     <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">64°</div>
+                    <div class="hour-temp">63°</div>
                 </div></div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=53.04664&lon=-2.99132&detailLat=53.04664&detailLon=-2.99132&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'STōK Cae Ras')">
@@ -810,27 +819,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401899953">
         <div class="card game-card shadow-sm  bg-light">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-25T17:00Z" style="font-size: 0.65rem;">Jul 25, 05:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">SPARTAK MYJAVA WOMEN</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Mgarr United</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            ⚠️ Weather Info<br>Not Available
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        ⚠️ No Weather Info
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Mgarr United</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">SPARTAK MYJAVA WOMEN</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -868,27 +880,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401899234">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-25T18:00Z" style="font-size: 0.65rem;">Jul 25, 06:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Mitrovica</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Ludogorets Razgrad</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️72°<br>💨4mph 💧38%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 0% 🌡️ 72° 💧 38% 💨 4mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Ludogorets Razgrad</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Mitrovica</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->

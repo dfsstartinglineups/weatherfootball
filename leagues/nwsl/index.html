@@ -486,27 +486,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401854068">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-25T21:00Z" style="font-size: 0.65rem;">Jul 25, 09:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131562.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Boston Legacy FC</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20907.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Kansas City Current</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️68°<br>💨2mph 💧71%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 0% 🌡️ 69° 💧 71% 💨 2mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20907.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Kansas City Current</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131562.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Boston Legacy FC</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -535,7 +538,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">68°F</div>
+                <div class="fw-bold">69°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -556,13 +559,13 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T20:00Z">8PM</div>
                     <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">80°</div>
+                    <div class="hour-temp">81°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T21:00Z">9PM</div>
                     <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">79°</div>
+                    <div class="hour-temp">80°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T22:00Z">10PM</div>
@@ -592,29 +595,32 @@
         </div>
     </div>
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853950">
-        <div class="card game-card shadow-sm  bg-weather-sunny">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-25T23:45Z" style="font-size: 0.65rem;">Jul 25, 11:45 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15366.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">North Carolina Courage</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/19141.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Utah Royals</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️6% 🌡️68°<br>💨4mph 💧97%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 6% 🌡️ 67° 💧 97% 💨 7mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/19141.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Utah Royals</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15366.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">North Carolina Courage</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -643,7 +649,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">68°F</div>
+                <div class="fw-bold">67°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -655,7 +661,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -664,19 +670,19 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T22:00Z">10PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">71°</div>
+                    <div class="hour-temp">70°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-25T23:00Z">11PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">71°</div>
+                    <div class="hour-temp">70°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-26T00:00Z">12AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">70°</div>
+                    <div class="hour-temp">69°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-26T01:00Z">1AM</div>
@@ -702,27 +708,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853951">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-26T21:00Z" style="font-size: 0.65rem;">Jul 26, 09:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21423.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">San Diego Wave FC</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15363.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Seattle Reign FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️2% 🌡️68°<br>💨2mph 💧92%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 3% 🌡️ 68° 💧 92% 💨 2mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15363.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Seattle Reign FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21423.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">San Diego Wave FC</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -759,7 +768,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">2%</div>
+                <div class="fw-bold text-primary">3%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -794,7 +803,7 @@
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-27T00:00Z">12AM</div>
-                    <div class="hour-icon">☀️</div>
+                    <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">74°</div>
                 </div></div>
@@ -810,27 +819,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401854069">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-26T23:00Z" style="font-size: 0.65rem;">Jul 26, 11:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15365.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Washington Spirit</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131563.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Denver Summit FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️17% 🌡️71°<br>💨1mph 💧79%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 17% 🌡️ 70° 💧 79% 💨 2mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131563.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Denver Summit FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15365.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Washington Spirit</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -859,7 +871,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">71°F</div>
+                <div class="fw-bold">70°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -871,7 +883,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -918,27 +930,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853952">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-27T01:00Z" style="font-size: 0.65rem;">Jul 27, 01:00 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21422.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Angel City FC</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20905.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Racing Louisville FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️69°<br>💨1mph 💧82%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 1% 🌡️ 69° 💧 82% 💨 1mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20905.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Racing Louisville FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21422.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Angel City FC</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -975,7 +990,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">0%</div>
+                <div class="fw-bold text-primary">1%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -986,7 +1001,7 @@
         <div class="hourly-scroll-container">
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-27T00:00Z">12AM</div>
-                    <div class="hour-icon">☀️</div>
+                    <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">84°</div>
                 </div>
@@ -1026,27 +1041,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853953">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-30T00:00Z" style="font-size: 0.65rem;">Jul 30, 12:00 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20907.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Kansas City Current</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20905.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Racing Louisville FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️2% 🌡️79°<br>💨7mph 💧90%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 2% 🌡️ 79° 💧 90% 💨 5mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20905.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Racing Louisville FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20907.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Kansas City Current</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -1087,7 +1105,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -1128,27 +1146,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853954">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-30T01:00Z" style="font-size: 0.65rem;">Jul 30, 01:00 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/19141.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Utah Royals</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15365.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Washington Spirit</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️5% 🌡️80°<br>💨7mph 💧37%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 5% 🌡️ 78° 💧 37% 💨 5mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15365.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Washington Spirit</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/19141.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Utah Royals</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -1177,7 +1198,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">80°F</div>
+                <div class="fw-bold">78°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1189,7 +1210,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -1236,27 +1257,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853955">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-30T02:00Z" style="font-size: 0.65rem;">Jul 30, 02:00 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/22187.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Bay FC</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15364.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Gotham FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️57°<br>💨0mph 💧88%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 0% 🌡️ 57° 💧 88% 💨 1mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15364.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Gotham FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/22187.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Bay FC</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -1297,7 +1321,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">0 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -1342,29 +1366,32 @@
         </div>
     </div>
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853956">
-        <div class="card game-card shadow-sm  bg-weather-sunny">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-01T00:00Z" style="font-size: 0.65rem;">Aug 01, 12:00 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15366.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">North Carolina Courage</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/18206.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Orlando Pride</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️15% 🌡️68°<br>💨4mph 💧97%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 15% 🌡️ 67° 💧 97% 💨 7mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/18206.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Orlando Pride</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15366.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">North Carolina Courage</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -1393,7 +1420,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">68°F</div>
+                <div class="fw-bold">67°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1405,7 +1432,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -1446,27 +1473,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853957">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-01T20:00Z" style="font-size: 0.65rem;">Aug 01, 08:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20905.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Racing Louisville FC</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15360.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Chicago Stars FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️18% 🌡️67°<br>💨4mph 💧91%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 18% 🌡️ 71° 💧 91% 💨 4mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15360.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Chicago Stars FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20905.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Racing Louisville FC</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -1495,7 +1525,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">67°F</div>
+                <div class="fw-bold">71°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1554,27 +1584,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853958">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-01T22:30Z" style="font-size: 0.65rem;">Aug 01, 10:30 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20907.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Kansas City Current</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21422.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Angel City FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️3% 🌡️79°<br>💨7mph 💧90%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 3% 🌡️ 79° 💧 90% 💨 5mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21422.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Angel City FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20907.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Kansas City Current</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -1615,7 +1648,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -1662,27 +1695,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853959">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-02T00:00Z" style="font-size: 0.65rem;">Aug 02, 12:00 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/17346.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Houston Dash</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15364.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Gotham FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️8% 🌡️80°<br>💨0mph 💧91%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 8% 🌡️ 80° 💧 91% 💨 2mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15364.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Gotham FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/17346.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Houston Dash</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -1723,7 +1759,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">0 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -1764,27 +1800,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853960">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-02T00:45Z" style="font-size: 0.65rem;">Aug 02, 12:45 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/22187.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Bay FC</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15363.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Seattle Reign FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️0% 🌡️57°<br>💨0mph 💧88%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 0% 🌡️ 57° 💧 88% 💨 1mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15363.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Seattle Reign FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/22187.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Bay FC</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -1825,7 +1864,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">0 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -1866,27 +1905,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853961">
         <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-02T20:00Z" style="font-size: 0.65rem;">Aug 02, 08:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15365.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Washington Spirit</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21423.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">San Diego Wave FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️34% 🌡️71°<br>💨1mph 💧79%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 34% 🌡️ 70° 💧 79% 💨 2mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21423.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">San Diego Wave FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15365.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Washington Spirit</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -1915,7 +1957,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">71°F</div>
+                <div class="fw-bold">70°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1927,7 +1969,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -1974,27 +2016,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853962">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-02T23:00Z" style="font-size: 0.65rem;">Aug 02, 11:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/19141.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Utah Royals</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15362.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Portland Thorns FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️2% 🌡️80°<br>💨7mph 💧37%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 2% 🌡️ 78° 💧 37% 💨 5mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15362.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Portland Thorns FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/19141.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Utah Royals</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -2023,7 +2068,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">80°F</div>
+                <div class="fw-bold">78°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2035,7 +2080,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -2082,27 +2127,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401854070">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-03T01:00Z" style="font-size: 0.65rem;">Aug 03, 01:00 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131563.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Denver Summit FC</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131562.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Boston Legacy FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️19% 🌡️70°<br>💨5mph 💧50%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 19% 🌡️ 70° 💧 50% 💨 5mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131562.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Boston Legacy FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131563.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Denver Summit FC</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -2190,27 +2238,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401854071">
         <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-06T02:00Z" style="font-size: 0.65rem;">Aug 06, 02:00 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131563.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Denver Summit FC</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15366.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">North Carolina Courage</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️31% 🌡️70°<br>💨5mph 💧50%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 31% 🌡️ 70° 💧 50% 💨 5mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15366.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">North Carolina Courage</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131563.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Denver Summit FC</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -2298,27 +2349,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853965">
         <div class="card game-card shadow-sm border-danger border-3 bg-weather-storm">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-07T23:00Z" style="font-size: 0.65rem;">Aug 07, 11:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/18206.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Orlando Pride</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20905.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Racing Louisville FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️55% 🌡️85°<br>💨2mph 💧71%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 55% 🌡️ 85° 💧 71% 💨 1mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20905.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Racing Louisville FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/18206.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Orlando Pride</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -2359,7 +2413,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -2406,27 +2460,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853963">
         <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-08T00:00Z" style="font-size: 0.65rem;">Aug 08, 12:00 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15364.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Gotham FC</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21423.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">San Diego Wave FC</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️32% 🌡️68°<br>💨2mph 💧70%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 32% 🌡️ 66° 💧 70% 💨 2mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21423.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">San Diego Wave FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15364.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Gotham FC</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -2455,7 +2512,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">68°F</div>
+                <div class="fw-bold">66°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2508,27 +2565,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401854072">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-08T20:00Z" style="font-size: 0.65rem;">Aug 08, 08:00 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131563.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Denver Summit FC</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/19141.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Utah Royals</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️15% 🌡️70°<br>💨5mph 💧50%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 15% 🌡️ 70° 💧 50% 💨 5mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/19141.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Utah Royals</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131563.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Denver Summit FC</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -2616,27 +2676,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853964">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-08T22:30Z" style="font-size: 0.65rem;">Aug 08, 10:30 PM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15365.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Washington Spirit</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15366.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">North Carolina Courage</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️12% 🌡️71°<br>💨1mph 💧79%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 12% 🌡️ 70° 💧 79% 💨 2mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15366.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">North Carolina Courage</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/15365.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Washington Spirit</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -2665,7 +2728,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">71°F</div>
+                <div class="fw-bold">70°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -2677,7 +2740,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -2724,27 +2787,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401853966">
         <div class="card game-card shadow-sm  bg-light">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-09T00:45Z" style="font-size: 0.65rem;">Aug 09, 12:45 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/17346.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Houston Dash</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20907.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Kansas City Current</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🔭 Forecast<br>Pending
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🔭 Forecast Pending
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20907.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Kansas City Current</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/17346.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Houston Dash</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->

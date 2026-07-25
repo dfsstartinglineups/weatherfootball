@@ -481,27 +481,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-761692">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-07-26T02:30Z" style="font-size: 0.65rem;">Jul 26, 02:30 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/9723.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Portland Timbers</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4771.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Real Salt Lake</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️5% 🌡️71°<br>💨5mph 💧94%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 5% 🌡️ 71° 💧 94% 💨 3mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4771.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Real Salt Lake</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/9723.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Portland Timbers</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -542,7 +545,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -551,25 +554,25 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-26T01:00Z">1AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">74°</div>
+                    <div class="hour-temp">76°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-26T02:00Z">2AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">73°</div>
+                    <div class="hour-temp">74°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-26T03:00Z">3AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">73°</div>
+                    <div class="hour-temp">74°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-26T04:00Z">4AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">72°</div>
+                    <div class="hour-temp">73°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-07-26T05:00Z">5AM</div>
@@ -589,27 +592,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-761705">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-02T00:30Z" style="font-size: 0.65rem;">Aug 02, 12:30 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21812.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">St. Louis CITY SC</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4771.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Real Salt Lake</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️6% 🌡️73°<br>💨5mph 💧90%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 6% 🌡️ 72° 💧 90% 💨 8mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4771.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Real Salt Lake</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21812.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">St. Louis CITY SC</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -638,7 +644,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">73°F</div>
+                <div class="fw-bold">72°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -650,7 +656,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">8 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -691,27 +697,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401863557">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-05T02:00Z" style="font-size: 0.65rem;">Aug 05, 02:00 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/232.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Tigres UANL</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4771.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Real Salt Lake</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🌧️4% 🌡️80°<br>💨7mph 💧37%
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🌧️ 2% 🌡️ 78° 💧 37% 💨 5mph
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4771.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Real Salt Lake</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/232.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Tigres UANL</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
@@ -740,7 +749,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">80°F</div>
+                <div class="fw-bold">78°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -748,11 +757,11 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">4%</div>
+                <div class="fw-bold text-primary">2%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -799,27 +808,30 @@
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-401863601">
         <div class="card game-card shadow-sm  bg-light">
             <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
-                <div class="d-flex align-items-center justify-content-start mb-2">
+                
+                <!-- Top Line: Time Badge & Weather (Right aligned) -->
+                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-09T02:00Z" style="font-size: 0.65rem;">Aug 09, 02:00 AM UTC</span>
-                </div>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                    <div class="d-flex flex-column gap-1 text-truncate" style="flex: 1; min-width: 0;">
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4771.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Real Salt Lake</span>
-                        </div>
-                        <div class="d-flex align-items-center text-truncate gap-1">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/226.png" style="width: 18px; height: 18px; object-fit: contain;" onerror="this.style.display='none'">
-                            <span class="fw-bold text-dark text-truncate" style="font-size: 0.85rem;">Atlante</span>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center ps-2 border-start flex-shrink-0" style="min-width: 120px;">
-                        <span class="fw-bold text-primary text-end" style="font-size: 0.72rem; line-height: 1.35;">
-                            🔭 Forecast<br>Pending
-                        </span>
+                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                        🔭 Forecast Pending
                     </div>
                 </div>
+                
+                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/226.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Atlante</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/4771.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Real Salt Lake</span>
+                    </div>
+                </div>
+
             </div>
 
             <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
