@@ -327,14 +327,14 @@ def render_game_card_html(game, is_compact_default=True):
     radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&detailLat={game['stadium']['lat']}&detailLon={game['stadium']['lon']}&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1"
 
     if is_no_coords:
-        weather_emoji_line = "⚠️ No Weather Info"
+        weather_emoji_line = "⚠️No Weather Info"
     elif is_dome:
-        weather_emoji_line = f"🏠 Roof Closed 🌡️{w['temp']}° 💧{humidity}%"
+        weather_emoji_line = f"🏠Closed 🌡️{w['temp']}° 💧{humidity}%"
     elif is_too_early:
-        weather_emoji_line = "🔭 Forecast Pending"
+        weather_emoji_line = "🔭Forecast Pending"
     else:
-        # Formatted strictly on one line to match the MLB style
-        weather_emoji_line = f"🌧️ {max_pop}% 🌡️ {w['temp']}° 💧 {humidity}% 💨 {w['windSpeed']}mph"
+        # Formatted tightly with no spaces after emojis to prevent truncation
+        weather_emoji_line = f"🌧️{max_pop}% 🌡️{w['temp']}° 💧{humidity}% 💨{w['windSpeed']}mph"
 
     show_ribbon = "block" if is_compact_default else "none"
     show_full = "none" if is_compact_default else "block"
