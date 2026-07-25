@@ -334,7 +334,7 @@ def render_game_card_html(game, is_compact_default=True):
         weather_emoji_line = "🔭Forecast Pending"
     else:
         # Formatted tightly with no spaces after emojis to prevent truncation
-        weather_emoji_line = f"🌧️{max_pop}% 🌡️{w['temp']}° 💧{humidity}% 💨{w['windSpeed']}mph"
+        weather_emoji_line = f"🌧️{max_pop}% 🌡️{w['temp']}° 💨{w['windSpeed']}mph"
 
     show_ribbon = "block" if is_compact_default else "none"
     show_full = "none" if is_compact_default else "block"
