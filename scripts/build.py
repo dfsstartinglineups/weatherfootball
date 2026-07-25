@@ -301,12 +301,19 @@ def render_game_card_html(game, is_compact_default=True):
     elif w['windSpeed'] >= 15:
         bg_class = "bg-weather-cloudy"
 
+# Grab scores (default to 0 if missing)
+    home_score = game.get('home_score', '0')
+    away_score = game.get('away_score', '0')
+
+    # Format the score string with a clean pipe divider
+    score_str = f" &nbsp;|&nbsp; {home_score}-{away_score}"
+
     if game['status'] == 'in':
         badge_text = game.get('clock') or 'LIVE'
-        badge_html = f'<span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>'
+        badge_html = f'<span class="badge bg-danger text-white border-danger flex-shrink-0" style="font-size: 0.65rem;">{badge_text}{score_str}</span>'
     elif game['status'] == 'post':
         badge_text = "FINAL"
-        badge_html = f'<span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">{badge_text}</span>'
+        badge_html = f'<span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">{badge_text}{score_str}</span>'
     else:
         try:
             d = datetime.datetime.fromisoformat(game['game_time'].replace('Z', '+00:00'))
@@ -400,7 +407,6 @@ def render_game_card_html(game, is_compact_default=True):
     return f"""
     <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-{game['id']}">
         <div class="card game-card shadow-sm {border_class} {bg_class}">
-            <!-- COMPACT RIBBON VIEW (HOME TOP - AWAY BOTTOM) -->
             <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_ribbon};">
                 
@@ -412,16 +418,16 @@ def render_game_card_html(game, is_compact_default=True):
                     </div>
                 </div>
                 
-                <!-- Bottom Line: Teams Inline (Away @ Home) -->
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
                 <div class="d-flex align-items-center justify-content-between w-100 mt-1">
                     <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
-                        <img src="{game['away_logo']}" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
-                        <span class="fw-bold text-dark text-truncate ms-1">{game['away_team']}</span>
-                        
-                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">@</span>
-                        
                         <img src="{game['home_logo']}" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
                         <span class="fw-bold text-dark text-truncate ms-1">{game['home_team']}</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="{game['away_logo']}" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">{game['away_team']}</span>
                     </div>
                 </div>
 
@@ -765,9 +771,11 @@ def main():
             "home_team": home_team,
             "home_slug": home_slug,
             "home_logo": home_logo,
+            "home_score": home_comp.get('score', '0'),
             "away_team": away_team,
             "away_slug": away_slug,
             "away_logo": away_logo,
+            "away_score": away_comp.get('score', '0'),
             "stadium": stadium_info,
             "weather": weather
         })
