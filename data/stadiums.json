@@ -1,4 +1,14 @@
 {
+    "10038": {
+        "city": "Voronezh",
+        "country": "Russia",
+        "id": "10038",
+        "lat": 51.66833,
+        "lon": 39.19204,
+        "name": "Stadion Fakel",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10224": {
         "city": "Pawtucket, Rhode Island",
         "country": "USA",
@@ -6,6 +16,36 @@
         "lat": 41.87871,
         "lon": -71.38256,
         "name": "Centreville Bank Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10228": {
+        "city": "Lancaster, California",
+        "country": "USA",
+        "id": "10228",
+        "lat": 34.69804,
+        "lon": -118.13674,
+        "name": "Lancaster Municipal Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10288": {
+        "city": "Risskov",
+        "country": "Denmark",
+        "id": "10288",
+        "lat": 56.19716,
+        "lon": 10.248,
+        "name": "Vejlby Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10313": {
+        "city": "Burnaby, British Columbia",
+        "country": "Canada",
+        "id": "10313",
+        "lat": 49.26636,
+        "lon": -122.95263,
+        "name": "Swangard Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -29,6 +69,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10334": {
+        "city": "Derby",
+        "country": "England",
+        "id": "10334",
+        "lat": 45.4733,
+        "lon": -89.72097,
+        "name": "Pride Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10421": {
         "city": "St. Louis, Missouri",
         "country": "USA",
@@ -49,6 +99,36 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10566": {
+        "city": "Caseros",
+        "country": "Argentina",
+        "id": "10566",
+        "lat": -34.60688,
+        "lon": -58.56392,
+        "name": "Estadio Ciudad de Caseros",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10567": {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "id": "10567",
+        "lat": -34.61315,
+        "lon": -58.37723,
+        "name": "Estadio 20 de Octubre",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10611": {
+        "city": "London",
+        "country": "England",
+        "id": "10611",
+        "lat": 51.50853,
+        "lon": -0.12574,
+        "name": "Gaughan Group Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10645": {
         "city": "Pachuca",
         "country": "Mexico",
@@ -66,6 +146,16 @@
         "lat": 25.74167,
         "lon": -100.30222,
         "name": "Estadio Universitario",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10652": {
+        "city": "Samara",
+        "country": "Russia",
+        "id": "10652",
+        "lat": 53.20767,
+        "lon": 50.13553,
+        "name": "Samara Arena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -99,6 +189,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10679": {
+        "city": "Glasgow",
+        "country": "Scotland",
+        "id": "10679",
+        "lat": 55.86515,
+        "lon": -4.25763,
+        "name": "The City Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10714": {
         "city": "Bromley",
         "country": "England",
@@ -106,6 +206,26 @@
         "lat": 51.40606,
         "lon": 0.01519,
         "name": "RELOC8 EM Community Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10750": {
+        "city": "Cheltenham",
+        "country": "England",
+        "id": "10750",
+        "lat": 51.90006,
+        "lon": -2.07972,
+        "name": "The Completely-Suzuki Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10751": {
+        "city": "Airdrie",
+        "country": "Scotland",
+        "id": "10751",
+        "lat": 51.30011,
+        "lon": -114.03528,
+        "name": "Excelsior Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -129,6 +249,56 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10786": {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "id": "10786",
+        "lat": -34.61315,
+        "lon": -58.37723,
+        "name": "Estadio M\u00e1s Monumental",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10792": {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "id": "10792",
+        "lat": -34.61315,
+        "lon": -58.37723,
+        "name": "Ciudad de Lan\u00fas",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10794": {
+        "city": "Rosario",
+        "country": "Argentina",
+        "id": "10794",
+        "lat": -32.94682,
+        "lon": -60.63932,
+        "name": "Marcelo Bielsa",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10815": {
+        "city": "Bristol",
+        "country": "England",
+        "id": "10815",
+        "lat": 35.20562,
+        "lon": -97.43948,
+        "name": "Memorial Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10818": {
+        "city": "Morelia",
+        "country": "Mexico",
+        "id": "10818",
+        "lat": 19.70078,
+        "lon": -101.18443,
+        "name": "Estadio Morelos",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10819": {
         "city": "",
         "country": "El Salvador",
@@ -136,6 +306,16 @@
         "lat": 13.83333,
         "lon": -88.91667,
         "name": "Estadio \u00d3scar Alberto Quite\u00f1o",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10869": {
+        "city": "Dundee",
+        "country": "Scotland",
+        "id": "10869",
+        "lat": 56.46913,
+        "lon": -2.97489,
+        "name": "The Scot Foam Stadium at Dens Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -159,6 +339,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10919": {
+        "city": "Paterson",
+        "country": "USA",
+        "id": "10919",
+        "lat": 40.91677,
+        "lon": -74.17181,
+        "name": "Hinchliffe Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10925": {
         "city": "Mendoza",
         "country": "Argentina",
@@ -169,6 +359,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10982": {
+        "city": "Rafaela",
+        "country": "Argentina",
+        "id": "10982",
+        "lat": -31.25285,
+        "lon": -61.49078,
+        "name": "Estadio Nuevo Monumental",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11017": {
         "city": "Centennial",
         "country": "USA",
@@ -176,6 +376,16 @@
         "lat": 39.57916,
         "lon": -104.87692,
         "name": "Centennial Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11106": {
+        "city": "Corpus Christi",
+        "country": "USA",
+        "id": "11106",
+        "lat": 27.80058,
+        "lon": -97.39638,
+        "name": "Cabaniss Athletic Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -209,6 +419,56 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "128": {
+        "city": "Gillingham",
+        "country": "England",
+        "id": "128",
+        "lat": 51.38914,
+        "lon": 0.54863,
+        "name": "Priestfield Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "129": {
+        "city": "Grimsby",
+        "country": "England",
+        "id": "129",
+        "lat": 53.56539,
+        "lon": -0.07553,
+        "name": "Blundell Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "133": {
+        "city": "Stockport",
+        "country": "England",
+        "id": "133",
+        "lat": 53.40979,
+        "lon": -2.15761,
+        "name": "Edgeley Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1340": {
+        "city": "Arbroath",
+        "country": "Scotland",
+        "id": "1340",
+        "lat": 56.56317,
+        "lon": -2.58736,
+        "name": "Gayfield Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1344": {
+        "city": "Perth",
+        "country": "Scotland",
+        "id": "1344",
+        "lat": -31.95224,
+        "lon": 115.8614,
+        "name": "McDiarmid Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "136": {
         "city": "Wolverhampton",
         "country": "England",
@@ -216,6 +476,16 @@
         "lat": 52.58547,
         "lon": -2.12296,
         "name": "Molineux Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "138": {
+        "city": "Cambridge",
+        "country": "England",
+        "id": "138",
+        "lat": 52.2,
+        "lon": 0.11667,
+        "name": "Cledara Abbey Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -259,6 +529,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "148": {
+        "city": "Wrexham",
+        "country": "Wales",
+        "id": "148",
+        "lat": 53.04664,
+        "lon": -2.99132,
+        "name": "ST\u014dK Cae Ras",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1523": {
+        "city": "Falkirk",
+        "country": "Scotland",
+        "id": "1523",
+        "lat": 56.0021,
+        "lon": -3.78535,
+        "name": "Falkirk Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "161": {
         "city": "Glasgow",
         "country": "Scotland",
@@ -269,6 +559,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "166": {
+        "city": "Ayr",
+        "country": "Scotland",
+        "id": "166",
+        "lat": 40.04789,
+        "lon": -74.89128,
+        "name": "Somerset Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1672": {
         "city": "Mexico City",
         "country": "Mexico",
@@ -276,6 +576,86 @@
         "lat": 19.42847,
         "lon": -99.12766,
         "name": "Estadio Banorte",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1699": {
+        "city": "Burton-upon-Trent, Staffordshire",
+        "country": "England",
+        "id": "1699",
+        "lat": 52.80728,
+        "lon": -1.64263,
+        "name": "Pirelli Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "173": {
+        "city": "Stenhousemuir",
+        "country": "Scotland",
+        "id": "173",
+        "lat": 56.02676,
+        "lon": -3.81462,
+        "name": "Ochilview Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "177": {
+        "city": "Peterhead",
+        "country": "Scotland",
+        "id": "177",
+        "lat": 57.50517,
+        "lon": -1.78435,
+        "name": "Balmoor Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "183": {
+        "city": "Sheffield",
+        "country": "England",
+        "id": "183",
+        "lat": 39.20229,
+        "lon": -83.61159,
+        "name": "Hillsborough",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1873": {
+        "city": "Swansea",
+        "country": "Wales",
+        "id": "1873",
+        "lat": 51.62079,
+        "lon": -3.94323,
+        "name": "Swansea.com Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "196": {
+        "city": "Barnsley",
+        "country": "England",
+        "id": "196",
+        "lat": 53.55,
+        "lon": -1.48333,
+        "name": "Oakwell",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "197": {
+        "city": "Burnley",
+        "country": "England",
+        "id": "197",
+        "lat": 53.8,
+        "lon": -2.23333,
+        "name": "Turf Moor",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "199": {
+        "city": "Norwich",
+        "country": "England",
+        "id": "199",
+        "lat": 52.62783,
+        "lon": 1.29834,
+        "name": "Carrow Road",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -299,6 +679,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "214": {
+        "city": "Stoke-on-Trent",
+        "country": "England",
+        "id": "214",
+        "lat": 34.54426,
+        "lon": -91.96903,
+        "name": "bet365 Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "215": {
         "city": "Wycombe",
         "country": "England",
@@ -319,6 +709,56 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "234": {
+        "city": "Aberdeen",
+        "country": "Scotland",
+        "id": "234",
+        "lat": 57.14369,
+        "lon": -2.09814,
+        "name": "Pittodrie Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "242": {
+        "city": "Greenock",
+        "country": "Scotland",
+        "id": "242",
+        "lat": 55.94838,
+        "lon": -4.76121,
+        "name": "Cappielow Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "245": {
+        "city": "Montrose",
+        "country": "Scotland",
+        "id": "245",
+        "lat": 38.47832,
+        "lon": -107.87617,
+        "name": "Links Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "253": {
+        "city": "Liverpool",
+        "country": "England",
+        "id": "253",
+        "lat": 53.41058,
+        "lon": -2.97794,
+        "name": "Goodison Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "254": {
+        "city": "Hamilton",
+        "country": "Scotland",
+        "id": "254",
+        "lat": 43.25011,
+        "lon": -79.84963,
+        "name": "New Douglas Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "2658": {
         "city": "Santiago",
         "country": "Chile",
@@ -336,6 +776,26 @@
         "lat": 39.80832,
         "lon": -104.93387,
         "name": "Dick's Sporting Goods Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3078": {
+        "city": "Wuhan",
+        "country": "China PR",
+        "id": "3078",
+        "lat": 30.58333,
+        "lon": 114.26667,
+        "name": "Wuhan Sports Center Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3224": {
+        "city": "Tampa, Florida",
+        "country": "USA",
+        "id": "3224",
+        "lat": 27.94752,
+        "lon": -82.45843,
+        "name": "Raymond James Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -379,6 +839,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3630": {
+        "city": "Tampico",
+        "country": "Mexico",
+        "id": "3630",
+        "lat": 22.28519,
+        "lon": -97.87777,
+        "name": "Estadio Tamaulipas",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "3631": {
         "city": "Le\u00f3n de los Aldamas",
         "country": "Mexico",
@@ -386,6 +856,16 @@
         "lat": 21.12908,
         "lon": -101.67374,
         "name": "Estadio Le\u00f3n",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3672": {
+        "city": "Fleetwood",
+        "country": "England",
+        "id": "3672",
+        "lat": 40.45398,
+        "lon": -75.81798,
+        "name": "Highbury Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -409,6 +889,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3789": {
+        "city": "Oakland, California",
+        "country": "USA",
+        "id": "3789",
+        "lat": 37.80437,
+        "lon": -122.2708,
+        "name": "Oakland-Alameda County Coliseum",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "3869": {
         "city": "Stanford, California",
         "country": "USA",
@@ -416,6 +906,16 @@
         "lat": 34.55211,
         "lon": -77.9261,
         "name": "Stanford Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3893": {
+        "city": "Cardiff",
+        "country": "Wales",
+        "id": "3893",
+        "lat": 51.48,
+        "lon": -3.18,
+        "name": "Cardiff City Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -446,6 +946,16 @@
         "lat": 37.91366,
         "lon": -89.82205,
         "name": "Subaru Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4089": {
+        "city": "London",
+        "country": "England",
+        "id": "4089",
+        "lat": 51.50853,
+        "lon": -0.12574,
+        "name": "MATRADE Loftus Road",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -486,6 +996,26 @@
         "lat": 35.22709,
         "lon": -80.84313,
         "name": "Bank of America Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4419": {
+        "city": "Miami, Florida",
+        "country": "USA",
+        "id": "4419",
+        "lat": 25.77427,
+        "lon": -80.19366,
+        "name": "Riccardo Silva Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4603": {
+        "city": "Auckland",
+        "country": "New Zealand",
+        "id": "4603",
+        "lat": 45.61662,
+        "lon": -97.41982,
+        "name": "Eden Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -609,6 +1139,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "5519": {
+        "city": "M\u00e9rida",
+        "country": "Mexico",
+        "id": "5519",
+        "lat": 20.967,
+        "lon": -89.62318,
+        "name": "Estadio Carlos Iturralde Rivero",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5774": {
+        "city": "Leicester",
+        "country": "England",
+        "id": "5774",
+        "lat": 52.6386,
+        "lon": -1.13169,
+        "name": "King Power Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "5776": {
         "city": "Villavicencio",
         "country": "Colombia",
@@ -639,6 +1189,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6025": {
+        "city": "Moscow",
+        "country": "Russia",
+        "id": "6025",
+        "lat": 55.75204,
+        "lon": 37.61781,
+        "name": "Lukoil Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6072": {
         "city": "San Jose, California",
         "country": "USA",
@@ -659,6 +1219,46 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6258": {
+        "city": "Crewe",
+        "country": "England",
+        "id": "6258",
+        "lat": 53.09787,
+        "lon": -2.44161,
+        "name": "Mornflake Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6271": {
+        "city": "Pittsburgh, Pennsylvania",
+        "country": "USA",
+        "id": "6271",
+        "lat": 40.44062,
+        "lon": -79.99589,
+        "name": "Highmark Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6290": {
+        "city": "Rotherham",
+        "country": "England",
+        "id": "6290",
+        "lat": 53.43012,
+        "lon": -1.35678,
+        "name": "AESSEAL New York Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6296": {
+        "city": "Colchester",
+        "country": "England",
+        "id": "6296",
+        "lat": 51.88921,
+        "lon": 0.90421,
+        "name": "JobServe Community Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6371": {
         "city": "Estadio Cementos Progreso",
         "country": "Guatemala",
@@ -666,6 +1266,36 @@
         "lat": 39.32983,
         "lon": -76.60163,
         "name": "Estadio El Tr\u00e9bol",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6460": {
+        "city": "Forfar",
+        "country": "Scotland",
+        "id": "6460",
+        "lat": -42.53,
+        "lon": 147.2,
+        "name": "Station Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6487": {
+        "city": "Salford",
+        "country": "England",
+        "id": "6487",
+        "lat": 53.48771,
+        "lon": -2.29042,
+        "name": "Peninsula Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6536": {
+        "city": "Indianapolis, Indiana",
+        "country": "USA",
+        "id": "6536",
+        "lat": 39.76838,
+        "lon": -86.15804,
+        "name": "Michael A. Carroll Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -689,6 +1319,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6572": {
+        "city": "Liaoning",
+        "country": "China PR",
+        "id": "6572",
+        "lat": 43.90181,
+        "lon": 125.2995,
+        "name": "Tiexi New District Sports Centre",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6587": {
         "city": "Kansas City, Kansas",
         "country": "USA",
@@ -699,6 +1339,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6595": {
+        "city": "Brooklyn",
+        "country": "USA",
+        "id": "6595",
+        "lat": 40.6501,
+        "lon": -73.94958,
+        "name": "Maimonides Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6614": {
         "city": "V\u00e4steras",
         "country": "Sweden",
@@ -706,6 +1356,56 @@
         "lat": 59.61617,
         "lon": 16.55276,
         "name": "Hitachi Energy Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6660": {
+        "city": "London",
+        "country": "England",
+        "id": "6660",
+        "lat": 51.50853,
+        "lon": -0.12574,
+        "name": "London Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6680": {
+        "city": "Kalmar",
+        "country": "Sweden",
+        "id": "6680",
+        "lat": 56.66157,
+        "lon": 16.36163,
+        "name": "Guldfageln Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6717": {
+        "city": "Prishtina",
+        "country": "Kosovo",
+        "id": "6717",
+        "lat": 42.88333,
+        "lon": 20.86667,
+        "name": "Stadiumi Fadil Vokrri",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6852": {
+        "city": "Tucuman",
+        "country": "Argentina",
+        "id": "6852",
+        "lat": -28.08217,
+        "lon": -66.56162,
+        "name": "Estadio La Ciudadela",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6885": {
+        "city": "Yangon",
+        "country": "Myanmar",
+        "id": "6885",
+        "lat": 16.80528,
+        "lon": 96.15611,
+        "name": "Thuwunna Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -729,6 +1429,36 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7012": {
+        "city": "Tulsa, Oklahoma",
+        "country": "USA",
+        "id": "7012",
+        "lat": 36.15398,
+        "lon": -95.99277,
+        "name": "ONEOK Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7020": {
+        "city": "Colorado Springs, Colorado",
+        "country": "USA",
+        "id": "7020",
+        "lat": 38.83388,
+        "lon": -104.82136,
+        "name": "Weidner Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7123": {
+        "city": "Kristiansund",
+        "country": "Norway",
+        "id": "7123",
+        "lat": 63.11045,
+        "lon": 7.72795,
+        "name": "Nordmore Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7604": {
         "city": "Washington, District of Columbia",
         "country": "USA",
@@ -749,6 +1479,56 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7746": {
+        "city": "Hamtramck, Michigan",
+        "country": "USA",
+        "id": "7746",
+        "lat": 42.39282,
+        "lon": -83.04964,
+        "name": "Keyworth Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7780": {
+        "city": "Vientiene",
+        "country": "Laos",
+        "id": "7780",
+        "lat": 18.0,
+        "lon": 105.0,
+        "name": "Lao National Stadium KM16",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7992": {
+        "city": "El Paso, Texas",
+        "country": "USA",
+        "id": "7992",
+        "lat": 31.75872,
+        "lon": -106.48693,
+        "name": "Southwest University Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8111": {
+        "city": "Moscow",
+        "country": "Russia",
+        "id": "8111",
+        "lat": 55.75204,
+        "lon": 37.61781,
+        "name": "VTB Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8203": {
+        "city": "Rio Cuarto",
+        "country": "Argentina",
+        "id": "8203",
+        "lat": -33.13044,
+        "lon": -64.35272,
+        "name": "Ciudad de R\u00edo Cuarto Antonio Candini",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8390": {
         "city": "Louisville, Kentucky",
         "country": "USA",
@@ -756,6 +1536,16 @@
         "lat": 38.25424,
         "lon": -85.75941,
         "name": "Lynn Family Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8439": {
+        "city": "Madison, Wisconsin",
+        "country": "USA",
+        "id": "8439",
+        "lat": 43.08305,
+        "lon": -89.37317,
+        "name": "Breese Stevens Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -779,6 +1569,36 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8485": {
+        "city": "Tlaxcala",
+        "country": "Mexico",
+        "id": "8485",
+        "lat": 19.31777,
+        "lon": -98.23846,
+        "name": "Estadio Tlahuicole",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8504": {
+        "city": "East Ridge, Tennessee",
+        "country": "USA",
+        "id": "8504",
+        "lat": 35.01424,
+        "lon": -85.2519,
+        "name": "CHI Memorial Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8528": {
+        "city": "London",
+        "country": "England",
+        "id": "8528",
+        "lat": 51.50853,
+        "lon": -0.12574,
+        "name": "The Cherry Red Records Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8673": {
         "city": "Austin, Texas",
         "country": "USA",
@@ -799,6 +1619,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8687": {
+        "city": "Charlotte, North Carolina",
+        "country": "USA",
+        "id": "8687",
+        "lat": 35.22709,
+        "lon": -80.84313,
+        "name": "American Legion Memorial Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8689": {
         "city": "Columbus, Ohio",
         "country": "USA",
@@ -806,6 +1636,16 @@
         "lat": 39.96118,
         "lon": -82.99879,
         "name": "ScottsMiracle-Gro Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8701": {
+        "city": "",
+        "country": "Sweden",
+        "id": "8701",
+        "lat": 59.26667,
+        "lon": 15.01667,
+        "name": "Stora Valla",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -829,6 +1669,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9009": {
+        "city": "Seaside, California",
+        "country": "USA",
+        "id": "9009",
+        "lat": 36.61107,
+        "lon": -121.85162,
+        "name": "Cardinale Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9195": {
         "city": "San Diego, California",
         "country": "USA",
@@ -836,6 +1686,36 @@
         "lat": 32.71571,
         "lon": -117.16472,
         "name": "Snapdragon Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9538": {
+        "city": "Phoenix, Arizona",
+        "country": "USA",
+        "id": "9538",
+        "lat": 33.44838,
+        "lon": -112.07404,
+        "name": "Phoenix Rising Stadium at 38th St/Washington",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9544": {
+        "city": "Shanghai",
+        "country": "China PR",
+        "id": "9544",
+        "lat": 31.22222,
+        "lon": 121.45806,
+        "name": "SAIC Motor Pudong Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9545": {
+        "city": "Qingdao",
+        "country": "China PR",
+        "id": "9545",
+        "lat": 36.06488,
+        "lon": 120.38042,
+        "name": "Qingdao Youth Football Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -849,6 +1729,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9662": {
+        "city": "Sosnowiec",
+        "country": "Poland",
+        "id": "9662",
+        "lat": 50.28682,
+        "lon": 19.10385,
+        "name": "ArcelorMittal Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9837": {
+        "city": "Spokane, Washington",
+        "country": "USA",
+        "id": "9837",
+        "lat": 47.65966,
+        "lon": -117.42908,
+        "name": "ONE Spokane Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9895": {
         "city": "Kansas City, Missouri",
         "country": "USA",
@@ -859,12 +1759,72 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "birmingham-legion-fc": {
+        "city": "",
+        "country": "",
+        "id": "birmingham-legion-fc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "buducnost-podgorica": {
+        "city": "",
+        "country": "",
+        "id": "buducnost-podgorica",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "cambodia": {
         "city": "",
         "country": "",
         "id": "cambodia",
         "lat": 13.0,
         "lon": 105.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "dumbarton": {
+        "city": "",
+        "country": "",
+        "id": "dumbarton",
+        "lat": 55.94433,
+        "lon": -4.57061,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "ki-klaksvik": {
+        "city": "",
+        "country": "",
+        "id": "ki-klaksvik",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "paok": {
+        "city": "",
+        "country": "",
+        "id": "paok",
+        "lat": -6.28611,
+        "lon": 106.40306,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "spartak-myjava-women": {
+        "city": "",
+        "country": "",
+        "id": "spartak-myjava-women",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
