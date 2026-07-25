@@ -405,15 +405,15 @@ def render_game_card_html(game, is_compact_default=True):
         </div>"""
 
     return f"""
-    <div class="col-md-6 col-lg-4 animate-card mb-3 px-1" id="game-{game['id']}">
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-{game['id']}">
         <div class="card game-card shadow-sm {border_class} {bg_class}">
             <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_ribbon};">
                 
-                <!-- Top Line: Time Badge & Weather (Right aligned) -->
-                <div class="d-flex align-items-center justify-content-between mb-1 gap-2">
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     {badge_html}
-                    <div class="fw-bold text-primary text-end text-truncate" style="font-size: 0.72rem;">
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
                         {weather_emoji_line}
                     </div>
                 </div>
