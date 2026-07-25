@@ -570,7 +570,7 @@ __SCHEMA_JSON__
             <p class="text-muted small m-0">__HERO_SUBHEADING__</p>
         </div>
         __TOGGLE_CONTROLS_ROW__
-        <div class="row w-100 m-0 p-0 justify-content-center">
+        <div class="row w-100 m-0 p-0 justify-content-start">
 __MATCH_CARDS_GRID__
         </div>
     </div>
