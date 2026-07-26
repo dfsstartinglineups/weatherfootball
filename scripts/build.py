@@ -133,9 +133,9 @@ def geocode_query_open_meteo(query_text, country_hint=""):
                         r_country = r.get("country", "").lower()
                         r_code = r.get("country_code", "").lower()
                         if ch_lower in r_country or r_code == ch_lower or (ch_lower in ["usa", "united states", "us"] and r_code == "us"):
-                            return float(r["latitude"]), float(r["longitude"])
+                            return float(r.get("latitude") if r.get("latitude") is not None else 0.0), float(r.get("longitude") if r.get("longitude") is not None else 0.0)
                             
-                return float(results[0]["latitude"]), float(results[0]["longitude"])
+                return float(results[0].get("latitude") if results[0].get("latitude") is not None else 0.0), float(results[0].get("longitude") if results[0].get("longitude") is not None else 0.0)
     except Exception as e:
         print(f"   ⚠️ Geocode error for '{query_text}': {e}")
     return 0.0, 0.0
@@ -250,22 +250,38 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
 
                 hourly_slice = []
                 for i in range(actual_start, actual_end):
-                    code = data['hourly'].get("weather_code", [0])[i]
+                    code_arr = data['hourly'].get("weather_code", [])
+                    code_val = code_arr[i] if i < len(code_arr) and code_arr[i] is not None else 0
+                    
+                    t_arr = data['hourly'].get("temperature_2m", [])
+                    t_val = t_arr[i] if i < len(t_arr) and t_arr[i] is not None else 72
+                    
+                    h_arr = data['hourly'].get("relative_humidity_2m", [])
+                    h_val = h_arr[i] if i < len(h_arr) and h_arr[i] is not None else 50
+                    
+                    p_arr = data['hourly'].get("precipitation_probability", [])
+                    p_val = p_arr[i] if i < len(p_arr) and p_arr[i] is not None else 0
+
                     hourly_slice.append({
                         "timestamp": time_array[i] + "Z",
-                        "temp": int(data['hourly'].get("temperature_2m", [72])[i]),
-                        "humidity": int(data['hourly'].get("relative_humidity_2m", [50])[i]),
-                        "precipChance": data['hourly'].get("precipitation_probability", [0])[i],
-                        "isThunderstorm": code in [95, 96, 99],
-                        "isSnow": code in [71, 73, 75, 77, 85, 86]
+                        "temp": int(t_val),
+                        "humidity": int(h_val),
+                        "precipChance": p_val,
+                        "isThunderstorm": code_val in [95, 96, 99],
+                        "isSnow": code_val in [71, 73, 75, 77, 85, 86]
                     })
+
+                c_temp = current.get('temperature_2m')
+                c_hum = current.get('relative_humidity_2m')
+                c_wind = current.get('wind_speed_10m')
+                c_precip = current.get('precipitation')
 
                 return {
                     "status": "ok",
-                    "temp": int(current.get('temperature_2m', 72)),
-                    "humidity": int(current.get('relative_humidity_2m', 50)),
-                    "windSpeed": int(current.get('wind_speed_10m', 0)),
-                    "precip": round(float(current.get('precipitation', 0.0)), 2),
+                    "temp": int(c_temp if c_temp is not None else 72),
+                    "humidity": int(c_hum if c_hum is not None else 50),
+                    "windSpeed": int(c_wind if c_wind is not None else 0),
+                    "precip": round(float(c_precip if c_precip is not None else 0.0), 2),
                     "hourly": hourly_slice
                 }
         except requests.RequestException:
@@ -283,8 +299,11 @@ def render_game_card_html(game, is_compact_default=True):
     is_too_early = w.get('status') in ["too_early"] or w.get('temp') == "--"
 
     hourly = w.get('hourly', [])
-    max_pop = max([(h.get('precipChance') or 0) for h in hourly], default=0) if hourly else 0
+    max_pop = max([(h.get('precipChance') if h.get('precipChance') is not None else 0) for h in hourly], default=0) if hourly else 0
     humidity = w.get('humidity', 50)
+    
+    w_precip = w.get('precip') if w.get('precip') is not None else 0.0
+    w_wind = w.get('windSpeed') if w.get('windSpeed') is not None else 0
 
     bg_class = "bg-weather-sunny"
     border_class = ""
@@ -292,13 +311,13 @@ def render_game_card_html(game, is_compact_default=True):
         bg_class = "bg-light"
     elif is_dome:
         bg_class = "bg-weather-roof"
-    elif max_pop >= 50 or w['precip'] > 0.5:
+    elif max_pop >= 50 or w_precip > 0.5:
         border_class = "border-danger border-3"
         bg_class = "bg-weather-storm"
-    elif max_pop >= 20 or w['precip'] > 0:
+    elif max_pop >= 20 or w_precip > 0:
         border_class = "border-warning border-3"
         bg_class = "bg-weather-rain"
-    elif w['windSpeed'] >= 15:
+    elif w_wind >= 15:
         bg_class = "bg-weather-cloudy"
 
 # Grab scores (default to 0 if missing)
@@ -350,12 +369,14 @@ def render_game_card_html(game, is_compact_default=True):
                 hr_str = "--"
 
             icon = "☀️"
-            if h['precipChance'] >= 30:
-                icon = "⛈️" if h['isThunderstorm'] else ("🌨️" if h['isSnow'] else "🌧️")
-            elif h['precipChance'] > 0:
+            pc = h.get('precipChance') if h.get('precipChance') is not None else 0
+            
+            if pc >= 30:
+                icon = "⛈️" if h.get('isThunderstorm') else ("🌨️" if h.get('isSnow') else "🌧️")
+            elif pc > 0:
                 icon = "⛅"
 
-            pop_str = f"{h['precipChance']}%" if h['precipChance'] >= 20 else "&nbsp;"
+            pop_str = f"{pc}%" if pc >= 20 else "&nbsp;"
             hours_markup += f"""
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="{h['timestamp']}">{hr_str}</div>
