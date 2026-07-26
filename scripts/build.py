@@ -283,7 +283,7 @@ def render_game_card_html(game, is_compact_default=True):
     is_too_early = w.get('status') in ["too_early"] or w.get('temp') == "--"
 
     hourly = w.get('hourly', [])
-    max_pop = max([h.get('precipChance', 0) for h in hourly], default=0) if hourly else 0
+    max_pop = max([(h.get('precipChance') or 0) for h in hourly], default=0) if hourly else 0
     humidity = w.get('humidity', 50)
 
     bg_class = "bg-weather-sunny"
