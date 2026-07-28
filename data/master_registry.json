@@ -72,6 +72,10 @@
             "name": "CONMEBOL Sudamericana, Knockout Round Playoffs",
             "slug": "conmebol-sudamericana-knockout-round-playoffs"
         },
+        "conmebol-sudamericana-knockout-round-playoffs-2nd-leg": {
+            "name": "CONMEBOL Sudamericana, Knockout Round Playoffs - 2nd Leg",
+            "slug": "conmebol-sudamericana-knockout-round-playoffs-2nd-leg"
+        },
         "copa-colombia-stage-1b": {
             "name": "Copa Colombia, Stage 1B",
             "slug": "copa-colombia-stage-1b"
@@ -2085,7 +2089,7 @@
             "slug": "myanmar"
         },
         "nacional": {
-            "league": "CONMEBOL Sudamericana, Knockout Round Playoffs",
+            "league": "CONMEBOL Sudamericana, Knockout Round Playoffs - 2nd Leg",
             "name": "Nacional",
             "slug": "nacional"
         },
@@ -2920,7 +2924,7 @@
             "slug": "tianjin-jinmen-tiger"
         },
         "tigre": {
-            "league": "CONMEBOL Sudamericana, Knockout Round Playoffs",
+            "league": "CONMEBOL Sudamericana, Knockout Round Playoffs - 2nd Leg",
             "name": "Tigre",
             "slug": "tigre"
         },
