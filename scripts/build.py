@@ -611,6 +611,9 @@ def render_game_card_html(game, is_compact_default=True):
             </button>
         </div>"""
 
+    # Optional UI injection for the league logo inside the expanded dark header
+    league_logo_html = f'<img src="{game.get("league_logo", "")}" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display=\'none\'">' if game.get("league_logo") else ''
+
     return f"""
     <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-{game['id']}">
         <div class="card game-card shadow-sm {border_class} {bg_class}">
@@ -644,6 +647,7 @@ def render_game_card_html(game, is_compact_default=True):
             <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: {show_full};">
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
+                        {league_logo_html}
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">{game['league_name']}</span>
                     </div>
                     {badge_html}
@@ -1021,6 +1025,12 @@ def main():
             KNOWN_LEAGUE_PILLS.get(normalize_text(league_name), '')
         )
 
+        # === EXTRACT LEAGUE LOGO ===
+        league_logos = league_obj.get('logos', [])
+        if not league_logos and first_league:
+            league_logos = first_league.get('logos', [])
+        league_logo = league_obj.get('logo') or (league_logos[0].get('href', '') if league_logos else '')
+
         home_comp = next((c for c in comp['competitors'] if c['homeAway'] == 'home'), None)
         away_comp = next((c for c in comp['competitors'] if c['homeAway'] == 'away'), None)
 
@@ -1036,11 +1046,12 @@ def main():
         away_logos = away_comp['team'].get('logos', [])
         away_logo = away_comp['team'].get('logo', '') or (away_logos[0].get('href', '') if away_logos else '')
 
-        # === SAVE PILL AND TIMESTAMPS TO MASTER REGISTRY ===
+        # === SAVE LOGO, PILL, AND TIMESTAMPS TO MASTER REGISTRY ===
         master_registry["leagues"][league_slug] = {
             "name": league_name,
             "slug": league_slug,
             "pill": league_pill,
+            "logo": league_logo,
             "last_updated": datetime.datetime.now().timestamp(),
             "last_crossover_date": master_registry["leagues"].get(league_slug, {}).get("last_crossover_date", "")
         }
@@ -1065,6 +1076,7 @@ def main():
             "clock": event['status']['type'].get('shortDetail', ''),
             "league_name": league_name,
             "league_slug": league_slug,
+            "league_logo": league_logo, # Injected here for the HTML renderer
             "home_team": home_team,
             "home_slug": home_slug,
             "home_logo": home_logo,
@@ -1132,10 +1144,14 @@ def main():
         </div>"""
 
         for lname, ldata in sorted(grouped_games.items(), key=lambda x: x[0]):
+            # Optional: Get the league logo to display in the section header!
+            section_league_logo = ldata['games'][0].get('league_logo', '') if ldata['games'] else ''
+            sec_logo_img = f'<img src="{section_league_logo}" style="width: 20px; height: 20px; object-fit: contain; margin-right: 6px;" onerror="this.style.display=\'none\'">' if section_league_logo else ''
+            
             home_cards_html += f"""
             <div class="col-12 w-100 px-1" id="league-section-{ldata['slug']}">
                 <div class="league-section-title">
-                    <a href="/leagues/{ldata['slug']}/">{lname} <span style="font-size: 0.65rem; margin-left: 4px;">➔</span></a>
+                    <a href="/leagues/{ldata['slug']}/">{sec_logo_img}{lname} <span style="font-size: 0.65rem; margin-left: 4px;">➔</span></a>
                 </div>
             </div>"""
             for g in ldata['games']:
@@ -1177,7 +1193,34 @@ def main():
         has_game_today = any(g['id'] in today_event_ids for g in league_games)
         
         if league_games:
-            cards_html = "".join([render_game_card_html(g, is_compact_default=True) for g in league_games])
+            # === NEW: Date Grouping Headers for non-today multi-date leagues ===
+            unique_dates = list(dict.fromkeys([g['game_time'][:10] for g in league_games]))
+            if not has_game_today and len(unique_dates) > 1:
+                cards_html = ""
+                grouped_by_date = {}
+                for g in league_games:
+                    d_str = g['game_time'][:10]
+                    if d_str not in grouped_by_date:
+                        grouped_by_date[d_str] = []
+                    grouped_by_date[d_str].append(g)
+                    
+                for d_str, date_games in sorted(grouped_by_date.items(), key=lambda x: x[0]):
+                    try:
+                        d_obj = datetime.datetime.strptime(d_str, '%Y-%m-%d')
+                        display_date = d_obj.strftime('%A, %B %d')
+                    except Exception:
+                        display_date = d_str
+                        
+                    cards_html += f"""
+            <div class="col-12 w-100 px-1">
+                <div class="league-section-title">
+                    📅 {display_date}
+                </div>
+            </div>"""
+                    for g in date_games:
+                        cards_html += render_game_card_html(g, is_compact_default=True)
+            else:
+                cards_html = "".join([render_game_card_html(g, is_compact_default=True) for g in league_games])
         else:
             cards_html = render_dormant_banner()
 
