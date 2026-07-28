@@ -2,7 +2,7 @@
     "leagues": {
         "argentine-liga-profesional-de-futbol": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280650.967915,
+            "last_updated": 1785281424.616879,
             "logo": "",
             "name": "Argentine Liga Profesional de F\u00fatbol",
             "pill": "arg.1",
@@ -10,7 +10,7 @@
         },
         "asean-championship": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280632.263135,
+            "last_updated": 1785281422.766087,
             "logo": "",
             "name": "ASEAN Championship",
             "pill": "aff.championship",
@@ -18,7 +18,7 @@
         },
         "brazilian-serie-b": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280583.806612,
+            "last_updated": 1785281425.016242,
             "logo": "",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
@@ -26,7 +26,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280629.495959,
+            "last_updated": 1785281421.324018,
             "logo": "",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -34,7 +34,7 @@
         },
         "concacaf-central-american-cup": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280591.24791,
+            "last_updated": 1785281426.342309,
             "logo": "",
             "name": "Concacaf Central American Cup",
             "pill": "concacaf.central.american.cup",
@@ -42,7 +42,7 @@
         },
         "conmebol-sudamericana": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280585.952996,
+            "last_updated": 1785281424.081752,
             "logo": "",
             "name": "CONMEBOL Sudamericana",
             "pill": "conmebol.sudamericana",
@@ -50,7 +50,7 @@
         },
         "copa-colombia": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280610.492138,
+            "last_updated": 1785281425.66089,
             "logo": "",
             "name": "Copa Colombia",
             "pill": "col.copa",
@@ -58,7 +58,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "",
-            "last_updated": 1785280539.871821,
+            "last_updated": 1785281431.180146,
             "logo": "",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -66,7 +66,7 @@
         },
         "leagues-cup": {
             "last_crossover_date": "",
-            "last_updated": 1785280549.913394,
+            "last_updated": 1785281438.905693,
             "logo": "",
             "name": "Leagues Cup",
             "pill": "concacaf.leagues.cup",
@@ -74,7 +74,7 @@
         },
         "mls": {
             "last_crossover_date": "",
-            "last_updated": 1785280542.679338,
+            "last_updated": 1785281433.450647,
             "logo": "",
             "name": "MLS",
             "pill": "usa.1",
@@ -82,7 +82,7 @@
         },
         "northern-super-league": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280599.825547,
+            "last_updated": 1785281423.164708,
             "logo": "",
             "name": "Northern Super League",
             "pill": "can.w.nsl",
@@ -90,7 +90,7 @@
         },
         "nwsl": {
             "last_crossover_date": "",
-            "last_updated": 1785280550.810901,
+            "last_updated": 1785281439.566545,
             "logo": "",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -98,7 +98,7 @@
         },
         "paraguayan-primera-division": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280636.726005,
+            "last_updated": 1785281425.93177,
             "logo": "",
             "name": "Paraguayan Primera Divisi\u00f3n",
             "pill": "par.1",
@@ -106,7 +106,7 @@
         },
         "salvadoran-primera-division": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280598.17036,
+            "last_updated": 1785281426.481081,
             "logo": "",
             "name": "Salvadoran Primera Division",
             "pill": "slv.1",
@@ -114,7 +114,7 @@
         },
         "uefa-champions-league-qualifying": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280608.251867,
+            "last_updated": 1785281422.498985,
             "logo": "",
             "name": "UEFA Champions League Qualifying",
             "pill": "uefa.champions_qual",
@@ -122,7 +122,7 @@
         },
         "uefa-conference-league-qualifying": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280577.350397,
+            "last_updated": 1785281423.812233,
             "logo": "",
             "name": "UEFA Conference League Qualifying",
             "pill": "uefa.europa.conf_qual",
@@ -130,7 +130,7 @@
         },
         "womens-africa-cup-of-nations": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785280603.612324,
+            "last_updated": 1785281423.031795,
             "logo": "",
             "name": "Women's Africa Cup of Nations",
             "pill": "caf.w.nations",
@@ -429,7 +429,7 @@
             "slug": "belgrano-cordoba"
         },
         "birmingham-city": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Birmingham City",
             "slug": "birmingham-city"
         },
@@ -559,7 +559,7 @@
             "slug": "caracas-fc"
         },
         "cardiff-city": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Cardiff City",
             "slug": "cardiff-city"
         },
@@ -1204,7 +1204,7 @@
             "slug": "independiente-rivadavia"
         },
         "independiente-santa-fe": {
-            "league": "CONMEBOL Sudamericana",
+            "league": "Copa Colombia",
             "name": "Independiente Santa Fe",
             "slug": "independiente-santa-fe"
         },
@@ -1594,7 +1594,7 @@
             "slug": "newells-old-boys"
         },
         "newport-county": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Newport County",
             "slug": "newport-county"
         },
@@ -2154,7 +2154,7 @@
             "slug": "the-new-saints"
         },
         "tigre": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "CONMEBOL Sudamericana",
             "name": "Tigre",
             "slug": "tigre"
         },
@@ -2359,7 +2359,7 @@
             "slug": "wolverhampton-wanderers"
         },
         "wrexham": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Wrexham",
             "slug": "wrexham"
         },
