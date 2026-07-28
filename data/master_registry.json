@@ -196,6 +196,10 @@
             "name": "UECL Qualifying, Second Round",
             "slug": "uecl-qualifying-second-round"
         },
+        "uecl-qualifying-second-round-2nd-leg": {
+            "name": "UECL Qualifying, Second Round - 2nd Leg",
+            "slug": "uecl-qualifying-second-round-2nd-leg"
+        },
         "uefa-womens-champions-league-qualifying-first-round-3rd-place-playoff": {
             "name": "UEFA Women's Champions League Qualifying, First Round - 3rd-Place Playoff",
             "slug": "uefa-womens-champions-league-qualifying-first-round-3rd-place-playoff"
@@ -402,7 +406,7 @@
             "slug": "antigua-gfc"
         },
         "apollon-limassol": {
-            "league": "UECL Qualifying, Second Round",
+            "league": "UECL Qualifying, Second Round - 2nd Leg",
             "name": "Apollon Limassol",
             "slug": "apollon-limassol"
         },
@@ -1152,7 +1156,7 @@
             "slug": "detroit-city-fc"
         },
         "dila-gori": {
-            "league": "UECL Qualifying, Second Round",
+            "league": "UECL Qualifying, Second Round - 2nd Leg",
             "name": "Dila Gori",
             "slug": "dila-gori"
         },
@@ -2487,7 +2491,7 @@
             "slug": "richmond-kickers"
         },
         "riga-fc": {
-            "league": "UECL Qualifying, Second Round",
+            "league": "UECL Qualifying, Second Round - 2nd Leg",
             "name": "Riga FC",
             "slug": "riga-fc"
         },
@@ -3042,7 +3046,7 @@
             "slug": "vancouver-whitecaps"
         },
         "vardar": {
-            "league": "UECL Qualifying, Second Round",
+            "league": "UECL Qualifying, Second Round - 2nd Leg",
             "name": "Vardar",
             "slug": "vardar"
         },
