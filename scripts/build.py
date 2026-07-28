@@ -6,6 +6,7 @@ import requests
 import datetime
 import unicodedata
 from datetime import timedelta, timezone
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Optional zoneinfo import for Python 3.9+
 try:
@@ -27,9 +28,54 @@ os.chdir(ROOT_DIR)  # Forces working directory to repository root
 SITE_DOMAIN = "https://weatherfootball.com"
 STADIUMS_FILE = os.path.join("data", "stadiums.json")
 MASTER_REGISTRY_FILE = os.path.join("data", "master_registry.json")
+CORE_LEAGUES_URL = "https://sports.core.api.espn.com/v2/sports/soccer/leagues?limit=1000"
 
 # HTTP Session with retry capabilities
 HTTP = requests.Session()
+
+KNOWN_LEAGUE_PILLS = {
+    "english premier league": "eng.1",
+    "english league championship": "eng.2",
+    "english league one": "eng.3",
+    "english league two": "eng.4",
+    "english fa cup": "eng.fa",
+    "english carabao cup": "eng.league_cup",
+    "spanish laliga": "esp.1",
+    "spanish laliga 2": "esp.2",
+    "spanish copa del rey": "esp.copa_del_rey",
+    "italian serie a": "ita.1",
+    "italian serie b": "ita.2",
+    "coppa italia": "ita.coppa_italia",
+    "german bundesliga": "ger.1",
+    "german 2. bundesliga": "ger.2",
+    "german cup": "ger.dfb_pokal",
+    "french ligue 1": "fra.1",
+    "french ligue 2": "fra.2",
+    "coupe de france": "fra.coupe_de_france",
+    "dutch eredivisie": "ned.1",
+    "portuguese primeira liga": "por.1",
+    "turkish super lig": "tur.1",
+    "scottish premiership": "sco.1",
+    "mls": "usa.1",
+    "usl championship": "usa.usl.1",
+    "nwsl": "usa.w.1",
+    "liga mx": "mex.1",
+    "liga bbva mx": "mex.1",
+    "argentine liga profesional de fútbol": "arg.1",
+    "brazilian serie a": "bra.1",
+    "colombian primera a": "col.1",
+    "chilean primera división": "chi.1",
+    "saudi pro league": "sau.1",
+    "australian a-league men": "aus.1",
+    "japanese j.league": "jpn.1",
+    "chinese super league": "chn.1",
+    "uefa champions league": "uefa.champions",
+    "uefa europa league": "uefa.europa",
+    "uefa conference league": "uefa.europa.conf",
+    "conmebol libertadores": "conmebol.libertadores",
+    "conmebol sudamericana": "conmebol.sudamericana",
+    "concacaf champions cup": "concacaf.champions",
+}
 
 # ==========================================
 # HELPER FUNCTIONS
@@ -88,6 +134,146 @@ def save_json(filepath, data):
     """Safely saves data to JSON using the write_if_changed pipeline."""
     content = json.dumps(data, indent=4, sort_keys=True)
     write_if_changed(filepath, content)
+
+def normalize_text(text):
+    if not text: return ""
+    nfkd_form = unicodedata.normalize('NFD', text)
+    return "".join([c for c in nfkd_form if unicodedata.category(c) != 'Mn']).lower().strip()
+
+def safe_get(d, *keys):
+    """Safely traverse nested dicts, guarding against missing keys and null/None values."""
+    for key in keys:
+        if isinstance(d, dict) and d.get(key) is not None:
+            d = d.get(key)
+        else:
+            return None
+    return d
+
+def fetch_single_league_detail(ref_url):
+    try:
+        res = HTTP.get(ref_url, timeout=5)
+        if res.status_code == 200:
+            return res.json()
+    except Exception:
+        pass
+    return None
+
+def build_hydrated_core_index():
+    """Builds parallel-hydrated master lookup for IDs, display names, and reverse slug-to-name mappings."""
+    print("🔄 Hydrating Master Core API Directory (Parallel Threads)...")
+    
+    index = {
+        "id_map": {},
+        "name_map": {
+            "club friendly": "club.friendly",
+            "international friendly": "fifa.friendly",
+            "friendly": "club.friendly",
+            "men's international friendly": "fifa.friendly",
+            "asean champ": "aff.championship",
+            "asean championship": "aff.championship"
+        },
+        "slug_to_name": {
+            "club.friendly": "Club Friendly",
+            "fifa.friendly": "International Friendly",
+            "aff.championship": "ASEAN Championship"
+        }
+    }
+    
+    try:
+        master_res = HTTP.get(CORE_LEAGUES_URL, timeout=10).json()
+        items = master_res.get('items', [])
+        ref_urls = [item['$ref'] for item in items if '$ref' in item]
+        
+        with ThreadPoolExecutor(max_workers=25) as executor:
+            future_to_url = {executor.submit(fetch_single_league_detail, url): url for url in ref_urls}
+            for future in as_completed(future_to_url):
+                data = future.result()
+                if not data: continue
+                    
+                league_id = str(data.get('id')) if data.get('id') else None
+                slug = data.get('slug')
+                name = data.get('name')
+                short_name = data.get('shortName')
+                abbrev = data.get('abbreviation')
+                
+                if slug:
+                    if name: index["slug_to_name"][slug] = name
+                    elif short_name: index["slug_to_name"][slug] = short_name
+                        
+                    if league_id: index["id_map"][league_id] = slug
+                        
+                    if name: index["name_map"][name.lower().strip()] = slug
+                    if short_name: index["name_map"][short_name.lower().strip()] = slug
+                    if abbrev: index["name_map"][abbrev.lower().strip()] = slug
+
+        print(f"✅ Core Index Hydrated! Mapped {len(index['id_map'])} League IDs & {len(index['name_map'])} Name Variations.\n")
+    except Exception as e:
+        print(f"⚠️ Warning: Core API Index hydration failed ({e}). Pipeline will fallback to standard resolution.\n")
+        
+    return index
+
+def resolve_event_league(event, core_index):
+    """4-Tier League Resolver: Returns tuple (league_pill, display_name)"""
+    if not core_index: return None, None
+
+    comps = event.get('competitions', [])
+    first_comp = comps[0] if comps else {}
+
+    # Tier 1: Direct league.slug
+    t1_slug = safe_get(event, 'league', 'slug')
+    if t1_slug:
+        return t1_slug, core_index['slug_to_name'].get(t1_slug) or safe_get(event, 'league', 'name') or t1_slug.replace('.', ' ').title()
+
+    # Tier 2: Core API Lookup via numeric league.id
+    league_id = safe_get(event, 'league', 'id') or safe_get(first_comp, 'league', 'id')
+    if league_id and str(league_id) in core_index['id_map']:
+        found_slug = core_index['id_map'][str(league_id)]
+        return found_slug, core_index['slug_to_name'].get(found_slug) or safe_get(event, 'league', 'name') or found_slug.replace('.', ' ').title()
+
+    # Tier 3: Odds tracking tags metadata
+    if comps:
+        odds_list = first_comp.get('odds', [])
+        if odds_list:
+            tags = safe_get(odds_list[0], 'total', 'over', 'close', 'link', 'tracking', 'tags') or safe_get(odds_list[0], 'moneyline', 'home', 'close', 'link', 'tracking', 'tags')
+            if isinstance(tags, dict) and tags.get('league'):
+                found_slug = tags.get('league')
+                return found_slug, core_index['slug_to_name'].get(found_slug) or safe_get(first_comp, 'league', 'name') or found_slug.replace('.', ' ').title()
+
+    # Tier 4: Normalized Name Matching against Core Directory
+    candidates = []
+    for s in [safe_get(event, 'league', 'name'), safe_get(event, 'league', 'shortName'), safe_get(first_comp, 'league', 'name'), safe_get(first_comp, 'league', 'shortName'), first_comp.get('altGameNote')]:
+        if not s or not isinstance(s, str): continue
+        s_clean = s.strip()
+        candidates.append(s_clean.lower())
+        for delimiter in [',', '-', '|', '–']:
+            if delimiter in s_clean:
+                base_part = s_clean.split(delimiter)[0].strip()
+                if base_part: candidates.append(base_part.lower())
+
+    for cand in list(dict.fromkeys(candidates)):
+        if cand in core_index['name_map']:
+            found_slug = core_index['name_map'][cand]
+            return found_slug, core_index['slug_to_name'].get(found_slug) or cand.title()
+
+    for cand in candidates:
+        for name_key, found_slug in core_index['name_map'].items():
+            if len(name_key) > 3 and name_key in cand:
+                return found_slug, core_index['slug_to_name'].get(found_slug) or name_key.title()
+
+    return None, None
+
+def fetch_espn_events_for_pill(pill, start_date_str, end_date_str):
+    """Fetches a 14-day schedule for a specific league using its official pill."""
+    if not pill:
+        return []
+    url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{pill}/scoreboard?dates={start_date_str}-{end_date_str}&limit=1000"
+    try:
+        res = HTTP.get(url, timeout=15)
+        if res.status_code == 200:
+            return res.json().get('events', [])
+    except Exception as e:
+        print(f"  ⚠️ Error fetching 14-day schedule for pill '{pill}': {e}")
+    return []
 
 # ==========================================
 # STADIUM GEOCODING & CACHE SANITIZATION
@@ -320,7 +506,7 @@ def render_game_card_html(game, is_compact_default=True):
     elif w_wind >= 15:
         bg_class = "bg-weather-cloudy"
 
-# Grab scores (default to 0 if missing)
+    # Grab scores (default to 0 if missing)
     home_score = game.get('home_score', '0')
     away_score = game.get('away_score', '0')
 
@@ -706,10 +892,13 @@ def main():
     date_str_today = effective_dt.strftime("%Y%m%d")
     date_str_display = effective_dt.strftime("%A, %B %d, %Y")
     date_str_seo = effective_dt.strftime("%B %d, %Y")
+    current_date_iso = effective_dt.strftime("%Y-%m-%d")
     
     start_future_dt = effective_dt + timedelta(days=1)
     end_future_dt = effective_dt + timedelta(days=14)
-    date_str_future = f"{start_future_dt.strftime('%Y%m%d')}-{end_future_dt.strftime('%Y%m%d')}"
+    start_date_str = start_future_dt.strftime('%Y%m%d')
+    end_date_str = end_future_dt.strftime('%Y%m%d')
+    date_str_future = f"{start_date_str}-{end_date_str}"
 
     stadiums_db = load_json(STADIUMS_FILE, {})
     validate_and_clean_stadiums_db(stadiums_db)
@@ -718,28 +907,78 @@ def main():
     if "leagues" not in master_registry: master_registry["leagues"] = {}
     if "teams" not in master_registry: master_registry["teams"] = {}
 
+    # === 1. HYDRATE CORE DIRECTORY ===
+    core_index = build_hydrated_core_index()
+    league_pill_map = {}
+
     print(f"📡 Fetching Today's Slate ({date_str_today})...")
     espn_url_today = f"https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard?dates={date_str_today}"
     try:
         res_today = HTTP.get(espn_url_today, timeout=15)
-        events_today = res_today.json().get('events', []) if res_today.status_code == 200 else []
+        if res_today.status_code == 200:
+            json_today = res_today.json()
+            events_today = json_today.get('events', [])
+            for lg in json_today.get('leagues', []):
+                if lg.get('id') and lg.get('slug'):
+                    league_pill_map[str(lg['id'])] = lg['slug']
+        else:
+            events_today = []
     except Exception as e:
         print(f"❌ Error fetching Today: {e}")
         events_today = []
 
-    print(f"🔭 Fetching 14-Day Look-Ahead ({date_str_future})...")
+    print(f"🔭 Fetching 14-Day Global Look-Ahead ({date_str_future})...")
     espn_url_future = f"https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard?dates={date_str_future}"
     try:
         res_future = HTTP.get(espn_url_future, timeout=15)
-        events_future = res_future.json().get('events', []) if res_future.status_code == 200 else []
+        if res_future.status_code == 200:
+            json_future = res_future.json()
+            events_future = json_future.get('events', [])
+            for lg in json_future.get('leagues', []):
+                if lg.get('id') and lg.get('slug'):
+                    league_pill_map[str(lg['id'])] = lg['slug']
+        else:
+            events_future = []
     except Exception as e:
         print(f"❌ Error fetching Future: {e}")
         events_future = []
 
+    # Combine initial bulk events
     all_events_raw = events_today + events_future
+
+    # === 2. CROSSOVER 14-DAY REFRESH FOR ACTIVE LEAGUES ===
+    today_league_slugs = set()
+    for ev in events_today:
+        r_pill, r_name = resolve_event_league(ev, core_index)
+        l_name = r_name or (ev.get('competitions', [{}])[0].get('altGameNote') or ev.get('league', {}).get('name') or "Global Football")
+        today_league_slugs.add(slugify(l_name))
+
+    for l_slug in today_league_slugs:
+        l_meta = master_registry["leagues"].get(l_slug, {})
+        l_pill = l_meta.get("pill")
+        if l_pill and l_meta.get("last_crossover_date") != current_date_iso:
+            print(f"🔄 CROSSOVER: Fetching targeted 14-day schedule for active league -> {l_meta.get('name', l_slug)}")
+            targeted_events = fetch_espn_events_for_pill(l_pill, start_date_str, end_date_str)
+            all_events_raw.extend(targeted_events)
+            master_registry["leagues"][l_slug]["last_crossover_date"] = current_date_iso
+
+    # === 3. DORMANT LEAGUE TRICKLE UPDATE (1 LEAGUE PER RUN) ===
+    active_slugs_this_run = today_league_slugs
+    dormant_candidates = [
+        (s, data) for s, data in master_registry["leagues"].items()
+        if s not in active_slugs_this_run and data.get("pill")
+    ]
+    if dormant_candidates:
+        dormant_candidates.sort(key=lambda x: x[1].get("last_updated", 0))
+        target_dormant_slug, target_dormant_data = dormant_candidates[0]
+        print(f"🔄 TRICKLE UPDATE: Fetching 14-day schedule for dormant league -> {target_dormant_data.get('name')}")
+        dormant_events = fetch_espn_events_for_pill(target_dormant_data["pill"], start_date_str, end_date_str)
+        all_events_raw.extend(dormant_events)
+
+    # Deduplicate events by ID
     unique_events = {}
     for ev in all_events_raw:
-        if ev['id'] not in unique_events:
+        if ev.get('id') and ev['id'] not in unique_events:
             unique_events[ev['id']] = ev
 
     today_event_ids = {e['id'] for e in events_today}
@@ -749,8 +988,38 @@ def main():
     for game_id, event in unique_events.items():
         comp = event['competitions'][0]
         
-        league_name = (comp.get('altGameNote') or event.get('league', {}).get('name') or comp.get('league', {}).get('name') or "Global Football")
+        # === 4-TIER RESOLUTION ENGINE & PILL ASSIGNMENT ===
+        resolved_pill, resolved_display_name = resolve_event_league(event, core_index)
+
+        league_list = event.get('leagues', [])
+        first_league = league_list[0] if isinstance(league_list, list) and len(league_list) > 0 else {}
+        league_obj = event.get('league') or comp.get('league') or first_league
+        league_id = str(league_obj.get('id', ''))
+
+        raw_name = resolved_display_name or str(comp.get('altGameNote') or league_obj.get('name') or league_obj.get('displayName') or "Global Football")
+        league_name = re.sub(r'^\d{4}-\d{4}\s+', '', raw_name).strip()
+        
+        if ',' in league_name and not resolved_display_name:
+            league_name = league_name.split(',')[0].strip()
+
         league_slug = slugify(league_name)
+
+        extracted_numeric_pill = ""
+        uid = event.get('uid', '')
+        if uid:
+            for part in uid.split('~'):
+                if part.startswith('l:'):
+                    extracted_numeric_pill = part.replace('l:', '')
+                    break
+
+        league_pill = (
+            resolved_pill or
+            extracted_numeric_pill or
+            league_pill_map.get(league_id) or 
+            first_league.get('slug') or 
+            league_obj.get('slug') or 
+            KNOWN_LEAGUE_PILLS.get(normalize_text(league_name), '')
+        )
 
         home_comp = next((c for c in comp['competitors'] if c['homeAway'] == 'home'), None)
         away_comp = next((c for c in comp['competitors'] if c['homeAway'] == 'away'), None)
@@ -767,7 +1036,14 @@ def main():
         away_logos = away_comp['team'].get('logos', [])
         away_logo = away_comp['team'].get('logo', '') or (away_logos[0].get('href', '') if away_logos else '')
 
-        master_registry["leagues"][league_slug] = {"name": league_name, "slug": league_slug}
+        # === SAVE PILL AND TIMESTAMPS TO MASTER REGISTRY ===
+        master_registry["leagues"][league_slug] = {
+            "name": league_name,
+            "slug": league_slug,
+            "pill": league_pill,
+            "last_updated": datetime.datetime.now().timestamp(),
+            "last_crossover_date": master_registry["leagues"].get(league_slug, {}).get("last_crossover_date", "")
+        }
         master_registry["teams"][home_slug] = {"name": home_team, "slug": home_slug, "league": league_name}
         master_registry["teams"][away_slug] = {"name": away_team, "slug": away_slug, "league": league_name}
 
@@ -1028,7 +1304,7 @@ def main():
 </sitemapindex>'''
     write_if_changed("sitemap.xml", sitemap_index_content)
 
-    print("✅ Build complete! Team pages now retain full matchup and venue data alongside 'Today's' and the date.")
+    print("✅ Build complete! Weather Football static generator updated with 4-tier league/pill resolution.")
 
 if __name__ == "__main__":
     main()
