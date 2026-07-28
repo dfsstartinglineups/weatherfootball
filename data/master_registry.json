@@ -188,6 +188,10 @@
             "name": "UCL Qualifying, Second Round",
             "slug": "ucl-qualifying-second-round"
         },
+        "ucl-qualifying-second-round-2nd-leg": {
+            "name": "UCL Qualifying, Second Round - 2nd Leg",
+            "slug": "ucl-qualifying-second-round-2nd-leg"
+        },
         "uecl-qualifying-second-round": {
             "name": "UECL Qualifying, Second Round",
             "slug": "uecl-qualifying-second-round"
@@ -1748,7 +1752,7 @@
             "slug": "krylia-sovetov"
         },
         "kups-kuopio": {
-            "league": "UCL Qualifying, Second Round",
+            "league": "UCL Qualifying, Second Round - 2nd Leg",
             "name": "KuPS Kuopio",
             "slug": "kups-kuopio"
         },
@@ -2528,7 +2532,7 @@
             "slug": "rubio-nu"
         },
         "sabah-fk": {
-            "league": "UCL Qualifying, Second Round",
+            "league": "UCL Qualifying, Second Round - 2nd Leg",
             "name": "Sabah FK",
             "slug": "sabah-fk"
         },
