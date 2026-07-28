@@ -1,0 +1,1140 @@
+{
+    "leagues": {
+        "argentine-liga-profesional-de-futbol": {
+            "last_crossover_date": "",
+            "last_updated": 1785279631.085505,
+            "name": "Argentine Liga Profesional de F\u00fatbol",
+            "pill": "arg.1",
+            "slug": "argentine-liga-profesional-de-futbol"
+        },
+        "asean-championship": {
+            "last_crossover_date": "",
+            "last_updated": 1785279628.721257,
+            "name": "ASEAN Championship",
+            "pill": "aff.championship",
+            "slug": "asean-championship"
+        },
+        "brazilian-serie-b": {
+            "last_crossover_date": "",
+            "last_updated": 1785279631.593561,
+            "name": "Brazilian Serie B",
+            "pill": "bra.2",
+            "slug": "brazilian-serie-b"
+        },
+        "club-friendly": {
+            "last_crossover_date": "",
+            "last_updated": 1785279626.893384,
+            "name": "Club Friendly",
+            "pill": "club.friendly",
+            "slug": "club-friendly"
+        },
+        "concacaf-central-american-cup": {
+            "last_crossover_date": "",
+            "last_updated": 1785279633.301576,
+            "name": "Concacaf Central American Cup",
+            "pill": "concacaf.central.american.cup",
+            "slug": "concacaf-central-american-cup"
+        },
+        "conmebol-sudamericana": {
+            "last_crossover_date": "",
+            "last_updated": 1785279630.412971,
+            "name": "CONMEBOL Sudamericana",
+            "pill": "conmebol.sudamericana",
+            "slug": "conmebol-sudamericana"
+        },
+        "copa-colombia": {
+            "last_crossover_date": "",
+            "last_updated": 1785279632.444144,
+            "name": "Copa Colombia",
+            "pill": "col.copa",
+            "slug": "copa-colombia"
+        },
+        "english-carabao-cup": {
+            "last_crossover_date": "",
+            "last_updated": 1785279639.508845,
+            "name": "English Carabao Cup",
+            "pill": "eng.league_cup",
+            "slug": "english-carabao-cup"
+        },
+        "leagues-cup": {
+            "last_crossover_date": "",
+            "last_updated": 1785279649.792951,
+            "name": "Leagues Cup",
+            "pill": "concacaf.leagues.cup",
+            "slug": "leagues-cup"
+        },
+        "mls": {
+            "last_crossover_date": "",
+            "last_updated": 1785279642.381289,
+            "name": "MLS",
+            "pill": "usa.1",
+            "slug": "mls"
+        },
+        "northern-super-league": {
+            "last_crossover_date": "",
+            "last_updated": 1785279629.225537,
+            "name": "Northern Super League",
+            "pill": "can.w.nsl",
+            "slug": "northern-super-league"
+        },
+        "nwsl": {
+            "last_crossover_date": "",
+            "last_updated": 1785279650.688063,
+            "name": "NWSL",
+            "pill": "usa.nwsl",
+            "slug": "nwsl"
+        },
+        "paraguayan-primera-division": {
+            "last_crossover_date": "",
+            "last_updated": 1785279632.781319,
+            "name": "Paraguayan Primera Divisi\u00f3n",
+            "pill": "par.1",
+            "slug": "paraguayan-primera-division"
+        },
+        "salvadoran-primera-division": {
+            "last_crossover_date": "",
+            "last_updated": 1785279633.492385,
+            "name": "Salvadoran Primera Division",
+            "pill": "slv.1",
+            "slug": "salvadoran-primera-division"
+        },
+        "uefa-champions-league-qualifying": {
+            "last_crossover_date": "",
+            "last_updated": 1785279628.382823,
+            "name": "UEFA Champions League Qualifying",
+            "pill": "uefa.champions_qual",
+            "slug": "uefa-champions-league-qualifying"
+        },
+        "uefa-conference-league-qualifying": {
+            "last_crossover_date": "",
+            "last_updated": 1785279630.075653,
+            "name": "UEFA Conference League Qualifying",
+            "pill": "uefa.europa.conf_qual",
+            "slug": "uefa-conference-league-qualifying"
+        },
+        "womens-africa-cup-of-nations": {
+            "last_crossover_date": "",
+            "last_updated": 1785279629.057511,
+            "name": "Women's Africa Cup of Nations",
+            "pill": "caf.w.nations",
+            "slug": "womens-africa-cup-of-nations"
+        }
+    },
+    "teams": {
+        "2-de-mayo": {
+            "league": "Paraguayan Primera Divisi\u00f3n",
+            "name": "2 de Mayo",
+            "slug": "2-de-mayo"
+        },
+        "accrington-stanley": {
+            "league": "English Carabao Cup",
+            "name": "Accrington Stanley",
+            "slug": "accrington-stanley"
+        },
+        "afc-toronto": {
+            "league": "Northern Super League",
+            "name": "AFC Toronto",
+            "slug": "afc-toronto"
+        },
+        "afc-wimbledon": {
+            "league": "English Carabao Cup",
+            "name": "AFC Wimbledon",
+            "slug": "afc-wimbledon"
+        },
+        "al-nassr": {
+            "league": "Club Friendly",
+            "name": "Al Nassr",
+            "slug": "al-nassr"
+        },
+        "america": {
+            "league": "Leagues Cup",
+            "name": "Am\u00e9rica",
+            "slug": "america"
+        },
+        "angel-city-fc": {
+            "league": "NWSL",
+            "name": "Angel City FC",
+            "slug": "angel-city-fc"
+        },
+        "apollon-limassol": {
+            "league": "UEFA Conference League Qualifying",
+            "name": "Apollon Limassol",
+            "slug": "apollon-limassol"
+        },
+        "ararat-armenia": {
+            "league": "UEFA Champions League Qualifying",
+            "name": "Ararat-Armenia",
+            "slug": "ararat-armenia"
+        },
+        "argentinos-juniors": {
+            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "name": "Argentinos Juniors",
+            "slug": "argentinos-juniors"
+        },
+        "athletic": {
+            "league": "Brazilian Serie B",
+            "name": "Athletic",
+            "slug": "athletic"
+        },
+        "atlanta-united-fc": {
+            "league": "MLS",
+            "name": "Atlanta United FC",
+            "slug": "atlanta-united-fc"
+        },
+        "atlante": {
+            "league": "Leagues Cup",
+            "name": "Atlante",
+            "slug": "atlante"
+        },
+        "atlas": {
+            "league": "Leagues Cup",
+            "name": "Atlas",
+            "slug": "atlas"
+        },
+        "atletico-balboa": {
+            "league": "Salvadoran Primera Division",
+            "name": "Atletico Balboa",
+            "slug": "atletico-balboa"
+        },
+        "atletico-de-san-luis": {
+            "league": "Leagues Cup",
+            "name": "Atl\u00e9tico de San Luis",
+            "slug": "atletico-de-san-luis"
+        },
+        "atletico-nacional": {
+            "league": "Copa Colombia",
+            "name": "Atl\u00e9tico Nacional",
+            "slug": "atletico-nacional"
+        },
+        "austin-fc": {
+            "league": "Leagues Cup",
+            "name": "Austin FC",
+            "slug": "austin-fc"
+        },
+        "avai": {
+            "league": "Brazilian Serie B",
+            "name": "Ava\u00ed",
+            "slug": "avai"
+        },
+        "banfield": {
+            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "name": "Banfield",
+            "slug": "banfield"
+        },
+        "barnet": {
+            "league": "English Carabao Cup",
+            "name": "Barnet",
+            "slug": "barnet"
+        },
+        "barnsley": {
+            "league": "English Carabao Cup",
+            "name": "Barnsley",
+            "slug": "barnsley"
+        },
+        "bay-fc": {
+            "league": "NWSL",
+            "name": "Bay FC",
+            "slug": "bay-fc"
+        },
+        "birmingham-city": {
+            "league": "English Carabao Cup",
+            "name": "Birmingham City",
+            "slug": "birmingham-city"
+        },
+        "blackburn-rovers": {
+            "league": "English Carabao Cup",
+            "name": "Blackburn Rovers",
+            "slug": "blackburn-rovers"
+        },
+        "blackpool": {
+            "league": "English Carabao Cup",
+            "name": "Blackpool",
+            "slug": "blackpool"
+        },
+        "bogota-fc": {
+            "league": "Copa Colombia",
+            "name": "Bogot\u00e1 FC",
+            "slug": "bogota-fc"
+        },
+        "bolton-wanderers": {
+            "league": "English Carabao Cup",
+            "name": "Bolton Wanderers",
+            "slug": "bolton-wanderers"
+        },
+        "botafogo-sp": {
+            "league": "Brazilian Serie B",
+            "name": "Botafogo-SP",
+            "slug": "botafogo-sp"
+        },
+        "bristol-city": {
+            "league": "English Carabao Cup",
+            "name": "Bristol City",
+            "slug": "bristol-city"
+        },
+        "bristol-rovers": {
+            "league": "English Carabao Cup",
+            "name": "Bristol Rovers",
+            "slug": "bristol-rovers"
+        },
+        "bromley": {
+            "league": "English Carabao Cup",
+            "name": "Bromley",
+            "slug": "bromley"
+        },
+        "burnley": {
+            "league": "English Carabao Cup",
+            "name": "Burnley",
+            "slug": "burnley"
+        },
+        "burton-albion": {
+            "league": "English Carabao Cup",
+            "name": "Burton Albion",
+            "slug": "burton-albion"
+        },
+        "cacahuatique": {
+            "league": "Salvadoran Primera Division",
+            "name": "Cacahuatique",
+            "slug": "cacahuatique"
+        },
+        "calgary-wild-fc": {
+            "league": "Northern Super League",
+            "name": "Calgary Wild FC",
+            "slug": "calgary-wild-fc"
+        },
+        "cambridge-united": {
+            "league": "English Carabao Cup",
+            "name": "Cambridge United",
+            "slug": "cambridge-united"
+        },
+        "cardiff-city": {
+            "league": "English Carabao Cup",
+            "name": "Cardiff City",
+            "slug": "cardiff-city"
+        },
+        "cerro-porteno": {
+            "league": "Paraguayan Primera Divisi\u00f3n",
+            "name": "Cerro Porte\u00f1o",
+            "slug": "cerro-porteno"
+        },
+        "cf-montreal": {
+            "league": "MLS",
+            "name": "CF Montr\u00e9al",
+            "slug": "cf-montreal"
+        },
+        "charlotte-fc": {
+            "league": "Leagues Cup",
+            "name": "Charlotte FC",
+            "slug": "charlotte-fc"
+        },
+        "charlton-athletic": {
+            "league": "English Carabao Cup",
+            "name": "Charlton Athletic",
+            "slug": "charlton-athletic"
+        },
+        "cheltenham-town": {
+            "league": "English Carabao Cup",
+            "name": "Cheltenham Town",
+            "slug": "cheltenham-town"
+        },
+        "chesterfield": {
+            "league": "English Carabao Cup",
+            "name": "Chesterfield",
+            "slug": "chesterfield"
+        },
+        "chicago-fire-fc": {
+            "league": "Leagues Cup",
+            "name": "Chicago Fire FC",
+            "slug": "chicago-fire-fc"
+        },
+        "chicago-stars-fc": {
+            "league": "NWSL",
+            "name": "Chicago Stars FC",
+            "slug": "chicago-stars-fc"
+        },
+        "club-deportivo-olimpia": {
+            "league": "Concacaf Central American Cup",
+            "name": "Club Deportivo Olimpia",
+            "slug": "club-deportivo-olimpia"
+        },
+        "colchester-united": {
+            "league": "English Carabao Cup",
+            "name": "Colchester United",
+            "slug": "colchester-united"
+        },
+        "colorado-rapids": {
+            "league": "MLS",
+            "name": "Colorado Rapids",
+            "slug": "colorado-rapids"
+        },
+        "columbus-crew": {
+            "league": "Leagues Cup",
+            "name": "Columbus Crew",
+            "slug": "columbus-crew"
+        },
+        "crawley-town": {
+            "league": "English Carabao Cup",
+            "name": "Crawley Town",
+            "slug": "crawley-town"
+        },
+        "crewe-alexandra": {
+            "league": "English Carabao Cup",
+            "name": "Crewe Alexandra",
+            "slug": "crewe-alexandra"
+        },
+        "cruz-azul": {
+            "league": "Leagues Cup",
+            "name": "Cruz Azul",
+            "slug": "cruz-azul"
+        },
+        "cska-1948-sofia": {
+            "league": "UEFA Conference League Qualifying",
+            "name": "CSKA 1948 Sofia",
+            "slug": "cska-1948-sofia"
+        },
+        "dc-united": {
+            "league": "MLS",
+            "name": "D.C. United",
+            "slug": "dc-united"
+        },
+        "deportes-quindio": {
+            "league": "Copa Colombia",
+            "name": "Deportes Quind\u00edo",
+            "slug": "deportes-quindio"
+        },
+        "deportes-tolima": {
+            "league": "Copa Colombia",
+            "name": "Deportes Tolima",
+            "slug": "deportes-tolima"
+        },
+        "deportivo-mixco": {
+            "league": "Concacaf Central American Cup",
+            "name": "Deportivo Mixco",
+            "slug": "deportivo-mixco"
+        },
+        "deportivo-pasto": {
+            "league": "Copa Colombia",
+            "name": "Deportivo Pasto",
+            "slug": "deportivo-pasto"
+        },
+        "derby-county": {
+            "league": "English Carabao Cup",
+            "name": "Derby County",
+            "slug": "derby-county"
+        },
+        "dila-gori": {
+            "league": "UEFA Conference League Qualifying",
+            "name": "Dila Gori",
+            "slug": "dila-gori"
+        },
+        "dinamo-zagreb": {
+            "league": "UEFA Champions League Qualifying",
+            "name": "Dinamo Zagreb",
+            "slug": "dinamo-zagreb"
+        },
+        "diriangen": {
+            "league": "Concacaf Central American Cup",
+            "name": "Diriang\u00e9n",
+            "slug": "diriangen"
+        },
+        "doncaster-rovers": {
+            "league": "English Carabao Cup",
+            "name": "Doncaster Rovers",
+            "slug": "doncaster-rovers"
+        },
+        "drita-gjilan": {
+            "league": "UEFA Conference League Qualifying",
+            "name": "Drita Gjilan",
+            "slug": "drita-gjilan"
+        },
+        "egnatia": {
+            "league": "UEFA Champions League Qualifying",
+            "name": "Egnatia",
+            "slug": "egnatia"
+        },
+        "egypt": {
+            "league": "Women's Africa Cup of Nations",
+            "name": "Egypt",
+            "slug": "egypt"
+        },
+        "estudiantes-de-rio-cuarto": {
+            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "name": "Estudiantes de R\u00edo Cuarto",
+            "slug": "estudiantes-de-rio-cuarto"
+        },
+        "exeter-city": {
+            "league": "English Carabao Cup",
+            "name": "Exeter City",
+            "slug": "exeter-city"
+        },
+        "fc-cincinnati": {
+            "league": "Leagues Cup",
+            "name": "FC Cincinnati",
+            "slug": "fc-cincinnati"
+        },
+        "fc-dallas": {
+            "league": "Leagues Cup",
+            "name": "FC Dallas",
+            "slug": "fc-dallas"
+        },
+        "fc-eindhoven": {
+            "league": "Club Friendly",
+            "name": "FC Eindhoven",
+            "slug": "fc-eindhoven"
+        },
+        "fc-juarez": {
+            "league": "Leagues Cup",
+            "name": "FC Juarez",
+            "slug": "fc-juarez"
+        },
+        "fc-motagua": {
+            "league": "Concacaf Central American Cup",
+            "name": "FC Motagua",
+            "slug": "fc-motagua"
+        },
+        "fc-spartak-trnava": {
+            "league": "UEFA Conference League Qualifying",
+            "name": "FC Spartak Trnava",
+            "slug": "fc-spartak-trnava"
+        },
+        "fc-thun": {
+            "league": "UEFA Champions League Qualifying",
+            "name": "FC Thun",
+            "slug": "fc-thun"
+        },
+        "fleetwood-town": {
+            "league": "English Carabao Cup",
+            "name": "Fleetwood Town",
+            "slug": "fleetwood-town"
+        },
+        "floriana-fc": {
+            "league": "UEFA Conference League Qualifying",
+            "name": "Floriana FC",
+            "slug": "floriana-fc"
+        },
+        "fortaleza": {
+            "league": "Brazilian Serie B",
+            "name": "Fortaleza",
+            "slug": "fortaleza"
+        },
+        "gillingham": {
+            "league": "English Carabao Cup",
+            "name": "Gillingham",
+            "slug": "gillingham"
+        },
+        "gimnasia-mendoza": {
+            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "name": "Gimnasia (Mendoza)",
+            "slug": "gimnasia-mendoza"
+        },
+        "gotham-fc": {
+            "league": "NWSL",
+            "name": "Gotham FC",
+            "slug": "gotham-fc"
+        },
+        "grimsby-town": {
+            "league": "English Carabao Cup",
+            "name": "Grimsby Town",
+            "slug": "grimsby-town"
+        },
+        "guadalajara": {
+            "league": "Leagues Cup",
+            "name": "Guadalajara",
+            "slug": "guadalajara"
+        },
+        "heart-of-midlothian": {
+            "league": "UEFA Champions League Qualifying",
+            "name": "Heart of Midlothian",
+            "slug": "heart-of-midlothian"
+        },
+        "houston-dynamo-fc": {
+            "league": "MLS",
+            "name": "Houston Dynamo FC",
+            "slug": "houston-dynamo-fc"
+        },
+        "huddersfield-town": {
+            "league": "English Carabao Cup",
+            "name": "Huddersfield Town",
+            "slug": "huddersfield-town"
+        },
+        "independiente-santa-fe": {
+            "league": "Copa Colombia",
+            "name": "Independiente Santa Fe",
+            "slug": "independiente-santa-fe"
+        },
+        "inter-miami-cf": {
+            "league": "Leagues Cup",
+            "name": "Inter Miami CF",
+            "slug": "inter-miami-cf"
+        },
+        "juventude": {
+            "league": "Brazilian Serie B",
+            "name": "Juventude",
+            "slug": "juventude"
+        },
+        "kansas-city-current": {
+            "league": "NWSL",
+            "name": "Kansas City Current",
+            "slug": "kansas-city-current"
+        },
+        "kups-kuopio": {
+            "league": "UEFA Champions League Qualifying",
+            "name": "KuPS Kuopio",
+            "slug": "kups-kuopio"
+        },
+        "la-galaxy": {
+            "league": "MLS",
+            "name": "LA Galaxy",
+            "slug": "la-galaxy"
+        },
+        "lafc": {
+            "league": "Leagues Cup",
+            "name": "LAFC",
+            "slug": "lafc"
+        },
+        "laos": {
+            "league": "ASEAN Championship",
+            "name": "Laos",
+            "slug": "laos"
+        },
+        "leganes": {
+            "league": "Club Friendly",
+            "name": "Legan\u00e9s",
+            "slug": "leganes"
+        },
+        "leicester-city": {
+            "league": "English Carabao Cup",
+            "name": "Leicester City",
+            "slug": "leicester-city"
+        },
+        "leon": {
+            "league": "Leagues Cup",
+            "name": "Le\u00f3n",
+            "slug": "leon"
+        },
+        "leyton-orient": {
+            "league": "English Carabao Cup",
+            "name": "Leyton Orient",
+            "slug": "leyton-orient"
+        },
+        "liga-mx-all-stars": {
+            "league": "MLS",
+            "name": "Liga MX All-Stars",
+            "slug": "liga-mx-all-stars"
+        },
+        "lincoln-city": {
+            "league": "English Carabao Cup",
+            "name": "Lincoln City",
+            "slug": "lincoln-city"
+        },
+        "lincoln-red-imps": {
+            "league": "UEFA Champions League Qualifying",
+            "name": "Lincoln Red Imps",
+            "slug": "lincoln-red-imps"
+        },
+        "luton-town": {
+            "league": "English Carabao Cup",
+            "name": "Luton Town",
+            "slug": "luton-town"
+        },
+        "malawi": {
+            "league": "Women's Africa Cup of Nations",
+            "name": "Malawi",
+            "slug": "malawi"
+        },
+        "malaysia": {
+            "league": "ASEAN Championship",
+            "name": "Malaysia",
+            "slug": "malaysia"
+        },
+        "mansfield-town": {
+            "league": "English Carabao Cup",
+            "name": "Mansfield Town",
+            "slug": "mansfield-town"
+        },
+        "merida": {
+            "league": "Club Friendly",
+            "name": "M\u00e9rida",
+            "slug": "merida"
+        },
+        "middlesbrough": {
+            "league": "English Carabao Cup",
+            "name": "Middlesbrough",
+            "slug": "middlesbrough"
+        },
+        "millwall": {
+            "league": "English Carabao Cup",
+            "name": "Millwall",
+            "slug": "millwall"
+        },
+        "milton-keynes-dons": {
+            "league": "English Carabao Cup",
+            "name": "Milton Keynes Dons",
+            "slug": "milton-keynes-dons"
+        },
+        "minnesota-united-fc": {
+            "league": "Leagues Cup",
+            "name": "Minnesota United FC",
+            "slug": "minnesota-united-fc"
+        },
+        "mjallby-aif": {
+            "league": "UEFA Champions League Qualifying",
+            "name": "Mj\u00e4llby AIF",
+            "slug": "mjallby-aif"
+        },
+        "mls-all-stars": {
+            "league": "MLS",
+            "name": "MLS All-Stars",
+            "slug": "mls-all-stars"
+        },
+        "monterrey": {
+            "league": "Leagues Cup",
+            "name": "Monterrey",
+            "slug": "monterrey"
+        },
+        "myanmar": {
+            "league": "ASEAN Championship",
+            "name": "Myanmar",
+            "slug": "myanmar"
+        },
+        "nacional": {
+            "league": "CONMEBOL Sudamericana",
+            "name": "Nacional",
+            "slug": "nacional"
+        },
+        "nashville-sc": {
+            "league": "Leagues Cup",
+            "name": "Nashville SC",
+            "slug": "nashville-sc"
+        },
+        "necaxa": {
+            "league": "Leagues Cup",
+            "name": "Necaxa",
+            "slug": "necaxa"
+        },
+        "new-england-revolution": {
+            "league": "MLS",
+            "name": "New England Revolution",
+            "slug": "new-england-revolution"
+        },
+        "new-york-city-fc": {
+            "league": "Leagues Cup",
+            "name": "New York City FC",
+            "slug": "new-york-city-fc"
+        },
+        "newport-county": {
+            "league": "English Carabao Cup",
+            "name": "Newport County",
+            "slug": "newport-county"
+        },
+        "nigeria": {
+            "league": "Women's Africa Cup of Nations",
+            "name": "Nigeria",
+            "slug": "nigeria"
+        },
+        "nk-celje": {
+            "league": "UEFA Champions League Qualifying",
+            "name": "NK Celje",
+            "slug": "nk-celje"
+        },
+        "north-carolina-courage": {
+            "league": "NWSL",
+            "name": "North Carolina Courage",
+            "slug": "north-carolina-courage"
+        },
+        "northampton-town": {
+            "league": "English Carabao Cup",
+            "name": "Northampton Town",
+            "slug": "northampton-town"
+        },
+        "norwich-city": {
+            "league": "English Carabao Cup",
+            "name": "Norwich City",
+            "slug": "norwich-city"
+        },
+        "notts-county": {
+            "league": "English Carabao Cup",
+            "name": "Notts County",
+            "slug": "notts-county"
+        },
+        "oldham-athletic": {
+            "league": "English Carabao Cup",
+            "name": "Oldham Athletic",
+            "slug": "oldham-athletic"
+        },
+        "orlando-city-sc": {
+            "league": "Leagues Cup",
+            "name": "Orlando City SC",
+            "slug": "orlando-city-sc"
+        },
+        "orlando-pride": {
+            "league": "NWSL",
+            "name": "Orlando Pride",
+            "slug": "orlando-pride"
+        },
+        "oxford-united": {
+            "league": "English Carabao Cup",
+            "name": "Oxford United",
+            "slug": "oxford-united"
+        },
+        "pachuca": {
+            "league": "Leagues Cup",
+            "name": "Pachuca",
+            "slug": "pachuca"
+        },
+        "peterborough-united": {
+            "league": "English Carabao Cup",
+            "name": "Peterborough United",
+            "slug": "peterborough-united"
+        },
+        "philadelphia-union": {
+            "league": "Leagues Cup",
+            "name": "Philadelphia Union",
+            "slug": "philadelphia-union"
+        },
+        "philippines": {
+            "league": "ASEAN Championship",
+            "name": "Philippines",
+            "slug": "philippines"
+        },
+        "plaza-amador": {
+            "league": "Concacaf Central American Cup",
+            "name": "Plaza Amador",
+            "slug": "plaza-amador"
+        },
+        "plymouth-argyle": {
+            "league": "English Carabao Cup",
+            "name": "Plymouth Argyle",
+            "slug": "plymouth-argyle"
+        },
+        "ponte-preta": {
+            "league": "Brazilian Serie B",
+            "name": "Ponte Preta",
+            "slug": "ponte-preta"
+        },
+        "port-vale": {
+            "league": "English Carabao Cup",
+            "name": "Port Vale",
+            "slug": "port-vale"
+        },
+        "portland-timbers": {
+            "league": "Leagues Cup",
+            "name": "Portland Timbers",
+            "slug": "portland-timbers"
+        },
+        "portsmouth": {
+            "league": "English Carabao Cup",
+            "name": "Portsmouth",
+            "slug": "portsmouth"
+        },
+        "preston-north-end": {
+            "league": "English Carabao Cup",
+            "name": "Preston North End",
+            "slug": "preston-north-end"
+        },
+        "psv-eindhoven": {
+            "league": "Club Friendly",
+            "name": "PSV Eindhoven",
+            "slug": "psv-eindhoven"
+        },
+        "puebla": {
+            "league": "Leagues Cup",
+            "name": "Puebla",
+            "slug": "puebla"
+        },
+        "pumas-unam": {
+            "league": "Leagues Cup",
+            "name": "Pumas UNAM",
+            "slug": "pumas-unam"
+        },
+        "queens-park-rangers": {
+            "league": "English Carabao Cup",
+            "name": "Queens Park Rangers",
+            "slug": "queens-park-rangers"
+        },
+        "queretaro": {
+            "league": "Leagues Cup",
+            "name": "Quer\u00e9taro",
+            "slug": "queretaro"
+        },
+        "racing-club": {
+            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "name": "Racing Club",
+            "slug": "racing-club"
+        },
+        "racing-louisville-fc": {
+            "league": "NWSL",
+            "name": "Racing Louisville FC",
+            "slug": "racing-louisville-fc"
+        },
+        "reading": {
+            "league": "English Carabao Cup",
+            "name": "Reading",
+            "slug": "reading"
+        },
+        "real-madrid": {
+            "league": "Club Friendly",
+            "name": "Real Madrid",
+            "slug": "real-madrid"
+        },
+        "real-salt-lake": {
+            "league": "Leagues Cup",
+            "name": "Real Salt Lake",
+            "slug": "real-salt-lake"
+        },
+        "red-bull-new-york": {
+            "league": "MLS",
+            "name": "Red Bull New York",
+            "slug": "red-bull-new-york"
+        },
+        "riga-fc": {
+            "league": "UEFA Conference League Qualifying",
+            "name": "Riga FC",
+            "slug": "riga-fc"
+        },
+        "rochdale": {
+            "league": "English Carabao Cup",
+            "name": "Rochdale",
+            "slug": "rochdale"
+        },
+        "rosario-central": {
+            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "name": "Rosario Central",
+            "slug": "rosario-central"
+        },
+        "rotherham-united": {
+            "league": "English Carabao Cup",
+            "name": "Rotherham United",
+            "slug": "rotherham-united"
+        },
+        "rubio-nu": {
+            "league": "Paraguayan Primera Divisi\u00f3n",
+            "name": "Rubio \u00d1\u00fa",
+            "slug": "rubio-nu"
+        },
+        "sabah-fk": {
+            "league": "UEFA Champions League Qualifying",
+            "name": "Sabah FK",
+            "slug": "sabah-fk"
+        },
+        "salford-city": {
+            "league": "English Carabao Cup",
+            "name": "Salford City",
+            "slug": "salford-city"
+        },
+        "san-diego-fc": {
+            "league": "Leagues Cup",
+            "name": "San Diego FC",
+            "slug": "san-diego-fc"
+        },
+        "san-jose-earthquakes": {
+            "league": "MLS",
+            "name": "San Jose Earthquakes",
+            "slug": "san-jose-earthquakes"
+        },
+        "san-lorenzo": {
+            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "name": "San Lorenzo",
+            "slug": "san-lorenzo"
+        },
+        "santos": {
+            "league": "Leagues Cup",
+            "name": "Santos",
+            "slug": "santos"
+        },
+        "sarmiento-junin": {
+            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "name": "Sarmiento (Jun\u00edn)",
+            "slug": "sarmiento-junin"
+        },
+        "seattle-sounders-fc": {
+            "league": "Leagues Cup",
+            "name": "Seattle Sounders FC",
+            "slug": "seattle-sounders-fc"
+        },
+        "shamrock-rovers": {
+            "league": "UEFA Champions League Qualifying",
+            "name": "Shamrock Rovers",
+            "slug": "shamrock-rovers"
+        },
+        "sheffield-united": {
+            "league": "English Carabao Cup",
+            "name": "Sheffield United",
+            "slug": "sheffield-united"
+        },
+        "sheffield-wednesday": {
+            "league": "English Carabao Cup",
+            "name": "Sheffield Wednesday",
+            "slug": "sheffield-wednesday"
+        },
+        "shrewsbury-town": {
+            "league": "English Carabao Cup",
+            "name": "Shrewsbury Town",
+            "slug": "shrewsbury-town"
+        },
+        "sk-sturm-graz": {
+            "league": "UEFA Champions League Qualifying",
+            "name": "SK Sturm Graz",
+            "slug": "sk-sturm-graz"
+        },
+        "southampton": {
+            "league": "English Carabao Cup",
+            "name": "Southampton",
+            "slug": "southampton"
+        },
+        "sporting-kansas-city": {
+            "league": "MLS",
+            "name": "Sporting Kansas City",
+            "slug": "sporting-kansas-city"
+        },
+        "sportivo-ameliano": {
+            "league": "Paraguayan Primera Divisi\u00f3n",
+            "name": "Sportivo Ameliano",
+            "slug": "sportivo-ameliano"
+        },
+        "st-louis-city-sc": {
+            "league": "MLS",
+            "name": "St. Louis CITY SC",
+            "slug": "st-louis-city-sc"
+        },
+        "stevenage": {
+            "league": "English Carabao Cup",
+            "name": "Stevenage",
+            "slug": "stevenage"
+        },
+        "stockport-county": {
+            "league": "English Carabao Cup",
+            "name": "Stockport County",
+            "slug": "stockport-county"
+        },
+        "stoke-city": {
+            "league": "English Carabao Cup",
+            "name": "Stoke City",
+            "slug": "stoke-city"
+        },
+        "swansea-city": {
+            "league": "English Carabao Cup",
+            "name": "Swansea City",
+            "slug": "swansea-city"
+        },
+        "swindon-town": {
+            "league": "English Carabao Cup",
+            "name": "Swindon Town",
+            "slug": "swindon-town"
+        },
+        "tigre": {
+            "league": "CONMEBOL Sudamericana",
+            "name": "Tigre",
+            "slug": "tigre"
+        },
+        "tigres-fc": {
+            "league": "Copa Colombia",
+            "name": "Tigres FC",
+            "slug": "tigres-fc"
+        },
+        "tigres-uanl": {
+            "league": "Leagues Cup",
+            "name": "Tigres UANL",
+            "slug": "tigres-uanl"
+        },
+        "tijuana": {
+            "league": "Leagues Cup",
+            "name": "Tijuana",
+            "slug": "tijuana"
+        },
+        "toluca": {
+            "league": "Leagues Cup",
+            "name": "Toluca",
+            "slug": "toluca"
+        },
+        "toronto-fc": {
+            "league": "MLS",
+            "name": "Toronto FC",
+            "slug": "toronto-fc"
+        },
+        "tranmere-rovers": {
+            "league": "English Carabao Cup",
+            "name": "Tranmere Rovers",
+            "slug": "tranmere-rovers"
+        },
+        "ucv-fc": {
+            "league": "CONMEBOL Sudamericana",
+            "name": "UCV FC",
+            "slug": "ucv-fc"
+        },
+        "union-magdalena": {
+            "league": "Copa Colombia",
+            "name": "Uni\u00f3n Magdalena",
+            "slug": "union-magdalena"
+        },
+        "utah-royals": {
+            "league": "NWSL",
+            "name": "Utah Royals",
+            "slug": "utah-royals"
+        },
+        "vancouver-whitecaps": {
+            "league": "Leagues Cup",
+            "name": "Vancouver Whitecaps",
+            "slug": "vancouver-whitecaps"
+        },
+        "vardar": {
+            "league": "UEFA Conference League Qualifying",
+            "name": "Vardar",
+            "slug": "vardar"
+        },
+        "verdes-fc": {
+            "league": "Concacaf Central American Cup",
+            "name": "Verdes FC",
+            "slug": "verdes-fc"
+        },
+        "walsall": {
+            "league": "English Carabao Cup",
+            "name": "Walsall",
+            "slug": "walsall"
+        },
+        "washington-spirit": {
+            "league": "NWSL",
+            "name": "Washington Spirit",
+            "slug": "washington-spirit"
+        },
+        "west-bromwich-albion": {
+            "league": "English Carabao Cup",
+            "name": "West Bromwich Albion",
+            "slug": "west-bromwich-albion"
+        },
+        "west-ham-united": {
+            "league": "English Carabao Cup",
+            "name": "West Ham United",
+            "slug": "west-ham-united"
+        },
+        "wigan-athletic": {
+            "league": "English Carabao Cup",
+            "name": "Wigan Athletic",
+            "slug": "wigan-athletic"
+        },
+        "wolverhampton-wanderers": {
+            "league": "English Carabao Cup",
+            "name": "Wolverhampton Wanderers",
+            "slug": "wolverhampton-wanderers"
+        },
+        "wrexham": {
+            "league": "English Carabao Cup",
+            "name": "Wrexham",
+            "slug": "wrexham"
+        },
+        "wycombe-wanderers": {
+            "league": "English Carabao Cup",
+            "name": "Wycombe Wanderers",
+            "slug": "wycombe-wanderers"
+        },
+        "york-city": {
+            "league": "English Carabao Cup",
+            "name": "York City",
+            "slug": "york-city"
+        },
+        "zambia": {
+            "league": "Women's Africa Cup of Nations",
+            "name": "Zambia",
+            "slug": "zambia"
+        }
+    }
+}
