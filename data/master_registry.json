@@ -40,6 +40,18 @@
             "name": "Carabao Cup, Preliminary Round",
             "slug": "carabao-cup-preliminary-round"
         },
+        "central-american-cup-group-a": {
+            "name": "Central American Cup, Group A",
+            "slug": "central-american-cup-group-a"
+        },
+        "central-american-cup-group-c": {
+            "name": "Central American Cup, Group C",
+            "slug": "central-american-cup-group-c"
+        },
+        "central-american-cup-group-d": {
+            "name": "Central American Cup, Group D",
+            "slug": "central-american-cup-group-d"
+        },
         "chilean-primera": {
             "name": "Chilean Primera",
             "slug": "chilean-primera"
@@ -55,6 +67,14 @@
         "colombian-primera-a": {
             "name": "Colombian Primera A",
             "slug": "colombian-primera-a"
+        },
+        "conmebol-sudamericana-knockout-round-playoffs": {
+            "name": "CONMEBOL Sudamericana, Knockout Round Playoffs",
+            "slug": "conmebol-sudamericana-knockout-round-playoffs"
+        },
+        "copa-colombia-stage-1b": {
+            "name": "Copa Colombia, Stage 1B",
+            "slug": "copa-colombia-stage-1b"
         },
         "danish-superliga": {
             "name": "Danish Superliga",
@@ -164,6 +184,14 @@
             "name": "Swedish Allsvenskan",
             "slug": "swedish-allsvenskan"
         },
+        "ucl-qualifying-second-round": {
+            "name": "UCL Qualifying, Second Round",
+            "slug": "ucl-qualifying-second-round"
+        },
+        "uecl-qualifying-second-round": {
+            "name": "UECL Qualifying, Second Round",
+            "slug": "uecl-qualifying-second-round"
+        },
         "uefa-womens-champions-league-qualifying-first-round-3rd-place-playoff": {
             "name": "UEFA Women's Champions League Qualifying, First Round - 3rd-Place Playoff",
             "slug": "uefa-womens-champions-league-qualifying-first-round-3rd-place-playoff"
@@ -187,6 +215,10 @@
         "womens-africa-cup-of-nations-group-b": {
             "name": "Women's Africa Cup of Nations, Group B",
             "slug": "womens-africa-cup-of-nations-group-b"
+        },
+        "womens-africa-cup-of-nations-group-c": {
+            "name": "Women's Africa Cup of Nations, Group C",
+            "slug": "womens-africa-cup-of-nations-group-c"
         }
     },
     "teams": {
@@ -234,6 +266,11 @@
             "league": "Liga FPD",
             "name": "AD San Carlos",
             "slug": "ad-san-carlos"
+        },
+        "afc-toronto": {
+            "league": "Northern Super League",
+            "name": "AFC Toronto",
+            "slug": "afc-toronto"
         },
         "afc-wimbledon": {
             "league": "Carabao Cup, First Round",
@@ -355,10 +392,25 @@
             "name": "Antigua GFC",
             "slug": "antigua-gfc"
         },
+        "apollon-limassol": {
+            "league": "UECL Qualifying, Second Round",
+            "name": "Apollon Limassol",
+            "slug": "apollon-limassol"
+        },
+        "ararat-armenia": {
+            "league": "UCL Qualifying, Second Round",
+            "name": "Ararat-Armenia",
+            "slug": "ararat-armenia"
+        },
         "arbroath": {
             "league": "Scottish League Cup, Group B",
             "name": "Arbroath",
             "slug": "arbroath"
+        },
+        "argentinos-juniors": {
+            "league": "Argentine LPF",
+            "name": "Argentinos Juniors",
+            "slug": "argentinos-juniors"
         },
         "as-cannes": {
             "league": "Club Friendly",
@@ -369,6 +421,11 @@
             "league": "Club Friendly",
             "name": "AS Roma",
             "slug": "as-roma"
+        },
+        "athletic": {
+            "league": "Brazil Serie B",
+            "name": "Athletic",
+            "slug": "athletic"
         },
         "athletic-club-boise": {
             "league": "USL League One",
@@ -400,6 +457,11 @@
             "name": "Atlas",
             "slug": "atlas"
         },
+        "atletico-balboa": {
+            "league": "Salvadoran Primera",
+            "name": "Atletico Balboa",
+            "slug": "atletico-balboa"
+        },
         "atletico-de-san-luis": {
             "league": "Leagues Cup, Group 2",
             "name": "Atl\u00e9tico de San Luis",
@@ -414,6 +476,11 @@
             "league": "Brazil Serie A",
             "name": "Atl\u00e9tico-MG",
             "slug": "atletico-mg"
+        },
+        "atletico-nacional": {
+            "league": "Copa Colombia, Stage 1B",
+            "name": "Atl\u00e9tico Nacional",
+            "slug": "atletico-nacional"
         },
         "atletico-rafaela": {
             "league": "Argentine Nacional B",
@@ -454,6 +521,11 @@
             "league": "USL League One",
             "name": "AV Alta FC",
             "slug": "av-alta-fc"
+        },
+        "avai": {
+            "league": "Brazil Serie B",
+            "name": "Ava\u00ed",
+            "slug": "avai"
         },
         "ayr-united": {
             "league": "Scottish League Cup, Group G",
@@ -545,6 +617,11 @@
             "name": "Bodo/Glimt",
             "slug": "bodoglimt"
         },
+        "bogota-fc": {
+            "league": "Copa Colombia, Stage 1B",
+            "name": "Bogot\u00e1 FC",
+            "slug": "bogota-fc"
+        },
         "bolivar": {
             "league": "Bolivian Liga Profesional",
             "name": "Bol\u00edvar",
@@ -569,6 +646,11 @@
             "league": "Brazil Serie A",
             "name": "Botafogo",
             "slug": "botafogo"
+        },
+        "botafogo-sp": {
+            "league": "Brazil Serie B",
+            "name": "Botafogo-SP",
+            "slug": "botafogo-sp"
         },
         "brechin-city": {
             "league": "Scottish League Cup, Group E",
@@ -619,6 +701,16 @@
             "league": "Carabao Cup, First Round",
             "name": "Burton Albion",
             "slug": "burton-albion"
+        },
+        "cacahuatique": {
+            "league": "Salvadoran Primera",
+            "name": "Cacahuatique",
+            "slug": "cacahuatique"
+        },
+        "calgary-wild-fc": {
+            "league": "Northern Super League",
+            "name": "Calgary Wild FC",
+            "slug": "calgary-wild-fc"
         },
         "cambodia": {
             "league": "ASEAN Champ, Group B",
@@ -765,6 +857,11 @@
             "name": "Club Atl\u00e9tico Morelia",
             "slug": "club-atletico-morelia"
         },
+        "club-deportivo-olimpia": {
+            "league": "Central American Cup, Group C",
+            "name": "Club Deportivo Olimpia",
+            "slug": "club-deportivo-olimpia"
+        },
         "club-jaiba-brava": {
             "league": "Liga de Expansi\u00f3n MX",
             "name": "Club Jaiba Brava",
@@ -890,6 +987,11 @@
             "name": "Crystal Palace",
             "slug": "crystal-palace"
         },
+        "cska-1948-sofia": {
+            "league": "UECL Qualifying, Second Round",
+            "name": "CSKA 1948 Sofia",
+            "slug": "cska-1948-sofia"
+        },
         "cska-moscow": {
             "league": "Russian Premier",
             "name": "CSKA Moscow",
@@ -960,6 +1062,16 @@
             "name": "Deportes Limache",
             "slug": "deportes-limache"
         },
+        "deportes-quindio": {
+            "league": "Copa Colombia, Stage 1B",
+            "name": "Deportes Quind\u00edo",
+            "slug": "deportes-quindio"
+        },
+        "deportes-tolima": {
+            "league": "Copa Colombia, Stage 1B",
+            "name": "Deportes Tolima",
+            "slug": "deportes-tolima"
+        },
         "deportivo-cali": {
             "league": "Colombian Primera A",
             "name": "Deportivo Cali",
@@ -991,7 +1103,7 @@
             "slug": "deportivo-maipu"
         },
         "deportivo-mixco": {
-            "league": "Guatemalan Liga Nacional",
+            "league": "Central American Cup, Group C",
             "name": "Deportivo Mixco",
             "slug": "deportivo-mixco"
         },
@@ -1004,6 +1116,11 @@
             "league": "Argentine Nacional B",
             "name": "Deportivo Mor\u00f3n",
             "slug": "deportivo-moron"
+        },
+        "deportivo-pasto": {
+            "league": "Copa Colombia, Stage 1B",
+            "name": "Deportivo Pasto",
+            "slug": "deportivo-pasto"
         },
         "deportivo-pereira": {
             "league": "Colombian Primera A",
@@ -1025,10 +1142,25 @@
             "name": "Detroit City FC",
             "slug": "detroit-city-fc"
         },
+        "dila-gori": {
+            "league": "UECL Qualifying, Second Round",
+            "name": "Dila Gori",
+            "slug": "dila-gori"
+        },
         "dinamo-moscow": {
             "league": "Russian Premier",
             "name": "Dinamo Moscow",
             "slug": "dinamo-moscow"
+        },
+        "dinamo-zagreb": {
+            "league": "UCL Qualifying, Second Round",
+            "name": "Dinamo Zagreb",
+            "slug": "dinamo-zagreb"
+        },
+        "diriangen": {
+            "league": "Central American Cup, Group A",
+            "name": "Diriang\u00e9n",
+            "slug": "diriangen"
         },
         "djurgarden": {
             "league": "Swedish Allsvenskan",
@@ -1039,6 +1171,11 @@
             "league": "Carabao Cup, First Round",
             "name": "Doncaster Rovers",
             "slug": "doncaster-rovers"
+        },
+        "drita-gjilan": {
+            "league": "UECL Qualifying, Second Round",
+            "name": "Drita Gjilan",
+            "slug": "drita-gjilan"
         },
         "dumbarton": {
             "league": "Scottish League Cup, Group C",
@@ -1069,6 +1206,16 @@
             "league": "Scottish League Cup, Group F",
             "name": "East Fife",
             "slug": "east-fife"
+        },
+        "egnatia": {
+            "league": "UCL Qualifying, Second Round",
+            "name": "Egnatia",
+            "slug": "egnatia"
+        },
+        "egypt": {
+            "league": "Women's Africa Cup of Nations, Group C",
+            "name": "Egypt",
+            "slug": "egypt"
         },
         "eintracht-frankfurt": {
             "league": "Club Friendly",
@@ -1150,8 +1297,13 @@
             "name": "FC Dallas",
             "slug": "fc-dallas"
         },
+        "fc-eindhoven": {
+            "league": "Club Friendly",
+            "name": "FC Eindhoven",
+            "slug": "fc-eindhoven"
+        },
         "fc-juarez": {
-            "league": "Leagues Cup, Group 2",
+            "league": "Leagues Cup, Group 1",
             "name": "FC Juarez",
             "slug": "fc-juarez"
         },
@@ -1164,6 +1316,11 @@
             "league": "Danish Superliga",
             "name": "FC Midtjylland",
             "slug": "fc-midtjylland"
+        },
+        "fc-motagua": {
+            "league": "Central American Cup, Group D",
+            "name": "FC Motagua",
+            "slug": "fc-motagua"
         },
         "fc-naples": {
             "league": "USL League One",
@@ -1179,6 +1336,16 @@
             "league": "UEFA Women's Champions League Qualifying, First Round - 3rd-Place Playoff",
             "name": "FC Pyunik",
             "slug": "fc-pyunik"
+        },
+        "fc-spartak-trnava": {
+            "league": "UECL Qualifying, Second Round",
+            "name": "FC Spartak Trnava",
+            "slug": "fc-spartak-trnava"
+        },
+        "fc-thun": {
+            "league": "UCL Qualifying, Second Round",
+            "name": "FC Thun",
+            "slug": "fc-thun"
         },
         "fc-tulsa": {
             "league": "USL Championship",
@@ -1205,6 +1372,11 @@
             "name": "Fleetwood Town",
             "slug": "fleetwood-town"
         },
+        "floriana-fc": {
+            "league": "UECL Qualifying, Second Round",
+            "name": "Floriana FC",
+            "slug": "floriana-fc"
+        },
         "fluminense": {
             "league": "Brazil Serie A",
             "name": "Fluminense",
@@ -1219,6 +1391,11 @@
             "league": "USL League One",
             "name": "Fort Wayne",
             "slug": "fort-wayne"
+        },
+        "fortaleza": {
+            "league": "Brazil Serie B",
+            "name": "Fortaleza",
+            "slug": "fortaleza"
         },
         "fortaleza-ceif": {
             "league": "Colombian Primera A",
@@ -1385,6 +1562,11 @@
             "name": "Hartford Athletic",
             "slug": "hartford-athletic"
         },
+        "heart-of-midlothian": {
+            "league": "UCL Qualifying, Second Round",
+            "name": "Heart of Midlothian",
+            "slug": "heart-of-midlothian"
+        },
         "henan": {
             "league": "Chinese Super League",
             "name": "Henan",
@@ -1451,7 +1633,7 @@
             "slug": "independiente-rivadavia"
         },
         "independiente-santa-fe": {
-            "league": "Colombian Primera A",
+            "league": "Copa Colombia, Stage 1B",
             "name": "Independiente Santa Fe",
             "slug": "independiente-santa-fe"
         },
@@ -1499,6 +1681,11 @@
             "league": "Colombian Primera A",
             "name": "Jaguares de C\u00f3rdoba",
             "slug": "jaguares-de-cordoba"
+        },
+        "juventude": {
+            "league": "Brazil Serie B",
+            "name": "Juventude",
+            "slug": "juventude"
         },
         "juventus": {
             "league": "Club Friendly",
@@ -1560,6 +1747,11 @@
             "name": "Krylia Sovetov",
             "slug": "krylia-sovetov"
         },
+        "kups-kuopio": {
+            "league": "UCL Qualifying, Second Round",
+            "name": "KuPS Kuopio",
+            "slug": "kups-kuopio"
+        },
         "la-galaxy": {
             "league": "MLS",
             "name": "LA Galaxy",
@@ -1576,7 +1768,7 @@
             "slug": "lanus"
         },
         "laos": {
-            "league": "ASEAN Champ, Group B",
+            "league": "ASEAN Champ, Group A",
             "name": "Laos",
             "slug": "laos"
         },
@@ -1589,6 +1781,11 @@
             "league": "Club Friendly",
             "name": "Leeds United",
             "slug": "leeds-united"
+        },
+        "leganes": {
+            "league": "Club Friendly",
+            "name": "Legan\u00e9s",
+            "slug": "leganes"
         },
         "leicester-city": {
             "league": "Carabao Cup, First Round",
@@ -1649,6 +1846,11 @@
             "league": "Carabao Cup, First Round",
             "name": "Lincoln City",
             "slug": "lincoln-city"
+        },
+        "lincoln-red-imps": {
+            "league": "UCL Qualifying, Second Round",
+            "name": "Lincoln Red Imps",
+            "slug": "lincoln-red-imps"
         },
         "liverpool": {
             "league": "Club Friendly",
@@ -1720,8 +1922,13 @@
             "name": "Macar\u00e1",
             "slug": "macara"
         },
+        "malawi": {
+            "league": "Women's Africa Cup of Nations, Group C",
+            "name": "Malawi",
+            "slug": "malawi"
+        },
         "malaysia": {
-            "league": "ASEAN Champ, Group B",
+            "league": "ASEAN Champ, Group A",
             "name": "Malaysia",
             "slug": "malaysia"
         },
@@ -1781,7 +1988,7 @@
             "slug": "mineros-de-zacatecas"
         },
         "minnesota-united-fc": {
-            "league": "Leagues Cup, Group 2",
+            "league": "Leagues Cup, Group 1",
             "name": "Minnesota United FC",
             "slug": "minnesota-united-fc"
         },
@@ -1796,7 +2003,7 @@
             "slug": "mitrovica"
         },
         "mjallby-aif": {
-            "league": "Swedish Allsvenskan",
+            "league": "UCL Qualifying, Second Round",
             "name": "Mj\u00e4llby AIF",
             "slug": "mjallby-aif"
         },
@@ -1855,6 +2062,11 @@
             "name": "Myanmar",
             "slug": "myanmar"
         },
+        "nacional": {
+            "league": "CONMEBOL Sudamericana, Knockout Round Playoffs",
+            "name": "Nacional",
+            "slug": "nacional"
+        },
         "nacional-potosi": {
             "league": "Bolivian Liga Profesional",
             "name": "Nacional Potos\u00ed",
@@ -1910,10 +2122,20 @@
             "name": "Newport County",
             "slug": "newport-county"
         },
+        "nigeria": {
+            "league": "Women's Africa Cup of Nations, Group C",
+            "name": "Nigeria",
+            "slug": "nigeria"
+        },
         "nike-lusso": {
             "league": "UEFA Women's Champions League Qualifying, First Round - 3rd-Place Playoff",
             "name": "Nike Lusso",
             "slug": "nike-lusso"
+        },
+        "nk-celje": {
+            "league": "UCL Qualifying, Second Round",
+            "name": "NK Celje",
+            "slug": "nk-celje"
         },
         "north-carolina-courage": {
             "league": "NWSL",
@@ -2060,6 +2282,11 @@
             "name": "Philadelphia Union",
             "slug": "philadelphia-union"
         },
+        "philippines": {
+            "league": "ASEAN Champ, Group B",
+            "name": "Philippines",
+            "slug": "philippines"
+        },
         "phoenix-rising-fc": {
             "league": "USL Championship",
             "name": "Phoenix Rising FC",
@@ -2080,10 +2307,20 @@
             "name": "Platense",
             "slug": "platense"
         },
+        "plaza-amador": {
+            "league": "Central American Cup, Group A",
+            "name": "Plaza Amador",
+            "slug": "plaza-amador"
+        },
         "plymouth-argyle": {
             "league": "Carabao Cup, First Round",
             "name": "Plymouth Argyle",
             "slug": "plymouth-argyle"
+        },
+        "ponte-preta": {
+            "league": "Brazil Serie B",
+            "name": "Ponte Preta",
+            "slug": "ponte-preta"
         },
         "port-vale": {
             "league": "Carabao Cup, First Round",
@@ -2190,6 +2427,11 @@
             "name": "Reading",
             "slug": "reading"
         },
+        "real-madrid": {
+            "league": "Club Friendly",
+            "name": "Real Madrid",
+            "slug": "real-madrid"
+        },
         "real-potosi": {
             "league": "Bolivian Liga Profesional",
             "name": "Real Potos\u00ed",
@@ -2231,7 +2473,7 @@
             "slug": "richmond-kickers"
         },
         "riga-fc": {
-            "league": "UEFA Women's Champions League Qualifying, First Round - Final",
+            "league": "UECL Qualifying, Second Round",
             "name": "Riga FC",
             "slug": "riga-fc"
         },
@@ -2249,6 +2491,11 @@
             "league": "Russian Premier",
             "name": "Rodina Moscow",
             "slug": "rodina-moscow"
+        },
+        "rosario-central": {
+            "league": "Argentine LPF",
+            "name": "Rosario Central",
+            "slug": "rosario-central"
         },
         "rosenborg": {
             "league": "Norwegian Eliteserien",
@@ -2279,6 +2526,11 @@
             "league": "Paraguayan Primera",
             "name": "Rubio \u00d1\u00fa",
             "slug": "rubio-nu"
+        },
+        "sabah-fk": {
+            "league": "UCL Qualifying, Second Round",
+            "name": "Sabah FK",
+            "slug": "sabah-fk"
         },
         "sacramento-republic-fc": {
             "league": "USL Championship",
@@ -2360,6 +2612,11 @@
             "name": "Saprissa",
             "slug": "saprissa"
         },
+        "sarmiento-junin": {
+            "league": "Argentine LPF",
+            "name": "Sarmiento (Jun\u00edn)",
+            "slug": "sarmiento-junin"
+        },
         "sarpsborg-fk": {
             "league": "Norwegian Eliteserien",
             "name": "Sarpsborg FK",
@@ -2379,6 +2636,11 @@
             "league": "Women's Africa Cup of Nations, Group A",
             "name": "Senegal",
             "slug": "senegal"
+        },
+        "shamrock-rovers": {
+            "league": "UCL Qualifying, Second Round",
+            "name": "Shamrock Rovers",
+            "slug": "shamrock-rovers"
         },
         "shandong-taishan": {
             "league": "Chinese Super League",
@@ -2429,6 +2691,11 @@
             "league": "Norwegian Eliteserien",
             "name": "SK Brann",
             "slug": "sk-brann"
+        },
+        "sk-sturm-graz": {
+            "league": "UCL Qualifying, Second Round",
+            "name": "SK Sturm Graz",
+            "slug": "sk-sturm-graz"
         },
         "skopje": {
             "league": "UEFA Women's Champions League Qualifying, First Round - 3rd-Place Playoff",
@@ -2489,6 +2756,11 @@
             "league": "MLS",
             "name": "Sporting Kansas City",
             "slug": "sporting-kansas-city"
+        },
+        "sportivo-ameliano": {
+            "league": "Paraguayan Primera",
+            "name": "Sportivo Ameliano",
+            "slug": "sportivo-ameliano"
         },
         "sportivo-luqueno": {
             "league": "Paraguayan Primera",
@@ -2626,9 +2898,14 @@
             "slug": "tianjin-jinmen-tiger"
         },
         "tigre": {
-            "league": "Argentine LPF",
+            "league": "CONMEBOL Sudamericana, Knockout Round Playoffs",
             "name": "Tigre",
             "slug": "tigre"
+        },
+        "tigres-fc": {
+            "league": "Copa Colombia, Stage 1B",
+            "name": "Tigres FC",
+            "slug": "tigres-fc"
         },
         "tigres-uanl": {
             "league": "Leagues Cup, Group 2",
@@ -2685,10 +2962,20 @@
             "name": "Trist\u00e1n Su\u00e1rez",
             "slug": "tristan-suarez"
         },
+        "ucv-fc": {
+            "league": "CONMEBOL Sudamericana, Knockout Round Playoffs",
+            "name": "UCV FC",
+            "slug": "ucv-fc"
+        },
         "union-la-calera": {
             "league": "Chilean Primera",
             "name": "Uni\u00f3n La Calera",
             "slug": "union-la-calera"
+        },
+        "union-magdalena": {
+            "league": "Copa Colombia, Stage 1B",
+            "name": "Uni\u00f3n Magdalena",
+            "slug": "union-magdalena"
         },
         "union-santa-fe": {
             "league": "Argentine LPF",
@@ -2740,6 +3027,11 @@
             "name": "Vancouver Whitecaps",
             "slug": "vancouver-whitecaps"
         },
+        "vardar": {
+            "league": "UECL Qualifying, Second Round",
+            "name": "Vardar",
+            "slug": "vardar"
+        },
         "vasteras-sk": {
             "league": "Swedish Allsvenskan",
             "name": "V\u00e4ster\u00e5s SK",
@@ -2759,6 +3051,11 @@
             "league": "Club Friendly",
             "name": "Venezia",
             "slug": "venezia"
+        },
+        "verdes-fc": {
+            "league": "Central American Cup, Group D",
+            "name": "Verdes FC",
+            "slug": "verdes-fc"
         },
         "viborg-ff": {
             "league": "Danish Superliga",
@@ -2849,6 +3146,11 @@
             "league": "Chinese Super League",
             "name": "Yunnan Yukun",
             "slug": "yunnan-yukun"
+        },
+        "zambia": {
+            "league": "Women's Africa Cup of Nations, Group C",
+            "name": "Zambia",
+            "slug": "zambia"
         },
         "zenit-st-petersburg": {
             "league": "Russian Premier",
