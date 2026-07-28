@@ -326,6 +326,11 @@
             "name": "Akron Tolyatti",
             "slug": "akron-tolyatti"
         },
+        "al-nassr": {
+            "league": "Club Friendly",
+            "name": "Al Nassr",
+            "slug": "al-nassr"
+        },
         "alebrijes-de-oaxaca": {
             "league": "Liga de Expansi\u00f3n MX",
             "name": "Alebrijes de Oaxaca",
@@ -1955,6 +1960,11 @@
             "league": "Guatemalan Liga Nacional",
             "name": "Marquense",
             "slug": "marquense"
+        },
+        "merida": {
+            "league": "Club Friendly",
+            "name": "M\u00e9rida",
+            "slug": "merida"
         },
         "mgarr-united": {
             "league": "UEFA Women's Champions League Qualifying, First Round - Final",
