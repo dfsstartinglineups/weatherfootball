@@ -77,6 +77,111 @@ KNOWN_LEAGUE_PILLS = {
     "concacaf champions cup": "concacaf.champions",
 }
 
+HUMAN_LEAGUE_FLAGS = {
+    "afc asian cup": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2243.png",
+    "afc asian cup qualifiers": "https://a.espncdn.com/i/leaguelogos/soccer/500/2246.png",
+    "afc champions league elite": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png",
+    "afc champions league two": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png",
+    "asean championship": "https://a.espncdn.com/i/leaguelogos/soccer/500/2261.png",
+    "africa cup of nations": "https://a.espncdn.com/i/leaguelogos/soccer/500/76.png",
+    "argentine copa de la superliga": "https://a.espncdn.com/i/leaguelogos/soccer/500/2407.png",
+    "argentine liga profesional de fútbol": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png",
+    "argentine nacional b": "https://a.espncdn.com/i/leaguelogos/soccer/500/2294.png",
+    "argentine primera b": "https://a.espncdn.com/i/leaguelogos/soccer/500/2308.png",
+    "argentine supercopa": "https://a.espncdn.com/i/leaguelogos/soccer/500/2343.png",
+    "australian a-league men": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png",
+    "australian a-league women": "https://a.espncdn.com/i/leaguelogos/soccer/500/2402.png",
+    "austrian bundesliga": "https://a.espncdn.com/i/leaguelogos/soccer/500/5.png",
+    "belgian pro league": "https://a.espncdn.com/i/leaguelogos/soccer/500/6.png",
+    "bolivian liga profesional": "https://a.espncdn.com/i/leaguelogos/soccer/500/1949.png",
+    "brazilian campeonato carioca": "https://a.espncdn.com/i/leaguelogos/soccer/500/2265.png",
+    "brazilian campeonato gaucho": "https://a.espncdn.com/i/leaguelogos/soccer/500/2272.png",
+    "brazilian campeonato mineiro": "https://a.espncdn.com/i/leaguelogos/soccer/500/2360.png",
+    "brazilian campeonato paulista": "https://a.espncdn.com/i/leaguelogos/soccer/500/2322.png",
+    "brazilian serie a": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png",
+    "brazilian serie b": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
+    "caf champions league": "https://a.espncdn.com/i/leaguelogos/soccer/500/2391.png",
+    "conmebol libertadores": "https://a.espncdn.com/i/leaguelogos/soccer/500/58.png",
+    "conmebol pre-olympic tournament": "https://a.espncdn.com/i/leaguelogos/soccer/500/19727.png",
+    "conmebol recopa": "https://a.espncdn.com/i/leaguelogos/soccer/500/2335.png",
+    "conmebol sudamericana": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png",
+    "chilean primera división": "https://a.espncdn.com/i/leaguelogos/soccer/500/86.png",
+    "chinese super league": "https://a.espncdn.com/i/leaguelogos/soccer/500/2350.png",
+    "colombian primera a": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+    "colombian superliga": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2405.png",
+    "concacaf champions cup": "https://a.espncdn.com/i/leaguelogos/soccer/500/2298.png",
+    "concacaf gold cup": "https://a.espncdn.com/i/leaguelogos/soccer/500/59.png",
+    "concacaf nations league": "https://a.espncdn.com/i/leaguelogos/soccer/500/2406.png",
+    "concacaf w championship": "https://a.espncdn.com/i/leaguelogos/soccer/500/18969.png",
+    "copa américa": "https://a.espncdn.com/i/leaguelogos/soccer/500/83.png",
+    "copa argentina": "https://a.espncdn.com/i/leaguelogos/soccer/500/2320.png",
+    "copa chile": "https://a.espncdn.com/i/leaguelogos/soccer/500/2331.png",
+    "copa colombia": "https://a.espncdn.com/i/leaguelogos/soccer/500/2332.png",
+    "copa do brasil": "https://a.espncdn.com/i/leaguelogos/soccer/500/528.png",
+    "coppa italia": "https://a.espncdn.com/i/leaguelogos/soccer/500/2192.png",
+    "costa rican primera division": "https://a.espncdn.com/i/leaguelogos/soccer/500/2245.png",
+    "coupe de france": "https://a.espncdn.com/i/leaguelogos/soccer/500/182.png",
+    "dutch eredivisie": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
+    "dutch knvb beker": "https://a.espncdn.com/i/leaguelogos/soccer/500/2196.png",
+    "dutch keuken kampioen divisie": "https://a.espncdn.com/i/leaguelogos/soccer/500/105.png",
+    "dutch vrouwen eredivisie": "https://a.espncdn.com/i/leaguelogos/soccer/500/2453.png",
+    "english carabao cup": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
+    "english efl trophy": "https://a.espncdn.com/i/leaguelogos/soccer/500/42.png",
+    "english fa cup": "https://a.espncdn.com/i/leaguelogos/soccer/500/40.png",
+    "english league championship": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
+    "english league one": "https://a.espncdn.com/i/leaguelogos/soccer/500/25.png",
+    "english league two": "https://a.espncdn.com/i/leaguelogos/soccer/500/26.png",
+    "english premier league": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+    "english women's super league": "https://a.espncdn.com/i/leaguelogos/soccer/500/2314.png",
+    "fifa club world cup": "https://a.espncdn.com/i/leaguelogos/soccer/500/1932.png",
+    "fifa under-17 world cup": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png",
+    "fifa under-20 world cup": "https://a.espncdn.com/i/leaguelogos/soccer/500/2285.png",
+    "fifa women's world cup": "https://a.espncdn.com/i/leaguelogos/soccer/500/60.png",
+    "fifa world cup": "https://a.espncdn.com/i/leaguelogos/soccer/500/4.png",
+    "french ligue 1": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+    "french ligue 2": "https://a.espncdn.com/i/leaguelogos/soccer/500/96.png",
+    "german 2. bundesliga": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
+    "german bundesliga": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+    "german cup": "https://a.espncdn.com/i/leaguelogos/soccer/500/2061.png",
+    "greek super league": "https://a.espncdn.com/i/leaguelogos/soccer/500/98.png",
+    "italian serie a": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+    "italian serie b": "https://a.espncdn.com/i/leaguelogos/soccer/500/99.png",
+    "japanese j.league": "https://a.espncdn.com/i/leaguelogos/soccer/500/2199.png",
+    "leagues cup": "https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png",
+    "liga mx": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png",
+    "liga bbva mx": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png",
+    "mls": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
+    "nwsl": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
+    "portuguese primeira liga": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
+    "saudi pro league": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png",
+    "scottish premiership": "https://a.espncdn.com/i/leaguelogos/soccer/500/45.png",
+    "spanish copa del rey": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png",
+    "spanish laliga": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+    "spanish laliga 2": "https://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
+    "swedish allsvenskan": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png",
+    "turkish super lig": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png",
+    "uefa champions league": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
+    "uefa conference league": "https://a.espncdn.com/i/leaguelogos/soccer/500/20296.png",
+    "uefa europa league": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png",
+    "usl championship": "https://a.espncdn.com/i/leaguelogos/soccer/500/2292.png",
+}
+
+COUNTRY_FLAG_URLS = {
+    "belgian": "be", "chilean": "cl", "chinese": "cn", "dutch": "nl",
+    "english": "gb-eng", "french": "fr", "german": "de", "bolivian": "bo",
+    "norwegian": "no", "russian": "ru", "portuguese": "pt", "scottish": "gb-sct",
+    "swedish": "se", "argentine": "ar", "brazilian": "br", "italian": "it",
+    "mexican": "mx", "paraguayan": "py", "japanese": "jp", "spanish": "es",
+    "danish": "dk", "indian": "in", "salvadoran": "sv", "costa rican": "cr",
+    "peruvian": "pe", "peru": "pe",
+    "uruguay": "uy", "uruguayan": "uy", "uruguaya": "uy",
+    "brazil": "br",
+    "ecuador": "ec", "ecuadorian": "ec",
+    "mexico": "mx", "mx": "mx",
+    "guatemalan": "gt", "guatemala": "gt",
+    "croatian": "hr", "croatia": "hr", "fpd": "hr"
+}
+
 # ==========================================
 # HELPER FUNCTIONS
 # ==========================================
@@ -139,6 +244,10 @@ def normalize_text(text):
     if not text: return ""
     nfkd_form = unicodedata.normalize('NFD', text)
     return "".join([c for c in nfkd_form if unicodedata.category(c) != 'Mn']).lower().strip()
+
+NORMALIZED_HUMAN_LEAGUE_FLAGS = {
+    normalize_text(key): val for key, val in HUMAN_LEAGUE_FLAGS.items()
+}
 
 def safe_get(d, *keys):
     """Safely traverse nested dicts, guarding against missing keys and null/None values."""
@@ -612,7 +721,7 @@ def render_game_card_html(game, is_compact_default=True):
         </div>"""
 
     # Optional UI injection for the league logo inside the expanded dark header
-    league_logo_html = f'<img src="{game.get("league_logo", "")}" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display=\'none\'">' if game.get("league_logo") else ''
+    league_logo_html = f'<img src="{game.get("league_logo", "")}" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display=\'none\'">' if game.get("league_logo") and game.get("league_logo").startswith('http') else (f'<span style="font-size: 1.1rem; margin-right: 6px; vertical-align: middle; line-height: 1;">{game.get("league_logo")}</span>' if game.get("league_logo") else '')
 
     return f"""
     <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-{game['id']}">
@@ -1026,10 +1135,39 @@ def main():
         )
 
         # === EXTRACT LEAGUE LOGO ===
-        league_logos = league_obj.get('logos', [])
-        if not league_logos and first_league:
-            league_logos = first_league.get('logos', [])
-        league_logo = league_obj.get('logo') or (league_logos[0].get('href', '') if league_logos else '')
+        clean_league = normalize_text(league_name)
+        league_logo = NORMALIZED_HUMAN_LEAGUE_FLAGS.get(clean_league, "")
+        
+        # Bridge the 4-Tier Pill directly to the Image Dictionary if exact match fails
+        if not league_logo and league_pill:
+            for known_name, known_pill in KNOWN_LEAGUE_PILLS.items():
+                if known_pill == league_pill and known_name in NORMALIZED_HUMAN_LEAGUE_FLAGS:
+                    league_logo = NORMALIZED_HUMAN_LEAGUE_FLAGS[known_name]
+                    break
+
+        # Fallback to removing qualifying/playoff text
+        if not league_logo: 
+            league_logo = NORMALIZED_HUMAN_LEAGUE_FLAGS.get(re.sub(r'\s+(qualifying|qualifiers|playoffs?)\b', '', clean_league), "")
+            
+        # Fallback to API provided logos
+        if not league_logo:
+            league_logos = league_obj.get('logos', [])
+            if not league_logos and first_league:
+                league_logos = first_league.get('logos', [])
+            league_logo = league_obj.get('logo') or (league_logos[0].get('href', '') if league_logos else '')
+
+        # Fallback to flag CDN or emojis for obscure leagues
+        if not league_logo or 'default-team-logo' in str(league_logo):
+            for ctry, code in COUNTRY_FLAG_URLS.items():
+                if re.search(rf'\b{ctry}\b', clean_league): 
+                    league_logo = f"https://flagcdn.com/w40/{code}.png"
+                    break
+            if not league_logo and re.search(r'\b(africa|african|caf)\b', clean_league): league_logo = "🌍"
+            if not league_logo and re.search(r'\b(international|concacaf|conmebol|uefa|olympic|nations|saff|americ)\b', clean_league): league_logo = "🌎"
+            if not league_logo and 'friendly' in clean_league: league_logo = "🤝"
+            if not league_logo and 'cup' in clean_league: league_logo = "🏆"
+            
+        league_logo = str(league_logo or "")
 
         home_comp = next((c for c in comp['competitors'] if c['homeAway'] == 'home'), None)
         away_comp = next((c for c in comp['competitors'] if c['homeAway'] == 'away'), None)
@@ -1146,8 +1284,15 @@ def main():
         for lname, ldata in sorted(grouped_games.items(), key=lambda x: x[0]):
             # Optional: Get the league logo to display in the section header!
             section_league_logo = ldata['games'][0].get('league_logo', '') if ldata['games'] else ''
-            sec_logo_img = f'<img src="{section_league_logo}" style="width: 20px; height: 20px; object-fit: contain; margin-right: 6px;" onerror="this.style.display=\'none\'">' if section_league_logo else ''
             
+            # Format the logo dynamically based on whether it is a URL or an emoji
+            if section_league_logo and section_league_logo.startswith('http'):
+                sec_logo_img = f'<img src="{section_league_logo}" style="width: 20px; height: 20px; object-fit: contain; margin-right: 6px;" onerror="this.style.display=\'none\'">'
+            elif section_league_logo:
+                sec_logo_img = f'<span style="font-size: 1.1rem; margin-right: 6px;">{section_league_logo}</span>'
+            else:
+                sec_logo_img = ''
+                
             home_cards_html += f"""
             <div class="col-12 w-100 px-1" id="league-section-{ldata['slug']}">
                 <div class="league-section-title">
