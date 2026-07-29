@@ -49,6 +49,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10225": {
+        "city": "Knoxville, Tennessee",
+        "country": "USA",
+        "id": "10225",
+        "lat": 35.96064,
+        "lon": -83.92074,
+        "name": "Covenant Health Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10226": {
+        "city": "Naples, Florida",
+        "country": "USA",
+        "id": "10226",
+        "lat": 26.14234,
+        "lon": -81.79596,
+        "name": "Paradise Coast Sports Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10228": {
         "city": "Lancaster, California",
         "country": "USA",
@@ -56,6 +76,16 @@
         "lat": 34.69804,
         "lon": -118.13674,
         "name": "Lancaster Municipal Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10229": {
+        "city": "Portland, Maine",
+        "country": "USA",
+        "id": "10229",
+        "lat": 45.52345,
+        "lon": -122.67621,
+        "name": "Fitzpatrick Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -76,6 +106,16 @@
         "lat": 34.01325,
         "lon": -6.83255,
         "name": "Stade El Barid",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10252": {
+        "city": "Bradenton, Florida",
+        "country": "USA",
+        "id": "10252",
+        "lat": 27.49893,
+        "lon": -82.57482,
+        "name": "Premier Sports Campus",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -1009,6 +1049,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10898": {
+        "city": "Lexington, Kentucky",
+        "country": "USA",
+        "id": "10898",
+        "lat": 37.98869,
+        "lon": -84.47772,
+        "name": "Lexington Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10910": {
         "city": "Valledupar",
         "country": "Colombia",
@@ -1036,6 +1086,46 @@
         "lat": 8.27877,
         "lon": -73.30935,
         "name": "Palogrande",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10914": {
+        "city": "Mount Pleasant, South Carolina",
+        "country": "USA",
+        "id": "10914",
+        "lat": 43.59781,
+        "lon": -84.76751,
+        "name": "Ralph Lundy Field at Patriots Point",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10915": {
+        "city": "Albuquerque, New Mexico",
+        "country": "USA",
+        "id": "10915",
+        "lat": 35.08449,
+        "lon": -106.65114,
+        "name": "Isotopes Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10916": {
+        "city": "Boise",
+        "country": "USA",
+        "id": "10916",
+        "lat": 43.6135,
+        "lon": -116.20345,
+        "name": "Athletic Club Boise Soccer Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10917": {
+        "city": "Fort Wayne",
+        "country": "USA",
+        "id": "10917",
+        "lat": 41.1306,
+        "lon": -85.12886,
+        "name": "Ruoff Mortgage Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -1859,6 +1949,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3265": {
+        "city": "Curitiba",
+        "country": "Brazil",
+        "id": "3265",
+        "lat": -25.42778,
+        "lon": -49.27306,
+        "name": "Couto Pereira",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "3278": {
         "city": "Montreal",
         "country": "Canada",
@@ -2629,6 +2729,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "5375": {
+        "city": "Sao Paulo",
+        "country": "Brazil",
+        "id": "5375",
+        "lat": -23.5475,
+        "lon": -46.63611,
+        "name": "Neo Qu\u00edmica Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "5376": {
         "city": "Porto Alegre",
         "country": "Brazil",
@@ -3119,6 +3229,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6270": {
+        "city": "Richmond, Virginia",
+        "country": "USA",
+        "id": "6270",
+        "lat": 37.55376,
+        "lon": -77.46026,
+        "name": "City Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6271": {
         "city": "Pittsburgh, Pennsylvania",
         "country": "USA",
@@ -3196,6 +3316,16 @@
         "lat": 39.32983,
         "lon": -76.60163,
         "name": "Estadio El Tr\u00e9bol",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6451": {
+        "city": "San Antonio, Texas",
+        "country": "USA",
+        "id": "6451",
+        "lat": 29.42412,
+        "lon": -98.49363,
+        "name": "Toyota Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3279,6 +3409,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6542": {
+        "city": "St. Petersburg, Florida",
+        "country": "USA",
+        "id": "6542",
+        "lat": 27.90699,
+        "lon": -82.69092,
+        "name": "Al Lang Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6559": {
         "city": "Ponta Grossa",
         "country": "Brazil",
@@ -3326,6 +3466,16 @@
         "lat": 59.61617,
         "lon": 16.55276,
         "name": "Hitachi Energy Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6632": {
+        "city": "Sacramento, California",
+        "country": "USA",
+        "id": "6632",
+        "lat": 38.58157,
+        "lon": -121.4944,
+        "name": "Heart Health Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3549,6 +3699,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7063": {
+        "city": "Irvine, California",
+        "country": "USA",
+        "id": "7063",
+        "lat": 33.66946,
+        "lon": -117.82311,
+        "name": "Championship Soccer Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7123": {
         "city": "Kristiansund",
         "country": "Norway",
@@ -3566,6 +3726,16 @@
         "lat": -16.67861,
         "lon": -49.25389,
         "name": "Est\u00e1dio Ant\u00f4nio Accioly",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7359": {
+        "city": "Las Vegas, Nevada",
+        "country": "USA",
+        "id": "7359",
+        "lat": 36.17497,
+        "lon": -115.13722,
+        "name": "Cashman Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3756,6 +3926,16 @@
         "lat": 54.85,
         "lon": -5.81667,
         "name": "Inver Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8160": {
+        "city": "Leesburg, Virginia",
+        "country": "USA",
+        "id": "8160",
+        "lat": 39.11566,
+        "lon": -77.5636,
+        "name": "Segra Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3989,6 +4169,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9010": {
+        "city": "Birmingham, Alabama",
+        "country": "USA",
+        "id": "9010",
+        "lat": 33.52066,
+        "lon": -86.80249,
+        "name": "Protective Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9162": {
         "city": "Abovyan",
         "country": "Armenia",
@@ -4189,26 +4379,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "al-nassr": {
-        "city": "",
-        "country": "",
-        "id": "al-nassr",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "atletico-balboa": {
-        "city": "",
-        "country": "",
-        "id": "atletico-balboa",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "burkina-faso": {
         "city": "",
         "country": "",
@@ -4219,82 +4389,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "cacahuatique": {
-        "city": "",
-        "country": "",
-        "id": "cacahuatique",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "calgary-wild-fc": {
-        "city": "",
-        "country": "",
-        "id": "calgary-wild-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "cambodia": {
         "city": "",
         "country": "",
         "id": "cambodia",
         "lat": 13.0,
         "lon": 105.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "caracas-fc": {
-        "city": "",
-        "country": "",
-        "id": "caracas-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "cd-fas": {
-        "city": "",
-        "country": "",
-        "id": "cd-fas",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "cd-municipal-limeno": {
-        "city": "",
-        "country": "",
-        "id": "cd-municipal-limeno",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "cd-platense": {
-        "city": "",
-        "country": "",
-        "id": "cd-platense",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "dinamo-minsk": {
-        "city": "",
-        "country": "",
-        "id": "dinamo-minsk",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -4319,16 +4419,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "fuerte-san-francisco": {
-        "city": "",
-        "country": "",
-        "id": "fuerte-san-francisco",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "ghana": {
         "city": "",
         "country": "",
@@ -4349,56 +4439,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "gyori-eto-fc": {
-        "city": "",
-        "country": "",
-        "id": "gyori-eto-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "halifax-tides-fc": {
-        "city": "",
-        "country": "",
-        "id": "halifax-tides-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "inca-aruba": {
-        "city": "",
-        "country": "",
-        "id": "inca-aruba",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "internacional-santa-tecla": {
-        "city": "",
-        "country": "",
-        "id": "internacional-santa-tecla",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "isidro-metapan": {
-        "city": "",
-        "country": "",
-        "id": "isidro-metapan",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "jablonec": {
         "city": "",
         "country": "",
@@ -4409,72 +4449,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "jeju-united": {
-        "city": "",
-        "country": "",
-        "id": "jeju-united",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "juventus": {
-        "city": "",
-        "country": "",
-        "id": "juventus",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "leeds-united": {
-        "city": "",
-        "country": "",
-        "id": "leeds-united",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "luis-angel-firpo": {
-        "city": "",
-        "country": "",
-        "id": "luis-angel-firpo",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "mali": {
         "city": "",
         "country": "",
         "id": "mali",
         "lat": 18.0,
         "lon": -2.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "montreal-roses-fc": {
-        "city": "",
-        "country": "",
-        "id": "montreal-roses-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "ottawa-rapid-fc": {
-        "city": "",
-        "country": "",
-        "id": "ottawa-rapid-fc",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -4499,16 +4479,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "real-madrid": {
-        "city": "",
-        "country": "",
-        "id": "real-madrid",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "sao-paulo": {
         "city": "",
         "country": "",
@@ -4525,36 +4495,6 @@
         "id": "south-africa",
         "lat": -29.0,
         "lon": 24.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "tobol-kostanay": {
-        "city": "",
-        "country": "",
-        "id": "tobol-kostanay",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "tottenham-hotspur": {
-        "city": "",
-        "country": "",
-        "id": "tottenham-hotspur",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "trabzonspor": {
-        "city": "",
-        "country": "",
-        "id": "trabzonspor",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
