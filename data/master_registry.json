@@ -2,87 +2,87 @@
     "leagues": {
         "argentine-liga-profesional-de-futbol": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283238.790199,
-            "logo": "",
+            "last_updated": 1785283852.581016,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png",
             "name": "Argentine Liga Profesional de F\u00fatbol",
             "pill": "arg.1",
             "slug": "argentine-liga-profesional-de-futbol"
         },
         "asean-championship": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283229.104422,
-            "logo": "",
+            "last_updated": 1785283850.219843,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2261.png",
             "name": "ASEAN Championship",
             "pill": "aff.championship",
             "slug": "asean-championship"
         },
         "brazilian-serie-b": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283240.856258,
-            "logo": "",
+            "last_updated": 1785283853.086234,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
             "slug": "brazilian-serie-b"
         },
         "club-friendly": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283223.000281,
-            "logo": "",
+            "last_updated": 1785283848.424791,
+            "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
             "slug": "club-friendly"
         },
         "concacaf-central-american-cup": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283245.394167,
-            "logo": "",
+            "last_updated": 1785283854.780946,
+            "logo": "\ud83c\udf0e",
             "name": "Concacaf Central American Cup",
             "pill": "concacaf.central.american.cup",
             "slug": "concacaf-central-american-cup"
         },
         "conmebol-sudamericana": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283235.451186,
-            "logo": "",
+            "last_updated": 1785283851.907095,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png",
             "name": "CONMEBOL Sudamericana",
             "pill": "conmebol.sudamericana",
             "slug": "conmebol-sudamericana"
         },
         "copa-colombia": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283242.863044,
-            "logo": "",
+            "last_updated": 1785283853.92604,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2332.png",
             "name": "Copa Colombia",
             "pill": "col.copa",
             "slug": "copa-colombia"
         },
         "english-carabao-cup": {
             "last_crossover_date": "",
-            "last_updated": 1785283259.682174,
-            "logo": "",
+            "last_updated": 1785283860.91803,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
             "slug": "english-carabao-cup"
         },
         "leagues-cup": {
             "last_crossover_date": "",
-            "last_updated": 1785283281.065537,
-            "logo": "",
+            "last_updated": 1785283871.186914,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png",
             "name": "Leagues Cup",
             "pill": "concacaf.leagues.cup",
             "slug": "leagues-cup"
         },
         "mls": {
             "last_crossover_date": "",
-            "last_updated": 1785283265.743923,
-            "logo": "",
+            "last_updated": 1785283863.783985,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
             "slug": "mls"
         },
         "northern-super-league": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283231.417835,
+            "last_updated": 1785283850.725216,
             "logo": "",
             "name": "Northern Super League",
             "pill": "can.w.nsl",
@@ -90,48 +90,48 @@
         },
         "nwsl": {
             "last_crossover_date": "",
-            "last_updated": 1785283282.632455,
-            "logo": "",
+            "last_updated": 1785283872.172697,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
             "slug": "nwsl"
         },
         "paraguayan-primera-division": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283243.865028,
-            "logo": "",
+            "last_updated": 1785283854.263986,
+            "logo": "https://flagcdn.com/w40/py.png",
             "name": "Paraguayan Primera Divisi\u00f3n",
             "pill": "par.1",
             "slug": "paraguayan-primera-division"
         },
         "salvadoran-primera-division": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283245.982659,
-            "logo": "",
+            "last_updated": 1785283854.963527,
+            "logo": "https://flagcdn.com/w40/sv.png",
             "name": "Salvadoran Primera Division",
             "pill": "slv.1",
             "slug": "salvadoran-primera-division"
         },
         "uefa-champions-league-qualifying": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283227.749168,
-            "logo": "",
+            "last_updated": 1785283849.882682,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
             "name": "UEFA Champions League Qualifying",
             "pill": "uefa.champions_qual",
             "slug": "uefa-champions-league-qualifying"
         },
         "uefa-conference-league-qualifying": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283233.932345,
-            "logo": "",
+            "last_updated": 1785283851.565143,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/20296.png",
             "name": "UEFA Conference League Qualifying",
             "pill": "uefa.europa.conf_qual",
             "slug": "uefa-conference-league-qualifying"
         },
         "womens-africa-cup-of-nations": {
             "last_crossover_date": "2026-07-28",
-            "last_updated": 1785283230.574627,
-            "logo": "",
+            "last_updated": 1785283850.557116,
+            "logo": "\ud83c\udf0d",
             "name": "Women's Africa Cup of Nations",
             "pill": "caf.w.nations",
             "slug": "womens-africa-cup-of-nations"
