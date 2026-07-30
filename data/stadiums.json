@@ -4829,16 +4829,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "mjallby-aif": {
-        "city": "",
-        "country": "",
-        "id": "mjallby-aif",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "paok": {
         "city": "",
         "country": "",
@@ -4859,16 +4849,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "sabah-fk": {
-        "city": "",
-        "country": "",
-        "id": "sabah-fk",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "santos": {
         "city": "",
         "country": "",
@@ -4885,16 +4865,6 @@
         "id": "sao-paulo",
         "lat": -23.5475,
         "lon": -46.63611,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "slovan-bratislava": {
-        "city": "",
-        "country": "",
-        "id": "slovan-bratislava",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
