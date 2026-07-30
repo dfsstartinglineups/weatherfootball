@@ -269,6 +269,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10360": {
+        "city": "Masazir",
+        "country": "Azerbaijan",
+        "id": "10360",
+        "lat": 40.5,
+        "lon": 47.5,
+        "name": "Bank Respublika Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10366": {
         "city": "Copenhagen",
         "country": "Denmark",
@@ -2406,6 +2416,16 @@
         "lat": 3.43054,
         "lon": -76.5199,
         "name": "Deportivo Cali",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4058": {
+        "city": "S\u00f6lvesborg",
+        "country": "Sweden",
+        "id": "4058",
+        "lat": 61.58306,
+        "lon": 13.05,
+        "name": "Strandvallen",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4845,6 +4865,16 @@
         "id": "sao-paulo",
         "lat": -23.5475,
         "lon": -46.63611,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "slovan-bratislava": {
+        "city": "",
+        "country": "",
+        "id": "slovan-bratislava",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
