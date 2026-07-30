@@ -1309,6 +1309,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11060": {
+        "city": "Shymkent",
+        "country": "Kazakhstan",
+        "id": "11060",
+        "lat": 42.30988,
+        "lon": 69.60042,
+        "name": "Turkistan Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11072": {
         "city": "Mauldin",
         "country": "USA",
@@ -4903,6 +4913,16 @@
         "city": "",
         "country": "",
         "id": "trabzonspor",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "union-st-gilloise": {
+        "city": "",
+        "country": "",
+        "id": "union-st-gilloise",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
