@@ -767,13 +767,19 @@ def render_game_card_html(game, is_compact_default=True):
                     </div>
                     <div class="d-flex justify-content-between align-items-center px-1 mb-1">
                         <div class="d-flex align-items-center text-truncate" style="width: 45%;">
-                            <img src="{game['home_logo']}" class="me-2" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                            <a href="/teams/{game['home_slug']}/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">{game['home_team']}</a>
+                            <img src="{game['home_logo']}" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/{game['home_slug']}/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">{game['home_team']}</a>
+                                <a href="https://futbolstartingeleven.com/teams/{game['home_slug']}/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
                         </div>
                         <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
                         <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
-                            <a href="/teams/{game['away_slug']}/" class="text-dark text-decoration-none fw-bold text-truncate text-end me-2" style="font-size: 0.95rem;" onclick="event.stopPropagation();">{game['away_team']}</a>
-                            <img src="{game['away_logo']}" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/{game['away_slug']}/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">{game['away_team']}</a>
+                                <a href="https://futbolstartingeleven.com/teams/{game['away_slug']}/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="{game['away_logo']}" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
                         </div>
                     </div>
                     {weather_section}
