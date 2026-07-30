@@ -4729,16 +4729,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "calgary-wild-fc": {
-        "city": "",
-        "country": "",
-        "id": "calgary-wild-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "cambodia": {
         "city": "",
         "country": "",
@@ -4819,16 +4809,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "halifax-tides-fc": {
-        "city": "",
-        "country": "",
-        "id": "halifax-tides-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "jablonec": {
         "city": "",
         "country": "",
@@ -4855,26 +4835,6 @@
         "id": "mali",
         "lat": 18.0,
         "lon": -2.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "montreal-roses-fc": {
-        "city": "",
-        "country": "",
-        "id": "montreal-roses-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "ottawa-rapid-fc": {
-        "city": "",
-        "country": "",
-        "id": "ottawa-rapid-fc",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
