@@ -279,6 +279,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10336": {
+        "city": "Istanbul",
+        "country": "T\u00fcrkiye",
+        "id": "10336",
+        "lat": 41.01384,
+        "lon": 28.94966,
+        "name": "Vodafone Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10339": {
         "city": "Stockholm",
         "country": "Sweden",
@@ -1659,6 +1669,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "1198": {
+        "city": "Tel-Aviv",
+        "country": "Israel",
+        "id": "1198",
+        "lat": 32.08088,
+        "lon": 34.78057,
+        "name": "Bloomfield Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1222": {
         "city": "Belgrade",
         "country": "Serbia",
@@ -1896,6 +1916,16 @@
         "lat": -31.93598,
         "lon": 26.89595,
         "name": "Home Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1606": {
+        "city": "Nicosia",
+        "country": "Cyprus",
+        "id": "1606",
+        "lat": 35.17284,
+        "lon": 33.35397,
+        "name": "GSP Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3149,6 +3179,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4795": {
+        "city": "Tbilisi",
+        "country": "Georgia",
+        "id": "4795",
+        "lat": 41.69143,
+        "lon": 44.83412,
+        "name": "Mikheil Meskhi Stadioni",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "48": {
         "city": "Nijmegen",
         "country": "Netherlands",
@@ -4219,6 +4259,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6259": {
+        "city": "Thun",
+        "country": "Switzerland",
+        "id": "6259",
+        "lat": 46.75118,
+        "lon": 7.62166,
+        "name": "Stockhorn Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6264": {
         "city": "Graz",
         "country": "Austria",
@@ -4296,6 +4346,16 @@
         "lat": 42.7731,
         "lon": 18.94446,
         "name": "Gradski Niksica",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6317": {
+        "city": "Bialystok",
+        "country": "Poland",
+        "id": "6317",
+        "lat": 53.13333,
+        "lon": 23.16433,
+        "name": "Stadion Miejski Bialystok",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4879,6 +4939,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7275": {
+        "city": "Klaksv\u00edk",
+        "country": "Faroe Islands",
+        "id": "7275",
+        "lat": 62.22655,
+        "lon": -6.58901,
+        "name": "Dj\u00fapumyrar",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7359": {
         "city": "Las Vegas, Nevada",
         "country": "USA",
@@ -5359,6 +5429,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8773": {
+        "city": "Reykjavik",
+        "country": "Iceland",
+        "id": "8773",
+        "lat": 64.13548,
+        "lon": -21.89541,
+        "name": "Vikingsv\u00f6llur",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8813": {
         "city": "Luxembourg City",
         "country": "Luxembourg",
@@ -5509,6 +5589,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9584": {
+        "city": "Rrogozhine",
+        "country": "Albania",
+        "id": "9584",
+        "lat": 41.07639,
+        "lon": 19.66528,
+        "name": "Arena Egnatia",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9598": {
         "city": "Linz",
         "country": "Austria",
@@ -5576,6 +5666,16 @@
         "lat": 47.65966,
         "lon": -117.42908,
         "name": "ONE Spokane Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9850": {
+        "city": "Paphos",
+        "country": "Cyprus",
+        "id": "9850",
+        "lat": 34.77679,
+        "lon": 32.42451,
+        "name": "Stelios Kyriakides Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5699,6 +5799,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "cska-sofia": {
+        "city": "",
+        "country": "",
+        "id": "cska-sofia",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "csu-craiova": {
+        "city": "",
+        "country": "",
+        "id": "csu-craiova",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "dukagjini": {
         "city": "",
         "country": "",
@@ -5745,6 +5865,16 @@
         "id": "ghana",
         "lat": 8.1,
         "lon": -1.2,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "gornik-zabrze": {
+        "city": "",
+        "country": "",
+        "id": "gornik-zabrze",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
