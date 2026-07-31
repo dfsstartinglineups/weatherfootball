@@ -6009,6 +6009,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "boca-juniors": {
+        "city": "",
+        "country": "",
+        "id": "boca-juniors",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "bolivar": {
+        "city": "",
+        "country": "",
+        "id": "bolivar",
+        "lat": 37.61448,
+        "lon": -93.41047,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "burkina-faso": {
         "city": "",
         "country": "",
@@ -6029,10 +6049,10 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "dinamo-minsk": {
+    "cienciano-del-cusco": {
         "city": "",
         "country": "",
-        "id": "dinamo-minsk",
+        "id": "cienciano-del-cusco",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6089,20 +6109,10 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "gyori-eto-fc": {
+    "independiente-santa-fe": {
         "city": "",
         "country": "",
-        "id": "gyori-eto-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "hapoel-tel-aviv": {
-        "city": "",
-        "country": "",
-        "id": "hapoel-tel-aviv",
+        "id": "independiente-santa-fe",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6169,6 +6179,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "red-bull-bragantino": {
+        "city": "",
+        "country": "",
+        "id": "red-bull-bragantino",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "santos": {
         "city": "",
         "country": "",
@@ -6209,12 +6229,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "tobol-kostanay": {
+    "vasco-da-gama": {
         "city": "",
         "country": "",
-        "id": "tobol-kostanay",
-        "lat": 0.0,
-        "lon": 0.0,
+        "id": "vasco-da-gama",
+        "lat": 15.39585,
+        "lon": 73.81568,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
