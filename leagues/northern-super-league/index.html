@@ -890,16 +890,423 @@
             <p class="text-muted small m-0">Live Stadium Wind, Rain Risks & Upcoming Pitch Analytics</p>
         </div>
         
+        <div class="d-flex justify-content-end mb-3 px-1">
+            <button id="expand-toggle-btn" class="btn btn-sm btn-white shadow-sm border fw-bold text-secondary" style="border-radius: 20px; font-size: 0.8rem;" onclick="toggleAllCards()">
+                ▼ Expand All Cards
+            </button>
+        </div>
         <div class="row w-100 m-0 p-0 justify-content-start">
 
-    <div class="col-12 mb-3 px-2">
-        <div class="card p-5 text-center border rounded bg-light shadow-sm">
-            <span class="fs-1 mb-2 d-block">💤</span>
-            <h6 class="fw-bold text-secondary mb-1">No Upcoming Fixtures</h6>
-            <p class="small text-muted mb-0">This team or league does not have a scheduled match in the next 14 days.</p>
+            <div class="col-12 w-100 px-1">
+                <div class="league-section-title">
+                    📅 Saturday, August 01
+                </div>
+            </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401859926">
+        <div class="card game-card shadow-sm  bg-light">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-01T20:00Z" style="font-size: 0.65rem;">Aug 01, 08:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        ⚠️No Weather Info
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131257.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Calgary Wild FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131258.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">AFC Toronto</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Northern Super League</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-01T20:00Z" style="font-size: 0.65rem;">Aug 01, 08:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Venue Unlisted</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131257.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/calgary-wild-fc/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Calgary Wild FC</a>
+                                <a href="https://futbolstartingeleven.com/teams/calgary-wild-fc/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/afc-toronto/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">AFC Toronto</a>
+                                <a href="https://futbolstartingeleven.com/teams/afc-toronto/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131258.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="text-center p-3 mt-2 border-top">
+            <h6 class="text-warning fw-bold mb-1">⚠️ Weather Info Not Available</h6>
+            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium coordinates unlisted.</p>
+        </div>
+                </div>
+            </div>
         </div>
     </div>
-    
+            <div class="col-12 w-100 px-1">
+                <div class="league-section-title">
+                    📅 Monday, August 03
+                </div>
+            </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401859927">
+        <div class="card game-card shadow-sm  bg-light">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-03T18:00Z" style="font-size: 0.65rem;">Aug 03, 06:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        ⚠️No Weather Info
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131260.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Halifax Tides FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131261.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Ottawa Rapid FC</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Northern Super League</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-03T18:00Z" style="font-size: 0.65rem;">Aug 03, 06:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Venue Unlisted</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131260.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/halifax-tides-fc/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Halifax Tides FC</a>
+                                <a href="https://futbolstartingeleven.com/teams/halifax-tides-fc/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/ottawa-rapid-fc/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Ottawa Rapid FC</a>
+                                <a href="https://futbolstartingeleven.com/teams/ottawa-rapid-fc/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131261.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="text-center p-3 mt-2 border-top">
+            <h6 class="text-warning fw-bold mb-1">⚠️ Weather Info Not Available</h6>
+            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium coordinates unlisted.</p>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="col-12 w-100 px-1">
+                <div class="league-section-title">
+                    📅 Friday, August 07
+                </div>
+            </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401859928">
+        <div class="card game-card shadow-sm  bg-light">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-07T23:00Z" style="font-size: 0.65rem;">Aug 07, 11:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        ⚠️No Weather Info
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131259.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Montreal Roses FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131260.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Halifax Tides FC</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Northern Super League</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-07T23:00Z" style="font-size: 0.65rem;">Aug 07, 11:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Venue Unlisted</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131259.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/montreal-roses-fc/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Montreal Roses FC</a>
+                                <a href="https://futbolstartingeleven.com/teams/montreal-roses-fc/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/halifax-tides-fc/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Halifax Tides FC</a>
+                                <a href="https://futbolstartingeleven.com/teams/halifax-tides-fc/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131260.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="text-center p-3 mt-2 border-top">
+            <h6 class="text-warning fw-bold mb-1">⚠️ Weather Info Not Available</h6>
+            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium coordinates unlisted.</p>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="col-12 w-100 px-1">
+                <div class="league-section-title">
+                    📅 Saturday, August 08
+                </div>
+            </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401859929">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-08T23:00Z" style="font-size: 0.65rem;">Aug 08, 11:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️1% 🌡️68° 💨3mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131256.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Vancouver Rise FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131257.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Calgary Wild FC</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Northern Super League</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-08T23:00Z" style="font-size: 0.65rem;">Aug 08, 11:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Swangard Stadium</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131256.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/vancouver-rise-fc/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Vancouver Rise FC</a>
+                                <a href="https://futbolstartingeleven.com/teams/vancouver-rise-fc/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/calgary-wild-fc/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Calgary Wild FC</a>
+                                <a href="https://futbolstartingeleven.com/teams/calgary-wild-fc/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131257.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">68°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 59%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">1%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-08T22:00Z">10PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">75°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-08T23:00Z">11PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">75°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-09T00:00Z">12AM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">75°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-09T01:00Z">1AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">72°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-09T02:00Z">2AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">69°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=49.26636&lon=-122.95263&detailLat=49.26636&detailLon=-122.95263&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Swangard Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="col-12 w-100 px-1">
+                <div class="league-section-title">
+                    📅 Sunday, August 09
+                </div>
+            </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401859930">
+        <div class="card game-card shadow-sm  bg-light">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-09T18:00Z" style="font-size: 0.65rem;">Aug 09, 06:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        ⚠️No Weather Info
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131261.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Ottawa Rapid FC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131258.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">AFC Toronto</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Northern Super League</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-09T18:00Z" style="font-size: 0.65rem;">Aug 09, 06:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Venue Unlisted</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131261.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/ottawa-rapid-fc/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Ottawa Rapid FC</a>
+                                <a href="https://futbolstartingeleven.com/teams/ottawa-rapid-fc/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/afc-toronto/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">AFC Toronto</a>
+                                <a href="https://futbolstartingeleven.com/teams/afc-toronto/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/131258.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="text-center p-3 mt-2 border-top">
+            <h6 class="text-warning fw-bold mb-1">⚠️ Weather Info Not Available</h6>
+            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium coordinates unlisted.</p>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
         </div>
     </div>
 
