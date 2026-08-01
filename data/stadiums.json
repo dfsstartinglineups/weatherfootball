@@ -6149,16 +6149,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "nacional-asuncion": {
-        "city": "",
-        "country": "",
-        "id": "nacional-asuncion",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "paok": {
         "city": "",
         "country": "",
@@ -6189,16 +6179,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "rubio-nu": {
-        "city": "",
-        "country": "",
-        "id": "rubio-nu",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "santos": {
         "city": "",
         "country": "",
@@ -6225,26 +6205,6 @@
         "id": "south-africa",
         "lat": -29.0,
         "lon": 24.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "sportivo-ameliano": {
-        "city": "",
-        "country": "",
-        "id": "sportivo-ameliano",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "sportivo-san-lorenzo": {
-        "city": "",
-        "country": "",
-        "id": "sportivo-san-lorenzo",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
