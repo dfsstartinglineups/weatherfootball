@@ -1869,6 +1869,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11022": {
+        "city": "C\u00facuta",
+        "country": "Colombia",
+        "id": "11022",
+        "lat": 5.51,
+        "lon": -73.82278,
+        "name": "General Santander",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11028": {
         "city": "Medellin",
         "country": "Colombia",
@@ -6575,16 +6585,6 @@
         "id": "cambodia",
         "lat": 13.0,
         "lon": 105.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "central-espanol-futbol-club": {
-        "city": "",
-        "country": "",
-        "id": "central-espanol-futbol-club",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
