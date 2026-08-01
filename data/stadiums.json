@@ -6549,6 +6549,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "atletico-grau": {
+        "city": "",
+        "country": "",
+        "id": "atletico-grau",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "bolivar": {
         "city": "",
         "country": "",
@@ -6765,6 +6775,16 @@
         "id": "south-africa",
         "lat": -29.0,
         "lon": 24.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "sport-boys": {
+        "city": "",
+        "country": "",
+        "id": "sport-boys",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
