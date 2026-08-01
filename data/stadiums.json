@@ -419,6 +419,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10372": {
+        "city": "Acarigua",
+        "country": "Venezuela",
+        "id": "10372",
+        "lat": 9.55451,
+        "lon": -69.19564,
+        "name": "Estadio General Jos\u00e9 Antonio P\u00e1ez",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10373": {
+        "city": "Maracaibo",
+        "country": "Venezuela",
+        "id": "10373",
+        "lat": 10.64232,
+        "lon": -71.61089,
+        "name": "Estadio Jos\u00e9 Encarnaci\u00f3n Romero",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10374": {
         "city": "Puerto La Cruz",
         "country": "Venezuela",
@@ -2549,6 +2569,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "1955": {
+        "city": "Valencia",
+        "country": "Venezuela",
+        "id": "1955",
+        "lat": 10.16153,
+        "lon": -68.00044,
+        "name": "Estadio Misael Delgado",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "196": {
         "city": "Barnsley",
         "country": "England",
@@ -2856,6 +2886,16 @@
         "lat": 37.98376,
         "lon": 23.72784,
         "name": "Athens Olympic Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2846": {
+        "city": "M\u00e9rida",
+        "country": "Venezuela",
+        "id": "2846",
+        "lat": 8.57899,
+        "lon": -71.16922,
+        "name": "Estadio Metropolitano de M\u00e9rida",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3946,6 +3986,16 @@
         "lat": -0.22985,
         "lon": -78.52495,
         "name": "Estadio Banco Pichincha",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5328": {
+        "city": "San Crist\u00f3bal",
+        "country": "Venezuela",
+        "id": "5328",
+        "lat": 7.76593,
+        "lon": -72.23576,
+        "name": "Estadio Pueblo Nuevo",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5776,6 +5826,16 @@
         "lat": 14.66438,
         "lon": -86.22246,
         "name": "Estadio Juan Ram\u00f3n Brev\u00e9 Vargas",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7636": {
+        "city": "Carabobo",
+        "country": "Venezuela",
+        "id": "7636",
+        "lat": 6.09826,
+        "lon": -69.3109,
+        "name": "Complejo Deportivo Socialista",
         "roof": "Open",
         "surface": "Grass"
     },
