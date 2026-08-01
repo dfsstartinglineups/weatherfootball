@@ -6659,20 +6659,10 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "cska-sofia": {
+    "dinamo-minsk": {
         "city": "",
         "country": "",
-        "id": "cska-sofia",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "csu-craiova": {
-        "city": "",
-        "country": "",
-        "id": "csu-craiova",
+        "id": "dinamo-minsk",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6739,10 +6729,20 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "gornik-zabrze": {
+    "gyori-eto-fc": {
         "city": "",
         "country": "",
-        "id": "gornik-zabrze",
+        "id": "gyori-eto-fc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "hapoel-tel-aviv": {
+        "city": "",
+        "country": "",
+        "id": "hapoel-tel-aviv",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6875,6 +6875,16 @@
         "id": "tigre",
         "lat": -3.43944,
         "lon": -39.14833,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "tobol-kostanay": {
+        "city": "",
+        "country": "",
+        "id": "tobol-kostanay",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
