@@ -759,6 +759,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10647": {
+        "city": "Sao Paulo",
+        "country": "Brazil",
+        "id": "10647",
+        "lat": -23.5475,
+        "lon": -46.63611,
+        "name": "Est\u00e1dio C\u00edcero Pompeu de Toledo",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10648": {
         "city": "Recife",
         "country": "Brazil",
@@ -1046,6 +1056,16 @@
         "lat": -12.97563,
         "lon": -38.49096,
         "name": "Arena Fonte Nova",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10771": {
+        "city": "Curitiba",
+        "country": "Brazil",
+        "id": "10771",
+        "lat": -25.42778,
+        "lon": -49.27306,
+        "name": "Arena da Baixada",
         "roof": "Open",
         "surface": "Grass"
     },
