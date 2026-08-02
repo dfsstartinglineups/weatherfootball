@@ -53,7 +53,6 @@
         .hour-pop { font-size: 0.65rem; color: #0d6efd; font-weight: 700; height: 12px; }
         .hour-temp { font-size: 0.8rem; font-weight: 600; }
         
-        /* SLEEK LEAGUE HEADER DIVIDER - 100px scroll-margin gives clearance under sticky header */
         .league-section-title { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; margin: 1.5rem 0 0.5rem 0.25rem; display: flex; align-items: center; scroll-margin-top: 100px; }
         .league-section-title a { color: inherit; text-decoration: none; transition: color 0.2s; display: flex; align-items: center; }
         .league-section-title a:hover { color: #0d6efd; }
@@ -1047,7 +1046,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-07T01:00Z" style="font-size: 0.65rem;">Aug 07, 01:00 AM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️4% 🌡️100° 💨5mph
+                        🌧️4% 🌡️86° 💨6mph
                     </div>
                 </div>
                 
@@ -1099,11 +1098,11 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">100°F</div>
+                <div class="fw-bold">86°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 20%</div>
+                <div class="fw-bold text-dark">💧 53%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1111,7 +1110,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">6 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -1164,7 +1163,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-10T01:00Z" style="font-size: 0.65rem;">Aug 10, 01:00 AM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️8% 🌡️100° 💨5mph
+                        🌧️8% 🌡️90° 💨6mph
                     </div>
                 </div>
                 
@@ -1216,11 +1215,11 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">100°F</div>
+                <div class="fw-bold">90°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 20%</div>
+                <div class="fw-bold text-dark">💧 46%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1228,7 +1227,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">6 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -1359,7 +1358,6 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Localize scheduled game times (including Month and Day for multi-week slates)
             document.querySelectorAll('.local-time-badge').forEach(el => {
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
@@ -1367,7 +1365,6 @@
                 }
             });
 
-            // Localize 5-hour forecast hourly timestamps into visitor's local timezone
             document.querySelectorAll('.local-hour-time').forEach(el => {
                 const dt = new Date(el.dataset.timestamp);
                 if (!isNaN(dt)) {
@@ -1378,7 +1375,6 @@
                 }
             });
 
-            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -1397,7 +1393,6 @@
 
             const myModal = bootstrap.Modal.getOrCreateInstance(modalElement);
 
-            // Clear map frame before open
             if (iframe) iframe.src = '';
 
             const loadMap = function () {

@@ -53,7 +53,6 @@
         .hour-pop { font-size: 0.65rem; color: #0d6efd; font-weight: 700; height: 12px; }
         .hour-temp { font-size: 0.8rem; font-weight: 600; }
         
-        /* SLEEK LEAGUE HEADER DIVIDER - 100px scroll-margin gives clearance under sticky header */
         .league-section-title { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; margin: 1.5rem 0 0.5rem 0.25rem; display: flex; align-items: center; scroll-margin-top: 100px; }
         .league-section-title a { color: inherit; text-decoration: none; transition: color 0.2s; display: flex; align-items: center; }
         .league-section-title a:hover { color: #0d6efd; }
@@ -1047,7 +1046,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-05T23:30Z" style="font-size: 0.65rem;">Aug 05, 11:30 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️76% 🌡️87° 💨13mph
+                        🌧️57% 🌡️84° 💨7mph
                     </div>
                 </div>
                 
@@ -1099,7 +1098,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">87°F</div>
+                <div class="fw-bold">84°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1107,44 +1106,44 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">76%</div>
+                <div class="fw-bold text-primary">57%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">13 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
         <div class="hourly-scroll-container">
                 <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T22:00Z">10PM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T22:00:00Z">10PM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">76%</div>
+                    <div class="hour-pop">57%</div>
                     <div class="hour-temp">85°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T23:00Z">11PM</div>
-                    <div class="hour-icon">⛈️</div>
-                    <div class="hour-pop">76%</div>
-                    <div class="hour-temp">86°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-06T00:00Z">12AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T23:00:00Z">11PM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">76%</div>
-                    <div class="hour-temp">85°</div>
+                    <div class="hour-pop">44%</div>
+                    <div class="hour-temp">84°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-06T01:00Z">1AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-06T00:00:00Z">12AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">83°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-06T02:00Z">2AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-06T01:00:00Z">1AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">83°</div>
+                    <div class="hour-temp">82°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-06T02:00:00Z">2AM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">33%</div>
+                    <div class="hour-temp">81°</div>
                 </div></div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=28.53834&lon=-81.37924&detailLat=28.53834&detailLon=-81.37924&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Inter&Co Stadium')">
@@ -1164,7 +1163,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-09T00:00Z" style="font-size: 0.65rem;">Aug 09, 12:00 AM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️26% 🌡️85° 💨2mph
+                        🌧️26% 🌡️85° 💨3mph
                     </div>
                 </div>
                 
@@ -1220,7 +1219,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 80%</div>
+                <div class="fw-bold text-dark">💧 68%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1228,7 +1227,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -1286,7 +1285,6 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Localize scheduled game times (including Month and Day for multi-week slates)
             document.querySelectorAll('.local-time-badge').forEach(el => {
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
@@ -1294,7 +1292,6 @@
                 }
             });
 
-            // Localize 5-hour forecast hourly timestamps into visitor's local timezone
             document.querySelectorAll('.local-hour-time').forEach(el => {
                 const dt = new Date(el.dataset.timestamp);
                 if (!isNaN(dt)) {
@@ -1305,7 +1302,6 @@
                 }
             });
 
-            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -1324,7 +1320,6 @@
 
             const myModal = bootstrap.Modal.getOrCreateInstance(modalElement);
 
-            // Clear map frame before open
             if (iframe) iframe.src = '';
 
             const loadMap = function () {
