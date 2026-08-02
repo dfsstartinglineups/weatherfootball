@@ -25,6 +25,8 @@ jobs:
           pip install requests
 
       - name: Run master build script
+        env:
+          WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
         run: |
           python scripts/build.py
 
