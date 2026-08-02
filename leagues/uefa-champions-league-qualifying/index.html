@@ -994,16 +994,2318 @@
             <p class="text-muted small m-0">Live Stadium Wind, Rain Risks & Upcoming Pitch Analytics</p>
         </div>
         
+        <div class="d-flex justify-content-end mb-3 px-1">
+            <button id="expand-toggle-btn" class="btn btn-sm btn-white shadow-sm border fw-bold text-secondary" style="border-radius: 20px; font-size: 0.8rem;" onclick="toggleAllCards()">
+                ▼ Expand All Cards
+            </button>
+        </div>
         <div class="row w-100 m-0 p-0 justify-content-start">
 
-    <div class="col-12 mb-3 px-2">
-        <div class="card p-5 text-center border rounded bg-light shadow-sm">
-            <span class="fs-1 mb-2 d-block">💤</span>
-            <h6 class="fw-bold text-secondary mb-1">No Upcoming Fixtures</h6>
-            <p class="small text-muted mb-0">This team or league does not have a scheduled match in the next 14 days.</p>
+            <div class="col-12 w-100 px-1">
+                <div class="league-section-title">
+                    📅 Tuesday, August 04
+                </div>
+            </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902564">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T16:00Z" style="font-size: 0.65rem;">Aug 04, 04:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️0% 🌡️80° 💨2mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20024.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Ararat-Armenia</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3362.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">NK Celje</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T16:00Z" style="font-size: 0.65rem;">Aug 04, 04:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Vazgen Sargsyan Republican Stadium</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20024.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/ararat-armenia/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Ararat-Armenia</a>
+                                <a href="https://futbolstartingeleven.com/teams/ararat-armenia/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/nk-celje/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">NK Celje</a>
+                                <a href="https://futbolstartingeleven.com/teams/nk-celje/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3362.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">80°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 52%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">0%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T15:00Z">3PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">95°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T16:00Z">4PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">89°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T17:00Z">5PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">86°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T18:00Z">6PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">85°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T19:00Z">7PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">84°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=40.17765&lon=44.5126&detailLat=40.17765&detailLon=44.5126&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Vazgen Sargsyan Republican Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
         </div>
     </div>
-    
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902705">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T16:00Z" style="font-size: 0.65rem;">Aug 04, 04:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️21% 🌡️49° 💨5mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20301.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Mjällby AIF</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/521.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Slovan Bratislava</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T16:00Z" style="font-size: 0.65rem;">Aug 04, 04:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Strandvallen</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20301.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/mjallby-aif/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Mjällby AIF</a>
+                                <a href="https://futbolstartingeleven.com/teams/mjallby-aif/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/slovan-bratislava/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Slovan Bratislava</a>
+                                <a href="https://futbolstartingeleven.com/teams/slovan-bratislava/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/521.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">49°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 85%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">21%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T15:00Z">3PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">63°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T16:00Z">4PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">62°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T17:00Z">5PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">61°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T18:00Z">6PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">58°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T19:00Z">7PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">21%</div>
+                    <div class="hour-temp">56°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=61.58306&lon=13.05&detailLat=61.58306&detailLon=13.05&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Strandvallen')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902702">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T17:30Z" style="font-size: 0.65rem;">Aug 04, 05:30 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️0% 🌡️74° 💨11mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/13083.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Hapoel Be'er</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2290.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Red Star Belgrade</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T17:30Z" style="font-size: 0.65rem;">Aug 04, 05:30 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Szombathelyi Haladás Stadion</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/13083.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/hapoel-beer/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Hapoel Be'er</a>
+                                <a href="https://futbolstartingeleven.com/teams/hapoel-beer/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/red-star-belgrade/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Red Star Belgrade</a>
+                                <a href="https://futbolstartingeleven.com/teams/red-star-belgrade/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2290.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">74°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 68%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">0%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">11 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T16:00Z">4PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">99°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T17:00Z">5PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">97°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T18:00Z">6PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">92°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T19:00Z">7PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">86°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T20:00Z">8PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">82°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=47.23088&lon=16.62155&detailLat=47.23088&detailLon=16.62155&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Szombathelyi Haladás Stadion')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902701">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T17:30Z" style="font-size: 0.65rem;">Aug 04, 05:30 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️0% 🌡️66° 💨4mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/490.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Levski Sofia</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2528.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Kairat Almaty</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T17:30Z" style="font-size: 0.65rem;">Aug 04, 05:30 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Georgi Asparuhov Stadium</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/490.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/levski-sofia/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Levski Sofia</a>
+                                <a href="https://futbolstartingeleven.com/teams/levski-sofia/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/kairat-almaty/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Kairat Almaty</a>
+                                <a href="https://futbolstartingeleven.com/teams/kairat-almaty/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2528.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">66°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 63%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">0%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T16:00Z">4PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">86°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T17:00Z">5PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">84°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T18:00Z">6PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">81°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T19:00Z">7PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">78°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T20:00Z">8PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">75°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=42.69751&lon=23.32415&detailLat=42.69751&detailLon=23.32415&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Georgi Asparuhov Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902668">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T18:00Z" style="font-size: 0.65rem;">Aug 04, 06:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️0% 🌡️72° 💨2mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/597.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Dinamo Zagreb</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Kauno Zalgiris</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T18:00Z" style="font-size: 0.65rem;">Aug 04, 06:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Maksimir Stadium</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/597.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/dinamo-zagreb/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Dinamo Zagreb</a>
+                                <a href="https://futbolstartingeleven.com/teams/dinamo-zagreb/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/kauno-zalgiris/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Kauno Zalgiris</a>
+                                <a href="https://futbolstartingeleven.com/teams/kauno-zalgiris/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">72°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 81%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">0%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T17:00Z">5PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">99°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T18:00Z">6PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">92°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T19:00Z">7PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">87°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T20:00Z">8PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">86°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T21:00Z">9PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">81°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=45.81444&lon=15.97798&detailLat=45.81444&detailLon=15.97798&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Maksimir Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401898019">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T18:00Z" style="font-size: 0.65rem;">Aug 04, 06:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️0% 🌡️75° 💨0mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Olympiacos</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/147.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">NEC Nijmegen</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T18:00Z" style="font-size: 0.65rem;">Aug 04, 06:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Georgios Karaiskakis Stadium</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/olympiacos/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Olympiacos</a>
+                                <a href="https://futbolstartingeleven.com/teams/olympiacos/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/nec-nijmegen/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">NEC Nijmegen</a>
+                                <a href="https://futbolstartingeleven.com/teams/nec-nijmegen/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/147.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">75°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 54%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">0%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">0 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T17:00Z">5PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">89°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T18:00Z">6PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">86°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T19:00Z">7PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">83°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T20:00Z">8PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">81°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T21:00Z">9PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">79°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=37.94203&lon=23.64619&detailLat=37.94203&detailLon=23.64619&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Georgios Karaiskakis Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401898023">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T18:00Z" style="font-size: 0.65rem;">Aug 04, 06:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️6% 🌡️61° 💨4mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/433.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Sparta Prague</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Lyon</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T18:00Z" style="font-size: 0.65rem;">Aug 04, 06:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Generali Arena</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/433.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/sparta-prague/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Sparta Prague</a>
+                                <a href="https://futbolstartingeleven.com/teams/sparta-prague/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/lyon/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Lyon</a>
+                                <a href="https://futbolstartingeleven.com/teams/lyon/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">61°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 82%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">6%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T17:00Z">5PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">95°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T18:00Z">6PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">92°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T19:00Z">7PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">88°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T20:00Z">8PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">85°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-04T21:00Z">9PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">82°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=50.08804&lon=14.42076&detailLat=50.08804&detailLon=14.42076&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Generali Arena')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401898024">
+        <div class="card game-card shadow-sm  bg-light">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T18:00Z" style="font-size: 0.65rem;">Aug 04, 06:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        ⚠️No Weather Info
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/5807.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Union St.-Gilloise</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2980.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Bodo/Glimt</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-04T18:00Z" style="font-size: 0.65rem;">Aug 04, 06:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Venue Unlisted</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/5807.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/union-st-gilloise/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Union St.-Gilloise</a>
+                                <a href="https://futbolstartingeleven.com/teams/union-st-gilloise/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/bodoglimt/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Bodo/Glimt</a>
+                                <a href="https://futbolstartingeleven.com/teams/bodoglimt/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2980.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="text-center p-3 mt-2 border-top">
+            <h6 class="text-warning fw-bold mb-1">⚠️ Weather Info Not Available</h6>
+            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium coordinates unlisted.</p>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="col-12 w-100 px-1">
+                <div class="league-section-title">
+                    📅 Wednesday, August 05
+                </div>
+            </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902678">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-05T16:30Z" style="font-size: 0.65rem;">Aug 05, 04:30 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️49% 🌡️57° 💨6mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7853.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">AGF</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Sabah FK</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-05T16:30Z" style="font-size: 0.65rem;">Aug 05, 04:30 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Cepheus Park Randers</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7853.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/agf/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">AGF</a>
+                                <a href="https://futbolstartingeleven.com/teams/agf/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/sabah-fk/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Sabah FK</a>
+                                <a href="https://futbolstartingeleven.com/teams/sabah-fk/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">57°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 82%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">49%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">6 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T15:00Z">3PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">49%</div>
+                    <div class="hour-temp">77°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T16:00Z">4PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">40%</div>
+                    <div class="hour-temp">74°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T17:00Z">5PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">26%</div>
+                    <div class="hour-temp">71°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T18:00Z">6PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">69°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T19:00Z">7PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">67°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=56.4607&lon=10.03639&detailLat=56.4607&detailLon=10.03639&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Cepheus Park Randers')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902674">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-05T18:00Z" style="font-size: 0.65rem;">Aug 05, 06:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️0% 🌡️75° 💨9mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/436.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Fenerbahce</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3746.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">SK Sturm Graz</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-05T18:00Z" style="font-size: 0.65rem;">Aug 05, 06:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Ulker Stadyumu</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/436.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/fenerbahce/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Fenerbahce</a>
+                                <a href="https://futbolstartingeleven.com/teams/fenerbahce/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/sk-sturm-graz/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">SK Sturm Graz</a>
+                                <a href="https://futbolstartingeleven.com/teams/sk-sturm-graz/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3746.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">75°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 73%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">0%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">9 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T17:00Z">5PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">78°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T18:00Z">6PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">76°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T19:00Z">7PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">75°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T20:00Z">8PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">74°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T21:00Z">9PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">74°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=41.01384&lon=28.94966&detailLat=41.01384&detailLon=28.94966&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Ulker Stadyumu')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="col-12 w-100 px-1">
+                <div class="league-section-title">
+                    📅 Tuesday, August 11
+                </div>
+            </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902671">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T15:00Z" style="font-size: 0.65rem;">Aug 11, 03:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️0% 🌡️94° 💨5mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2528.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Kairat Almaty</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/490.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Levski Sofia</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T15:00Z" style="font-size: 0.65rem;">Aug 11, 03:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Turkistan Arena</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2528.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/kairat-almaty/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Kairat Almaty</a>
+                                <a href="https://futbolstartingeleven.com/teams/kairat-almaty/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/levski-sofia/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Levski Sofia</a>
+                                <a href="https://futbolstartingeleven.com/teams/levski-sofia/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/490.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">94°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 24%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">0%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T14:00Z">2PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">97°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T15:00Z">3PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">95°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T16:00Z">4PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">92°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00Z">5PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">90°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00Z">6PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">88°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=42.30988&lon=69.60042&detailLat=42.30988&detailLon=69.60042&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Turkistan Arena')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401898018">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T16:00Z" style="font-size: 0.65rem;">Aug 11, 04:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️22% 🌡️41° 💨4mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2980.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Bodo/Glimt</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/5807.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Union St.-Gilloise</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T16:00Z" style="font-size: 0.65rem;">Aug 11, 04:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Aspmyra Stadion</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2980.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/bodoglimt/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Bodo/Glimt</a>
+                                <a href="https://futbolstartingeleven.com/teams/bodoglimt/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/union-st-gilloise/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Union St.-Gilloise</a>
+                                <a href="https://futbolstartingeleven.com/teams/union-st-gilloise/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/5807.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">41°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 71%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">22%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T15:00Z">3PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">21%</div>
+                    <div class="hour-temp">52°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T16:00Z">4PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">22%</div>
+                    <div class="hour-temp">51°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00Z">5PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">22%</div>
+                    <div class="hour-temp">50°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00Z">6PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">22%</div>
+                    <div class="hour-temp">49°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T19:00Z">7PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">21%</div>
+                    <div class="hour-temp">47°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=62.0&lon=10.0&detailLat=62.0&detailLon=10.0&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Aspmyra Stadion')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902676">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T16:00Z" style="font-size: 0.65rem;">Aug 11, 04:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️2% 🌡️82° 💨2mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Sabah FK</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7853.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">AGF</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T16:00Z" style="font-size: 0.65rem;">Aug 11, 04:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Bank Respublika Stadium</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/sabah-fk/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Sabah FK</a>
+                                <a href="https://futbolstartingeleven.com/teams/sabah-fk/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/agf/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">AGF</a>
+                                <a href="https://futbolstartingeleven.com/teams/agf/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7853.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">82°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 52%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">2%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T15:00Z">3PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">97°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T16:00Z">4PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">94°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00Z">5PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">92°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00Z">6PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">90°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T19:00Z">7PM</div>
+                    <div class="hour-icon">☀️</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">88°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=40.5&lon=47.5&detailLat=40.5&detailLon=47.5&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Bank Respublika Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902666">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T17:00Z" style="font-size: 0.65rem;">Aug 11, 05:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️31% 🌡️63° 💨7mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Kauno Zalgiris</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/597.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Dinamo Zagreb</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T17:00Z" style="font-size: 0.65rem;">Aug 11, 05:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 S. Darius and S. Gireno Stadium</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/kauno-zalgiris/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Kauno Zalgiris</a>
+                                <a href="https://futbolstartingeleven.com/teams/kauno-zalgiris/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/dinamo-zagreb/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Dinamo Zagreb</a>
+                                <a href="https://futbolstartingeleven.com/teams/dinamo-zagreb/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/597.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">63°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 88%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">31%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T16:00Z">4PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">29%</div>
+                    <div class="hour-temp">63°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00Z">5PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">31%</div>
+                    <div class="hour-temp">62°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00Z">6PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">31%</div>
+                    <div class="hour-temp">61°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T19:00Z">7PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">28%</div>
+                    <div class="hour-temp">60°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T20:00Z">8PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">23%</div>
+                    <div class="hour-temp">59°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=54.90156&lon=23.90909&detailLat=54.90156&detailLon=23.90909&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'S. Darius and S. Gireno Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401898002">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T17:30Z" style="font-size: 0.65rem;">Aug 11, 05:30 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️10% 🌡️59° 💨5mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/147.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">NEC Nijmegen</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Olympiacos</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T17:30Z" style="font-size: 0.65rem;">Aug 11, 05:30 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Goffertstadion</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/147.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/nec-nijmegen/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">NEC Nijmegen</a>
+                                <a href="https://futbolstartingeleven.com/teams/nec-nijmegen/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/olympiacos/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Olympiacos</a>
+                                <a href="https://futbolstartingeleven.com/teams/olympiacos/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/435.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">59°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 69%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">10%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T16:00Z">4PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">70°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00Z">5PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">68°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00Z">6PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">67°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T19:00Z">7PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">66°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T20:00Z">8PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">65°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=51.8425&lon=5.85278&detailLat=51.8425&detailLon=5.85278&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Goffertstadion')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902670">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:00Z" style="font-size: 0.65rem;">Aug 11, 06:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️9% 🌡️80° 💨8mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2290.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Red Star Belgrade</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/13083.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Hapoel Be'er</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:00Z" style="font-size: 0.65rem;">Aug 11, 06:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Rajko Mitic Stadium</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2290.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/red-star-belgrade/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Red Star Belgrade</a>
+                                <a href="https://futbolstartingeleven.com/teams/red-star-belgrade/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/hapoel-beer/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Hapoel Be'er</a>
+                                <a href="https://futbolstartingeleven.com/teams/hapoel-beer/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/13083.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">80°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 33%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">9%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">8 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00Z">5PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">82°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00Z">6PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">82°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T19:00Z">7PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">82°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T20:00Z">8PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">81°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T21:00Z">9PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">80°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=44.80401&lon=20.46513&detailLat=44.80401&detailLon=20.46513&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Rajko Mitic Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902563">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:15Z" style="font-size: 0.65rem;">Aug 11, 06:15 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️16% 🌡️71° 💨1mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3362.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">NK Celje</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20024.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Ararat-Armenia</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:15Z" style="font-size: 0.65rem;">Aug 11, 06:15 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Stadion Z'dezele</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3362.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/nk-celje/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">NK Celje</a>
+                                <a href="https://futbolstartingeleven.com/teams/nk-celje/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/ararat-armenia/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Ararat-Armenia</a>
+                                <a href="https://futbolstartingeleven.com/teams/ararat-armenia/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20024.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">71°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 75%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">16%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00Z">5PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">79°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00Z">6PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">79°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T19:00Z">7PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">77°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T20:00Z">8PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">76°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T21:00Z">9PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">73°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=46.23092&lon=15.26044&detailLat=46.23092&detailLon=15.26044&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Stadion Z'dezele')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902677">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:15Z" style="font-size: 0.65rem;">Aug 11, 06:15 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️16% 🌡️70° 💨9mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/521.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Slovan Bratislava</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20301.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Mjällby AIF</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:15Z" style="font-size: 0.65rem;">Aug 11, 06:15 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Národny Futbalovy Stadión</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/521.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/slovan-bratislava/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Slovan Bratislava</a>
+                                <a href="https://futbolstartingeleven.com/teams/slovan-bratislava/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/mjallby-aif/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Mjällby AIF</a>
+                                <a href="https://futbolstartingeleven.com/teams/mjallby-aif/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20301.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">70°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 81%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">16%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">9 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00Z">5PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">82°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00Z">6PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">80°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T19:00Z">7PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">79°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T20:00Z">8PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">77°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T21:00Z">9PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">76°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=48.14816&lon=17.10674&detailLat=48.14816&detailLon=17.10674&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Národny Futbalovy Stadión')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401902700">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:30Z" style="font-size: 0.65rem;">Aug 11, 06:30 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️27% 🌡️72° 💨1mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3746.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">SK Sturm Graz</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/436.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Fenerbahce</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:30Z" style="font-size: 0.65rem;">Aug 11, 06:30 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Merkur Arena</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/3746.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/sk-sturm-graz/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">SK Sturm Graz</a>
+                                <a href="https://futbolstartingeleven.com/teams/sk-sturm-graz/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/fenerbahce/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Fenerbahce</a>
+                                <a href="https://futbolstartingeleven.com/teams/fenerbahce/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/436.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">72°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 77%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">27%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00Z">5PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">27%</div>
+                    <div class="hour-temp">75°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00Z">6PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">27%</div>
+                    <div class="hour-temp">74°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T19:00Z">7PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">25%</div>
+                    <div class="hour-temp">73°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T20:00Z">8PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">22%</div>
+                    <div class="hour-temp">71°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T21:00Z">9PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">69°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=47.06733&lon=15.44197&detailLat=47.06733&detailLon=15.44197&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Merkur Arena')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401898000">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T19:00Z" style="font-size: 0.65rem;">Aug 11, 07:00 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️25% 🌡️71° 💨1mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Lyon</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/433.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Sparta Prague</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T19:00Z" style="font-size: 0.65rem;">Aug 11, 07:00 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Groupama Stadium</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/167.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/lyon/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Lyon</a>
+                                <a href="https://futbolstartingeleven.com/teams/lyon/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/sparta-prague/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Sparta Prague</a>
+                                <a href="https://futbolstartingeleven.com/teams/sparta-prague/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/433.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">71°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 70%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">25%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00Z">6PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">25%</div>
+                    <div class="hour-temp">84°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T19:00Z">7PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">23%</div>
+                    <div class="hour-temp">82°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T20:00Z">8PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">80°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T21:00Z">9PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">78°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T22:00Z">10PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">75°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=45.74906&lon=4.84789&detailLat=45.74906&detailLon=4.84789&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Groupama Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
         </div>
     </div>
 
