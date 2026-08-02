@@ -2,7 +2,7 @@
     "leagues": {
         "argentine-liga-profesional-de-futbol": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654074.011479,
+            "last_updated": 1785654929.005808,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png",
             "name": "Argentine Liga Profesional de F\u00fatbol",
             "pill": "arg.1",
@@ -18,7 +18,7 @@
         },
         "argentine-nacional-b": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654128.201317,
+            "last_updated": 1785654930.602848,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2294.png",
             "name": "Argentine Nacional B",
             "pill": "arg.2",
@@ -26,7 +26,7 @@
         },
         "argentine-primera-b": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654107.012148,
+            "last_updated": 1785654930.956441,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2308.png",
             "name": "Argentine Primera B",
             "pill": "arg.3",
@@ -42,7 +42,7 @@
         },
         "austrian-bundesliga": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654095.93278,
+            "last_updated": 1785654925.454295,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/5.png",
             "name": "Austrian Bundesliga",
             "pill": "aut.1",
@@ -50,7 +50,7 @@
         },
         "bolivian-liga-profesional": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654064.31475,
+            "last_updated": 1785654935.943551,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1949.png",
             "name": "Bolivian Liga Profesional",
             "pill": "bol.1",
@@ -82,7 +82,7 @@
         },
         "chilean-primera-division": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654088.030788,
+            "last_updated": 1785654932.194423,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/86.png",
             "name": "Chilean Primera Divisi\u00f3n",
             "pill": "chi.1",
@@ -90,7 +90,7 @@
         },
         "chinese-super-league": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654149.570639,
+            "last_updated": 1785654925.986582,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2350.png",
             "name": "Chinese Super League",
             "pill": "chn.1",
@@ -98,7 +98,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654141.064211,
+            "last_updated": 1785654923.336195,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -114,7 +114,7 @@
         },
         "colombian-primera-a": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654035.258048,
+            "last_updated": 1785654933.430349,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -145,16 +145,16 @@
             "slug": "copa-colombia"
         },
         "copa-do-brasil": {
-            "last_crossover_date": "",
-            "last_updated": 1785654033.499539,
+            "last_crossover_date": "2026-08-02",
+            "last_updated": 1785654958.053721,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/528.png",
             "name": "Copa do Brasil",
             "pill": "bra.copa_do_brazil",
             "slug": "copa-do-brasil"
         },
         "costa-rican-primera-division": {
-            "last_crossover_date": "",
-            "last_updated": 1785654039.004123,
+            "last_crossover_date": "2026-08-02",
+            "last_updated": 1785654962.221616,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2245.png",
             "name": "Costa Rican Primera Division",
             "pill": "crc.1",
@@ -162,15 +162,15 @@
         },
         "danish-superliga": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654133.407771,
+            "last_updated": 1785654927.409415,
             "logo": "https://flagcdn.com/w40/dk.png",
             "name": "Danish Superliga",
             "pill": "den.1",
             "slug": "danish-superliga"
         },
         "dutch-johan-cruyff-shield": {
-            "last_crossover_date": "",
-            "last_updated": 1785654027.912033,
+            "last_crossover_date": "2026-08-02",
+            "last_updated": 1785654926.164302,
             "logo": "https://flagcdn.com/w40/nl.png",
             "name": "Dutch Johan Cruyff Shield",
             "pill": "ned.supercup",
@@ -186,7 +186,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-08-01",
-            "last_updated": 1785654048.43501,
+            "last_updated": 1785654945.100079,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -194,7 +194,7 @@
         },
         "english-fa-community-shield": {
             "last_crossover_date": "",
-            "last_updated": 1785654050.941299,
+            "last_updated": 1785654946.18565,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English FA Community Shield",
             "pill": "eng.charity",
@@ -209,8 +209,8 @@
             "slug": "esp-1"
         },
         "guatemalan-liga-nacional": {
-            "last_crossover_date": "",
-            "last_updated": 1785654039.18182,
+            "last_crossover_date": "2026-08-02",
+            "last_updated": 1785654968.591655,
             "logo": "https://flagcdn.com/w40/gt.png",
             "name": "Guatemalan Liga Nacional",
             "pill": "gua.1",
@@ -218,7 +218,7 @@
         },
         "honduran-liga-nacional": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654101.441853,
+            "last_updated": 1785654936.783865,
             "logo": "",
             "name": "Honduran Liga Nacional",
             "pill": "hon.1",
@@ -226,7 +226,7 @@
         },
         "leagues-cup": {
             "last_crossover_date": "",
-            "last_updated": 1785654061.460456,
+            "last_updated": 1785654956.443298,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png",
             "name": "Leagues Cup",
             "pill": "concacaf.leagues.cup",
@@ -234,7 +234,7 @@
         },
         "liga-auf-uruguaya": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654088.213849,
+            "last_updated": 1785654932.898009,
             "logo": "https://flagcdn.com/w40/uy.png",
             "name": "Liga AUF Uruguaya",
             "pill": "uru.1",
@@ -258,7 +258,7 @@
         },
         "ligapro-ecuador": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654146.201662,
+            "last_updated": 1785654935.043736,
             "logo": "https://flagcdn.com/w40/ec.png",
             "name": "LigaPro Ecuador",
             "pill": "ecu.1",
@@ -266,7 +266,7 @@
         },
         "mexican-liga-bbva-mx": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654097.528418,
+            "last_updated": 1785654921.612375,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png",
             "name": "Mexican Liga BBVA MX",
             "pill": "mex.1",
@@ -282,7 +282,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-08-01",
-            "last_updated": 1785654053.959776,
+            "last_updated": 1785654948.901979,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -298,7 +298,7 @@
         },
         "norwegian-eliteserien": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654131.088365,
+            "last_updated": 1785654928.121304,
             "logo": "https://flagcdn.com/w40/no.png",
             "name": "Norwegian Eliteserien",
             "pill": "nor.1",
@@ -306,7 +306,7 @@
         },
         "nwsl": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654085.216072,
+            "last_updated": 1785654921.257972,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -314,7 +314,7 @@
         },
         "paraguayan-primera-division": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654067.273601,
+            "last_updated": 1785654934.505457,
             "logo": "https://flagcdn.com/w40/py.png",
             "name": "Paraguayan Primera Divisi\u00f3n",
             "pill": "par.1",
@@ -322,7 +322,7 @@
         },
         "peruvian-liga-1": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654115.111225,
+            "last_updated": 1785654934.15084,
             "logo": "https://flagcdn.com/w40/pe.png",
             "name": "Peruvian Liga 1",
             "pill": "per.1",
@@ -338,7 +338,7 @@
         },
         "russian-premier-league": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654076.861218,
+            "last_updated": 1785654924.768442,
             "logo": "https://flagcdn.com/w40/ru.png",
             "name": "Russian Premier League",
             "pill": "rus.1",
@@ -346,7 +346,7 @@
         },
         "salvadoran-primera-division": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654080.613254,
+            "last_updated": 1785654938.001261,
             "logo": "https://flagcdn.com/w40/sv.png",
             "name": "Salvadoran Primera Division",
             "pill": "slv.1",
@@ -370,15 +370,15 @@
         },
         "scottish-premiership": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654102.879476,
+            "last_updated": 1785654923.690388,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/45.png",
             "name": "Scottish Premiership",
             "pill": "sco.1",
             "slug": "scottish-premiership"
         },
         "south-african-premiership": {
-            "last_crossover_date": "",
-            "last_updated": 1785654041.199933,
+            "last_crossover_date": "2026-08-02",
+            "last_updated": 1785654974.859676,
             "logo": "\ud83c\udf0d",
             "name": "South African Premiership",
             "pill": "rsa.1",
@@ -386,7 +386,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "",
-            "last_updated": 1785654050.289497,
+            "last_updated": 1785654946.002692,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -410,7 +410,7 @@
         },
         "swedish-allsvenskan": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654110.473354,
+            "last_updated": 1785654926.695539,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png",
             "name": "Swedish Allsvenskan",
             "pill": "swe.1",
@@ -450,7 +450,7 @@
         },
         "usl-championship": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654120.154606,
+            "last_updated": 1785654923.86736,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2292.png",
             "name": "USL Championship",
             "pill": "usa.usl.1",
@@ -466,7 +466,7 @@
         },
         "venezuelan-primera-division": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654093.550889,
+            "last_updated": 1785654935.404563,
             "logo": "",
             "name": "Venezuelan Primera Divisi\u00f3n",
             "pill": "ven.1",
@@ -474,7 +474,7 @@
         },
         "womens-africa-cup-of-nations": {
             "last_crossover_date": "2026-08-02",
-            "last_updated": 1785654082.192883,
+            "last_updated": 1785654924.223348,
             "logo": "\ud83c\udf0d",
             "name": "Women's Africa Cup of Nations",
             "pill": "caf.w.nations",
@@ -608,7 +608,7 @@
             "slug": "al-ula"
         },
         "alajuelense": {
-            "league": "Concacaf Central American Cup",
+            "league": "Costa Rican Primera Division",
             "name": "Alajuelense",
             "slug": "alajuelense"
         },
@@ -687,8 +687,13 @@
             "name": "Always Ready",
             "slug": "always-ready"
         },
+        "amazulu": {
+            "league": "South African Premiership",
+            "name": "AmaZulu",
+            "slug": "amazulu"
+        },
         "america": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "Am\u00e9rica",
             "slug": "america"
         },
@@ -713,7 +718,7 @@
             "slug": "angel-city-fc"
         },
         "antigua-gfc": {
-            "league": "Concacaf Central American Cup",
+            "league": "Guatemalan Liga Nacional",
             "name": "Antigua GFC",
             "slug": "antigua-gfc"
         },
@@ -753,7 +758,7 @@
             "slug": "argentinos-juniors"
         },
         "arsenal": {
-            "league": "Club Friendly",
+            "league": "English FA Community Shield",
             "name": "Arsenal",
             "slug": "arsenal"
         },
@@ -793,7 +798,7 @@
             "slug": "athletic-club-boise"
         },
         "athletico-pr": {
-            "league": "Brazilian Serie A",
+            "league": "Copa do Brasil",
             "name": "Athletico-PR",
             "slug": "athletico-pr"
         },
@@ -808,12 +813,12 @@
             "slug": "atlanta-united-fc"
         },
         "atlante": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "Atlante",
             "slug": "atlante"
         },
         "atlas": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "Atlas",
             "slug": "atlas"
         },
@@ -833,7 +838,7 @@
             "slug": "atletico-bucaramanga"
         },
         "atletico-de-san-luis": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "Atl\u00e9tico de San Luis",
             "slug": "atletico-de-san-luis"
         },
@@ -858,7 +863,7 @@
             "slug": "atletico-madrid"
         },
         "atletico-mg": {
-            "league": "Brazilian Serie A",
+            "league": "Copa do Brasil",
             "name": "Atl\u00e9tico-MG",
             "slug": "atletico-mg"
         },
@@ -891,6 +896,11 @@
             "league": "Bolivian Liga Profesional",
             "name": "Aurora",
             "slug": "aurora"
+        },
+        "aurora-fc": {
+            "league": "Guatemalan Liga Nacional",
+            "name": "Aurora FC",
+            "slug": "aurora-fc"
         },
         "austin-fc": {
             "league": "Leagues Cup",
@@ -1233,7 +1243,7 @@
             "slug": "cardiff-city"
         },
         "cartagines": {
-            "league": "Concacaf Central American Cup",
+            "league": "Costa Rican Primera Division",
             "name": "Cartagin\u00e9s",
             "slug": "cartagines"
         },
@@ -1248,9 +1258,19 @@
             "slug": "cd-estrella-roja"
         },
         "cd-fas": {
-            "league": "Concacaf Central American Cup",
+            "league": "Salvadoran Primera Division",
             "name": "CD FAS",
             "slug": "cd-fas"
+        },
+        "cd-guastatoya": {
+            "league": "Guatemalan Liga Nacional",
+            "name": "CD Guastatoya",
+            "slug": "cd-guastatoya"
+        },
+        "cd-malacateco": {
+            "league": "Guatemalan Liga Nacional",
+            "name": "CD Malacateco",
+            "slug": "cd-malacateco"
         },
         "cd-municipal-limeno": {
             "league": "Salvadoran Primera Division",
@@ -1392,6 +1412,11 @@
             "name": "Chicago Stars FC",
             "slug": "chicago-stars-fc"
         },
+        "chippa-united": {
+            "league": "South African Premiership",
+            "name": "Chippa United",
+            "slug": "chippa-united"
+        },
         "chongqing-tonglianglong": {
             "league": "Chinese Super League",
             "name": "Chongqing Tonglianglong",
@@ -1423,7 +1448,7 @@
             "slug": "club-deportivo-marathon"
         },
         "club-deportivo-olimpia": {
-            "league": "Concacaf Central American Cup",
+            "league": "Honduran Liga Nacional",
             "name": "Club Deportivo Olimpia",
             "slug": "club-deportivo-olimpia"
         },
@@ -1436,6 +1461,11 @@
             "league": "Paraguayan Primera Divisi\u00f3n",
             "name": "Club Olimpia",
             "slug": "club-olimpia"
+        },
+        "coban-imperial": {
+            "league": "Guatemalan Liga Nacional",
+            "name": "Cob\u00e1n Imperial",
+            "slug": "coban-imperial"
         },
         "cobresal": {
             "league": "Chilean Primera Divisi\u00f3n",
@@ -1493,7 +1523,7 @@
             "slug": "como"
         },
         "comunicaciones": {
-            "league": "Argentine Primera B",
+            "league": "Guatemalan Liga Nacional",
             "name": "Comunicaciones",
             "slug": "comunicaciones"
         },
@@ -1543,7 +1573,7 @@
             "slug": "criciuma"
         },
         "cruz-azul": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "Cruz Azul",
             "slug": "cruz-azul"
         },
@@ -1728,7 +1758,7 @@
             "slug": "deportivo-merlo"
         },
         "deportivo-mixco": {
-            "league": "Concacaf Central American Cup",
+            "league": "Guatemalan Liga Nacional",
             "name": "Deportivo Mixco",
             "slug": "deportivo-mixco"
         },
@@ -1761,6 +1791,11 @@
             "league": "Argentine Liga Profesional de F\u00fatbol",
             "name": "Deportivo Riestra",
             "slug": "deportivo-riestra"
+        },
+        "deportivo-san-pedro": {
+            "league": "Guatemalan Liga Nacional",
+            "name": "Deportivo San Pedro",
+            "slug": "deportivo-san-pedro"
         },
         "deportivo-tachira": {
             "league": "Venezuelan Primera Divisi\u00f3n",
@@ -1877,6 +1912,11 @@
             "name": "Durango",
             "slug": "durango"
         },
+        "durban-city": {
+            "league": "South African Premiership",
+            "name": "Durban City",
+            "slug": "durban-city"
+        },
         "dynamo-kyiv": {
             "league": "UEFA Conference League Qualifying",
             "name": "Dynamo Kyiv",
@@ -1916,6 +1956,11 @@
             "league": "Copa Colombia",
             "name": "Envigado FC",
             "slug": "envigado-fc"
+        },
+        "escorpiones-belen": {
+            "league": "Costa Rican Primera Division",
+            "name": "Escorpiones Bel\u00e9n",
+            "slug": "escorpiones-belen"
         },
         "espanyol": {
             "league": "Spanish LALIGA",
@@ -2018,7 +2063,7 @@
             "slug": "fc-inter-turku"
         },
         "fc-juarez": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "FC Juarez",
             "slug": "fc-juarez"
         },
@@ -2048,7 +2093,7 @@
             "slug": "fc-midtjylland"
         },
         "fc-motagua": {
-            "league": "Concacaf Central American Cup",
+            "league": "Honduran Liga Nacional",
             "name": "FC Motagua",
             "slug": "fc-motagua"
         },
@@ -2183,7 +2228,7 @@
             "slug": "floriana-fc"
         },
         "fluminense": {
-            "league": "Brazilian Serie A",
+            "league": "Copa do Brasil",
             "name": "Fluminense",
             "slug": "fluminense"
         },
@@ -2243,7 +2288,7 @@
             "slug": "genesis-pn"
         },
         "getafe": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Getafe",
             "slug": "getafe"
         },
@@ -2302,6 +2347,11 @@
             "name": "Goi\u00e1s",
             "slug": "goias"
         },
+        "golden-arrows": {
+            "league": "South African Premiership",
+            "name": "Golden Arrows",
+            "slug": "golden-arrows"
+        },
         "gornik-zabrze": {
             "league": "UEFA Europa League Qualifying",
             "name": "Gornik Zabrze",
@@ -2353,7 +2403,7 @@
             "slug": "guabira"
         },
         "guadalajara": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "Guadalajara",
             "slug": "guadalajara"
         },
@@ -2443,7 +2493,7 @@
             "slug": "henan"
         },
         "herediano": {
-            "league": "Concacaf Central American Cup",
+            "league": "Costa Rican Primera Division",
             "name": "Herediano",
             "slug": "herediano"
         },
@@ -2678,7 +2728,7 @@
             "slug": "juventud"
         },
         "juventude": {
-            "league": "Brazilian Serie B",
+            "league": "Copa do Brasil",
             "name": "Juventude",
             "slug": "juventude"
         },
@@ -2696,6 +2746,11 @@
             "league": "UEFA Champions League Qualifying",
             "name": "Kairat Almaty",
             "slug": "kairat-almaty"
+        },
+        "kaizer-chiefs": {
+            "league": "South African Premiership",
+            "name": "Kaizer Chiefs",
+            "slug": "kaizer-chiefs"
         },
         "kalmar-ff": {
             "league": "Swedish Allsvenskan",
@@ -2751,6 +2806,11 @@
             "league": "Norwegian Eliteserien",
             "name": "Kristiansund BK",
             "slug": "kristiansund-bk"
+        },
+        "kruger-united": {
+            "league": "South African Premiership",
+            "name": "Kruger United",
+            "slug": "kruger-united"
         },
         "krylia-sovetov": {
             "league": "Russian Premier League",
@@ -2903,7 +2963,7 @@
             "slug": "liniers"
         },
         "liverpool": {
-            "league": "Club Friendly",
+            "league": "Liga AUF Uruguaya",
             "name": "Liverpool",
             "slug": "liverpool"
         },
@@ -3012,8 +3072,13 @@
             "name": "Malm\u00f6 FF",
             "slug": "malmo-ff"
         },
+        "mamelodi-sundowns": {
+            "league": "South African Premiership",
+            "name": "Mamelodi Sundowns",
+            "slug": "mamelodi-sundowns"
+        },
         "manchester-city": {
-            "league": "Club Friendly",
+            "league": "English FA Community Shield",
             "name": "Manchester City",
             "slug": "manchester-city"
         },
@@ -3041,6 +3106,11 @@
             "league": "Club Friendly",
             "name": "Marseille",
             "slug": "marseille"
+        },
+        "marumo-gallants": {
+            "league": "South African Premiership",
+            "name": "Marumo Gallants",
+            "slug": "marumo-gallants"
         },
         "melgar": {
             "league": "Peruvian Liga 1",
@@ -3071,6 +3141,11 @@
             "league": "Argentine Nacional B",
             "name": "Midland",
             "slug": "midland"
+        },
+        "milford-fc": {
+            "league": "South African Premiership",
+            "name": "Milford FC",
+            "slug": "milford-fc"
         },
         "millonarios": {
             "league": "Copa Colombia",
@@ -3138,7 +3213,7 @@
             "slug": "monterey-bay"
         },
         "monterrey": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "Monterrey",
             "slug": "monterrey"
         },
@@ -3173,7 +3248,7 @@
             "slug": "msk-zilina"
         },
         "municipal": {
-            "league": "Concacaf Central American Cup",
+            "league": "Guatemalan Liga Nacional",
             "name": "Municipal",
             "slug": "municipal"
         },
@@ -3258,7 +3333,7 @@
             "slug": "newells-old-boys"
         },
         "newport-county": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Newport County",
             "slug": "newport-county"
         },
@@ -3402,6 +3477,11 @@
             "name": "Orlando City SC",
             "slug": "orlando-city-sc"
         },
+        "orlando-pirates": {
+            "league": "South African Premiership",
+            "name": "Orlando Pirates",
+            "slug": "orlando-pirates"
+        },
         "orlando-pride": {
             "league": "NWSL",
             "name": "Orlando Pride",
@@ -3501,6 +3581,11 @@
             "league": "Scottish Cup Qualifying",
             "name": "Penicuik",
             "slug": "penicuik"
+        },
+        "perez-zeledon": {
+            "league": "Costa Rican Primera Division",
+            "name": "P\u00e9rez Zeled\u00f3n",
+            "slug": "perez-zeledon"
         },
         "peterborough-united": {
             "league": "English Carabao Cup",
@@ -3618,9 +3703,14 @@
             "slug": "puebla"
         },
         "pumas-unam": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "Pumas UNAM",
             "slug": "pumas-unam"
+        },
+        "puntarenas-fc": {
+            "league": "Costa Rican Primera Division",
+            "name": "Puntarenas FC",
+            "slug": "puntarenas-fc"
         },
         "pyunik": {
             "league": "UEFA Conference League Qualifying",
@@ -3648,7 +3738,7 @@
             "slug": "queens-park-rangers"
         },
         "queretaro": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "Quer\u00e9taro",
             "slug": "queretaro"
         },
@@ -3808,7 +3898,7 @@
             "slug": "red-star-belgrade"
         },
         "remo": {
-            "league": "Brazilian Serie A",
+            "league": "Copa do Brasil",
             "name": "Remo",
             "slug": "remo"
         },
@@ -3968,7 +4058,7 @@
             "slug": "santa-coloma"
         },
         "santos": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Copa do Brasil",
             "name": "Santos",
             "slug": "santos"
         },
@@ -3983,7 +4073,7 @@
             "slug": "sao-paulo"
         },
         "saprissa": {
-            "league": "Concacaf Central American Cup",
+            "league": "Costa Rican Primera Division",
             "name": "Saprissa",
             "slug": "saprissa"
         },
@@ -4026,6 +4116,11 @@
             "league": "Leagues Cup",
             "name": "Seattle Sounders FC",
             "slug": "seattle-sounders-fc"
+        },
+        "sekhukhune-united-fc": {
+            "league": "South African Premiership",
+            "name": "Sekhukhune United FC",
+            "slug": "sekhukhune-united-fc"
         },
         "senegal": {
             "league": "Women's Africa Cup of Nations",
@@ -4182,6 +4277,11 @@
             "name": "Sporting Kansas City",
             "slug": "sporting-kansas-city"
         },
+        "sporting-san-jose": {
+            "league": "Costa Rican Primera Division",
+            "name": "Sporting San Jos\u00e9",
+            "slug": "sporting-san-jose"
+        },
         "sportivo-ameliano": {
             "league": "Paraguayan Primera Divisi\u00f3n",
             "name": "Sportivo Ameliano",
@@ -4237,6 +4337,11 @@
             "name": "Stade Rennais",
             "slug": "stade-rennais"
         },
+        "stellenbosch": {
+            "league": "South African Premiership",
+            "name": "Stellenbosch",
+            "slug": "stellenbosch"
+        },
         "stenhousemuir": {
             "league": "Scottish Championship",
             "name": "Stenhousemuir",
@@ -4266,6 +4371,11 @@
             "league": "Scottish Cup Qualifying",
             "name": "Stonehaven",
             "slug": "stonehaven"
+        },
+        "suchitepequez": {
+            "league": "Guatemalan Liga Nacional",
+            "name": "Suchitepequez",
+            "slug": "suchitepequez"
         },
         "sunderland": {
             "league": "Club Friendly",
@@ -4363,12 +4473,12 @@
             "slug": "tigres-fc"
         },
         "tigres-uanl": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "Tigres UANL",
             "slug": "tigres-uanl"
         },
         "tijuana": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "Tijuana",
             "slug": "tijuana"
         },
@@ -4388,7 +4498,7 @@
             "slug": "tobol-kostanay"
         },
         "toluca": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Leagues Cup",
             "name": "Toluca",
             "slug": "toluca"
         },
@@ -4583,7 +4693,7 @@
             "slug": "varteks"
         },
         "vasco-da-gama": {
-            "league": "Brazilian Serie A",
+            "league": "Copa do Brasil",
             "name": "Vasco da Gama",
             "slug": "vasco-da-gama"
         },
@@ -4653,12 +4763,12 @@
             "slug": "villa-san-carlos"
         },
         "villarreal": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Villarreal",
             "slug": "villarreal"
         },
         "vitoria": {
-            "league": "Brazilian Serie A",
+            "league": "Copa do Brasil",
             "name": "Vit\u00f3ria",
             "slug": "vitoria"
         },
@@ -4733,7 +4843,7 @@
             "slug": "wycombe-wanderers"
         },
         "xelaju-mc": {
-            "league": "Concacaf Central American Cup",
+            "league": "Guatemalan Liga Nacional",
             "name": "Xelaj\u00fa MC",
             "slug": "xelaju-mc"
         },
