@@ -239,6 +239,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10304": {
+        "city": "Bloemfontein",
+        "country": "South Africa",
+        "id": "10304",
+        "lat": -29.12107,
+        "lon": 26.214,
+        "name": "Free State Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10307": {
         "city": "Rabat",
         "country": "Morocco",
@@ -749,6 +759,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10627": {
+        "city": "Vigo",
+        "country": "Spain",
+        "id": "10627",
+        "lat": 42.23282,
+        "lon": -8.72264,
+        "name": "Balaidos",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10628": {
         "city": "Sevilla",
         "country": "Spain",
@@ -756,6 +776,16 @@
         "lat": 37.38283,
         "lon": -5.97317,
         "name": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10643": {
+        "city": "Santander",
+        "country": "Spain",
+        "id": "10643",
+        "lat": 43.46589,
+        "lon": -3.80493,
+        "name": "El Sardineros",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -2769,6 +2799,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "2357": {
+        "city": "Gelsenkirchen",
+        "country": "Germany",
+        "id": "2357",
+        "lat": 51.50508,
+        "lon": 7.09654,
+        "name": "Veltins Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "236": {
         "city": "Edinburgh",
         "country": "Scotland",
@@ -3419,6 +3459,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4159": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "id": "4159",
+        "lat": 41.38879,
+        "lon": 2.15899,
+        "name": "RCDE Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4203": {
         "city": "Moquegua",
         "country": "Peru",
@@ -3826,6 +3876,16 @@
         "lat": 40.71427,
         "lon": -74.00597,
         "name": "Yankee Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4905": {
+        "city": "Mexico City",
+        "country": "Mexico",
+        "id": "4905",
+        "lat": 19.42847,
+        "lon": -99.12766,
+        "name": "Estadio Ol\u00edmpico Universitario",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5749,6 +5809,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7447": {
+        "city": "Richards Bay",
+        "country": "South Africa",
+        "id": "7447",
+        "lat": -28.78301,
+        "lon": 32.03768,
+        "name": "Richards Bay Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7454": {
         "city": "Buenos Aires",
         "country": "Argentina",
@@ -5786,6 +5856,16 @@
         "lat": 47.21997,
         "lon": 39.70769,
         "name": "Rostov Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7591": {
+        "city": "San Marcos",
+        "country": "Guatemala",
+        "id": "7591",
+        "lat": 14.96437,
+        "lon": -91.79486,
+        "name": "Estadio Marquesa de la Ensenada",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6619,30 +6699,70 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "america-de-cali": {
+    "al-nassr": {
         "city": "",
         "country": "",
-        "id": "america-de-cali",
+        "id": "al-nassr",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
     },
-    "atletico-nacional": {
+    "alianza-fc": {
         "city": "",
         "country": "",
-        "id": "atletico-nacional",
+        "id": "alianza-fc",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
     },
-    "barranquilla-fc": {
+    "arsenal": {
         "city": "",
         "country": "",
-        "id": "barranquilla-fc",
+        "id": "arsenal",
+        "lat": -20.10556,
+        "lon": 57.53528,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "atletico-balboa": {
+        "city": "",
+        "country": "",
+        "id": "atletico-balboa",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "atletico-grau": {
+        "city": "",
+        "country": "",
+        "id": "atletico-grau",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "aucas": {
+        "city": "",
+        "country": "",
+        "id": "aucas",
+        "lat": -15.37132,
+        "lon": -71.57353,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "austria-lustenau": {
+        "city": "",
+        "country": "",
+        "id": "austria-lustenau",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6669,10 +6789,20 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "calgary-wild-fc": {
+    "ca-independiente-siguatepeque": {
         "city": "",
         "country": "",
-        "id": "calgary-wild-fc",
+        "id": "ca-independiente-siguatepeque",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "cacahuatique": {
+        "city": "",
+        "country": "",
+        "id": "cacahuatique",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6689,30 +6819,70 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "cruz-azul-hidalgo": {
+    "cd-choloma": {
         "city": "",
         "country": "",
-        "id": "cruz-azul-hidalgo",
+        "id": "cd-choloma",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
     },
-    "deportes-quindio": {
+    "cd-estrella-roja": {
         "city": "",
         "country": "",
-        "id": "deportes-quindio",
+        "id": "cd-estrella-roja",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
     },
-    "deportivo-pasto": {
+    "cd-fas": {
         "city": "",
         "country": "",
-        "id": "deportivo-pasto",
+        "id": "cd-fas",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "cd-municipal-limeno": {
+        "city": "",
+        "country": "",
+        "id": "cd-municipal-limeno",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "cd-platense": {
+        "city": "",
+        "country": "",
+        "id": "cd-platense",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "central-espanol-futbol-club": {
+        "city": "",
+        "country": "",
+        "id": "central-espanol-futbol-club",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "club-deportivo-olimpia": {
+        "city": "",
+        "country": "",
+        "id": "club-deportivo-olimpia",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6749,12 +6919,52 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "emelec": {
+        "city": "",
+        "country": "",
+        "id": "emelec",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "fc-motagua": {
+        "city": "",
+        "country": "",
+        "id": "fc-motagua",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "fuerte-san-francisco": {
+        "city": "",
+        "country": "",
+        "id": "fuerte-san-francisco",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "fulham": {
         "city": "",
         "country": "",
         "id": "fulham",
         "lat": 51.48026,
         "lon": -0.1993,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "genesis-pn": {
+        "city": "",
+        "country": "",
+        "id": "genesis-pn",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -6769,20 +6979,50 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "glenafton-athletic": {
+    "guayaquil-city-fc": {
         "city": "",
         "country": "",
-        "id": "glenafton-athletic",
+        "id": "guayaquil-city-fc",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
     },
-    "internacional-de-bogota": {
+    "inca-aruba": {
         "city": "",
         "country": "",
-        "id": "internacional-de-bogota",
+        "id": "inca-aruba",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "independiente-del-valle": {
+        "city": "",
+        "country": "",
+        "id": "independiente-del-valle",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "internacional-santa-tecla": {
+        "city": "",
+        "country": "",
+        "id": "internacional-santa-tecla",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "isidro-metapan": {
+        "city": "",
+        "country": "",
+        "id": "isidro-metapan",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6799,12 +7039,62 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "jeju-united": {
+        "city": "",
+        "country": "",
+        "id": "jeju-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "juticalpa-fc": {
+        "city": "",
+        "country": "",
+        "id": "juticalpa-fc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "leeds-united": {
+        "city": "",
+        "country": "",
+        "id": "leeds-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "libertad": {
         "city": "",
         "country": "",
         "id": "libertad",
         "lat": 8.94417,
         "lon": 125.50194,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "luis-angel-firpo": {
+        "city": "",
+        "country": "",
+        "id": "luis-angel-firpo",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "macara": {
+        "city": "",
+        "country": "",
+        "id": "macara",
+        "lat": -9.32259,
+        "lon": -77.60391,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -6819,12 +7109,42 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "once-caldas": {
+    "manta-fc": {
         "city": "",
         "country": "",
-        "id": "once-caldas",
+        "id": "manta-fc",
         "lat": 0.0,
         "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "mushuc-runa": {
+        "city": "",
+        "country": "",
+        "id": "mushuc-runa",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "olancho-fc": {
+        "city": "",
+        "country": "",
+        "id": "olancho-fc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "orense": {
+        "city": "",
+        "country": "",
+        "id": "orense",
+        "lat": 17.4221,
+        "lon": 120.4906,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -6849,6 +7169,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "platense": {
+        "city": "",
+        "country": "",
+        "id": "platense",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "portuguesa": {
         "city": "",
         "country": "",
@@ -6859,10 +7189,10 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "real-madrid": {
+    "real-espana": {
         "city": "",
         "country": "",
-        "id": "real-madrid",
+        "id": "real-espana",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6909,10 +7239,10 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "st-andrews": {
+    "sport-boys": {
         "city": "",
         "country": "",
-        "id": "st-andrews",
+        "id": "sport-boys",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6929,10 +7259,30 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "union-magdalena": {
+    "tottenham-hotspur": {
         "city": "",
         "country": "",
-        "id": "union-magdalena",
+        "id": "tottenham-hotspur",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "trabzonspor": {
+        "city": "",
+        "country": "",
+        "id": "trabzonspor",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "upnfm": {
+        "city": "",
+        "country": "",
+        "id": "upnfm",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
