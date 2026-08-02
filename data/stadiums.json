@@ -6619,36 +6619,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "america-de-cali": {
-        "city": "",
-        "country": "",
-        "id": "america-de-cali",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "atletico-nacional": {
-        "city": "",
-        "country": "",
-        "id": "atletico-nacional",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "barranquilla-fc": {
-        "city": "",
-        "country": "",
-        "id": "barranquilla-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "bolivar": {
         "city": "",
         "country": "",
@@ -6693,26 +6663,6 @@
         "city": "",
         "country": "",
         "id": "cruz-azul-hidalgo",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "deportes-quindio": {
-        "city": "",
-        "country": "",
-        "id": "deportes-quindio",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "deportivo-pasto": {
-        "city": "",
-        "country": "",
-        "id": "deportivo-pasto",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6779,16 +6729,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "internacional-de-bogota": {
-        "city": "",
-        "country": "",
-        "id": "internacional-de-bogota",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "jablonec": {
         "city": "",
         "country": "",
@@ -6815,16 +6755,6 @@
         "id": "mali",
         "lat": 18.0,
         "lon": -2.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "once-caldas": {
-        "city": "",
-        "country": "",
-        "id": "once-caldas",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -6925,16 +6855,6 @@
         "id": "tigre",
         "lat": -3.43944,
         "lon": -39.14833,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "union-magdalena": {
-        "city": "",
-        "country": "",
-        "id": "union-magdalena",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
