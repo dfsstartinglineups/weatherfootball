@@ -6669,6 +6669,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "cska-sofia": {
+        "city": "",
+        "country": "",
+        "id": "cska-sofia",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "csu-craiova": {
+        "city": "",
+        "country": "",
+        "id": "csu-craiova",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "dukagjini": {
         "city": "",
         "country": "",
@@ -6723,6 +6743,16 @@
         "city": "",
         "country": "",
         "id": "glenafton-athletic",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "gornik-zabrze": {
+        "city": "",
+        "country": "",
+        "id": "gornik-zabrze",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6855,16 +6885,6 @@
         "id": "tigre",
         "lat": -3.43944,
         "lon": -39.14833,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "union-st-gilloise": {
-        "city": "",
-        "country": "",
-        "id": "union-st-gilloise",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
