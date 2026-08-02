@@ -30,6 +30,9 @@ STADIUMS_FILE = os.path.join("data", "stadiums.json")
 MASTER_REGISTRY_FILE = os.path.join("data", "master_registry.json")
 CORE_LEAGUES_URL = "https://sports.core.api.espn.com/v2/sports/soccer/leagues?limit=1000"
 
+# 🔑 Read WeatherAPI Key securely from environment variables
+WEATHER_API_KEY = os.environ.get("WEATHER_API_KEY", "")
+
 # HTTP Session with retry capabilities
 HTTP = requests.Session()
 
@@ -499,12 +502,95 @@ def get_or_update_stadium(stadiums_db, venue_id, venue_info, home_team=""):
     return stadium_entry
 
 # ==========================================
-# WEATHER PIPELINE
+# WEATHER PIPELINE (HYBRID ARCHITECTURE)
 # ==========================================
-def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
-    if lat == 0.0 or lon == 0.0:
-        return {"status": "no_coords", "temp": "--", "humidity": 0, "windSpeed": 0, "precip": 0, "hourly": []}
+def fetch_weather_api_hourly(lat, lon, kickoff_iso_str, days_diff):
+    """WeatherAPI.com fetcher for high-accuracy near-term games (<= 3 days away)."""
+    if not WEATHER_API_KEY:
+        return None
 
+    try:
+        utc_time = datetime.datetime.fromisoformat(kickoff_iso_str.replace('Z', '+00:00'))
+    except Exception:
+        return None
+
+    req_days = max(1, min(14, days_diff + 2))
+    url = f"http://api.weatherapi.com/v1/forecast.json?key={WEATHER_API_KEY}&q={lat},{lon}&days={req_days}&aqi=no&alerts=no"
+
+    try:
+        res = HTTP.get(url, timeout=10)
+        if res.status_code != 200:
+            return None
+
+        data = res.json()
+        current_data = data.get('current', {})
+        current_epoch = int(datetime.datetime.now(timezone.utc).timestamp())
+
+        all_hours = []
+        for day in data.get('forecast', {}).get('forecastday', []):
+            all_hours.extend(day.get('hour', []))
+
+        target_epoch = int(utc_time.replace(minute=0, second=0, microsecond=0).timestamp())
+        start_idx = next((i for i, h in enumerate(all_hours) if h['time_epoch'] == target_epoch), 0)
+
+        actual_start = max(0, start_idx - 1)
+        actual_end = min(len(all_hours), start_idx + 4)
+
+        hourly_slice = []
+        for i in range(actual_start, actual_end):
+            hour = all_hours[i]
+            chance = hour.get('chance_of_rain', 0)
+            condition_text = hour.get('condition', {}).get('text', '').lower()
+
+            is_thunder = "thunder" in condition_text and "possible" not in condition_text
+            is_snow = any(x in condition_text for x in ["snow", "ice", "blizzard", "sleet"])
+
+            # Current hour physical station override
+            is_current_hour = (hour['time_epoch'] <= current_epoch < hour['time_epoch'] + 3600)
+            if is_current_hour and current_data:
+                curr_precip = current_data.get('precip_in', 0)
+                curr_condition = current_data.get('condition', {}).get('text', '').lower()
+
+                is_heavy_rain_text = any(x in curr_condition for x in ["heavy rain", "moderate rain", "torrential", "thunderstorm"])
+                is_light_rain_text = "rain" in curr_condition and "possible" not in curr_condition and "patchy" not in curr_condition
+
+                if curr_precip > 0.01 or is_heavy_rain_text or (is_light_rain_text and curr_precip > 0):
+                    chance = 100
+                elif curr_precip > 0:
+                    chance = max(chance, 50)
+
+                if "thunder" in curr_condition and "possible" not in curr_condition:
+                    is_thunder = True
+                if any(x in curr_condition for x in ["snow", "ice", "blizzard", "sleet"]):
+                    is_snow = True
+
+            hour_iso = datetime.datetime.fromtimestamp(hour['time_epoch'], timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+            hourly_slice.append({
+                "timestamp": hour_iso,
+                "temp": round(hour.get('temp_f', 72)),
+                "humidity": round(hour.get('humidity', 50)),
+                "precipChance": chance,
+                "isThunderstorm": is_thunder,
+                "isSnow": is_snow
+            })
+
+        kickoff_hour = all_hours[start_idx] if len(all_hours) > start_idx else (all_hours[0] if all_hours else {})
+
+        return {
+            "status": "ok",
+            "temp": round(kickoff_hour.get('temp_f', 72)),
+            "humidity": round(kickoff_hour.get('humidity', 50)),
+            "windSpeed": round(kickoff_hour.get('wind_mph', 0)),
+            "precip": round(float(kickoff_hour.get('precip_in', 0.0)), 2),
+            "hourly": hourly_slice
+        }
+    except Exception as e:
+        print(f"   ⚠️ WeatherAPI Fetch Error: {e}")
+        return None
+
+def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
+    """Open-Meteo fetcher for games farther out (> 3 days away)."""
     try:
         utc_time = datetime.datetime.fromisoformat(kickoff_iso_str.replace('Z', '+00:00'))
     except Exception:
@@ -512,10 +598,6 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
 
     game_date_str = utc_time.strftime('%Y-%m-%d')
     next_day_str = (utc_time + timedelta(days=1)).strftime('%Y-%m-%d')
-    days_diff = (utc_time.date() - datetime.datetime.now(timezone.utc).date()).days
-
-    if days_diff > 14:
-        return {"status": "too_early", "temp": "--", "humidity": 0, "windSpeed": 0, "precip": 0, "hourly": []}
 
     url = "https://api.open-meteo.com/v1/forecast"
     params = {
@@ -547,13 +629,13 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
                 for i in range(actual_start, actual_end):
                     code_arr = data['hourly'].get("weather_code", [])
                     code_val = code_arr[i] if i < len(code_arr) and code_arr[i] is not None else 0
-                    
+
                     t_arr = data['hourly'].get("temperature_2m", [])
                     t_val = t_arr[i] if i < len(t_arr) and t_arr[i] is not None else 72
-                    
+
                     h_arr = data['hourly'].get("relative_humidity_2m", [])
                     h_val = h_arr[i] if i < len(h_arr) and h_arr[i] is not None else 50
-                    
+
                     p_arr = data['hourly'].get("precipitation_probability", [])
                     p_val = p_arr[i] if i < len(p_arr) and p_arr[i] is not None else 0
 
@@ -566,23 +648,52 @@ def fetch_open_meteo_hourly(lat, lon, kickoff_iso_str):
                         "isSnow": code_val in [71, 73, 75, 77, 85, 86]
                     })
 
-                c_temp = current.get('temperature_2m')
-                c_hum = current.get('relative_humidity_2m')
-                c_wind = current.get('wind_speed_10m')
-                c_precip = current.get('precipitation')
+                target_temp = data['hourly'].get("temperature_2m", [72])[start_idx] if len(data['hourly'].get("temperature_2m", [])) > start_idx else current.get('temperature_2m', 72)
+                target_hum = data['hourly'].get("relative_humidity_2m", [50])[start_idx] if len(data['hourly'].get("relative_humidity_2m", [])) > start_idx else current.get('relative_humidity_2m', 50)
 
                 return {
                     "status": "ok",
-                    "temp": int(c_temp if c_temp is not None else 72),
-                    "humidity": int(c_hum if c_hum is not None else 50),
-                    "windSpeed": int(c_wind if c_wind is not None else 0),
-                    "precip": round(float(c_precip if c_precip is not None else 0.0), 2),
+                    "temp": int(target_temp if target_temp is not None else 72),
+                    "humidity": int(target_hum if target_hum is not None else 50),
+                    "windSpeed": int(current.get('wind_speed_10m', 0)),
+                    "precip": round(float(current.get('precipitation', 0.0)), 2),
                     "hourly": hourly_slice
                 }
         except requests.RequestException:
             time.sleep(1)
 
     return None
+
+def fetch_game_weather(lat, lon, kickoff_iso_str):
+    """Hybrid Router: WeatherAPI for <= 3 days, Open-Meteo for > 3 days."""
+    if lat == 0.0 or lon == 0.0:
+        return {"status": "no_coords", "temp": "--", "humidity": 0, "windSpeed": 0, "precip": 0, "hourly": []}
+
+    try:
+        utc_time = datetime.datetime.fromisoformat(kickoff_iso_str.replace('Z', '+00:00'))
+    except Exception:
+        return {"status": "error", "temp": "--", "humidity": 0, "windSpeed": 0, "precip": 0, "hourly": []}
+
+    days_diff = (utc_time.date() - datetime.datetime.now(timezone.utc).date()).days
+
+    if days_diff > 14:
+        return {"status": "too_early", "temp": "--", "humidity": 0, "windSpeed": 0, "precip": 0, "hourly": []}
+
+    # 🎯 <= 3 Days Away: WeatherAPI.com
+    if days_diff <= 3:
+        w_res = fetch_weather_api_hourly(lat, lon, kickoff_iso_str, days_diff)
+        if w_res:
+            return w_res
+        print("   ⚠️ WeatherAPI failed/quota reached, falling back to Open-Meteo...")
+        return fetch_open_meteo_hourly(lat, lon, kickoff_iso_str) or {
+            "status": "error", "temp": "--", "humidity": 0, "windSpeed": 0, "precip": 0.0, "hourly": []
+        }
+
+    # 🔭 > 3 Days Away: Open-Meteo
+    else:
+        return fetch_open_meteo_hourly(lat, lon, kickoff_iso_str) or {
+            "status": "error", "temp": "--", "humidity": 0, "windSpeed": 0, "precip": 0.0, "hourly": []
+        }
 
 # ==========================================
 # CARD HTML GENERATORS
@@ -615,11 +726,8 @@ def render_game_card_html(game, is_compact_default=True):
     elif w_wind >= 15:
         bg_class = "bg-weather-cloudy"
 
-    # Grab scores (default to 0 if missing)
     home_score = game.get('home_score', '0')
     away_score = game.get('away_score', '0')
-
-    # Format the score string with a clean pipe divider
     score_str = f" &nbsp;|&nbsp; {home_score}-{away_score}"
 
     if game['status'] == 'in':
@@ -637,7 +745,6 @@ def render_game_card_html(game, is_compact_default=True):
         
         badge_html = f'<span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="{game["game_time"]}" style="font-size: 0.65rem;">{fallback_text}</span>'
 
-    # Rich parameters for Windy radar initialization
     radar_url = f"https://embed.windy.com/embed2.html?lat={game['stadium']['lat']}&lon={game['stadium']['lon']}&detailLat={game['stadium']['lat']}&detailLon={game['stadium']['lon']}&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1"
 
     if is_no_coords:
@@ -647,7 +754,6 @@ def render_game_card_html(game, is_compact_default=True):
     elif is_too_early:
         weather_emoji_line = "🔭Forecast Pending"
     else:
-        # Formatted tightly with no spaces after emojis to prevent truncation
         weather_emoji_line = f"🌧️{max_pop}% 🌡️{w['temp']}° 💨{w['windSpeed']}mph"
 
     show_ribbon = "block" if is_compact_default else "none"
@@ -720,7 +826,6 @@ def render_game_card_html(game, is_compact_default=True):
             </button>
         </div>"""
 
-    # Optional UI injection for the league logo inside the expanded dark header
     league_logo_html = f'<img src="{game.get("league_logo", "")}" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display=\'none\'">' if game.get("league_logo") and game.get("league_logo").startswith('http') else (f'<span style="font-size: 1.1rem; margin-right: 6px; vertical-align: middle; line-height: 1;">{game.get("league_logo")}</span>' if game.get("league_logo") else '')
 
     return f"""
@@ -857,7 +962,6 @@ __SCHEMA_JSON__
         .hour-pop { font-size: 0.65rem; color: #0d6efd; font-weight: 700; height: 12px; }
         .hour-temp { font-size: 0.8rem; font-weight: 600; }
         
-        /* SLEEK LEAGUE HEADER DIVIDER - 100px scroll-margin gives clearance under sticky header */
         .league-section-title { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; margin: 1.5rem 0 0.5rem 0.25rem; display: flex; align-items: center; scroll-margin-top: 100px; }
         .league-section-title a { color: inherit; text-decoration: none; transition: color 0.2s; display: flex; align-items: center; }
         .league-section-title a:hover { color: #0d6efd; }
@@ -918,7 +1022,6 @@ __MATCH_CARDS_GRID__
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Localize scheduled game times (including Month and Day for multi-week slates)
             document.querySelectorAll('.local-time-badge').forEach(el => {
                 const dt = new Date(el.dataset.gametime);
                 if (!isNaN(dt)) {
@@ -926,7 +1029,6 @@ __MATCH_CARDS_GRID__
                 }
             });
 
-            // Localize 5-hour forecast hourly timestamps into visitor's local timezone
             document.querySelectorAll('.local-hour-time').forEach(el => {
                 const dt = new Date(el.dataset.timestamp);
                 if (!isNaN(dt)) {
@@ -937,7 +1039,6 @@ __MATCH_CARDS_GRID__
                 }
             });
 
-            // Radar Modal cleanup listener
             const radarModal = document.getElementById('radarModal');
             if (radarModal) {
                 radarModal.addEventListener('hidden.bs.modal', () => {
@@ -956,7 +1057,6 @@ __MATCH_CARDS_GRID__
 
             const myModal = bootstrap.Modal.getOrCreateInstance(modalElement);
 
-            // Clear map frame before open
             if (iframe) iframe.src = '';
 
             const loadMap = function () {
@@ -1062,7 +1162,6 @@ def main():
         print(f"❌ Error fetching Future: {e}")
         events_future = []
 
-    # Combine initial bulk events
     all_events_raw = events_today + events_future
 
     # === 2. CROSSOVER 14-DAY REFRESH FOR ACTIVE LEAGUES ===
@@ -1094,7 +1193,6 @@ def main():
         dormant_events = fetch_espn_events_for_pill(target_dormant_data["pill"], start_date_str, end_date_str)
         all_events_raw.extend(dormant_events)
 
-    # Deduplicate events by ID
     unique_events = {}
     for ev in all_events_raw:
         if ev.get('id') and ev['id'] not in unique_events:
@@ -1107,7 +1205,6 @@ def main():
     for game_id, event in unique_events.items():
         comp = event['competitions'][0]
         
-        # === 4-TIER RESOLUTION ENGINE & PILL ASSIGNMENT ===
         resolved_pill, resolved_display_name = resolve_event_league(event, core_index)
 
         league_list = event.get('leagues', [])
@@ -1140,29 +1237,24 @@ def main():
             KNOWN_LEAGUE_PILLS.get(normalize_text(league_name), '')
         )
 
-        # === EXTRACT LEAGUE LOGO ===
         clean_league = normalize_text(league_name)
         league_logo = NORMALIZED_HUMAN_LEAGUE_FLAGS.get(clean_league, "")
         
-        # Bridge the 4-Tier Pill directly to the Image Dictionary if exact match fails
         if not league_logo and league_pill:
             for known_name, known_pill in KNOWN_LEAGUE_PILLS.items():
                 if known_pill == league_pill and known_name in NORMALIZED_HUMAN_LEAGUE_FLAGS:
                     league_logo = NORMALIZED_HUMAN_LEAGUE_FLAGS[known_name]
                     break
 
-        # Fallback to removing qualifying/playoff text
         if not league_logo: 
             league_logo = NORMALIZED_HUMAN_LEAGUE_FLAGS.get(re.sub(r'\s+(qualifying|qualifiers|playoffs?)\b', '', clean_league), "")
             
-        # Fallback to API provided logos
         if not league_logo:
             league_logos = league_obj.get('logos', [])
             if not league_logos and first_league:
                 league_logos = first_league.get('logos', [])
             league_logo = league_obj.get('logo') or (league_logos[0].get('href', '') if league_logos else '')
 
-        # Fallback to flag CDN or emojis for obscure leagues
         if not league_logo or 'default-team-logo' in str(league_logo):
             for ctry, code in COUNTRY_FLAG_URLS.items():
                 if re.search(rf'\b{ctry}\b', clean_league): 
@@ -1190,7 +1282,6 @@ def main():
         away_logos = away_comp['team'].get('logos', [])
         away_logo = away_comp['team'].get('logo', '') or (away_logos[0].get('href', '') if away_logos else '')
 
-        # === SAVE LOGO, PILL, AND TIMESTAMPS TO MASTER REGISTRY ===
         master_registry["leagues"][league_slug] = {
             "name": league_name,
             "slug": league_slug,
@@ -1209,9 +1300,7 @@ def main():
         if stadium_info['roof'] in ["Dome", "Retractable"]:
             weather = {"status": "ok", "temp": 70, "humidity": 45, "windSpeed": 0, "precip": 0.0, "hourly": []}
         else:
-            weather = fetch_open_meteo_hourly(stadium_info['lat'], stadium_info['lon'], event['date']) or {
-                "status": "error", "temp": "--", "humidity": 0, "windSpeed": 0, "precip": 0.0, "hourly": []
-            }
+            weather = fetch_game_weather(stadium_info['lat'], stadium_info['lon'], event['date'])
 
         all_games_processed.append({
             "id": game_id,
@@ -1220,7 +1309,7 @@ def main():
             "clock": event['status']['type'].get('shortDetail', ''),
             "league_name": league_name,
             "league_slug": league_slug,
-            "league_logo": league_logo, # Injected here for the HTML renderer
+            "league_logo": league_logo,
             "home_team": home_team,
             "home_slug": home_slug,
             "home_logo": home_logo,
@@ -1256,7 +1345,7 @@ def main():
     league_urls = []
     team_urls = []
 
-    # 7. Generate Homepage (ONLY matches strictly in Today's Slate)
+    # 7. Generate Homepage
     print("\n🌐 Generating Homepage (/index.html)...")
     home_games = [g for g in all_games_processed if g['id'] in today_event_ids]
     home_cards_html = ""
@@ -1268,7 +1357,6 @@ def main():
             if lname not in grouped_games: grouped_games[lname] = {"slug": g['league_slug'], "games": []}
             grouped_games[lname]["games"].append(g)
 
-        # Build Homepage Quick-Jump Select options from leagues on today's schedule
         home_jump_options = '<option value="" selected disabled>⚽ Jump to League...</option>\n'
         for lname, ldata in sorted(grouped_games.items(), key=lambda x: x[0]):
             home_jump_options += f'                    <option value="league-section-{ldata["slug"]}">{lname}</option>\n'
@@ -1288,10 +1376,8 @@ def main():
         </div>"""
 
         for lname, ldata in sorted(grouped_games.items(), key=lambda x: x[0]):
-            # Optional: Get the league logo to display in the section header!
             section_league_logo = ldata['games'][0].get('league_logo', '') if ldata['games'] else ''
             
-            # Format the logo dynamically based on whether it is a URL or an emoji
             if section_league_logo and section_league_logo.startswith('http'):
                 sec_logo_img = f'<img src="{section_league_logo}" style="width: 20px; height: 20px; object-fit: contain; margin-right: 6px;" onerror="this.style.display=\'none\'">'
             elif section_league_logo:
@@ -1334,7 +1420,7 @@ def main():
     home_content = home_content.replace("__SCHEMA_JSON__", schema_json)
     write_if_changed("index.html", home_content)
 
-    # 8. Generate League Pages (From Master Registry - Shows ALL 14-day games)
+    # 8. Generate League Pages
     print(f"\n🏆 Generating {len(master_registry['leagues'])} League Pages (/leagues/)...")
     for l_slug, l_data in master_registry['leagues'].items():
         if l_slug == "global-football": continue
@@ -1344,7 +1430,6 @@ def main():
         has_game_today = any(g['id'] in today_event_ids for g in league_games)
         
         if league_games:
-            # === NEW: Date Grouping Headers for non-today multi-date leagues ===
             unique_dates = list(dict.fromkeys([g['game_time'][:10] for g in league_games]))
             if not has_game_today and len(unique_dates) > 1:
                 cards_html = ""
@@ -1403,7 +1488,7 @@ def main():
 
         write_if_changed(os.path.join("leagues", l_slug, "index.html"), content)
 
-    # 9. Generate Team Pages (From Master Registry - Shows ALL 14-day games fully expanded)
+    # 9. Generate Team Pages
     print(f"\n🛡️ Generating {len(master_registry['teams'])} Team Pages (/teams/)...")
     for t_slug, t_data in master_registry['teams'].items():
         team_urls.append(f"{SITE_DOMAIN}/teams/{t_slug}/")
@@ -1455,7 +1540,7 @@ def main():
         write_if_changed(os.path.join("teams", t_slug, "index.html"), content)
 
     # 10. Generate Sitemaps
-    print("\n🗺️ Generating Sitemaps...")
+    print("\nMAP Generating Sitemaps...")
     lastmod_date = datetime.datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     sitemap_main_content = f'''<?xml version="1.0" encoding="UTF-8"?>
@@ -1498,7 +1583,7 @@ def main():
 </sitemapindex>'''
     write_if_changed("sitemap.xml", sitemap_index_content)
 
-    print("✅ Build complete! Weather Football static generator updated with 4-tier league/pill resolution.")
+    print("✅ Build complete! Weather Football static generator updated with hybrid WeatherAPI / Open-Meteo router.")
 
 if __name__ == "__main__":
     main()
