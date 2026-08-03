@@ -6899,62 +6899,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "ca-independiente-siguatepeque": {
-        "city": "",
-        "country": "",
-        "id": "ca-independiente-siguatepeque",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "calgary-wild-fc": {
-        "city": "",
-        "country": "",
-        "id": "calgary-wild-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "cambodia": {
         "city": "",
         "country": "",
         "id": "cambodia",
         "lat": 13.0,
         "lon": 105.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "cd-choloma": {
-        "city": "",
-        "country": "",
-        "id": "cd-choloma",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "club-deportivo-olimpia": {
-        "city": "",
-        "country": "",
-        "id": "club-deportivo-olimpia",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "deportivo-san-pedro": {
-        "city": "",
-        "country": "",
-        "id": "deportivo-san-pedro",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -6989,52 +6939,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "emelec": {
-        "city": "",
-        "country": "",
-        "id": "emelec",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "escorpiones-belen": {
-        "city": "",
-        "country": "",
-        "id": "escorpiones-belen",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "fc-motagua": {
-        "city": "",
-        "country": "",
-        "id": "fc-motagua",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "fulham": {
         "city": "",
         "country": "",
         "id": "fulham",
         "lat": 51.48026,
         "lon": -0.1993,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "genesis-pn": {
-        "city": "",
-        "country": "",
-        "id": "genesis-pn",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7049,30 +6959,10 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "guayaquil-city-fc": {
-        "city": "",
-        "country": "",
-        "id": "guayaquil-city-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "halifax-tides-fc": {
         "city": "",
         "country": "",
         "id": "halifax-tides-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "independiente-del-valle": {
-        "city": "",
-        "country": "",
-        "id": "independiente-del-valle",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -7085,16 +6975,6 @@
         "id": "jablonec",
         "lat": 50.72431,
         "lon": 15.17108,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "juticalpa-fc": {
-        "city": "",
-        "country": "",
-        "id": "juticalpa-fc",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7129,62 +7009,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "manta-fc": {
-        "city": "",
-        "country": "",
-        "id": "manta-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "montreal-roses-fc": {
-        "city": "",
-        "country": "",
-        "id": "montreal-roses-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "mushuc-runa": {
-        "city": "",
-        "country": "",
-        "id": "mushuc-runa",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "olancho-fc": {
-        "city": "",
-        "country": "",
-        "id": "olancho-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "orense": {
         "city": "",
         "country": "",
         "id": "orense",
         "lat": 17.4221,
         "lon": 120.4906,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "ottawa-rapid-fc": {
-        "city": "",
-        "country": "",
-        "id": "ottawa-rapid-fc",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7209,32 +7039,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "platense": {
-        "city": "",
-        "country": "",
-        "id": "platense",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "portuguesa": {
         "city": "",
         "country": "",
         "id": "portuguesa",
         "lat": -22.26667,
         "lon": -41.95,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "real-espana": {
-        "city": "",
-        "country": "",
-        "id": "real-espana",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7279,32 +7089,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "sporting-san-jose": {
-        "city": "",
-        "country": "",
-        "id": "sporting-san-jose",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "tigre": {
         "city": "",
         "country": "",
         "id": "tigre",
         "lat": -3.43944,
         "lon": -39.14833,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "upnfm": {
-        "city": "",
-        "country": "",
-        "id": "upnfm",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
