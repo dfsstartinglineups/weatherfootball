@@ -188,6 +188,50 @@ COUNTRY_FLAG_URLS = {
 # ==========================================
 # HELPER FUNCTIONS
 # ==========================================
+
+def is_womens_context(team_name="", league_info=None):
+    """Detects if a match or team belongs to a women's league/team context."""
+    t_lower = str(team_name).lower()
+    if any(kw in t_lower for kw in ['women', ' wfc', 'femenino', 'femeni', ' w.f.c.']):
+        return True
+        
+    if league_info and isinstance(league_info, dict):
+        l_name = str(league_info.get('name', '')).lower()
+        l_pill = str(league_info.get('pill', '')).lower()
+        l_slug = str(league_info.get('slug', '')).lower()
+        
+        if any(kw in l_name for kw in ['women', 'vrouwen', 'nwsl', 'wsl', 'femenino', 'femeni', 'w championship']):
+            return True
+        if any(kw in l_pill for kw in ['.w.', 'w.1', 'nwsl', 'wsl']):
+            return True
+        if any(kw in l_slug for kw in ['women', 'nwsl', 'wsl']):
+            return True
+            
+    return False
+
+def create_team_slug_and_name(team_name, league_info=None):
+    """Generates a disambiguated slug and display name for women's teams while leaving men's teams standard."""
+    if not team_name:
+        return "", ""
+        
+    is_women = is_womens_context(team_name, league_info)
+    clean_name = str(team_name).strip()
+    
+    # 1. Format Display Name
+    if is_women and not any(kw in clean_name.lower() for kw in ['women', 'wfc', 'femenino', 'femeni']):
+        display_name = f"{clean_name} Women"
+    else:
+        display_name = clean_name
+        
+    # 2. Format Team Slug (Uses Weather Script's `slugify`)
+    base_slug = slugify(clean_name)
+    if is_women and not base_slug.endswith('-women') and 'women' not in base_slug:
+        team_slug = f"{base_slug}-women"
+    else:
+        team_slug = base_slug
+        
+    return team_slug, display_name
+
 def slugify(text):
     """Convert text into clean, ASCII-only, SEO-friendly URL slug."""
     if not text:
@@ -1272,10 +1316,9 @@ def main():
 
         if not home_comp or not away_comp: continue
 
-        home_team = home_comp['team']['displayName']
-        away_team = away_comp['team']['displayName']
-        home_slug = slugify(home_team)
-        away_slug = slugify(away_team)
+        temp_league_dict = {"name": league_name, "pill": league_pill, "slug": league_slug}
+        home_slug, home_team = create_team_slug_and_name(home_comp['team']['displayName'], temp_league_dict)
+        away_slug, away_team = create_team_slug_and_name(away_comp['team']['displayName'], temp_league_dict)
         
         home_logos = home_comp['team'].get('logos', [])
         home_logo = home_comp['team'].get('logo', '') or (home_logos[0].get('href', '') if home_logos else '')
