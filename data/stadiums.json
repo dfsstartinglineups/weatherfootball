@@ -979,6 +979,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10716": {
+        "city": "Torino",
+        "country": "Italy",
+        "id": "10716",
+        "lat": 45.07049,
+        "lon": 7.68682,
+        "name": "Stadio Olimpico Grande Torino",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10741": {
         "city": "T\u00f3rshavn",
         "country": "Faroe Islands",
@@ -2059,6 +2069,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11135": {
+        "city": "Iquique",
+        "country": "Chile",
+        "id": "11135",
+        "lat": -20.21326,
+        "lon": -70.15027,
+        "name": "Estadio Tierra de Campeones Ram\u00f3n Estay Saavedra",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11151": {
         "city": "Vilnius",
         "country": "Lithuania",
@@ -2086,6 +2106,16 @@
         "lat": -34.61315,
         "lon": -58.37723,
         "name": "Juan Antonio Arias",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11162": {
+        "city": "Luxembourg City",
+        "country": "Luxembourg",
+        "id": "11162",
+        "lat": 49.75,
+        "lon": 6.16667,
+        "name": "Stade Achille Hammerel",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3469,6 +3499,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "389": {
+        "city": "Cumbernauld",
+        "country": "Scotland",
+        "id": "389",
+        "lat": 55.94685,
+        "lon": -3.99051,
+        "name": "Broadwood Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "3893": {
         "city": "Cardiff",
         "country": "Wales",
@@ -3829,6 +3869,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4704": {
+        "city": "Leuven",
+        "country": "Belgium",
+        "id": "4704",
+        "lat": 50.87959,
+        "lon": 4.70093,
+        "name": "King Power at Den Dreef Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4710": {
         "city": "Wroclaw",
         "country": "Poland",
@@ -3956,6 +4006,16 @@
         "lat": 50.27969,
         "lon": 57.20718,
         "name": "Aktobe Central Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4872": {
+        "city": "Murska Sobota",
+        "country": "Slovenia",
+        "id": "4872",
+        "lat": 46.66264,
+        "lon": 16.16643,
+        "name": "Mestni Stadion Fazanerija",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4699,6 +4759,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "5690": {
+        "city": "Santiago",
+        "country": "Chile",
+        "id": "5690",
+        "lat": -33.45694,
+        "lon": -70.64827,
+        "name": "Estadio Municipal de La Pintana",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "5698": {
         "city": "Ciudad Evita",
         "country": "Argentina",
@@ -4796,6 +4866,16 @@
         "lat": 40.64072,
         "lon": 22.93493,
         "name": "Toumba Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5883": {
+        "city": "St. P\u00f6lten",
+        "country": "Austria",
+        "id": "5883",
+        "lat": 47.33333,
+        "lon": 13.33333,
+        "name": "NV Arena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6499,6 +6579,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8856": {
+        "city": "K\u00f8ge",
+        "country": "Denmark",
+        "id": "8856",
+        "lat": 55.45802,
+        "lon": 12.18214,
+        "name": "Capelli Sport Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8902": {
         "city": "York",
         "country": "England",
@@ -6749,6 +6839,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9768": {
+        "city": "Frankfurt",
+        "country": "Germany",
+        "id": "9768",
+        "lat": 50.11552,
+        "lon": 8.68417,
+        "name": "Stadion am Brentanobad",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9837": {
         "city": "Spokane, Washington",
         "country": "USA",
@@ -6899,6 +6999,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "austria-vienna-women": {
+        "city": "",
+        "country": "",
+        "id": "austria-vienna-women",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "bolivar": {
         "city": "",
         "country": "",
@@ -6939,16 +7049,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "dinamo-minsk": {
-        "city": "",
-        "country": "",
-        "id": "dinamo-minsk",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "dukagjini": {
         "city": "",
         "country": "",
@@ -6979,6 +7079,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "ferencvaros-women": {
+        "city": "",
+        "country": "",
+        "id": "ferencvaros-women",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "fulham": {
         "city": "",
         "country": "",
@@ -6999,36 +7109,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "gornik-zabrze": {
-        "city": "",
-        "country": "",
-        "id": "gornik-zabrze",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "gyori-eto-fc": {
-        "city": "",
-        "country": "",
-        "id": "gyori-eto-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "hapoel-tel-aviv": {
-        "city": "",
-        "country": "",
-        "id": "hapoel-tel-aviv",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "jablonec": {
         "city": "",
         "country": "",
@@ -7043,16 +7123,6 @@
         "city": "",
         "country": "",
         "id": "jeju-united",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "leeds-united": {
-        "city": "",
-        "country": "",
-        "id": "leeds-united",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -7079,32 +7149,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "maccabi-tel-aviv": {
-        "city": "",
-        "country": "",
-        "id": "maccabi-tel-aviv",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "mali": {
         "city": "",
         "country": "",
         "id": "mali",
         "lat": 18.0,
         "lon": -2.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "mali-women": {
-        "city": "",
-        "country": "",
-        "id": "mali-women",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7179,6 +7229,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "sk-brann-women": {
+        "city": "",
+        "country": "",
+        "id": "sk-brann-women",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "south-africa": {
         "city": "",
         "country": "",
@@ -7189,32 +7249,22 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "sporting-cp-women": {
+        "city": "",
+        "country": "",
+        "id": "sporting-cp-women",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "tigre": {
         "city": "",
         "country": "",
         "id": "tigre",
         "lat": -3.43944,
         "lon": -39.14833,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "tobol-kostanay": {
-        "city": "",
-        "country": "",
-        "id": "tobol-kostanay",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "tottenham-hotspur": {
-        "city": "",
-        "country": "",
-        "id": "tottenham-hotspur",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
