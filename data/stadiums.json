@@ -3949,6 +3949,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4871": {
+        "city": "Aktobe",
+        "country": "Kazakhstan",
+        "id": "4871",
+        "lat": 50.27969,
+        "lon": 57.20718,
+        "name": "Aktobe Central Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4885": {
         "city": "Celje",
         "country": "Slovenia",
@@ -6859,6 +6869,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "al-nassr": {
+        "city": "",
+        "country": "",
+        "id": "al-nassr",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "arsenal": {
         "city": "",
         "country": "",
@@ -6899,12 +6919,32 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "burkina-faso-women": {
+        "city": "",
+        "country": "",
+        "id": "burkina-faso-women",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "cambodia": {
         "city": "",
         "country": "",
         "id": "cambodia",
         "lat": 13.0,
         "lon": 105.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "dinamo-minsk": {
+        "city": "",
+        "country": "",
+        "id": "dinamo-minsk",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -6959,10 +6999,30 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "halifax-tides-fc-women": {
+    "gornik-zabrze": {
         "city": "",
         "country": "",
-        "id": "halifax-tides-fc-women",
+        "id": "gornik-zabrze",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "gyori-eto-fc": {
+        "city": "",
+        "country": "",
+        "id": "gyori-eto-fc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "hapoel-tel-aviv": {
+        "city": "",
+        "country": "",
+        "id": "hapoel-tel-aviv",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -6975,6 +7035,26 @@
         "id": "jablonec",
         "lat": 50.72431,
         "lon": 15.17108,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "jeju-united": {
+        "city": "",
+        "country": "",
+        "id": "jeju-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "leeds-united": {
+        "city": "",
+        "country": "",
+        "id": "leeds-united",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -6999,12 +7079,32 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "maccabi-tel-aviv": {
+        "city": "",
+        "country": "",
+        "id": "maccabi-tel-aviv",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "mali": {
         "city": "",
         "country": "",
         "id": "mali",
         "lat": 18.0,
         "lon": -2.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "mali-women": {
+        "city": "",
+        "country": "",
+        "id": "mali-women",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7095,6 +7195,36 @@
         "id": "tigre",
         "lat": -3.43944,
         "lon": -39.14833,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "tobol-kostanay": {
+        "city": "",
+        "country": "",
+        "id": "tobol-kostanay",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "tottenham-hotspur": {
+        "city": "",
+        "country": "",
+        "id": "tottenham-hotspur",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "union-st-gilloise": {
+        "city": "",
+        "country": "",
+        "id": "union-st-gilloise",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
