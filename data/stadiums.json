@@ -6999,16 +6999,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "austria-vienna-women": {
-        "city": "",
-        "country": "",
-        "id": "austria-vienna-women",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "bolivar": {
         "city": "",
         "country": "",
@@ -7075,16 +7065,6 @@
         "id": "durango",
         "lat": 24.02032,
         "lon": -104.65756,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "ferencvaros-women": {
-        "city": "",
-        "country": "",
-        "id": "ferencvaros-women",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7229,32 +7209,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "sk-brann-women": {
-        "city": "",
-        "country": "",
-        "id": "sk-brann-women",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "south-africa": {
         "city": "",
         "country": "",
         "id": "south-africa",
         "lat": -29.0,
         "lon": 24.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "sporting-cp-women": {
-        "city": "",
-        "country": "",
-        "id": "sporting-cp-women",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
