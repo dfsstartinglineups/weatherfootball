@@ -7109,26 +7109,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "central-espanol-futbol-club": {
-        "city": "",
-        "country": "",
-        "id": "central-espanol-futbol-club",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "dinamo-minsk": {
-        "city": "",
-        "country": "",
-        "id": "dinamo-minsk",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "dukagjini": {
         "city": "",
         "country": "",
@@ -7189,52 +7169,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "gornik-zabrze": {
-        "city": "",
-        "country": "",
-        "id": "gornik-zabrze",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "gyori-eto-fc": {
-        "city": "",
-        "country": "",
-        "id": "gyori-eto-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "hapoel-tel-aviv": {
-        "city": "",
-        "country": "",
-        "id": "hapoel-tel-aviv",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "jablonec": {
         "city": "",
         "country": "",
         "id": "jablonec",
         "lat": 50.72431,
         "lon": 15.17108,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "leeds-united": {
-        "city": "",
-        "country": "",
-        "id": "leeds-united",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7259,32 +7199,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "maccabi-tel-aviv": {
-        "city": "",
-        "country": "",
-        "id": "maccabi-tel-aviv",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "mali": {
         "city": "",
         "country": "",
         "id": "mali",
         "lat": 18.0,
         "lon": -2.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "mali-women": {
-        "city": "",
-        "country": "",
-        "id": "mali-women",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7395,36 +7315,6 @@
         "id": "tigre",
         "lat": -3.43944,
         "lon": -39.14833,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "tobol-kostanay": {
-        "city": "",
-        "country": "",
-        "id": "tobol-kostanay",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "tottenham-hotspur": {
-        "city": "",
-        "country": "",
-        "id": "tottenham-hotspur",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "union-magdalena": {
-        "city": "",
-        "country": "",
-        "id": "union-magdalena",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
