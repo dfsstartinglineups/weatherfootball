@@ -529,6 +529,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10400": {
+        "city": "Montevideo",
+        "country": "Uruguay",
+        "id": "10400",
+        "lat": -34.90328,
+        "lon": -56.18816,
+        "name": "Jardines del Hip\u00f3dromo",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10407": {
         "city": "Jinan",
         "country": "China PR",
@@ -576,6 +586,16 @@
         "lat": 38.62727,
         "lon": -90.19789,
         "name": "Energizer Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10435": {
+        "city": "Melo",
+        "country": "Uruguay",
+        "id": "10435",
+        "lat": -32.3682,
+        "lon": -54.16409,
+        "name": "Estadio Arquitecto Antonio Eleuterio Ubilla",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -786,6 +806,16 @@
         "lat": 37.38283,
         "lon": -5.97317,
         "name": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10633": {
+        "city": "Madrid",
+        "country": "Spain",
+        "id": "10633",
+        "lat": 40.4165,
+        "lon": -3.70256,
+        "name": "Riyadh Air Metropolitano",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -2929,6 +2959,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "2421": {
+        "city": "Bari",
+        "country": "Italy",
+        "id": "2421",
+        "lat": 38.21199,
+        "lon": 15.69381,
+        "name": "San Nicola",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "245": {
         "city": "Montrose",
         "country": "Scotland",
@@ -4636,6 +4676,16 @@
         "lat": -34.90328,
         "lon": -56.18816,
         "name": "Estadio Luis Tr\u00f3ccoli",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5539": {
+        "city": "Montevideo",
+        "country": "Uruguay",
+        "id": "5539",
+        "lat": -34.90328,
+        "lon": -56.18816,
+        "name": "Parque Alfredo V\u00edctor Viera",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6599,6 +6649,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8840": {
+        "city": "Papillion, Nebraska",
+        "country": "USA",
+        "id": "8840",
+        "lat": 41.15444,
+        "lon": -96.04224,
+        "name": "Morrison Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8856": {
         "city": "K\u00f8ge",
         "country": "Denmark",
@@ -6989,16 +7049,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "al-nassr": {
-        "city": "",
-        "country": "",
-        "id": "al-nassr",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "arsenal": {
         "city": "",
         "country": "",
@@ -7015,6 +7065,16 @@
         "id": "aucas",
         "lat": -15.37132,
         "lon": -71.57353,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "austria-vienna-women": {
+        "city": "",
+        "country": "",
+        "id": "austria-vienna-women",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7039,22 +7099,32 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "burkina-faso-women": {
-        "city": "",
-        "country": "",
-        "id": "burkina-faso-women",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "cambodia": {
         "city": "",
         "country": "",
         "id": "cambodia",
         "lat": 13.0,
         "lon": 105.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "central-espanol-futbol-club": {
+        "city": "",
+        "country": "",
+        "id": "central-espanol-futbol-club",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "dinamo-minsk": {
+        "city": "",
+        "country": "",
+        "id": "dinamo-minsk",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7089,6 +7159,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "ferencvaros-women": {
+        "city": "",
+        "country": "",
+        "id": "ferencvaros-women",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "fulham": {
         "city": "",
         "country": "",
@@ -7109,6 +7189,36 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "gornik-zabrze": {
+        "city": "",
+        "country": "",
+        "id": "gornik-zabrze",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "gyori-eto-fc": {
+        "city": "",
+        "country": "",
+        "id": "gyori-eto-fc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "hapoel-tel-aviv": {
+        "city": "",
+        "country": "",
+        "id": "hapoel-tel-aviv",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "jablonec": {
         "city": "",
         "country": "",
@@ -7119,10 +7229,10 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "jeju-united": {
+    "leeds-united": {
         "city": "",
         "country": "",
-        "id": "jeju-united",
+        "id": "leeds-united",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -7149,12 +7259,32 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "maccabi-tel-aviv": {
+        "city": "",
+        "country": "",
+        "id": "maccabi-tel-aviv",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "mali": {
         "city": "",
         "country": "",
         "id": "mali",
         "lat": 18.0,
         "lon": -2.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "mali-women": {
+        "city": "",
+        "country": "",
+        "id": "mali-women",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7229,12 +7359,32 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "sk-brann-women": {
+        "city": "",
+        "country": "",
+        "id": "sk-brann-women",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "south-africa": {
         "city": "",
         "country": "",
         "id": "south-africa",
         "lat": -29.0,
         "lon": 24.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "sporting-cp-women": {
+        "city": "",
+        "country": "",
+        "id": "sporting-cp-women",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7249,20 +7399,30 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "union-st-gilloise": {
+    "tobol-kostanay": {
         "city": "",
         "country": "",
-        "id": "union-st-gilloise",
+        "id": "tobol-kostanay",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
     },
-    "universidad-de-concepcion": {
+    "tottenham-hotspur": {
         "city": "",
         "country": "",
-        "id": "universidad-de-concepcion",
+        "id": "tottenham-hotspur",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "union-magdalena": {
+        "city": "",
+        "country": "",
+        "id": "union-magdalena",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
