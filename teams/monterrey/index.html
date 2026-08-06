@@ -1135,9 +1135,9 @@
                 
                 <!-- Top Line: Time Badge & Weather (Left aligned together) -->
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">Delay &nbsp;|&nbsp; 0-0</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-06T00:55Z" style="font-size: 0.65rem;">Aug 06, 12:55 AM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️12% 🌡️88° 💨7mph
+                        🌧️12% 🌡️86° 💨7mph
                     </div>
                 </div>
                 
@@ -1163,7 +1163,7 @@
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Leagues Cup</span>
                     </div>
-                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">Delay &nbsp;|&nbsp; 0-0</span>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-06T00:55Z" style="font-size: 0.65rem;">Aug 06, 12:55 AM UTC</span>
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -1189,11 +1189,11 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">88°F</div>
+                <div class="fw-bold">86°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 60%</div>
+                <div class="fw-bold text-dark">💧 58%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -1206,12 +1206,6 @@
             </div>
         </div>
         <div class="hourly-scroll-container">
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-05T22:00:00Z">10PM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">89°</div>
-                </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-05T23:00:00Z">11PM</div>
                     <div class="hour-icon">⛅</div>
@@ -1235,6 +1229,12 @@
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">80°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-06T03:00:00Z">3AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">79°</div>
                 </div></div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=28.53834&lon=-81.37924&detailLat=28.53834&detailLon=-81.37924&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Inter&Co Stadium')">
