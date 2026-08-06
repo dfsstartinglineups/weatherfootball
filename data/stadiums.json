@@ -759,6 +759,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10607": {
+        "city": "Izmir",
+        "country": "T\u00fcrkiye",
+        "id": "10607",
+        "lat": 38.41273,
+        "lon": 27.13838,
+        "name": "G\u00f6ztepe G\u00fcrsel Aksel Stadi",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10611": {
         "city": "London",
         "country": "England",
@@ -2709,6 +2719,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "190": {
+        "city": "Leeds",
+        "country": "England",
+        "id": "190",
+        "lat": 53.79648,
+        "lon": -1.54785,
+        "name": "Elland Road",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1913": {
         "city": "La Paz",
         "country": "Bolivia",
@@ -2906,6 +2926,16 @@
         "lat": 53.33306,
         "lon": -6.24889,
         "name": "Tolka Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2323": {
+        "city": "Rennes",
+        "country": "France",
+        "id": "2323",
+        "lat": 48.11109,
+        "lon": -1.67431,
+        "name": "Roazhon Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3836,6 +3866,16 @@
         "lat": 47.60621,
         "lon": -122.33207,
         "name": "Lumen Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4520": {
+        "city": "Heidenheim",
+        "country": "Germany",
+        "id": "4520",
+        "lat": 48.67798,
+        "lon": 10.15162,
+        "name": "Voith-Arena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7059,6 +7099,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "ael": {
+        "city": "",
+        "country": "",
+        "id": "ael",
+        "lat": 43.64801,
+        "lon": -93.36827,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "agf": {
         "city": "",
         "country": "",
@@ -7199,6 +7249,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "leeds-united": {
+        "city": "",
+        "country": "",
+        "id": "leeds-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "libertad": {
         "city": "",
         "country": "",
@@ -7335,6 +7395,16 @@
         "id": "tigre",
         "lat": -3.43944,
         "lon": -39.14833,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "tottenham-hotspur": {
+        "city": "",
+        "country": "",
+        "id": "tottenham-hotspur",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
