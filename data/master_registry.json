@@ -2,7 +2,7 @@
     "leagues": {
         "argentine-liga-profesional-de-futbol": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037078.310773,
+            "last_updated": 1786044032.619697,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png",
             "name": "Argentine Liga Profesional de F\u00fatbol",
             "pill": "arg.1",
@@ -50,7 +50,7 @@
         },
         "bolivian-liga-profesional": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037079.422268,
+            "last_updated": 1786044033.733704,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1949.png",
             "name": "Bolivian Liga Profesional",
             "pill": "bol.1",
@@ -98,7 +98,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037071.85521,
+            "last_updated": 1786044026.221595,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -122,7 +122,7 @@
         },
         "concacaf-central-american-cup": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037079.695327,
+            "last_updated": 1786044034.002832,
             "logo": "\ud83c\udf0e",
             "name": "Concacaf Central American Cup",
             "pill": "concacaf.central.american.cup",
@@ -154,7 +154,7 @@
         },
         "copa-do-brasil": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037078.602955,
+            "last_updated": 1786044032.893751,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/528.png",
             "name": "Copa do Brasil",
             "pill": "bra.copa_do_brazil",
@@ -194,7 +194,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037084.230051,
+            "last_updated": 1786044038.716184,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -202,7 +202,7 @@
         },
         "english-fa-community-shield": {
             "last_crossover_date": "",
-            "last_updated": 1786037085.725305,
+            "last_updated": 1786044040.114038,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English FA Community Shield",
             "pill": "eng.charity",
@@ -234,7 +234,7 @@
         },
         "leagues-cup": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037092.945614,
+            "last_updated": 1786044047.224921,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png",
             "name": "Leagues Cup",
             "pill": "concacaf.leagues.cup",
@@ -282,7 +282,7 @@
         },
         "mexican-liga-de-expansion-mx": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037072.265594,
+            "last_updated": 1786044026.745198,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
@@ -290,7 +290,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-08-01",
-            "last_updated": 1786037089.476299,
+            "last_updated": 1786044043.883141,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -330,7 +330,7 @@
         },
         "peruvian-liga-1": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037078.735364,
+            "last_updated": 1786044033.021629,
             "logo": "https://flagcdn.com/w40/pe.png",
             "name": "Peruvian Liga 1",
             "pill": "per.1",
@@ -394,7 +394,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "",
-            "last_updated": 1786037085.604565,
+            "last_updated": 1786044039.993607,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -434,7 +434,7 @@
         },
         "uefa-conference-league-qualifying": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037078.169524,
+            "last_updated": 1786044032.481198,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/20296.png",
             "name": "UEFA Conference League Qualifying",
             "pill": "uefa.europa.conf_qual",
@@ -442,7 +442,7 @@
         },
         "uefa-europa-league-qualifying": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037074.116341,
+            "last_updated": 1786044028.597223,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png",
             "name": "UEFA Europa League Qualifying",
             "pill": "uefa.europa_qual",
@@ -482,7 +482,7 @@
         },
         "venezuelan-primera-division": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037079.150835,
+            "last_updated": 1786044033.42379,
             "logo": "",
             "name": "Venezuelan Primera Divisi\u00f3n",
             "pill": "ven.1",
@@ -490,7 +490,7 @@
         },
         "womens-africa-cup-of-nations": {
             "last_crossover_date": "2026-08-06",
-            "last_updated": 1786037072.556243,
+            "last_updated": 1786044027.021045,
             "logo": "\ud83c\udf0d",
             "name": "Women's Africa Cup of Nations",
             "pill": "caf.w.nations",
@@ -567,6 +567,11 @@
             "league": "Club Friendly",
             "name": "AEL",
             "slug": "ael"
+        },
+        "af-elbasani": {
+            "league": "Club Friendly",
+            "name": "AF Elbasani",
+            "slug": "af-elbasani"
         },
         "afc-toronto": {
             "league": "Northern Super League",
@@ -1352,6 +1357,11 @@
             "league": "Concacaf Central American Cup",
             "name": "Cartagin\u00e9s",
             "slug": "cartagines"
+        },
+        "cavese": {
+            "league": "Club Friendly",
+            "name": "Cavese",
+            "slug": "cavese"
         },
         "cd-choloma": {
             "league": "Honduran Liga Nacional",
@@ -2178,6 +2188,11 @@
             "name": "Farul Constanta Women",
             "slug": "farul-constanta-women"
         },
+        "fc-andorra": {
+            "league": "Club Friendly",
+            "name": "FC Andorra",
+            "slug": "fc-andorra"
+        },
         "fc-atert-bissen": {
             "league": "UEFA Conference League Qualifying",
             "name": "FC Atert Bissen",
@@ -2973,6 +2988,11 @@
             "name": "Juticalpa FC",
             "slug": "juticalpa-fc"
         },
+        "juve-stabia": {
+            "league": "Club Friendly",
+            "name": "Juve Stabia",
+            "slug": "juve-stabia"
+        },
         "juventud": {
             "league": "Liga AUF Uruguaya",
             "name": "Juventud",
@@ -3082,6 +3102,11 @@
             "league": "Russian Premier League",
             "name": "Krylia Sovetov",
             "slug": "krylia-sovetov"
+        },
+        "ks-pogradeci": {
+            "league": "Club Friendly",
+            "name": "KS Pogradeci",
+            "slug": "ks-pogradeci"
         },
         "kups-kuopio": {
             "league": "UEFA Europa League Qualifying",
@@ -4252,6 +4277,11 @@
             "league": "Bolivian Liga Profesional",
             "name": "Real Tomayapo",
             "slug": "real-tomayapo"
+        },
+        "real-zaragoza": {
+            "league": "Club Friendly",
+            "name": "Real Zaragoza",
+            "slug": "real-zaragoza"
         },
         "red-bull-bragantino": {
             "league": "Brazilian Serie A",

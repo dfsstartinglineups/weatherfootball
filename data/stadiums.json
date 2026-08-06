@@ -7109,6 +7109,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "af-elbasani": {
+        "city": "",
+        "country": "",
+        "id": "af-elbasani",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "agf": {
         "city": "",
         "country": "",
@@ -7185,6 +7195,16 @@
         "id": "cambodia",
         "lat": 13.0,
         "lon": 105.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "cavese": {
+        "city": "",
+        "country": "",
+        "id": "cavese",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -7355,6 +7375,16 @@
         "id": "portuguesa",
         "lat": -22.26667,
         "lon": -41.95,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "real-zaragoza": {
+        "city": "",
+        "country": "",
+        "id": "real-zaragoza",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
