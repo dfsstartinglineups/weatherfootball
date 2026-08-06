@@ -7129,6 +7129,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "aris-limassol": {
+        "city": "",
+        "country": "",
+        "id": "aris-limassol",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "arsenal": {
         "city": "",
         "country": "",
@@ -7359,6 +7369,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "reus-fc-reddis": {
+        "city": "",
+        "country": "",
+        "id": "reus-fc-reddis",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "santos": {
         "city": "",
         "country": "",
@@ -7405,6 +7425,16 @@
         "id": "tigre",
         "lat": -3.43944,
         "lon": -39.14833,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "uniao-da-serra": {
+        "city": "",
+        "country": "",
+        "id": "uniao-da-serra",
+        "lat": -28.75297,
+        "lon": -52.01563,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
