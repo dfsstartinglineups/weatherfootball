@@ -1469,6 +1469,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10830": {
+        "city": "Ja\u00e9n",
+        "country": "Spain",
+        "id": "10830",
+        "lat": 37.76922,
+        "lon": -3.79028,
+        "name": "Nuevo Estadio Municipal de La Victoria",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10831": {
         "city": "Chengdu",
         "country": "China PR",
@@ -3346,6 +3356,16 @@
         "lat": 50.08601,
         "lon": 8.24435,
         "name": "BRITA-Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "339": {
+        "city": "Monaco",
+        "country": "France",
+        "id": "339",
+        "lat": 43.73718,
+        "lon": 7.42145,
+        "name": "Stade Louis II",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6099,6 +6119,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7361": {
+        "city": "Malaga",
+        "country": "Spain",
+        "id": "7361",
+        "lat": 36.72016,
+        "lon": -4.42034,
+        "name": "Marbella Football Center",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7394": {
         "city": "Suchitep\u00e9quez",
         "country": "Guatemala",
@@ -7249,6 +7279,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "fiorentina": {
+        "city": "",
+        "country": "",
+        "id": "fiorentina",
+        "lat": 42.96392,
+        "lon": 10.53556,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "fulham": {
         "city": "",
         "country": "",
@@ -7295,6 +7335,16 @@
         "id": "libertad",
         "lat": 8.94417,
         "lon": 125.50194,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "lorca-deportiva": {
+        "city": "",
+        "country": "",
+        "id": "lorca-deportiva",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
