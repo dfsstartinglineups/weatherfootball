@@ -8559,6 +8559,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "cf-intercity": {
+        "city": "",
+        "country": "",
+        "id": "cf-intercity",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "chasetown": {
         "city": "",
         "country": "",
