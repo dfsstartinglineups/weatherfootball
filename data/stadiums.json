@@ -8609,6 +8609,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "chiclana": {
+        "city": "",
+        "country": "",
+        "id": "chiclana",
+        "lat": 38.31187,
+        "lon": -3.04219,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "cobham": {
         "city": "",
         "country": "",
@@ -8835,6 +8845,16 @@
         "id": "hendon",
         "lat": 51.6,
         "lon": -0.21667,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "hercules": {
+        "city": "",
+        "country": "",
+        "id": "hercules",
+        "lat": 38.01714,
+        "lon": -122.28858,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
