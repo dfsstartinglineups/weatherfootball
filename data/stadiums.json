@@ -8459,6 +8459,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "asd-seravezza-pozzi": {
+        "city": "",
+        "country": "",
+        "id": "asd-seravezza-pozzi",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "ashington": {
         "city": "",
         "country": "",
@@ -9235,16 +9245,6 @@
         "id": "romford",
         "lat": 51.57515,
         "lon": 0.18582,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "royal-antwerp-b": {
-        "city": "",
-        "country": "",
-        "id": "royal-antwerp-b",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
