@@ -9279,6 +9279,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "grosseto": {
+        "city": "",
+        "country": "",
+        "id": "grosseto",
+        "lat": 42.76296,
+        "lon": 11.10941,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "guernsey": {
         "city": "",
         "country": "",
@@ -9719,16 +9729,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "nk-bratstvo-gracanica": {
-        "city": "",
-        "country": "",
-        "id": "nk-bratstvo-gracanica",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "nk-karlovac-1919": {
         "city": "",
         "country": "",
@@ -9825,6 +9825,16 @@
         "id": "penrith",
         "lat": 54.66579,
         "lon": -2.75757,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "pineto": {
+        "city": "",
+        "country": "",
+        "id": "pineto",
+        "lat": 42.60879,
+        "lon": 14.06639,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
