@@ -106,7 +106,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786179645.085155,
+            "last_updated": 1786180536.812742,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -170,7 +170,7 @@
         },
         "coppa-italia": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786179629.464576,
+            "last_updated": 1786180521.311892,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2192.png",
             "name": "Coppa Italia",
             "pill": "ita.coppa_italia",
@@ -226,7 +226,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786179646.941834,
+            "last_updated": 1786180538.784804,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -234,7 +234,7 @@
         },
         "english-fa-community-shield": {
             "last_crossover_date": "",
-            "last_updated": 1786179649.245273,
+            "last_updated": 1786180541.107698,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English FA Community Shield",
             "pill": "eng.charity",
@@ -250,7 +250,7 @@
         },
         "english-premier-league": {
             "last_crossover_date": "",
-            "last_updated": 1786179646.593693,
+            "last_updated": 1786180538.431177,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -298,7 +298,7 @@
         },
         "leagues-cup": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786179660.339175,
+            "last_updated": 1786180552.052676,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png",
             "name": "Leagues Cup",
             "pill": "concacaf.leagues.cup",
@@ -354,7 +354,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786179655.721087,
+            "last_updated": 1786180547.641809,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -378,7 +378,7 @@
         },
         "nwsl": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786179662.069741,
+            "last_updated": 1786180553.808921,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -466,7 +466,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "",
-            "last_updated": 1786179649.070069,
+            "last_updated": 1786180540.933977,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -2124,6 +2124,11 @@
             "league": "Honduran Liga Nacional",
             "name": "CD Choloma",
             "slug": "cd-choloma"
+        },
+        "cd-cuarte": {
+            "league": "Club Friendly",
+            "name": "CD Cuarte",
+            "slug": "cd-cuarte"
         },
         "cd-estrella-roja": {
             "league": "Honduran Liga Nacional",
@@ -5194,6 +5199,11 @@
             "league": "Club Friendly",
             "name": "Lens",
             "slug": "lens"
+        },
+        "lentregu-club-de-futbol": {
+            "league": "Club Friendly",
+            "name": "L'ENTREGU CLUB DE F\u00daTBOL",
+            "slug": "lentregu-club-de-futbol"
         },
         "leon": {
             "league": "Leagues Cup",
