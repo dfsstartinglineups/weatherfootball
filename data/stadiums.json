@@ -259,6 +259,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10294": {
+        "city": "Maasmechelen",
+        "country": "Belgium",
+        "id": "10294",
+        "lat": 50.96545,
+        "lon": 5.69452,
+        "name": "Patrostadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10297": {
         "city": "Mongkok, Kowloon",
         "country": "Hong Kong",
@@ -8269,6 +8279,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8853": {
+        "city": "Achna",
+        "country": "Cyprus",
+        "id": "8853",
+        "lat": 35.05515,
+        "lon": 33.78388,
+        "name": "Stadio Dasaki Achnas",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8856": {
         "city": "K\u00f8ge",
         "country": "Denmark",
@@ -9749,16 +9769,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "olympiakos-nicosia": {
-        "city": "",
-        "country": "",
-        "id": "olympiakos-nicosia",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "orense": {
         "city": "",
         "country": "",
@@ -9795,16 +9805,6 @@
         "id": "paok",
         "lat": -6.28611,
         "lon": 106.40306,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "patro-eisden-maasmechelen": {
-        "city": "",
-        "country": "",
-        "id": "patro-eisden-maasmechelen",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
