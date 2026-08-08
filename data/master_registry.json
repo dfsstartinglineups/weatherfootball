@@ -106,7 +106,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786213839.98449,
+            "last_updated": 1786214728.894767,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -170,7 +170,7 @@
         },
         "coppa-italia": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786213824.672389,
+            "last_updated": 1786214717.768783,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2192.png",
             "name": "Coppa Italia",
             "pill": "ita.coppa_italia",
@@ -226,7 +226,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786213841.916371,
+            "last_updated": 1786214730.516506,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -234,7 +234,7 @@
         },
         "english-fa-community-shield": {
             "last_crossover_date": "",
-            "last_updated": 1786213844.238297,
+            "last_updated": 1786214732.428317,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English FA Community Shield",
             "pill": "eng.charity",
@@ -250,7 +250,7 @@
         },
         "english-premier-league": {
             "last_crossover_date": "",
-            "last_updated": 1786213841.523394,
+            "last_updated": 1786214730.206339,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -298,7 +298,7 @@
         },
         "leagues-cup": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786213855.587096,
+            "last_updated": 1786214741.554866,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png",
             "name": "Leagues Cup",
             "pill": "concacaf.leagues.cup",
@@ -354,7 +354,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786213850.854151,
+            "last_updated": 1786214737.969961,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -378,7 +378,7 @@
         },
         "nwsl": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786213857.485429,
+            "last_updated": 1786214742.844672,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -466,7 +466,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "",
-            "last_updated": 1786213844.062329,
+            "last_updated": 1786214732.254605,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -8190,6 +8190,11 @@
             "name": "Tepatitl\u00e1n FC",
             "slug": "tepatitlan-fc"
         },
+        "terranuova-traiana": {
+            "league": "Club Friendly",
+            "name": "Terranuova Traiana",
+            "slug": "terranuova-traiana"
+        },
         "thackley": {
             "league": "English FA Cup Qualifying",
             "name": "Thackley",
@@ -8619,6 +8624,11 @@
             "league": "UEFA Conference League Qualifying",
             "name": "Vardar",
             "slug": "vardar"
+        },
+        "varese": {
+            "league": "Club Friendly",
+            "name": "Varese",
+            "slug": "varese"
         },
         "varteks": {
             "league": "UEFA Conference League Qualifying",

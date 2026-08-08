@@ -8869,16 +8869,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "albinoleffe": {
-        "city": "",
-        "country": "",
-        "id": "albinoleffe",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "amorebieta": {
         "city": "",
         "country": "",
@@ -9439,6 +9429,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "huesca": {
+        "city": "",
+        "country": "",
+        "id": "huesca",
+        "lat": 42.13615,
+        "lon": -0.4087,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "ijsselmeervogels": {
         "city": "",
         "country": "",
@@ -9555,16 +9555,6 @@
         "id": "lecco",
         "lat": 45.85589,
         "lon": 9.39704,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "lentregu-club-de-futbol": {
-        "city": "",
-        "country": "",
-        "id": "lentregu-club-de-futbol",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9725,6 +9715,16 @@
         "id": "newton-aycliffe",
         "lat": 54.61842,
         "lon": -1.5719,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "nk-bratstvo-gracanica": {
+        "city": "",
+        "country": "",
+        "id": "nk-bratstvo-gracanica",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
