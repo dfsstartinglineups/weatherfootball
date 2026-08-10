@@ -8909,26 +8909,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "ad-alcorcon": {
-        "city": "",
-        "country": "",
-        "id": "ad-alcorcon",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "ad-san-juan": {
-        "city": "",
-        "country": "",
-        "id": "ad-san-juan",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "ael": {
         "city": "",
         "country": "",
@@ -9029,26 +9009,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "asteras-tripoli": {
-        "city": "",
-        "country": "",
-        "id": "asteras-tripoli",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "athletic-club-boise": {
-        "city": "",
-        "country": "",
-        "id": "athletic-club-boise",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "atzeneta": {
         "city": "",
         "country": "",
@@ -9105,16 +9065,6 @@
         "id": "benevento",
         "lat": 41.1307,
         "lon": 14.77816,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "bergantinos": {
-        "city": "",
-        "country": "",
-        "id": "bergantinos",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9219,16 +9169,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "cf-intercity": {
-        "city": "",
-        "country": "",
-        "id": "cf-intercity",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "chasetown": {
         "city": "",
         "country": "",
@@ -9255,16 +9195,6 @@
         "id": "cittadella",
         "lat": 45.64523,
         "lon": 11.78453,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "club-olimpia": {
-        "city": "",
-        "country": "",
-        "id": "club-olimpia",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9349,32 +9279,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "espanyol-b": {
-        "city": "",
-        "country": "",
-        "id": "espanyol-b",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "eupen": {
         "city": "",
         "country": "",
         "id": "eupen",
         "lat": 50.6279,
         "lon": 6.03647,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "fc-cartagena": {
-        "city": "",
-        "country": "",
-        "id": "fc-cartagena",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9399,16 +9309,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "fsv-frankfurt": {
-        "city": "",
-        "country": "",
-        "id": "fsv-frankfurt",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "fulham": {
         "city": "",
         "country": "",
@@ -9425,16 +9325,6 @@
         "id": "ghana",
         "lat": 8.1,
         "lon": -1.2,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "gimnastica-torrelavega": {
-        "city": "",
-        "country": "",
-        "id": "gimnastica-torrelavega",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9659,16 +9549,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "ks-pogradeci": {
-        "city": "",
-        "country": "",
-        "id": "ks-pogradeci",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "lancing": {
         "city": "",
         "country": "",
@@ -9695,16 +9575,6 @@
         "id": "lecco",
         "lat": 45.85589,
         "lon": 9.39704,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "leeds-united": {
-        "city": "",
-        "country": "",
-        "id": "leeds-united",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9769,16 +9639,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "lorca-deportiva": {
-        "city": "",
-        "country": "",
-        "id": "lorca-deportiva",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "lorient": {
         "city": "",
         "country": "",
@@ -9839,32 +9699,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "nacional-asuncion": {
-        "city": "",
-        "country": "",
-        "id": "nacional-asuncion",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "napoli": {
         "city": "",
         "country": "",
         "id": "napoli",
         "lat": 13.18333,
         "lon": -16.18333,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "nea-salamis-famagusta": {
-        "city": "",
-        "country": "",
-        "id": "nea-salamis-famagusta",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9879,32 +9719,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "newcastle-united": {
-        "city": "",
-        "country": "",
-        "id": "newcastle-united",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "newton-aycliffe": {
         "city": "",
         "country": "",
         "id": "newton-aycliffe",
         "lat": 54.61842,
         "lon": -1.5719,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "nocerina": {
-        "city": "",
-        "country": "",
-        "id": "nocerina",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9979,16 +9799,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "paris-fc": {
-        "city": "",
-        "country": "",
-        "id": "paris-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "penrith": {
         "city": "",
         "country": "",
@@ -10019,42 +9829,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "ponferradina": {
-        "city": "",
-        "country": "",
-        "id": "ponferradina",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "portuguesa": {
         "city": "",
         "country": "",
         "id": "portuguesa",
         "lat": -22.26667,
         "lon": -41.95,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "real-madrid-castilla": {
-        "city": "",
-        "country": "",
-        "id": "real-madrid-castilla",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "real-union-irun": {
-        "city": "",
-        "country": "",
-        "id": "real-union-irun",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -10095,26 +9875,6 @@
         "id": "romford",
         "lat": 51.57515,
         "lon": 0.18582,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "royal-stockay-saint-georges-sur-meuse": {
-        "city": "",
-        "country": "",
-        "id": "royal-stockay-saint-georges-sur-meuse",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "rubio-nu": {
-        "city": "",
-        "country": "",
-        "id": "rubio-nu",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -10229,26 +9989,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "spelle-venhaus": {
-        "city": "",
-        "country": "",
-        "id": "spelle-venhaus",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "sportivo-ameliano": {
-        "city": "",
-        "country": "",
-        "id": "sportivo-ameliano",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "stotfold": {
         "city": "",
         "country": "",
@@ -10309,32 +10049,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "tottenham-hotspur": {
-        "city": "",
-        "country": "",
-        "id": "tottenham-hotspur",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "uniao-da-serra": {
         "city": "",
         "country": "",
         "id": "uniao-da-serra",
         "lat": -28.75297,
         "lon": -52.01563,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "unionistas-de-salamanca": {
-        "city": "",
-        "country": "",
-        "id": "unionistas-de-salamanca",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
