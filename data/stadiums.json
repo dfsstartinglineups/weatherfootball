@@ -9169,6 +9169,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "cd-colunga": {
+        "city": "",
+        "country": "",
+        "id": "cd-colunga",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "chasetown": {
         "city": "",
         "country": "",
@@ -9765,16 +9775,6 @@
         "id": "olot",
         "lat": 42.18096,
         "lon": 2.49012,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "olympiakos-piraeus-ii": {
-        "city": "",
-        "country": "",
-        "id": "olympiakos-piraeus-ii",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
