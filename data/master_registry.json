@@ -2,7 +2,7 @@
     "leagues": {
         "argentine-liga-profesional-de-futbol": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367722.631529,
+            "last_updated": 1786368623.657043,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png",
             "name": "Argentine Liga Profesional de F\u00fatbol",
             "pill": "arg.1",
@@ -18,7 +18,7 @@
         },
         "argentine-nacional-b": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367723.020246,
+            "last_updated": 1786368623.868409,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2294.png",
             "name": "Argentine Nacional B",
             "pill": "arg.2",
@@ -74,7 +74,7 @@
         },
         "brazilian-serie-b": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367723.271928,
+            "last_updated": 1786368624.006853,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
@@ -90,7 +90,7 @@
         },
         "chilean-primera-division": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367723.521515,
+            "last_updated": 1786368624.139773,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/86.png",
             "name": "Chilean Primera Divisi\u00f3n",
             "pill": "chi.1",
@@ -106,7 +106,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367720.17298,
+            "last_updated": 1786368622.274047,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -122,7 +122,7 @@
         },
         "colombian-primera-a": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367724.39804,
+            "last_updated": 1786368624.717973,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -186,7 +186,7 @@
         },
         "danish-superliga": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367722.029323,
+            "last_updated": 1786368623.376729,
             "logo": "https://flagcdn.com/w40/dk.png",
             "name": "Danish Superliga",
             "pill": "den.1",
@@ -210,7 +210,7 @@
         },
         "dutch-keuken-kampioen-divisie": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367721.257451,
+            "last_updated": 1786368622.932499,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/105.png",
             "name": "Dutch Keuken Kampioen Divisie",
             "pill": "ned.2",
@@ -234,7 +234,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367719.329457,
+            "last_updated": 1786368621.508912,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -242,7 +242,7 @@
         },
         "english-fa-community-shield": {
             "last_crossover_date": "",
-            "last_updated": 1786367729.792549,
+            "last_updated": 1786368629.534046,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English FA Community Shield",
             "pill": "eng.charity",
@@ -258,7 +258,7 @@
         },
         "english-premier-league": {
             "last_crossover_date": "",
-            "last_updated": 1786367727.649138,
+            "last_updated": 1786368627.255474,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -306,7 +306,7 @@
         },
         "leagues-cup": {
             "last_crossover_date": "2026-08-09",
-            "last_updated": 1786367739.529438,
+            "last_updated": 1786368637.735311,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png",
             "name": "Leagues Cup",
             "pill": "concacaf.leagues.cup",
@@ -314,7 +314,7 @@
         },
         "liga-auf-uruguaya": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367723.766867,
+            "last_updated": 1786368624.354305,
             "logo": "https://flagcdn.com/w40/uy.png",
             "name": "Liga AUF Uruguaya",
             "pill": "uru.1",
@@ -338,7 +338,7 @@
         },
         "ligapro-ecuador": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367725.505906,
+            "last_updated": 1786368625.380874,
             "logo": "https://flagcdn.com/w40/ec.png",
             "name": "LigaPro Ecuador",
             "pill": "ecu.1",
@@ -362,7 +362,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786367735.078697,
+            "last_updated": 1786368635.096687,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -386,7 +386,7 @@
         },
         "nwsl": {
             "last_crossover_date": "2026-08-09",
-            "last_updated": 1786367740.627554,
+            "last_updated": 1786368638.939121,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -394,7 +394,7 @@
         },
         "paraguayan-primera-division": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367724.648305,
+            "last_updated": 1786368624.936089,
             "logo": "https://flagcdn.com/w40/py.png",
             "name": "Paraguayan Primera Divisi\u00f3n",
             "pill": "par.1",
@@ -410,7 +410,7 @@
         },
         "portuguese-primeira-liga": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367720.391672,
+            "last_updated": 1786368622.486459,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
             "name": "Portuguese Primeira Liga",
             "pill": "por.1",
@@ -426,7 +426,7 @@
         },
         "russian-premier-league": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367720.628039,
+            "last_updated": 1786368622.637401,
             "logo": "https://flagcdn.com/w40/ru.png",
             "name": "Russian Premier League",
             "pill": "rus.1",
@@ -474,7 +474,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "",
-            "last_updated": 1786367729.669214,
+            "last_updated": 1786368629.401976,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -498,7 +498,7 @@
         },
         "swedish-allsvenskan": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367721.762768,
+            "last_updated": 1786368623.20726,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png",
             "name": "Swedish Allsvenskan",
             "pill": "swe.1",
@@ -562,7 +562,7 @@
         },
         "venezuelan-primera-division": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786367726.009848,
+            "last_updated": 1786368625.6517,
             "logo": "",
             "name": "Venezuelan Primera Divisi\u00f3n",
             "pill": "ven.1",
