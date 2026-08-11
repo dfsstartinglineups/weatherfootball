@@ -1,8 +1,8 @@
 {
     "leagues": {
         "afc-champions-league-elite-qualifying": {
-            "last_crossover_date": "",
-            "last_updated": 1786431665.321051,
+            "last_crossover_date": "2026-08-11",
+            "last_updated": 1786432530.40908,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png",
             "name": "AFC Champions League Elite Qualifying",
             "pill": "afc.champions_qual",
@@ -10,7 +10,7 @@
         },
         "argentine-liga-profesional-de-futbol": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786431692.542508,
+            "last_updated": 1786432528.875565,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png",
             "name": "Argentine Liga Profesional de F\u00fatbol",
             "pill": "arg.1",
@@ -82,7 +82,7 @@
         },
         "brazilian-serie-b": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786431727.638988,
+            "last_updated": 1786432529.008789,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
@@ -114,7 +114,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786431712.884992,
+            "last_updated": 1786432517.208793,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -130,7 +130,7 @@
         },
         "colombian-primera-a": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786431719.35078,
+            "last_updated": 1786432529.29728,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -138,15 +138,15 @@
         },
         "concacaf-central-american-cup": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786431715.530308,
+            "last_updated": 1786432529.783261,
             "logo": "\ud83c\udf0e",
             "name": "Concacaf Central American Cup",
             "pill": "concacaf.central.american.cup",
             "slug": "concacaf-central-american-cup"
         },
         "conmebol-libertadores": {
-            "last_crossover_date": "",
-            "last_updated": 1786431634.514229,
+            "last_crossover_date": "2026-08-11",
+            "last_updated": 1786432550.386853,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/58.png",
             "name": "CONMEBOL Libertadores",
             "pill": "conmebol.libertadores",
@@ -154,7 +154,7 @@
         },
         "conmebol-sudamericana": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786431721.7257,
+            "last_updated": 1786432528.740895,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png",
             "name": "CONMEBOL Sudamericana",
             "pill": "conmebol.sudamericana",
@@ -250,7 +250,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786431675.682212,
+            "last_updated": 1786432535.4001,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -258,7 +258,7 @@
         },
         "english-fa-community-shield": {
             "last_crossover_date": "",
-            "last_updated": 1786431678.870847,
+            "last_updated": 1786432537.732157,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English FA Community Shield",
             "pill": "eng.charity",
@@ -266,7 +266,7 @@
         },
         "english-fa-cup-qualifying": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786431731.673828,
+            "last_updated": 1786432525.819988,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/40.png",
             "name": "English FA Cup Qualifying",
             "pill": "eng.fa_qual",
@@ -274,7 +274,7 @@
         },
         "english-premier-league": {
             "last_crossover_date": "",
-            "last_updated": 1786431668.805255,
+            "last_updated": 1786432532.595333,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -322,7 +322,7 @@
         },
         "leagues-cup": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786431694.102606,
+            "last_updated": 1786432543.572445,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png",
             "name": "Leagues Cup",
             "pill": "concacaf.leagues.cup",
@@ -378,7 +378,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786431686.336863,
+            "last_updated": 1786432543.169337,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -473,8 +473,8 @@
             "slug": "scottish-cup-qualifying"
         },
         "scottish-league-challenge-cup": {
-            "last_crossover_date": "",
-            "last_updated": 1786431661.345213,
+            "last_crossover_date": "2026-08-11",
+            "last_updated": 1786432548.040616,
             "logo": "https://flagcdn.com/w40/gb-sct.png",
             "name": "Scottish League Challenge Cup",
             "pill": "sco.challenge",
@@ -490,7 +490,7 @@
         },
         "south-african-premiership": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786431737.484616,
+            "last_updated": 1786432531.068084,
             "logo": "\ud83c\udf0d",
             "name": "South African Premiership",
             "pill": "rsa.1",
@@ -498,7 +498,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "",
-            "last_updated": 1786431678.704184,
+            "last_updated": 1786432537.610745,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -530,7 +530,7 @@
         },
         "uefa-champions-league-qualifying": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786431636.272755,
+            "last_updated": 1786432519.171561,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
             "name": "UEFA Champions League Qualifying",
             "pill": "uefa.champions_qual",
@@ -538,7 +538,7 @@
         },
         "uefa-conference-league-qualifying": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786431743.325443,
+            "last_updated": 1786432519.572005,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/20296.png",
             "name": "UEFA Conference League Qualifying",
             "pill": "uefa.europa.conf_qual",
@@ -546,7 +546,7 @@
         },
         "uefa-europa-league-qualifying": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786431745.892684,
+            "last_updated": 1786432519.299834,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png",
             "name": "UEFA Europa League Qualifying",
             "pill": "uefa.europa_qual",
@@ -758,7 +758,7 @@
             "slug": "af-elbasani"
         },
         "afc-bournemouth": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "AFC Bournemouth",
             "slug": "afc-bournemouth"
         },
@@ -993,7 +993,7 @@
             "slug": "alianza-atletico"
         },
         "alianza-fc": {
-            "league": "Colombian Primera A",
+            "league": "Concacaf Central American Cup",
             "name": "Alianza FC",
             "slug": "alianza-fc"
         },
@@ -1208,7 +1208,7 @@
             "slug": "arouca"
         },
         "arsenal": {
-            "league": "Club Friendly",
+            "league": "English FA Community Shield",
             "name": "Arsenal",
             "slug": "arsenal"
         },
@@ -1273,7 +1273,7 @@
             "slug": "asteras-tripoli"
         },
         "aston-villa": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "Aston Villa",
             "slug": "aston-villa"
         },
@@ -1303,7 +1303,7 @@
             "slug": "athletic"
         },
         "athletic-club": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Athletic Club",
             "slug": "athletic-club"
         },
@@ -1378,7 +1378,7 @@
             "slug": "atletico-junior"
         },
         "atletico-madrid": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Atl\u00e9tico Madrid",
             "slug": "atletico-madrid"
         },
@@ -1443,7 +1443,7 @@
             "slug": "aurora-fc"
         },
         "austin-fc": {
-            "league": "Leagues Cup",
+            "league": "MLS",
             "name": "Austin FC",
             "slug": "austin-fc"
         },
@@ -1553,7 +1553,7 @@
             "slug": "barakaldo"
         },
         "barcelona": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Barcelona",
             "slug": "barcelona"
         },
@@ -1973,7 +1973,7 @@
             "slug": "breidablik-women"
         },
         "brentford": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Brentford",
             "slug": "brentford"
         },
@@ -1998,7 +1998,7 @@
             "slug": "brighlingsea-regent"
         },
         "brighton-hove-albion": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "Brighton & Hove Albion",
             "slug": "brighton-hove-albion"
         },
@@ -2337,6 +2337,11 @@
             "name": "Celtic",
             "slug": "celtic"
         },
+        "celtic-b": {
+            "league": "Scottish League Challenge Cup",
+            "name": "Celtic B",
+            "slug": "celtic-b"
+        },
         "central-cordoba-santiago-del-estero": {
             "league": "Argentine Liga Profesional de F\u00fatbol",
             "name": "Central C\u00f3rdoba (Santiago del Estero)",
@@ -2373,7 +2378,7 @@
             "slug": "cerro-largo"
         },
         "cerro-porteno": {
-            "league": "Paraguayan Primera Divisi\u00f3n",
+            "league": "CONMEBOL Libertadores",
             "name": "Cerro Porte\u00f1o",
             "slug": "cerro-porteno"
         },
@@ -2463,7 +2468,7 @@
             "slug": "cheadle-town"
         },
         "chelsea": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Chelsea",
             "slug": "chelsea"
         },
@@ -2483,7 +2488,7 @@
             "slug": "chesterfield"
         },
         "chicago-fire-fc": {
-            "league": "Leagues Cup",
+            "league": "MLS",
             "name": "Chicago Fire FC",
             "slug": "chicago-fire-fc"
         },
@@ -2738,7 +2743,7 @@
             "slug": "consett-afc"
         },
         "coquimbo-unido": {
-            "league": "Chilean Primera Divisi\u00f3n",
+            "league": "CONMEBOL Libertadores",
             "name": "Coquimbo Unido",
             "slug": "coquimbo-unido"
         },
@@ -2773,7 +2778,7 @@
             "slug": "corinthian-casuals"
         },
         "corinthians": {
-            "league": "Copa do Brasil",
+            "league": "CONMEBOL Libertadores",
             "name": "Corinthians",
             "slug": "corinthians"
         },
@@ -2808,7 +2813,7 @@
             "slug": "cove-rangers"
         },
         "coventry-city": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Coventry City",
             "slug": "coventry-city"
         },
@@ -2893,7 +2898,7 @@
             "slug": "cruz-azul-hidalgo"
         },
         "cruzeiro": {
-            "league": "Copa do Brasil",
+            "league": "CONMEBOL Libertadores",
             "name": "Cruzeiro",
             "slug": "cruzeiro"
         },
@@ -3073,12 +3078,12 @@
             "slug": "deportes-quindio"
         },
         "deportes-tolima": {
-            "league": "Colombian Primera A",
+            "league": "CONMEBOL Libertadores",
             "name": "Deportes Tolima",
             "slug": "deportes-tolima"
         },
         "deportivo": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Deportivo",
             "slug": "deportivo"
         },
@@ -3578,7 +3583,7 @@
             "slug": "estudiantes-buenos-aires"
         },
         "estudiantes-de-la-plata": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "CONMEBOL Libertadores",
             "name": "Estudiantes de La Plata",
             "slug": "estudiantes-de-la-plata"
         },
@@ -3613,7 +3618,7 @@
             "slug": "eversley-california"
         },
         "everton": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Everton",
             "slug": "everton"
         },
@@ -3753,7 +3758,7 @@
             "slug": "fc-cologne"
         },
         "fc-dallas": {
-            "league": "Leagues Cup",
+            "league": "MLS",
             "name": "FC Dallas",
             "slug": "fc-dallas"
         },
@@ -3993,7 +3998,7 @@
             "slug": "flackwell-heath"
         },
         "flamengo": {
-            "league": "Brazilian Serie A",
+            "league": "CONMEBOL Libertadores",
             "name": "Flamengo",
             "slug": "flamengo"
         },
@@ -4108,7 +4113,7 @@
             "slug": "fuerte-san-francisco"
         },
         "fulham": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Fulham",
             "slug": "fulham"
         },
@@ -4492,6 +4497,11 @@
             "name": "Hamburg SV",
             "slug": "hamburg-sv"
         },
+        "hamilton-academical": {
+            "league": "Scottish League Challenge Cup",
+            "name": "Hamilton Academical",
+            "slug": "hamilton-academical"
+        },
         "hammarby-if": {
             "league": "UEFA Conference League Qualifying",
             "name": "Hammarby IF",
@@ -4838,7 +4848,7 @@
             "slug": "huesca"
         },
         "hull-city": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Hull City",
             "slug": "hull-city"
         },
@@ -4938,7 +4948,7 @@
             "slug": "independiente-petrolero"
         },
         "independiente-rivadavia": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "CONMEBOL Libertadores",
             "name": "Independiente Rivadavia",
             "slug": "independiente-rivadavia"
         },
@@ -5013,7 +5023,7 @@
             "slug": "inverness-caledonian-thistle"
         },
         "ipswich-town": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Ipswich Town",
             "slug": "ipswich-town"
         },
@@ -5438,7 +5448,7 @@
             "slug": "la-serena"
         },
         "lafc": {
-            "league": "Leagues Cup",
+            "league": "MLS",
             "name": "LAFC",
             "slug": "lafc"
         },
@@ -5538,7 +5548,7 @@
             "slug": "lech-poznan"
         },
         "leeds-united": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Leeds United",
             "slug": "leeds-united"
         },
@@ -5633,7 +5643,7 @@
             "slug": "libertas-borgo-maggiore"
         },
         "liga-de-quito": {
-            "league": "LigaPro Ecuador",
+            "league": "CONMEBOL Libertadores",
             "name": "Liga de Quito",
             "slug": "liga-de-quito"
         },
@@ -5703,7 +5713,7 @@
             "slug": "littlehampton-town"
         },
         "liverpool": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "Liverpool",
             "slug": "liverpool"
         },
@@ -5883,7 +5893,7 @@
             "slug": "mainz"
         },
         "malaga": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "M\u00e1laga",
             "slug": "malaga"
         },
@@ -5943,7 +5953,7 @@
             "slug": "manchester-city"
         },
         "manchester-united": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "Manchester United",
             "slug": "manchester-united"
         },
@@ -6123,7 +6133,7 @@
             "slug": "mirandes"
         },
         "mirassol": {
-            "league": "Copa do Brasil",
+            "league": "CONMEBOL Libertadores",
             "name": "Mirassol",
             "slug": "mirassol"
         },
@@ -6363,7 +6373,7 @@
             "slug": "new-mexico-united"
         },
         "new-york-city-fc": {
-            "league": "Leagues Cup",
+            "league": "MLS",
             "name": "New York City FC",
             "slug": "new-york-city-fc"
         },
@@ -6393,7 +6403,7 @@
             "slug": "newcastle-town"
         },
         "newcastle-united": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Newcastle United",
             "slug": "newcastle-united"
         },
@@ -6548,7 +6558,7 @@
             "slug": "norwich-city"
         },
         "nottingham-forest": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Nottingham Forest",
             "slug": "nottingham-forest"
         },
@@ -6798,7 +6808,7 @@
             "slug": "palestino"
         },
         "palmeiras": {
-            "league": "Copa do Brasil",
+            "league": "CONMEBOL Libertadores",
             "name": "Palmeiras",
             "slug": "palmeiras"
         },
@@ -6963,7 +6973,7 @@
             "slug": "petts-wood-holmesdale"
         },
         "philadelphia-union": {
-            "league": "Leagues Cup",
+            "league": "MLS",
             "name": "Philadelphia Union",
             "slug": "philadelphia-union"
         },
@@ -7008,7 +7018,7 @@
             "slug": "pittsburgh-riverhounds"
         },
         "platense": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "CONMEBOL Libertadores",
             "name": "Platense",
             "slug": "platense"
         },
@@ -7068,7 +7078,7 @@
             "slug": "portland-thorns-fc-women"
         },
         "portland-timbers": {
-            "league": "Leagues Cup",
+            "league": "MLS",
             "name": "Portland Timbers",
             "slug": "portland-timbers"
         },
@@ -7358,7 +7368,7 @@
             "slug": "reading-city"
         },
         "real-betis": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Real Betis",
             "slug": "real-betis"
         },
@@ -7388,7 +7398,7 @@
             "slug": "real-jaen-cf"
         },
         "real-madrid": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Real Madrid",
             "slug": "real-madrid"
         },
@@ -7428,7 +7438,7 @@
             "slug": "real-salt-lake"
         },
         "real-sociedad": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Real Sociedad",
             "slug": "real-sociedad"
         },
@@ -7618,7 +7628,7 @@
             "slug": "romulus"
         },
         "rosario-central": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "CONMEBOL Libertadores",
             "name": "Rosario Central",
             "slug": "rosario-central"
         },
@@ -7768,7 +7778,7 @@
             "slug": "san-antonio-fc"
         },
         "san-diego-fc": {
-            "league": "Leagues Cup",
+            "league": "MLS",
             "name": "San Diego FC",
             "slug": "san-diego-fc"
         },
@@ -7973,7 +7983,7 @@
             "slug": "seattle-reign-fc-women"
         },
         "seattle-sounders-fc": {
-            "league": "Leagues Cup",
+            "league": "MLS",
             "name": "Seattle Sounders FC",
             "slug": "seattle-sounders-fc"
         },
@@ -8558,7 +8568,7 @@
             "slug": "sudtirol"
         },
         "sunderland": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "Sunderland",
             "slug": "sunderland"
         },
@@ -8833,7 +8843,7 @@
             "slug": "torreense-women"
         },
         "tottenham-hotspur": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Tottenham Hotspur",
             "slug": "tottenham-hotspur"
         },
