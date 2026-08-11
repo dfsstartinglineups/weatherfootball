@@ -2,7 +2,7 @@
     "leagues": {
         "afc-champions-league-elite-qualifying": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439731.554019,
+            "last_updated": 1786440643.80537,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png",
             "name": "AFC Champions League Elite Qualifying",
             "pill": "afc.champions_qual",
@@ -10,7 +10,7 @@
         },
         "argentine-liga-profesional-de-futbol": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439729.973755,
+            "last_updated": 1786440641.661706,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png",
             "name": "Argentine Liga Profesional de F\u00fatbol",
             "pill": "arg.1",
@@ -82,7 +82,7 @@
         },
         "brazilian-serie-b": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439730.109523,
+            "last_updated": 1786440641.860759,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
@@ -114,7 +114,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439717.93553,
+            "last_updated": 1786440624.106359,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -130,7 +130,7 @@
         },
         "colombian-primera-a": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439730.37943,
+            "last_updated": 1786440642.260891,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -138,7 +138,7 @@
         },
         "concacaf-central-american-cup": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439730.850525,
+            "last_updated": 1786440642.84958,
             "logo": "\ud83c\udf0e",
             "name": "Concacaf Central American Cup",
             "pill": "concacaf.central.american.cup",
@@ -146,7 +146,7 @@
         },
         "conmebol-libertadores": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439718.468789,
+            "last_updated": 1786440624.94522,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/58.png",
             "name": "CONMEBOL Libertadores",
             "pill": "conmebol.libertadores",
@@ -154,7 +154,7 @@
         },
         "conmebol-sudamericana": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439729.839399,
+            "last_updated": 1786440641.434973,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png",
             "name": "CONMEBOL Sudamericana",
             "pill": "conmebol.sudamericana",
@@ -250,7 +250,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786439736.584258,
+            "last_updated": 1786440651.557208,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -258,7 +258,7 @@
         },
         "english-fa-community-shield": {
             "last_crossover_date": "",
-            "last_updated": 1786439738.917998,
+            "last_updated": 1786440655.132214,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English FA Community Shield",
             "pill": "eng.charity",
@@ -266,7 +266,7 @@
         },
         "english-fa-cup-qualifying": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439726.715234,
+            "last_updated": 1786440637.219315,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/40.png",
             "name": "English FA Cup Qualifying",
             "pill": "eng.fa_qual",
@@ -274,7 +274,7 @@
         },
         "english-premier-league": {
             "last_crossover_date": "",
-            "last_updated": 1786439733.784599,
+            "last_updated": 1786440647.244354,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -322,7 +322,7 @@
         },
         "leagues-cup": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439744.826984,
+            "last_updated": 1786440664.412819,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png",
             "name": "Leagues Cup",
             "pill": "concacaf.leagues.cup",
@@ -378,7 +378,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786439744.423259,
+            "last_updated": 1786440663.794406,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -474,7 +474,7 @@
         },
         "scottish-league-challenge-cup": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439729.498238,
+            "last_updated": 1786440641.034104,
             "logo": "https://flagcdn.com/w40/gb-sct.png",
             "name": "Scottish League Challenge Cup",
             "pill": "sco.challenge",
@@ -490,7 +490,7 @@
         },
         "south-african-premiership": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439732.241102,
+            "last_updated": 1786440644.825251,
             "logo": "\ud83c\udf0d",
             "name": "South African Premiership",
             "pill": "rsa.1",
@@ -498,7 +498,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "",
-            "last_updated": 1786439738.796783,
+            "last_updated": 1786440654.944733,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -530,7 +530,7 @@
         },
         "uefa-champions-league-qualifying": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439719.932502,
+            "last_updated": 1786440626.988656,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
             "name": "UEFA Champions League Qualifying",
             "pill": "uefa.champions_qual",
@@ -538,7 +538,7 @@
         },
         "uefa-conference-league-qualifying": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439720.337759,
+            "last_updated": 1786440627.59198,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/20296.png",
             "name": "UEFA Conference League Qualifying",
             "pill": "uefa.europa.conf_qual",
@@ -546,7 +546,7 @@
         },
         "uefa-europa-league-qualifying": {
             "last_crossover_date": "2026-08-11",
-            "last_updated": 1786439720.064277,
+            "last_updated": 1786440627.187214,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png",
             "name": "UEFA Europa League Qualifying",
             "pill": "uefa.europa_qual",
