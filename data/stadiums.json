@@ -1,4 +1,14 @@
 {
+    "10019": {
+        "city": "Southampton",
+        "country": "England",
+        "id": "10019",
+        "lat": 50.90395,
+        "lon": -1.40428,
+        "name": "St. Mary's Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10021": {
         "city": "Bremen",
         "country": "Germany",
@@ -456,6 +466,16 @@
         "lat": 50.43302,
         "lon": 2.82791,
         "name": "Stade Bollaert-Delelis",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10343": {
+        "city": "Walsall",
+        "country": "England",
+        "id": "10343",
+        "lat": 52.58528,
+        "lon": -1.98396,
+        "name": "Bescot Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -1249,6 +1269,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10650": {
+        "city": "East Kilbride",
+        "country": "Scotland",
+        "id": "10650",
+        "lat": 55.76412,
+        "lon": -4.17669,
+        "name": "K-Park Training Academy",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10652": {
         "city": "Samara",
         "country": "Russia",
@@ -1586,6 +1616,16 @@
         "lat": 38.70571,
         "lon": -9.39773,
         "name": "Est\u00e1dio Ant\u00f3nio Coimbra da Mota",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10740": {
+        "city": "Pretoria",
+        "country": "South Africa",
+        "id": "10740",
+        "lat": -25.74486,
+        "lon": 28.18783,
+        "name": "Loftus Versfeld Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -1969,6 +2009,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10809": {
+        "city": "Blackpool",
+        "country": "England",
+        "id": "10809",
+        "lat": 53.81667,
+        "lon": -3.05,
+        "name": "Bloomfield Road",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10810": {
         "city": "Caxias do Sul",
         "country": "Brazil",
@@ -2116,6 +2166,16 @@
         "lat": -34.80041,
         "lon": -58.38384,
         "name": "Lorenzo Arandilla",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10868": {
+        "city": "Doncaster",
+        "country": "England",
+        "id": "10868",
+        "lat": 53.52285,
+        "lon": -1.13116,
+        "name": "Eco-Power Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -2849,6 +2909,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11465": {
+        "city": "Tonbridge, Kent",
+        "country": "England",
+        "id": "11465",
+        "lat": 51.19532,
+        "lon": 0.27363,
+        "name": "Holm Park (Kent)",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1198": {
         "city": "Tel-Aviv",
         "country": "Israel",
@@ -2976,6 +3046,16 @@
         "lat": 56.56317,
         "lon": -2.58736,
         "name": "Gayfield Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1342": {
+        "city": "East Fife",
+        "country": "Scotland",
+        "id": "1342",
+        "lat": 39.9687,
+        "lon": -77.58721,
+        "name": "MGM Timber Bayview Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3329,6 +3409,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "172": {
+        "city": "Dumfries",
+        "country": "Scotland",
+        "id": "172",
+        "lat": -12.4501,
+        "lon": 130.8331,
+        "name": "Palmerston Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "173": {
         "city": "Stenhousemuir",
         "country": "Scotland",
@@ -3376,6 +3466,16 @@
         "lat": 40.49115,
         "lon": -90.03178,
         "name": "KDM Group East End Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1802": {
+        "city": "Adelaide",
+        "country": "Australia",
+        "id": "1802",
+        "lat": -34.92866,
+        "lon": 138.59863,
+        "name": "Hindmarsh Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3596,6 +3696,16 @@
         "lat": -27.01998,
         "lon": -54.68462,
         "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "201": {
+        "city": "Preston",
+        "country": "England",
+        "id": "201",
+        "lat": -30.54818,
+        "lon": 29.90559,
+        "name": "Deepdale",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3839,6 +3949,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "240": {
+        "city": "Berwick",
+        "country": "England",
+        "id": "240",
+        "lat": 41.05453,
+        "lon": -76.23327,
+        "name": "Shielfield Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "242": {
         "city": "Greenock",
         "country": "Scotland",
@@ -3869,6 +3989,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "244": {
+        "city": "Elgin",
+        "country": "Scotland",
+        "id": "244",
+        "lat": 42.03725,
+        "lon": -88.28119,
+        "name": "Borough Briggs",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "245": {
         "city": "Montrose",
         "country": "Scotland",
@@ -3876,6 +4006,16 @@
         "lat": 38.47832,
         "lon": -107.87617,
         "name": "Links Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "246": {
+        "city": "Stirling",
+        "country": "Scotland",
+        "id": "246",
+        "lat": 56.11903,
+        "lon": -3.93682,
+        "name": "Forthbank Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4019,6 +4159,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "2654": {
+        "city": "Edinburgh",
+        "country": "Scotland",
+        "id": "2654",
+        "lat": 55.95206,
+        "lon": -3.19648,
+        "name": "Meadowbank Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "2658": {
         "city": "Santiago",
         "country": "Chile",
@@ -4096,6 +4246,16 @@
         "lat": 51.50853,
         "lon": -0.12574,
         "name": "Craven Cottage",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "280": {
+        "city": "Blackburn",
+        "country": "England",
+        "id": "280",
+        "lat": 53.75,
+        "lon": -2.48333,
+        "name": "Ewood Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4216,6 +4376,16 @@
         "lat": 39.14222,
         "lon": 117.17667,
         "name": "Tianjin Olympic Center Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3092": {
+        "city": "Inverness",
+        "country": "Scotland",
+        "id": "3092",
+        "lat": 33.89232,
+        "lon": -98.52922,
+        "name": "Grant Street Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4619,6 +4789,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3674": {
+        "city": "Johannesburg",
+        "country": "South Africa",
+        "id": "3674",
+        "lat": -26.20227,
+        "lon": 28.04363,
+        "name": "Orlando Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "3708": {
         "city": "Manta",
         "country": "Ecuador",
@@ -4819,6 +4999,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3987": {
+        "city": "Abu Dhabi",
+        "country": "United Arab Emirates",
+        "id": "3987",
+        "lat": 24.45118,
+        "lon": 54.39696,
+        "name": "Mohammed bin Zayed Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4036": {
         "city": "Manchester",
         "country": "England",
@@ -4926,6 +5116,16 @@
         "lat": 53.33306,
         "lon": -6.24889,
         "name": "Aviva Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4253": {
+        "city": "Bergamo",
+        "country": "Italy",
+        "id": "4253",
+        "lat": 45.69601,
+        "lon": 9.66721,
+        "name": "New Balance Arena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5556,6 +5756,16 @@
         "lat": 56.4607,
         "lon": 10.03639,
         "name": "Cepheus Park Randers",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4935": {
+        "city": "Formartine",
+        "country": "Scotland",
+        "id": "4935",
+        "lat": 39.9687,
+        "lon": -77.58721,
+        "name": "North Lodge Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6809,6 +7019,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6298": {
+        "city": "Stevenage",
+        "country": "England",
+        "id": "6298",
+        "lat": 51.90224,
+        "lon": -0.20256,
+        "name": "Lamex Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6306": {
         "city": "Kilmarnock",
         "country": "Scotland",
@@ -6816,6 +7036,16 @@
         "lat": 55.61171,
         "lon": -4.49581,
         "name": "The BBSP Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6307": {
+        "city": "Alloa",
+        "country": "Scotland",
+        "id": "6307",
+        "lat": 56.11586,
+        "lon": -3.78997,
+        "name": "Indodrill Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6926,6 +7156,16 @@
         "lat": 29.42412,
         "lon": -98.49363,
         "name": "Toyota Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6454": {
+        "city": "Aberdeen",
+        "country": "Scotland",
+        "id": "6454",
+        "lat": 33.38761,
+        "lon": -86.72832,
+        "name": "Spain Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7369,6 +7609,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6844": {
+        "city": "Tashkent",
+        "country": "Uzbekistan",
+        "id": "6844",
+        "lat": 41.26465,
+        "lon": 69.21627,
+        "name": "Pakhtakor Markaziy Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6847": {
         "city": "Bangkok",
         "country": "Thailand",
@@ -7426,6 +7676,16 @@
         "lat": 55.75204,
         "lon": 37.61781,
         "name": "VEB Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6915": {
+        "city": "Bonnyrigg",
+        "country": "Scotland",
+        "id": "6915",
+        "lat": 55.87329,
+        "lon": -3.1051,
+        "name": "New Dundas Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7556,6 +7816,16 @@
         "lat": -21.05203,
         "lon": 55.22571,
         "name": "Stade Joseph Marien",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7085": {
+        "city": "Durban",
+        "country": "South Africa",
+        "id": "7085",
+        "lat": -29.8579,
+        "lon": 31.0292,
+        "name": "Sugar Ray Xulu Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7729,6 +7999,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7448": {
+        "city": "Dumbarton",
+        "country": "Scotland",
+        "id": "7448",
+        "lat": 55.94433,
+        "lon": -4.57061,
+        "name": "Dumbarton Football Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7454": {
         "city": "Buenos Aires",
         "country": "Argentina",
@@ -7766,6 +8046,16 @@
         "lat": 54.35227,
         "lon": 18.64912,
         "name": "Stadion MOSiR",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7516": {
+        "city": "Billericay",
+        "country": "England",
+        "id": "7516",
+        "lat": 51.62867,
+        "lon": 0.41963,
+        "name": "AGP Arena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -8066,6 +8356,16 @@
         "lat": 39.11566,
         "lon": -77.5636,
         "name": "Segra Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8174": {
+        "city": "",
+        "country": "Scotland",
+        "id": "8174",
+        "lat": 39.9687,
+        "lon": -77.58721,
+        "name": "New Central Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -8399,6 +8699,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8858": {
+        "city": "Clydebank",
+        "country": "Scotland",
+        "id": "8858",
+        "lat": 55.90137,
+        "lon": -4.4057,
+        "name": "Holm Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8902": {
         "city": "York",
         "country": "England",
@@ -8526,6 +8836,26 @@
         "lat": 8.51889,
         "lon": -80.35727,
         "name": "Estadio Universitario F.C.",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9256": {
+        "city": "Pretoria",
+        "country": "South Africa",
+        "id": "9256",
+        "lat": -25.74486,
+        "lon": 28.18783,
+        "name": "Solomon Mahlangu Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9369": {
+        "city": "Portishead",
+        "country": "England",
+        "id": "9369",
+        "lat": 51.48199,
+        "lon": -2.76973,
+        "name": "Bristol Road",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -8739,6 +9069,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9814": {
+        "city": "Manchester",
+        "country": "England",
+        "id": "9814",
+        "lat": 53.48095,
+        "lon": -2.23743,
+        "name": "Brookburn Road",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9816": {
         "city": "Wroxham",
         "country": "England",
@@ -8909,6 +9249,36 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "abbey-hulton-unitefd": {
+        "city": "",
+        "country": "",
+        "id": "abbey-hulton-unitefd",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "ad-alcorcon": {
+        "city": "",
+        "country": "",
+        "id": "ad-alcorcon",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "ad-san-juan": {
+        "city": "",
+        "country": "",
+        "id": "ad-san-juan",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "ael": {
         "city": "",
         "country": "",
@@ -8959,6 +9329,46 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "alcoyano": {
+        "city": "",
+        "country": "",
+        "id": "alcoyano",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "alton": {
+        "city": "",
+        "country": "",
+        "id": "alton",
+        "lat": 36.69423,
+        "lon": -91.3993,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "amazulu": {
+        "city": "",
+        "country": "",
+        "id": "amazulu",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "amersham-town": {
+        "city": "",
+        "country": "",
+        "id": "amersham-town",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "amorebieta": {
         "city": "",
         "country": "",
@@ -8999,12 +9409,62 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "ashby-ivanhoe": {
+        "city": "",
+        "country": "",
+        "id": "ashby-ivanhoe",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "ashington": {
         "city": "",
         "country": "",
         "id": "ashington",
         "lat": 55.17719,
         "lon": -1.56412,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "asteras-tripoli": {
+        "city": "",
+        "country": "",
+        "id": "asteras-tripoli",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "atherton-collieries": {
+        "city": "",
+        "country": "",
+        "id": "atherton-collieries",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "athletic-club-boise": {
+        "city": "",
+        "country": "",
+        "id": "athletic-club-boise",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "atromitos": {
+        "city": "",
+        "country": "",
+        "id": "atromitos",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9049,6 +9509,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "bashley": {
+        "city": "",
+        "country": "",
+        "id": "bashley",
+        "lat": 50.77452,
+        "lon": -1.66092,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "bedfont": {
         "city": "",
         "country": "",
@@ -9065,6 +9535,16 @@
         "id": "benevento",
         "lat": 41.1307,
         "lon": 14.77816,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "bergantinos": {
+        "city": "",
+        "country": "",
+        "id": "bergantinos",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9119,6 +9599,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "broadfields-united": {
+        "city": "",
+        "country": "",
+        "id": "broadfields-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "buckhurst-hill": {
         "city": "",
         "country": "",
@@ -9169,10 +9659,20 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "cd-colunga": {
+    "campion": {
         "city": "",
         "country": "",
-        "id": "cd-colunga",
+        "id": "campion",
+        "lat": 40.34943,
+        "lon": -105.07776,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "cf-intercity": {
+        "city": "",
+        "country": "",
+        "id": "cf-intercity",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -9195,6 +9695,16 @@
         "id": "chiclana",
         "lat": 38.31187,
         "lon": -3.04219,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "chippa-united": {
+        "city": "",
+        "country": "",
+        "id": "chippa-united",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9249,6 +9759,46 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "dearne-district": {
+        "city": "",
+        "country": "",
+        "id": "dearne-district",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "dinamo-minsk": {
+        "city": "",
+        "country": "",
+        "id": "dinamo-minsk",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "downham-town": {
+        "city": "",
+        "country": "",
+        "id": "downham-town",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "droylsden": {
+        "city": "",
+        "country": "",
+        "id": "droylsden",
+        "lat": 53.48005,
+        "lon": -2.14543,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "dukagjini": {
         "city": "",
         "country": "",
@@ -9279,6 +9829,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "easington-colliery": {
+        "city": "",
+        "country": "",
+        "id": "easington-colliery",
+        "lat": 54.78792,
+        "lon": -1.32819,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "enfield": {
         "city": "",
         "country": "",
@@ -9289,12 +9849,52 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "enosis-neon-paralimni": {
+        "city": "",
+        "country": "",
+        "id": "enosis-neon-paralimni",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "espanyol-b": {
+        "city": "",
+        "country": "",
+        "id": "espanyol-b",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "eupen": {
         "city": "",
         "country": "",
         "id": "eupen",
         "lat": 50.6279,
         "lon": 6.03647,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "fc-cartagena": {
+        "city": "",
+        "country": "",
+        "id": "fc-cartagena",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "fc-st-helens": {
+        "city": "",
+        "country": "",
+        "id": "fc-st-helens",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9319,12 +9919,42 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "fsv-frankfurt": {
+        "city": "",
+        "country": "",
+        "id": "fsv-frankfurt",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "fulham": {
         "city": "",
         "country": "",
         "id": "fulham",
         "lat": 51.48026,
         "lon": -0.1993,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "gala-fairydean": {
+        "city": "",
+        "country": "",
+        "id": "gala-fairydean",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "gangwon-fc": {
+        "city": "",
+        "country": "",
+        "id": "gangwon-fc",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9339,12 +9969,52 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "gimnastica-torrelavega": {
+        "city": "",
+        "country": "",
+        "id": "gimnastica-torrelavega",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "girona": {
         "city": "",
         "country": "",
         "id": "girona",
         "lat": 41.98311,
         "lon": 2.82493,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "glossop-north-end": {
+        "city": "",
+        "country": "",
+        "id": "glossop-north-end",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "golcar-united": {
+        "city": "",
+        "country": "",
+        "id": "golcar-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "gornik-zabrze": {
+        "city": "",
+        "country": "",
+        "id": "gornik-zabrze",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9369,12 +10039,32 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "gyori-eto-fc": {
+        "city": "",
+        "country": "",
+        "id": "gyori-eto-fc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "hallam": {
         "city": "",
         "country": "",
         "id": "hallam",
         "lat": 40.53778,
         "lon": -96.78725,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "hallen": {
+        "city": "",
+        "country": "",
+        "id": "hallen",
+        "lat": 63.76667,
+        "lon": 14.75,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9439,6 +10129,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "hereford-pegasus": {
+        "city": "",
+        "country": "",
+        "id": "hereford-pegasus",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "herne-bay": {
         "city": "",
         "country": "",
@@ -9465,6 +10165,26 @@
         "id": "histon",
         "lat": 52.25166,
         "lon": 0.10643,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "hnk-segesta-sisak": {
+        "city": "",
+        "country": "",
+        "id": "hnk-segesta-sisak",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "hollands-blair": {
+        "city": "",
+        "country": "",
+        "id": "hollands-blair",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9529,6 +10249,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "jong-krc-genk": {
+        "city": "",
+        "country": "",
+        "id": "jong-krc-genk",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "kennington": {
         "city": "",
         "country": "",
@@ -9549,12 +10279,32 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "kings-langley": {
+        "city": "",
+        "country": "",
+        "id": "kings-langley",
+        "lat": 51.71395,
+        "lon": -0.45044,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "knowle": {
         "city": "",
         "country": "",
         "id": "knowle",
         "lat": 52.38333,
         "lon": -1.73333,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "ks-pogradeci": {
+        "city": "",
+        "country": "",
+        "id": "ks-pogradeci",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9609,6 +10359,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "lingfield": {
+        "city": "",
+        "country": "",
+        "id": "lingfield",
+        "lat": 51.17719,
+        "lon": -0.01558,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "little-common": {
         "city": "",
         "country": "",
@@ -9645,6 +10405,16 @@
         "id": "llanera",
         "lat": 43.43963,
         "lon": -5.8508,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "lorca-deportiva": {
+        "city": "",
+        "country": "",
+        "id": "lorca-deportiva",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9699,12 +10469,72 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "manchester-united": {
+        "city": "",
+        "country": "",
+        "id": "manchester-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "march-town-united": {
+        "city": "",
+        "country": "",
+        "id": "march-town-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "marlow": {
+        "city": "",
+        "country": "",
+        "id": "marlow",
+        "lat": 34.64813,
+        "lon": -97.95809,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "marumo-gallants": {
+        "city": "",
+        "country": "",
+        "id": "marumo-gallants",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "merstham": {
         "city": "",
         "country": "",
         "id": "merstham",
         "lat": 51.25969,
         "lon": -0.15728,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "mossley": {
+        "city": "",
+        "country": "",
+        "id": "mossley",
+        "lat": 53.51454,
+        "lon": -2.03462,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "nantwich-town": {
+        "city": "",
+        "country": "",
+        "id": "nantwich-town",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9719,6 +10549,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "nea-salamis-famagusta": {
+        "city": "",
+        "country": "",
+        "id": "nea-salamis-famagusta",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "nelson": {
         "city": "",
         "country": "",
@@ -9729,12 +10569,32 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "newcastle-united": {
+        "city": "",
+        "country": "",
+        "id": "newcastle-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "newton-aycliffe": {
         "city": "",
         "country": "",
         "id": "newton-aycliffe",
         "lat": 54.61842,
         "lon": -1.5719,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "nocerina": {
+        "city": "",
+        "country": "",
+        "id": "nocerina",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9755,6 +10615,26 @@
         "id": "north-leigh",
         "lat": 51.81432,
         "lon": -1.44144,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "north-shields": {
+        "city": "",
+        "country": "",
+        "id": "north-shields",
+        "lat": 55.01646,
+        "lon": -1.44925,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "northwich-victoria": {
+        "city": "",
+        "country": "",
+        "id": "northwich-victoria",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9789,6 +10669,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "ossett-united": {
+        "city": "",
+        "country": "",
+        "id": "ossett-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "pagham": {
         "city": "",
         "country": "",
@@ -9799,22 +10689,22 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "panionios": {
-        "city": "",
-        "country": "",
-        "id": "panionios",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "paok": {
         "city": "",
         "country": "",
         "id": "paok",
         "lat": -6.28611,
         "lon": 106.40306,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "paris-fc": {
+        "city": "",
+        "country": "",
+        "id": "paris-fc",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9849,12 +10739,82 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "ponferradina": {
+        "city": "",
+        "country": "",
+        "id": "ponferradina",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "portugalete": {
+        "city": "",
+        "country": "",
+        "id": "portugalete",
+        "lat": 43.32099,
+        "lon": -3.02064,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "portuguesa": {
         "city": "",
         "country": "",
         "id": "portuguesa",
         "lat": -22.26667,
         "lon": -41.95,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "potton-united": {
+        "city": "",
+        "country": "",
+        "id": "potton-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "pro-patria": {
+        "city": "",
+        "country": "",
+        "id": "pro-patria",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "raynes-park-vale": {
+        "city": "",
+        "country": "",
+        "id": "raynes-park-vale",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "real-madrid-castilla": {
+        "city": "",
+        "country": "",
+        "id": "real-madrid-castilla",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "real-union-irun": {
+        "city": "",
+        "country": "",
+        "id": "real-union-irun",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9879,6 +10839,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "reggina": {
+        "city": "",
+        "country": "",
+        "id": "reggina",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "renate": {
         "city": "",
         "country": "",
@@ -9899,12 +10869,32 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "royal-stockay-saint-georges-sur-meuse": {
+        "city": "",
+        "country": "",
+        "id": "royal-stockay-saint-georges-sur-meuse",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "rusthall": {
         "city": "",
         "country": "",
         "id": "rusthall",
         "lat": 51.13643,
         "lon": 0.22931,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "saffron-walden-town": {
+        "city": "",
+        "country": "",
+        "id": "saffron-walden-town",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9979,6 +10969,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "slimbridge": {
+        "city": "",
+        "country": "",
+        "id": "slimbridge",
+        "lat": 51.73104,
+        "lon": -2.37888,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "soa": {
         "city": "",
         "country": "",
@@ -10005,6 +11005,46 @@
         "id": "spakenburg",
         "lat": 52.25,
         "lon": 5.36667,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "spelle-venhaus": {
+        "city": "",
+        "country": "",
+        "id": "spelle-venhaus",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "ssc-giugliano": {
+        "city": "",
+        "country": "",
+        "id": "ssc-giugliano",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "st-blazey": {
+        "city": "",
+        "country": "",
+        "id": "st-blazey",
+        "lat": 50.36334,
+        "lon": -4.71893,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "st-neots-town": {
+        "city": "",
+        "country": "",
+        "id": "st-neots-town",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -10069,6 +11109,36 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "tobol-kostanay": {
+        "city": "",
+        "country": "",
+        "id": "tobol-kostanay",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "tottenham-hotspur": {
+        "city": "",
+        "country": "",
+        "id": "tottenham-hotspur",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "touring": {
+        "city": "",
+        "country": "",
+        "id": "touring",
+        "lat": 13.6252,
+        "lon": 6.52746,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "uniao-da-serra": {
         "city": "",
         "country": "",
@@ -10079,10 +11149,10 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "us-sestri-levante": {
+    "unionistas-de-salamanca": {
         "city": "",
         "country": "",
-        "id": "us-sestri-levante",
+        "id": "unionistas-de-salamanca",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -10109,12 +11179,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "volos-nfc": {
+    "walsham-le-willows": {
         "city": "",
         "country": "",
-        "id": "volos-nfc",
-        "lat": 0.0,
-        "lon": 0.0,
+        "id": "walsham-le-willows",
+        "lat": 52.30236,
+        "lon": 0.93083,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -10125,6 +11195,26 @@
         "id": "wells-city",
         "lat": 41.10603,
         "lon": -114.97116,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "werder-bremen": {
+        "city": "",
+        "country": "",
+        "id": "werder-bremen",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "west-auckland-town-fc": {
+        "city": "",
+        "country": "",
+        "id": "west-auckland-town-fc",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -10165,6 +11255,16 @@
         "id": "wick",
         "lat": 51.43944,
         "lon": -3.54944,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "yaxley": {
+        "city": "",
+        "country": "",
+        "id": "yaxley",
+        "lat": 52.51768,
+        "lon": -0.25852,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
