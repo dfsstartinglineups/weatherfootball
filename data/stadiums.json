@@ -9329,16 +9329,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "abbey-hulton-unitefd": {
-        "city": "",
-        "country": "",
-        "id": "abbey-hulton-unitefd",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "ad-san-juan": {
         "city": "",
         "country": "",
@@ -9409,16 +9399,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "amersham-town": {
-        "city": "",
-        "country": "",
-        "id": "amersham-town",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "amorebieta": {
         "city": "",
         "country": "",
@@ -9459,32 +9439,12 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "ashby-ivanhoe": {
-        "city": "",
-        "country": "",
-        "id": "ashby-ivanhoe",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "ashington": {
         "city": "",
         "country": "",
         "id": "ashington",
         "lat": 55.17719,
         "lon": -1.56412,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "atherton-collieries": {
-        "city": "",
-        "country": "",
-        "id": "atherton-collieries",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9605,16 +9565,6 @@
         "id": "broadbridge-heath",
         "lat": 51.07223,
         "lon": -0.36019,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "broadfields-united": {
-        "city": "",
-        "country": "",
-        "id": "broadfields-united",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -9759,26 +9709,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "dearne-district": {
-        "city": "",
-        "country": "",
-        "id": "dearne-district",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "downham-town": {
-        "city": "",
-        "country": "",
-        "id": "downham-town",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "droylsden": {
         "city": "",
         "country": "",
@@ -9849,16 +9779,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "fc-st-helens": {
-        "city": "",
-        "country": "",
-        "id": "fc-st-helens",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "fiorentina": {
         "city": "",
         "country": "",
@@ -9909,16 +9829,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "gangwon-fc": {
-        "city": "",
-        "country": "",
-        "id": "gangwon-fc",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "ghana": {
         "city": "",
         "country": "",
@@ -9945,26 +9855,6 @@
         "id": "girona",
         "lat": 41.98311,
         "lon": 2.82493,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "glossop-north-end": {
-        "city": "",
-        "country": "",
-        "id": "glossop-north-end",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "golcar-united": {
-        "city": "",
-        "country": "",
-        "id": "golcar-united",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -10069,16 +9959,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "hereford-pegasus": {
-        "city": "",
-        "country": "",
-        "id": "hereford-pegasus",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "herne-bay": {
         "city": "",
         "country": "",
@@ -10105,16 +9985,6 @@
         "id": "histon",
         "lat": 52.25166,
         "lon": 0.10643,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "hollands-blair": {
-        "city": "",
-        "country": "",
-        "id": "hollands-blair",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -10369,16 +10239,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "march-town-united": {
-        "city": "",
-        "country": "",
-        "id": "march-town-united",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "marlow": {
         "city": "",
         "country": "",
@@ -10415,16 +10275,6 @@
         "id": "mossley",
         "lat": 53.51454,
         "lon": -2.03462,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "nantwich-town": {
-        "city": "",
-        "country": "",
-        "id": "nantwich-town",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -10529,16 +10379,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "ossett-united": {
-        "city": "",
-        "country": "",
-        "id": "ossett-united",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "pagham": {
         "city": "",
         "country": "",
@@ -10609,26 +10449,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "potton-united": {
-        "city": "",
-        "country": "",
-        "id": "potton-united",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "raynes-park-vale": {
-        "city": "",
-        "country": "",
-        "id": "raynes-park-vale",
-        "lat": 0.0,
-        "lon": 0.0,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "reddis": {
         "city": "",
         "country": "",
@@ -10685,16 +10505,6 @@
         "id": "rusthall",
         "lat": 51.13643,
         "lon": 0.22931,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "saffron-walden-town": {
-        "city": "",
-        "country": "",
-        "id": "saffron-walden-town",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -10815,16 +10625,6 @@
         "id": "st-blazey",
         "lat": 50.36334,
         "lon": -4.71893,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "st-neots-town": {
-        "city": "",
-        "country": "",
-        "id": "st-neots-town",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -10955,16 +10755,6 @@
         "id": "wells-city",
         "lat": 41.10603,
         "lon": -114.97116,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "west-auckland-town-fc": {
-        "city": "",
-        "country": "",
-        "id": "west-auckland-town-fc",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
