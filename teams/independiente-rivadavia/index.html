@@ -75,7 +75,8 @@
             
             <div class="d-flex align-items-center gap-2 flex-wrap">
                 <input list="league-search-options" id="league-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🏆 League..." onchange="if(this.value) { const opt = document.querySelector('#league-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
-                <datalist id="league-search-options"><option value="AFC Champions League Elite Qualifying" data-url="/leagues/afc-champions-league-elite-qualifying/"></option>
+                <datalist id="league-search-options"><option value="AFC Champions League Elite" data-url="/leagues/afc-champions-league-elite/"></option>
+<option value="AFC Champions League Elite Qualifying" data-url="/leagues/afc-champions-league-elite-qualifying/"></option>
 <option value="ASEAN Championship" data-url="/leagues/asean-championship/"></option>
 <option value="Argentine LPF" data-url="/leagues/argentine-lpf/"></option>
 <option value="Argentine Liga Profesional de Fútbol" data-url="/leagues/argentine-liga-profesional-de-futbol/"></option>
@@ -108,6 +109,7 @@
 <option value="Eng League_Cup" data-url="/leagues/eng-league-cup/"></option>
 <option value="English Carabao Cup" data-url="/leagues/english-carabao-cup/"></option>
 <option value="English FA Community Shield" data-url="/leagues/english-fa-community-shield/"></option>
+<option value="English FA Cup" data-url="/leagues/english-fa-cup/"></option>
 <option value="English FA Cup Qualifying" data-url="/leagues/english-fa-cup-qualifying/"></option>
 <option value="English Premier League" data-url="/leagues/english-premier-league/"></option>
 <option value="Esp 1" data-url="/leagues/esp-1/"></option>
@@ -1997,7 +1999,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T22:00Z" style="font-size: 0.65rem;">Aug 11, 10:00 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️28% 🌡️66° 💨5mph
+                        🌧️30% 🌡️65° 💨4mph
                     </div>
                 </div>
                 
@@ -2049,52 +2051,52 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">66°F</div>
+                <div class="fw-bold">65°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 82%</div>
+                <div class="fw-bold text-dark">💧 83%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">28%</div>
+                <div class="fw-bold text-primary">30%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
         <div class="hourly-scroll-container">
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T21:00:00Z">9PM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">28%</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">30%</div>
+                    <div class="hour-temp">65°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T22:00:00Z">10PM</div>
                     <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">26%</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-pop">28%</div>
+                    <div class="hour-temp">65°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T23:00:00Z">11PM</div>
                     <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">25%</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-pop">26%</div>
+                    <div class="hour-temp">65°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T00:00:00Z">12AM</div>
                     <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">26%</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-pop">27%</div>
+                    <div class="hour-temp">65°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T01:00:00Z">1AM</div>
                     <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">25%</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-pop">26%</div>
+                    <div class="hour-temp">65°</div>
                 </div></div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=-22.90642&lon=-43.18223&detailLat=-22.90642&detailLon=-43.18223&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Estadio do Maracana')">

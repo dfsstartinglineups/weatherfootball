@@ -80,7 +80,8 @@
             
             <div class="d-flex align-items-center gap-2 flex-wrap">
                 <input list="league-search-options" id="league-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🏆 League..." onchange="if(this.value) { const opt = document.querySelector('#league-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
-                <datalist id="league-search-options"><option value="AFC Champions League Elite Qualifying" data-url="/leagues/afc-champions-league-elite-qualifying/"></option>
+                <datalist id="league-search-options"><option value="AFC Champions League Elite" data-url="/leagues/afc-champions-league-elite/"></option>
+<option value="AFC Champions League Elite Qualifying" data-url="/leagues/afc-champions-league-elite-qualifying/"></option>
 <option value="ASEAN Championship" data-url="/leagues/asean-championship/"></option>
 <option value="Argentine LPF" data-url="/leagues/argentine-lpf/"></option>
 <option value="Argentine Liga Profesional de Fútbol" data-url="/leagues/argentine-liga-profesional-de-futbol/"></option>
@@ -113,6 +114,7 @@
 <option value="Eng League_Cup" data-url="/leagues/eng-league-cup/"></option>
 <option value="English Carabao Cup" data-url="/leagues/english-carabao-cup/"></option>
 <option value="English FA Community Shield" data-url="/leagues/english-fa-community-shield/"></option>
+<option value="English FA Cup" data-url="/leagues/english-fa-cup/"></option>
 <option value="English FA Cup Qualifying" data-url="/leagues/english-fa-cup-qualifying/"></option>
 <option value="English Premier League" data-url="/leagues/english-premier-league/"></option>
 <option value="Esp 1" data-url="/leagues/esp-1/"></option>
@@ -1995,7 +1997,7 @@
             <div>
                 <select class="form-select form-select-sm fw-bold shadow-sm text-secondary" style="max-width: 240px; border-radius: 20px; font-size: 0.8rem;" onchange="if(this.value) { const target = document.getElementById(this.value); if(target) target.scrollIntoView({behavior: 'smooth', block: 'start'}); }">
                     <option value="" selected disabled>⚽ Jump to League...</option>
-                    <option value="league-section-afc-champions-league-elite-qualifying">AFC Champions League Elite Qualifying</option>
+                    <option value="league-section-afc-champions-league-elite">AFC Champions League Elite</option>
                     <option value="league-section-argentine-liga-profesional-de-futbol">Argentine Liga Profesional de Fútbol</option>
                     <option value="league-section-brazilian-serie-b">Brazilian Serie B</option>
                     <option value="league-section-conmebol-libertadores">CONMEBOL Libertadores</option>
@@ -2003,7 +2005,7 @@
                     <option value="league-section-club-friendly">Club Friendly</option>
                     <option value="league-section-colombian-primera-a">Colombian Primera A</option>
                     <option value="league-section-concacaf-central-american-cup">Concacaf Central American Cup</option>
-                    <option value="league-section-english-fa-cup-qualifying">English FA Cup Qualifying</option>
+                    <option value="league-section-english-fa-cup">English FA Cup</option>
                     <option value="league-section-leagues-cup">Leagues Cup</option>
                     <option value="league-section-scottish-league-challenge-cup">Scottish League Challenge Cup</option>
                     <option value="league-section-south-african-premiership">South African Premiership</option>
@@ -2021,9 +2023,9 @@
         </div>
         <div class="row w-100 m-0 p-0 justify-content-start">
 
-            <div class="col-12 w-100 px-1" id="league-section-afc-champions-league-elite-qualifying">
+            <div class="col-12 w-100 px-1" id="league-section-afc-champions-league-elite">
                 <div class="league-section-title">
-                    <a href="/leagues/afc-champions-league-elite-qualifying/"><img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png" style="width: 20px; height: 20px; object-fit: contain; margin-right: 6px;" onerror="this.style.display='none'">AFC Champions League Elite Qualifying <span style="font-size: 0.65rem; margin-left: 4px;">➔</span></a>
+                    <a href="/leagues/afc-champions-league-elite/"><img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png" style="width: 20px; height: 20px; object-fit: contain; margin-right: 6px;" onerror="this.style.display='none'">AFC Champions League Elite <span style="font-size: 0.65rem; margin-left: 4px;">➔</span></a>
                 </div>
             </div>
     <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401898709">
@@ -2035,7 +2037,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 0-2</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️100% 🌡️51° 💨9mph
+                        🌧️59% 🌡️51° 💨9mph
                     </div>
                 </div>
                 
@@ -2059,7 +2061,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">AFC Champions League Elite Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">AFC Champions League Elite</span>
                     </div>
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 0-2</span>
                 </div>
@@ -2095,7 +2097,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">100%</div>
+                <div class="fw-bold text-primary">59%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -2113,8 +2115,8 @@
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T15:30:00Z">3PM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">100%</div>
-                    <div class="hour-temp">50°</div>
+                    <div class="hour-pop">50%</div>
+                    <div class="hour-temp">53°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T16:30:00Z">4PM</div>
@@ -2170,7 +2172,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">AFC Champions League Elite Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">AFC Champions League Elite</span>
                     </div>
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 0-1</span>
                 </div>
@@ -2211,7 +2213,7 @@
                 
                 <!-- Top Line: Time Badge & Weather (Left aligned together) -->
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">44' &nbsp;|&nbsp; 2-0</span>
+                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">HT &nbsp;|&nbsp; 2-0</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
                         🌧️3% 🌡️95° 💨6mph
                     </div>
@@ -2237,9 +2239,9 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">AFC Champions League Elite Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">AFC Champions League Elite</span>
                     </div>
-                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">44' &nbsp;|&nbsp; 2-0</span>
+                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">HT &nbsp;|&nbsp; 2-0</span>
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -2354,7 +2356,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">AFC Champions League Elite Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">AFC Champions League Elite</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T16:00Z" style="font-size: 0.65rem;">Aug 11, 04:00 PM UTC</span>
                 </div>
@@ -2696,7 +2698,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T22:00Z" style="font-size: 0.65rem;">Aug 11, 10:00 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️28% 🌡️66° 💨5mph
+                        🌧️30% 🌡️65° 💨4mph
                     </div>
                 </div>
                 
@@ -2748,52 +2750,52 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">66°F</div>
+                <div class="fw-bold">65°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 82%</div>
+                <div class="fw-bold text-dark">💧 83%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">28%</div>
+                <div class="fw-bold text-primary">30%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
         <div class="hourly-scroll-container">
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T21:00:00Z">9PM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">28%</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">30%</div>
+                    <div class="hour-temp">65°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T22:00:00Z">10PM</div>
                     <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">26%</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-pop">28%</div>
+                    <div class="hour-temp">65°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T23:00:00Z">11PM</div>
                     <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">25%</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-pop">26%</div>
+                    <div class="hour-temp">65°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T00:00:00Z">12AM</div>
                     <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">26%</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-pop">27%</div>
+                    <div class="hour-temp">65°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T01:00:00Z">1AM</div>
                     <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">25%</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-pop">26%</div>
+                    <div class="hour-temp">65°</div>
                 </div></div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=-22.90642&lon=-43.18223&detailLat=-22.90642&detailLon=-43.18223&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Estadio do Maracana')">
@@ -3052,7 +3054,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T22:00Z" style="font-size: 0.65rem;">Aug 11, 10:00 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️18% 🌡️49° 💨15mph
+                        🌧️19% 🌡️50° 💨15mph
                     </div>
                 </div>
                 
@@ -3104,7 +3106,7 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">49°F</div>
+                <div class="fw-bold">50°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -3112,7 +3114,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">18%</div>
+                <div class="fw-bold text-primary">19%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -3131,19 +3133,19 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T22:00:00Z">10PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">49°</div>
+                    <div class="hour-temp">50°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T23:00:00Z">11PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">49°</div>
+                    <div class="hour-temp">50°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T00:00:00Z">12AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">49°</div>
+                    <div class="hour-temp">50°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T01:00:00Z">1AM</div>
@@ -3291,7 +3293,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 2-0</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️6% 🌡️55° 💨7mph
+                        🌧️11% 🌡️52° 💨5mph
                     </div>
                 </div>
                 
@@ -3343,52 +3345,46 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">55°F</div>
+                <div class="fw-bold">52°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 61%</div>
+                <div class="fw-bold text-dark">💧 71%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">6%</div>
+                <div class="fw-bold text-primary">11%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
         <div class="hourly-scroll-container">
                 <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T09:00:00Z">9AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T16:00:00Z">4PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">57°</div>
+                    <div class="hour-temp">52°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T10:00:00Z">10AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00:00Z">5PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">55°</div>
+                    <div class="hour-temp">51°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T11:00:00Z">11AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00:00Z">6PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">55°</div>
+                    <div class="hour-temp">50°</div>
                 </div>
                 <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T12:00:00Z">12PM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T19:00:00Z">7PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">54°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-11T13:00:00Z">1PM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">53°</div>
+                    <div class="hour-temp">49°</div>
                 </div></div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=-31.95224&lon=115.8614&detailLat=-31.95224&detailLon=115.8614&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Optus Stadium')">
@@ -4513,9 +4509,9 @@
             </div>
         </div>
     </div>
-            <div class="col-12 w-100 px-1" id="league-section-english-fa-cup-qualifying">
+            <div class="col-12 w-100 px-1" id="league-section-english-fa-cup">
                 <div class="league-section-title">
-                    <a href="/leagues/english-fa-cup-qualifying/"><img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 20px; height: 20px; object-fit: contain; margin-right: 6px;" onerror="this.style.display='none'">English FA Cup Qualifying <span style="font-size: 0.65rem; margin-left: 4px;">➔</span></a>
+                    <a href="/leagues/english-fa-cup/"><img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 20px; height: 20px; object-fit: contain; margin-right: 6px;" onerror="this.style.display='none'">English FA Cup <span style="font-size: 0.65rem; margin-left: 4px;">➔</span></a>
                 </div>
             </div>
     <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401907062">
@@ -4551,7 +4547,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:30Z" style="font-size: 0.65rem;">Aug 11, 06:30 PM UTC</span>
                 </div>
@@ -4618,7 +4614,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:30Z" style="font-size: 0.65rem;">Aug 11, 06:30 PM UTC</span>
                 </div>
@@ -4735,7 +4731,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:30Z" style="font-size: 0.65rem;">Aug 11, 06:30 PM UTC</span>
                 </div>
@@ -4852,7 +4848,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:30Z" style="font-size: 0.65rem;">Aug 11, 06:30 PM UTC</span>
                 </div>
@@ -4919,7 +4915,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 0-0</span>
                 </div>
@@ -4986,7 +4982,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -5103,7 +5099,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -5170,7 +5166,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -5237,7 +5233,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -5304,7 +5300,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -5371,7 +5367,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -5420,7 +5416,7 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00:00Z">5PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">84°</div>
+                    <div class="hour-temp">83°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00:00Z">6PM</div>
@@ -5432,19 +5428,19 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T19:00:00Z">7PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">78°</div>
+                    <div class="hour-temp">76°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T20:00:00Z">8PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">73°</div>
+                    <div class="hour-temp">71°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T21:00:00Z">9PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">71°</div>
+                    <div class="hour-temp">68°</div>
                 </div></div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=53.48005&lon=-2.14543&detailLat=53.48005&detailLon=-2.14543&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Venue Unlisted')">
@@ -5488,7 +5484,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -5555,7 +5551,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -5622,7 +5618,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -5689,7 +5685,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -5806,7 +5802,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -5873,7 +5869,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -5990,7 +5986,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -6107,7 +6103,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -6174,7 +6170,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -6241,7 +6237,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -6358,7 +6354,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -6425,7 +6421,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -6492,7 +6488,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -6559,7 +6555,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -6676,7 +6672,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -6743,7 +6739,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -6860,7 +6856,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -6977,7 +6973,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -7044,7 +7040,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -7161,7 +7157,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T18:45Z" style="font-size: 0.65rem;">Aug 11, 06:45 PM UTC</span>
                 </div>
@@ -7278,7 +7274,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T19:00Z" style="font-size: 0.65rem;">Aug 11, 07:00 PM UTC</span>
                 </div>
@@ -7345,7 +7341,7 @@
                 <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
                     <div class="d-flex align-items-center text-truncate">
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/40.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup Qualifying</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">English FA Cup</span>
                     </div>
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T19:00Z" style="font-size: 0.65rem;">Aug 11, 07:00 PM UTC</span>
                 </div>
@@ -10272,7 +10268,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T17:30Z" style="font-size: 0.65rem;">Aug 11, 05:30 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️77% 🌡️40° 💨16mph
+                        🌧️100% 🌡️40° 💨17mph
                     </div>
                 </div>
                 
@@ -10332,11 +10328,11 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">77%</div>
+                <div class="fw-bold text-primary">100%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">16 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">17 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -10344,25 +10340,25 @@
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T16:00:00Z">4PM</div>
                     <div class="hour-icon">🌨️</div>
-                    <div class="hour-pop">76%</div>
+                    <div class="hour-pop">100%</div>
                     <div class="hour-temp">40°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00:00Z">5PM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">33%</div>
+                    <div class="hour-pop">34%</div>
                     <div class="hour-temp">40°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T18:00:00Z">6PM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">48%</div>
+                    <div class="hour-pop">47%</div>
                     <div class="hour-temp">40°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T19:00:00Z">7PM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">70%</div>
+                    <div class="hour-pop">66%</div>
                     <div class="hour-temp">40°</div>
                 </div>
                 <div class="hour-card">
@@ -10529,7 +10525,7 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T16:00:00Z">4PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">54°</div>
+                    <div class="hour-temp">58°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00:00Z">5PM</div>
@@ -10573,7 +10569,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-11T17:30Z" style="font-size: 0.65rem;">Aug 11, 05:30 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️55% 🌡️50° 💨5mph
+                        🌧️100% 🌡️50° 💨5mph
                     </div>
                 </div>
                 
@@ -10633,7 +10629,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">55%</div>
+                <div class="fw-bold text-primary">100%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -10645,7 +10641,7 @@
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T16:00:00Z">4PM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">47%</div>
+                    <div class="hour-pop">100%</div>
                     <div class="hour-temp">50°</div>
                 </div>
                 <div class="hour-card">
@@ -10693,7 +10689,7 @@
                 
                 <!-- Top Line: Time Badge & Weather (Left aligned together) -->
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">44' &nbsp;|&nbsp; 0-1</span>
+                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">HT &nbsp;|&nbsp; 0-1</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
                         🌧️0% 🌡️87° 💨3mph
                     </div>
@@ -10721,7 +10717,7 @@
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Champions League Qualifying</span>
                     </div>
-                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">44' &nbsp;|&nbsp; 0-1</span>
+                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">HT &nbsp;|&nbsp; 0-1</span>
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -10780,7 +10776,7 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T16:00:00Z">4PM</div>
                     <div class="hour-icon">☀️</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">86°</div>
+                    <div class="hour-temp">88°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T17:00:00Z">5PM</div>
@@ -12181,13 +12177,13 @@
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T15:00:00Z">3PM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">100%</div>
-                    <div class="hour-temp">73°</div>
+                    <div class="hour-pop">70%</div>
+                    <div class="hour-temp">76°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-11T16:00:00Z">4PM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">29%</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">100%</div>
                     <div class="hour-temp">72°</div>
                 </div>
                 <div class="hour-card">
