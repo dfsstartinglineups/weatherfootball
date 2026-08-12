@@ -3389,16 +3389,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11334": {
-        "city": "",
-        "country": "USA",
-        "id": "11334",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Sean Sweeney Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11337": {
         "city": "",
         "country": "USA",
@@ -10625,6 +10615,16 @@
         "id": "campion",
         "lat": 40.34943,
         "lon": -105.07776,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "caudal-deportivo": {
+        "city": "",
+        "country": "",
+        "id": "caudal-deportivo",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
