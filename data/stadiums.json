@@ -3189,16 +3189,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11225": {
-        "city": "",
-        "country": "USA",
-        "id": "11225",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "FAU Soccer Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11228": {
         "city": "",
         "country": "USA",
@@ -3526,6 +3516,16 @@
         "lat": 38.67351,
         "lon": 29.4058,
         "name": "GW Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11400": {
+        "city": "",
+        "country": "USA",
+        "id": "11400",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Park Ave Field",
         "roof": "Open",
         "surface": "Grass"
     },
