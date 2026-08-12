@@ -3069,16 +3069,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11192": {
-        "city": "",
-        "country": "USA",
-        "id": "11192",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Dorrance Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11193": {
         "city": "",
         "country": "USA",
@@ -3396,6 +3386,16 @@
         "lat": 36.88154,
         "lon": -76.31355,
         "name": "Powhatan Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11334": {
+        "city": "",
+        "country": "USA",
+        "id": "11334",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Sean Sweeney Field",
         "roof": "Open",
         "surface": "Grass"
     },
