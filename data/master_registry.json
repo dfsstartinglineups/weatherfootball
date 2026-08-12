@@ -122,7 +122,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529724.447296,
+            "last_updated": 1786530624.681862,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -146,7 +146,7 @@
         },
         "concacaf-central-american-cup": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529728.081796,
+            "last_updated": 1786530627.904328,
             "logo": "\ud83c\udf0e",
             "name": "Concacaf Central American Cup",
             "pill": "concacaf.central.american.cup",
@@ -154,7 +154,7 @@
         },
         "conmebol-libertadores": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529725.175833,
+            "last_updated": 1786530625.257172,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/58.png",
             "name": "CONMEBOL Libertadores",
             "pill": "conmebol.libertadores",
@@ -162,7 +162,7 @@
         },
         "conmebol-sudamericana": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529727.462309,
+            "last_updated": 1786530627.335335,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png",
             "name": "CONMEBOL Sudamericana",
             "pill": "conmebol.sudamericana",
@@ -170,7 +170,7 @@
         },
         "copa-argentina": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529727.49465,
+            "last_updated": 1786530627.383744,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2320.png",
             "name": "Copa Argentina",
             "pill": "arg.copa",
@@ -186,7 +186,7 @@
         },
         "copa-colombia": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529727.670814,
+            "last_updated": 1786530627.533342,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2332.png",
             "name": "Copa Colombia",
             "pill": "col.copa",
@@ -266,7 +266,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786529758.77125,
+            "last_updated": 1786530653.113117,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -274,7 +274,7 @@
         },
         "english-fa-community-shield": {
             "last_crossover_date": "",
-            "last_updated": 1786529762.35214,
+            "last_updated": 1786530656.009606,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English FA Community Shield",
             "pill": "eng.charity",
@@ -298,7 +298,7 @@
         },
         "english-premier-league": {
             "last_crossover_date": "",
-            "last_updated": 1786529755.031467,
+            "last_updated": 1786530650.099538,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -346,7 +346,7 @@
         },
         "leagues-cup": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529771.048859,
+            "last_updated": 1786530662.997696,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png",
             "name": "Leagues Cup",
             "pill": "concacaf.leagues.cup",
@@ -402,7 +402,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786529770.318622,
+            "last_updated": 1786530662.433155,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -410,7 +410,7 @@
         },
         "ncaa-womens-soccer": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529752.298598,
+            "last_updated": 1786530647.834589,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -506,7 +506,7 @@
         },
         "scottish-league-challenge-cup": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529727.12444,
+            "last_updated": 1786530627.055441,
             "logo": "https://flagcdn.com/w40/gb-sct.png",
             "name": "Scottish League Challenge Cup",
             "pill": "sco.challenge",
@@ -522,7 +522,7 @@
         },
         "south-african-premiership": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529728.97872,
+            "last_updated": 1786530628.643191,
             "logo": "\ud83c\udf0d",
             "name": "South African Premiership",
             "pill": "rsa.1",
@@ -530,7 +530,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "",
-            "last_updated": 1786529762.174589,
+            "last_updated": 1786530655.867076,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -570,7 +570,7 @@
         },
         "uefa-conference-league-qualifying": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529726.947914,
+            "last_updated": 1786530626.913178,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/20296.png",
             "name": "UEFA Conference League Qualifying",
             "pill": "uefa.europa.conf_qual",
@@ -586,7 +586,7 @@
         },
         "uefa-super-cup": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529725.352038,
+            "last_updated": 1786530625.398042,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Super Cup",
             "pill": "uefa.super_cup",
@@ -618,7 +618,7 @@
         },
         "usl-cup": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529726.233974,
+            "last_updated": 1786530626.140346,
             "logo": "\ud83c\udfc6",
             "name": "USL Cup",
             "pill": "usa.usl.l1.cup",
@@ -626,7 +626,7 @@
         },
         "usl-league-one": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529725.527191,
+            "last_updated": 1786530625.555749,
             "logo": "",
             "name": "USL League One",
             "pill": "usa.usl.l1",
@@ -642,7 +642,7 @@
         },
         "womens-africa-cup-of-nations": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786529726.583845,
+            "last_updated": 1786530626.425574,
             "logo": "\ud83c\udf0d",
             "name": "Women's Africa Cup of Nations",
             "pill": "caf.w.nations",
