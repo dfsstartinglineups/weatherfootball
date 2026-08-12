@@ -1700,6 +1700,7 @@
 <option value="Polokwane City FC" data-url="/teams/polokwane-city-fc/"></option>
 <option value="Ponferradina" data-url="/teams/ponferradina/"></option>
 <option value="Ponte Preta" data-url="/teams/ponte-preta/"></option>
+<option value="Pontedera" data-url="/teams/pontedera/"></option>
 <option value="Port Vale" data-url="/teams/port-vale/"></option>
 <option value="Portishead Town" data-url="/teams/portishead-town/"></option>
 <option value="Portland Hearts of Pine" data-url="/teams/portland-hearts-of-pine/"></option>
@@ -2086,6 +2087,7 @@
 <option value="São Bernardo" data-url="/teams/sao-bernardo/"></option>
 <option value="São Paulo" data-url="/teams/sao-paulo/"></option>
 <option value="Sønderjyske Fodbold" data-url="/teams/snderjyske-fodbold/"></option>
+<option value="TAU ALTOPASCIO" data-url="/teams/tau-altopascio/"></option>
 <option value="TBD" data-url="/teams/tbd/"></option>
 <option value="TBD Away" data-url="/teams/tbd-away/"></option>
 <option value="TCU Women" data-url="/teams/tcu-women/"></option>
@@ -2743,6 +2745,73 @@
             </div>
         </div>
     </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401909470">
+        <div class="card game-card shadow-sm  bg-light">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 0-1</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        ⚠️No Weather Info
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">TAU ALTOPASCIO</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Pontedera</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span style="font-size: 1.1rem; margin-right: 6px; vertical-align: middle; line-height: 1;">🤝</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
+                    </div>
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 0-1</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Venue Unlisted</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/tau-altopascio/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">TAU ALTOPASCIO</a>
+                                <a href="https://futbolstartingeleven.com/teams/tau-altopascio/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/pontedera/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Pontedera</a>
+                                <a href="https://futbolstartingeleven.com/teams/pontedera/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="text-center p-3 mt-2 border-top">
+            <h6 class="text-warning fw-bold mb-1">⚠️ Weather Info Not Available</h6>
+            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium coordinates unlisted.</p>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401909239">
         <div class="card game-card shadow-sm  bg-weather-sunny">
             <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
@@ -2934,9 +3003,9 @@
                 
                 <!-- Top Line: Time Badge & Weather (Left aligned together) -->
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-12T16:00Z" style="font-size: 0.65rem;">Aug 12, 04:00 PM UTC</span>
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 3-1</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️9% 🌡️84° 💨6mph
+                        🌧️9% 🌡️81° 💨6mph
                     </div>
                 </div>
                 
@@ -2962,7 +3031,7 @@
                         <span style="font-size: 1.1rem; margin-right: 6px; vertical-align: middle; line-height: 1;">🤝</span>
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
                     </div>
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-12T16:00Z" style="font-size: 0.65rem;">Aug 12, 04:00 PM UTC</span>
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 3-1</span>
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -2988,11 +3057,11 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">84°F</div>
+                <div class="fw-bold">81°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 62%</div>
+                <div class="fw-bold text-dark">💧 66%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -3009,25 +3078,25 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T15:00:00Z">3PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">84°</div>
+                    <div class="hour-temp">82°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T16:00:00Z">4PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">84°</div>
+                    <div class="hour-temp">81°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T17:00:00Z">5PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">81°</div>
+                    <div class="hour-temp">79°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T18:00:00Z">6PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">78°</div>
+                    <div class="hour-temp">77°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T19:00:00Z">7PM</div>
@@ -3051,7 +3120,7 @@
                 
                 <!-- Top Line: Time Badge & Weather (Left aligned together) -->
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-12T16:00Z" style="font-size: 0.65rem;">Aug 12, 04:00 PM UTC</span>
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 2-2</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
                         🌧️5% 🌡️86° 💨13mph
                     </div>
@@ -3079,7 +3148,7 @@
                         <span style="font-size: 1.1rem; margin-right: 6px; vertical-align: middle; line-height: 1;">🤝</span>
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
                     </div>
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-12T16:00Z" style="font-size: 0.65rem;">Aug 12, 04:00 PM UTC</span>
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 2-2</span>
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -3168,7 +3237,7 @@
                 
                 <!-- Top Line: Time Badge & Weather (Left aligned together) -->
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-12T16:00Z" style="font-size: 0.65rem;">Aug 12, 04:00 PM UTC</span>
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 3-1</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
                         ⚠️No Weather Info
                     </div>
@@ -3196,7 +3265,7 @@
                         <span style="font-size: 1.1rem; margin-right: 6px; vertical-align: middle; line-height: 1;">🤝</span>
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
                     </div>
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-12T16:00Z" style="font-size: 0.65rem;">Aug 12, 04:00 PM UTC</span>
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 3-1</span>
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -3235,7 +3304,7 @@
                 
                 <!-- Top Line: Time Badge & Weather (Left aligned together) -->
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-12T16:15Z" style="font-size: 0.65rem;">Aug 12, 04:15 PM UTC</span>
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 1-3</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
                         ⚠️No Weather Info
                     </div>
@@ -3263,7 +3332,7 @@
                         <span style="font-size: 1.1rem; margin-right: 6px; vertical-align: middle; line-height: 1;">🤝</span>
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
                     </div>
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-12T16:15Z" style="font-size: 0.65rem;">Aug 12, 04:15 PM UTC</span>
+                    <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 1-3</span>
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -3731,7 +3800,7 @@
         </div>
     </div>
     <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401907175">
-        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+        <div class="card game-card shadow-sm border-danger border-3 bg-weather-storm">
             <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
                 
@@ -3739,7 +3808,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 0-3</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️39% 🌡️90° 💨6mph
+                        🌧️100% 🌡️90° 💨6mph
                     </div>
                 </div>
                 
@@ -3799,7 +3868,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">39%</div>
+                <div class="fw-bold text-primary">100%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -3823,7 +3892,7 @@
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T18:00:00Z">6PM</div>
                     <div class="hour-icon">⛈️</div>
-                    <div class="hour-pop">39%</div>
+                    <div class="hour-pop">100%</div>
                     <div class="hour-temp">88°</div>
                 </div>
                 <div class="hour-card">
@@ -4040,7 +4109,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-12T18:00Z" style="font-size: 0.65rem;">Aug 12, 06:00 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️1% 🌡️80° 💨0mph
+                        🌧️1% 🌡️80° 💨2mph
                     </div>
                 </div>
                 
@@ -4104,7 +4173,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">0 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>

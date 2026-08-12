@@ -3149,16 +3149,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11210": {
-        "city": "",
-        "country": "USA",
-        "id": "11210",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Queens Sports Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11212": {
         "city": "",
         "country": "USA",
@@ -11705,6 +11695,16 @@
         "id": "stotfold",
         "lat": 52.01632,
         "lon": -0.23209,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "tau-altopascio": {
+        "city": "",
+        "country": "",
+        "id": "tau-altopascio",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
