@@ -77,6 +77,7 @@
                 <input list="league-search-options" id="league-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🏆 League..." onchange="if(this.value) { const opt = document.querySelector('#league-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
                 <datalist id="league-search-options"><option value="AFC Champions League Elite" data-url="/leagues/afc-champions-league-elite/"></option>
 <option value="AFC Champions League Elite Qualifying" data-url="/leagues/afc-champions-league-elite-qualifying/"></option>
+<option value="AFC Champions League Two Qualifying" data-url="/leagues/afc-champions-league-two-qualifying/"></option>
 <option value="ASEAN Championship" data-url="/leagues/asean-championship/"></option>
 <option value="Argentine LPF" data-url="/leagues/argentine-lpf/"></option>
 <option value="Argentine Liga Profesional de Fútbol" data-url="/leagues/argentine-liga-profesional-de-futbol/"></option>
@@ -224,12 +225,12 @@
 <option value="Akron Tolyatti" data-url="/teams/akron-tolyatti/"></option>
 <option value="Akron Women" data-url="/teams/akron-women/"></option>
 <option value="Aktobe Women" data-url="/teams/aktobe-women/"></option>
-<option value="Al Arabi" data-url="/teams/al-arabi/"></option>
 <option value="Al Hussein" data-url="/teams/al-hussein/"></option>
 <option value="Al Ittihad" data-url="/teams/al-ittihad/"></option>
 <option value="Al Nassr" data-url="/teams/al-nassr/"></option>
 <option value="Al Sadd" data-url="/teams/al-sadd/"></option>
 <option value="Al Ula" data-url="/teams/al-ula/"></option>
+<option value="Al-Arabi" data-url="/teams/al-arabi/"></option>
 <option value="Al-Jazira" data-url="/teams/al-jazira/"></option>
 <option value="Alabama A&M Women" data-url="/teams/alabama-am-women/"></option>
 <option value="Alabama State Women" data-url="/teams/alabama-state-women/"></option>
@@ -293,6 +294,7 @@
 <option value="Aris Limassol" data-url="/teams/aris-limassol/"></option>
 <option value="Arizona State Women" data-url="/teams/arizona-state-women/"></option>
 <option value="Arizona Women" data-url="/teams/arizona-women/"></option>
+<option value="Arkadag" data-url="/teams/arkadag/"></option>
 <option value="Arkansas State Women" data-url="/teams/arkansas-state-women/"></option>
 <option value="Arkansas Women" data-url="/teams/arkansas-women/"></option>
 <option value="Arkansas-Pine Bluff Women" data-url="/teams/arkansas-pine-bluff-women/"></option>
@@ -877,6 +879,7 @@
 <option value="FC Emmen" data-url="/teams/fc-emmen/"></option>
 <option value="FC Famalicao" data-url="/teams/fc-famalicao/"></option>
 <option value="FC Gintra Women" data-url="/teams/fc-gintra-women/"></option>
+<option value="FC Goa" data-url="/teams/fc-goa/"></option>
 <option value="FC Groningen" data-url="/teams/fc-groningen/"></option>
 <option value="FC Hradec Králové" data-url="/teams/fc-hradec-kralove/"></option>
 <option value="FC Ilves" data-url="/teams/fc-ilves/"></option>
@@ -1848,6 +1851,7 @@
 <option value="Rusthall" data-url="/teams/rusthall/"></option>
 <option value="Rutgers Women" data-url="/teams/rutgers-women/"></option>
 <option value="SC Cambuur" data-url="/teams/sc-cambuur/"></option>
+<option value="SC East Bengal" data-url="/teams/sc-east-bengal/"></option>
 <option value="SC Freiburg" data-url="/teams/sc-freiburg/"></option>
 <option value="SC Genemuiden" data-url="/teams/sc-genemuiden/"></option>
 <option value="SC Paderborn 07" data-url="/teams/sc-paderborn-07/"></option>
@@ -2403,9 +2407,9 @@
                 
                 <!-- Top Line: Time Badge & Weather (Left aligned together) -->
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-12T16:00Z" style="font-size: 0.65rem;">Aug 12, 04:00 PM UTC</span>
+                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">15' &nbsp;|&nbsp; 1-0</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️6% 🌡️66° 💨3mph
+                        🌧️5% 🌡️69° 💨2mph
                     </div>
                 </div>
                 
@@ -2431,7 +2435,7 @@
                         <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/20296.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">UEFA Conference League Qualifying</span>
                     </div>
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-12T16:00Z" style="font-size: 0.65rem;">Aug 12, 04:00 PM UTC</span>
+                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">15' &nbsp;|&nbsp; 1-0</span>
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -2457,19 +2461,19 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">66°F</div>
+                <div class="fw-bold">69°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 52%</div>
+                <div class="fw-bold text-dark">💧 42%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">6%</div>
+                <div class="fw-bold text-primary">5%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -2478,25 +2482,25 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T15:00:00Z">3PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">67°</div>
+                    <div class="hour-temp">70°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T16:00:00Z">4PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-temp">69°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T17:00:00Z">5PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">66°</div>
+                    <div class="hour-temp">68°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T18:00:00Z">6PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">65°</div>
+                    <div class="hour-temp">66°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-12T19:00:00Z">7PM</div>

@@ -849,6 +849,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10452": {
+        "city": "Arkadag",
+        "country": "Turkmenistan",
+        "id": "10452",
+        "lat": 38.07127,
+        "lon": 58.06562,
+        "name": "Arkadag Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10453": {
         "city": "Tarlac",
         "country": "Philippines",
@@ -3509,16 +3519,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11400": {
-        "city": "",
-        "country": "USA",
-        "id": "11400",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Park Ave Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11402": {
         "city": "",
         "country": "USA",
@@ -4936,6 +4936,16 @@
         "lat": 45.43854,
         "lon": 10.9938,
         "name": "Stadio Marcantonio Bentegodi",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2617": {
+        "city": "Kolkata",
+        "country": "India",
+        "id": "2617",
+        "lat": 22.56263,
+        "lon": 88.36304,
+        "name": "Vivekananda Yuba Bharati Krirangan Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
