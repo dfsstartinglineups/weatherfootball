@@ -122,7 +122,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786518118.870578,
+            "last_updated": 1786518924.068833,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -146,7 +146,7 @@
         },
         "concacaf-central-american-cup": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786518100.296994,
+            "last_updated": 1786518927.471581,
             "logo": "\ud83c\udf0e",
             "name": "Concacaf Central American Cup",
             "pill": "concacaf.central.american.cup",
@@ -154,7 +154,7 @@
         },
         "conmebol-libertadores": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786518126.739831,
+            "last_updated": 1786518924.650437,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/58.png",
             "name": "CONMEBOL Libertadores",
             "pill": "conmebol.libertadores",
@@ -162,15 +162,15 @@
         },
         "conmebol-sudamericana": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786518124.972473,
+            "last_updated": 1786518926.878242,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png",
             "name": "CONMEBOL Sudamericana",
             "pill": "conmebol.sudamericana",
             "slug": "conmebol-sudamericana"
         },
         "copa-argentina": {
-            "last_crossover_date": "",
-            "last_updated": 1786518041.705544,
+            "last_crossover_date": "2026-08-12",
+            "last_updated": 1786518965.850345,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2320.png",
             "name": "Copa Argentina",
             "pill": "arg.copa",
@@ -186,7 +186,7 @@
         },
         "copa-colombia": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786518106.651193,
+            "last_updated": 1786518927.167679,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2332.png",
             "name": "Copa Colombia",
             "pill": "col.copa",
@@ -266,7 +266,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1786518077.879727,
+            "last_updated": 1786518954.606316,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -274,7 +274,7 @@
         },
         "english-fa-community-shield": {
             "last_crossover_date": "",
-            "last_updated": 1786518082.102078,
+            "last_updated": 1786518957.579199,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English FA Community Shield",
             "pill": "eng.charity",
@@ -298,7 +298,7 @@
         },
         "english-premier-league": {
             "last_crossover_date": "",
-            "last_updated": 1786518074.003245,
+            "last_updated": 1786518951.475807,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -346,7 +346,7 @@
         },
         "leagues-cup": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786518091.385518,
+            "last_updated": 1786518964.870451,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png",
             "name": "Leagues Cup",
             "pill": "concacaf.leagues.cup",
@@ -402,15 +402,15 @@
         },
         "mls": {
             "last_crossover_date": "2026-08-08",
-            "last_updated": 1786518090.299923,
+            "last_updated": 1786518964.300978,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
             "slug": "mls"
         },
         "ncaa-womens-soccer": {
-            "last_crossover_date": "",
-            "last_updated": 1786518071.141519,
+            "last_crossover_date": "2026-08-12",
+            "last_updated": 1786519170.949525,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -506,7 +506,7 @@
         },
         "scottish-league-challenge-cup": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786518130.338274,
+            "last_updated": 1786518926.421746,
             "logo": "https://flagcdn.com/w40/gb-sct.png",
             "name": "Scottish League Challenge Cup",
             "pill": "sco.challenge",
@@ -522,7 +522,7 @@
         },
         "south-african-premiership": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786518122.950736,
+            "last_updated": 1786518928.331222,
             "logo": "\ud83c\udf0d",
             "name": "South African Premiership",
             "pill": "rsa.1",
@@ -530,7 +530,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "",
-            "last_updated": 1786518081.442808,
+            "last_updated": 1786518957.431242,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -570,7 +570,7 @@
         },
         "uefa-conference-league-qualifying": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786518096.716371,
+            "last_updated": 1786518926.287283,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/20296.png",
             "name": "UEFA Conference League Qualifying",
             "pill": "uefa.europa.conf_qual",
@@ -585,8 +585,8 @@
             "slug": "uefa-europa-league-qualifying"
         },
         "uefa-super-cup": {
-            "last_crossover_date": "",
-            "last_updated": 1786518038.712582,
+            "last_crossover_date": "2026-08-12",
+            "last_updated": 1786518924.793306,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Super Cup",
             "pill": "uefa.super_cup",
@@ -617,8 +617,8 @@
             "slug": "usl-championship"
         },
         "usl-cup": {
-            "last_crossover_date": "",
-            "last_updated": 1786518040.204637,
+            "last_crossover_date": "2026-08-12",
+            "last_updated": 1786518925.606207,
             "logo": "\ud83c\udfc6",
             "name": "USL Cup",
             "pill": "usa.usl.l1.cup",
@@ -626,7 +626,7 @@
         },
         "usl-league-one": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786518104.008291,
+            "last_updated": 1786518924.943584,
             "logo": "",
             "name": "USL League One",
             "pill": "usa.usl.l1",
@@ -642,7 +642,7 @@
         },
         "womens-africa-cup-of-nations": {
             "last_crossover_date": "2026-08-12",
-            "last_updated": 1786518104.359668,
+            "last_updated": 1786518925.926443,
             "logo": "\ud83c\udf0d",
             "name": "Women's Africa Cup of Nations",
             "pill": "caf.w.nations",
@@ -714,6 +714,11 @@
             "league": "Scottish League Challenge Cup",
             "name": "Aberdeen B",
             "slug": "aberdeen-b"
+        },
+        "abilene-christian-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Abilene Christian Women",
+            "slug": "abilene-christian-women"
         },
         "abingdon-united": {
             "league": "English FA Cup Qualifying",
@@ -806,7 +811,7 @@
             "slug": "af-elbasani"
         },
         "afc-bournemouth": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "AFC Bournemouth",
             "slug": "afc-bournemouth"
         },
@@ -900,6 +905,11 @@
             "name": "AIK",
             "slug": "aik"
         },
+        "air-force-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Air Force Women",
+            "slug": "air-force-women"
+        },
         "airdrieonians": {
             "league": "Scottish League Challenge Cup",
             "name": "Airdrieonians",
@@ -934,6 +944,11 @@
             "league": "Russian Premier League",
             "name": "Akron Tolyatti",
             "slug": "akron-tolyatti"
+        },
+        "akron-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Akron Women",
+            "slug": "akron-women"
         },
         "aktobe-women": {
             "league": "UEFA Women's Champions League Qualifying",
@@ -980,6 +995,16 @@
             "name": "Alabama A&M Women",
             "slug": "alabama-am-women"
         },
+        "alabama-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Alabama State Women",
+            "slug": "alabama-state-women"
+        },
+        "alabama-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Alabama Women",
+            "slug": "alabama-women"
+        },
         "alajuelense": {
             "league": "Concacaf Central American Cup",
             "name": "Alajuelense",
@@ -1020,13 +1045,18 @@
             "name": "Albion Sports",
             "slug": "albion-sports"
         },
+        "alcorn-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Alcorn State Women",
+            "slug": "alcorn-state-women"
+        },
         "alcoyano": {
             "league": "Club Friendly",
             "name": "Alcoyano",
             "slug": "alcoyano"
         },
         "aldosivi": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "Copa Argentina",
             "name": "Aldosivi",
             "slug": "aldosivi"
         },
@@ -1130,6 +1160,11 @@
             "name": "Am\u00e9rica Mineiro",
             "slug": "america-mineiro"
         },
+        "american-university-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "American University Women",
+            "slug": "american-university-women"
+        },
         "amersham-town": {
             "league": "English FA Cup",
             "name": "Amersham Town",
@@ -1205,6 +1240,11 @@
             "name": "Apolonia Women",
             "slug": "apolonia-women"
         },
+        "app-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "App State Women",
+            "slug": "app-state-women"
+        },
         "ararat-armenia": {
             "league": "UEFA Champions League Qualifying",
             "name": "Ararat-Armenia",
@@ -1250,10 +1290,30 @@
             "name": "Aris Limassol",
             "slug": "aris-limassol"
         },
+        "arizona-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Arizona State Women",
+            "slug": "arizona-state-women"
+        },
+        "arizona-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Arizona Women",
+            "slug": "arizona-women"
+        },
+        "arkansas-pine-bluff-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Arkansas-Pine Bluff Women",
+            "slug": "arkansas-pine-bluff-women"
+        },
         "arkansas-state-women": {
             "league": "NCAA Women's Soccer",
             "name": "Arkansas State Women",
             "slug": "arkansas-state-women"
+        },
+        "arkansas-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Arkansas Women",
+            "slug": "arkansas-women"
         },
         "arlesey-town": {
             "league": "English FA Cup Qualifying",
@@ -1264,6 +1324,11 @@
             "league": "German 2. Bundesliga",
             "name": "Arminia Bielefeld",
             "slug": "arminia-bielefeld"
+        },
+        "army-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Army Women",
+            "slug": "army-women"
         },
         "arouca": {
             "league": "Portuguese Primeira Liga",
@@ -1336,7 +1401,7 @@
             "slug": "asteras-tripoli"
         },
         "aston-villa": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "Aston Villa",
             "slug": "aston-villa"
         },
@@ -1366,7 +1431,7 @@
             "slug": "athletic"
         },
         "athletic-club": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Athletic Club",
             "slug": "athletic-club"
         },
@@ -1376,7 +1441,7 @@
             "slug": "athletic-club-b"
         },
         "athletic-club-boise": {
-            "league": "USL League One",
+            "league": "Club Friendly",
             "name": "Athletic Club Boise",
             "slug": "athletic-club-boise"
         },
@@ -1441,7 +1506,7 @@
             "slug": "atletico-junior"
         },
         "atletico-madrid": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Atl\u00e9tico Madrid",
             "slug": "atletico-madrid"
         },
@@ -1626,7 +1691,7 @@
             "slug": "ballkani"
         },
         "banfield": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "Copa Argentina",
             "name": "Banfield",
             "slug": "banfield"
         },
@@ -1641,7 +1706,7 @@
             "slug": "barakaldo"
         },
         "barcelona": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Barcelona",
             "slug": "barcelona"
         },
@@ -1730,6 +1795,11 @@
             "name": "Bayern Munich",
             "slug": "bayern-munich"
         },
+        "baylor-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Baylor Women",
+            "slug": "baylor-women"
+        },
         "beaconsfield-town": {
             "league": "English FA Cup Qualifying",
             "name": "Beaconsfield Town",
@@ -1776,9 +1846,14 @@
             "slug": "beitar-jerusalem"
         },
         "belgrano-cordoba": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "Copa Argentina",
             "name": "Belgrano (C\u00f3rdoba)",
             "slug": "belgrano-cordoba"
+        },
+        "bellarmine-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Bellarmine Women",
+            "slug": "bellarmine-women"
         },
         "belmont-women": {
             "league": "NCAA Women's Soccer",
@@ -1854,6 +1929,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Binfield",
             "slug": "binfield"
+        },
+        "binghamton-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Binghamton Women",
+            "slug": "binghamton-women"
         },
         "birmingham-city": {
             "league": "English Carabao Cup",
@@ -1935,6 +2015,11 @@
             "name": "Bohemians",
             "slug": "bohemians"
         },
+        "boise-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Boise State Women",
+            "slug": "boise-state-women"
+        },
         "boldmere-st-michaels": {
             "league": "English FA Cup Qualifying",
             "name": "Boldmere St. Michaels",
@@ -2005,6 +2090,11 @@
             "name": "Boston Town",
             "slug": "boston-town"
         },
+        "boston-university-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Boston University Women",
+            "slug": "boston-university-women"
+        },
         "botafogo": {
             "league": "CONMEBOL Sudamericana",
             "name": "Botafogo",
@@ -2040,6 +2130,11 @@
             "name": "Bowers & Pitsea",
             "slug": "bowers-pitsea"
         },
+        "bowling-green-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Bowling Green Women",
+            "slug": "bowling-green-women"
+        },
         "boyaca-chico-fc": {
             "league": "Colombian Primera A",
             "name": "Boyac\u00e1 Chic\u00f3 FC",
@@ -2071,9 +2166,14 @@
             "slug": "breidablik-women"
         },
         "brentford": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Brentford",
             "slug": "brentford"
+        },
+        "brescia-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Brescia Women",
+            "slug": "brescia-women"
         },
         "brest": {
             "league": "Club Friendly",
@@ -2096,7 +2196,7 @@
             "slug": "brighlingsea-regent"
         },
         "brighton-hove-albion": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "Brighton & Hove Albion",
             "slug": "brighton-hove-albion"
         },
@@ -2170,6 +2270,16 @@
             "name": "Brown de Adrogu\u00e9",
             "slug": "brown-de-adrogue"
         },
+        "brown-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Brown Women",
+            "slug": "brown-women"
+        },
+        "bryant-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Bryant Women",
+            "slug": "bryant-women"
+        },
         "buckhurst-hill": {
             "league": "English FA Cup Qualifying",
             "name": "Buckhurst Hill",
@@ -2179,6 +2289,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Buckland Athletic",
             "slug": "buckland-athletic"
+        },
+        "bucknell-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Bucknell Women",
+            "slug": "bucknell-women"
         },
         "buffalo-women": {
             "league": "NCAA Women's Soccer",
@@ -2215,6 +2330,21 @@
             "name": "Burton Albion",
             "slug": "burton-albion"
         },
+        "bushnell-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Bushnell Women",
+            "slug": "bushnell-women"
+        },
+        "butler-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Butler Women",
+            "slug": "butler-women"
+        },
+        "byu-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "BYU Women",
+            "slug": "byu-women"
+        },
         "ca-independiente-siguatepeque": {
             "league": "Honduran Liga Nacional",
             "name": "CA Independiente Siguatepeque",
@@ -2229,6 +2359,26 @@
             "league": "Club Friendly",
             "name": "C\u00e1diz",
             "slug": "cadiz"
+        },
+        "cal-poly-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Cal Poly Women",
+            "slug": "cal-poly-women"
+        },
+        "cal-state-bakersfield-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Cal State Bakersfield Women",
+            "slug": "cal-state-bakersfield-women"
+        },
+        "cal-state-fullerton-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Cal State Fullerton Women",
+            "slug": "cal-state-fullerton-women"
+        },
+        "cal-state-northridge-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Cal State Northridge Women",
+            "slug": "cal-state-northridge-women"
         },
         "calgary-wild-fc": {
             "league": "Northern Super League",
@@ -2285,6 +2435,11 @@
             "name": "Camioneros",
             "slug": "camioneros"
         },
+        "campbell-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Campbell Women",
+            "slug": "campbell-women"
+        },
         "campion": {
             "league": "English FA Cup Qualifying",
             "name": "Campion",
@@ -2294,6 +2449,11 @@
             "league": "Mexican Liga de Expansi\u00f3n MX",
             "name": "Canc\u00fan FC",
             "slug": "cancun-fc"
+        },
+        "canisius-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Canisius Women",
+            "slug": "canisius-women"
         },
         "cape-verde": {
             "league": "Women's Africa Cup of Nations",
@@ -2455,6 +2615,16 @@
             "name": "Celtic B",
             "slug": "celtic-b"
         },
+        "central-arkansas-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Central Arkansas Women",
+            "slug": "central-arkansas-women"
+        },
+        "central-baptist-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Central Baptist Women",
+            "slug": "central-baptist-women"
+        },
         "central-connecticut-women": {
             "league": "NCAA Women's Soccer",
             "name": "Central Connecticut Women",
@@ -2469,6 +2639,11 @@
             "league": "Liga AUF Uruguaya",
             "name": "Central Espa\u00f1ol F\u00fatbol Club",
             "slug": "central-espanol-futbol-club"
+        },
+        "central-michigan-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Central Michigan Women",
+            "slug": "central-michigan-women"
         },
         "central-norte": {
             "league": "Argentine Nacional B",
@@ -2550,6 +2725,11 @@
             "name": "Charleston Battery",
             "slug": "charleston-battery"
         },
+        "charleston-southern-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Charleston Southern Women",
+            "slug": "charleston-southern-women"
+        },
         "charleston-women": {
             "league": "NCAA Women's Soccer",
             "name": "Charleston Women",
@@ -2561,9 +2741,14 @@
             "slug": "charlotte-fc"
         },
         "charlotte-independence": {
-            "league": "USL League One",
+            "league": "USL Cup",
             "name": "Charlotte Independence",
             "slug": "charlotte-independence"
+        },
+        "charlotte-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Charlotte Women",
+            "slug": "charlotte-women"
         },
         "charlton-athletic": {
             "league": "English Carabao Cup",
@@ -2596,7 +2781,7 @@
             "slug": "cheadle-town"
         },
         "chelsea": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "Chelsea",
             "slug": "chelsea"
         },
@@ -2629,6 +2814,11 @@
             "league": "NWSL",
             "name": "Chicago Stars FC Women",
             "slug": "chicago-stars-fc-women"
+        },
+        "chicago-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Chicago State Women",
+            "slug": "chicago-state-women"
         },
         "chiclana": {
             "league": "Club Friendly",
@@ -2720,6 +2910,11 @@
             "name": "Clevedon Town",
             "slug": "clevedon-town"
         },
+        "cleveland-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Cleveland State Women",
+            "slug": "cleveland-state-women"
+        },
         "clitheroe": {
             "league": "English FA Cup Qualifying",
             "name": "Clitheroe",
@@ -2780,6 +2975,11 @@
             "name": "Clydebank",
             "slug": "clydebank"
         },
+        "coastal-carolina-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Coastal Carolina Women",
+            "slug": "coastal-carolina-women"
+        },
         "coban-imperial": {
             "league": "Guatemalan Liga Nacional",
             "name": "Cob\u00e1n Imperial",
@@ -2815,6 +3015,11 @@
             "name": "Coleraine",
             "slug": "coleraine"
         },
+        "colgate-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Colgate Women",
+            "slug": "colgate-women"
+        },
         "colney-heath": {
             "league": "English FA Cup Qualifying",
             "name": "Colney Heath",
@@ -2830,6 +3035,11 @@
             "name": "Col\u00f3n (Santa Fe)",
             "slug": "colon-santa-fe"
         },
+        "colorado-college-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Colorado College Women",
+            "slug": "colorado-college-women"
+        },
         "colorado-rapids": {
             "league": "MLS",
             "name": "Colorado Rapids",
@@ -2839,6 +3049,26 @@
             "league": "USL Cup",
             "name": "Colorado Springs Switchbacks FC",
             "slug": "colorado-springs-switchbacks-fc"
+        },
+        "colorado-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Colorado State Women",
+            "slug": "colorado-state-women"
+        },
+        "colorado-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Colorado Women",
+            "slug": "colorado-women"
+        },
+        "columbia-sc-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Columbia (SC) Women",
+            "slug": "columbia-sc-women"
+        },
+        "columbia-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Columbia Women",
+            "slug": "columbia-women"
         },
         "columbus-crew": {
             "league": "MLS",
@@ -2864,6 +3094,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Concord Rangers",
             "slug": "concord-rangers"
+        },
+        "concord-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Concord Women",
+            "slug": "concord-women"
         },
         "cong-an-hanoi": {
             "league": "AFC Champions League Elite",
@@ -2930,6 +3165,11 @@
             "name": "Cornard United",
             "slug": "cornard-united"
         },
+        "cornell-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Cornell Women",
+            "slug": "cornell-women"
+        },
         "corpus-christi-fc": {
             "league": "USL League One",
             "name": "Corpus Christi FC",
@@ -2951,7 +3191,7 @@
             "slug": "cove-rangers"
         },
         "coventry-city": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Coventry City",
             "slug": "coventry-city"
         },
@@ -2989,6 +3229,11 @@
             "league": "Brazilian Serie B",
             "name": "CRB",
             "slug": "crb"
+        },
+        "creighton-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Creighton Women",
+            "slug": "creighton-women"
         },
         "cremonese": {
             "league": "Coppa Italia",
@@ -3110,10 +3355,25 @@
             "name": "Darlaston Town",
             "slug": "darlaston-town"
         },
+        "dartmouth-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Dartmouth Women",
+            "slug": "dartmouth-women"
+        },
         "daventry-town": {
             "league": "English FA Cup Qualifying",
             "name": "Daventry Town",
             "slug": "daventry-town"
+        },
+        "davidson-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Davidson Women",
+            "slug": "davidson-women"
+        },
+        "dayton-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Dayton Women",
+            "slug": "dayton-women"
         },
         "dc-united": {
             "league": "MLS",
@@ -3175,6 +3435,16 @@
             "name": "Degerfors IF",
             "slug": "degerfors-if"
         },
+        "delaware-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Delaware State Women",
+            "slug": "delaware-state-women"
+        },
+        "delaware-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Delaware Women",
+            "slug": "delaware-women"
+        },
         "delfin": {
             "league": "LigaPro Ecuador",
             "name": "Delf\u00edn",
@@ -3194,6 +3464,16 @@
             "league": "NWSL",
             "name": "Denver Summit FC Women",
             "slug": "denver-summit-fc-women"
+        },
+        "denver-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Denver Women",
+            "slug": "denver-women"
+        },
+        "depaul-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "DePaul Women",
+            "slug": "depaul-women"
         },
         "deportes-concepcion": {
             "league": "Chilean Primera Divisi\u00f3n",
@@ -3321,7 +3601,7 @@
             "slug": "deportivo-recoleta"
         },
         "deportivo-riestra": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "Copa Argentina",
             "name": "Deportivo Riestra",
             "slug": "deportivo-riestra"
         },
@@ -3359,6 +3639,11 @@
             "league": "USL Championship",
             "name": "Detroit City FC",
             "slug": "detroit-city-fc"
+        },
+        "detroit-mercy-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Detroit Mercy Women",
+            "slug": "detroit-mercy-women"
         },
         "devizes-town": {
             "league": "English FA Cup Qualifying",
@@ -3440,6 +3725,11 @@
             "name": "Downton",
             "slug": "downton"
         },
+        "drake-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Drake Women",
+            "slug": "drake-women"
+        },
         "drexel-women": {
             "league": "NCAA Women's Soccer",
             "name": "Drexel Women",
@@ -3469,6 +3759,11 @@
             "league": "UEFA Conference League Qualifying",
             "name": "Dukagjini",
             "slug": "dukagjini"
+        },
+        "duke-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Duke Women",
+            "slug": "duke-women"
         },
         "dumbarton": {
             "league": "Scottish League Challenge Cup",
@@ -3560,6 +3855,11 @@
             "name": "Easington Sports",
             "slug": "easington-sports"
         },
+        "east-carolina-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "East Carolina Women",
+            "slug": "east-carolina-women"
+        },
         "east-cowes-victoria-athletic": {
             "league": "English FA Cup Qualifying",
             "name": "East Cowes Victoria Athletic",
@@ -3585,6 +3885,11 @@
             "name": "East Tennessee State Women",
             "slug": "east-tennessee-state-women"
         },
+        "east-texas-am-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "East Texas A&M Women",
+            "slug": "east-texas-am-women"
+        },
         "eastbourne-town": {
             "league": "English FA Cup Qualifying",
             "name": "Eastbourne Town",
@@ -3595,6 +3900,11 @@
             "name": "Eastbourne United",
             "slug": "eastbourne-united"
         },
+        "eastern-illinois-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Eastern Illinois Women",
+            "slug": "eastern-illinois-women"
+        },
         "eastern-kentucky-women": {
             "league": "NCAA Women's Soccer",
             "name": "Eastern Kentucky Women",
@@ -3604,6 +3914,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Eastern Michigan Women",
             "slug": "eastern-michigan-women"
+        },
+        "eastern-washington-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Eastern Washington Women",
+            "slug": "eastern-washington-women"
         },
         "eastwood-community": {
             "league": "English FA Cup Qualifying",
@@ -3665,6 +3980,11 @@
             "name": "Elgin City",
             "slug": "elgin-city"
         },
+        "elon-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Elon Women",
+            "slug": "elon-women"
+        },
         "ely-city": {
             "league": "English FA Cup",
             "name": "Ely City",
@@ -3674,6 +3994,11 @@
             "league": "LigaPro Ecuador",
             "name": "Emelec",
             "slug": "emelec"
+        },
+        "emory-henry-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Emory & Henry Women",
+            "slug": "emory-henry-women"
         },
         "empoli": {
             "league": "Coppa Italia",
@@ -3770,6 +4095,11 @@
             "name": "Euxton Villa",
             "slug": "euxton-villa"
         },
+        "evansville-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Evansville Women",
+            "slug": "evansville-women"
+        },
         "everett-rovers": {
             "league": "English FA Cup",
             "name": "Everett Rovers",
@@ -3781,7 +4111,7 @@
             "slug": "eversley-california"
         },
         "everton": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Everton",
             "slug": "everton"
         },
@@ -3839,6 +4169,16 @@
             "league": "English FA Cup Qualifying",
             "name": "Fairford Town",
             "slug": "fairford-town"
+        },
+        "fairleigh-dickinson-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Fairleigh Dickinson Women",
+            "slug": "fairleigh-dickinson-women"
+        },
+        "fairmont-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Fairmont State Women",
+            "slug": "fairmont-state-women"
         },
         "fakel-voronezh": {
             "league": "Russian Premier League",
@@ -4215,10 +4555,25 @@
             "name": "Florida International Women",
             "slug": "florida-international-women"
         },
+        "florida-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Florida State Women",
+            "slug": "florida-state-women"
+        },
+        "florida-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Florida Women",
+            "slug": "florida-women"
+        },
         "fluminense": {
             "league": "CONMEBOL Libertadores",
             "name": "Fluminense",
             "slug": "fluminense"
+        },
+        "fordham-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Fordham Women",
+            "slug": "fordham-women"
         },
         "forest-row": {
             "league": "English FA Cup Qualifying",
@@ -4275,10 +4630,20 @@
             "name": "Frenford",
             "slug": "frenford"
         },
+        "fresno-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Fresno State Women",
+            "slug": "fresno-state-women"
+        },
         "frickley-athletic": {
             "league": "English FA Cup Qualifying",
             "name": "Frickley Athletic",
             "slug": "frickley-athletic"
+        },
+        "friends-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Friends Women",
+            "slug": "friends-women"
         },
         "frosinone": {
             "league": "Club Friendly",
@@ -4296,9 +4661,14 @@
             "slug": "fuerte-san-francisco"
         },
         "fulham": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "Fulham",
             "slug": "fulham"
+        },
+        "furman-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Furman Women",
+            "slug": "furman-women"
         },
         "gais": {
             "league": "Swedish Allsvenskan",
@@ -4325,6 +4695,11 @@
             "name": "Gangwon FC",
             "slug": "gangwon-fc"
         },
+        "gardner-webb-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Gardner-Webb Women",
+            "slug": "gardner-webb-women"
+        },
         "garforth-town": {
             "league": "English FA Cup",
             "name": "Garforth Town",
@@ -4350,15 +4725,35 @@
             "name": "Genoa",
             "slug": "genoa"
         },
+        "george-mason-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "George Mason Women",
+            "slug": "george-mason-women"
+        },
         "george-washington-women": {
             "league": "NCAA Women's Soccer",
             "name": "George Washington Women",
             "slug": "george-washington-women"
         },
+        "georgetown-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Georgetown Women",
+            "slug": "georgetown-women"
+        },
         "georgia-southern-women": {
             "league": "NCAA Women's Soccer",
             "name": "Georgia Southern Women",
             "slug": "georgia-southern-women"
+        },
+        "georgia-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Georgia State Women",
+            "slug": "georgia-state-women"
+        },
+        "georgia-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Georgia Women",
+            "slug": "georgia-women"
         },
         "getafe": {
             "league": "Spanish LALIGA",
@@ -4386,7 +4781,7 @@
             "slug": "gillingham"
         },
         "gimnasia-la-plata": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "Copa Argentina",
             "name": "Gimnasia La Plata",
             "slug": "gimnasia-la-plata"
         },
@@ -4475,6 +4870,11 @@
             "name": "Golden Arrows",
             "slug": "golden-arrows"
         },
+        "gonzaga-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Gonzaga Women",
+            "slug": "gonzaga-women"
+        },
         "gornik-zabrze": {
             "league": "UEFA Europa League Qualifying",
             "name": "Gornik Zabrze",
@@ -4500,6 +4900,21 @@
             "name": "Gozzano",
             "slug": "gozzano"
         },
+        "grambling-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Grambling Women",
+            "slug": "grambling-women"
+        },
+        "grand-canyon-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Grand Canyon Women",
+            "slug": "grand-canyon-women"
+        },
+        "grand-view-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Grand View Women",
+            "slug": "grand-view-women"
+        },
         "grantham-town": {
             "league": "English FA Cup Qualifying",
             "name": "Grantham Town",
@@ -4524,6 +4939,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Great Yarmouth Town",
             "slug": "great-yarmouth-town"
+        },
+        "green-bay-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Green Bay Women",
+            "slug": "green-bay-women"
         },
         "greenock-morton": {
             "league": "Scottish Championship",
@@ -4710,6 +5130,11 @@
             "name": "Hammarby IF Women",
             "slug": "hammarby-if-women"
         },
+        "hampton-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Hampton Women",
+            "slug": "hampton-women"
+        },
         "hamworthy-recreation": {
             "league": "English FA Cup Qualifying",
             "name": "Hamworthy Recreation",
@@ -4785,6 +5210,11 @@
             "name": "Hartpury",
             "slug": "hartpury"
         },
+        "harvard-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Harvard Women",
+            "slug": "harvard-women"
+        },
         "harwich-parkeston": {
             "league": "English FA Cup Qualifying",
             "name": "Harwich & Parkeston",
@@ -4804,6 +5234,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Haverhill Rovers",
             "slug": "haverhill-rovers"
+        },
+        "hawaii-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Hawai'i Women",
+            "slug": "hawaii-women"
         },
         "hawick-royal-albert": {
             "league": "Scottish Cup Qualifying",
@@ -4930,6 +5365,11 @@
             "name": "Hibernian B",
             "slug": "hibernian-b"
         },
+        "high-point-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "High Point Women",
+            "slug": "high-point-women"
+        },
         "highgate-united": {
             "league": "English FA Cup Qualifying",
             "name": "Highgate United",
@@ -4970,6 +5410,11 @@
             "name": "HNK Segesta Sisak",
             "slug": "hnk-segesta-sisak"
         },
+        "hofstra-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Hofstra Women",
+            "slug": "hofstra-women"
+        },
         "hollands-blair": {
             "league": "English FA Cup",
             "name": "Hollands & Blair",
@@ -4984,6 +5429,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Holy Cross Women",
             "slug": "holy-cross-women"
+        },
+        "holy-family-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Holy Family Women",
+            "slug": "holy-family-women"
         },
         "holyport": {
             "league": "English FA Cup Qualifying",
@@ -5020,6 +5470,11 @@
             "name": "Hospitalet",
             "slug": "hospitalet"
         },
+        "houston-christian-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Houston Christian Women",
+            "slug": "houston-christian-women"
+        },
         "houston-dash": {
             "league": "NWSL",
             "name": "Houston Dash",
@@ -5039,6 +5494,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Houston Women",
             "slug": "houston-women"
+        },
+        "howard-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Howard Women",
+            "slug": "howard-women"
         },
         "huachipato": {
             "league": "Chilean Primera Divisi\u00f3n",
@@ -5061,7 +5521,7 @@
             "slug": "huesca"
         },
         "hull-city": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Hull City",
             "slug": "hull-city"
         },
@@ -5094,6 +5554,16 @@
             "league": "UEFA Europa League Qualifying",
             "name": "Iberia 1999",
             "slug": "iberia-1999"
+        },
+        "idaho-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Idaho State Women",
+            "slug": "idaho-state-women"
+        },
+        "idaho-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Idaho Women",
+            "slug": "idaho-women"
         },
         "if-brommapojkarna": {
             "league": "Swedish Allsvenskan",
@@ -5130,6 +5600,16 @@
             "name": "Ilford",
             "slug": "ilford"
         },
+        "illinois-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Illinois State Women",
+            "slug": "illinois-state-women"
+        },
+        "illinois-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Illinois Women",
+            "slug": "illinois-women"
+        },
         "imperia": {
             "league": "Club Friendly",
             "name": "Imperia",
@@ -5139,6 +5619,11 @@
             "league": "Salvadoran Primera Division",
             "name": "Inca Aruba",
             "slug": "inca-aruba"
+        },
+        "incarnate-word-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Incarnate Word Women",
+            "slug": "incarnate-word-women"
         },
         "independiente": {
             "league": "Copa Argentina",
@@ -5161,7 +5646,7 @@
             "slug": "independiente-petrolero"
         },
         "independiente-rivadavia": {
-            "league": "CONMEBOL Libertadores",
+            "league": "Copa Argentina",
             "name": "Independiente Rivadavia",
             "slug": "independiente-rivadavia"
         },
@@ -5174,6 +5659,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Indiana State Women",
             "slug": "indiana-state-women"
+        },
+        "indiana-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Indiana Women",
+            "slug": "indiana-women"
         },
         "indonesia": {
             "league": "ASEAN Championship",
@@ -5240,8 +5730,23 @@
             "name": "Inverness Caledonian Thistle",
             "slug": "inverness-caledonian-thistle"
         },
+        "iona-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Iona Women",
+            "slug": "iona-women"
+        },
+        "iowa-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Iowa State Women",
+            "slug": "iowa-state-women"
+        },
+        "iowa-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Iowa Women",
+            "slug": "iowa-women"
+        },
         "ipswich-town": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Ipswich Town",
             "slug": "ipswich-town"
         },
@@ -5284,6 +5789,11 @@
             "league": "NCAA Women's Soccer",
             "name": "IU Indianapolis Women",
             "slug": "iu-indianapolis-women"
+        },
+        "iu-pennsylvania-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "IU Pennsylvania Women",
+            "slug": "iu-pennsylvania-women"
         },
         "ivory-coast": {
             "league": "Women's Africa Cup of Nations",
@@ -5470,6 +5980,21 @@
             "name": "Kansas City Current Women",
             "slug": "kansas-city-current-women"
         },
+        "kansas-city-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Kansas City Women",
+            "slug": "kansas-city-women"
+        },
+        "kansas-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Kansas State Women",
+            "slug": "kansas-state-women"
+        },
+        "kansas-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Kansas Women",
+            "slug": "kansas-women"
+        },
         "karlsruher-sc": {
             "league": "German 2. Bundesliga",
             "name": "Karlsruher SC",
@@ -5520,10 +6045,25 @@
             "name": "Kendal Town",
             "slug": "kendal-town"
         },
+        "kennesaw-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Kennesaw State Women",
+            "slug": "kennesaw-state-women"
+        },
         "kennington": {
             "league": "English FA Cup",
             "name": "Kennington",
             "slug": "kennington"
+        },
+        "kent-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Kent State Women",
+            "slug": "kent-state-women"
+        },
+        "kentucky-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Kentucky Women",
+            "slug": "kentucky-women"
         },
         "kenya": {
             "league": "Women's Africa Cup of Nations",
@@ -5690,10 +6230,20 @@
             "name": "La Nuc\u00eda",
             "slug": "la-nucia"
         },
+        "la-salle-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "La Salle Women",
+            "slug": "la-salle-women"
+        },
         "la-serena": {
             "league": "Chilean Primera Divisi\u00f3n",
             "name": "La Serena",
             "slug": "la-serena"
+        },
+        "lafayette-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Lafayette Women",
+            "slug": "lafayette-women"
         },
         "lafc": {
             "league": "MLS",
@@ -5704,6 +6254,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Lakenheath",
             "slug": "lakenheath"
+        },
+        "lamar-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Lamar Women",
+            "slug": "lamar-women"
         },
         "lancing": {
             "league": "English FA Cup Qualifying",
@@ -5775,6 +6330,11 @@
             "name": "Le Mans",
             "slug": "le-mans"
         },
+        "le-moyne-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Le Moyne Women",
+            "slug": "le-moyne-women"
+        },
         "lealtad": {
             "league": "Club Friendly",
             "name": "Lealtad",
@@ -5796,7 +6356,7 @@
             "slug": "lech-poznan"
         },
         "leeds-united": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Leeds United",
             "slug": "leeds-united"
         },
@@ -5804,6 +6364,11 @@
             "league": "Club Friendly",
             "name": "Legan\u00e9s",
             "slug": "leganes"
+        },
+        "lehigh-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Lehigh Women",
+            "slug": "lehigh-women"
         },
         "leicester-city": {
             "league": "English Carabao Cup",
@@ -5890,6 +6455,11 @@
             "name": "Libertas Borgo Maggiore",
             "slug": "libertas-borgo-maggiore"
         },
+        "liberty-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Liberty Women",
+            "slug": "liberty-women"
+        },
         "liga-de-quito": {
             "league": "CONMEBOL Libertadores",
             "name": "Liga de Quito",
@@ -5924,6 +6494,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Lincoln United",
             "slug": "lincoln-united"
+        },
+        "lindenwood-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Lindenwood Women",
+            "slug": "lindenwood-women"
         },
         "lingfield": {
             "league": "English FA Cup Qualifying",
@@ -5960,13 +6535,18 @@
             "name": "Little Oakley",
             "slug": "little-oakley"
         },
+        "little-rock-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Little Rock Women",
+            "slug": "little-rock-women"
+        },
         "littlehampton-town": {
             "league": "English FA Cup Qualifying",
             "name": "Littlehampton Town",
             "slug": "littlehampton-town"
         },
         "liverpool": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "Liverpool",
             "slug": "liverpool"
         },
@@ -6015,10 +6595,20 @@
             "name": "Londrina",
             "slug": "londrina"
         },
+        "long-beach-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Long Beach State Women",
+            "slug": "long-beach-state-women"
+        },
         "long-eaton-united": {
             "league": "English FA Cup Qualifying",
             "name": "Long Eaton United",
             "slug": "long-eaton-united"
+        },
+        "long-island-university-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Long Island University Women",
+            "slug": "long-island-university-women"
         },
         "longlevens": {
             "league": "English FA Cup Qualifying",
@@ -6029,6 +6619,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Longridge Town",
             "slug": "longridge-town"
+        },
+        "longwood-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Longwood Women",
+            "slug": "longwood-women"
         },
         "lorca-deportiva": {
             "league": "Club Friendly",
@@ -6060,20 +6655,50 @@
             "name": "Loughborough Students",
             "slug": "loughborough-students"
         },
+        "louisiana-tech-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Louisiana Tech Women",
+            "slug": "louisiana-tech-women"
+        },
+        "louisiana-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Louisiana Women",
+            "slug": "louisiana-women"
+        },
         "louisville-city-fc": {
             "league": "USL Cup",
             "name": "Louisville City FC",
             "slug": "louisville-city-fc"
+        },
+        "louisville-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Louisville Women",
+            "slug": "louisville-women"
         },
         "lowestoft-town": {
             "league": "English FA Cup Qualifying",
             "name": "Lowestoft Town",
             "slug": "lowestoft-town"
         },
+        "loyola-chicago-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Loyola Chicago Women",
+            "slug": "loyola-chicago-women"
+        },
         "loyola-maryland-women": {
             "league": "NCAA Women's Soccer",
             "name": "Loyola Maryland Women",
             "slug": "loyola-maryland-women"
+        },
+        "loyola-marymount-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Loyola Marymount Women",
+            "slug": "loyola-marymount-women"
+        },
+        "lsu-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "LSU Women",
+            "slug": "lsu-women"
         },
         "lucko": {
             "league": "Club Friendly",
@@ -6216,7 +6841,7 @@
             "slug": "manchester-city"
         },
         "manchester-united": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "Manchester United",
             "slug": "manchester-united"
         },
@@ -6229,6 +6854,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Manhattan Women",
             "slug": "manhattan-women"
+        },
+        "manitoba-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Manitoba Women",
+            "slug": "manitoba-women"
         },
         "mansfield-town": {
             "league": "English Carabao Cup",
@@ -6249,6 +6879,11 @@
             "league": "English FA Cup",
             "name": "March Town United",
             "slug": "march-town-united"
+        },
+        "marist-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Marist Women",
+            "slug": "marist-women"
         },
         "maritimo": {
             "league": "Portuguese Primeira Liga",
@@ -6275,6 +6910,11 @@
             "name": "Marseille",
             "slug": "marseille"
         },
+        "marshall-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Marshall Women",
+            "slug": "marshall-women"
+        },
         "marske-united": {
             "league": "English FA Cup Qualifying",
             "name": "Marske United",
@@ -6284,6 +6924,26 @@
             "league": "South African Premiership",
             "name": "Marumo Gallants",
             "slug": "marumo-gallants"
+        },
+        "maryland-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Maryland Women",
+            "slug": "maryland-women"
+        },
+        "marywood-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Marywood Women",
+            "slug": "marywood-women"
+        },
+        "massachusetts-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Massachusetts Women",
+            "slug": "massachusetts-women"
+        },
+        "mcneese-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "McNeese Women",
+            "slug": "mcneese-women"
         },
         "medeama": {
             "league": "Club Friendly",
@@ -6305,10 +6965,20 @@
             "name": "Melksham Town",
             "slug": "melksham-town"
         },
+        "memphis-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Memphis Women",
+            "slug": "memphis-women"
+        },
         "mercer-women": {
             "league": "NCAA Women's Soccer",
             "name": "Mercer Women",
             "slug": "mercer-women"
+        },
+        "mercyhurst-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Mercyhurst Women",
+            "slug": "mercyhurst-women"
         },
         "merida": {
             "league": "Club Friendly",
@@ -6345,15 +7015,35 @@
             "name": "Miami FC",
             "slug": "miami-fc"
         },
+        "miami-oh-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Miami (OH) Women",
+            "slug": "miami-oh-women"
+        },
         "miami-women": {
             "league": "NCAA Women's Soccer",
             "name": "Miami Women",
             "slug": "miami-women"
         },
+        "michigan-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Michigan State Women",
+            "slug": "michigan-state-women"
+        },
+        "michigan-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Michigan Women",
+            "slug": "michigan-women"
+        },
         "mickleover": {
             "league": "English FA Cup Qualifying",
             "name": "Mickleover",
             "slug": "mickleover"
+        },
+        "middle-tennessee-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Middle Tennessee Women",
+            "slug": "middle-tennessee-women"
         },
         "middlesbrough": {
             "league": "English Carabao Cup",
@@ -6366,7 +7056,7 @@
             "slug": "midhurst-easebourne"
         },
         "midland": {
-            "league": "Argentine Nacional B",
+            "league": "Copa Argentina",
             "name": "Midland",
             "slug": "midland"
         },
@@ -6405,15 +7095,30 @@
             "name": "Milton Keynes Irish",
             "slug": "milton-keynes-irish"
         },
+        "milwaukee-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Milwaukee Women",
+            "slug": "milwaukee-women"
+        },
         "mineros-de-zacatecas": {
             "league": "Mexican Liga de Expansi\u00f3n MX",
             "name": "Mineros de Zacatecas",
             "slug": "mineros-de-zacatecas"
         },
+        "minnesota-st-moorhead-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Minnesota St Moorhead Women",
+            "slug": "minnesota-st-moorhead-women"
+        },
         "minnesota-united-fc": {
             "league": "MLS",
             "name": "Minnesota United FC",
             "slug": "minnesota-united-fc"
+        },
+        "minnesota-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Minnesota Women",
+            "slug": "minnesota-women"
         },
         "mirandes": {
             "league": "Club Friendly",
@@ -6429,6 +7134,16 @@
             "league": "NCAA Women's Soccer",
             "name": "Mississippi State Women",
             "slug": "mississippi-state-women"
+        },
+        "missouri-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Missouri State Women",
+            "slug": "missouri-state-women"
+        },
+        "missouri-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Missouri Women",
+            "slug": "missouri-women"
         },
         "mito-hollyhock": {
             "league": "Japanese J.League",
@@ -6485,6 +7200,16 @@
             "name": "Monopoli 1966",
             "slug": "monopoli-1966"
         },
+        "monroe-ny-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Monroe (NY) Women",
+            "slug": "monroe-ny-women"
+        },
+        "montana-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Montana Women",
+            "slug": "montana-women"
+        },
         "monterey-bay": {
             "league": "USL Championship",
             "name": "Monterey Bay",
@@ -6525,10 +7250,20 @@
             "name": "Monza",
             "slug": "monza"
         },
+        "morehead-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Morehead State Women",
+            "slug": "morehead-state-women"
+        },
         "moreirense": {
             "league": "Portuguese Primeira Liga",
             "name": "Moreirense",
             "slug": "moreirense"
+        },
+        "morningside-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Morningside Women",
+            "slug": "morningside-women"
         },
         "morocco": {
             "league": "Women's Africa Cup of Nations",
@@ -6560,6 +7295,16 @@
             "name": "Moulton",
             "slug": "moulton"
         },
+        "mount-st-joseph-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Mount St. Joseph Women",
+            "slug": "mount-st-joseph-women"
+        },
+        "mount-st-marys-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Mount St. Mary's Women",
+            "slug": "mount-st-marys-women"
+        },
         "msk-zilina": {
             "league": "UEFA Conference League Qualifying",
             "name": "MSK Zilina",
@@ -6574,6 +7319,11 @@
             "league": "Concacaf Central American Cup",
             "name": "Municipal",
             "slug": "municipal"
+        },
+        "murray-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Murray State Women",
+            "slug": "murray-state-women"
         },
         "mushuc-runa": {
             "league": "LigaPro Ecuador",
@@ -6635,6 +7385,11 @@
             "name": "N\u00e1utico",
             "slug": "nautico"
         },
+        "navarro-college-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Navarro College Women",
+            "slug": "navarro-college-women"
+        },
         "navy-women": {
             "league": "NCAA Women's Soccer",
             "name": "Navy Women",
@@ -6654,6 +7409,11 @@
             "league": "Club Friendly",
             "name": "Nea Salamis Famagusta",
             "slug": "nea-salamis-famagusta"
+        },
+        "nebraska-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Nebraska Women",
+            "slug": "nebraska-women"
         },
         "nec-nijmegen": {
             "league": "UEFA Champions League Qualifying",
@@ -6675,15 +7435,40 @@
             "name": "Nelson",
             "slug": "nelson"
         },
+        "nevada-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Nevada Women",
+            "slug": "nevada-women"
+        },
         "new-england-revolution": {
             "league": "MLS",
             "name": "New England Revolution",
             "slug": "new-england-revolution"
         },
+        "new-hampshire-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "New Hampshire Women",
+            "slug": "new-hampshire-women"
+        },
+        "new-haven-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "New Haven Women",
+            "slug": "new-haven-women"
+        },
+        "new-mexico-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "New Mexico State Women",
+            "slug": "new-mexico-state-women"
+        },
         "new-mexico-united": {
             "league": "USL Championship",
             "name": "New Mexico United",
             "slug": "new-mexico-united"
+        },
+        "new-mexico-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "New Mexico Women",
+            "slug": "new-mexico-women"
         },
         "new-york-city-fc": {
             "league": "Leagues Cup",
@@ -6699,6 +7484,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Newark Town",
             "slug": "newark-town"
+        },
+        "newberry-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Newberry Women",
+            "slug": "newberry-women"
         },
         "newcasltle-blue-star": {
             "league": "English FA Cup Qualifying",
@@ -6716,7 +7506,7 @@
             "slug": "newcastle-town"
         },
         "newcastle-united": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Newcastle United",
             "slug": "newcastle-united"
         },
@@ -6760,6 +7550,11 @@
             "name": "Nice",
             "slug": "nice"
         },
+        "nicholls-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Nicholls Women",
+            "slug": "nicholls-women"
+        },
         "nigeria": {
             "league": "Women's Africa Cup of Nations",
             "name": "Nigeria",
@@ -6769,6 +7564,11 @@
             "league": "Women's Africa Cup of Nations",
             "name": "Nigeria Women",
             "slug": "nigeria-women"
+        },
+        "njit-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "NJIT Women",
+            "slug": "njit-women"
         },
         "nk-bratstvo-gracanica": {
             "league": "Club Friendly",
@@ -6830,6 +7630,16 @@
             "name": "North Carolina Women",
             "slug": "north-carolina-women"
         },
+        "north-dakota-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "North Dakota State Women",
+            "slug": "north-dakota-state-women"
+        },
+        "north-dakota-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "North Dakota Women",
+            "slug": "north-dakota-women"
+        },
         "north-ferriby": {
             "league": "English FA Cup",
             "name": "North Ferriby",
@@ -6845,6 +7655,11 @@
             "name": "North Greenford United",
             "slug": "north-greenford-united"
         },
+        "north-greenville-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "North Greenville Women",
+            "slug": "north-greenville-women"
+        },
         "north-leigh": {
             "league": "English FA Cup",
             "name": "North Leigh",
@@ -6854,6 +7669,11 @@
             "league": "English FA Cup Qualifying",
             "name": "North Shields",
             "slug": "north-shields"
+        },
+        "north-texas-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "North Texas Women",
+            "slug": "north-texas-women"
         },
         "northallerton-town-fc": {
             "league": "English FA Cup Qualifying",
@@ -6875,6 +7695,26 @@
             "name": "Northampton Town",
             "slug": "northampton-town"
         },
+        "northeastern-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Northeastern Women",
+            "slug": "northeastern-women"
+        },
+        "northern-arizona-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Northern Arizona Women",
+            "slug": "northern-arizona-women"
+        },
+        "northern-colorado-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Northern Colorado Women",
+            "slug": "northern-colorado-women"
+        },
+        "northern-illinois-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Northern Illinois Women",
+            "slug": "northern-illinois-women"
+        },
         "northern-iowa-women": {
             "league": "NCAA Women's Soccer",
             "name": "Northern Iowa Women",
@@ -6884,6 +7724,16 @@
             "league": "NCAA Women's Soccer",
             "name": "Northern Kentucky Women",
             "slug": "northern-kentucky-women"
+        },
+        "northwestern-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Northwestern State Women",
+            "slug": "northwestern-state-women"
+        },
+        "northwestern-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Northwestern Women",
+            "slug": "northwestern-women"
         },
         "northwich-victoria": {
             "league": "English FA Cup Qualifying",
@@ -6906,7 +7756,7 @@
             "slug": "notre-dame-women"
         },
         "nottingham-forest": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Nottingham Forest",
             "slug": "nottingham-forest"
         },
@@ -6945,6 +7795,11 @@
             "name": "Oakland Roots",
             "slug": "oakland-roots"
         },
+        "oakland-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Oakland Women",
+            "slug": "oakland-women"
+        },
         "odense-boldklub": {
             "league": "Danish Superliga",
             "name": "Odense Boldklub",
@@ -6965,20 +7820,45 @@
             "name": "O'Higgins",
             "slug": "ohiggins"
         },
+        "ohio-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Ohio State Women",
+            "slug": "ohio-state-women"
+        },
         "ohio-women": {
             "league": "NCAA Women's Soccer",
             "name": "Ohio Women",
             "slug": "ohio-women"
+        },
+        "oklahoma-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Oklahoma State Women",
+            "slug": "oklahoma-state-women"
+        },
+        "oklahoma-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Oklahoma Women",
+            "slug": "oklahoma-women"
         },
         "olancho-fc": {
             "league": "Honduran Liga Nacional",
             "name": "Olancho FC",
             "slug": "olancho-fc"
         },
+        "old-dominion-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Old Dominion Women",
+            "slug": "old-dominion-women"
+        },
         "oldham-athletic": {
             "league": "English Carabao Cup",
             "name": "Oldham Athletic",
             "slug": "oldham-athletic"
+        },
+        "ole-miss-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Ole Miss Women",
+            "slug": "ole-miss-women"
         },
         "olot": {
             "league": "Club Friendly",
@@ -7004,6 +7884,11 @@
             "league": "Club Friendly",
             "name": "Olympic Charleroi",
             "slug": "olympic-charleroi"
+        },
+        "omaha-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Omaha Women",
+            "slug": "omaha-women"
         },
         "omonia-29is-maiou": {
             "league": "Club Friendly",
@@ -7035,10 +7920,25 @@
             "name": "Oper\u00e1rio PR",
             "slug": "operario-pr"
         },
+        "oral-roberts-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Oral Roberts Women",
+            "slug": "oral-roberts-women"
+        },
         "orange-county-sc": {
             "league": "USL Championship",
             "name": "Orange County SC",
             "slug": "orange-county-sc"
+        },
+        "oregon-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Oregon State Women",
+            "slug": "oregon-state-women"
+        },
+        "oregon-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Oregon Women",
+            "slug": "oregon-women"
         },
         "orense": {
             "league": "LigaPro Ecuador",
@@ -7114,6 +8014,11 @@
             "league": "Leagues Cup",
             "name": "Pachuca",
             "slug": "pachuca"
+        },
+        "pacific-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Pacific Women",
+            "slug": "pacific-women"
         },
         "padiham": {
             "league": "English FA Cup Qualifying",
@@ -7280,15 +8185,30 @@
             "name": "Penistone Church",
             "slug": "penistone-church"
         },
+        "penn-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Penn State Women",
+            "slug": "penn-state-women"
+        },
         "penn-tylers-green": {
             "league": "English FA Cup Qualifying",
             "name": "Penn & Tylers Green",
             "slug": "penn-tylers-green"
         },
+        "pennsylvania-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Pennsylvania Women",
+            "slug": "pennsylvania-women"
+        },
         "penrith": {
             "league": "English FA Cup Qualifying",
             "name": "Penrith",
             "slug": "penrith"
+        },
+        "pepperdine-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Pepperdine Women",
+            "slug": "pepperdine-women"
         },
         "perez-zeledon": {
             "league": "Costa Rican Primera Division",
@@ -7430,6 +8350,11 @@
             "name": "Portland Hearts of Pine",
             "slug": "portland-hearts-of-pine"
         },
+        "portland-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Portland State Women",
+            "slug": "portland-state-women"
+        },
         "portland-thorns-fc": {
             "league": "NWSL",
             "name": "Portland Thorns FC",
@@ -7441,7 +8366,7 @@
             "slug": "portland-thorns-fc-women"
         },
         "portland-timbers": {
-            "league": "Leagues Cup",
+            "league": "MLS",
             "name": "Portland Timbers",
             "slug": "portland-timbers"
         },
@@ -7449,6 +8374,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Portland United",
             "slug": "portland-united"
+        },
+        "portland-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Portland Women",
+            "slug": "portland-women"
         },
         "portsmouth": {
             "league": "English Carabao Cup",
@@ -7475,6 +8405,16 @@
             "name": "Potton United",
             "slug": "potton-united"
         },
+        "prairie-view-am-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Prairie View A&M Women",
+            "slug": "prairie-view-am-women"
+        },
+        "presbyterian-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Presbyterian Women",
+            "slug": "presbyterian-women"
+        },
         "preston-north-end": {
             "league": "English Carabao Cup",
             "name": "Preston North End",
@@ -7484,6 +8424,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Prestwich Keys",
             "slug": "prestwich-keys"
+        },
+        "princeton-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Princeton Women",
+            "slug": "princeton-women"
         },
         "pro-patria": {
             "league": "Club Friendly",
@@ -7529,6 +8474,16 @@
             "league": "Costa Rican Primera Division",
             "name": "Puntarenas FC",
             "slug": "puntarenas-fc"
+        },
+        "purdue-fort-wayne-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Purdue Fort Wayne Women",
+            "slug": "purdue-fort-wayne-women"
+        },
+        "purdue-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Purdue Women",
+            "slug": "purdue-women"
         },
         "pyramids-fc": {
             "league": "Club Friendly",
@@ -7591,7 +8546,7 @@
             "slug": "raal-la-louviere"
         },
         "racing-club": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "Copa Argentina",
             "name": "Racing Club",
             "slug": "racing-club"
         },
@@ -7639,6 +8594,11 @@
             "league": "UEFA Women's Champions League Qualifying",
             "name": "Racing Union Women",
             "slug": "racing-union-women"
+        },
+        "radford-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Radford Women",
+            "slug": "radford-women"
         },
         "radnik-hadzici": {
             "league": "Club Friendly",
@@ -7746,7 +8706,7 @@
             "slug": "reading-city"
         },
         "real-betis": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Real Betis",
             "slug": "real-betis"
         },
@@ -7776,7 +8736,7 @@
             "slug": "real-jaen-cf"
         },
         "real-madrid": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Real Madrid",
             "slug": "real-madrid"
         },
@@ -7816,7 +8776,7 @@
             "slug": "real-salt-lake"
         },
         "real-sociedad": {
-            "league": "Club Friendly",
+            "league": "Spanish LALIGA",
             "name": "Real Sociedad",
             "slug": "real-sociedad"
         },
@@ -7940,6 +8900,16 @@
             "name": "Richmond Kickers",
             "slug": "richmond-kickers"
         },
+        "richmond-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Richmond Women",
+            "slug": "richmond-women"
+        },
+        "rider-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Rider Women",
+            "slug": "rider-women"
+        },
         "riga-fc": {
             "league": "UEFA Conference League Qualifying",
             "name": "Riga FC",
@@ -7990,6 +8960,11 @@
             "name": "Rochdale",
             "slug": "rochdale"
         },
+        "rockhurst-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Rockhurst Women",
+            "slug": "rockhurst-women"
+        },
         "roda-jc-kerkrade": {
             "league": "Dutch Keuken Kampioen Divisie",
             "name": "Roda JC Kerkrade",
@@ -8004,6 +8979,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Roffey",
             "slug": "roffey"
+        },
+        "rogers-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Rogers State Women",
+            "slug": "rogers-state-women"
         },
         "roman-glass-st-george": {
             "league": "English FA Cup",
@@ -8110,6 +9090,11 @@
             "name": "Rusthall",
             "slug": "rusthall"
         },
+        "rutgers-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Rutgers Women",
+            "slug": "rutgers-women"
+        },
         "rwdm": {
             "league": "Club Friendly",
             "name": "RWDM",
@@ -8130,6 +9115,11 @@
             "name": "Sacramento Republic FC",
             "slug": "sacramento-republic-fc"
         },
+        "sacramento-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Sacramento State Women",
+            "slug": "sacramento-state-women"
+        },
         "sacred-heart-women": {
             "league": "NCAA Women's Soccer",
             "name": "Sacred Heart Women",
@@ -8145,6 +9135,31 @@
             "name": "Saint Joseph's Women",
             "slug": "saint-josephs-women"
         },
+        "saint-leo-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Saint Leo Women",
+            "slug": "saint-leo-women"
+        },
+        "saint-louis-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Saint Louis Women",
+            "slug": "saint-louis-women"
+        },
+        "saint-mary-of-the-woods-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Saint Mary of the Woods Women",
+            "slug": "saint-mary-of-the-woods-women"
+        },
+        "saint-marys-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Saint Mary's Women",
+            "slug": "saint-marys-women"
+        },
+        "saint-peters-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Saint Peter's Women",
+            "slug": "saint-peters-women"
+        },
         "salernitana": {
             "league": "Club Friendly",
             "name": "Salernitana",
@@ -8159,6 +9174,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Saltash United",
             "slug": "saltash-united"
+        },
+        "sam-houston-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Sam Houston Women",
+            "slug": "sam-houston-women"
         },
         "sambiase": {
             "league": "Club Friendly",
@@ -8195,6 +9215,11 @@
             "name": "San Diego FC",
             "slug": "san-diego-fc"
         },
+        "san-diego-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "San Diego State Women",
+            "slug": "san-diego-state-women"
+        },
         "san-diego-wave-fc": {
             "league": "NWSL",
             "name": "San Diego Wave FC",
@@ -8205,10 +9230,25 @@
             "name": "San Diego Wave FC Women",
             "slug": "san-diego-wave-fc-women"
         },
+        "san-diego-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "San Diego Women",
+            "slug": "san-diego-women"
+        },
+        "san-francisco-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "San Francisco Women",
+            "slug": "san-francisco-women"
+        },
         "san-jose-earthquakes": {
             "league": "MLS",
             "name": "San Jose Earthquakes",
             "slug": "san-jose-earthquakes"
+        },
+        "san-jose-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "San Jos\u00e9 State Women",
+            "slug": "san-jose-state-women"
         },
         "san-lorenzo": {
             "league": "Argentine Liga Profesional de F\u00fatbol",
@@ -8275,6 +9315,11 @@
             "name": "Santa Clara",
             "slug": "santa-clara"
         },
+        "santa-clara-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Santa Clara Women",
+            "slug": "santa-clara-women"
+        },
         "santa-coloma": {
             "league": "UEFA Conference League Qualifying",
             "name": "Santa Coloma",
@@ -8286,7 +9331,7 @@
             "slug": "santiago-wanderers"
         },
         "santos": {
-            "league": "CONMEBOL Sudamericana",
+            "league": "Leagues Cup",
             "name": "Santos",
             "slug": "santos"
         },
@@ -8385,6 +9430,11 @@
             "name": "SE Dons",
             "slug": "se-dons"
         },
+        "se-louisiana-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "SE Louisiana Women",
+            "slug": "se-louisiana-women"
+        },
         "seaford-town": {
             "league": "English FA Cup Qualifying",
             "name": "Seaford Town",
@@ -8410,6 +9460,11 @@
             "name": "Seattle Sounders FC",
             "slug": "seattle-sounders-fc"
         },
+        "seattle-u-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Seattle U Women",
+            "slug": "seattle-u-women"
+        },
         "sekhukhune-united-fc": {
             "league": "South African Premiership",
             "name": "Sekhukhune United FC",
@@ -8434,6 +9489,11 @@
             "league": "Club Friendly",
             "name": "Sestao",
             "slug": "sestao"
+        },
+        "seton-hall-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Seton Hall Women",
+            "slug": "seton-hall-women"
         },
         "sevenoaks-town": {
             "league": "English FA Cup Qualifying",
@@ -8575,6 +9635,11 @@
             "name": "Silsden",
             "slug": "silsden"
         },
+        "simon-fraser-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Simon Fraser Women",
+            "slug": "simon-fraser-women"
+        },
         "singapore": {
             "league": "ASEAN Championship",
             "name": "Singapore",
@@ -8640,6 +9705,11 @@
             "name": "Slovan Bratislava",
             "slug": "slovan-bratislava"
         },
+        "smu-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "SMU Women",
+            "slug": "smu-women"
+        },
         "snderjyske-fodbold": {
             "league": "Danish Superliga",
             "name": "S\u00f8nderjyske Fodbold",
@@ -8649,6 +9719,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Snodland Town",
             "slug": "snodland-town"
+        },
+        "snow-college-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Snow College Women",
+            "slug": "snow-college-women"
         },
         "soa": {
             "league": "Club Friendly",
@@ -8680,10 +9755,35 @@
             "name": "South Alabama Women",
             "slug": "south-alabama-women"
         },
+        "south-carolina-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "South Carolina State Women",
+            "slug": "south-carolina-state-women"
+        },
+        "south-carolina-upstate-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "South Carolina Upstate Women",
+            "slug": "south-carolina-upstate-women"
+        },
+        "south-carolina-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "South Carolina Women",
+            "slug": "south-carolina-women"
+        },
+        "south-dakota-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "South Dakota State Women",
+            "slug": "south-dakota-state-women"
+        },
         "south-dakota-women": {
             "league": "NCAA Women's Soccer",
             "name": "South Dakota Women",
             "slug": "south-dakota-women"
+        },
+        "south-florida-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "South Florida Women",
+            "slug": "south-florida-women"
         },
         "south-liverpool": {
             "league": "English FA Cup Qualifying",
@@ -8700,10 +9800,40 @@
             "name": "Southampton",
             "slug": "southampton"
         },
+        "southeast-missouri-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Southeast Missouri State Women",
+            "slug": "southeast-missouri-state-women"
+        },
+        "southern-illinois-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Southern Illinois Women",
+            "slug": "southern-illinois-women"
+        },
+        "southern-indiana-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Southern Indiana Women",
+            "slug": "southern-indiana-women"
+        },
+        "southern-miss-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Southern Miss Women",
+            "slug": "southern-miss-women"
+        },
         "southern-utah-women": {
             "league": "NCAA Women's Soccer",
             "name": "Southern Utah Women",
             "slug": "southern-utah-women"
+        },
+        "southern-wesleyan-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Southern Wesleyan Women",
+            "slug": "southern-wesleyan-women"
+        },
+        "southern-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Southern Women",
+            "slug": "southern-women"
         },
         "spakenburg": {
             "league": "Club Friendly",
@@ -8741,7 +9871,7 @@
             "slug": "spelle-venhaus"
         },
         "spokane-velocity-fc": {
-            "league": "USL League One",
+            "league": "USL Cup",
             "name": "Spokane Velocity FC",
             "slug": "spokane-velocity-fc"
         },
@@ -8835,6 +9965,11 @@
             "name": "Sportivo Trinidense",
             "slug": "sportivo-trinidense"
         },
+        "spring-hill-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Spring Hill Women",
+            "slug": "spring-hill-women"
+        },
         "spvgg-greuther-furth": {
             "league": "German 2. Bundesliga",
             "name": "SpVgg Greuther F\u00fcrth",
@@ -8855,10 +9990,20 @@
             "name": "St. Blazey",
             "slug": "st-blazey"
         },
+        "st-bonaventure-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "St Bonaventure Women",
+            "slug": "st-bonaventure-women"
+        },
         "st-gallen": {
             "league": "UEFA Conference League Qualifying",
             "name": "St. Gallen",
             "slug": "st-gallen"
+        },
+        "st-johns-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "St. John's Women",
+            "slug": "st-johns-women"
         },
         "st-johnstone": {
             "league": "Scottish Premiership",
@@ -8869,6 +10014,11 @@
             "league": "MLS",
             "name": "St. Louis CITY SC",
             "slug": "st-louis-city-sc"
+        },
+        "st-marys-tx-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "St Mary's (TX) Women",
+            "slug": "st-marys-tx-women"
         },
         "st-mirren": {
             "league": "Scottish Premiership",
@@ -8915,6 +10065,11 @@
             "name": "Standard Liege",
             "slug": "standard-liege"
         },
+        "stanford-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Stanford Women",
+            "slug": "stanford-women"
+        },
         "stellenbosch": {
             "league": "South African Premiership",
             "name": "Stellenbosch",
@@ -8924,6 +10079,16 @@
             "league": "Scottish Championship",
             "name": "Stenhousemuir",
             "slug": "stenhousemuir"
+        },
+        "stephen-f-austin-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Stephen F. Austin Women",
+            "slug": "stephen-f-austin-women"
+        },
+        "stetson-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Stetson Women",
+            "slug": "stetson-women"
         },
         "stevenage": {
             "league": "English Carabao Cup",
@@ -8969,6 +10134,16 @@
             "league": "Scottish Cup Qualifying",
             "name": "Stonehaven",
             "slug": "stonehaven"
+        },
+        "stonehill-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Stonehill Women",
+            "slug": "stonehill-women"
+        },
+        "stony-brook-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Stony Brook Women",
+            "slug": "stony-brook-women"
         },
         "stotfold": {
             "league": "English FA Cup Qualifying",
@@ -9020,8 +10195,13 @@
             "name": "Sudtirol",
             "slug": "sudtirol"
         },
+        "sul-ross-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Sul Ross State Women",
+            "slug": "sul-ross-state-women"
+        },
         "sunderland": {
-            "league": "Club Friendly",
+            "league": "English Premier League",
             "name": "Sunderland",
             "slug": "sunderland"
         },
@@ -9075,6 +10255,11 @@
             "name": "Swindon Town",
             "slug": "swindon-town"
         },
+        "syracuse-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Syracuse Women",
+            "slug": "syracuse-women"
+        },
         "tadcaster-albion": {
             "league": "English FA Cup",
             "name": "Tadcaster Albion",
@@ -9120,6 +10305,11 @@
             "name": "Tapat\u00edo",
             "slug": "tapatio"
         },
+        "tarleton-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Tarleton State Women",
+            "slug": "tarleton-state-women"
+        },
         "tavistock": {
             "league": "English FA Cup Qualifying",
             "name": "Tavistock",
@@ -9134,6 +10324,11 @@
             "league": "Club Friendly",
             "name": "TBD Away",
             "slug": "tbd-away"
+        },
+        "tcu-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "TCU Women",
+            "slug": "tcu-women"
         },
         "tecnico-universitario": {
             "league": "LigaPro Ecuador",
@@ -9160,6 +10355,11 @@
             "name": "Tennessee Tech Women",
             "slug": "tennessee-tech-women"
         },
+        "tennessee-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Tennessee Women",
+            "slug": "tennessee-women"
+        },
         "tepatitlan-fc": {
             "league": "Mexican Liga de Expansi\u00f3n MX",
             "name": "Tepatitl\u00e1n FC",
@@ -9170,10 +10370,45 @@
             "name": "Terranuova Traiana",
             "slug": "terranuova-traiana"
         },
+        "texas-am-corpus-christi-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Texas A&M-Corpus Christi Women",
+            "slug": "texas-am-corpus-christi-women"
+        },
+        "texas-am-international-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Texas A&M International Women",
+            "slug": "texas-am-international-women"
+        },
+        "texas-am-san-antonio-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Texas A&M-San Antonio Women",
+            "slug": "texas-am-san-antonio-women"
+        },
         "texas-am-women": {
             "league": "NCAA Women's Soccer",
             "name": "Texas A&M Women",
             "slug": "texas-am-women"
+        },
+        "texas-southern-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Texas Southern Women",
+            "slug": "texas-southern-women"
+        },
+        "texas-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Texas State Women",
+            "slug": "texas-state-women"
+        },
+        "texas-tech-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Texas Tech Women",
+            "slug": "texas-tech-women"
+        },
+        "texas-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Texas Women",
+            "slug": "texas-women"
         },
         "thackley": {
             "league": "English FA Cup Qualifying",
@@ -9280,6 +10515,11 @@
             "name": "Tokyo Verdy 1969",
             "slug": "tokyo-verdy-1969"
         },
+        "toledo-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Toledo Women",
+            "slug": "toledo-women"
+        },
         "toluca": {
             "league": "Leagues Cup",
             "name": "Toluca",
@@ -9316,7 +10556,7 @@
             "slug": "torreense-women"
         },
         "tottenham-hotspur": {
-            "league": "Club Friendly",
+            "league": "English Carabao Cup",
             "name": "Tottenham Hotspur",
             "slug": "tottenham-hotspur"
         },
@@ -9329,6 +10569,11 @@
             "league": "Club Friendly",
             "name": "Touring",
             "slug": "touring"
+        },
+        "towson-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Towson Women",
+            "slug": "towson-women"
         },
         "trabzonspor": {
             "league": "Club Friendly",
@@ -9365,15 +10610,30 @@
             "name": "Tromso",
             "slug": "tromso"
         },
+        "troy-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Troy Women",
+            "slug": "troy-women"
+        },
         "troyes": {
             "league": "Club Friendly",
             "name": "Troyes",
             "slug": "troyes"
         },
+        "truett-mcconnell-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Truett-McConnell Women",
+            "slug": "truett-mcconnell-women"
+        },
         "trujillanos": {
             "league": "Venezuelan Primera Divisi\u00f3n",
             "name": "Trujillanos",
             "slug": "trujillanos"
+        },
+        "truman-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Truman State Women",
+            "slug": "truman-state-women"
         },
         "ts-galaxy-fc": {
             "league": "South African Premiership",
@@ -9400,20 +10660,80 @@
             "name": "Tuffley Rovers",
             "slug": "tuffley-rovers"
         },
+        "tulsa-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Tulsa Women",
+            "slug": "tulsa-women"
+        },
         "tunbridge-wells": {
             "league": "English FA Cup Qualifying",
             "name": "Tunbridge Wells",
             "slug": "tunbridge-wells"
+        },
+        "uab-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UAB Women",
+            "slug": "uab-women"
         },
         "uai-urquiza": {
             "league": "Argentine Primera B",
             "name": "UAI Urquiza",
             "slug": "uai-urquiza"
         },
+        "ualbany-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UAlbany Women",
+            "slug": "ualbany-women"
+        },
+        "uc-davis-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UC Davis Women",
+            "slug": "uc-davis-women"
+        },
+        "uc-irvine-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UC Irvine Women",
+            "slug": "uc-irvine-women"
+        },
+        "uc-merced-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UC Merced Women",
+            "slug": "uc-merced-women"
+        },
+        "uc-riverside-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UC Riverside Women",
+            "slug": "uc-riverside-women"
+        },
+        "uc-san-diego-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UC San Diego Women",
+            "slug": "uc-san-diego-women"
+        },
+        "uc-santa-barbara-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UC Santa Barbara Women",
+            "slug": "uc-santa-barbara-women"
+        },
         "ucam-murcia": {
             "league": "Club Friendly",
             "name": "UCAM Murcia",
             "slug": "ucam-murcia"
+        },
+        "ucf-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UCF Women",
+            "slug": "ucf-women"
+        },
+        "ucla-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UCLA Women",
+            "slug": "ucla-women"
+        },
+        "uconn-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UConn Women",
+            "slug": "uconn-women"
         },
         "ucv-fc": {
             "league": "Venezuelan Primera Divisi\u00f3n",
@@ -9435,10 +10755,20 @@
             "name": "UIC Women",
             "slug": "uic-women"
         },
+        "ul-monroe-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UL Monroe Women",
+            "slug": "ul-monroe-women"
+        },
         "umass-lowell-women": {
             "league": "NCAA Women's Soccer",
             "name": "UMass Lowell Women",
             "slug": "umass-lowell-women"
+        },
+        "umbc-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UMBC Women",
+            "slug": "umbc-women"
         },
         "umecit-fc": {
             "league": "Concacaf Central American Cup",
@@ -9459,6 +10789,16 @@
             "league": "NCAA Women's Soccer",
             "name": "UNC Asheville Women",
             "slug": "unc-asheville-women"
+        },
+        "unc-greensboro-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UNC Greensboro Women",
+            "slug": "unc-greensboro-women"
+        },
+        "unc-wilmington-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UNC Wilmington Women",
+            "slug": "unc-wilmington-women"
         },
         "uniao-da-serra": {
             "league": "Club Friendly",
@@ -9500,6 +10840,11 @@
             "name": "Union St.-Gilloise",
             "slug": "union-st-gilloise"
         },
+        "union-tn-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Union (TN) Women",
+            "slug": "union-tn-women"
+        },
         "unionistas-de-salamanca": {
             "league": "Club Friendly",
             "name": "Unionistas de Salamanca",
@@ -9540,6 +10885,11 @@
             "name": "Universitatea Cluj",
             "slug": "universitatea-cluj"
         },
+        "unlv-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UNLV Women",
+            "slug": "unlv-women"
+        },
         "upnfm": {
             "league": "Honduran Liga Nacional",
             "name": "UPNFM",
@@ -9565,6 +10915,11 @@
             "name": "US Sestri Levante",
             "slug": "us-sestri-levante"
         },
+        "usc-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "USC Women",
+            "slug": "usc-women"
+        },
         "usd-sestri-levante": {
             "league": "Club Friendly",
             "name": "U.S.D. Sestri Levante",
@@ -9574,6 +10929,11 @@
             "league": "NCAA Women's Soccer",
             "name": "UT Martin Women",
             "slug": "ut-martin-women"
+        },
+        "ut-rio-grande-valley-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UT Rio Grande Valley Women",
+            "slug": "ut-rio-grande-valley-women"
         },
         "utah-royals": {
             "league": "NWSL",
@@ -9585,10 +10945,40 @@
             "name": "Utah Royals Women",
             "slug": "utah-royals-women"
         },
+        "utah-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Utah State Women",
+            "slug": "utah-state-women"
+        },
+        "utah-tech-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Utah Tech Women",
+            "slug": "utah-tech-women"
+        },
+        "utah-valley-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Utah Valley Women",
+            "slug": "utah-valley-women"
+        },
+        "utah-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Utah Women",
+            "slug": "utah-women"
+        },
         "utc": {
             "league": "Peruvian Liga 1",
             "name": "UTC",
             "slug": "utc"
+        },
+        "utep-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UTEP Women",
+            "slug": "utep-women"
+        },
+        "utsa-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "UTSA Women",
+            "slug": "utsa-women"
         },
         "uttoxeter-town": {
             "league": "English FA Cup Qualifying",
@@ -9625,6 +11015,11 @@
             "name": "Valletta",
             "slug": "valletta"
         },
+        "valparaiso-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Valparaiso Women",
+            "slug": "valparaiso-women"
+        },
         "valur-reykjavik": {
             "league": "UEFA Conference League Qualifying",
             "name": "Valur Reykjavik",
@@ -9644,6 +11039,11 @@
             "league": "MLS",
             "name": "Vancouver Whitecaps",
             "slug": "vancouver-whitecaps"
+        },
+        "vanderbilt-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Vanderbilt Women",
+            "slug": "vanderbilt-women"
         },
         "vardar": {
             "league": "UEFA Conference League Qualifying",
@@ -9669,6 +11069,11 @@
             "league": "Swedish Allsvenskan",
             "name": "V\u00e4ster\u00e5s SK",
             "slug": "vasteras-sk"
+        },
+        "vcu-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "VCU Women",
+            "slug": "vcu-women"
         },
         "velez-mostar": {
             "league": "UEFA Conference League Qualifying",
@@ -9765,6 +11170,11 @@
             "name": "Villa San Carlos",
             "slug": "villa-san-carlos"
         },
+        "villanova-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Villanova Women",
+            "slug": "villanova-women"
+        },
         "villarreal": {
             "league": "Spanish LALIGA",
             "name": "Villarreal",
@@ -9775,10 +11185,20 @@
             "name": "Villarreal B",
             "slug": "villarreal-b"
         },
+        "virginia-tech-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Virginia Tech Women",
+            "slug": "virginia-tech-women"
+        },
         "virginia-water": {
             "league": "English FA Cup Qualifying",
             "name": "Virginia Water",
             "slug": "virginia-water"
+        },
+        "virginia-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Virginia Women",
+            "slug": "virginia-women"
         },
         "virtus-entella": {
             "league": "Coppa Italia",
@@ -9820,6 +11240,11 @@
             "name": "Vllaznia Women",
             "slug": "vllaznia-women"
         },
+        "vmi-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "VMI Women",
+            "slug": "vmi-women"
+        },
         "vojvodina": {
             "league": "UEFA Conference League Qualifying",
             "name": "Vojvodina",
@@ -9839,6 +11264,16 @@
             "league": "Belgian Pro League",
             "name": "Waasland-Beveren",
             "slug": "waasland-beveren"
+        },
+        "wagner-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Wagner Women",
+            "slug": "wagner-women"
+        },
+        "wake-forest-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Wake Forest Women",
+            "slug": "wake-forest-women"
         },
         "wallingford-crowmarsh": {
             "league": "English FA Cup Qualifying",
@@ -9870,10 +11305,25 @@
             "name": "Washington Spirit Women",
             "slug": "washington-spirit-women"
         },
+        "washington-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Washington State Women",
+            "slug": "washington-state-women"
+        },
+        "washington-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Washington Women",
+            "slug": "washington-women"
+        },
         "watford": {
             "league": "English Carabao Cup",
             "name": "Watford",
             "slug": "watford"
+        },
+        "weber-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Weber State Women",
+            "slug": "weber-state-women"
         },
         "wellingborough-town": {
             "league": "English FA Cup Qualifying",
@@ -9910,6 +11360,11 @@
             "name": "West Bromwich Albion",
             "slug": "west-bromwich-albion"
         },
+        "west-chester-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "West Chester Women",
+            "slug": "west-chester-women"
+        },
         "west-didsbury-chorlton": {
             "league": "English FA Cup",
             "name": "West Didsbury & Chorlton",
@@ -9919,6 +11374,11 @@
             "league": "English FA Cup Qualifying",
             "name": "West Essex",
             "slug": "west-essex"
+        },
+        "west-florida-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "West Florida Women",
+            "slug": "west-florida-women"
         },
         "west-georgia-women": {
             "league": "NCAA Women's Soccer",
@@ -9930,6 +11390,11 @@
             "name": "West Ham United",
             "slug": "west-ham-united"
         },
+        "west-virginia-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "West Virginia Women",
+            "slug": "west-virginia-women"
+        },
         "westbury-united": {
             "league": "English FA Cup Qualifying",
             "name": "Westbury United",
@@ -9940,15 +11405,35 @@
             "name": "Westchester SC",
             "slug": "westchester-sc"
         },
+        "western-carolina-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Western Carolina Women",
+            "slug": "western-carolina-women"
+        },
         "western-illinois-women": {
             "league": "NCAA Women's Soccer",
             "name": "Western Illinois Women",
             "slug": "western-illinois-women"
         },
+        "western-kentucky-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Western Kentucky Women",
+            "slug": "western-kentucky-women"
+        },
+        "western-michigan-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Western Michigan Women",
+            "slug": "western-michigan-women"
+        },
         "westfields": {
             "league": "English FA Cup Qualifying",
             "name": "Westfields",
             "slug": "westfields"
+        },
+        "westminster-ut-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Westminster (UT) Women",
+            "slug": "westminster-ut-women"
         },
         "whickham": {
             "league": "English FA Cup Qualifying",
@@ -9990,6 +11475,11 @@
             "name": "Wigan Athletic",
             "slug": "wigan-athletic"
         },
+        "wiley-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Wiley Women",
+            "slug": "wiley-women"
+        },
         "willand-rovers": {
             "league": "English FA Cup Qualifying",
             "name": "Willand Rovers",
@@ -10020,10 +11510,20 @@
             "name": "Winslow United",
             "slug": "winslow-united"
         },
+        "winthrop-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Winthrop Women",
+            "slug": "winthrop-women"
+        },
         "wisbech-town": {
             "league": "English FA Cup",
             "name": "Wisbech Town",
             "slug": "wisbech-town"
+        },
+        "wisconsin-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Wisconsin Women",
+            "slug": "wisconsin-women"
         },
         "witham-town": {
             "league": "English FA Cup Qualifying",
@@ -10085,6 +11585,11 @@
             "name": "Wrexham",
             "slug": "wrexham"
         },
+        "wright-state-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Wright State Women",
+            "slug": "wright-state-women"
+        },
         "wroxham": {
             "league": "English FA Cup Qualifying",
             "name": "Wroxham",
@@ -10105,6 +11610,11 @@
             "name": "Wycombe Wanderers",
             "slug": "wycombe-wanderers"
         },
+        "wyoming-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Wyoming Women",
+            "slug": "wyoming-women"
+        },
         "wythenshawe": {
             "league": "English FA Cup Qualifying",
             "name": "Wythenshawe",
@@ -10115,6 +11625,11 @@
             "name": "Wythenshawe Town",
             "slug": "wythenshawe-town"
         },
+        "xavier-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Xavier Women",
+            "slug": "xavier-women"
+        },
         "xelaju-mc": {
             "league": "Concacaf Central American Cup",
             "name": "Xelaj\u00fa MC",
@@ -10124,6 +11639,11 @@
             "league": "Club Friendly",
             "name": "Xerez",
             "slug": "xerez"
+        },
+        "yale-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Yale Women",
+            "slug": "yale-women"
         },
         "yarm-eaglescliffe-fc": {
             "league": "English FA Cup",
