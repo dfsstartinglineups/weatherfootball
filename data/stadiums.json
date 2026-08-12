@@ -2859,6 +2859,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11046": {
+        "city": "Durban",
+        "country": "South Africa",
+        "id": "11046",
+        "lat": -29.8579,
+        "lon": 31.0292,
+        "name": "Kings Park Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11060": {
         "city": "Shymkent",
         "country": "Kazakhstan",
@@ -10355,16 +10365,6 @@
         "id": "alton",
         "lat": 36.69423,
         "lon": -91.3993,
-        "name": "Venue Unlisted",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "amazulu": {
-        "city": "",
-        "country": "",
-        "id": "amazulu",
-        "lat": 0.0,
-        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
