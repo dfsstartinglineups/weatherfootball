@@ -448,15 +448,12 @@ def validate_and_clean_stadiums_db(stadiums_db):
             print(f"  🧹 Purging corrupted cache for [{v_id}] {s.get('name')} (Longitude {lon}° East is in Europe/Asia!)")
             del stadiums_db[v_id]
             purged_count += 1
-        elif lat == 0.0 and lon == 0.0:
-            del stadiums_db[v_id]
-            purged_count += 1
             
     if purged_count > 0:
         print(f"  ✨ Sanitized {purged_count} bad entries from stadiums database.")
 
 def geocode_query_open_meteo(query_text, country_hint=""):
-    """Hits Open-Meteo's fast geocoding API with explicit country filtering."""
+    """Hits Open-Meteo's fast geocoding API with explicit country filtering and strict rate limiting."""
     if not query_text or not query_text.strip(): return 0.0, 0.0
 
     clean_q = re.sub(r'[^\w\s]', ' ', query_text).strip()
@@ -466,6 +463,10 @@ def geocode_query_open_meteo(query_text, country_hint=""):
     url = f"https://geocoding-api.open-meteo.com/v1/search?name={requests.utils.quote(clean_q)}&count=10&language=en&format=json"
     try:
         resp = HTTP.get(url, timeout=8)
+        
+        # 🛑 THIS PREVENTS HAMMERING THE API
+        time.sleep(1.5) 
+        
         if resp.status_code == 200:
             results = resp.json().get("results", [])
             if results:
@@ -480,6 +481,7 @@ def geocode_query_open_meteo(query_text, country_hint=""):
                 return float(results[0].get("latitude") if results[0].get("latitude") is not None else 0.0), float(results[0].get("longitude") if results[0].get("longitude") is not None else 0.0)
     except Exception as e:
         print(f"   ⚠️ Geocode error for '{query_text}': {e}")
+        
     return 0.0, 0.0
 
 def geocode_venue_multi_stage(venue_name, city, country, home_team):
@@ -521,7 +523,8 @@ def geocode_venue_multi_stage(venue_name, city, country, home_team):
 def get_or_update_stadium(stadiums_db, venue_id, venue_info, home_team=""):
     if venue_id in stadiums_db:
         cached = stadiums_db[venue_id]
-        if cached.get("lat") != 0.0 and cached.get("lon") != 0.0:
+        # If coordinates are valid, return immediately. If 0.0, fall through and retry!
+        if cached.get("lat", 0.0) != 0.0 or cached.get("lon", 0.0) != 0.0:
             return cached
 
     raw_name = venue_info.get("fullName") or venue_info.get("displayName") or ""
@@ -533,6 +536,7 @@ def get_or_update_stadium(stadiums_db, venue_id, venue_info, home_team=""):
     lat = float(venue_info.get("geometry", {}).get("coordinates", [0, 0])[1]) if "geometry" in venue_info else 0.0
     lon = float(venue_info.get("geometry", {}).get("coordinates", [0, 0])[0]) if "geometry" in venue_info else 0.0
 
+    # Because we fell through the cache check above, this will execute and retry the API.
     if lat == 0.0 or lon == 0.0:
         print(f"  🔍 Geocoding venue: {name} ({city}, {country}) | Home: {home_team}...")
         lat, lon = geocode_venue_multi_stage(name, city, country, home_team)
