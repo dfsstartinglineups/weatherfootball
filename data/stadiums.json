@@ -3129,16 +3129,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11202": {
-        "city": "",
-        "country": "USA",
-        "id": "11202",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Eugene E. Stone III Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11210": {
         "city": "",
         "country": "USA",
@@ -3406,16 +3396,6 @@
         "lat": 36.88154,
         "lon": -76.31355,
         "name": "Powhatan Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11334": {
-        "city": "",
-        "country": "USA",
-        "id": "11334",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Sean Sweeney Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3956,6 +3936,16 @@
         "lat": 37.94203,
         "lon": 23.64619,
         "name": "Georgios Karaiskakis Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1495": {
+        "city": "Volos",
+        "country": "Greece",
+        "id": "1495",
+        "lat": 39.36923,
+        "lon": 22.94769,
+        "name": "Panthessaliko Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
