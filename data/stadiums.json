@@ -2939,6 +2939,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11120": {
+        "city": "Dublin",
+        "country": "Republic of Ireland",
+        "id": "11120",
+        "lat": 53.36072,
+        "lon": -6.25172,
+        "name": "Croke Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11124": {
         "city": "Lugano",
         "country": "Switzerland",
@@ -3226,16 +3236,6 @@
         "lat": 38.67351,
         "lon": 29.4058,
         "name": "Linda Johnson Smith Soccer Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11254": {
-        "city": "",
-        "country": "USA",
-        "id": "11254",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "URI Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9999,6 +9999,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9651": {
+        "city": "",
+        "country": "Italy",
+        "id": "9651",
+        "lat": 40.87618,
+        "lon": 14.5195,
+        "name": "Stadio Teofilo Patini",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9656": {
         "city": "Stuttgart",
         "country": "Germany",
@@ -10633,6 +10643,16 @@
         "city": "",
         "country": "",
         "id": "caudal-deportivo",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "cd-laredo": {
+        "city": "",
+        "country": "",
+        "id": "cd-laredo",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
