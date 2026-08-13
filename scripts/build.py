@@ -1391,6 +1391,7 @@ def main():
 
     league_urls = []
     team_urls = []
+    changed_urls = []
 
     # 7. Generate Homepage
     print("\n🌐 Generating Homepage (/index.html)...")
@@ -1465,14 +1466,16 @@ def main():
     home_content = home_content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
     home_content = home_content.replace("__MATCH_CARDS_GRID__", home_cards_html)
     home_content = home_content.replace("__SCHEMA_JSON__", schema_json)
-    write_if_changed("index.html", home_content)
+    if write_if_changed("index.html", home_content):
+        changed_urls.append(f"{SITE_DOMAIN}/")
 
     # 8. Generate League Pages
     print(f"\n🏆 Generating {len(master_registry['leagues'])} League Pages (/leagues/)...")
     for l_slug, l_data in master_registry['leagues'].items():
         if l_slug == "global-football": continue
         
-        league_urls.append(f"{SITE_DOMAIN}/leagues/{l_slug}/")
+        league_filepath = os.path.join("leagues", l_slug, "index.html")
+        league_urls.append((f"{SITE_DOMAIN}/leagues/{l_slug}/", league_filepath))
         league_games = [g for g in all_games_processed if g['league_slug'] == l_slug]
         has_game_today = any(g['id'] in today_event_ids for g in league_games)
         
@@ -1533,12 +1536,14 @@ def main():
         content = content.replace("__MATCH_CARDS_GRID__", cards_html)
         content = content.replace("__SCHEMA_JSON__", "")
 
-        write_if_changed(os.path.join("leagues", l_slug, "index.html"), content)
+        if write_if_changed(league_filepath, content):
+            changed_urls.append(f"{SITE_DOMAIN}/leagues/{l_slug}/")
 
     # 9. Generate Team Pages
     print(f"\n🛡️ Generating {len(master_registry['teams'])} Team Pages (/teams/)...")
     for t_slug, t_data in master_registry['teams'].items():
-        team_urls.append(f"{SITE_DOMAIN}/teams/{t_slug}/")
+        team_filepath = os.path.join("teams", t_slug, "index.html")
+        team_urls.append((f"{SITE_DOMAIN}/teams/{t_slug}/", team_filepath))
         team_games = [g for g in all_games_processed if g['home_slug'] == t_slug or g['away_slug'] == t_slug]
         
         today_games_for_team = [g for g in team_games if g['id'] in today_event_ids]
@@ -1581,56 +1586,81 @@ def main():
         content = content.replace("__TOGGLE_CONTROLS_ROW__", "")
         content = content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
         content = content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
+        schema_json = ""
+        if team_games:
+            next_game = today_games_for_team[0] if has_game_today else team_games[0]
+            schema_dict = {
+                "@context": "https://schema.org",
+                "@type": "SportsEvent",
+                "name": f"{next_game['away_team']} at {next_game['home_team']}",
+                "startDate": next_game['game_time'],
+                "location": {
+                    "@type": "Place",
+                    "name": next_game['stadium']['name']
+                },
+                "homeTeam": {"@type": "SportsTeam", "name": next_game['home_team']},
+                "awayTeam": {"@type": "SportsTeam", "name": next_game['away_team']}
+            }
+            schema_json = json.dumps(schema_dict, indent=4)
+
         content = content.replace("__MATCH_CARDS_GRID__", cards_html)
-        content = content.replace("__SCHEMA_JSON__", "")
+        content = content.replace("__SCHEMA_JSON__", schema_json)
 
-        write_if_changed(os.path.join("teams", t_slug, "index.html"), content)
+        if write_if_changed(team_filepath, content):
+            changed_urls.append(f"{SITE_DOMAIN}/teams/{t_slug}/")
 
-    # 10. Generate Sitemaps
-    print("\nMAP Generating Sitemaps...")
-    lastmod_date = datetime.datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    # 10. Generate Sitemaps & IndexNow Ping
+    print("\n🗺️ Generating Sitemaps & Pinging IndexNow...")
+    
+    def get_file_lastmod(filepath):
+        if os.path.exists(filepath):
+            mtime = os.path.getmtime(filepath)
+            return datetime.datetime.fromtimestamp(mtime, timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+        return datetime.datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
-    sitemap_main_content = f'''<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>{SITE_DOMAIN}/</loc>
-    <lastmod>{lastmod_date}</lastmod>
-    <changefreq>always</changefreq>
-    <priority>1.0</priority>
-  </url>
-</urlset>'''
+    index_lastmod = get_file_lastmod("index.html")
+    sitemap_main_content = f'''<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url>\n    <loc>{SITE_DOMAIN}/</loc>\n    <lastmod>{index_lastmod}</lastmod>\n    <changefreq>always</changefreq>\n    <priority>1.0</priority>\n  </url>\n</urlset>'''
     write_if_changed("sitemap-main.xml", sitemap_main_content)
 
     sitemap_leagues_content = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for url in league_urls:
-        sitemap_leagues_content += f"  <url>\n    <loc>{url}</loc>\n    <lastmod>{lastmod_date}</lastmod>\n    <changefreq>daily</changefreq>\n  </url>\n"
+    for url, filepath in league_urls:
+        file_mod = get_file_lastmod(filepath)
+        sitemap_leagues_content += f"  <url>\n    <loc>{url}</loc>\n    <lastmod>{file_mod}</lastmod>\n    <changefreq>daily</changefreq>\n  </url>\n"
     sitemap_leagues_content += "</urlset>"
     write_if_changed("sitemap-leagues.xml", sitemap_leagues_content)
 
     sitemap_teams_content = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for url in team_urls:
-        sitemap_teams_content += f"  <url>\n    <loc>{url}</loc>\n    <lastmod>{lastmod_date}</lastmod>\n    <changefreq>daily</changefreq>\n  </url>\n"
+    for url, filepath in team_urls:
+        file_mod = get_file_lastmod(filepath)
+        sitemap_teams_content += f"  <url>\n    <loc>{url}</loc>\n    <lastmod>{file_mod}</lastmod>\n    <changefreq>daily</changefreq>\n  </url>\n"
     sitemap_teams_content += "</urlset>"
     write_if_changed("sitemap-teams.xml", sitemap_teams_content)
 
-    sitemap_index_content = f'''<?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>{SITE_DOMAIN}/sitemap-main.xml</loc>
-    <lastmod>{lastmod_date}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>{SITE_DOMAIN}/sitemap-leagues.xml</loc>
-    <lastmod>{lastmod_date}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>{SITE_DOMAIN}/sitemap-teams.xml</loc>
-    <lastmod>{lastmod_date}</lastmod>
-  </sitemap>
-</sitemapindex>'''
+    sitemap_index_lastmod = datetime.datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    sitemap_index_content = f'''<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <sitemap>\n    <loc>{SITE_DOMAIN}/sitemap-main.xml</loc>\n    <lastmod>{sitemap_index_lastmod}</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>{SITE_DOMAIN}/sitemap-leagues.xml</loc>\n    <lastmod>{sitemap_index_lastmod}</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>{SITE_DOMAIN}/sitemap-teams.xml</loc>\n    <lastmod>{sitemap_index_lastmod}</lastmod>\n  </sitemap>\n</sitemapindex>'''
     write_if_changed("sitemap.xml", sitemap_index_content)
 
-    print("✅ Build complete! Weather Football static generator updated with hybrid WeatherAPI / Open-Meteo router.")
+    # 🚀 Ping IndexNow (Only if URLs actually changed)
+    if changed_urls:
+        indexnow_key = "a9b0ecfa323d4d269527f56bcfe74654"
+        payload = {
+            "host": SITE_DOMAIN.replace("https://", "").replace("http://", ""),
+            "key": indexnow_key,
+            "keyLocation": f"{SITE_DOMAIN}/{indexnow_key}.txt",
+            "urlList": changed_urls
+        }
+        try:
+            res = requests.post("https://api.indexnow.org/indexnow", json=payload, timeout=10)
+            if res.status_code in [200, 202]:
+                print(f"🚀 Successfully pinged IndexNow with {len(changed_urls)} modified URLs!")
+            else:
+                print(f"⚠️ IndexNow ping failed: {res.status_code} - {res.text}")
+        except Exception as e:
+            print(f"⚠️ IndexNow ping exception: {e}")
+    else:
+        print("ℹ️ No HTML changes detected. Skipping IndexNow ping.")
+
+    print("✅ Build complete! Weather Football static generator updated with Schema & IndexNow.")
 
 if __name__ == "__main__":
     main()
