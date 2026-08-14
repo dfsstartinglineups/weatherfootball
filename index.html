@@ -4364,6 +4364,73 @@
             </div>
         </div>
     </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401911180">
+        <div class="card game-card shadow-sm  bg-light">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-14T15:01Z" style="font-size: 0.65rem;">Aug 14, 03:01 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        ⚠️No Weather Info
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Enosis Neon Paralimni</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Akritas Chlorakas</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span style="font-size: 1.1rem; margin-right: 6px; vertical-align: middle; line-height: 1;">🤝</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-14T15:01Z" style="font-size: 0.65rem;">Aug 14, 03:01 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Venue Unlisted</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/enosis-neon-paralimni/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Enosis Neon Paralimni</a>
+                                <a href="https://futbolstartingeleven.com/teams/enosis-neon-paralimni/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/akritas-chlorakas/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Akritas Chlorakas</a>
+                                <a href="https://futbolstartingeleven.com/teams/akritas-chlorakas/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="text-center p-3 mt-2 border-top">
+            <h6 class="text-warning fw-bold mb-1">⚠️ Weather Info Not Available</h6>
+            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium coordinates unlisted.</p>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401909013">
         <div class="card game-card shadow-sm  bg-light">
             <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
@@ -4496,7 +4563,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 58%</div>
+                <div class="fw-bold text-dark">💧 59%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
@@ -8959,7 +9026,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-secondary text-white border-secondary flex-shrink-0" style="font-size: 0.65rem;">FINAL &nbsp;|&nbsp; 1-3</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️71% 🌡️81° 💨8mph
+                        🌧️100% 🌡️78° 💨5mph
                     </div>
                 </div>
                 
@@ -9011,52 +9078,46 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">81°F</div>
+                <div class="fw-bold">78°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 75%</div>
+                <div class="fw-bold text-dark">💧 81%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">71%</div>
+                <div class="fw-bold text-primary">100%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">8 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
         <div class="hourly-scroll-container">
                 <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-14T09:00:00Z">9AM</div>
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-14T15:00:00Z">3PM</div>
                     <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">43%</div>
-                    <div class="hour-temp">82°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-14T10:00:00Z">10AM</div>
-                    <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">57%</div>
-                    <div class="hour-temp">81°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-14T11:00:00Z">11AM</div>
-                    <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">68%</div>
-                    <div class="hour-temp">79°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-14T12:00:00Z">12PM</div>
-                    <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">71%</div>
-                    <div class="hour-temp">79°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-08-14T13:00:00Z">1PM</div>
-                    <div class="hour-icon">🌧️</div>
-                    <div class="hour-pop">62%</div>
+                    <div class="hour-pop">100%</div>
                     <div class="hour-temp">78°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-14T16:00:00Z">4PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">52%</div>
+                    <div class="hour-temp">78°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-14T17:00:00Z">5PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">30%</div>
+                    <div class="hour-temp">78°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-08-14T18:00:00Z">6PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">40%</div>
+                    <div class="hour-temp">77°</div>
                 </div></div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=35.6895&lon=139.69171&detailLat=35.6895&detailLon=139.69171&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Japan National Stadium')">
@@ -10398,7 +10459,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-08-14T21:30Z" style="font-size: 0.65rem;">Aug 14, 09:30 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️27% 🌡️67° 💨6mph
+                        🌧️25% 🌡️66° 💨6mph
                     </div>
                 </div>
                 
@@ -10450,15 +10511,15 @@
                     
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
-                <div class="fw-bold">67°F</div>
+                <div class="fw-bold">66°F</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 74%</div>
+                <div class="fw-bold text-dark">💧 75%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
             </div>
             <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">27%</div>
+                <div class="fw-bold text-primary">25%</div>
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
@@ -10477,25 +10538,25 @@
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-14T21:00:00Z">9PM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">67°</div>
+                    <div class="hour-temp">66°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-14T22:00:00Z">10PM</div>
                     <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">27%</div>
+                    <div class="hour-pop">25%</div>
                     <div class="hour-temp">62°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-14T23:00:00Z">11PM</div>
                     <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-pop">20%</div>
                     <div class="hour-temp">60°</div>
                 </div>
                 <div class="hour-card">
                     <div class="hour-time local-hour-time" data-timestamp="2026-08-15T00:00:00Z">12AM</div>
                     <div class="hour-icon">⛅</div>
                     <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">59°</div>
+                    <div class="hour-temp">60°</div>
                 </div></div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=-25.28646&lon=-57.647&detailLat=-25.28646&detailLon=-57.647&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Estadio Ricardo Gregor')">
@@ -10879,7 +10940,7 @@
                 
                 <!-- Top Line: Time Badge & Weather (Left aligned together) -->
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">44' &nbsp;|&nbsp; 0-1</span>
+                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">HT &nbsp;|&nbsp; 0-1</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
                         🌧️4% 🌡️72° 💨12mph
                     </div>
@@ -10907,7 +10968,7 @@
                         <img src="https://flagcdn.com/w40/ru.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Russian Premier League</span>
                     </div>
-                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">44' &nbsp;|&nbsp; 0-1</span>
+                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">HT &nbsp;|&nbsp; 0-1</span>
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
