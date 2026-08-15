@@ -1,4 +1,14 @@
 {
+    "10018": {
+        "city": "Manises",
+        "country": "Spain",
+        "id": "10018",
+        "lat": 39.49139,
+        "lon": -0.46349,
+        "name": "Estadi Ciutat de Val\u00e8ncia",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10019": {
         "city": "Southampton",
         "country": "England",
@@ -96,6 +106,16 @@
         "lat": 33.58831,
         "lon": -7.61138,
         "name": "Stade Larbi Zaouli",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10141": {
+        "city": "Davie, Florida",
+        "country": "USA",
+        "id": "10141",
+        "lat": 26.06287,
+        "lon": -80.2331,
+        "name": "Beyond Bancard Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -709,6 +729,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10396": {
+        "city": "Banten",
+        "country": "Indonesia",
+        "id": "10396",
+        "lat": -6.0307,
+        "lon": 106.164,
+        "name": "Banten International Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10399": {
         "city": "Montevideo",
         "country": "Uruguay",
@@ -1309,6 +1339,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10631": {
+        "city": "San Sebastian",
+        "country": "Spain",
+        "id": "10631",
+        "lat": 28.09163,
+        "lon": -17.11331,
+        "name": "Reale Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10632": {
         "city": "Oviedo",
         "country": "Spain",
@@ -1706,6 +1746,16 @@
         "lat": 40.91494,
         "lon": 14.79103,
         "name": "Partenio",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10685": {
+        "city": "Bolzano",
+        "country": "Italy",
+        "id": "10685",
+        "lat": 46.49067,
+        "lon": 11.33982,
+        "name": "Stadio Druso",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3529,16 +3579,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11335": {
-        "city": "",
-        "country": "USA",
-        "id": "11335",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Oliver C. Dawson Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11337": {
         "city": "",
         "country": "USA",
@@ -3769,6 +3809,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11494": {
+        "city": "",
+        "country": "Germany",
+        "id": "11494",
+        "lat": 51.5,
+        "lon": 10.5,
+        "name": "Weserstadion Platz 11",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1198": {
         "city": "Tel-Aviv",
         "country": "Israel",
@@ -3986,6 +4036,16 @@
         "lat": 39.1638,
         "lon": -119.7674,
         "name": "Dignity Health Sports Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1446": {
+        "city": "Dallas",
+        "country": "USA",
+        "id": "1446",
+        "lat": 32.77985,
+        "lon": -96.76,
+        "name": "Cotton Bowl",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7879,6 +7939,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6020": {
+        "city": "Bournemouth",
+        "country": "England",
+        "id": "6020",
+        "lat": 50.72048,
+        "lon": -1.8795,
+        "name": "Vitality Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6025": {
         "city": "Moscow",
         "country": "Russia",
@@ -10309,6 +10379,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9281": {
+        "city": "Jakarta",
+        "country": "Indonesia",
+        "id": "9281",
+        "lat": -6.21462,
+        "lon": 106.84513,
+        "name": "Jakarta International Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9326": {
         "city": "Diyarbakir",
         "country": "T\u00fcrkiye",
@@ -11079,6 +11159,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "atletico-tordesillas": {
+        "city": "",
+        "country": "",
+        "id": "atletico-tordesillas",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "atromitos": {
         "city": "",
         "country": "",
@@ -11219,6 +11309,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "binh-duong": {
+        "city": "",
+        "country": "",
+        "id": "binh-duong",
+        "lat": 15.85,
+        "lon": 108.38333,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "blackstones": {
         "city": "",
         "country": "",
@@ -11323,6 +11423,16 @@
         "city": "",
         "country": "",
         "id": "cacahuatique",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "cadiz-ii": {
+        "city": "",
+        "country": "",
+        "id": "cadiz-ii",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -11563,6 +11673,16 @@
         "city": "",
         "country": "",
         "id": "cska-sofia",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "cultural-leonesa": {
+        "city": "",
+        "country": "",
+        "id": "cultural-leonesa",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -11849,6 +11969,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "hai-phong": {
+        "city": "",
+        "country": "",
+        "id": "hai-phong",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "hallam": {
         "city": "",
         "country": "",
@@ -11975,6 +12105,16 @@
         "id": "hnk-segesta-sisak",
         "lat": 0.0,
         "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "ho-chi-minh-city": {
+        "city": "",
+        "country": "",
+        "id": "ho-chi-minh-city",
+        "lat": 10.82302,
+        "lon": 106.62965,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -12329,6 +12469,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "mallorca-ii": {
+        "city": "",
+        "country": "",
+        "id": "mallorca-ii",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "manchester-united": {
         "city": "",
         "country": "",
@@ -12379,12 +12529,32 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "mosconia": {
+        "city": "",
+        "country": "",
+        "id": "mosconia",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "mossley": {
         "city": "",
         "country": "",
         "id": "mossley",
         "lat": 53.51454,
         "lon": -2.03462,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "mostoles": {
+        "city": "",
+        "country": "",
+        "id": "mostoles",
+        "lat": 40.32234,
+        "lon": -3.86496,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -12615,6 +12785,16 @@
         "id": "penrith",
         "lat": 54.66579,
         "lon": -2.75757,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "persib": {
+        "city": "",
+        "country": "",
+        "id": "persib",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -12935,6 +13115,16 @@
         "id": "silsden",
         "lat": 53.91443,
         "lon": -1.93802,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "sk-tirana": {
+        "city": "",
+        "country": "",
+        "id": "sk-tirana",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
