@@ -11129,6 +11129,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "aviles-stadium": {
+        "city": "",
+        "country": "",
+        "id": "aviles-stadium",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "badalona": {
         "city": "",
         "country": "",
@@ -12015,6 +12025,16 @@
         "id": "ilford",
         "lat": 51.55765,
         "lon": 0.07278,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "illescas": {
+        "city": "",
+        "country": "",
+        "id": "illescas",
+        "lat": 40.12213,
+        "lon": -3.84704,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
