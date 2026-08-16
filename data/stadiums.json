@@ -549,6 +549,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10345": {
+        "city": "Hanoi",
+        "country": "Vietnam",
+        "id": "10345",
+        "lat": 21.0245,
+        "lon": 105.84117,
+        "name": "My Dinh Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10347": {
         "city": "Krasnodar",
         "country": "Russia",
@@ -2169,6 +2179,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10763": {
+        "city": "Heerenveen",
+        "country": "Netherlands",
+        "id": "10763",
+        "lat": 52.95929,
+        "lon": 5.91854,
+        "name": "Sportpark Skoatterwald",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10764": {
         "city": "Hamar",
         "country": "Norway",
@@ -2439,6 +2459,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10804": {
+        "city": "Sabadell",
+        "country": "Spain",
+        "id": "10804",
+        "lat": 41.54329,
+        "lon": 2.10942,
+        "name": "Estadi Municipal de la Nova Creu Alta",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10809": {
         "city": "Blackpool",
         "country": "England",
@@ -2636,6 +2666,16 @@
         "lat": 34.65,
         "lon": 133.93333,
         "name": "City Light Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10875": {
+        "city": "Bukayriyah",
+        "country": "Saudi Arabia",
+        "id": "10875",
+        "lat": 26.13915,
+        "lon": 43.65782,
+        "name": "Al-Bukayriyah Club Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3789,6 +3829,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11479": {
+        "city": "",
+        "country": "Saudi Arabia",
+        "id": "11479",
+        "lat": 25.0,
+        "lon": 45.0,
+        "name": "Al-Oruba Club Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11480": {
         "city": "",
         "country": "Italy",
@@ -3816,6 +3866,36 @@
         "lat": 51.5,
         "lon": 10.5,
         "name": "Weserstadion Platz 11",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11500": {
+        "city": "",
+        "country": "Cyprus",
+        "id": "11500",
+        "lat": 35.0,
+        "lon": 33.0,
+        "name": "Dimotiko Stadio Aradippou",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11501": {
+        "city": "",
+        "country": "Cyprus",
+        "id": "11501",
+        "lat": 35.0,
+        "lon": 33.0,
+        "name": "Stadio Katokopia-Epistrofi-Glafkos Kliridis",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11502": {
+        "city": "",
+        "country": "Germany",
+        "id": "11502",
+        "lat": 51.5,
+        "lon": 10.5,
+        "name": "Getr\u00e4nke Hoffmann Stadion",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5116,6 +5196,16 @@
         "lat": 53.9885,
         "lon": -0.91547,
         "name": "Stamford Bridge",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "250": {
+        "city": "Manchester",
+        "country": "England",
+        "id": "250",
+        "lat": 53.45756,
+        "lon": -2.28818,
+        "name": "Old Trafford",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7156,6 +7246,16 @@
         "lat": -0.22985,
         "lon": -78.52495,
         "name": "Estadio Banco Pichincha",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5308": {
+        "city": "",
+        "country": "Mexico",
+        "id": "5308",
+        "lat": 23.0,
+        "lon": -102.0,
+        "name": "Estadio 10 de Diciembre",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -10389,6 +10489,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9298": {
+        "city": "Utrecht",
+        "country": "Netherlands",
+        "id": "9298",
+        "lat": 52.09083,
+        "lon": 5.12222,
+        "name": "Sportpark Zoudenbalch (07) veld 1-FCU",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9326": {
         "city": "Diyarbakir",
         "country": "T\u00fcrkiye",
@@ -10446,6 +10556,16 @@
         "lat": 18.21639,
         "lon": 42.50528,
         "name": "Prince Sultan bin Abdulaziz Sports City Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9481": {
+        "city": "Mecca",
+        "country": "Saudi Arabia",
+        "id": "9481",
+        "lat": 21.42664,
+        "lon": 39.82563,
+        "name": "King Abdulaziz Sports City",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -10606,6 +10726,16 @@
         "lat": 34.66865,
         "lon": 32.93375,
         "name": "Alphamega Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9646": {
+        "city": "Enschede",
+        "country": "Netherlands",
+        "id": "9646",
+        "lat": 52.21833,
+        "lon": 6.89583,
+        "name": "Sportpark Schreurserve-Enschede",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11499,6 +11629,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "cd-extremadura": {
+        "city": "",
+        "country": "",
+        "id": "cd-extremadura",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "cd-fas": {
         "city": "",
         "country": "",
@@ -11703,6 +11843,16 @@
         "city": "",
         "country": "",
         "id": "deportivo-recoleta",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "dong-tam-long-an": {
+        "city": "",
+        "country": "",
+        "id": "dong-tam-long-an",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -11919,6 +12069,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "gimnastica-torrelavega": {
+        "city": "",
+        "country": "",
+        "id": "gimnastica-torrelavega",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "girona": {
         "city": "",
         "country": "",
@@ -11983,6 +12143,16 @@
         "city": "",
         "country": "",
         "id": "hai-phong",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "halifax-tides-fc-women": {
+        "city": "",
+        "country": "",
+        "id": "halifax-tides-fc-women",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -12549,6 +12719,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "montreal-roses-fc-women": {
+        "city": "",
+        "country": "",
+        "id": "montreal-roses-fc-women",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "mosconia": {
         "city": "",
         "country": "",
@@ -12759,6 +12939,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "ottawa-rapid-fc-women": {
+        "city": "",
+        "country": "",
+        "id": "ottawa-rapid-fc-women",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "oud-heverlee-leuven-b": {
         "city": "",
         "country": "",
@@ -12949,6 +13139,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "real-oviedo-vetusta": {
+        "city": "",
+        "country": "",
+        "id": "real-oviedo-vetusta",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "real-sociedad-iii": {
         "city": "",
         "country": "",
@@ -13103,6 +13303,26 @@
         "city": "",
         "country": "",
         "id": "sd-eibari-iii",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "semifinal-1-winner": {
+        "city": "",
+        "country": "",
+        "id": "semifinal-1-winner",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "semifinal-2-winner": {
+        "city": "",
+        "country": "",
+        "id": "semifinal-2-winner",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
