@@ -359,6 +359,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10305": {
+        "city": "Al Zulfi",
+        "country": "Saudi Arabia",
+        "id": "10305",
+        "lat": 25.0,
+        "lon": 45.0,
+        "name": "Al Zulfi Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10307": {
         "city": "Rabat",
         "country": "Morocco",
@@ -396,6 +406,16 @@
         "lat": 48.30639,
         "lon": 14.28611,
         "name": "Raiffeisen Arena (Linz)",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10320": {
+        "city": "Amsterdam-Duivendrecht",
+        "country": "Netherlands",
+        "id": "10320",
+        "lat": 36.29923,
+        "lon": -89.75119,
+        "name": "Sportpark De Toekomst",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -2109,6 +2129,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10749": {
+        "city": "Khamis Mushait",
+        "country": "Saudi Arabia",
+        "id": "10749",
+        "lat": 18.3,
+        "lon": 42.73333,
+        "name": "Damac Club Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10750": {
         "city": "Cheltenham",
         "country": "England",
@@ -3819,6 +3849,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11477": {
+        "city": "",
+        "country": "Saudi Arabia",
+        "id": "11477",
+        "lat": 25.0,
+        "lon": 45.0,
+        "name": "Prince Mohammed bin Abdul Aziz Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11478": {
         "city": "",
         "country": "Peru",
@@ -3896,6 +3936,16 @@
         "lat": 51.5,
         "lon": 10.5,
         "name": "Getr\u00e4nke Hoffmann Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11503": {
+        "city": "",
+        "country": "Saudi Arabia",
+        "id": "11503",
+        "lat": 25.0,
+        "lon": 45.0,
+        "name": "Al Anwar Club Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9189,6 +9239,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7031": {
+        "city": "Buraidah",
+        "country": "Saudi Arabia",
+        "id": "7031",
+        "lat": 26.32599,
+        "lon": 43.97497,
+        "name": "King Abdullah Sport City Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7036": {
         "city": "Jacksonville",
         "country": "USA",
@@ -10559,6 +10619,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9480": {
+        "city": "Abha",
+        "country": "Saudi Arabia",
+        "id": "9480",
+        "lat": 18.21639,
+        "lon": 42.50528,
+        "name": "Prince Abdulaziz Bin Musaid Sport City Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9481": {
         "city": "Mecca",
         "country": "Saudi Arabia",
@@ -10716,6 +10786,16 @@
         "lat": 25.0,
         "lon": 45.0,
         "name": "Al-Hazm Club Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9631": {
+        "city": "Najran",
+        "country": "Saudi Arabia",
+        "id": "9631",
+        "lat": 17.49326,
+        "lon": 44.12766,
+        "name": "Prince Hathloul Bin Abdulaziz Sport City Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11056,6 +11136,16 @@
         "lat": 51.23074,
         "lon": 5.31349,
         "name": "Soeverein Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9958": {
+        "city": "Al-Hofuf",
+        "country": "Saudi Arabia",
+        "id": "9958",
+        "lat": 25.0,
+        "lon": 45.0,
+        "name": "Prince Abdullah bin Jalawi Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11839,6 +11929,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "de-graafschap-women": {
+        "city": "",
+        "country": "",
+        "id": "de-graafschap-women",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "deportivo-recoleta": {
         "city": "",
         "country": "",
@@ -11973,6 +12073,16 @@
         "city": "",
         "country": "",
         "id": "fc-martinenc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "feyenoord-rotterdam-women": {
+        "city": "",
+        "country": "",
+        "id": "feyenoord-rotterdam-women",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -12395,6 +12505,16 @@
         "id": "jablonec",
         "lat": 50.72431,
         "lon": 15.17108,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "jeddah": {
+        "city": "",
+        "country": "",
+        "id": "jeddah",
+        "lat": 21.49012,
+        "lon": 39.18624,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
