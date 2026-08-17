@@ -3479,16 +3479,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11189": {
-        "city": "",
-        "country": "USA",
-        "id": "11189",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "UCCU Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11194": {
         "city": "",
         "country": "USA",
@@ -3496,16 +3486,6 @@
         "lat": 46.90035,
         "lon": -96.80099,
         "name": "Dacotah Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11197": {
-        "city": "",
-        "country": "USA",
-        "id": "11197",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Newton Campus Lacrosse & Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3526,16 +3506,6 @@
         "lat": 51.0303,
         "lon": 6.98432,
         "name": "BayArena",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11219": {
-        "city": "",
-        "country": "USA",
-        "id": "11219",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Wendell & Vickie Bell Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3706,26 +3676,6 @@
         "lat": 42.66667,
         "lon": 25.25,
         "name": "Stadion Beroe",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11349": {
-        "city": "",
-        "country": "USA",
-        "id": "11349",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Waldron Family Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11352": {
-        "city": "",
-        "country": "USA",
-        "id": "11352",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Washington Light Infantry Field",
         "roof": "Open",
         "surface": "Grass"
     },
