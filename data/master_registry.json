@@ -58,7 +58,7 @@
         },
         "asean-championship": {
             "last_crossover_date": "2026-08-18",
-            "last_updated": 1787036524.482174,
+            "last_updated": 1787039134.346924,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2261.png",
             "name": "ASEAN Championship",
             "pill": "aff.championship",
@@ -98,7 +98,7 @@
         },
         "brazilian-serie-b": {
             "last_crossover_date": "2026-08-18",
-            "last_updated": 1787036532.064638,
+            "last_updated": 1787039136.791857,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
@@ -122,7 +122,7 @@
         },
         "chinese-super-league": {
             "last_crossover_date": "2026-08-18",
-            "last_updated": 1787036534.110945,
+            "last_updated": 1787039134.515496,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2350.png",
             "name": "Chinese Super League",
             "pill": "chn.1",
@@ -130,7 +130,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-08-18",
-            "last_updated": 1787036521.004702,
+            "last_updated": 1787039132.177568,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -154,7 +154,7 @@
         },
         "concacaf-central-american-cup": {
             "last_crossover_date": "2026-08-18",
-            "last_updated": 1787038270.340336,
+            "last_updated": 1787039138.342602,
             "logo": "\ud83c\udf0e",
             "name": "Concacaf Central American Cup",
             "pill": "concacaf.central.american.cup",
@@ -162,7 +162,7 @@
         },
         "conmebol-libertadores": {
             "last_crossover_date": "2026-08-18",
-            "last_updated": 1787036483.401782,
+            "last_updated": 1787039132.737305,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/58.png",
             "name": "CONMEBOL Libertadores",
             "pill": "conmebol.libertadores",
@@ -170,7 +170,7 @@
         },
         "conmebol-sudamericana": {
             "last_crossover_date": "2026-08-18",
-            "last_updated": 1787036528.743338,
+            "last_updated": 1787039135.911486,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png",
             "name": "CONMEBOL Sudamericana",
             "pill": "conmebol.sudamericana",
@@ -178,15 +178,15 @@
         },
         "copa-argentina": {
             "last_crossover_date": "2026-08-18",
-            "last_updated": 1787038273.938859,
+            "last_updated": 1787039136.26638,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2320.png",
             "name": "Copa Argentina",
             "pill": "arg.copa",
             "slug": "copa-argentina"
         },
         "copa-bolivia": {
-            "last_crossover_date": "",
-            "last_updated": 1787036461.653716,
+            "last_crossover_date": "2026-08-18",
+            "last_updated": 1787039170.424255,
             "logo": "",
             "name": "Copa Bolivia",
             "pill": "bol.copa",
@@ -202,7 +202,7 @@
         },
         "copa-colombia": {
             "last_crossover_date": "2026-08-18",
-            "last_updated": 1787038263.478698,
+            "last_updated": 1787039137.147604,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2332.png",
             "name": "Copa Colombia",
             "pill": "col.copa",
@@ -290,15 +290,15 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1787036474.623687,
+            "last_updated": 1787039154.017486,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
             "slug": "english-carabao-cup"
         },
         "english-efl-trophy": {
-            "last_crossover_date": "",
-            "last_updated": 1787036450.296869,
+            "last_crossover_date": "2026-08-18",
+            "last_updated": 1787039164.889651,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/42.png",
             "name": "English EFL Trophy",
             "pill": "eng.trophy",
@@ -338,7 +338,7 @@
         },
         "english-premier-league": {
             "last_crossover_date": "",
-            "last_updated": 1787036471.750229,
+            "last_updated": 1787039149.840998,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -458,7 +458,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-08-16",
-            "last_updated": 1787036482.468225,
+            "last_updated": 1787039164.353887,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -466,7 +466,7 @@
         },
         "ncaa-womens-soccer": {
             "last_crossover_date": "2026-08-18",
-            "last_updated": 1787038248.447868,
+            "last_updated": 1787039138.898938,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -546,7 +546,7 @@
         },
         "saudi-kings-cup": {
             "last_crossover_date": "2026-08-18",
-            "last_updated": 1787038268.691461,
+            "last_updated": 1787039134.176518,
             "logo": "\ud83c\udfc6",
             "name": "Saudi King's Cup",
             "pill": "ksa.kings.cup",
@@ -610,7 +610,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "2026-08-17",
-            "last_updated": 1787036477.774158,
+            "last_updated": 1787039158.520483,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -666,7 +666,7 @@
         },
         "uefa-champions-league-qualifying": {
             "last_crossover_date": "2026-08-18",
-            "last_updated": 1787038259.577807,
+            "last_updated": 1787039133.299283,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
             "name": "UEFA Champions League Qualifying",
             "pill": "uefa.champions_qual",
@@ -798,7 +798,7 @@
             "slug": "aalesund"
         },
         "abb": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "ABB",
             "slug": "abb"
         },
@@ -1348,7 +1348,7 @@
             "slug": "alianza-atletico"
         },
         "alianza-fc": {
-            "league": "Concacaf Central American Cup",
+            "league": "Copa Colombia",
             "name": "Alianza FC",
             "slug": "alianza-fc"
         },
@@ -1403,7 +1403,7 @@
             "slug": "alverca"
         },
         "always-ready": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Always Ready",
             "slug": "always-ready"
         },
@@ -2323,7 +2323,7 @@
             "slug": "blackburn-rovers"
         },
         "blackpool": {
-            "league": "English Carabao Cup",
+            "league": "English EFL Trophy",
             "name": "Blackpool",
             "slug": "blackpool"
         },
@@ -2333,7 +2333,7 @@
             "slug": "blackstones"
         },
         "blooming": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Blooming",
             "slug": "blooming"
         },
@@ -2388,7 +2388,7 @@
             "slug": "boldmere-st-michaels"
         },
         "bolivar": {
-            "league": "CONMEBOL Sudamericana",
+            "league": "Copa Bolivia",
             "name": "Bol\u00edvar",
             "slug": "bolivar"
         },
@@ -2593,7 +2593,7 @@
             "slug": "bristol-manor-farm"
         },
         "bristol-rovers": {
-            "league": "English Carabao Cup",
+            "league": "English EFL Trophy",
             "name": "Bristol Rovers",
             "slug": "bristol-rovers"
         },
@@ -3251,6 +3251,11 @@
             "league": "English Carabao Cup",
             "name": "Chelsea",
             "slug": "chelsea"
+        },
+        "chelsea-u21": {
+            "league": "English EFL Trophy",
+            "name": "Chelsea U21",
+            "slug": "chelsea-u21"
         },
         "cheltenham-town": {
             "league": "English Carabao Cup",
@@ -4628,7 +4633,7 @@
             "slug": "estudiantes-buenos-aires"
         },
         "estudiantes-de-la-plata": {
-            "league": "Copa Argentina",
+            "league": "CONMEBOL Libertadores",
             "name": "Estudiantes de La Plata",
             "slug": "estudiantes-de-la-plata"
         },
@@ -5673,7 +5678,7 @@
             "slug": "guisborough-town"
         },
         "gv-san-jose": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "GV San Jos\u00e9",
             "slug": "gv-san-jose"
         },
@@ -6308,12 +6313,12 @@
             "slug": "independiente-medellin"
         },
         "independiente-petrolero": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Independiente Petrolero",
             "slug": "independiente-petrolero"
         },
         "independiente-rivadavia": {
-            "league": "Copa Argentina",
+            "league": "CONMEBOL Libertadores",
             "name": "Independiente Rivadavia",
             "slug": "independiente-rivadavia"
         },
@@ -7557,6 +7562,11 @@
             "name": "Manchester City",
             "slug": "manchester-city"
         },
+        "manchester-city-u21": {
+            "league": "English EFL Trophy",
+            "name": "Manchester City U21",
+            "slug": "manchester-city-u21"
+        },
         "manchester-united": {
             "league": "English Premier League",
             "name": "Manchester United",
@@ -7578,7 +7588,7 @@
             "slug": "manitoba-women"
         },
         "mansfield-town": {
-            "league": "English Carabao Cup",
+            "league": "English EFL Trophy",
             "name": "Mansfield Town",
             "slug": "mansfield-town"
         },
@@ -8113,7 +8123,7 @@
             "slug": "nacional-asuncion"
         },
         "nacional-potosi": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Nacional Potos\u00ed",
             "slug": "nacional-potosi"
         },
@@ -9618,7 +9628,7 @@
             "slug": "real-murcia"
         },
         "real-oruro": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Real Oruro",
             "slug": "real-oruro"
         },
@@ -9638,7 +9648,7 @@
             "slug": "real-pilar"
         },
         "real-potosi": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Real Potos\u00ed",
             "slug": "real-potosi"
         },
@@ -9668,7 +9678,7 @@
             "slug": "real-sporting-de-gijon-ii"
         },
         "real-tomayapo": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Real Tomayapo",
             "slug": "real-tomayapo"
         },
