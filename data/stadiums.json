@@ -2059,6 +2059,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10717": {
+        "city": "Napoli",
+        "country": "Italy",
+        "id": "10717",
+        "lat": 40.87618,
+        "lon": 14.5195,
+        "name": "Stadio Diego Armando Maradona",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10718": {
         "city": "Cremona",
         "country": "Italy",
@@ -2069,6 +2079,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10719": {
+        "city": "Bologna",
+        "country": "Italy",
+        "id": "10719",
+        "lat": 44.49381,
+        "lon": 11.33875,
+        "name": "Renato Dall'Ara",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10720": {
         "city": "Firenze",
         "country": "Italy",
@@ -2076,6 +2096,16 @@
         "lat": 43.80077,
         "lon": 11.23441,
         "name": "Stadio Artemio Franchi",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10721": {
+        "city": "Lecce",
+        "country": "Italy",
+        "id": "10721",
+        "lat": 41.66427,
+        "lon": 12.48769,
+        "name": "Via Del Mare",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9316,6 +9346,16 @@
         "lat": 49.67517,
         "lon": 13.27462,
         "name": "Doosan Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4600": {
+        "city": "Torino",
+        "country": "Italy",
+        "id": "4600",
+        "lat": 45.07049,
+        "lon": 7.68682,
+        "name": "Allianz Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
