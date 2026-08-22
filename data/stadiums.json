@@ -1959,16 +1959,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "10699": {
-        "city": "",
-        "country": "USA",
-        "id": "10699",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Vanderbilt Soccer/Lacrosse Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "10700": {
         "city": "",
         "country": "USA",
@@ -3999,16 +3989,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11220": {
-        "city": "",
-        "country": "USA",
-        "id": "11220",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Walens Family Field at Fifth Third Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11227": {
         "city": "",
         "country": "USA",
@@ -4166,16 +4146,6 @@
         "lat": 31.81544,
         "lon": -96.23136,
         "name": "URI Soccer Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11255": {
-        "city": "",
-        "country": "USA",
-        "id": "11255",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Captains Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4559,16 +4529,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11333": {
-        "city": "",
-        "country": "USA",
-        "id": "11333",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Vidas Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11334": {
         "city": "",
         "country": "USA",
@@ -4859,16 +4819,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11412": {
-        "city": "",
-        "country": "USA",
-        "id": "11412",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Edens Field at Martin Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11422": {
         "city": "",
         "country": "USA",
@@ -4966,16 +4916,6 @@
         "lat": 40.75594,
         "lon": -73.84791,
         "name": "Shea Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11460": {
-        "city": "",
-        "country": "USA",
-        "id": "11460",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Pumphrey Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7849,6 +7789,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "26": {
+        "city": "Milano",
+        "country": "Italy",
+        "id": "26",
+        "lat": 46.06573,
+        "lon": 9.26877,
+        "name": "San Siro",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "2617": {
         "city": "Kolkata",
         "country": "India",
@@ -10329,6 +10279,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "55": {
+        "city": "Villarreal",
+        "country": "Spain",
+        "id": "55",
+        "lat": 38.72572,
+        "lon": -7.21533,
+        "name": "Estadio de la Cer\u00e1mica",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "5503": {
         "city": "Valera",
         "country": "Venezuela",
@@ -12376,6 +12336,16 @@
         "lat": -34.61315,
         "lon": -58.37723,
         "name": "Estadio Ofelia Rosenzuaig",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7474": {
+        "city": "Toyota Stadium",
+        "country": "USA",
+        "id": "7474",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Toyota Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -15033,6 +15003,16 @@
         "city": "",
         "country": "",
         "id": "cd-platense",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "cd-subiza": {
+        "city": "",
+        "country": "",
+        "id": "cd-subiza",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",

@@ -129,8 +129,8 @@
             "slug": "chinese-super-league"
         },
         "club-friendly": {
-            "last_crossover_date": "2026-08-21",
-            "last_updated": 1787381151.66215,
+            "last_crossover_date": "2026-08-22",
+            "last_updated": 1787382159.845576,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -241,8 +241,8 @@
             "slug": "danish-superliga"
         },
         "dutch-eredivisie": {
-            "last_crossover_date": "2026-08-16",
-            "last_updated": 1786949125.798273,
+            "last_crossover_date": "2026-08-22",
+            "last_updated": 1787382129.257691,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
             "name": "Dutch Eredivisie",
             "pill": "ned.1",
@@ -290,7 +290,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-08-10",
-            "last_updated": 1787381210.164702,
+            "last_updated": 1787382100.706155,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -329,8 +329,8 @@
             "slug": "english-fa-cup-qualifying"
         },
         "english-league-championship": {
-            "last_crossover_date": "2026-08-17",
-            "last_updated": 1787035519.709367,
+            "last_crossover_date": "2026-08-22",
+            "last_updated": 1787382168.517051,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
             "name": "English League Championship",
             "pill": "eng.2",
@@ -345,8 +345,8 @@
             "slug": "english-league-one"
         },
         "english-premier-league": {
-            "last_crossover_date": "2026-08-21",
-            "last_updated": 1787381205.906654,
+            "last_crossover_date": "2026-08-22",
+            "last_updated": 1787382097.548685,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -361,8 +361,8 @@
             "slug": "esp-1"
         },
         "french-ligue-1": {
-            "last_crossover_date": "2026-08-21",
-            "last_updated": 1787381117.048146,
+            "last_crossover_date": "2026-08-22",
+            "last_updated": 1787382124.573651,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
             "name": "French Ligue 1",
             "pill": "fra.1",
@@ -393,12 +393,20 @@
             "slug": "german-2-bundesliga"
         },
         "german-cup": {
-            "last_crossover_date": "2026-08-21",
-            "last_updated": 1787381116.8715,
+            "last_crossover_date": "2026-08-22",
+            "last_updated": 1787382126.97281,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2061.png",
             "name": "German Cup",
             "pill": "ger.dfb_pokal",
             "slug": "german-cup"
+        },
+        "german-supercup": {
+            "last_crossover_date": "",
+            "last_updated": 1787382031.115546,
+            "logo": "https://flagcdn.com/w40/de.png",
+            "name": "German Supercup",
+            "pill": "ger.super_cup",
+            "slug": "german-supercup"
         },
         "guatemalan-liga-nacional": {
             "last_crossover_date": "2026-08-19",
@@ -415,6 +423,14 @@
             "name": "Honduran Liga Nacional",
             "pill": "hon.1",
             "slug": "honduran-liga-nacional"
+        },
+        "italian-serie-a": {
+            "last_crossover_date": "",
+            "last_updated": 1787382030.212493,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+            "name": "Italian Serie A",
+            "pill": "ita.1",
+            "slug": "italian-serie-a"
         },
         "italian-serie-b": {
             "last_crossover_date": "2026-08-21",
@@ -473,8 +489,8 @@
             "slug": "ligapro-ecuador"
         },
         "mexican-liga-bbva-mx": {
-            "last_crossover_date": "2026-08-21",
-            "last_updated": 1787381116.1624,
+            "last_crossover_date": "2026-08-22",
+            "last_updated": 1787382170.752218,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png",
             "name": "Mexican Liga BBVA MX",
             "pill": "mex.1",
@@ -489,8 +505,8 @@
             "slug": "mexican-liga-de-expansion-mx"
         },
         "mls": {
-            "last_crossover_date": "2026-08-19",
-            "last_updated": 1787381219.424875,
+            "last_crossover_date": "2026-08-22",
+            "last_updated": 1787382168.652069,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -529,8 +545,8 @@
             "slug": "norwegian-eliteserien"
         },
         "nwsl": {
-            "last_crossover_date": "2026-08-21",
-            "last_updated": 1787381115.475133,
+            "last_crossover_date": "2026-08-22",
+            "last_updated": 1787382174.495669,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -553,8 +569,8 @@
             "slug": "peruvian-liga-1"
         },
         "portuguese-primeira-liga": {
-            "last_crossover_date": "2026-08-17",
-            "last_updated": 1787035519.865624,
+            "last_crossover_date": "2026-08-22",
+            "last_updated": 1787382172.43478,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
             "name": "Portuguese Primeira Liga",
             "pill": "por.1",
@@ -593,8 +609,8 @@
             "slug": "saudi-kings-cup"
         },
         "saudi-pro-league": {
-            "last_crossover_date": "2026-08-21",
-            "last_updated": 1787381117.587681,
+            "last_crossover_date": "2026-08-22",
+            "last_updated": 1787382163.599372,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png",
             "name": "Saudi Pro League",
             "pill": "ksa.1",
@@ -649,8 +665,8 @@
             "slug": "south-african-premiership"
         },
         "spanish-laliga": {
-            "last_crossover_date": "2026-08-21",
-            "last_updated": 1787381214.260985,
+            "last_crossover_date": "2026-08-22",
+            "last_updated": 1787382104.076414,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -1141,7 +1157,7 @@
             "slug": "aj-auxerre"
         },
         "ajax-amsterdam": {
-            "league": "UEFA Conference League Qualifying",
+            "league": "Dutch Eredivisie",
             "name": "Ajax Amsterdam",
             "slug": "ajax-amsterdam"
         },
@@ -2391,7 +2407,7 @@
             "slug": "benevento"
         },
         "benfica": {
-            "league": "UEFA Europa League Qualifying",
+            "league": "Portuguese Primeira Liga",
             "name": "Benfica",
             "slug": "benfica"
         },
@@ -2481,7 +2497,7 @@
             "slug": "binh-duong"
         },
         "birmingham-city": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Birmingham City",
             "slug": "birmingham-city"
         },
@@ -2516,7 +2532,7 @@
             "slug": "blackburn"
         },
         "blackburn-rovers": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Blackburn Rovers",
             "slug": "blackburn-rovers"
         },
@@ -2756,7 +2772,7 @@
             "slug": "bradley"
         },
         "braga": {
-            "league": "UEFA Conference League Qualifying",
+            "league": "Portuguese Primeira Liga",
             "name": "Braga",
             "slug": "braga"
         },
@@ -2976,7 +2992,7 @@
             "slug": "burnham"
         },
         "burnley": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Burnley",
             "slug": "burnley"
         },
@@ -3041,7 +3057,7 @@
             "slug": "cadiz-ii"
         },
         "cagliari": {
-            "league": "Coppa Italia",
+            "league": "Italian Serie A",
             "name": "Cagliari",
             "slug": "cagliari"
         },
@@ -3211,7 +3227,7 @@
             "slug": "caracas-fc"
         },
         "cardiff-city": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Cardiff City",
             "slug": "cardiff-city"
         },
@@ -3601,7 +3617,7 @@
             "slug": "charlotte-women"
         },
         "charlton-athletic": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Charlton Athletic",
             "slug": "charlton-athletic"
         },
@@ -3656,7 +3672,7 @@
             "slug": "chesterfield"
         },
         "chicago-fire-fc": {
-            "league": "Leagues Cup",
+            "league": "MLS",
             "name": "Chicago Fire FC",
             "slug": "chicago-fire-fc"
         },
@@ -3991,7 +4007,7 @@
             "slug": "comerciantes-unidos"
         },
         "como": {
-            "league": "Club Friendly",
+            "league": "Italian Serie A",
             "name": "Como",
             "slug": "como"
         },
@@ -5626,7 +5642,7 @@
             "slug": "fc-tulsa"
         },
         "fc-twente": {
-            "league": "UEFA Conference League Qualifying",
+            "league": "Dutch Eredivisie",
             "name": "FC Twente",
             "slug": "fc-twente"
         },
@@ -6006,7 +6022,7 @@
             "slug": "genesis-pn"
         },
         "genoa": {
-            "league": "Coppa Italia",
+            "league": "Italian Serie A",
             "name": "Genoa",
             "slug": "genoa"
         },
@@ -7231,7 +7247,7 @@
             "slug": "internacional-santa-tecla"
         },
         "internazionale": {
-            "league": "Club Friendly",
+            "league": "Italian Serie A",
             "name": "Internazionale",
             "slug": "internazionale"
         },
@@ -8016,7 +8032,7 @@
             "slug": "lentregu-club-de-futbol"
         },
         "leon": {
-            "league": "Leagues Cup",
+            "league": "Mexican Liga BBVA MX",
             "name": "Le\u00f3n",
             "slug": "leon"
         },
@@ -8131,7 +8147,7 @@
             "slug": "lillestrom"
         },
         "lincoln-city": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Lincoln City",
             "slug": "lincoln-city"
         },
@@ -8871,7 +8887,7 @@
             "slug": "middle-tennessee-women"
         },
         "middlesbrough": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Middlesbrough",
             "slug": "middlesbrough"
         },
@@ -8911,7 +8927,7 @@
             "slug": "millonarios"
         },
         "millwall": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Millwall",
             "slug": "millwall"
         },
@@ -9071,7 +9087,7 @@
             "slug": "monterey-bay"
         },
         "monterrey": {
-            "league": "Leagues Cup",
+            "league": "Mexican Liga BBVA MX",
             "name": "Monterrey",
             "slug": "monterrey"
         },
@@ -9106,7 +9122,7 @@
             "slug": "montrose"
         },
         "monza": {
-            "league": "Coppa Italia",
+            "league": "Italian Serie A",
             "name": "Monza",
             "slug": "monza"
         },
@@ -9221,7 +9237,7 @@
             "slug": "mutilvera"
         },
         "mvv-maastricht": {
-            "league": "Dutch Keuken Kampioen Divisie",
+            "league": "Club Friendly",
             "name": "MVV Maastricht",
             "slug": "mvv-maastricht"
         },
@@ -9266,7 +9282,7 @@
             "slug": "nantwich-town"
         },
         "napoli": {
-            "league": "Club Friendly",
+            "league": "Italian Serie A",
             "name": "Napoli",
             "slug": "napoli"
         },
@@ -9326,7 +9342,7 @@
             "slug": "nebraska-women"
         },
         "nec-nijmegen": {
-            "league": "UEFA Champions League Qualifying",
+            "league": "Dutch Eredivisie",
             "name": "NEC Nijmegen",
             "slug": "nec-nijmegen"
         },
@@ -9736,7 +9752,7 @@
             "slug": "northwood"
         },
         "norwich-city": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Norwich City",
             "slug": "norwich-city"
         },
@@ -10181,7 +10197,7 @@
             "slug": "parkgate"
         },
         "parma": {
-            "league": "Coppa Italia",
+            "league": "Italian Serie A",
             "name": "Parma",
             "slug": "parma"
         },
@@ -10576,7 +10592,7 @@
             "slug": "preston-athletic"
         },
         "preston-north-end": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Preston North End",
             "slug": "preston-north-end"
         },
@@ -11021,7 +11037,7 @@
             "slug": "real-potosi"
         },
         "real-salt-lake": {
-            "league": "Leagues Cup",
+            "league": "MLS",
             "name": "Real Salt Lake",
             "slug": "real-salt-lake"
         },
@@ -11731,7 +11747,7 @@
             "slug": "sanremese"
         },
         "santa-clara": {
-            "league": "NCAA Men's Soccer",
+            "league": "Portuguese Primeira Liga",
             "name": "Santa Clara",
             "slug": "santa-clara"
         },
@@ -12046,7 +12062,7 @@
             "slug": "sheffield-fc"
         },
         "sheffield-united": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Sheffield United",
             "slug": "sheffield-united"
         },
@@ -12361,7 +12377,7 @@
             "slug": "southall"
         },
         "southampton": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Southampton",
             "slug": "southampton"
         },
@@ -12791,7 +12807,7 @@
             "slug": "stocksbridge-park-steels"
         },
         "stoke-city": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Stoke City",
             "slug": "stoke-city"
         },
@@ -13611,7 +13627,7 @@
             "slug": "ud-santa-marta"
         },
         "udinese": {
-            "league": "Coppa Italia",
+            "league": "Italian Serie A",
             "name": "Udinese",
             "slug": "udinese"
         },
@@ -14371,7 +14387,7 @@
             "slug": "washington-women"
         },
         "watford": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Watford",
             "slug": "watford"
         },
@@ -14426,7 +14442,7 @@
             "slug": "west-auckland-town-fc"
         },
         "west-bromwich-albion": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "West Bromwich Albion",
             "slug": "west-bromwich-albion"
         },
@@ -14461,7 +14477,7 @@
             "slug": "west-georgia-women"
         },
         "west-ham-united": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "West Ham United",
             "slug": "west-ham-united"
         },
@@ -14701,7 +14717,7 @@
             "slug": "wolfsberger"
         },
         "wolverhampton-wanderers": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Wolverhampton Wanderers",
             "slug": "wolverhampton-wanderers"
         },
