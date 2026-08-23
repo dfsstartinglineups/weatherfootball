@@ -609,6 +609,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10351": {
+        "city": "Laval",
+        "country": "Canada",
+        "id": "10351",
+        "lat": 45.56995,
+        "lon": -73.692,
+        "name": "Stade Bor\u00e9ale",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10353": {
         "city": "Reading",
         "country": "England",
@@ -1496,6 +1506,16 @@
         "lat": 43.53573,
         "lon": -5.66152,
         "name": "Estadio El Molin\u00f3n-Enrique Castro \"Quini\"",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10641": {
+        "city": "Valladolid",
+        "country": "Spain",
+        "id": "10641",
+        "lat": 41.65541,
+        "lon": -4.72353,
+        "name": "Estadio Jos\u00e9 Zorrilla",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6319,6 +6339,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11631": {
+        "city": "",
+        "country": "Netherlands",
+        "id": "11631",
+        "lat": 36.29923,
+        "lon": -89.75119,
+        "name": "Sportcomplex Varkenoord Hoofdveld",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11632": {
         "city": "",
         "country": "Germany",
@@ -6346,6 +6376,16 @@
         "lat": 41.72454,
         "lon": -72.68648,
         "name": "Goodwin Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11643": {
+        "city": "",
+        "country": "Wales",
+        "id": "11643",
+        "lat": 53.34061,
+        "lon": -1.28162,
+        "name": "The Memorial Playing Fields",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9289,6 +9329,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4559": {
+        "city": "Castellammare di Stabia",
+        "country": "Italy",
+        "id": "4559",
+        "lat": 40.70211,
+        "lon": 14.48685,
+        "name": "Romeo Menti di Castellammare",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4571": {
         "city": "Mechelen",
         "country": "Belgium",
@@ -9396,6 +9446,16 @@
         "lat": 13.68935,
         "lon": -89.18718,
         "name": "Estadio Correcaminos",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4635": {
+        "city": "Agrinio",
+        "country": "Greece",
+        "id": "4635",
+        "lat": 38.62139,
+        "lon": 21.40778,
+        "name": "Panetolikos Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11496,6 +11556,16 @@
         "lat": 39.09973,
         "lon": -94.57857,
         "name": "Children's Mercy Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6590": {
+        "city": "Ottawa, ON",
+        "country": "Canada",
+        "id": "6590",
+        "lat": 45.41117,
+        "lon": -75.69812,
+        "name": "TD Place Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16009,6 +16079,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "if-brommapojkarna": {
+        "city": "",
+        "country": "",
+        "id": "if-brommapojkarna",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "ilford": {
         "city": "",
         "country": "",
@@ -16165,6 +16245,16 @@
         "id": "knowle",
         "lat": 52.38333,
         "lon": -1.73333,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "kouba": {
+        "city": "",
+        "country": "",
+        "id": "kouba",
+        "lat": 5.48849,
+        "lon": -5.23249,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
