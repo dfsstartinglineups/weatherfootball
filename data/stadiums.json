@@ -2039,6 +2039,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10710": {
+        "city": "Thessaloniki",
+        "country": "Greece",
+        "id": "10710",
+        "lat": 40.64072,
+        "lon": 22.93493,
+        "name": "Kle\u00e1nthis Vikel\u00eddis Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10711": {
+        "city": "Athens",
+        "country": "Greece",
+        "id": "10711",
+        "lat": 37.98376,
+        "lon": 23.72784,
+        "name": "Apostolos Nikolaidis",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10713": {
         "city": "Tripoli",
         "country": "Greece",
@@ -5366,6 +5386,16 @@
         "lat": 34.54426,
         "lon": -91.96903,
         "name": "Krooner Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11512": {
+        "city": "",
+        "country": "Greece",
+        "id": "11512",
+        "lat": 39.0,
+        "lon": 22.0,
+        "name": "Kaftanzoglio Ethniko Stadio",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9459,6 +9489,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4636": {
+        "city": "Athens",
+        "country": "Greece",
+        "id": "4636",
+        "lat": 37.98376,
+        "lon": 23.72784,
+        "name": "Peristeri Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4638": {
         "city": "Shenzhen",
         "country": "China PR",
@@ -10726,6 +10766,16 @@
         "lat": 46.84275,
         "lon": 29.6284,
         "name": "Sheriff Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5871": {
+        "city": "Levadia",
+        "country": "Greece",
+        "id": "5871",
+        "lat": 39.0,
+        "lon": 22.0,
+        "name": "Levadia Municipal Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
