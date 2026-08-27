@@ -82,7 +82,7 @@
         },
         "bolivian-liga-profesional": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787815277.649418,
+            "last_updated": 1787815835.808718,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1949.png",
             "name": "Bolivian Liga Profesional",
             "pill": "bol.1",
@@ -130,7 +130,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787815207.00644,
+            "last_updated": 1787815827.17244,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -146,7 +146,7 @@
         },
         "colombian-primera-a": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787815215.867108,
+            "last_updated": 1787815835.294027,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -154,7 +154,7 @@
         },
         "concacaf-central-american-cup": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787814037.950042,
+            "last_updated": 1787815836.164177,
             "logo": "\ud83c\udf0e",
             "name": "Concacaf Central American Cup",
             "pill": "concacaf.central.american.cup",
@@ -178,7 +178,7 @@
         },
         "copa-argentina": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787815216.495711,
+            "last_updated": 1787815834.490255,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2320.png",
             "name": "Copa Argentina",
             "pill": "arg.copa",
@@ -210,7 +210,7 @@
         },
         "copa-do-brasil": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787815216.37244,
+            "last_updated": 1787815834.739134,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/528.png",
             "name": "Copa do Brasil",
             "pill": "bra.copa_do_brazil",
@@ -290,7 +290,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787814133.00064,
+            "last_updated": 1787815936.867555,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -345,8 +345,8 @@
             "slug": "english-league-one"
         },
         "english-national-league": {
-            "last_crossover_date": "",
-            "last_updated": 1787814032.979775,
+            "last_crossover_date": "2026-08-27",
+            "last_updated": 1787816077.865403,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English National League",
             "pill": "eng.5",
@@ -354,7 +354,7 @@
         },
         "english-premier-league": {
             "last_crossover_date": "2026-08-24",
-            "last_updated": 1787814128.00024,
+            "last_updated": 1787815930.932742,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -522,7 +522,7 @@
         },
         "mexican-liga-de-expansion-mx": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787815124.966425,
+            "last_updated": 1787815827.558398,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
@@ -530,7 +530,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-08-23",
-            "last_updated": 1787814150.853299,
+            "last_updated": 1787815958.200027,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -538,7 +538,7 @@
         },
         "ncaa-mens-soccer": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787815270.320271,
+            "last_updated": 1787815920.334222,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
@@ -546,7 +546,7 @@
         },
         "ncaa-womens-soccer": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787815123.249981,
+            "last_updated": 1787815920.513013,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -690,7 +690,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787814135.804521,
+            "last_updated": 1787815940.866972,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -762,7 +762,7 @@
         },
         "uefa-conference-league-qualifying": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787814032.840265,
+            "last_updated": 1787815833.979049,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/20296.png",
             "name": "UEFA Conference League Qualifying",
             "pill": "uefa.europa.conf_qual",
@@ -770,7 +770,7 @@
         },
         "uefa-europa-league-qualifying": {
             "last_crossover_date": "2026-08-27",
-            "last_updated": 1787814029.374579,
+            "last_updated": 1787815829.685777,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png",
             "name": "UEFA Europa League Qualifying",
             "pill": "uefa.europa_qual",
@@ -1068,10 +1068,20 @@
             "name": "AFC CROYDON ATHLETIC",
             "slug": "afc-croydon-athletic"
         },
+        "afc-fylde": {
+            "league": "English National League",
+            "name": "AFC Fylde",
+            "slug": "afc-fylde"
+        },
         "afc-greenwich-borough": {
             "league": "English FA Cup Qualifying",
             "name": "AFC Greenwich Borough",
             "slug": "afc-greenwich-borough"
+        },
+        "afc-hornchurch": {
+            "league": "English National League",
+            "name": "AFC Hornchurch",
+            "slug": "afc-hornchurch"
         },
         "afc-liverpool": {
             "league": "English FA Cup Qualifying",
@@ -1473,6 +1483,11 @@
             "name": "Alcoyano",
             "slug": "alcoyano"
         },
+        "aldershot-town": {
+            "league": "English National League",
+            "name": "Aldershot Town",
+            "slug": "aldershot-town"
+        },
         "aldosivi": {
             "league": "Copa Argentina",
             "name": "Aldosivi",
@@ -1504,7 +1519,7 @@
             "slug": "alianza-atletico"
         },
         "alianza-fc": {
-            "league": "Colombian Primera A",
+            "league": "Concacaf Central American Cup",
             "name": "Alianza FC",
             "slug": "alianza-fc"
         },
@@ -1547,6 +1562,11 @@
             "league": "English FA Cup",
             "name": "Alton",
             "slug": "alton"
+        },
+        "altrincham": {
+            "league": "English National League",
+            "name": "Altrincham",
+            "slug": "altrincham"
         },
         "aluminij": {
             "league": "UEFA Conference League Qualifying",
@@ -2352,6 +2372,11 @@
             "league": "Copa Colombia",
             "name": "Barranquilla FC",
             "slug": "barranquilla-fc"
+        },
+        "barrow": {
+            "league": "English National League",
+            "name": "Barrow",
+            "slug": "barrow"
         },
         "barton-rovers": {
             "league": "English FA Cup Qualifying",
@@ -3407,6 +3432,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Carlisle City FC",
             "slug": "carlisle-city-fc"
+        },
+        "carlisle-united": {
+            "league": "English National League",
+            "name": "Carlisle United",
+            "slug": "carlisle-united"
         },
         "carlton": {
             "league": "English FA Cup Qualifying",
@@ -5348,6 +5378,11 @@
             "name": "EASTHOUSES",
             "slug": "easthouses"
         },
+        "eastleigh": {
+            "league": "English National League",
+            "name": "Eastleigh",
+            "slug": "eastleigh"
+        },
         "eastwood-community": {
             "league": "English FA Cup Qualifying",
             "name": "Eastwood Community",
@@ -5843,6 +5878,11 @@
             "name": "FC Groningen",
             "slug": "fc-groningen"
         },
+        "fc-halifax-town": {
+            "league": "English National League",
+            "name": "FC Halifax Town",
+            "slug": "fc-halifax-town"
+        },
         "fc-hradec-kralove": {
             "league": "UEFA Conference League Qualifying",
             "name": "FC Hradec Kr\u00e1lov\u00e9",
@@ -6178,6 +6218,11 @@
             "name": "Fordham Women",
             "slug": "fordham-women"
         },
+        "forest-green-rovers": {
+            "league": "English National League",
+            "name": "Forest Green Rovers",
+            "slug": "forest-green-rovers"
+        },
         "forest-row": {
             "league": "English FA Cup Qualifying",
             "name": "Forest Row",
@@ -6347,6 +6392,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Garforth Town",
             "slug": "garforth-town"
+        },
+        "gateshead": {
+            "league": "English National League",
+            "name": "Gateshead",
+            "slug": "gateshead"
         },
         "gaziantep-fk": {
             "league": "Turkish Super Lig",
@@ -7003,6 +7053,11 @@
             "name": "Harpenden Town",
             "slug": "harpenden-town"
         },
+        "harrogate-town": {
+            "league": "English National League",
+            "name": "Harrogate Town",
+            "slug": "harrogate-town"
+        },
         "harrow-borough": {
             "league": "English FA Cup Qualifying",
             "name": "Harrow Borough",
@@ -7012,6 +7067,11 @@
             "league": "USL Championship",
             "name": "Hartford Athletic",
             "slug": "hartford-athletic"
+        },
+        "hartlepool-united": {
+            "league": "English National League",
+            "name": "Hartlepool United",
+            "slug": "hartlepool-united"
         },
         "hartley-wintney": {
             "league": "English FA Cup Qualifying",
@@ -7639,7 +7699,7 @@
             "slug": "inter-de-san-carlos"
         },
         "inter-descaldes": {
-            "league": "Club Friendly",
+            "league": "UEFA Conference League Qualifying",
             "name": "Inter D'Escaldes",
             "slug": "inter-descaldes"
         },
@@ -8132,6 +8192,11 @@
             "league": "UEFA Conference League Qualifying",
             "name": "KI Klaksvik",
             "slug": "ki-klaksvik"
+        },
+        "kidderminster-harriers": {
+            "league": "English National League",
+            "name": "Kidderminster Harriers",
+            "slug": "kidderminster-harriers"
         },
         "kidlington": {
             "league": "English FA Cup Qualifying",
@@ -12543,6 +12608,11 @@
             "name": "Schott",
             "slug": "schott"
         },
+        "scunthorpe-united": {
+            "league": "English National League",
+            "name": "Scunthorpe United",
+            "slug": "scunthorpe-united"
+        },
         "sd-compostela": {
             "league": "Club Friendly",
             "name": "SD Compostela",
@@ -12968,6 +13038,11 @@
             "name": "Soham Town Rangers",
             "slug": "soham-town-rangers"
         },
+        "solihull-moors": {
+            "league": "English National League",
+            "name": "Solihull Moors",
+            "slug": "solihull-moors"
+        },
         "soul-tower-hamlets": {
             "league": "English FA Cup Qualifying",
             "name": "Soul Tower Hamlets",
@@ -13057,6 +13132,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Southeast Missouri State Women",
             "slug": "southeast-missouri-state-women"
+        },
+        "southend-united": {
+            "league": "English National League",
+            "name": "Southend United",
+            "slug": "southend-united"
         },
         "southern-illinois-women": {
             "league": "NCAA Women's Soccer",
@@ -13648,6 +13728,11 @@
             "name": "Sutton Common Rovers",
             "slug": "sutton-common-rovers"
         },
+        "sutton-united": {
+            "league": "English National League",
+            "name": "Sutton United",
+            "slug": "sutton-united"
+        },
         "sutton-united-birmingham": {
             "league": "English FA Cup Qualifying",
             "name": "Sutton United (Birmingham)",
@@ -13742,6 +13827,11 @@
             "league": "USL Super League",
             "name": "Tampa Bay Sun FC Women",
             "slug": "tampa-bay-sun-fc-women"
+        },
+        "tamworth": {
+            "league": "English National League",
+            "name": "Tamworth",
+            "slug": "tamworth"
         },
         "tanzania": {
             "league": "Women's Africa Cup of Nations",
@@ -15183,6 +15273,11 @@
             "name": "Waynesburg",
             "slug": "waynesburg"
         },
+        "wealdstone": {
+            "league": "English National League",
+            "name": "Wealdstone",
+            "slug": "wealdstone"
+        },
         "webber-international": {
             "league": "NCAA Men's Soccer",
             "name": "Webber International",
@@ -15523,6 +15618,11 @@
             "name": "Wofford Women",
             "slug": "wofford-women"
         },
+        "woking": {
+            "league": "English National League",
+            "name": "Woking",
+            "slug": "woking"
+        },
         "wokingham-town": {
             "league": "English FA Cup Qualifying",
             "name": "Wokingham Town",
@@ -15572,6 +15672,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Worsbrough Bridge Athletic",
             "slug": "worsbrough-bridge-athletic"
+        },
+        "worthing": {
+            "league": "English National League",
+            "name": "Worthing",
+            "slug": "worthing"
         },
         "wrexham": {
             "league": "English League Championship",
@@ -15687,6 +15792,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Yaxley",
             "slug": "yaxley"
+        },
+        "yeovil-town": {
+            "league": "English National League",
+            "name": "Yeovil Town",
+            "slug": "yeovil-town"
         },
         "yokohama-f-marinos": {
             "league": "Japanese J.League",
