@@ -214,8 +214,11 @@ def create_team_slug_and_name(team_name, league_info=None):
     if not team_name:
         return "", ""
         
-    is_women = is_womens_context(team_name, league_info)
-    clean_name = str(team_name).strip()
+    import html
+    # Safely convert &#39; back to an actual apostrophe before parsing
+    clean_name = html.unescape(str(team_name)).strip()
+    
+    is_women = is_womens_context(clean_name, league_info)
     
     # 1. Format Display Name
     if is_women and not any(kw in clean_name.lower() for kw in ['women', 'wfc', 'femenino', 'femeni']):
