@@ -234,6 +234,27 @@ def create_team_slug_and_name(team_name, league_info=None):
         team_slug = base_slug
         
     return team_slug, display_name
+        
+    import html
+    # Safely convert &#39; back to an actual apostrophe before parsing
+    clean_name = html.unescape(str(team_name)).strip()
+    
+    is_women = is_womens_context(clean_name, league_info)
+    
+    # 1. Format Display Name
+    if is_women and not any(kw in clean_name.lower() for kw in ['women', 'wfc', 'femenino', 'femeni']):
+        display_name = f"{clean_name} Women"
+    else:
+        display_name = clean_name
+        
+    # 2. Format Team Slug (Uses Weather Script's `slugify`)
+    base_slug = slugify(clean_name)
+    if is_women and not base_slug.endswith('-women') and 'women' not in base_slug:
+        team_slug = f"{base_slug}-women"
+    else:
+        team_slug = base_slug
+        
+    return team_slug, display_name
 
 def slugify(text):
     """Convert text into clean, ASCII-only, SEO-friendly URL slug."""
@@ -1318,14 +1339,24 @@ def main():
             
         league_logo = str(league_logo or "")
 
-        home_comp = next((c for c in comp['competitors'] if c['homeAway'] == 'home'), None)
-        away_comp = next((c for c in comp['competitors'] if c['homeAway'] == 'away'), None)
+        comps = event.get('competitions', [{}])
+        comp = comps[0] if comps else {}
+
+        home_comp = next((c for c in comp.get('competitors', []) if c.get('homeAway') == 'home'), None)
+        away_comp = next((c for c in comp.get('competitors', []) if c.get('homeAway') == 'away'), None)
 
         if not home_comp or not away_comp: continue
 
         temp_league_dict = {"name": league_name, "pill": league_pill, "slug": league_slug}
-        home_slug, home_team = create_team_slug_and_name(home_comp['team']['displayName'], temp_league_dict)
-        away_slug, away_team = create_team_slug_and_name(away_comp['team']['displayName'], temp_league_dict)
+        
+        # Safely extract names, falling back to 'name' if 'displayName' is missing
+        h_team_obj = home_comp.get('team', {})
+        a_team_obj = away_comp.get('team', {})
+        h_team_name = h_team_obj.get('displayName') or h_team_obj.get('name') or "TBD"
+        a_team_name = a_team_obj.get('displayName') or a_team_obj.get('name') or "TBD"
+
+        home_slug, home_team = create_team_slug_and_name(h_team_name, temp_league_dict)
+        away_slug, away_team = create_team_slug_and_name(a_team_name, temp_league_dict)
         
         home_logos = home_comp['team'].get('logos', [])
         home_logo = home_comp['team'].get('logo', '') or (home_logos[0].get('href', '') if home_logos else '')
