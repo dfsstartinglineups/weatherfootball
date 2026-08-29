@@ -1249,6 +1249,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10550": {
+        "city": "Tampa, Florida",
+        "country": "USA",
+        "id": "10550",
+        "lat": 27.94752,
+        "lon": -82.45843,
+        "name": "Suncoast Credit Union Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10552": {
         "city": "Saint-Etienne",
         "country": "France",
@@ -4199,16 +4209,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11197": {
-        "city": "",
-        "country": "USA",
-        "id": "11197",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Newton Campus Lacrosse & Soccer Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11198": {
         "city": "",
         "country": "USA",
@@ -4596,16 +4596,6 @@
         "lat": 40.7401,
         "lon": -74.24792,
         "name": "Mike Sheppard, Sr. Stadium at Owen T. Carroll Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11270": {
-        "city": "",
-        "country": "USA",
-        "id": "11270",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Retriever Soccer Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -13339,6 +13329,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7254": {
+        "city": "Fuenlabrada",
+        "country": "Spain",
+        "id": "7254",
+        "lat": 40.28419,
+        "lon": -3.79415,
+        "name": "Estadio Fernando Torres",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7267": {
         "city": "Den Haag",
         "country": "Netherlands",
@@ -16053,6 +16053,16 @@
         "city": "",
         "country": "",
         "id": "atletico-balboa",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "atletico-baleares": {
+        "city": "",
+        "country": "",
+        "id": "atletico-baleares",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
