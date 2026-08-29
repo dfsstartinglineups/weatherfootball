@@ -10269,6 +10269,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4522": {
+        "city": "Logro\u00f1o",
+        "country": "Spain",
+        "id": "4522",
+        "lat": 42.46615,
+        "lon": -2.45115,
+        "name": "Las Gaunas",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4523": {
         "city": "Wien",
         "country": "Austria",
@@ -14079,6 +14089,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8269": {
+        "city": "Alcal\u00e1 de Henares",
+        "country": "Spain",
+        "id": "8269",
+        "lat": 40.48205,
+        "lon": -3.35996,
+        "name": "Centro Deportivo Alcal\u00e1 de Henares",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8270": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "id": "8270",
+        "lat": 41.38879,
+        "lon": 2.15899,
+        "name": "Estadi Johan Cruyff",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8279": {
         "city": "Carshalton",
         "country": "England",
@@ -14439,6 +14469,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8747": {
+        "city": "Lezama",
+        "country": "Spain",
+        "id": "8747",
+        "lat": 43.02799,
+        "lon": -2.97257,
+        "name": "Instalaciones de Lezama Campo 2",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8750": {
         "city": "Kyoto",
         "country": "Japan",
@@ -14569,6 +14609,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8868": {
+        "city": "Granada",
+        "country": "Spain",
+        "id": "8868",
+        "lat": 37.18817,
+        "lon": -3.60667,
+        "name": "Ciudad Deportiva del Granada CF",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8875": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "id": "8875",
+        "lat": 41.38879,
+        "lon": 2.15899,
+        "name": "Ciutat Esportiva Dani Jarque",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8902": {
         "city": "York",
         "country": "England",
@@ -14656,6 +14716,16 @@
         "lat": 33.52066,
         "lon": -86.80249,
         "name": "Protective Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9034": {
+        "city": "Paterna",
+        "country": "Spain",
+        "id": "9034",
+        "lat": 39.50263,
+        "lon": -0.44079,
+        "name": "Estadio Antonio Puchades",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -14826,6 +14896,16 @@
         "lat": -34.59391,
         "lon": -60.94644,
         "name": "Estadio Municipal Eva Per\u00f3n",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9249": {
+        "city": "Sevilla",
+        "country": "Spain",
+        "id": "9249",
+        "lat": 37.38283,
+        "lon": -5.97317,
+        "name": "Estadio Jes\u00fas Navas",
         "roof": "Open",
         "surface": "Grass"
     },
