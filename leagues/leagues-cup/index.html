@@ -172,6 +172,7 @@
 <option value="Trofeo Joan Gamper" data-url="/leagues/trofeo-joan-gamper/"></option>
 <option value="Turkish Super Lig" data-url="/leagues/turkish-super-lig/"></option>
 <option value="UECL Qualifying" data-url="/leagues/uecl-qualifying/"></option>
+<option value="UEFA Champions League" data-url="/leagues/uefa-champions-league/"></option>
 <option value="UEFA Champions League Qualifying" data-url="/leagues/uefa-champions-league-qualifying/"></option>
 <option value="UEFA Conference League Qualifying" data-url="/leagues/uefa-conference-league-qualifying/"></option>
 <option value="UEFA Europa League Qualifying" data-url="/leagues/uefa-europa-league-qualifying/"></option>
@@ -2536,6 +2537,7 @@
 <option value="Rutgers" data-url="/teams/rutgers/"></option>
 <option value="Rutgers Women" data-url="/teams/rutgers-women/"></option>
 <option value="Rutherglen Glencairn" data-url="/teams/rutherglen-glencairn/"></option>
+<option value="SABAH FK" data-url="/teams/sabah-fk/"></option>
 <option value="SC Cambuur" data-url="/teams/sc-cambuur/"></option>
 <option value="SC East Bengal" data-url="/teams/sc-east-bengal/"></option>
 <option value="SC Freiburg" data-url="/teams/sc-freiburg/"></option>
@@ -2582,7 +2584,6 @@
 <option value="SV Wehen Wiesbaden" data-url="/teams/sv-wehen-wiesbaden/"></option>
 <option value="Saarbrücken" data-url="/teams/saarbrucken/"></option>
 <option value="Sabah FC" data-url="/teams/sabah-fc/"></option>
-<option value="Sabah FK" data-url="/teams/sabah-fk/"></option>
 <option value="Sacavenense" data-url="/teams/sacavenense/"></option>
 <option value="Sacramento Republic FC" data-url="/teams/sacramento-republic-fc/"></option>
 <option value="Sacramento State" data-url="/teams/sacramento-state/"></option>
@@ -2685,6 +2686,7 @@
 <option value="Sevenoaks Town" data-url="/teams/sevenoaks-town/"></option>
 <option value="Sevilla" data-url="/teams/sevilla/"></option>
 <option value="Sevilla Women" data-url="/teams/sevilla-women/"></option>
+<option value="Shakhtar Donetsk" data-url="/teams/shakhtar-donetsk/"></option>
 <option value="Shamrock Rovers" data-url="/teams/shamrock-rovers/"></option>
 <option value="Shandong Taishan" data-url="/teams/shandong-taishan/"></option>
 <option value="Shanghai Port" data-url="/teams/shanghai-port/"></option>
@@ -2719,6 +2721,7 @@
 <option value="Siwelele" data-url="/teams/siwelele/"></option>
 <option value="Skegness Town" data-url="/teams/skegness-town/"></option>
 <option value="Skenderbeu Korce" data-url="/teams/skenderbeu-korce/"></option>
+<option value="Slavia Prague" data-url="/teams/slavia-prague/"></option>
 <option value="Slavia Prague Women" data-url="/teams/slavia-prague-women/"></option>
 <option value="Slimbridge" data-url="/teams/slimbridge/"></option>
 <option value="Sloboda Tuzla" data-url="/teams/sloboda-tuzla/"></option>
@@ -3324,247 +3327,16 @@
             <p class="text-muted small m-0">Live Stadium Wind, Rain Risks & Upcoming Pitch Analytics</p>
         </div>
         
-        <div class="d-flex justify-content-end mb-3 px-1">
-            <button id="expand-toggle-btn" class="btn btn-sm btn-white shadow-sm border fw-bold text-secondary" style="border-radius: 20px; font-size: 0.8rem;" onclick="toggleAllCards()">
-                ▼ Expand All Cards
-            </button>
-        </div>
         <div class="row w-100 m-0 p-0 justify-content-start">
 
-    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401914297">
-        <div class="card game-card shadow-sm  bg-weather-sunny">
-            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
-            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                
-                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
-                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-03T01:00Z" style="font-size: 0.65rem;">Sep 03, 01:00 AM UTC</span>
-                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️19% 🌡️89° 💨1mph
-                    </div>
-                </div>
-                
-                <!-- Bottom Line: Teams Inline (Home vs Away) -->
-                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
-                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
-                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/223.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
-                        <span class="fw-bold text-dark text-truncate ms-1">Toluca</span>
-                        
-                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
-                        
-                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/228.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
-                        <span class="fw-bold text-dark text-truncate ms-1">León</span>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
-            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
-                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
-                    <div class="d-flex align-items-center text-truncate">
-                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Leagues Cup</span>
-                    </div>
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-03T01:00Z" style="font-size: 0.65rem;">Sep 03, 01:00 AM UTC</span>
-                </div>
-                <div class="card-body px-2 pt-2 pb-2">
-                    <div class="d-flex justify-content-between align-items-center mb-2">
-                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Shell Energy Stadium</span>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
-                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/223.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                            <div class="d-flex flex-column text-start text-truncate">
-                                <a href="/teams/toluca/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Toluca</a>
-                                <a href="https://futbolstartingeleven.com/teams/toluca/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
-                            </div>
-                        </div>
-                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
-                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
-                            <div class="d-flex flex-column text-end text-truncate me-2">
-                                <a href="/teams/leon/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">León</a>
-                                <a href="https://futbolstartingeleven.com/teams/leon/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
-                            </div>
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/228.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                        </div>
-                    </div>
-                    
-        <div class="weather-row row text-center align-items-center mt-2 mx-0">
-            <div class="col-3 border-end px-1">
-                <div class="fw-bold">89°F</div>
-                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
-            </div>
-            <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 54%</div>
-                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
-            </div>
-            <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">19%</div>
-                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
-            </div>
-            <div class="col-3 px-1">
-                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
-                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
-            </div>
-        </div>
-        <div class="hourly-scroll-container">
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-09-03T00:00Z">12AM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">93°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-09-03T01:00Z">1AM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">89°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-09-03T02:00Z">2AM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">87°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-09-03T03:00Z">3AM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">86°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-09-03T04:00Z">4AM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">85°</div>
-                </div></div>
-        <div class="mt-2 mb-1">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=29.76328&lon=-95.36327&detailLat=29.76328&detailLon=-95.36327&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Shell Energy Stadium')">
-                🗺️ Live Weather Radar
-            </button>
-        </div>
-                </div>
-            </div>
+    <div class="col-12 mb-3 px-2">
+        <div class="card p-5 text-center border rounded bg-light shadow-sm">
+            <span class="fs-1 mb-2 d-block">💤</span>
+            <h6 class="fw-bold text-secondary mb-1">No Upcoming Fixtures</h6>
+            <p class="small text-muted mb-0">This team or league does not have a scheduled match in the next 14 days.</p>
         </div>
     </div>
-    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401914296">
-        <div class="card game-card shadow-sm  bg-weather-sunny">
-            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
-            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                
-                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
-                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-03T03:30Z" style="font-size: 0.65rem;">Sep 03, 03:30 AM UTC</span>
-                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️0% 🌡️55° 💨5mph
-                    </div>
-                </div>
-                
-                <!-- Bottom Line: Teams Inline (Home vs Away) -->
-                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
-                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
-                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/227.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
-                        <span class="fw-bold text-dark text-truncate ms-1">América</span>
-                        
-                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
-                        
-                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/220.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
-                        <span class="fw-bold text-dark text-truncate ms-1">Monterrey</span>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
-            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
-                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
-                    <div class="d-flex align-items-center text-truncate">
-                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/2410.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Leagues Cup</span>
-                    </div>
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-03T03:30Z" style="font-size: 0.65rem;">Sep 03, 03:30 AM UTC</span>
-                </div>
-                <div class="card-body px-2 pt-2 pb-2">
-                    <div class="d-flex justify-content-between align-items-center mb-2">
-                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Dignity Health Sports Park</span>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
-                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/227.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                            <div class="d-flex flex-column text-start text-truncate">
-                                <a href="/teams/america/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">América</a>
-                                <a href="https://futbolstartingeleven.com/teams/america/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
-                            </div>
-                        </div>
-                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
-                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
-                            <div class="d-flex flex-column text-end text-truncate me-2">
-                                <a href="/teams/monterrey/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Monterrey</a>
-                                <a href="https://futbolstartingeleven.com/teams/monterrey/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
-                            </div>
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/220.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                        </div>
-                    </div>
-                    
-        <div class="weather-row row text-center align-items-center mt-2 mx-0">
-            <div class="col-3 border-end px-1">
-                <div class="fw-bold">55°F</div>
-                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
-            </div>
-            <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 41%</div>
-                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
-            </div>
-            <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">0%</div>
-                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
-            </div>
-            <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
-                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
-            </div>
-        </div>
-        <div class="hourly-scroll-container">
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-09-03T02:00Z">2AM</div>
-                    <div class="hour-icon">☀️</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">62°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-09-03T03:00Z">3AM</div>
-                    <div class="hour-icon">☀️</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">55°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-09-03T04:00Z">4AM</div>
-                    <div class="hour-icon">☀️</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">53°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-09-03T05:00Z">5AM</div>
-                    <div class="hour-icon">☀️</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">52°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-09-03T06:00Z">6AM</div>
-                    <div class="hour-icon">☀️</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">50°</div>
-                </div></div>
-        <div class="mt-2 mb-1">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=39.1638&lon=-119.7674&detailLat=39.1638&detailLon=-119.7674&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Dignity Health Sports Park')">
-                🗺️ Live Weather Radar
-            </button>
-        </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
         </div>
     </div>
 
