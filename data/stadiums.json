@@ -1239,6 +1239,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10533": {
+        "city": "",
+        "country": "Portugal",
+        "id": "10533",
+        "lat": 39.6945,
+        "lon": -8.13057,
+        "name": "Est\u00e1dio Municipal de Celorico de Basto",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10548": {
         "city": "Parma",
         "country": "Italy",
@@ -7176,6 +7186,46 @@
         "lat": 35.68536,
         "lon": 139.7531,
         "name": "Iris Training Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11674": {
+        "city": "",
+        "country": "Portugal",
+        "id": "11674",
+        "lat": 39.6945,
+        "lon": -8.13057,
+        "name": "Jos\u00e9 Sousa Gomes campo 2",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11675": {
+        "city": "",
+        "country": "Portugal",
+        "id": "11675",
+        "lat": 41.21653,
+        "lon": -8.55318,
+        "name": "Est\u00e1dio dos Sonhos",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11676": {
+        "city": "",
+        "country": "Portugal",
+        "id": "11676",
+        "lat": 39.6945,
+        "lon": -8.13057,
+        "name": "Campo do SC Barreiro",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11677": {
+        "city": "",
+        "country": "Portugal",
+        "id": "11677",
+        "lat": 39.6945,
+        "lon": -8.13057,
+        "name": "Est\u00e1dio Jo\u00e3o Soares Vieira",
         "roof": "Open",
         "surface": "Grass"
     },
