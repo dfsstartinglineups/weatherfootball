@@ -659,6 +659,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10352": {
+        "city": "Calgary",
+        "country": "Canada",
+        "id": "10352",
+        "lat": 51.05011,
+        "lon": -114.08529,
+        "name": "McMahon Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10353": {
         "city": "Reading",
         "country": "England",
@@ -2146,6 +2156,16 @@
         "lat": 37.98376,
         "lon": 23.72784,
         "name": "Apostolos Nikolaidis",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10712": {
+        "city": "Donostia-San Sebastian",
+        "country": "Spain",
+        "id": "10712",
+        "lat": 40.0,
+        "lon": -4.0,
+        "name": "Estadio Zubieta XXI",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6916,6 +6936,16 @@
         "lat": 34.54426,
         "lon": -91.96903,
         "name": "Community Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11627": {
+        "city": "",
+        "country": "Spain",
+        "id": "11627",
+        "lat": 40.0,
+        "lon": -4.0,
+        "name": "D\u00e9por Training Center Campo Arsenio Iglesias",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -14906,6 +14936,16 @@
         "lat": -34.59391,
         "lon": -60.94644,
         "name": "Estadio Municipal Eva Per\u00f3n",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9248": {
+        "city": "Vitoria-Gasteiz",
+        "country": "Spain",
+        "id": "9248",
+        "lat": 40.0,
+        "lon": -4.0,
+        "name": "Ciudad Deportiva Jos\u00e9 Luis Compa\u00f1\u00f3n",
         "roof": "Open",
         "surface": "Grass"
     },
