@@ -94,6 +94,7 @@
                 <input list="league-search-options" id="league-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🏆 League..." onchange="if(this.value) { const opt = document.querySelector('#league-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
                 <datalist id="league-search-options"><option value="AFC Champions League Elite" data-url="/leagues/afc-champions-league-elite/"></option>
 <option value="AFC Champions League Elite Qualifying" data-url="/leagues/afc-champions-league-elite-qualifying/"></option>
+<option value="AFC Champions League Two" data-url="/leagues/afc-champions-league-two/"></option>
 <option value="AFC Champions League Two Qualifying" data-url="/leagues/afc-champions-league-two-qualifying/"></option>
 <option value="ASEAN Championship" data-url="/leagues/asean-championship/"></option>
 <option value="Argentine LPF" data-url="/leagues/argentine-lpf/"></option>
@@ -827,6 +828,7 @@
 <option value="Central Español Fútbol Club" data-url="/teams/central-espanol-futbol-club/"></option>
 <option value="Central Michigan Women" data-url="/teams/central-michigan-women/"></option>
 <option value="Central Norte" data-url="/teams/central-norte/"></option>
+<option value="Central Washington Women" data-url="/teams/central-washington-women/"></option>
 <option value="Cercle Brugge KSV" data-url="/teams/cercle-brugge-ksv/"></option>
 <option value="Cerezo Osaka" data-url="/teams/cerezo-osaka/"></option>
 <option value="Cerro" data-url="/teams/cerro/"></option>
@@ -934,6 +936,7 @@
 <option value="Comunicaciones" data-url="/teams/comunicaciones/"></option>
 <option value="Concord Rangers" data-url="/teams/concord-rangers/"></option>
 <option value="Concord Women" data-url="/teams/concord-women/"></option>
+<option value="Concordia (TX) Women" data-url="/teams/concordia-tx-women/"></option>
 <option value="Cong An Hanoi" data-url="/teams/cong-an-hanoi/"></option>
 <option value="Congleton Town" data-url="/teams/congleton-town/"></option>
 <option value="Consett AFC" data-url="/teams/consett-afc/"></option>
@@ -2446,6 +2449,7 @@
 <option value="Rayo Zuliano" data-url="/teams/rayo-zuliano/"></option>
 <option value="Reading" data-url="/teams/reading/"></option>
 <option value="Reading City" data-url="/teams/reading-city/"></option>
+<option value="Real Aranjuez" data-url="/teams/real-aranjuez/"></option>
 <option value="Real Aviles Industrial" data-url="/teams/real-aviles-industrial/"></option>
 <option value="Real Betis" data-url="/teams/real-betis/"></option>
 <option value="Real Cartagena" data-url="/teams/real-cartagena/"></option>
@@ -2591,7 +2595,7 @@
 <option value="ST CADOC'S" data-url="/teams/st-cadocs/"></option>
 <option value="STANWAY ROVERS FC" data-url="/teams/stanway-rovers-fc/"></option>
 <option value="STOCKTON TOWN FC" data-url="/teams/stockton-town-fc/"></option>
-<option value="SUNY MARITIME" data-url="/teams/suny-maritime/"></option>
+<option value="SUNY Maritime" data-url="/teams/suny-maritime/"></option>
 <option value="SUNY Polytechnic" data-url="/teams/suny-polytechnic/"></option>
 <option value="SV Darmstadt 98" data-url="/teams/sv-darmstadt-98/"></option>
 <option value="SV Elversberg" data-url="/teams/sv-elversberg/"></option>
@@ -2619,6 +2623,7 @@
 <option value="Saint Mary's Women" data-url="/teams/saint-marys-women/"></option>
 <option value="Saint Peter's" data-url="/teams/saint-peters/"></option>
 <option value="Saint Peter's Women" data-url="/teams/saint-peters-women/"></option>
+<option value="Saint Xavier Women" data-url="/teams/saint-xavier-women/"></option>
 <option value="Saint-Étienne" data-url="/teams/saint-etienne/"></option>
 <option value="Salamanca UDS" data-url="/teams/salamanca-uds/"></option>
 <option value="Salernitana" data-url="/teams/salernitana/"></option>
@@ -2827,6 +2832,7 @@
 <option value="St. Cloud State" data-url="/teams/st-cloud-state/"></option>
 <option value="St. Gallen" data-url="/teams/st-gallen/"></option>
 <option value="St. Ives Town" data-url="/teams/st-ives-town/"></option>
+<option value="St. John Fisher" data-url="/teams/st-john-fisher/"></option>
 <option value="St. John's" data-url="/teams/st-johns/"></option>
 <option value="St. John's Women" data-url="/teams/st-johns-women/"></option>
 <option value="St. Louis CITY SC" data-url="/teams/st-louis-city-sc/"></option>
@@ -3472,7 +3478,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-09T23:30Z" style="font-size: 0.65rem;">Sep 09, 11:30 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️12% 🌡️93° 💨1mph
+                        🌧️12% 🌡️93° 💨0mph
                     </div>
                 </div>
                 
@@ -3536,7 +3542,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">0 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -3573,6 +3579,123 @@
                 </div></div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=33.749&lon=-84.38798&detailLat=33.749&detailLon=-84.38798&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Mercedes-Benz Stadium')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-761801">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-12T23:30Z" style="font-size: 0.65rem;">Sep 12, 11:30 PM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️29% 🌡️95° 💨1mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/12011.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Orlando City SC</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7318.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Toronto FC</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <img src="https://a.espncdn.com/i/leaguelogos/soccer/500/19.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">MLS</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-12T23:30Z" style="font-size: 0.65rem;">Sep 12, 11:30 PM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Inter&Co Stadium</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/12011.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/orlando-city-sc/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Orlando City SC</a>
+                                <a href="https://futbolstartingeleven.com/teams/orlando-city-sc/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/toronto-fc/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Toronto FC</a>
+                                <a href="https://futbolstartingeleven.com/teams/toronto-fc/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/7318.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">95°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 46%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">29%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-09-12T22:00Z">10PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">25%</div>
+                    <div class="hour-temp">98°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-09-12T23:00Z">11PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">28%</div>
+                    <div class="hour-temp">95°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-09-13T00:00Z">12AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">29%</div>
+                    <div class="hour-temp">91°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-09-13T01:00Z">1AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">28%</div>
+                    <div class="hour-temp">86°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-09-13T02:00Z">2AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">26%</div>
+                    <div class="hour-temp">81°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=28.53834&lon=-81.37924&detailLat=28.53834&detailLon=-81.37924&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Inter&Co Stadium')">
                 🗺️ Live Weather Radar
             </button>
         </div>

@@ -94,6 +94,7 @@
                 <input list="league-search-options" id="league-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🏆 League..." onchange="if(this.value) { const opt = document.querySelector('#league-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
                 <datalist id="league-search-options"><option value="AFC Champions League Elite" data-url="/leagues/afc-champions-league-elite/"></option>
 <option value="AFC Champions League Elite Qualifying" data-url="/leagues/afc-champions-league-elite-qualifying/"></option>
+<option value="AFC Champions League Two" data-url="/leagues/afc-champions-league-two/"></option>
 <option value="AFC Champions League Two Qualifying" data-url="/leagues/afc-champions-league-two-qualifying/"></option>
 <option value="ASEAN Championship" data-url="/leagues/asean-championship/"></option>
 <option value="Argentine LPF" data-url="/leagues/argentine-lpf/"></option>
@@ -827,6 +828,7 @@
 <option value="Central Español Fútbol Club" data-url="/teams/central-espanol-futbol-club/"></option>
 <option value="Central Michigan Women" data-url="/teams/central-michigan-women/"></option>
 <option value="Central Norte" data-url="/teams/central-norte/"></option>
+<option value="Central Washington Women" data-url="/teams/central-washington-women/"></option>
 <option value="Cercle Brugge KSV" data-url="/teams/cercle-brugge-ksv/"></option>
 <option value="Cerezo Osaka" data-url="/teams/cerezo-osaka/"></option>
 <option value="Cerro" data-url="/teams/cerro/"></option>
@@ -934,6 +936,7 @@
 <option value="Comunicaciones" data-url="/teams/comunicaciones/"></option>
 <option value="Concord Rangers" data-url="/teams/concord-rangers/"></option>
 <option value="Concord Women" data-url="/teams/concord-women/"></option>
+<option value="Concordia (TX) Women" data-url="/teams/concordia-tx-women/"></option>
 <option value="Cong An Hanoi" data-url="/teams/cong-an-hanoi/"></option>
 <option value="Congleton Town" data-url="/teams/congleton-town/"></option>
 <option value="Consett AFC" data-url="/teams/consett-afc/"></option>
@@ -2446,6 +2449,7 @@
 <option value="Rayo Zuliano" data-url="/teams/rayo-zuliano/"></option>
 <option value="Reading" data-url="/teams/reading/"></option>
 <option value="Reading City" data-url="/teams/reading-city/"></option>
+<option value="Real Aranjuez" data-url="/teams/real-aranjuez/"></option>
 <option value="Real Aviles Industrial" data-url="/teams/real-aviles-industrial/"></option>
 <option value="Real Betis" data-url="/teams/real-betis/"></option>
 <option value="Real Cartagena" data-url="/teams/real-cartagena/"></option>
@@ -2591,7 +2595,7 @@
 <option value="ST CADOC'S" data-url="/teams/st-cadocs/"></option>
 <option value="STANWAY ROVERS FC" data-url="/teams/stanway-rovers-fc/"></option>
 <option value="STOCKTON TOWN FC" data-url="/teams/stockton-town-fc/"></option>
-<option value="SUNY MARITIME" data-url="/teams/suny-maritime/"></option>
+<option value="SUNY Maritime" data-url="/teams/suny-maritime/"></option>
 <option value="SUNY Polytechnic" data-url="/teams/suny-polytechnic/"></option>
 <option value="SV Darmstadt 98" data-url="/teams/sv-darmstadt-98/"></option>
 <option value="SV Elversberg" data-url="/teams/sv-elversberg/"></option>
@@ -2619,6 +2623,7 @@
 <option value="Saint Mary's Women" data-url="/teams/saint-marys-women/"></option>
 <option value="Saint Peter's" data-url="/teams/saint-peters/"></option>
 <option value="Saint Peter's Women" data-url="/teams/saint-peters-women/"></option>
+<option value="Saint Xavier Women" data-url="/teams/saint-xavier-women/"></option>
 <option value="Saint-Étienne" data-url="/teams/saint-etienne/"></option>
 <option value="Salamanca UDS" data-url="/teams/salamanca-uds/"></option>
 <option value="Salernitana" data-url="/teams/salernitana/"></option>
@@ -2827,6 +2832,7 @@
 <option value="St. Cloud State" data-url="/teams/st-cloud-state/"></option>
 <option value="St. Gallen" data-url="/teams/st-gallen/"></option>
 <option value="St. Ives Town" data-url="/teams/st-ives-town/"></option>
+<option value="St. John Fisher" data-url="/teams/st-john-fisher/"></option>
 <option value="St. John's" data-url="/teams/st-johns/"></option>
 <option value="St. John's Women" data-url="/teams/st-johns-women/"></option>
 <option value="St. Louis CITY SC" data-url="/teams/st-louis-city-sc/"></option>
@@ -3355,7 +3361,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-05T23:30Z" style="font-size: 0.65rem;">Sep 05, 11:30 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️29% 🌡️79° 💨2mph
+                        🌧️29% 🌡️79° 💨0mph
                     </div>
                 </div>
                 
@@ -3419,7 +3425,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">0 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -3472,7 +3478,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-10T00:30Z" style="font-size: 0.65rem;">Sep 10, 12:30 AM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️17% 🌡️90° 💨2mph
+                        🌧️17% 🌡️90° 💨3mph
                     </div>
                 </div>
                 
@@ -3536,7 +3542,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
