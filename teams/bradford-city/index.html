@@ -3629,7 +3629,7 @@
         <div class="row w-100 m-0 p-0 justify-content-start">
 
     <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401914254">
-        <div class="card game-card shadow-sm  bg-light">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
             <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
             <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
                 
@@ -3637,7 +3637,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-08T18:45Z" style="font-size: 0.65rem;">Sep 08, 06:45 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🔭Forecast Pending
+                        🌧️43% 🌡️65° 💨11mph
                     </div>
                 </div>
                 
@@ -3687,9 +3687,59 @@
                         </div>
                     </div>
                     
-        <div class="text-center p-3 mt-2 border-top">
-            <h6 class="text-muted mb-1">🔭 Early Forecast</h6>
-            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Weather available ~14 days before kickoff.</p>
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">65°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 71%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">43%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">11 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-09-08T17:00Z">5PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">43%</div>
+                    <div class="hour-temp">65°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-09-08T18:00Z">6PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">41%</div>
+                    <div class="hour-temp">65°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-09-08T19:00Z">7PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">38%</div>
+                    <div class="hour-temp">65°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-09-08T20:00Z">8PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">35%</div>
+                    <div class="hour-temp">64°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-09-08T21:00Z">9PM</div>
+                    <div class="hour-icon">🌧️</div>
+                    <div class="hour-pop">32%</div>
+                    <div class="hour-temp">63°</div>
+                </div></div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=51.50853&lon=-0.12574&detailLat=51.50853&detailLon=-0.12574&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Gaughan Group Stadium')">
+                🗺️ Live Weather Radar
+            </button>
         </div>
                 </div>
             </div>
