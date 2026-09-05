@@ -69,9 +69,22 @@
 <body>
     <nav class="navbar shadow-sm py-2 sticky-top" style="background-color: #0f172a;">
         <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
-            <a href="/" class="navbar-brand text-white fw-bold m-0" style="font-style: italic; font-size: 1.5rem;">
-                Weather <span style="color: #5ac8fa;">Football</span>
-            </a>
+            <div class="d-flex align-items-center gap-2">
+                <a href="/" class="navbar-brand text-white fw-bold m-0" style="font-style: italic; font-size: 1.5rem;">
+                    Weather <span style="color: #5ac8fa;">Football</span>
+                </a>
+                <div class="d-flex align-items-center gap-1 ms-1 ps-2" style="border-left: 1px solid rgba(255, 255, 255, 0.2);">
+                    <a href="https://weathernfl.com" class="p-1 text-decoration-none" title="Weather NFL" aria-label="Weather NFL">
+                        <img src="https://weathernfl.com/apple-touch-icon.png" alt="Weather NFL" style="width: 26px; height: 26px; border-radius: 6px; display: block;">
+                    </a>
+                    <a href="https://weathercfb.com" class="p-1 text-decoration-none" title="Weather CFB" aria-label="Weather CFB">
+                        <img src="https://weathercfb.com/apple-touch-icon.png" alt="Weather CFB" style="width: 26px; height: 26px; border-radius: 6px; display: block;">
+                    </a>
+                    <a href="https://weathermlb.com" class="p-1 text-decoration-none" title="Weather MLB" aria-label="Weather MLB">
+                        <img src="https://weathermlb.com/apple-touch-icon.png" alt="Weather MLB" style="width: 26px; height: 26px; border-radius: 6px; display: block;">
+                    </a>
+                </div>
+            </div>
             
             <div class="d-flex align-items-center gap-2 flex-wrap">
                 <input list="league-search-options" id="league-search-input" class="form-control form-control-sm fw-bold shadow-sm" style="background-color: #1e293b; color: #f8f9fa; border: 1px solid #334155; max-width: 160px;" placeholder="🏆 League..." onchange="if(this.value) { const opt = document.querySelector('#league-search-options option[value=\''+this.value+'\']'); if(opt) window.location.href = opt.dataset.url; }">
@@ -5859,7 +5872,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-09T23:30Z" style="font-size: 0.65rem;">Sep 09, 11:30 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️72% 🌡️66° 💨3mph
+                        🌧️72% 🌡️66° 💨6mph
                     </div>
                 </div>
                 
@@ -5923,7 +5936,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">6 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -5976,7 +5989,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-09T23:30Z" style="font-size: 0.65rem;">Sep 09, 11:30 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️0% 🌡️87° 💨7mph
+                        🌧️0% 🌡️87° 💨3mph
                     </div>
                 </div>
                 
@@ -6040,7 +6053,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -6093,7 +6106,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-09T23:30Z" style="font-size: 0.65rem;">Sep 09, 11:30 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️13% 🌡️102° 💨5mph
+                        🌧️13% 🌡️102° 💨6mph
                     </div>
                 </div>
                 
@@ -6157,7 +6170,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">6 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -6327,7 +6340,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-10T00:00Z" style="font-size: 0.65rem;">Sep 10, 12:00 AM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️4% 🌡️81° 💨9mph
+                        🌧️4% 🌡️81° 💨10mph
                     </div>
                 </div>
                 
@@ -6391,7 +6404,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">9 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">10 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -6549,7 +6562,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-10T00:30Z" style="font-size: 0.65rem;">Sep 10, 12:30 AM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️0% 🌡️80° 💨4mph
+                        🌧️0% 🌡️80° 💨5mph
                     </div>
                 </div>
                 
@@ -6613,7 +6626,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -6660,7 +6673,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-10T00:30Z" style="font-size: 0.65rem;">Sep 10, 12:30 AM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️31% 🌡️91° 💨2mph
+                        🌧️31% 🌡️91° 💨1mph
                     </div>
                 </div>
                 
@@ -6724,7 +6737,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -6882,7 +6895,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-10T02:30Z" style="font-size: 0.65rem;">Sep 10, 02:30 AM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️1% 🌡️87° 💨0mph
+                        🌧️1% 🌡️87° 💨2mph
                     </div>
                 </div>
                 
@@ -6946,7 +6959,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">0 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">2 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -6999,7 +7012,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-10T02:30Z" style="font-size: 0.65rem;">Sep 10, 02:30 AM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️0% 🌡️77° 💨0mph
+                        🌧️0% 🌡️77° 💨1mph
                     </div>
                 </div>
                 
@@ -7063,7 +7076,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">0 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">1 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -7467,7 +7480,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-12T23:30Z" style="font-size: 0.65rem;">Sep 12, 11:30 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️9% 🌡️76° 💨7mph
+                        🌧️9% 🌡️76° 💨3mph
                     </div>
                 </div>
                 
@@ -7531,7 +7544,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">7 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">3 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -7584,7 +7597,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-12T23:30Z" style="font-size: 0.65rem;">Sep 12, 11:30 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️12% 🌡️74° 💨4mph
+                        🌧️12% 🌡️74° 💨5mph
                     </div>
                 </div>
                 
@@ -7648,7 +7661,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
@@ -7701,7 +7714,7 @@
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
                     <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-09-12T23:30Z" style="font-size: 0.65rem;">Sep 12, 11:30 PM UTC</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️39% 🌡️87° 💨5mph
+                        🌧️39% 🌡️87° 💨4mph
                     </div>
                 </div>
                 
@@ -7765,7 +7778,7 @@
                 <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
             </div>
             <div class="col-3 px-1">
-                <div class="fw-bold">5 <span style="font-size:0.7em">mph</span></div>
+                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
                 <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
             </div>
         </div>
