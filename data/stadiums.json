@@ -239,6 +239,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10216": {
+        "city": "Molsheim",
+        "country": "France",
+        "id": "10216",
+        "lat": 48.54042,
+        "lon": 7.49199,
+        "name": "Parc des Sports Molsheim",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10224": {
         "city": "Pawtucket, Rhode Island",
         "country": "USA",
@@ -4599,16 +4609,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11217": {
-        "city": "",
-        "country": "USA",
-        "id": "11217",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Ridley Athletic Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11219": {
         "city": "",
         "country": "USA",
@@ -5369,16 +5369,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11364": {
-        "city": "",
-        "country": "USA",
-        "id": "11364",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Gayle and Tom Benson Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11370": {
         "city": "",
         "country": "USA",
@@ -5446,16 +5436,6 @@
         "lat": 40.85927,
         "lon": -73.89847,
         "name": "Moglia Stadium at Jack Coffey Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11391": {
-        "city": "",
-        "country": "USA",
-        "id": "11391",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Marra Athletics Fields Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7156,6 +7136,16 @@
         "lat": 34.54426,
         "lon": -91.96903,
         "name": "KMJ Mortgages Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11610": {
+        "city": "Birmingham, Alabama",
+        "country": "USA",
+        "id": "11610",
+        "lat": 33.52066,
+        "lon": -86.80249,
+        "name": "Dunnavant Valley Fields",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9729,6 +9719,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "2727": {
+        "city": "",
+        "country": "France",
+        "id": "2727",
+        "lat": 46.0,
+        "lon": 2.0,
+        "name": "Stade de Marville",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "2731": {
         "city": "Commerce City, Colorado",
         "country": "USA",
@@ -11389,6 +11389,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4606": {
+        "city": "Napier",
+        "country": "New Zealand",
+        "id": "4606",
+        "lat": 33.82045,
+        "lon": -78.6764,
+        "name": "McLean Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4617": {
         "city": "Auxerre",
         "country": "France",
@@ -12906,6 +12916,26 @@
         "lat": 47.53167,
         "lon": 21.62444,
         "name": "Nagyerdei Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5960": {
+        "city": "Santa Clara, California",
+        "country": "USA",
+        "id": "5960",
+        "lat": 37.35411,
+        "lon": -121.95524,
+        "name": "Levi's Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5963": {
+        "city": "Girona",
+        "country": "Spain",
+        "id": "5963",
+        "lat": 41.98311,
+        "lon": 2.82493,
+        "name": "Nou Municipal de Palam\u00f3s",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16339,6 +16369,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9238": {
+        "city": "Montpellier",
+        "country": "France",
+        "id": "9238",
+        "lat": 43.61093,
+        "lon": 3.87635,
+        "name": "Stade Bernard Gasset No. 7",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9246": {
         "city": "Junin",
         "country": "Argentina",
@@ -17176,6 +17216,16 @@
         "lat": 39.09973,
         "lon": -94.57857,
         "name": "CPKC Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9900": {
+        "city": "Poissy",
+        "country": "France",
+        "id": "9900",
+        "lat": 48.92902,
+        "lon": 2.04952,
+        "name": "Training Center Paris Saint Germain Terrain 5",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -20789,6 +20839,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "mufulira-wanderers": {
+        "city": "",
+        "country": "",
+        "id": "mufulira-wanderers",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "mulbarton-wanderers": {
         "city": "",
         "country": "",
@@ -22095,6 +22155,16 @@
         "id": "st-blazey",
         "lat": 50.36334,
         "lon": -4.71893,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "stade-marocain": {
+        "city": "",
+        "country": "",
+        "id": "stade-marocain",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
