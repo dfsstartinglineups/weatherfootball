@@ -770,6 +770,45 @@ def fetch_game_weather(lat, lon, kickoff_iso_str):
 # ==========================================
 # CARD HTML GENERATORS
 # ==========================================
+def get_weather_blurb(game):
+    stadium = game.get('stadium', {})
+    is_dome = stadium.get('roof') in ["Dome", "Retractable"]
+    w = game.get('weather', {})
+    
+    is_no_coords = w.get('status') == "no_coords"
+    is_too_early = w.get('status') in ["too_early", "error"] or w.get('temp') == "--"
+    
+    if is_no_coords:
+        return "Stadium coordinates are unlisted. A detailed weather forecast is not available."
+    if is_dome:
+        return "This match is played indoors (dome or retractable roof). Weather conditions will not directly impact the pitch."
+    if is_too_early:
+        return "A detailed weather forecast is not yet available for this match. Check back closer to kickoff."
+        
+    temp = w.get('temp', 70)
+    wind = w.get('windSpeed', 0)
+    hourly_list = w.get('hourly', [])
+    
+    max_pop = max([(h.get('precipChance') if h.get('precipChance') is not None else 0) for h in hourly_list], default=0) if hourly_list else 0
+    is_thunder = any(h.get('isThunderstorm', False) for h in hourly_list) if hourly_list else False
+    is_snow = any(h.get('isSnow', False) for h in hourly_list) if hourly_list else False
+    
+    blurb = f"Expect temperatures around {temp}°F at kickoff with {wind} mph winds. "
+    
+    if is_thunder:
+        blurb += f"There is a risk of thunderstorms and a {max_pop}% chance of rain, making delays possible."
+    elif is_snow:
+        blurb += f"Snow is possible with a {max_pop}% chance of precipitation."
+    elif max_pop >= 30:
+        blurb += f"There is a {max_pop}% chance of rain during the match."
+    else:
+        blurb += "Conditions look mostly clear with a minimal chance of rain."
+        
+    if wind >= 15:
+        blurb += " High winds could impact long balls and set pieces."
+        
+    return blurb
+
 def render_game_card_html(game, is_compact_default=True):
     w = game['weather']
     is_dome = game['stadium']['roof'] in ["Dome", "Retractable"]
@@ -872,6 +911,7 @@ def render_game_card_html(game, is_compact_default=True):
             <p class="small text-muted mb-0" style="font-size: 0.75rem;">Weather available ~14 days before kickoff.</p>
         </div>"""
     else:
+        blurb_text = get_weather_blurb(game)
         weather_section = f"""
         <div class="weather-row row text-center align-items-center mt-2 mx-0">
             <div class="col-3 border-end px-1">
@@ -892,6 +932,9 @@ def render_game_card_html(game, is_compact_default=True):
             </div>
         </div>
         {hourly_html}
+        <div class="mt-2 px-2 text-muted fst-italic" style="font-size: 0.75rem; line-height: 1.3; text-align: center;">
+            {blurb_text}
+        </div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('{radar_url}', '{game['stadium']['name']}')">
                 🗺️ Live Weather Radar
@@ -1498,7 +1541,32 @@ def main():
             </div>
         </div>"""
 
-    schema_json = json.dumps({"@context": "https://schema.org", "@type": "WebSite", "name": "Weather Football", "url": SITE_DOMAIN}, indent=2)
+    schema_list = []
+    for g in home_games:
+        event_schema = {
+            "@context": "https://schema.org",
+            "@type": "SportsEvent",
+            "name": f"{g['away_team']} at {g['home_team']}",
+            "description": get_weather_blurb(g),
+            "startDate": g['game_time'],
+            "location": {
+                "@type": "Place",
+                "name": g['stadium']['name']
+            },
+            "homeTeam": {"@type": "SportsTeam", "name": g['home_team']},
+            "awayTeam": {"@type": "SportsTeam", "name": g['away_team']}
+        }
+        schema_list.append(event_schema)
+        
+    if not schema_list:
+        schema_list = {
+            "@context": "https://schema.org", 
+            "@type": "WebSite", 
+            "name": "Weather Football", 
+            "url": SITE_DOMAIN
+        }
+        
+    schema_json = json.dumps(schema_list, indent=2)
     home_content = MASTER_HTML_TEMPLATE
     home_content = home_content.replace("__PAGE_TITLE__", f"Today's Football Game Weather Forecasts & Stadium Pitch Conditions ({date_str_seo})")
     home_content = home_content.replace("__META_DESC__", f"View live game weather today ({date_str_seo}) across global football leagues. Track stadium wind speed, hourly rain risks, relative humidity, and pitch impact analytics.")
@@ -1581,7 +1649,26 @@ def main():
         content = content.replace("__LEAGUE_SEARCH_OPTIONS__", league_search_options_html)
         content = content.replace("__TEAM_SEARCH_OPTIONS__", team_search_options_html)
         content = content.replace("__MATCH_CARDS_GRID__", cards_html)
-        content = content.replace("__SCHEMA_JSON__", "")
+        
+        schema_list = []
+        for g in league_games:
+            event_schema = {
+                "@context": "https://schema.org",
+                "@type": "SportsEvent",
+                "name": f"{g['away_team']} at {g['home_team']}",
+                "description": get_weather_blurb(g),
+                "startDate": g['game_time'],
+                "location": {
+                    "@type": "Place",
+                    "name": g['stadium']['name']
+                },
+                "homeTeam": {"@type": "SportsTeam", "name": g['home_team']},
+                "awayTeam": {"@type": "SportsTeam", "name": g['away_team']}
+            }
+            schema_list.append(event_schema)
+            
+        schema_json = json.dumps(schema_list, indent=2) if schema_list else ""
+        content = content.replace("__SCHEMA_JSON__", schema_json)
 
         if write_if_changed(league_filepath, content):
             changed_urls.append(f"{SITE_DOMAIN}/leagues/{l_slug}/")
@@ -1640,6 +1727,7 @@ def main():
                 "@context": "https://schema.org",
                 "@type": "SportsEvent",
                 "name": f"{next_game['away_team']} at {next_game['home_team']}",
+                "description": get_weather_blurb(next_game),
                 "startDate": next_game['game_time'],
                 "location": {
                     "@type": "Place",
