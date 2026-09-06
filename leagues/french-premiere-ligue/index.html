@@ -35,7 +35,27 @@
     <meta name="twitter:description" content="Today's French Première Ligue match weather forecasts and stadium pitch conditions for September 06, 2026. Check stadium wind speeds, rain delay risks, pitch humidity, and hourly forecasts.">
     
     <script type="application/ld+json">
-
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsEvent",
+    "name": "Nantes Women at Paris FC Women",
+    "description": "Expect temperatures around 86\u00b0F at kickoff with 5 mph winds. Conditions look mostly clear with a minimal chance of rain.",
+    "startDate": "2026-09-06T13:00Z",
+    "location": {
+      "@type": "Place",
+      "name": "Stade Jean Bouin"
+    },
+    "homeTeam": {
+      "@type": "SportsTeam",
+      "name": "Paris FC Women"
+    },
+    "awayTeam": {
+      "@type": "SportsTeam",
+      "name": "Nantes Women"
+    }
+  }
+]
     </script>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -4155,7 +4175,7 @@
                 
                 <!-- Top Line: Time Badge & Weather (Left aligned together) -->
                 <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">27' &nbsp;|&nbsp; 0-0</span>
+                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">42' &nbsp;|&nbsp; 1-0</span>
                     <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
                         🌧️9% 🌡️86° 💨5mph
                     </div>
@@ -4183,7 +4203,7 @@
                         <img src="https://flagcdn.com/w40/fr.png" style="width: 18px; height: 18px; object-fit: contain;" class="me-2 bg-light rounded-circle p-1" onerror="this.style.display='none'">
                         <span class="fw-bold text-truncate" style="font-size: 0.75rem;">French Première Ligue</span>
                     </div>
-                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">27' &nbsp;|&nbsp; 0-0</span>
+                    <span class="badge bg-success text-white border-success flex-shrink-0" style="font-size: 0.65rem;">42' &nbsp;|&nbsp; 1-0</span>
                 </div>
                 <div class="card-body px-2 pt-2 pb-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
@@ -4256,6 +4276,9 @@
                     <div class="hour-pop">&nbsp;</div>
                     <div class="hour-temp">87°</div>
                 </div></div>
+        <div class="mt-2 px-2 text-muted fst-italic" style="font-size: 0.75rem; line-height: 1.3; text-align: center;">
+            Expect temperatures around 86°F at kickoff with 5 mph winds. Conditions look mostly clear with a minimal chance of rain.
+        </div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=48.85341&lon=2.3488&detailLat=48.85341&detailLon=2.3488&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Stade Jean Bouin')">
                 🗺️ Live Weather Radar
