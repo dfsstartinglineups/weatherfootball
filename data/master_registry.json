@@ -105,8 +105,8 @@
             "slug": "brazilian-serie-a"
         },
         "brazilian-serie-b": {
-            "last_crossover_date": "2026-09-04",
-            "last_updated": 1788590723.217942,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788851224.415326,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
@@ -185,16 +185,16 @@
             "slug": "concacaf-central-american-cup"
         },
         "conmebol-libertadores": {
-            "last_crossover_date": "2026-08-25",
-            "last_updated": 1787726731.166125,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788851220.666151,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/58.png",
             "name": "CONMEBOL Libertadores",
             "pill": "conmebol.libertadores",
             "slug": "conmebol-libertadores"
         },
         "conmebol-sudamericana": {
-            "last_crossover_date": "2026-08-26",
-            "last_updated": 1787813133.382468,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788851240.970343,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png",
             "name": "CONMEBOL Sudamericana",
             "pill": "conmebol.sudamericana",
@@ -209,8 +209,8 @@
             "slug": "copa-argentina"
         },
         "copa-bolivia": {
-            "last_crossover_date": "2026-09-03",
-            "last_updated": 1788504329.814867,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788851242.913734,
             "logo": "",
             "name": "Copa Bolivia",
             "pill": "bol.copa",
@@ -265,8 +265,8 @@
             "slug": "danish-superliga"
         },
         "dutch-eredivisie": {
-            "last_crossover_date": "2026-09-06",
-            "last_updated": 1788763526.519597,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788851240.15883,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
             "name": "Dutch Eredivisie",
             "pill": "ned.1",
@@ -329,16 +329,16 @@
             "slug": "eng-league-cup"
         },
         "english-carabao-cup": {
-            "last_crossover_date": "2026-08-27",
-            "last_updated": 1788849954.300533,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788850914.972811,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
             "slug": "english-carabao-cup"
         },
         "english-efl-trophy": {
-            "last_crossover_date": "2026-08-25",
-            "last_updated": 1787726732.223904,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788851246.729605,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/42.png",
             "name": "English EFL Trophy",
             "pill": "eng.trophy",
@@ -361,16 +361,16 @@
             "slug": "english-fa-cup"
         },
         "english-fa-cup-qualifying": {
-            "last_crossover_date": "2026-09-07",
-            "last_updated": 1788849917.489848,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788851236.83797,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/40.png",
             "name": "English FA Cup Qualifying",
             "pill": "eng.fa_qual",
             "slug": "english-fa-cup-qualifying"
         },
         "english-league-championship": {
-            "last_crossover_date": "2026-09-06",
-            "last_updated": 1788763525.65574,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788851228.480216,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
             "name": "English League Championship",
             "pill": "eng.2",
@@ -402,7 +402,7 @@
         },
         "english-premier-league": {
             "last_crossover_date": "2026-09-06",
-            "last_updated": 1788849952.118488,
+            "last_updated": 1788850913.499961,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -602,15 +602,15 @@
         },
         "mls": {
             "last_crossover_date": "2026-09-05",
-            "last_updated": 1788849961.031509,
+            "last_updated": 1788850935.078216,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
             "slug": "mls"
         },
         "ncaa-mens-soccer": {
-            "last_crossover_date": "2026-09-07",
-            "last_updated": 1788849926.97747,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788851219.774207,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
@@ -689,8 +689,8 @@
             "slug": "russian-premier-league"
         },
         "salvadoran-primera-division": {
-            "last_crossover_date": "2026-08-28",
-            "last_updated": 1787985946.950378,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788850968.354134,
             "logo": "https://flagcdn.com/w40/sv.png",
             "name": "Salvadoran Primera Division",
             "pill": "slv.1",
@@ -705,8 +705,8 @@
             "slug": "saudi-kings-cup"
         },
         "saudi-pro-league": {
-            "last_crossover_date": "2026-09-07",
-            "last_updated": 1788849915.777147,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788850972.948922,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png",
             "name": "Saudi Pro League",
             "pill": "ksa.1",
@@ -729,8 +729,8 @@
             "slug": "scottish-cup-qualifying"
         },
         "scottish-league-challenge-cup": {
-            "last_crossover_date": "2026-09-01",
-            "last_updated": 1788331522.668809,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788850859.612997,
             "logo": "https://flagcdn.com/w40/gb-sct.png",
             "name": "Scottish League Challenge Cup",
             "pill": "sco.challenge",
@@ -760,9 +760,17 @@
             "pill": "rsa.1",
             "slug": "south-african-premiership"
         },
+        "spanish-copa-de-la-reina": {
+            "last_crossover_date": "",
+            "last_updated": 1788850829.010864,
+            "logo": "https://flagcdn.com/w40/es.png",
+            "name": "Spanish Copa de la Reina",
+            "pill": "esp.copa_de_la_reina",
+            "slug": "spanish-copa-de-la-reina"
+        },
         "spanish-laliga": {
             "last_crossover_date": "2026-09-07",
-            "last_updated": 1788849958.605784,
+            "last_updated": 1788850918.881803,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -841,8 +849,8 @@
             "slug": "uecl-qualifying"
         },
         "uefa-champions-league": {
-            "last_crossover_date": "",
-            "last_updated": 1788849948.919038,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788850909.814047,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
             "name": "UEFA Champions League",
             "pill": "uefa.champions",
@@ -913,8 +921,8 @@
             "slug": "usl-championship"
         },
         "usl-cup": {
-            "last_crossover_date": "2026-08-12",
-            "last_updated": 1786603580.015629,
+            "last_crossover_date": "2026-09-08",
+            "last_updated": 1788850834.150556,
             "logo": "\ud83c\udfc6",
             "name": "USL Cup",
             "pill": "usa.usl.l1.cup",
@@ -1000,7 +1008,7 @@
             "slug": "aalesund"
         },
         "abb": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "ABB",
             "slug": "abb"
         },
@@ -1105,7 +1113,7 @@
             "slug": "acassuso"
         },
         "accrington-stanley": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Accrington Stanley",
             "slug": "accrington-stanley"
         },
@@ -1260,7 +1268,7 @@
             "slug": "afc-34"
         },
         "afc-bournemouth": {
-            "league": "English Carabao Cup",
+            "league": "English Premier League",
             "name": "AFC Bournemouth",
             "slug": "afc-bournemouth"
         },
@@ -1819,13 +1827,18 @@
             "name": "Algeria Women",
             "slug": "algeria-women"
         },
+        "alhama": {
+            "league": "Spanish Copa de la Reina",
+            "name": "Alhama",
+            "slug": "alhama"
+        },
         "alianza-atletico": {
             "league": "Peruvian Liga 1",
             "name": "Alianza Atl\u00e9tico",
             "slug": "alianza-atletico"
         },
         "alianza-fc": {
-            "league": "Colombian Primera A",
+            "league": "Salvadoran Primera Division",
             "name": "Alianza FC",
             "slug": "alianza-fc"
         },
@@ -1900,7 +1913,7 @@
             "slug": "alverca"
         },
         "always-ready": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Always Ready",
             "slug": "always-ready"
         },
@@ -2570,7 +2583,7 @@
             "slug": "atletico-madrid-women"
         },
         "atletico-mg": {
-            "league": "Brazilian Serie A",
+            "league": "CONMEBOL Sudamericana",
             "name": "Atl\u00e9tico-MG",
             "slug": "atletico-mg"
         },
@@ -2645,7 +2658,7 @@
             "slug": "audax-italiano"
         },
         "aurora": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Aurora",
             "slug": "aurora"
         },
@@ -2875,7 +2888,7 @@
             "slug": "barnoldswick-town"
         },
         "barnsley": {
-            "league": "English Carabao Cup",
+            "league": "English EFL Trophy",
             "name": "Barnsley",
             "slug": "barnsley"
         },
@@ -3290,7 +3303,7 @@
             "slug": "blackburn-united"
         },
         "blackpool": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Blackpool",
             "slug": "blackpool"
         },
@@ -3300,7 +3313,7 @@
             "slug": "blackstones"
         },
         "blooming": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Blooming",
             "slug": "blooming"
         },
@@ -3325,7 +3338,7 @@
             "slug": "bob-jones-women"
         },
         "boca-juniors": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "CONMEBOL Sudamericana",
             "name": "Boca Juniors",
             "slug": "boca-juniors"
         },
@@ -3365,7 +3378,7 @@
             "slug": "boldmere-st-michaels"
         },
         "bolivar": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Bol\u00edvar",
             "slug": "bolivar"
         },
@@ -3560,7 +3573,7 @@
             "slug": "bracknell-town"
         },
         "bradford-city": {
-            "league": "English Carabao Cup",
+            "league": "English EFL Trophy",
             "name": "Bradford City",
             "slug": "bradford-city"
         },
@@ -3608,6 +3621,11 @@
             "league": "English Carabao Cup",
             "name": "Brentford",
             "slug": "brentford"
+        },
+        "brentford-u21": {
+            "league": "English EFL Trophy",
+            "name": "Brentford U21",
+            "slug": "brentford-u21"
         },
         "brentwood-town": {
             "league": "English FA Cup Qualifying",
@@ -3720,7 +3738,7 @@
             "slug": "brocton"
         },
         "bromley": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Bromley",
             "slug": "bromley"
         },
@@ -3885,7 +3903,7 @@
             "slug": "burscough"
         },
         "burton-albion": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Burton Albion",
             "slug": "burton-albion"
         },
@@ -4120,7 +4138,7 @@
             "slug": "cambridge-city"
         },
         "cambridge-united": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Cambridge United",
             "slug": "cambridge-united"
         },
@@ -4485,7 +4503,7 @@
             "slug": "cd-utiel"
         },
         "ce-europa": {
-            "league": "Club Friendly",
+            "league": "Spanish Copa de la Reina",
             "name": "CE Europa",
             "slug": "ce-europa"
         },
@@ -4820,7 +4838,7 @@
             "slug": "chelsea-women"
         },
         "cheltenham-town": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Cheltenham Town",
             "slug": "cheltenham-town"
         },
@@ -4840,7 +4858,7 @@
             "slug": "cheshunt"
         },
         "chesterfield": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Chesterfield",
             "slug": "chesterfield"
         },
@@ -4925,7 +4943,7 @@
             "slug": "christchurch"
         },
         "cienciano-del-cusco": {
-            "league": "Peruvian Liga 1",
+            "league": "CONMEBOL Sudamericana",
             "name": "Cienciano del Cusco",
             "slug": "cienciano-del-cusco"
         },
@@ -5170,7 +5188,7 @@
             "slug": "cockfosters"
         },
         "colchester-united": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Colchester United",
             "slug": "colchester-united"
         },
@@ -5265,7 +5283,7 @@
             "slug": "colorado-rapids"
         },
         "colorado-springs-switchbacks-fc": {
-            "league": "USL Championship",
+            "league": "USL Cup",
             "name": "Colorado Springs Switchbacks FC",
             "slug": "colorado-springs-switchbacks-fc"
         },
@@ -5395,7 +5413,7 @@
             "slug": "corinthian-casuals"
         },
         "corinthians": {
-            "league": "Brazilian Serie A",
+            "league": "CONMEBOL Libertadores",
             "name": "Corinthians",
             "slug": "corinthians"
         },
@@ -5495,7 +5513,7 @@
             "slug": "crawley-down-gatwick"
         },
         "crawley-town": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Crawley Town",
             "slug": "crawley-town"
         },
@@ -5550,7 +5568,7 @@
             "slug": "crevillente"
         },
         "crewe-alexandra": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Crewe Alexandra",
             "slug": "crewe-alexandra"
         },
@@ -5600,9 +5618,14 @@
             "slug": "cruzeiro"
         },
         "crystal-palace": {
-            "league": "English Carabao Cup",
+            "league": "English Premier League",
             "name": "Crystal Palace",
             "slug": "crystal-palace"
+        },
+        "crystal-palace-u21": {
+            "league": "English EFL Trophy",
+            "name": "Crystal Palace U21",
+            "slug": "crystal-palace-u21"
         },
         "crystal-palace-women": {
             "league": "English Women's Super League",
@@ -6255,7 +6278,7 @@
             "slug": "don-benito"
         },
         "doncaster-rovers": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Doncaster Rovers",
             "slug": "doncaster-rovers"
         },
@@ -6950,7 +6973,7 @@
             "slug": "estudiantes-buenos-aires"
         },
         "estudiantes-de-la-plata": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "CONMEBOL Libertadores",
             "name": "Estudiantes de La Plata",
             "slug": "estudiantes-de-la-plata"
         },
@@ -7055,7 +7078,7 @@
             "slug": "excursionistas"
         },
         "exeter-city": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Exeter City",
             "slug": "exeter-city"
         },
@@ -7560,7 +7583,7 @@
             "slug": "ferro-carril-oeste"
         },
         "feyenoord-rotterdam": {
-            "league": "UEFA Champions League",
+            "league": "Dutch Eredivisie",
             "name": "Feyenoord Rotterdam",
             "slug": "feyenoord-rotterdam"
         },
@@ -7615,7 +7638,7 @@
             "slug": "flackwell-heath"
         },
         "flamengo": {
-            "league": "Brazilian Serie A",
+            "league": "CONMEBOL Libertadores",
             "name": "Flamengo",
             "slug": "flamengo"
         },
@@ -7635,7 +7658,7 @@
             "slug": "fleetlands"
         },
         "fleetwood-town": {
-            "league": "English Carabao Cup",
+            "league": "English EFL Trophy",
             "name": "Fleetwood Town",
             "slug": "fleetwood-town"
         },
@@ -7740,7 +7763,7 @@
             "slug": "florida-women"
         },
         "fluminense": {
-            "league": "Brazilian Serie A",
+            "league": "CONMEBOL Libertadores",
             "name": "Fluminense",
             "slug": "fluminense"
         },
@@ -7893,6 +7916,16 @@
             "league": "English Carabao Cup",
             "name": "Fulham",
             "slug": "fulham"
+        },
+        "fulham-u21": {
+            "league": "English EFL Trophy",
+            "name": "Fulham U21",
+            "slug": "fulham-u21"
+        },
+        "fundacion-albacete": {
+            "league": "Spanish Copa de la Reina",
+            "name": "Fundaci\u00f3n Albacete",
+            "slug": "fundacion-albacete"
         },
         "furman": {
             "league": "NCAA Men's Soccer",
@@ -8170,7 +8203,7 @@
             "slug": "gil-vicente"
         },
         "gillingham": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Gillingham",
             "slug": "gillingham"
         },
@@ -8485,7 +8518,7 @@
             "slug": "grimsby-borough"
         },
         "grimsby-town": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Grimsby Town",
             "slug": "grimsby-town"
         },
@@ -8525,7 +8558,7 @@
             "slug": "gsv-28"
         },
         "guabira": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Guabir\u00e1",
             "slug": "guabira"
         },
@@ -8580,7 +8613,7 @@
             "slug": "guiseley"
         },
         "gv-san-jose": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "GV San Jos\u00e9",
             "slug": "gv-san-jose"
         },
@@ -8805,7 +8838,7 @@
             "slug": "harrow-borough"
         },
         "hartford-athletic": {
-            "league": "USL Championship",
+            "league": "USL Cup",
             "name": "Hartford Athletic",
             "slug": "hartford-athletic"
         },
@@ -9310,17 +9343,17 @@
             "slug": "hucknall-town"
         },
         "huddersfield-town": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Huddersfield Town",
             "slug": "huddersfield-town"
         },
         "huesca": {
-            "league": "Club Friendly",
+            "league": "Spanish Copa de la Reina",
             "name": "Huesca",
             "slug": "huesca"
         },
         "hull-city": {
-            "league": "English Carabao Cup",
+            "league": "English Premier League",
             "name": "Hull City",
             "slug": "hull-city"
         },
@@ -9510,7 +9543,7 @@
             "slug": "independiente"
         },
         "independiente-del-valle": {
-            "league": "LigaPro Ecuador",
+            "league": "CONMEBOL Libertadores",
             "name": "Independiente del Valle",
             "slug": "independiente-del-valle"
         },
@@ -9520,7 +9553,7 @@
             "slug": "independiente-medellin"
         },
         "independiente-petrolero": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Independiente Petrolero",
             "slug": "independiente-petrolero"
         },
@@ -9530,7 +9563,7 @@
             "slug": "independiente-rivadavia"
         },
         "independiente-santa-fe": {
-            "league": "Colombian Primera A",
+            "league": "CONMEBOL Sudamericana",
             "name": "Independiente Santa Fe",
             "slug": "independiente-santa-fe"
         },
@@ -9678,6 +9711,11 @@
             "league": "English Carabao Cup",
             "name": "Ipswich Town",
             "slug": "ipswich-town"
+        },
+        "ipswich-town-u21": {
+            "league": "English EFL Trophy",
+            "name": "Ipswich Town U21",
+            "slug": "ipswich-town-u21"
         },
         "ipswich-wanderers": {
             "league": "English FA Cup Qualifying",
@@ -10649,6 +10687,11 @@
             "name": "Leeds United",
             "slug": "leeds-united"
         },
+        "leeds-united-u21": {
+            "league": "English EFL Trophy",
+            "name": "Leeds United U21",
+            "slug": "leeds-united-u21"
+        },
         "leek-town-fc": {
             "league": "English FA Cup Qualifying",
             "name": "LEEK TOWN FC",
@@ -10680,7 +10723,7 @@
             "slug": "lehigh-women"
         },
         "leicester-city": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Leicester City",
             "slug": "leicester-city"
         },
@@ -10780,7 +10823,7 @@
             "slug": "lexington-sc-women"
         },
         "leyton-orient": {
-            "league": "English Carabao Cup",
+            "league": "English EFL Trophy",
             "name": "Leyton Orient",
             "slug": "leyton-orient"
         },
@@ -10835,7 +10878,7 @@
             "slug": "life-pacific-university"
         },
         "liga-de-quito": {
-            "league": "LigaPro Ecuador",
+            "league": "CONMEBOL Libertadores",
             "name": "Liga de Quito",
             "slug": "liga-de-quito"
         },
@@ -10865,7 +10908,7 @@
             "slug": "limianos"
         },
         "lincoln-city": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Lincoln City",
             "slug": "lincoln-city"
         },
@@ -10978,6 +11021,11 @@
             "league": "English Carabao Cup",
             "name": "Liverpool",
             "slug": "liverpool"
+        },
+        "liverpool-u21": {
+            "league": "English EFL Trophy",
+            "name": "Liverpool U21",
+            "slug": "liverpool-u21"
         },
         "liverpool-women": {
             "league": "English Women's Super League",
@@ -11175,7 +11223,7 @@
             "slug": "louisville-cardinals-women"
         },
         "louisville-city-fc": {
-            "league": "USL Championship",
+            "league": "USL Cup",
             "name": "Louisville City FC",
             "slug": "louisville-city-fc"
         },
@@ -11315,7 +11363,7 @@
             "slug": "lusitano-evora-1911"
         },
         "luton-town": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Luton Town",
             "slug": "luton-town"
         },
@@ -11960,7 +12008,7 @@
             "slug": "middle-tennessee-women"
         },
         "middlesbrough": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Middlesbrough",
             "slug": "middlesbrough"
         },
@@ -12005,12 +12053,12 @@
             "slug": "millonarios"
         },
         "millwall": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Millwall",
             "slug": "millwall"
         },
         "milton-keynes-dons": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Milton Keynes Dons",
             "slug": "milton-keynes-dons"
         },
@@ -12235,7 +12283,7 @@
             "slug": "monterrey"
         },
         "montevideo-city-torque": {
-            "league": "Liga AUF Uruguaya",
+            "league": "CONMEBOL Sudamericana",
             "name": "Montevideo City Torque",
             "slug": "montevideo-city-torque"
         },
@@ -12455,7 +12503,7 @@
             "slug": "nacional-asuncion"
         },
         "nacional-potosi": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Nacional Potos\u00ed",
             "slug": "nacional-potosi"
         },
@@ -12725,9 +12773,14 @@
             "slug": "newcastle-town"
         },
         "newcastle-united": {
-            "league": "English Carabao Cup",
+            "league": "English Premier League",
             "name": "Newcastle United",
             "slug": "newcastle-united"
+        },
+        "newcastle-united-u21": {
+            "league": "English EFL Trophy",
+            "name": "Newcastle United U21",
+            "slug": "newcastle-united-u21"
         },
         "newells-old-boys": {
             "league": "Argentine Liga Profesional de F\u00fatbol",
@@ -12745,7 +12798,7 @@
             "slug": "newmarket-town"
         },
         "newport-county": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Newport County",
             "slug": "newport-county"
         },
@@ -13165,7 +13218,7 @@
             "slug": "northwood"
         },
         "norwich-city": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Norwich City",
             "slug": "norwich-city"
         },
@@ -13194,8 +13247,13 @@
             "name": "Nottingham Forest",
             "slug": "nottingham-forest"
         },
+        "nottingham-forest-u21": {
+            "league": "English EFL Trophy",
+            "name": "Nottingham Forest U21",
+            "slug": "nottingham-forest-u21"
+        },
         "notts-county": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Notts County",
             "slug": "notts-county"
         },
@@ -13370,7 +13428,7 @@
             "slug": "old-dominion-women"
         },
         "oldham-athletic": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Oldham Athletic",
             "slug": "oldham-athletic"
         },
@@ -13555,7 +13613,7 @@
             "slug": "orgryte-is"
         },
         "oriente-petrolero": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Oriente Petrolero",
             "slug": "oriente-petrolero"
         },
@@ -13725,7 +13783,7 @@
             "slug": "palestino"
         },
         "palmeiras": {
-            "league": "Brazilian Serie A",
+            "league": "CONMEBOL Libertadores",
             "name": "Palmeiras",
             "slug": "palmeiras"
         },
@@ -13965,7 +14023,7 @@
             "slug": "persija-jakarta"
         },
         "peterborough-united": {
-            "league": "English Carabao Cup",
+            "league": "English EFL Trophy",
             "name": "Peterborough United",
             "slug": "peterborough-united"
         },
@@ -14065,7 +14123,7 @@
             "slug": "pittsburgh-women"
         },
         "platense": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "CONMEBOL Libertadores",
             "name": "Platense",
             "slug": "platense"
         },
@@ -14075,7 +14133,7 @@
             "slug": "plaza-amador"
         },
         "plymouth-argyle": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Plymouth Argyle",
             "slug": "plymouth-argyle"
         },
@@ -14155,7 +14213,7 @@
             "slug": "port-fc"
         },
         "port-vale": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Port Vale",
             "slug": "port-vale"
         },
@@ -14380,7 +14438,7 @@
             "slug": "psps-pekanbaru"
         },
         "psv-eindhoven": {
-            "league": "UEFA Champions League",
+            "league": "Dutch Eredivisie",
             "name": "PSV Eindhoven",
             "slug": "psv-eindhoven"
         },
@@ -14548,6 +14606,11 @@
             "league": "Club Friendly",
             "name": "RAC Casablanca",
             "slug": "rac-casablanca"
+        },
+        "racing": {
+            "league": "Spanish Copa de la Reina",
+            "name": "Racing",
+            "slug": "racing"
         },
         "racing-club": {
             "league": "Argentine Liga Profesional de F\u00fatbol",
@@ -14875,7 +14938,7 @@
             "slug": "real-murcia-imperial"
         },
         "real-oruro": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Real Oruro",
             "slug": "real-oruro"
         },
@@ -14895,7 +14958,7 @@
             "slug": "real-pilar"
         },
         "real-potosi": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Real Potos\u00ed",
             "slug": "real-potosi"
         },
@@ -14935,7 +14998,7 @@
             "slug": "real-sporting-de-gijon-ii"
         },
         "real-tomayapo": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Real Tomayapo",
             "slug": "real-tomayapo"
         },
@@ -15270,7 +15333,7 @@
             "slug": "robert-morris-women"
         },
         "rochdale": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Rochdale",
             "slug": "rochdale"
         },
@@ -15365,7 +15428,7 @@
             "slug": "rot-weiss-essen"
         },
         "rotherham-united": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Rotherham United",
             "slug": "rotherham-united"
         },
@@ -15458,6 +15521,11 @@
             "league": "NCAA Men's Soccer",
             "name": "Rutgers",
             "slug": "rutgers"
+        },
+        "rutgers-newark": {
+            "league": "NCAA Men's Soccer",
+            "name": "Rutgers-Newark",
+            "slug": "rutgers-newark"
         },
         "rutgers-scarlet-knights": {
             "league": "NCAA Men's Soccer",
@@ -15675,7 +15743,7 @@
             "slug": "salernitana"
         },
         "salford-city": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Salford City",
             "slug": "salford-city"
         },
@@ -15725,12 +15793,12 @@
             "slug": "samsunspor"
         },
         "san-antonio-bulo-bulo": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "San Antonio Bulo Bulo",
             "slug": "san-antonio-bulo-bulo"
         },
         "san-antonio-fc": {
-            "league": "USL Championship",
+            "league": "USL Cup",
             "name": "San Antonio FC",
             "slug": "san-antonio-fc"
         },
@@ -15960,7 +16028,7 @@
             "slug": "santomera"
         },
         "santos": {
-            "league": "Brazilian Serie A",
+            "league": "CONMEBOL Sudamericana",
             "name": "Santos",
             "slug": "santos"
         },
@@ -15980,7 +16048,7 @@
             "slug": "sao-joao-de-ver"
         },
         "sao-paulo": {
-            "league": "Brazilian Serie A",
+            "league": "CONMEBOL Sudamericana",
             "name": "S\u00e3o Paulo",
             "slug": "sao-paulo"
         },
@@ -16123,6 +16191,11 @@
             "league": "Club Friendly",
             "name": "SD Logro\u00f1\u00e9s",
             "slug": "sd-logrones"
+        },
+        "se-aem": {
+            "league": "Spanish Copa de la Reina",
+            "name": "SE AEM",
+            "slug": "se-aem"
         },
         "se-dons": {
             "league": "English FA Cup Qualifying",
@@ -16320,12 +16393,12 @@
             "slug": "sheffield-fc"
         },
         "sheffield-united": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Sheffield United",
             "slug": "sheffield-united"
         },
         "sheffield-wednesday": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Sheffield Wednesday",
             "slug": "sheffield-wednesday"
         },
@@ -16405,7 +16478,7 @@
             "slug": "shortlees"
         },
         "shrewsbury-town": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Shrewsbury Town",
             "slug": "shrewsbury-town"
         },
@@ -17350,7 +17423,7 @@
             "slug": "stetson-women"
         },
         "stevenage": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Stevenage",
             "slug": "stevenage"
         },
@@ -17515,9 +17588,14 @@
             "slug": "sul-ross-state-women"
         },
         "sunderland": {
-            "league": "English Carabao Cup",
+            "league": "English Premier League",
             "name": "Sunderland",
             "slug": "sunderland"
+        },
+        "sunderland-u21": {
+            "league": "English EFL Trophy",
+            "name": "Sunderland U21",
+            "slug": "sunderland-u21"
         },
         "suny-maritime": {
             "league": "NCAA Men's Soccer",
@@ -17615,7 +17693,7 @@
             "slug": "swindon-supermarine"
         },
         "swindon-town": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Swindon Town",
             "slug": "swindon-town"
         },
@@ -17960,7 +18038,7 @@
             "slug": "the-panthers-fc"
         },
         "the-strongest": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "The Strongest",
             "slug": "the-strongest"
         },
@@ -18190,7 +18268,7 @@
             "slug": "trafford"
         },
         "tranmere-rovers": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Tranmere Rovers",
             "slug": "tranmere-rovers"
         },
@@ -18855,7 +18933,7 @@
             "slug": "universitario"
         },
         "universitario-de-vinto": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Universitario de Vinto",
             "slug": "universitario-de-vinto"
         },
@@ -19190,7 +19268,7 @@
             "slug": "varzim"
         },
         "vasco-da-gama": {
-            "league": "Brazilian Serie A",
+            "league": "CONMEBOL Sudamericana",
             "name": "Vasco da Gama",
             "slug": "vasco-da-gama"
         },
@@ -19655,7 +19733,7 @@
             "slug": "wallingford-crowmarsh"
         },
         "walsall": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Walsall",
             "slug": "walsall"
         },
@@ -19875,7 +19953,7 @@
             "slug": "west-georgia-women"
         },
         "west-ham-united": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "West Ham United",
             "slug": "west-ham-united"
         },
@@ -20065,7 +20143,7 @@
             "slug": "wick"
         },
         "wigan-athletic": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Wigan Athletic",
             "slug": "wigan-athletic"
         },
@@ -20240,7 +20318,7 @@
             "slug": "wolfsberger"
         },
         "wolverhampton-wanderers": {
-            "league": "English Carabao Cup",
+            "league": "English League Championship",
             "name": "Wolverhampton Wanderers",
             "slug": "wolverhampton-wanderers"
         },
@@ -20330,7 +20408,7 @@
             "slug": "wurzburger-kickers"
         },
         "wycombe-wanderers": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Wycombe Wanderers",
             "slug": "wycombe-wanderers"
         },
@@ -20450,7 +20528,7 @@
             "slug": "yokohama-f-marinos"
         },
         "york-city": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "York City",
             "slug": "york-city"
         },
@@ -20508,6 +20586,11 @@
             "league": "Venezuelan Primera Divisi\u00f3n",
             "name": "Zamora FC",
             "slug": "zamora-fc"
+        },
+        "zaragoza": {
+            "league": "Spanish Copa de la Reina",
+            "name": "Zaragoza",
+            "slug": "zaragoza"
         },
         "zed-fc": {
             "league": "CAF Confederation Cup",
