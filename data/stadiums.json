@@ -149,6 +149,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10089": {
+        "city": "Las Palmas de Gran Canaria",
+        "country": "Spain",
+        "id": "10089",
+        "lat": 28.10178,
+        "lon": -15.41573,
+        "name": "Campo de F\u00fatbol Parque Atl\u00e1ntico",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10090": {
         "city": "P\u00f3voa de Lanhoso",
         "country": "Portugal",
@@ -256,6 +266,16 @@
         "lat": 41.00176,
         "lon": -73.66568,
         "name": "Wicor Recreation Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10190": {
+        "city": "Huelva",
+        "country": "Spain",
+        "id": "10190",
+        "lat": 37.26638,
+        "lon": -6.94004,
+        "name": "Ciudad Deportiva Decano del F\u00fatbol Espa\u00f1ol",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -1299,6 +1319,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10473": {
+        "city": "Badajoz",
+        "country": "Spain",
+        "id": "10473",
+        "lat": 38.87789,
+        "lon": -6.97061,
+        "name": "IDM El Vivero",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10484": {
         "city": "Huesca",
         "country": "Spain",
@@ -1626,6 +1656,16 @@
         "lat": 53.21917,
         "lon": 6.56667,
         "name": "Stadion Esserberg",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10602": {
+        "city": "Oviedo",
+        "country": "Spain",
+        "id": "10602",
+        "lat": 43.36029,
+        "lon": -5.84476,
+        "name": "Ciudad Deportiva El Requex\u00f3n",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -2976,16 +3016,6 @@
         "lat": 43.40836,
         "lon": -84.60667,
         "name": "Robert R. Hermann Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "10780": {
-        "city": "",
-        "country": "USA",
-        "id": "10780",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "UNCG Soccer Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4629,16 +4659,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11200": {
-        "city": "",
-        "country": "USA",
-        "id": "11200",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Joseph J. Morrone Stadium at Rizza Performance Center",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11201": {
         "city": "",
         "country": "USA",
@@ -4749,16 +4769,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11214": {
-        "city": "",
-        "country": "USA",
-        "id": "11214",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Pickering Field at the FGCU Soccer Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11217": {
         "city": "",
         "country": "USA",
@@ -4786,16 +4796,6 @@
         "lat": 33.52066,
         "lon": -86.80249,
         "name": "PNC Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11225": {
-        "city": "",
-        "country": "USA",
-        "id": "11225",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "FAU Soccer Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4889,16 +4889,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11245": {
-        "city": "",
-        "country": "USA",
-        "id": "11245",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Cox Family Field at Belson Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11246": {
         "city": "",
         "country": "USA",
@@ -4986,16 +4976,6 @@
         "lat": 31.81544,
         "lon": -96.23136,
         "name": "URI Soccer Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11255": {
-        "city": "",
-        "country": "USA",
-        "id": "11255",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Captains Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5109,16 +5089,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11270": {
-        "city": "",
-        "country": "USA",
-        "id": "11270",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Retriever Soccer Park",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11271": {
         "city": "",
         "country": "USA",
@@ -5169,26 +5139,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11276": {
-        "city": "",
-        "country": "USA",
-        "id": "11276",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "North Athletic Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11277": {
-        "city": "",
-        "country": "USA",
-        "id": "11277",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Saxon Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11282": {
         "city": "",
         "country": "USA",
@@ -5206,16 +5156,6 @@
         "lat": 30.22409,
         "lon": -92.01984,
         "name": "Gummeson Grounds",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11285": {
-        "city": "",
-        "country": "USA",
-        "id": "11285",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Loyola Soccer Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5319,16 +5259,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11299": {
-        "city": "",
-        "country": "USA",
-        "id": "11299",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Malek Stadium at Clinton Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11300": {
         "city": "Boulder",
         "country": "USA",
@@ -5336,16 +5266,6 @@
         "lat": 40.01499,
         "lon": -105.27055,
         "name": "Prentup Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11302": {
-        "city": "",
-        "country": "USA",
-        "id": "11302",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Greater Zion Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5366,16 +5286,6 @@
         "lat": 47.92417,
         "lon": -100.37236,
         "name": "Mediacom Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11310": {
-        "city": "",
-        "country": "USA",
-        "id": "11310",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Betty and Bobby Allison South Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5479,16 +5389,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11323": {
-        "city": "",
-        "country": "USA",
-        "id": "11323",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "CCSU Soccer Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11324": {
         "city": "",
         "country": "USA",
@@ -5536,16 +5436,6 @@
         "lat": 36.10291,
         "lon": -79.50669,
         "name": "Rudd Field (NC)",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11331": {
-        "city": "",
-        "country": "USA",
-        "id": "11331",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "UNCW Soccer Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5709,16 +5599,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11357": {
-        "city": "",
-        "country": "USA",
-        "id": "11357",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Summers-Taylor Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11358": {
         "city": "",
         "country": "USA",
@@ -5746,16 +5626,6 @@
         "lat": 35.95569,
         "lon": -80.00532,
         "name": "Vert Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11364": {
-        "city": "",
-        "country": "USA",
-        "id": "11364",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Gayle and Tom Benson Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5809,16 +5679,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11384": {
-        "city": "",
-        "country": "USA",
-        "id": "11384",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "SportsBackers Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11385": {
         "city": "",
         "country": "USA",
@@ -5839,16 +5699,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11389": {
-        "city": "",
-        "country": "USA",
-        "id": "11389",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "County University Soccer Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11390": {
         "city": "",
         "country": "USA",
@@ -5856,16 +5706,6 @@
         "lat": 40.85927,
         "lon": -73.89847,
         "name": "Moglia Stadium at Jack Coffey Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11391": {
-        "city": "",
-        "country": "USA",
-        "id": "11391",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Marra Athletics Fields Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5969,16 +5809,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11405": {
-        "city": "",
-        "country": "USA",
-        "id": "11405",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "John MacKenzie Alumni Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11412": {
         "city": "",
         "country": "USA",
@@ -5986,36 +5816,6 @@
         "lat": 36.54848,
         "lon": -78.34194,
         "name": "Edens Field at Martin Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11417": {
-        "city": "",
-        "country": "USA",
-        "id": "11417",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Aggie Soccer Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11418": {
-        "city": "",
-        "country": "USA",
-        "id": "11418",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "CSUB Main Soccer Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11421": {
-        "city": "",
-        "country": "USA",
-        "id": "11421",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Matador Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6049,16 +5849,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11428": {
-        "city": "",
-        "country": "USA",
-        "id": "11428",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "UC Riverside Soccer Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11429": {
         "city": "Las Vegas, Nevada",
         "country": "USA",
@@ -6086,16 +5876,6 @@
         "lat": 37.33939,
         "lon": -121.89496,
         "name": "Spartan Soccer Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11432": {
-        "city": "",
-        "country": "USA",
-        "id": "11432",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "CBU Soccer Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6156,16 +5936,6 @@
         "lat": 44.51916,
         "lon": -88.01983,
         "name": "Festival Foods Field at Aldo Santaga Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11450": {
-        "city": "",
-        "country": "USA",
-        "id": "11450",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Lakeside Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7929,6 +7699,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11636": {
+        "city": "Mallorca",
+        "country": "Spain",
+        "id": "11636",
+        "lat": 39.6078,
+        "lon": 3.01197,
+        "name": "Campo de Son Malferit",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11638": {
         "city": "",
         "country": "Australia",
@@ -8096,6 +7876,26 @@
         "lat": 34.54426,
         "lon": -91.96903,
         "name": "Alwyns Lane Football Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11664": {
+        "city": "Pontevedra",
+        "country": "Spain",
+        "id": "11664",
+        "lat": 42.431,
+        "lon": -8.64435,
+        "name": "Instalaciones Deportivas da Madroa - Campo 2",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11665": {
+        "city": "Murcia",
+        "country": "Spain",
+        "id": "11665",
+        "lat": 37.98704,
+        "lon": -1.13004,
+        "name": "Estadio Municipal Juan de la Cierva de Lorqu\u00ed",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16259,16 +16059,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "8413": {
-        "city": "",
-        "country": "USA",
-        "id": "8413",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Triton Soccer Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "8414": {
         "city": "Tulsa",
         "country": "USA",
@@ -16779,6 +16569,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8865": {
+        "city": "Elche",
+        "country": "Spain",
+        "id": "8865",
+        "lat": 38.26218,
+        "lon": -0.70107,
+        "name": "Campo de Altabix",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8868": {
         "city": "Granada",
         "country": "Spain",
@@ -17246,6 +17046,16 @@
         "lat": 52.09083,
         "lon": 5.12222,
         "name": "Sportpark Zoudenbalch (07) veld 1-FCU",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9306": {
+        "city": "C\u00f3rdoba",
+        "country": "Spain",
+        "id": "9306",
+        "lat": 37.89155,
+        "lon": -4.77275,
+        "name": "Ciudad Deportiva Rafael G\u00f3mez",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19189,6 +18999,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "burgos-cf": {
+        "city": "",
+        "country": "",
+        "id": "burgos-cf",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "buriram-united": {
         "city": "",
         "country": "",
@@ -19339,6 +19159,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "cd-argual": {
+        "city": "",
+        "country": "",
+        "id": "cd-argual",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "cd-basconia": {
         "city": "",
         "country": "",
@@ -19463,6 +19293,16 @@
         "city": "",
         "country": "",
         "id": "cd-revilla",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "cd-samper": {
+        "city": "",
+        "country": "",
+        "id": "cd-samper",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
