@@ -8659,6 +8659,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11759": {
+        "city": "",
+        "country": "Spain",
+        "id": "11759",
+        "lat": 40.0,
+        "lon": -4.0,
+        "name": "Estadio Municipal Los Olivos",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11760": {
+        "city": "Burgos",
+        "country": "Spain",
+        "id": "11760",
+        "lat": 42.34106,
+        "lon": -3.70184,
+        "name": "Ciudad Deportiva de Casta\u00f1ares",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1198": {
         "city": "Tel-Aviv",
         "country": "Israel",
