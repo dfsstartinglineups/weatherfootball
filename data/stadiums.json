@@ -789,6 +789,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10350": {
+        "city": "Toronto",
+        "country": "Canada",
+        "id": "10350",
+        "lat": 43.70643,
+        "lon": -79.39864,
+        "name": "York Lions Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10351": {
         "city": "Laval",
         "country": "Canada",
@@ -1406,6 +1416,16 @@
         "lat": 52.37025,
         "lon": 5.21413,
         "name": "Yanmar Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10508": {
+        "city": "",
+        "country": "Spain",
+        "id": "10508",
+        "lat": 37.20764,
+        "lon": -3.63493,
+        "name": "Ciudad Deportiva de Maracena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3239,6 +3259,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10801": {
+        "city": "Lebrija",
+        "country": "Spain",
+        "id": "10801",
+        "lat": 36.92077,
+        "lon": -6.07529,
+        "name": "Estadio Municipal de Lebrija",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10804": {
         "city": "Sabadell",
         "country": "Spain",
@@ -4889,16 +4919,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11225": {
-        "city": "",
-        "country": "USA",
-        "id": "11225",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "FAU Soccer Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11226": {
         "city": "Athens",
         "country": "USA",
@@ -6069,16 +6089,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11450": {
-        "city": "",
-        "country": "USA",
-        "id": "11450",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Lakeside Soccer Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11451": {
         "city": "Chicago, Illinois",
         "country": "USA",
@@ -6210,11 +6220,11 @@
         "surface": "Grass"
     },
     "11472": {
-        "city": "",
+        "city": "\u00c7orum",
         "country": "T\u00fcrkiye",
         "id": "11472",
-        "lat": 0.0,
-        "lon": 0.0,
+        "lat": 40.54889,
+        "lon": 34.95333,
         "name": "\u00c7orum Sehir Stadyumu",
         "roof": "Open",
         "surface": "Grass"
@@ -8866,6 +8876,16 @@
         "lat": 44.4913,
         "lon": 26.03459,
         "name": "Giulesti Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1234": {
+        "city": "Dublin",
+        "country": "",
+        "id": "1234",
+        "lat": 53.33306,
+        "lon": -6.24889,
+        "name": "Dalymount Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -18969,6 +18989,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "anaitasuna": {
+        "city": "",
+        "country": "",
+        "id": "anaitasuna",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "anorthosis": {
         "city": "",
         "country": "",
@@ -19139,10 +19169,30 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "atletico-calatayud": {
+        "city": "",
+        "country": "",
+        "id": "atletico-calatayud",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "atletico-coruna": {
         "city": "",
         "country": "",
         "id": "atletico-coruna",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "atletico-pinatarense": {
+        "city": "",
+        "country": "",
+        "id": "atletico-pinatarense",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -19195,6 +19245,16 @@
         "id": "aucas",
         "lat": -15.37132,
         "lon": -71.57353,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "auriense-cented-academy": {
+        "city": "",
+        "country": "",
+        "id": "auriense-cented-academy",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -20059,6 +20119,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "cf-san-rafael": {
+        "city": "",
+        "country": "",
+        "id": "cf-san-rafael",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "cf-vilanova": {
         "city": "",
         "country": "",
@@ -20283,6 +20353,16 @@
         "city": "",
         "country": "",
         "id": "coventry-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "cp-talayuela": {
+        "city": "",
+        "country": "",
+        "id": "cp-talayuela",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -22789,6 +22869,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "perth-glory": {
+        "city": "",
+        "country": "",
+        "id": "perth-glory",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "petts-wood-holmesdale": {
         "city": "",
         "country": "",
@@ -23205,6 +23295,16 @@
         "id": "reus-fc-reddis",
         "lat": 0.0,
         "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "ribadesella": {
+        "city": "",
+        "country": "",
+        "id": "ribadesella",
+        "lat": 43.46145,
+        "lon": -5.05955,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -23643,6 +23743,16 @@
         "city": "",
         "country": "",
         "id": "sport-boys",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "sporting-hortaleza": {
+        "city": "",
+        "country": "",
+        "id": "sporting-hortaleza",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
