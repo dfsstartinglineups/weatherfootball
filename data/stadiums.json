@@ -3549,6 +3549,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10870": {
+        "city": "Athens",
+        "country": "Greece",
+        "id": "10870",
+        "lat": 37.98376,
+        "lon": 23.72784,
+        "name": "Dimotiko Gipedo Neapolis Nikaias",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10871": {
         "city": "Kitende",
         "country": "Uganda",
@@ -7929,6 +7939,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11645": {
+        "city": "Heerenveen",
+        "country": "Netherlands",
+        "id": "11645",
+        "lat": 52.95929,
+        "lon": 5.91854,
+        "name": "Sportpark Noord",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11648": {
         "city": "",
         "country": "England",
@@ -8836,6 +8856,16 @@
         "lat": 42.34106,
         "lon": -3.70184,
         "name": "Ciudad Deportiva de Casta\u00f1ares",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11769": {
+        "city": "Bunbury",
+        "country": "Australia",
+        "id": "11769",
+        "lat": -33.32711,
+        "lon": 115.64137,
+        "name": "Hay Park United Soccer Club Field 1",
         "roof": "Open",
         "surface": "Grass"
     },
