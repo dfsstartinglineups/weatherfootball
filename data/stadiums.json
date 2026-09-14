@@ -2789,6 +2789,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10745": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "id": "10745",
+        "lat": 40.37767,
+        "lon": 49.89201,
+        "name": "Neft\u00e7i Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10747": {
         "city": "Geneva",
         "country": "Switzerland",
@@ -4336,6 +4346,16 @@
         "lat": 42.30988,
         "lon": 69.60042,
         "name": "Turkistan Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11069": {
+        "city": "Chongqing",
+        "country": "China PR",
+        "id": "11069",
+        "lat": 29.56026,
+        "lon": 106.55771,
+        "name": "Tongliang Long Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -8689,6 +8709,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11731": {
+        "city": "Victoria",
+        "country": "Seychelles",
+        "id": "11731",
+        "lat": -4.62001,
+        "lon": 55.45501,
+        "name": "Stade Linit\u00e9",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11736": {
         "city": "",
         "country": "Wales",
@@ -9016,6 +9046,16 @@
         "lat": 34.6913,
         "lon": 135.183,
         "name": "Kobe Wing Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1272": {
+        "city": "Rifu",
+        "country": "Japan",
+        "id": "1272",
+        "lat": 38.33092,
+        "lon": 140.97691,
+        "name": "Miyagi Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9476,6 +9516,16 @@
         "lat": 40.8,
         "lon": -96.66696,
         "name": "LNER Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1557": {
+        "city": "Attard",
+        "country": "Malta",
+        "id": "1557",
+        "lat": 35.88967,
+        "lon": 14.4425,
+        "name": "Ta' Qali National Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -10799,6 +10849,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "2712": {
+        "city": "Suwon",
+        "country": "South Korea",
+        "id": "2712",
+        "lat": 37.29111,
+        "lon": 127.00889,
+        "name": "Suwon World Cup Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "2727": {
         "city": "",
         "country": "France",
@@ -11826,6 +11886,16 @@
         "lat": 34.55211,
         "lon": -77.9261,
         "name": "Stanford Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3873": {
+        "city": "Baltimore, Maryland",
+        "country": "USA",
+        "id": "3873",
+        "lat": 39.29038,
+        "lon": -76.61219,
+        "name": "M&T Bank Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16099,6 +16169,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7490": {
+        "city": "Bangalore",
+        "country": "India",
+        "id": "7490",
+        "lat": 24.8717,
+        "lon": 67.0839,
+        "name": "Sree Kanteerava Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7495": {
         "city": "Basra",
         "country": "Iraq",
@@ -16146,6 +16226,16 @@
         "lat": 51.62867,
         "lon": 0.41963,
         "name": "AGP Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7519": {
+        "city": "Amman",
+        "country": "Jordan",
+        "id": "7519",
+        "lat": 31.95522,
+        "lon": 35.94503,
+        "name": "King Abdullah II Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17586,6 +17676,16 @@
         "lat": 39.50263,
         "lon": -0.44079,
         "name": "Estadio Antonio Puchades",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9073": {
+        "city": "Townsville",
+        "country": "Australia",
+        "id": "9073",
+        "lat": -19.26639,
+        "lon": 146.8057,
+        "name": "Queensland Country Bank Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -22099,6 +22199,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "kyrgyz-republic": {
+        "city": "",
+        "country": "",
+        "id": "kyrgyz-republic",
+        "lat": 41.5,
+        "lon": 75.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "la-calzada": {
         "city": "",
         "country": "",
@@ -24355,6 +24465,16 @@
         "id": "touring",
         "lat": 13.6252,
         "lon": 6.52746,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "turkmenistan": {
+        "city": "",
+        "country": "",
+        "id": "turkmenistan",
+        "lat": 39.75,
+        "lon": 59.66667,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
