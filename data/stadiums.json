@@ -3119,16 +3119,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "10780": {
-        "city": "",
-        "country": "USA",
-        "id": "10780",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "UNCG Soccer Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "10781": {
         "city": "Buenos Aires",
         "country": "Argentina",
@@ -5219,16 +5209,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11255": {
-        "city": "",
-        "country": "USA",
-        "id": "11255",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Captains Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11256": {
         "city": "",
         "country": "USA",
@@ -5336,16 +5316,6 @@
         "lat": 39.76838,
         "lon": -86.15804,
         "name": "Strassweg Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11270": {
-        "city": "",
-        "country": "USA",
-        "id": "11270",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Retriever Soccer Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5529,16 +5499,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11299": {
-        "city": "",
-        "country": "USA",
-        "id": "11299",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Malek Stadium at Clinton Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11300": {
         "city": "Boulder",
         "country": "USA",
@@ -5559,6 +5519,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11305": {
+        "city": "",
+        "country": "USA",
+        "id": "11305",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Luger Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11309": {
         "city": "",
         "country": "USA",
@@ -5566,6 +5536,16 @@
         "lat": 47.92417,
         "lon": -100.37236,
         "name": "Mediacom Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11310": {
+        "city": "",
+        "country": "USA",
+        "id": "11310",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Betty and Bobby Allison South Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6019,6 +5999,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11389": {
+        "city": "Spartanburg",
+        "country": "USA",
+        "id": "11389",
+        "lat": 34.94957,
+        "lon": -81.93205,
+        "name": "County University Soccer Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11390": {
         "city": "",
         "country": "USA",
@@ -6149,6 +6139,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11413": {
+        "city": "",
+        "country": "USA",
+        "id": "11413",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Lower Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11418": {
         "city": "Bakersfield",
         "country": "USA",
@@ -6156,6 +6156,16 @@
         "lat": 35.37329,
         "lon": -119.01871,
         "name": "CSUB Main Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11420": {
+        "city": "",
+        "country": "USA",
+        "id": "11420",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Greene-Harbison Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16849,6 +16859,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8059": {
+        "city": "Trasandino",
+        "country": "Chile",
+        "id": "8059",
+        "lat": 10.1,
+        "lon": -70.03333,
+        "name": "Estadio Regional de Los Andes",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8080": {
         "city": "New York City",
         "country": "USA",
@@ -19833,6 +19853,16 @@
         "city": "",
         "country": "",
         "id": "ayutthaya-united",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "azsv-women": {
+        "city": "",
+        "country": "",
+        "id": "azsv-women",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -25105,6 +25135,16 @@
         "id": "workington",
         "lat": 54.6425,
         "lon": -3.54413,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "wydad-sportive-de-temara": {
+        "city": "",
+        "country": "",
+        "id": "wydad-sportive-de-temara",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
