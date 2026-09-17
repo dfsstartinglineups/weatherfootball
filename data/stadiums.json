@@ -3119,6 +3119,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10780": {
+        "city": "",
+        "country": "USA",
+        "id": "10780",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "UNCG Soccer Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10781": {
         "city": "Buenos Aires",
         "country": "Argentina",
@@ -4609,6 +4619,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11166": {
+        "city": "Mobile",
+        "country": "USA",
+        "id": "11166",
+        "lat": 30.69436,
+        "lon": -88.04305,
+        "name": "The Cage",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11167": {
         "city": "Auburn",
         "country": "USA",
@@ -4699,6 +4719,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11180": {
+        "city": "Athens",
+        "country": "USA",
+        "id": "11180",
+        "lat": 33.96095,
+        "lon": -83.37794,
+        "name": "Chessa Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11181": {
         "city": "",
         "country": "USA",
@@ -4726,6 +4756,16 @@
         "lat": 35.97987,
         "lon": -78.50972,
         "name": "Spry Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11184": {
+        "city": "Ames",
+        "country": "USA",
+        "id": "11184",
+        "lat": 42.03471,
+        "lon": -93.61994,
+        "name": "Cyclone Sports Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4919,6 +4959,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11207": {
+        "city": "",
+        "country": "USA",
+        "id": "11207",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "CMU Soccer/Lacrosse Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11208": {
         "city": "",
         "country": "USA",
@@ -5019,6 +5069,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11225": {
+        "city": "Boca Raton",
+        "country": "USA",
+        "id": "11225",
+        "lat": 26.35869,
+        "lon": -80.0831,
+        "name": "FAU Soccer Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11226": {
         "city": "Athens",
         "country": "USA",
@@ -5049,6 +5109,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11231": {
+        "city": "",
+        "country": "USA",
+        "id": "11231",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Bobby Kramig Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11233": {
         "city": "Stillwater",
         "country": "USA",
@@ -5059,6 +5129,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11234": {
+        "city": "Denton, Texas",
+        "country": "USA",
+        "id": "11234",
+        "lat": 33.21484,
+        "lon": -97.13307,
+        "name": "Norma Knobel Hunt Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11235": {
         "city": "Oxford",
         "country": "USA",
@@ -5066,6 +5146,16 @@
         "lat": 34.3665,
         "lon": -89.51925,
         "name": "Ole Miss Soccer Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11238": {
+        "city": "Charleston",
+        "country": "USA",
+        "id": "11238",
+        "lat": 32.77632,
+        "lon": -79.93275,
+        "name": "CSU Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5209,6 +5299,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11255": {
+        "city": "",
+        "country": "USA",
+        "id": "11255",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Captains Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11256": {
         "city": "",
         "country": "USA",
@@ -5309,6 +5409,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11268": {
+        "city": "",
+        "country": "USA",
+        "id": "11268",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "EKU Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11269": {
         "city": "Indianapolis, Indiana",
         "country": "USA",
@@ -5376,6 +5486,46 @@
         "lat": 40.50896,
         "lon": -80.23923,
         "name": "North Athletic Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11277": {
+        "city": "",
+        "country": "USA",
+        "id": "11277",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Saxon Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11278": {
+        "city": "",
+        "country": "USA",
+        "id": "11278",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Paul Hotmer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11280": {
+        "city": "",
+        "country": "USA",
+        "id": "11280",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Briner Sports Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11281": {
+        "city": "",
+        "country": "USA",
+        "id": "11281",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "WKU Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5519,13 +5669,13 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11305": {
-        "city": "",
+    "11306": {
+        "city": "Las Cruces, New Mexico",
         "country": "USA",
-        "id": "11305",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Luger Field",
+        "id": "11306",
+        "lat": 32.31232,
+        "lon": -106.77834,
+        "name": "Soccer Athletic Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5789,6 +5939,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11344": {
+        "city": "Nacogdoches",
+        "country": "USA",
+        "id": "11344",
+        "lat": 31.60351,
+        "lon": -94.65549,
+        "name": "SFA Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11345": {
         "city": "San Antonio",
         "country": "USA",
@@ -5849,6 +6009,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11355": {
+        "city": "Cookeville",
+        "country": "USA",
+        "id": "11355",
+        "lat": 36.16284,
+        "lon": -85.50164,
+        "name": "Tech Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11356": {
         "city": "",
         "country": "USA",
@@ -5856,6 +6026,16 @@
         "lat": 36.78258,
         "lon": -84.13521,
         "name": "Snyder Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11357": {
+        "city": "",
+        "country": "USA",
+        "id": "11357",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Summers-Taylor Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5929,6 +6109,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11374": {
+        "city": "Hammond",
+        "country": "USA",
+        "id": "11374",
+        "lat": 37.87138,
+        "lon": -109.34289,
+        "name": "Strawberry Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11375": {
         "city": "Beaumont",
         "country": "USA",
@@ -5936,6 +6126,16 @@
         "lat": 30.08605,
         "lon": -94.10185,
         "name": "LU Soccer Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11378": {
+        "city": "",
+        "country": "USA",
+        "id": "11378",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Tarleton State Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6129,6 +6329,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11405": {
+        "city": "",
+        "country": "USA",
+        "id": "11405",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "John MacKenzie Alumni Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11412": {
         "city": "",
         "country": "USA",
@@ -6136,16 +6346,6 @@
         "lat": 36.54848,
         "lon": -78.34194,
         "name": "Edens Field at Martin Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11413": {
-        "city": "",
-        "country": "USA",
-        "id": "11413",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Lower Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6169,6 +6369,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11421": {
+        "city": "",
+        "country": "USA",
+        "id": "11421",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Matador Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11422": {
         "city": "",
         "country": "USA",
@@ -6176,6 +6386,16 @@
         "lat": 30.7968,
         "lon": -82.02887,
         "name": "Davis Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11423": {
+        "city": "",
+        "country": "USA",
+        "id": "11423",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Boas Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6196,6 +6416,16 @@
         "lat": 32.9129,
         "lon": -97.54058,
         "name": "Hornet Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11428": {
+        "city": "Riverside",
+        "country": "USA",
+        "id": "11428",
+        "lat": 33.95335,
+        "lon": -117.39616,
+        "name": "UC Riverside Soccer Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6226,6 +6456,16 @@
         "lat": 37.33939,
         "lon": -121.89496,
         "name": "Spartan Soccer Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11432": {
+        "city": "Riverside",
+        "country": "USA",
+        "id": "11432",
+        "lat": 33.95335,
+        "lon": -117.39616,
+        "name": "CBU Soccer Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6266,6 +6506,26 @@
         "lat": 39.09973,
         "lon": -94.57857,
         "name": "Stanley H. Durwood Soccer Stadium & Recreational Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11444": {
+        "city": "",
+        "country": "USA",
+        "id": "11444",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Mackay Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11446": {
+        "city": "",
+        "country": "USA",
+        "id": "11446",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "AAMU Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6316,6 +6576,16 @@
         "lat": 40.75594,
         "lon": -73.84791,
         "name": "Shea Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11454": {
+        "city": "",
+        "country": "USA",
+        "id": "11454",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Drass Field",
         "roof": "Open",
         "surface": "Grass"
     },
