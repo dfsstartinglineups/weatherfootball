@@ -4699,6 +4699,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11174": {
+        "city": "",
+        "country": "USA",
+        "id": "11174",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Iowa Soccer Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11177": {
         "city": "",
         "country": "USA",
@@ -4919,6 +4929,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11200": {
+        "city": "Storrs",
+        "country": "USA",
+        "id": "11200",
+        "lat": 41.80843,
+        "lon": -72.24952,
+        "name": "Joseph J. Morrone Stadium at Rizza Performance Center",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11201": {
         "city": "",
         "country": "USA",
@@ -4966,16 +4986,6 @@
         "lat": 43.0389,
         "lon": -87.90647,
         "name": "Engelmann Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11207": {
-        "city": "",
-        "country": "USA",
-        "id": "11207",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "CMU Soccer/Lacrosse Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5119,16 +5129,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11231": {
-        "city": "",
-        "country": "USA",
-        "id": "11231",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Bobby Kramig Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11233": {
         "city": "Stillwater",
         "country": "USA",
@@ -5216,6 +5216,16 @@
         "lat": 32.59152,
         "lon": -96.76333,
         "name": "Tiger Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11245": {
+        "city": "Jamaica, New York",
+        "country": "USA",
+        "id": "11245",
+        "lat": 40.69149,
+        "lon": -73.80569,
+        "name": "Cox Family Field at Belson Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5499,26 +5509,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11277": {
-        "city": "",
-        "country": "USA",
-        "id": "11277",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Saxon Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11278": {
-        "city": "",
-        "country": "USA",
-        "id": "11278",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Paul Hotmer Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11280": {
         "city": "Muncie",
         "country": "USA",
@@ -5526,16 +5516,6 @@
         "lat": 40.19338,
         "lon": -85.38636,
         "name": "Briner Sports Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11281": {
-        "city": "",
-        "country": "USA",
-        "id": "11281",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "WKU Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5669,6 +5649,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11302": {
+        "city": "Saint George",
+        "country": "USA",
+        "id": "11302",
+        "lat": 33.186,
+        "lon": -80.57565,
+        "name": "Greater Zion Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11304": {
         "city": "",
         "country": "USA",
@@ -5776,6 +5766,16 @@
         "lat": 42.86509,
         "lon": -71.4934,
         "name": "Martone-Mejail Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11319": {
+        "city": "Lowell",
+        "country": "USA",
+        "id": "11319",
+        "lat": 42.63342,
+        "lon": -71.31617,
+        "name": "Cushing Field Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5989,6 +5989,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11350": {
+        "city": "Boone, North Carolina",
+        "country": "USA",
+        "id": "11350",
+        "lat": 36.21679,
+        "lon": -81.67455,
+        "name": "Appalachian Soccer Stadium at the Ted Mackorell Soccer Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11351": {
         "city": "",
         "country": "USA",
@@ -6056,6 +6066,16 @@
         "lat": 32.83403,
         "lon": -83.61212,
         "name": "GSU Soccer Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11359": {
+        "city": "Jackson",
+        "country": "USA",
+        "id": "11359",
+        "lat": 32.29876,
+        "lon": -90.18481,
+        "name": "JSU Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6136,16 +6156,6 @@
         "lat": 30.08605,
         "lon": -94.10185,
         "name": "LU Soccer Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11378": {
-        "city": "",
-        "country": "USA",
-        "id": "11378",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Tarleton State Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6339,13 +6349,13 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11405": {
+    "11408": {
         "city": "",
         "country": "USA",
-        "id": "11405",
+        "id": "11408",
         "lat": 38.67351,
         "lon": 29.4058,
-        "name": "John MacKenzie Alumni Field",
+        "name": "Marshall Bell Track & Field/Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6379,16 +6389,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11421": {
-        "city": "",
-        "country": "USA",
-        "id": "11421",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Matador Soccer Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11422": {
         "city": "",
         "country": "USA",
@@ -6396,16 +6396,6 @@
         "lat": 30.7968,
         "lon": -82.02887,
         "name": "Davis Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11423": {
-        "city": "",
-        "country": "USA",
-        "id": "11423",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Boas Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6586,16 +6576,6 @@
         "lat": 40.75594,
         "lon": -73.84791,
         "name": "Shea Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11454": {
-        "city": "",
-        "country": "USA",
-        "id": "11454",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Drass Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -21809,6 +21789,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "fiji": {
+        "city": "",
+        "country": "",
+        "id": "fiji",
+        "lat": -18.0,
+        "lon": 178.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "fiorentina": {
         "city": "",
         "country": "",
@@ -23085,6 +23075,16 @@
         "id": "mafra",
         "lat": 38.93793,
         "lon": -9.32756,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "maghreb-as-de-fes": {
+        "city": "",
+        "country": "",
+        "id": "maghreb-as-de-fes",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
