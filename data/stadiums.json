@@ -4699,16 +4699,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11174": {
-        "city": "",
-        "country": "USA",
-        "id": "11174",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Iowa Soccer Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11177": {
         "city": "",
         "country": "USA",
@@ -6346,16 +6336,6 @@
         "lat": 40.88732,
         "lon": -73.90152,
         "name": "Gaelic Park",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11408": {
-        "city": "",
-        "country": "USA",
-        "id": "11408",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Marshall Bell Track & Field/Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -10906,6 +10886,16 @@
         "lat": 55.95206,
         "lon": -3.19648,
         "name": "Tynecastle Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2383": {
+        "city": "Figueira da Foz",
+        "country": "Portugal",
+        "id": "2383",
+        "lat": 40.15085,
+        "lon": -8.86179,
+        "name": "Est\u00e1dio Municipal Jos\u00e9 Bento Pessoa",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16609,6 +16599,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7474": {
+        "city": "Toyota Stadium",
+        "country": "USA",
+        "id": "7474",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Toyota Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7480": {
         "city": "Glasgow",
         "country": "Scotland",
@@ -18356,6 +18356,16 @@
         "lat": 37.94581,
         "lon": -7.59754,
         "name": "Campo Sint\u00e9tico Complexo Desportivo Manuel Bai\u00e3o",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9225": {
+        "city": "Mafra",
+        "country": "Portugal",
+        "id": "9225",
+        "lat": 38.93793,
+        "lon": -9.32756,
+        "name": "Est\u00e1dio Municipal de Mafra",
         "roof": "Open",
         "surface": "Grass"
     },
