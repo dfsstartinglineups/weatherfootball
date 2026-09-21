@@ -6149,6 +6149,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11380": {
+        "city": "Huntsville",
+        "country": "USA",
+        "id": "11380",
+        "lat": 34.7304,
+        "lon": -86.58594,
+        "name": "Joseph Pritchett Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11381": {
         "city": "",
         "country": "USA",
@@ -14996,6 +15006,16 @@
         "lat": 48.06598,
         "lon": 11.61564,
         "name": "Uhlsport Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6284": {
+        "city": "Roseau",
+        "country": "Dominica",
+        "id": "6284",
+        "lat": 15.30174,
+        "lon": -61.38808,
+        "name": "Windsor Park, Roseau",
         "roof": "Open",
         "surface": "Grass"
     },
