@@ -999,6 +999,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10380": {
+        "city": "Cornwall",
+        "country": "England",
+        "id": "10380",
+        "lat": 40.2737,
+        "lon": -76.40607,
+        "name": "Truro Sports Hub",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10386": {
         "city": "Cali",
         "country": "Colombia",
@@ -3979,6 +3989,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10958": {
+        "city": "Veenendaal",
+        "country": "Netherlands",
+        "id": "10958",
+        "lat": 52.02863,
+        "lon": 5.55891,
+        "name": "Sportpark Panhuis",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10972": {
         "city": "Vicente L\u00f3pez",
         "country": "Argentina",
@@ -4236,6 +4256,16 @@
         "lat": -33.2914,
         "lon": -66.32467,
         "name": "Estadio \u00danico de Villa Mercedes",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11011": {
+        "city": "Volendam",
+        "country": "Netherlands",
+        "id": "11011",
+        "lat": 52.495,
+        "lon": 5.07083,
+        "name": "KWABO-Stadion",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5046,6 +5076,16 @@
         "lat": 26.62168,
         "lon": -81.84059,
         "name": "Pickering Field at the FGCU Soccer Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11217": {
+        "city": "Baltimore, Maryland",
+        "country": "USA",
+        "id": "11217",
+        "lat": 39.29038,
+        "lon": -76.61219,
+        "name": "Ridley Athletic Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6236,6 +6276,16 @@
         "lat": 40.85927,
         "lon": -73.89847,
         "name": "Moglia Stadium at Jack Coffey Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11391": {
+        "city": "",
+        "country": "USA",
+        "id": "11391",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Marra Athletics Fields Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9059,6 +9109,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11730": {
+        "city": "Kloetinge",
+        "country": "Netherlands",
+        "id": "11730",
+        "lat": 51.49833,
+        "lon": 3.91528,
+        "name": "Sportpark Wesselopark",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11731": {
         "city": "Victoria",
         "country": "Seychelles",
@@ -9076,6 +9136,16 @@
         "lat": 41.10166,
         "lon": -8.64761,
         "name": "Est\u00e1dio Municipal da Madalena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11735": {
+        "city": "",
+        "country": "Netherlands",
+        "id": "11735",
+        "lat": 36.29923,
+        "lon": -89.75119,
+        "name": "Sportpark In de Bandert (EVV)",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9376,6 +9446,36 @@
         "lat": -33.32711,
         "lon": 115.64137,
         "name": "Hay Park United Soccer Club Field 1",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11794": {
+        "city": "",
+        "country": "England",
+        "id": "11794",
+        "lat": 51.53333,
+        "lon": -1.36667,
+        "name": "Saunders Transport Community Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11795": {
+        "city": "Wiltshire",
+        "country": "England",
+        "id": "11795",
+        "lat": 18.42216,
+        "lon": -77.95507,
+        "name": "Thornbury Surfacing Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11796": {
+        "city": "",
+        "country": "England",
+        "id": "11796",
+        "lat": 34.54426,
+        "lon": -91.96903,
+        "name": "Charles Century Community Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11039,6 +11139,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "2486": {
+        "city": "Noordwijkerhout",
+        "country": "Netherlands",
+        "id": "2486",
+        "lat": 52.26167,
+        "lon": 4.49306,
+        "name": "Sportpark Duinwetering",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "2489": {
         "city": "Genemuiden",
         "country": "Netherlands",
@@ -11056,6 +11166,16 @@
         "lat": 53.9885,
         "lon": -0.91547,
         "name": "Stamford Bridge",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2492": {
+        "city": "Rijssen",
+        "country": "Netherlands",
+        "id": "2492",
+        "lat": 52.30667,
+        "lon": 6.51806,
+        "name": "Sportpark De Koerbelt",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11206,6 +11326,16 @@
         "lat": 50.87398,
         "lon": 0.0088,
         "name": "The Dripping Pan",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2585": {
+        "city": "Lincolnshire",
+        "country": "England",
+        "id": "2585",
+        "lat": 42.19002,
+        "lon": -87.9084,
+        "name": "Kal Group Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -14909,6 +15039,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6236": {
+        "city": "Calama",
+        "country": "Chile",
+        "id": "6236",
+        "lat": -22.45667,
+        "lon": -68.92371,
+        "name": "Estadio Zorros del Desierto",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6246": {
         "city": "Manchester",
         "country": "England",
@@ -15139,6 +15279,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6342": {
+        "city": "Puerto Montt",
+        "country": "Chile",
+        "id": "6342",
+        "lat": -41.4693,
+        "lon": -72.94237,
+        "name": "Estadio Municipal de Chinquihue",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6344": {
         "city": "Kaspiysk",
         "country": "Russia",
@@ -15289,6 +15439,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6473": {
+        "city": "Maidstone",
+        "country": "England",
+        "id": "6473",
+        "lat": 51.26667,
+        "lon": 0.51667,
+        "name": "Gallagher Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6475": {
         "city": "Manchester",
         "country": "England",
@@ -15306,6 +15466,16 @@
         "lat": -33.86516,
         "lon": 151.18459,
         "name": "St. James Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6483": {
+        "city": "Braintree",
+        "country": "England",
+        "id": "6483",
+        "lat": 42.20384,
+        "lon": -71.00215,
+        "name": "Rare Breed Meat Co. Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -15979,6 +16149,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6870": {
+        "city": "Haarlem",
+        "country": "Netherlands",
+        "id": "6870",
+        "lat": 52.38084,
+        "lon": 4.63683,
+        "name": "Sportpark Spanjaardslaan",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6872": {
         "city": "Veen",
         "country": "Netherlands",
@@ -16006,6 +16186,16 @@
         "lat": 52.19417,
         "lon": 4.42222,
         "name": "Sportpark De Kooltuin",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6877": {
+        "city": "Hardenberg",
+        "country": "Netherlands",
+        "id": "6877",
+        "lat": 52.57583,
+        "lon": 6.61944,
+        "name": "Sportpark De Boshoek",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17066,6 +17256,16 @@
         "lat": 39.90861,
         "lon": 41.27694,
         "name": "Erzurum Kazim Karabekir",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7918": {
+        "city": "Bunschoten",
+        "country": "Netherlands",
+        "id": "7918",
+        "lat": 52.24304,
+        "lon": 5.37884,
+        "name": "Sportpark de Vinken",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -21729,6 +21929,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "farnham-town-fc": {
+        "city": "",
+        "country": "",
+        "id": "farnham-town-fc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "faversham-town": {
         "city": "",
         "country": "",
@@ -25455,6 +25665,16 @@
         "id": "workington",
         "lat": 54.6425,
         "lon": -3.54413,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "worksop-town": {
+        "city": "",
+        "country": "",
+        "id": "worksop-town",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
