@@ -6429,6 +6429,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11421": {
+        "city": "",
+        "country": "USA",
+        "id": "11421",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Matador Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11422": {
         "city": "",
         "country": "USA",
@@ -9139,6 +9149,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11734": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "id": "11734",
+        "lat": 52.37403,
+        "lon": 4.88969,
+        "name": "Sportpark Drieburg (JOS Watergraafsmeer)",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11735": {
         "city": "",
         "country": "Netherlands",
@@ -9439,6 +9459,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11768": {
+        "city": "",
+        "country": "Netherlands",
+        "id": "11768",
+        "lat": 43.37718,
+        "lon": -94.09385,
+        "name": "Sportpark Noord Veld 2",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11769": {
         "city": "Bunbury",
         "country": "Australia",
@@ -9446,6 +9476,26 @@
         "lat": -33.32711,
         "lon": 115.64137,
         "name": "Hay Park United Soccer Club Field 1",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11773": {
+        "city": "Stockholm",
+        "country": "Sweden",
+        "id": "11773",
+        "lat": 59.32938,
+        "lon": 18.06871,
+        "name": "Hammarby IP",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11777": {
+        "city": "Thessaloniki",
+        "country": "Greece",
+        "id": "11777",
+        "lat": 40.64072,
+        "lon": 22.93493,
+        "name": "Makedonikos Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11146,6 +11196,16 @@
         "lat": 52.26167,
         "lon": 4.49306,
         "name": "Sportpark Duinwetering",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2487": {
+        "city": "Bunschoten",
+        "country": "Netherlands",
+        "id": "2487",
+        "lat": 52.24304,
+        "lon": 5.37884,
+        "name": "Sportpark De Westmaat (IJsselmeervogels)",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -13459,6 +13519,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4821": {
+        "city": "North Sound",
+        "country": "Antigua and Barbuda",
+        "id": "4821",
+        "lat": 17.09563,
+        "lon": -61.78366,
+        "name": "Sir Vivian Richards Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4840": {
         "city": "Innsbruck",
         "country": "Austria",
@@ -13736,6 +13806,16 @@
         "lat": -30.03283,
         "lon": -51.23019,
         "name": "Arena do Gr\u00eamio",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5053": {
+        "city": "Providenciales",
+        "country": "Turks and Caicos Islands",
+        "id": "5053",
+        "lat": 21.78254,
+        "lon": -72.25206,
+        "name": "TCIFA National Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -14546,6 +14626,16 @@
         "lat": 35.6895,
         "lon": 139.69171,
         "name": "Tokyo Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5742": {
+        "city": "Curic\u00f3",
+        "country": "Chile",
+        "id": "5742",
+        "lat": 40.23935,
+        "lon": -5.99481,
+        "name": "La Granja",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16409,6 +16499,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7058": {
+        "city": "Usti nad Labem",
+        "country": "Czechia",
+        "id": "7058",
+        "lat": 50.6607,
+        "lon": 14.03227,
+        "name": "Usti nad Labem Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7063": {
         "city": "Irvine, California",
         "country": "USA",
@@ -16806,6 +16906,16 @@
         "lat": 52.22,
         "lon": 5.48611,
         "name": "De Ebbenhorst",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7461": {
+        "city": "",
+        "country": "Netherlands",
+        "id": "7461",
+        "lat": 36.29923,
+        "lon": -89.75119,
+        "name": "Sportpark Zwaluwenlaan",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17639,6 +17749,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8413": {
+        "city": "La Jolla",
+        "country": "USA",
+        "id": "8413",
+        "lat": 32.84727,
+        "lon": -117.2742,
+        "name": "Triton Soccer Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8414": {
         "city": "Tulsa",
         "country": "USA",
@@ -17746,6 +17866,16 @@
         "lat": 35.08449,
         "lon": -106.65114,
         "name": "UNM Soccer Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8458": {
+        "city": "Chisinau",
+        "country": "Moldova",
+        "id": "8458",
+        "lat": 47.00902,
+        "lon": 28.85938,
+        "name": "Baza Zimbru 2",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17936,6 +18066,16 @@
         "lat": 39.12711,
         "lon": -84.51439,
         "name": "TQL Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8675": {
+        "city": "Christiansted",
+        "country": "US Virgin Islands",
+        "id": "8675",
+        "lat": 17.74681,
+        "lon": -64.70557,
+        "name": "Bethlehem Soccer Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -24565,6 +24705,16 @@
         "id": "saumur",
         "lat": 47.25931,
         "lon": -0.07808,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "sc-wiedenbruck-2000": {
+        "city": "",
+        "country": "",
+        "id": "sc-wiedenbruck-2000",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
