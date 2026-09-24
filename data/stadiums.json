@@ -9659,6 +9659,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11808": {
+        "city": "Lausanne",
+        "country": "Switzerland",
+        "id": "11808",
+        "lat": 46.516,
+        "lon": 6.63282,
+        "name": "Stade Juan-Antonio Samaranch",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11809": {
+        "city": "Z\u00fcrich",
+        "country": "Switzerland",
+        "id": "11809",
+        "lat": 47.36667,
+        "lon": 8.55,
+        "name": "GC/Campus",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1198": {
         "city": "Tel-Aviv",
         "country": "Israel",
