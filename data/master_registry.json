@@ -34,7 +34,7 @@
         },
         "africa-cup-of-nations-qualifying": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243136.506499,
+            "last_updated": 1790244045.084673,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/76.png",
             "name": "Africa Cup of Nations Qualifying",
             "pill": "caf.nations_qual",
@@ -42,7 +42,7 @@
         },
         "arabian-gulf-cup": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243141.32522,
+            "last_updated": 1790244049.363088,
             "logo": "\ud83c\udfc6",
             "name": "Arabian Gulf Cup",
             "pill": "global.gulf_cup",
@@ -178,7 +178,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243130.663954,
+            "last_updated": 1790244039.635622,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -194,7 +194,7 @@
         },
         "colombian-primera-a": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243140.641605,
+            "last_updated": 1790244048.934589,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -210,7 +210,7 @@
         },
         "concacaf-nations-league": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243134.791016,
+            "last_updated": 1790244043.565362,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2406.png",
             "name": "Concacaf Nations League",
             "pill": "concacaf.nations.league",
@@ -250,7 +250,7 @@
         },
         "copa-chile": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243140.370823,
+            "last_updated": 1790244048.794064,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2331.png",
             "name": "Copa Chile",
             "pill": "chi.copa_chi",
@@ -546,7 +546,7 @@
         },
         "guatemalan-liga-nacional": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243140.813688,
+            "last_updated": 1790244049.080961,
             "logo": "https://flagcdn.com/w40/gt.png",
             "name": "Guatemalan Liga Nacional",
             "pill": "gua.1",
@@ -562,7 +562,7 @@
         },
         "international-friendly": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243119.488873,
+            "last_updated": 1790244025.1185,
             "logo": "\ud83c\udf0e",
             "name": "International Friendly",
             "pill": "fifa.friendly",
@@ -642,7 +642,7 @@
         },
         "mexican-liga-de-expansion-mx": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243135.124167,
+            "last_updated": 1790244043.87338,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
@@ -658,7 +658,7 @@
         },
         "ncaa-mens-soccer": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243141.507097,
+            "last_updated": 1790244049.506357,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
@@ -666,7 +666,7 @@
         },
         "ncaa-womens-soccer": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243190.199426,
+            "last_updated": 1790244089.6241,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -954,7 +954,7 @@
         },
         "uefa-european-under-21-championship-qualifying": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243140.015174,
+            "last_updated": 1790244048.519157,
             "logo": "\ud83c\udf0e",
             "name": "UEFA European Under-21 Championship Qualifying",
             "pill": "uefa.euro_u21_qual",
@@ -962,7 +962,7 @@
         },
         "uefa-nations-league": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790243118.529519,
+            "last_updated": 1790244024.331262,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Nations League",
             "pill": "uefa.nations",
@@ -19090,7 +19090,7 @@
             "slug": "sv-darmstadt-98"
         },
         "sv-elversberg": {
-            "league": "German Bundesliga",
+            "league": "Club Friendly",
             "name": "SV Elversberg",
             "slug": "sv-elversberg"
         },
@@ -19125,7 +19125,7 @@
             "slug": "sv-venray"
         },
         "sv-waldhof-mannheim": {
-            "league": "German Cup",
+            "league": "Club Friendly",
             "name": "SV Waldhof Mannheim",
             "slug": "sv-waldhof-mannheim"
         },

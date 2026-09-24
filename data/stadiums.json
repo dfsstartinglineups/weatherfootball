@@ -5939,16 +5939,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11331": {
-        "city": "",
-        "country": "USA",
-        "id": "11331",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "UNCW Soccer Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11332": {
         "city": "",
         "country": "USA",
@@ -25443,6 +25433,16 @@
         "city": "",
         "country": "",
         "id": "sv-lierop",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "sv-waldhof-mannheim": {
+        "city": "",
+        "country": "",
+        "id": "sv-waldhof-mannheim",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
