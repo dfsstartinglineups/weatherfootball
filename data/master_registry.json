@@ -33,8 +33,8 @@
             "slug": "afc-champions-league-two-qualifying"
         },
         "africa-cup-of-nations-qualifying": {
-            "last_crossover_date": "",
-            "last_updated": 1790233286.876613,
+            "last_crossover_date": "2026-09-24",
+            "last_updated": 1790234141.351875,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/76.png",
             "name": "Africa Cup of Nations Qualifying",
             "pill": "caf.nations_qual",
@@ -42,7 +42,7 @@
         },
         "arabian-gulf-cup": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790233292.266137,
+            "last_updated": 1790234145.609513,
             "logo": "\ud83c\udfc6",
             "name": "Arabian Gulf Cup",
             "pill": "global.gulf_cup",
@@ -178,7 +178,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790233247.536186,
+            "last_updated": 1790234136.084256,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -194,7 +194,7 @@
         },
         "colombian-primera-a": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790233291.369269,
+            "last_updated": 1790234145.192404,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -210,7 +210,7 @@
         },
         "concacaf-nations-league": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790233264.672625,
+            "last_updated": 1790234140.014181,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2406.png",
             "name": "Concacaf Nations League",
             "pill": "concacaf.nations.league",
@@ -250,7 +250,7 @@
         },
         "copa-chile": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790233291.002158,
+            "last_updated": 1790234144.987444,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2331.png",
             "name": "Copa Chile",
             "pill": "chi.copa_chi",
@@ -546,7 +546,7 @@
         },
         "guatemalan-liga-nacional": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790233291.659183,
+            "last_updated": 1790234145.32617,
             "logo": "https://flagcdn.com/w40/gt.png",
             "name": "Guatemalan Liga Nacional",
             "pill": "gua.1",
@@ -562,7 +562,7 @@
         },
         "international-friendly": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790233230.787326,
+            "last_updated": 1790234119.329858,
             "logo": "\ud83c\udf0e",
             "name": "International Friendly",
             "pill": "fifa.friendly",
@@ -642,7 +642,7 @@
         },
         "mexican-liga-de-expansion-mx": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790233265.223744,
+            "last_updated": 1790234140.287525,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
@@ -658,7 +658,7 @@
         },
         "ncaa-mens-soccer": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790233292.524106,
+            "last_updated": 1790234145.772502,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
@@ -666,7 +666,7 @@
         },
         "ncaa-womens-soccer": {
             "last_crossover_date": "2026-09-24",
-            "last_updated": 1790233373.849662,
+            "last_updated": 1790234191.211216,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -953,16 +953,16 @@
             "slug": "uefa-europa-league-qualifying"
         },
         "uefa-european-under-21-championship-qualifying": {
-            "last_crossover_date": "",
-            "last_updated": 1790233290.473968,
+            "last_crossover_date": "2026-09-24",
+            "last_updated": 1790234144.714245,
             "logo": "\ud83c\udf0e",
             "name": "UEFA European Under-21 Championship Qualifying",
             "pill": "uefa.euro_u21_qual",
             "slug": "uefa-european-under-21-championship-qualifying"
         },
         "uefa-nations-league": {
-            "last_crossover_date": "",
-            "last_updated": 1790233229.046415,
+            "last_crossover_date": "2026-09-24",
+            "last_updated": 1790234118.577801,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Nations League",
             "pill": "uefa.nations",
