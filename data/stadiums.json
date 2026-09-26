@@ -15719,6 +15719,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6360": {
+        "city": "Yerevan",
+        "country": "Armenia",
+        "id": "6360",
+        "lat": 40.17765,
+        "lon": 44.5126,
+        "name": "FFA Academy Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6370": {
         "city": "Santa Tecla",
         "country": "El Salvador",
@@ -26453,6 +26463,16 @@
         "city": "",
         "country": "",
         "id": "widzew-lodz",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "wieczysta-krakow": {
+        "city": "",
+        "country": "",
+        "id": "wieczysta-krakow",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
