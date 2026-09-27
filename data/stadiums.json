@@ -9719,6 +9719,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11810": {
+        "city": "Matavera",
+        "country": "Cook Islands",
+        "id": "11810",
+        "lat": -21.22444,
+        "lon": -159.73334,
+        "name": "Cook Islands Football Association Academy",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11812": {
         "city": "Melbourne",
         "country": "Australia",
@@ -9726,6 +9736,16 @@
         "lat": -37.814,
         "lon": 144.96332,
         "name": "Jack Edwards Reserve",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11813": {
+        "city": "Belgrade",
+        "country": "Serbia",
+        "id": "11813",
+        "lat": 44.80401,
+        "lon": 20.46513,
+        "name": "Sportski Centar Partizan-Teleoptik",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9739,6 +9759,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11815": {
+        "city": "Formello",
+        "country": "Italy",
+        "id": "11815",
+        "lat": 42.06246,
+        "lon": 12.39435,
+        "name": "Stadio Mirko Fersini",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11816": {
+        "city": "Larnaca",
+        "country": "Cyprus",
+        "id": "11816",
+        "lat": 34.9221,
+        "lon": 33.62794,
+        "name": "Athlitiko Kentro Akadimion AEK Larnakas",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11817": {
         "city": "Rijeka",
         "country": "Croatia",
@@ -9746,6 +9786,26 @@
         "lat": 45.32673,
         "lon": 14.44241,
         "name": "Kantrida",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11818": {
+        "city": "Moscow",
+        "country": "Russia",
+        "id": "11818",
+        "lat": 55.75204,
+        "lon": 37.61781,
+        "name": "Stadion Oktyabr",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11819": {
+        "city": "Shanghai",
+        "country": "China PR",
+        "id": "11819",
+        "lat": 31.22222,
+        "lon": 121.45806,
+        "name": "Jinshan Sports Center Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -10576,6 +10636,16 @@
         "lat": 40.49115,
         "lon": -90.03178,
         "name": "KDM Group East End Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1793": {
+        "city": "Wien",
+        "country": "Austria",
+        "id": "1793",
+        "lat": 48.50847,
+        "lon": 14.72331,
+        "name": "Ernst-Happel-Stadion",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -13739,6 +13809,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4799": {
+        "city": "Port of Spain",
+        "country": "Trinidad and Tobago",
+        "id": "4799",
+        "lat": 10.66668,
+        "lon": -61.51889,
+        "name": "Hasely Crawford Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "48": {
         "city": "Nijmegen",
         "country": "Netherlands",
@@ -14486,6 +14566,16 @@
         "lat": -8.39936,
         "lon": -74.56901,
         "name": "Estadio Alberto Gallardo",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5426": {
+        "city": "Antofagasta",
+        "country": "Chile",
+        "id": "5426",
+        "lat": -23.65094,
+        "lon": -70.39752,
+        "name": "Estadio Bicentenario Calvo y Bascu\u00f1\u00e1n",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -15416,6 +15506,16 @@
         "lat": -34.61315,
         "lon": -58.37723,
         "name": "Estadio Armenia",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6191": {
+        "city": "Willemstad",
+        "country": "Cura\u00e7ao",
+        "id": "6191",
+        "lat": 12.12246,
+        "lon": -68.88641,
+        "name": "Stadion Ergilio Hato",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17279,16 +17379,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "7474": {
-        "city": "Toyota Stadium",
-        "country": "USA",
-        "id": "7474",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Toyota Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "7480": {
         "city": "Glasgow",
         "country": "Scotland",
@@ -17636,6 +17726,16 @@
         "lat": 35.89968,
         "lon": 14.5148,
         "name": "MFA Centenary Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7762": {
+        "city": "Santa Cruz",
+        "country": "Chile",
+        "id": "7762",
+        "lat": 28.46824,
+        "lon": -16.25462,
+        "name": "Municipal Joaqu\u00edn Mu\u00f1oz Garc\u00eda",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19119,6 +19219,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9212": {
+        "city": "Camacha",
+        "country": "Portugal",
+        "id": "9212",
+        "lat": 32.67919,
+        "lon": -16.84462,
+        "name": "Complexo Desportivo da Camacha",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9214": {
         "city": "Santarem",
         "country": "Portugal",
@@ -20226,6 +20336,16 @@
         "lat": 36.06488,
         "lon": 120.38042,
         "name": "Qingdao West Coast University City Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9909": {
+        "city": "Bagno a Ripoli",
+        "country": "Italy",
+        "id": "9909",
+        "lat": 43.75115,
+        "lon": 11.32252,
+        "name": "Stadio Curva Fiesole - Viola Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -22349,6 +22469,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "drita-gjilan": {
+        "city": "",
+        "country": "",
+        "id": "drita-gjilan",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "droitwich-spa": {
         "city": "",
         "country": "",
@@ -24019,6 +24149,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "ludogorets-razgrad": {
+        "city": "",
+        "country": "",
+        "id": "ludogorets-razgrad",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "luis-angel-firpo": {
         "city": "",
         "country": "",
@@ -24913,6 +25053,16 @@
         "city": "",
         "country": "",
         "id": "racing-club-portuense",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "radnik-bijeljina": {
+        "city": "",
+        "country": "",
+        "id": "radnik-bijeljina",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
