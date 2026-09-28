@@ -2869,6 +2869,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10746": {
+        "city": "Bursa",
+        "country": "T\u00fcrkiye",
+        "id": "10746",
+        "lat": 40.19559,
+        "lon": 29.06013,
+        "name": "Y\u00fcz\u00fcnc\u00fc Yil Atat\u00fcrk Stadyumu",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10747": {
         "city": "Geneva",
         "country": "Switzerland",
@@ -4666,6 +4676,16 @@
         "lat": 50.79646,
         "lon": 19.12409,
         "name": "Miejski Stadion Pilkarski Rak\u00f3w",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11154": {
+        "city": "Provo",
+        "country": "USA",
+        "id": "11154",
+        "lat": 40.23384,
+        "lon": -111.65853,
+        "name": "South Field (UT)",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7399,6 +7419,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "1153": {
+        "city": "Brussels",
+        "country": "Belgium",
+        "id": "1153",
+        "lat": 50.85045,
+        "lon": 4.34878,
+        "name": "King Baudouin Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11530": {
         "city": "",
         "country": "England",
@@ -9899,6 +9929,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "1277": {
+        "city": "Belfast",
+        "country": "Northern Ireland",
+        "id": "1277",
+        "lat": -36.73966,
+        "lon": 174.7423,
+        "name": "Windsor Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1279": {
         "city": "Seoul",
         "country": "South Korea",
@@ -11929,6 +11969,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "2807": {
+        "city": "Vejle",
+        "country": "Denmark",
+        "id": "2807",
+        "lat": 55.70927,
+        "lon": 9.5357,
+        "name": "Vejle Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "2835": {
         "city": "Reims",
         "country": "France",
@@ -13676,6 +13726,16 @@
         "lat": 40.4165,
         "lon": -3.70256,
         "name": "Estadio de Vallecas",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4657": {
+        "city": "Bucuresti",
+        "country": "Romania",
+        "id": "4657",
+        "lat": 44.4913,
+        "lon": 26.03459,
+        "name": "National Arena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -18056,6 +18116,16 @@
         "lat": -33.13044,
         "lon": -64.35272,
         "name": "Ciudad de R\u00edo Cuarto Antonio Candini",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8204": {
+        "city": "Franklin Essed Stadion",
+        "country": "Suriname",
+        "id": "8204",
+        "lat": 4.0,
+        "lon": -56.0,
+        "name": "Franklin Essed Stadion",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -24619,6 +24689,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "nk-maribor": {
+        "city": "",
+        "country": "",
+        "id": "nk-maribor",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "noordwijk": {
         "city": "",
         "country": "",
@@ -24645,6 +24725,16 @@
         "id": "north-leigh",
         "lat": 51.81432,
         "lon": -1.44144,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "north-macedonia-u21": {
+        "city": "",
+        "country": "",
+        "id": "north-macedonia-u21",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -24693,6 +24783,16 @@
         "city": "",
         "country": "",
         "id": "oakleigh-cannons-fc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "ofk-petrovac": {
+        "city": "",
+        "country": "",
+        "id": "ofk-petrovac",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",

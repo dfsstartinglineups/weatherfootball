@@ -33,8 +33,8 @@
             "slug": "afc-champions-league-two-qualifying"
         },
         "africa-cup-of-nations-qualifying": {
-            "last_crossover_date": "2026-09-26",
-            "last_updated": 1790491544.9521,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578854.07138,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/76.png",
             "name": "Africa Cup of Nations Qualifying",
             "pill": "caf.nations_qual",
@@ -73,8 +73,8 @@
             "slug": "argentine-nacional-b"
         },
         "argentine-primera-b": {
-            "last_crossover_date": "2026-09-27",
-            "last_updated": 1790577962.621186,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578869.050982,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2308.png",
             "name": "Argentine Primera B",
             "pill": "arg.3",
@@ -121,8 +121,8 @@
             "slug": "brazilian-serie-a"
         },
         "brazilian-serie-b": {
-            "last_crossover_date": "2026-09-27",
-            "last_updated": 1790577963.079641,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578869.215543,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
@@ -177,8 +177,8 @@
             "slug": "chinese-super-league"
         },
         "club-friendly": {
-            "last_crossover_date": "2026-09-27",
-            "last_updated": 1790577955.008658,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578857.434311,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -209,8 +209,8 @@
             "slug": "concacaf-central-american-cup"
         },
         "concacaf-nations-league": {
-            "last_crossover_date": "2026-09-27",
-            "last_updated": 1790577941.437562,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578853.404669,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2406.png",
             "name": "Concacaf Nations League",
             "pill": "concacaf.nations.league",
@@ -561,8 +561,8 @@
             "slug": "honduran-liga-nacional"
         },
         "international-friendly": {
-            "last_crossover_date": "2026-09-27",
-            "last_updated": 1790577924.261237,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578844.357611,
             "logo": "\ud83c\udf0e",
             "name": "International Friendly",
             "pill": "fifa.friendly",
@@ -601,8 +601,8 @@
             "slug": "leagues-cup"
         },
         "liga-auf-uruguaya": {
-            "last_crossover_date": "2026-09-27",
-            "last_updated": 1790577964.846573,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578869.348145,
             "logo": "https://flagcdn.com/w40/uy.png",
             "name": "Liga AUF Uruguaya",
             "pill": "uru.1",
@@ -657,16 +657,16 @@
             "slug": "mls"
         },
         "ncaa-mens-soccer": {
-            "last_crossover_date": "2026-09-25",
-            "last_updated": 1790405138.308329,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578870.188018,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
             "slug": "ncaa-mens-soccer"
         },
         "ncaa-womens-soccer": {
-            "last_crossover_date": "2026-09-25",
-            "last_updated": 1790405145.446141,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578870.687067,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -697,8 +697,8 @@
             "slug": "nwsl"
         },
         "paraguayan-primera-division": {
-            "last_crossover_date": "2026-09-25",
-            "last_updated": 1790405131.936321,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578869.615107,
             "logo": "https://flagcdn.com/w40/py.png",
             "name": "Paraguayan Primera Divisi\u00f3n",
             "pill": "par.1",
@@ -841,8 +841,8 @@
             "slug": "spanish-laliga"
         },
         "spanish-laliga-2": {
-            "last_crossover_date": "2026-09-27",
-            "last_updated": 1790577959.336212,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578860.671293,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
             "name": "Spanish LALIGA 2",
             "pill": "esp.2",
@@ -953,16 +953,16 @@
             "slug": "uefa-europa-league-qualifying"
         },
         "uefa-european-under-21-championship-qualifying": {
-            "last_crossover_date": "2026-09-25",
-            "last_updated": 1790405129.795035,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578860.834859,
             "logo": "\ud83c\udf0e",
             "name": "UEFA European Under-21 Championship Qualifying",
             "pill": "uefa.euro_u21_qual",
             "slug": "uefa-european-under-21-championship-qualifying"
         },
         "uefa-nations-league": {
-            "last_crossover_date": "2026-09-27",
-            "last_updated": 1790577922.777079,
+            "last_crossover_date": "2026-09-28",
+            "last_updated": 1790578838.681959,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Nations League",
             "pill": "uefa.nations",
@@ -999,6 +999,14 @@
             "name": "UEFA Women's Europa Cup",
             "pill": "uefa.w.europa",
             "slug": "uefa-womens-europa-cup"
+        },
+        "under-21-international-friendly": {
+            "last_crossover_date": "",
+            "last_updated": 1790578865.8109,
+            "logo": "\ud83c\udf0e",
+            "name": "Under-21 International Friendly",
+            "pill": "fifa.friendly_u21",
+            "slug": "under-21-international-friendly"
         },
         "us-open-cup": {
             "last_crossover_date": "2026-09-16",
@@ -6629,6 +6637,11 @@
             "name": "Denmark",
             "slug": "denmark"
         },
+        "denmark-u21": {
+            "league": "UEFA European Under-21 Championship Qualifying",
+            "name": "Denmark U21",
+            "slug": "denmark-u21"
+        },
         "denver": {
             "league": "NCAA Men's Soccer",
             "name": "Denver",
@@ -10238,6 +10251,11 @@
             "league": "UEFA Women's Europa Cup",
             "name": "HJK Helsinki Women",
             "slug": "hjk-helsinki-women"
+        },
+        "hnk-gorica": {
+            "league": "Club Friendly",
+            "name": "HNK Gorica",
+            "slug": "hnk-gorica"
         },
         "hnk-segesta-sisak": {
             "league": "Club Friendly",
@@ -14429,6 +14447,11 @@
             "name": "NK Karlovac 1919",
             "slug": "nk-karlovac-1919"
         },
+        "nk-maribor": {
+            "league": "Club Friendly",
+            "name": "NK Maribor",
+            "slug": "nk-maribor"
+        },
         "nkana": {
             "league": "Club Friendly",
             "name": "Nkana",
@@ -14564,6 +14587,11 @@
             "name": "North Macedonia",
             "slug": "north-macedonia"
         },
+        "north-macedonia-u21": {
+            "league": "Under-21 International Friendly",
+            "name": "North Macedonia U21",
+            "slug": "north-macedonia-u21"
+        },
         "north-shields": {
             "league": "English FA Cup Qualifying",
             "name": "North Shields",
@@ -14603,6 +14631,11 @@
             "league": "NCAA Men's Soccer",
             "name": "Northeastern",
             "slug": "northeastern"
+        },
+        "northeastern-huskies": {
+            "league": "NCAA Men's Soccer",
+            "name": "Northeastern Huskies",
+            "slug": "northeastern-huskies"
         },
         "northeastern-huskies-women": {
             "league": "NCAA Women's Soccer",
@@ -14883,6 +14916,16 @@
             "league": "UEFA Europa League",
             "name": "OFI Crete",
             "slug": "ofi-crete"
+        },
+        "ofk-mladost-dg": {
+            "league": "Club Friendly",
+            "name": "OFK MLADOST DG",
+            "slug": "ofk-mladost-dg"
+        },
+        "ofk-petrovac": {
+            "league": "Club Friendly",
+            "name": "OFK Petrovac",
+            "slug": "ofk-petrovac"
         },
         "oh-leuven": {
             "league": "Belgian Pro League",
@@ -17268,6 +17311,11 @@
             "league": "International Friendly",
             "name": "Russia",
             "slug": "russia"
+        },
+        "russia-u21": {
+            "league": "Under-21 International Friendly",
+            "name": "Russia U21",
+            "slug": "russia-u21"
         },
         "rusthall": {
             "league": "English FA Cup Qualifying",
