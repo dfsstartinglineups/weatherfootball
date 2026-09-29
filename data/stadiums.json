@@ -1829,6 +1829,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10613": {
+        "city": "Iconi",
+        "country": "Comoros Islands",
+        "id": "10613",
+        "lat": 38.10586,
+        "lon": -93.54465,
+        "name": "Stade Omnisports de Malouzini",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10625": {
         "city": "Fortaleza",
         "country": "Brazil",
@@ -3979,6 +3989,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10936": {
+        "city": "Abidjan",
+        "country": "Ivory Coast",
+        "id": "10936",
+        "lat": 5.35444,
+        "lon": -4.00167,
+        "name": "Stade Alassane Quattara",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10937": {
         "city": "Johannesburg",
         "country": "South Africa",
@@ -3996,6 +4016,16 @@
         "lat": -20.2215,
         "lon": 57.53431,
         "name": "Cote d'Or National Sports Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10939": {
+        "city": "Mekn\u00e8s",
+        "country": "Morocco",
+        "id": "10939",
+        "lat": 33.89352,
+        "lon": -5.54727,
+        "name": "Stade d'honneur de Mekn\u00e8s",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4589,6 +4619,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11104": {
+        "city": "Yopal",
+        "country": "Colombia",
+        "id": "11104",
+        "lat": 5.33573,
+        "lon": -72.3939,
+        "name": "Estadio Santiago de Las Atalayas",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11106": {
         "city": "Corpus Christi",
         "country": "USA",
@@ -4606,6 +4646,16 @@
         "lat": -23.31028,
         "lon": -51.16278,
         "name": "Estadio VGD",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11118": {
+        "city": "Ptuj",
+        "country": "Slovenia",
+        "id": "11118",
+        "lat": 46.42005,
+        "lon": 15.87018,
+        "name": "Ptuj City Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9629,6 +9679,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11774": {
+        "city": "Berlin",
+        "country": "Germany",
+        "id": "11774",
+        "lat": 52.52437,
+        "lon": 13.41053,
+        "name": "Ernst-Reuter-Sportfeld",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11776": {
         "city": "Weinstadt",
         "country": "Germany",
@@ -10666,6 +10726,16 @@
         "lat": 57.50517,
         "lon": -1.78435,
         "name": "Balmoor Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "178": {
+        "city": "Glasgow",
+        "country": "Scotland",
+        "id": "178",
+        "lat": 50.79479,
+        "lon": 0.27595,
+        "name": "Hampden Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -13649,6 +13719,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4620": {
+        "city": "La Union",
+        "country": "El Salvador",
+        "id": "4620",
+        "lat": 13.33915,
+        "lon": -87.84328,
+        "name": "Estadio Marcelino Imbers",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4622": {
         "city": "San Salvador",
         "country": "El Salvador",
@@ -14276,6 +14356,16 @@
         "lat": 64.13548,
         "lon": -21.89541,
         "name": "Laugardalsv\u00f6llur",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5092": {
+        "city": "Helsinki",
+        "country": "Finland",
+        "id": "5092",
+        "lat": 60.16952,
+        "lon": 24.93545,
+        "name": "Helsinki Olympic Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16829,6 +16919,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6910": {
+        "city": "Praia",
+        "country": "Cape Verde Islands",
+        "id": "6910",
+        "lat": 14.93152,
+        "lon": -23.51254,
+        "name": "National Stadium Cape Verde",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6915": {
         "city": "Bonnyrigg",
         "country": "Scotland",
@@ -16896,6 +16996,16 @@
         "lat": 28.53834,
         "lon": -81.37924,
         "name": "Inter&Co Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6976": {
+        "city": "Cork",
+        "country": "Republic of Ireland",
+        "id": "6976",
+        "lat": 51.87914,
+        "lon": -8.46518,
+        "name": "Turners Cross",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17236,6 +17346,16 @@
         "lat": 52.09083,
         "lon": 5.12222,
         "name": "Sportcomplex Zoudenbalch",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7377": {
+        "city": "Brazzaville",
+        "country": "Congo",
+        "id": "7377",
+        "lat": -4.26613,
+        "lon": 15.28318,
+        "name": "Stade Alphonse Massamba D\u00e9bat",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -18186,6 +18306,16 @@
         "lat": 6.30054,
         "lon": -10.7969,
         "name": "Samuel Kanyon Doe Sports Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8245": {
+        "city": "Bahir Dar",
+        "country": "Ethiopia",
+        "id": "8245",
+        "lat": 11.59364,
+        "lon": 37.39077,
+        "name": "Bahir Dar Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -23755,6 +23885,16 @@
         "id": "jablonec",
         "lat": 50.72431,
         "lon": 15.17108,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "jagiellonia-bialystok": {
+        "city": "",
+        "country": "",
+        "id": "jagiellonia-bialystok",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
