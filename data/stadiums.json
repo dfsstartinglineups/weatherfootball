@@ -4299,6 +4299,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10996": {
+        "city": "Alcochete",
+        "country": "Portugal",
+        "id": "10996",
+        "lat": 38.75534,
+        "lon": -8.96086,
+        "name": "CGD Stadium Aur\u00e9lio Pereira",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10997": {
         "city": "Trondheim",
         "country": "Norway",
@@ -5859,6 +5869,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11305": {
+        "city": "",
+        "country": "USA",
+        "id": "11305",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Luger Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11306": {
         "city": "Las Cruces, New Mexico",
         "country": "USA",
@@ -6589,6 +6609,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11417": {
+        "city": "",
+        "country": "USA",
+        "id": "11417",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Aggie Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11418": {
         "city": "Bakersfield",
         "country": "USA",
@@ -6606,6 +6636,16 @@
         "lat": 40.82649,
         "lon": -74.10681,
         "name": "Greene-Harbison Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11421": {
+        "city": "",
+        "country": "USA",
+        "id": "11421",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Matador Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9749,6 +9789,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11793": {
+        "city": "Istanbul",
+        "country": "T\u00fcrkiye",
+        "id": "11793",
+        "lat": 41.01384,
+        "lon": 28.94966,
+        "name": "Yusuf Ziya \u00d6ni\u015f Stadyumu",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11794": {
         "city": "",
         "country": "England",
@@ -9896,6 +9946,46 @@
         "lat": 31.22222,
         "lon": 121.45806,
         "name": "Jinshan Sports Center Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11829": {
+        "city": "Graz",
+        "country": "Austria",
+        "id": "11829",
+        "lat": 47.06733,
+        "lon": 15.44197,
+        "name": "Sportzentrum Kalsdorf",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11843": {
+        "city": "Coslada",
+        "country": "Spain",
+        "id": "11843",
+        "lat": 40.42378,
+        "lon": -3.56129,
+        "name": "Estadio El Olivo",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11844": {
+        "city": "Addis Ababa",
+        "country": "Ethiopia",
+        "id": "11844",
+        "lat": 9.02497,
+        "lon": 38.74689,
+        "name": "Abebe Bikila Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11851": {
+        "city": "",
+        "country": "Switzerland",
+        "id": "11851",
+        "lat": 47.5356,
+        "lon": 8.73209,
+        "name": "Sportanlage Rolli",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16709,6 +16799,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6788": {
+        "city": "Ovidiu",
+        "country": "Romania",
+        "id": "6788",
+        "lat": 44.258,
+        "lon": 28.56083,
+        "name": "Stadionul Central Academia Gheorghe Hagi",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6791": {
         "city": "Larnaca",
         "country": "Cyprus",
@@ -17949,6 +18049,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7817": {
+        "city": "Targoviste",
+        "country": "Romania",
+        "id": "7817",
+        "lat": 44.92543,
+        "lon": 25.4567,
+        "name": "Stadionul Eugen Popescu",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7822": {
         "city": "Martigues",
         "country": "France",
@@ -18729,6 +18839,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8597": {
+        "city": "Bu\u00f1ol",
+        "country": "Spain",
+        "id": "8597",
+        "lat": 39.41667,
+        "lon": -0.78333,
+        "name": "Ciudad Deportiva de Bu\u00f1ol - Campo 1",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8600": {
         "city": "Szombathely",
         "country": "Hungary",
@@ -19206,6 +19326,16 @@
         "lat": 53.38297,
         "lon": -1.4659,
         "name": "Coach and Horses Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8951": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "id": "8951",
+        "lat": 41.38879,
+        "lon": 2.15899,
+        "name": "Camp Municipal de Futbol Nou Sardenya",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19816,6 +19946,16 @@
         "lat": 21.42664,
         "lon": 39.82563,
         "name": "King Abdulaziz Sports City",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9505": {
+        "city": "Rome",
+        "country": "Italy",
+        "id": "9505",
+        "lat": 41.89193,
+        "lon": 12.51133,
+        "name": "Stadio Tre Fontane",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -22169,6 +22309,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "chemnitzer-gc": {
+        "city": "",
+        "country": "",
+        "id": "chemnitzer-gc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "cherno-more": {
         "city": "",
         "country": "",
@@ -22963,6 +23113,16 @@
         "city": "",
         "country": "",
         "id": "faversham-town",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "fc-arges": {
+        "city": "",
+        "country": "",
+        "id": "fc-arges",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -24555,6 +24715,16 @@
         "id": "marumo-gallants",
         "lat": 0.0,
         "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "mauritius": {
+        "city": "",
+        "country": "",
+        "id": "mauritius",
+        "lat": -20.3,
+        "lon": 57.58333,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
