@@ -34,7 +34,7 @@
         },
         "africa-cup-of-nations-qualifying": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859624.444159,
+            "last_updated": 1790860532.292754,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/76.png",
             "name": "Africa Cup of Nations Qualifying",
             "pill": "caf.nations_qual",
@@ -122,7 +122,7 @@
         },
         "brazilian-serie-b": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859640.713823,
+            "last_updated": 1790860548.663076,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
@@ -178,7 +178,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859639.373576,
+            "last_updated": 1790860547.407412,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -194,7 +194,7 @@
         },
         "colombian-primera-a": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859640.865736,
+            "last_updated": 1790860548.809849,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -210,7 +210,7 @@
         },
         "concacaf-nations-league": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859624.192345,
+            "last_updated": 1790860532.143681,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2406.png",
             "name": "Concacaf Nations League",
             "pill": "concacaf.nations.league",
@@ -234,7 +234,7 @@
         },
         "copa-argentina": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859640.394327,
+            "last_updated": 1790860548.391059,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2320.png",
             "name": "Copa Argentina",
             "pill": "arg.copa",
@@ -242,7 +242,7 @@
         },
         "copa-bolivia": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859641.139394,
+            "last_updated": 1790860549.154347,
             "logo": "",
             "name": "Copa Bolivia",
             "pill": "bol.copa",
@@ -562,7 +562,7 @@
         },
         "international-friendly": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859622.306409,
+            "last_updated": 1790860529.955416,
             "logo": "\ud83c\udf0e",
             "name": "International Friendly",
             "pill": "fifa.friendly",
@@ -650,7 +650,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859622.44493,
+            "last_updated": 1790860530.099185,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -658,7 +658,7 @@
         },
         "ncaa-mens-soccer": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859642.591024,
+            "last_updated": 1790860550.670601,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
@@ -666,7 +666,7 @@
         },
         "ncaa-womens-soccer": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859693.293792,
+            "last_updated": 1790860601.760914,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -746,7 +746,7 @@
         },
         "salvadoran-primera-division": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859641.440171,
+            "last_updated": 1790860549.444655,
             "logo": "https://flagcdn.com/w40/sv.png",
             "name": "Salvadoran Primera Division",
             "pill": "slv.1",
@@ -954,7 +954,7 @@
         },
         "uefa-european-under-21-championship-qualifying": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859640.257873,
+            "last_updated": 1790860548.240013,
             "logo": "\ud83c\udf0e",
             "name": "UEFA European Under-21 Championship Qualifying",
             "pill": "uefa.euro_u21_qual",
@@ -962,7 +962,7 @@
         },
         "uefa-nations-league": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859622.001622,
+            "last_updated": 1790860529.685541,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Nations League",
             "pill": "uefa.nations",
@@ -978,7 +978,7 @@
         },
         "uefa-womens-champions-league": {
             "last_crossover_date": "2026-10-01",
-            "last_updated": 1790859623.036213,
+            "last_updated": 1790860530.792576,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Women's Champions League",
             "pill": "uefa.wchampions",
@@ -6336,6 +6336,11 @@
             "league": "Club Friendly",
             "name": "CSM Deva",
             "slug": "csm-deva"
+        },
+        "csm-olimpia-satu-mare": {
+            "league": "Club Friendly",
+            "name": "CSM OLIMPIA SATU MARE",
+            "slug": "csm-olimpia-satu-mare"
         },
         "csu-craiova": {
             "league": "UEFA Europa League Qualifying",
