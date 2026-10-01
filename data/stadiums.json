@@ -6239,16 +6239,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11342": {
-        "city": "",
-        "country": "USA",
-        "id": "11342",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Catamount Athletic Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11343": {
         "city": "",
         "country": "USA",
@@ -21313,6 +21303,16 @@
         "city": "",
         "country": "",
         "id": "anorthosis",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "ararat-yerevan": {
+        "city": "",
+        "country": "",
+        "id": "ararat-yerevan",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
