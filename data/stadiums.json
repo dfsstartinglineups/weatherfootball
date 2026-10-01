@@ -10089,6 +10089,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11835": {
+        "city": "Stuttgart",
+        "country": "Germany",
+        "id": "11835",
+        "lat": 48.78232,
+        "lon": 9.17702,
+        "name": "VfB-Clubzentrum Rasenplatz 1",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11843": {
         "city": "Coslada",
         "country": "Spain",
@@ -10126,6 +10136,16 @@
         "lat": 42.34106,
         "lon": -3.70184,
         "name": "Ciudad Deportiva de Casta\u00f1ares Campo 3",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11859": {
+        "city": "Wolfsburg",
+        "country": "Germany",
+        "id": "11859",
+        "lat": 52.42452,
+        "lon": 10.7815,
+        "name": "Trainingsgel\u00e4nde am VfL-Center",
         "roof": "Open",
         "surface": "Grass"
     },
