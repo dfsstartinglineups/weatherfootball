@@ -33,8 +33,8 @@
             "slug": "afc-champions-league-two-qualifying"
         },
         "africa-cup-of-nations-qualifying": {
-            "last_crossover_date": "2026-09-30",
-            "last_updated": 1790837131.550833,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838046.321093,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/76.png",
             "name": "Africa Cup of Nations Qualifying",
             "pill": "caf.nations_qual",
@@ -121,8 +121,8 @@
             "slug": "brazilian-serie-a"
         },
         "brazilian-serie-b": {
-            "last_crossover_date": "2026-09-29",
-            "last_updated": 1790750734.472142,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838093.053159,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
@@ -177,8 +177,8 @@
             "slug": "chinese-super-league"
         },
         "club-friendly": {
-            "last_crossover_date": "2026-09-30",
-            "last_updated": 1790837141.587853,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838076.217619,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -193,8 +193,8 @@
             "slug": "col-1"
         },
         "colombian-primera-a": {
-            "last_crossover_date": "2026-09-30",
-            "last_updated": 1790837143.372209,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838093.318314,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -209,8 +209,8 @@
             "slug": "concacaf-central-american-cup"
         },
         "concacaf-nations-league": {
-            "last_crossover_date": "2026-09-29",
-            "last_updated": 1790750723.157571,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838046.03395,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2406.png",
             "name": "Concacaf Nations League",
             "pill": "concacaf.nations.league",
@@ -233,16 +233,16 @@
             "slug": "conmebol-sudamericana"
         },
         "copa-argentina": {
-            "last_crossover_date": "2026-09-27",
-            "last_updated": 1790577960.123891,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838092.488689,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2320.png",
             "name": "Copa Argentina",
             "pill": "arg.copa",
             "slug": "copa-argentina"
         },
         "copa-bolivia": {
-            "last_crossover_date": "2026-09-30",
-            "last_updated": 1790837143.902922,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838093.844836,
             "logo": "",
             "name": "Copa Bolivia",
             "pill": "bol.copa",
@@ -561,8 +561,8 @@
             "slug": "honduran-liga-nacional"
         },
         "international-friendly": {
-            "last_crossover_date": "2026-09-30",
-            "last_updated": 1790837124.878832,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838032.570651,
             "logo": "\ud83c\udf0e",
             "name": "International Friendly",
             "pill": "fifa.friendly",
@@ -649,24 +649,24 @@
             "slug": "mexican-liga-de-expansion-mx"
         },
         "mls": {
-            "last_crossover_date": "2026-09-30",
-            "last_updated": 1790837125.020681,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838032.837363,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
             "slug": "mls"
         },
         "ncaa-mens-soccer": {
-            "last_crossover_date": "2026-09-30",
-            "last_updated": 1790837153.801378,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838106.13993,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
             "slug": "ncaa-mens-soccer"
         },
         "ncaa-womens-soccer": {
-            "last_crossover_date": "2026-09-28",
-            "last_updated": 1790664345.168156,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838176.321019,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -745,8 +745,8 @@
             "slug": "russian-premier-league"
         },
         "salvadoran-primera-division": {
-            "last_crossover_date": "2026-09-30",
-            "last_updated": 1790837144.610266,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838094.370659,
             "logo": "https://flagcdn.com/w40/sv.png",
             "name": "Salvadoran Primera Division",
             "pill": "slv.1",
@@ -953,16 +953,16 @@
             "slug": "uefa-europa-league-qualifying"
         },
         "uefa-european-under-21-championship-qualifying": {
-            "last_crossover_date": "2026-09-30",
-            "last_updated": 1790837142.703898,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838087.412092,
             "logo": "\ud83c\udf0e",
             "name": "UEFA European Under-21 Championship Qualifying",
             "pill": "uefa.euro_u21_qual",
             "slug": "uefa-european-under-21-championship-qualifying"
         },
         "uefa-nations-league": {
-            "last_crossover_date": "2026-09-29",
-            "last_updated": 1790750721.479516,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838032.033967,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Nations League",
             "pill": "uefa.nations",
@@ -977,8 +977,8 @@
             "slug": "uefa-super-cup"
         },
         "uefa-womens-champions-league": {
-            "last_crossover_date": "2026-09-30",
-            "last_updated": 1790837125.818125,
+            "last_crossover_date": "2026-10-01",
+            "last_updated": 1790838033.956432,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Women's Champions League",
             "pill": "uefa.wchampions",
@@ -2007,6 +2007,11 @@
             "name": "Alebrijes de Oaxaca",
             "slug": "alebrijes-de-oaxaca"
         },
+        "alemannia-aachen": {
+            "league": "Club Friendly",
+            "name": "Alemannia Aachen",
+            "slug": "alemannia-aachen"
+        },
         "alfreton-town": {
             "league": "English FA Cup Qualifying",
             "name": "Alfreton Town",
@@ -2446,6 +2451,11 @@
             "league": "UEFA Nations League",
             "name": "Armenia",
             "slug": "armenia"
+        },
+        "armenia-u21": {
+            "league": "UEFA European Under-21 Championship Qualifying",
+            "name": "Armenia U21",
+            "slug": "armenia-u21"
         },
         "arminia-bielefeld": {
             "league": "German 2. Bundesliga",
@@ -5198,7 +5208,7 @@
             "slug": "cesena"
         },
         "ceuta": {
-            "league": "Spanish LALIGA 2",
+            "league": "Club Friendly",
             "name": "Ceuta",
             "slug": "ceuta"
         },
@@ -7167,6 +7177,11 @@
             "name": "Drita Gjilan",
             "slug": "drita-gjilan"
         },
+        "drogheda-united": {
+            "league": "Club Friendly",
+            "name": "Drogheda United",
+            "slug": "drogheda-united"
+        },
         "droitwich-spa": {
             "league": "English FA Cup Qualifying",
             "name": "Droitwich Spa",
@@ -7223,7 +7238,7 @@
             "slug": "dumbarton"
         },
         "dunajska-streda": {
-            "league": "UEFA Conference League Qualifying",
+            "league": "Club Friendly",
             "name": "Dunajska Streda",
             "slug": "dunajska-streda"
         },
@@ -7466,6 +7481,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Eastern Illinois EASTERN ILLINOIS PANTHERS Women",
             "slug": "eastern-illinois-eastern-illinois-panthers-women"
+        },
+        "eastern-illinois-panthers": {
+            "league": "NCAA Men's Soccer",
+            "name": "Eastern Illinois Panthers",
+            "slug": "eastern-illinois-panthers"
         },
         "eastern-illinois-women": {
             "league": "NCAA Women's Soccer",
@@ -7848,7 +7868,7 @@
             "slug": "estudiantes-buenos-aires"
         },
         "estudiantes-de-la-plata": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "Copa Argentina",
             "name": "Estudiantes de La Plata",
             "slug": "estudiantes-de-la-plata"
         },
@@ -8133,7 +8153,7 @@
             "slug": "fc-arsenal-tula"
         },
         "fc-atert-bissen": {
-            "league": "UEFA Conference League Qualifying",
+            "league": "Club Friendly",
             "name": "FC Atert Bissen",
             "slug": "fc-atert-bissen"
         },
@@ -8476,6 +8496,11 @@
             "league": "Dutch Keuken Kampioen Divisie",
             "name": "FC Volendam",
             "slug": "fc-volendam"
+        },
+        "fc-wil-1900": {
+            "league": "Club Friendly",
+            "name": "FC Wil 1900",
+            "slug": "fc-wil-1900"
         },
         "fc-zorya-luhansk": {
             "league": "Club Friendly",
@@ -9222,6 +9247,11 @@
             "name": "Georgia State Women",
             "slug": "georgia-state-women"
         },
+        "georgia-u21": {
+            "league": "UEFA European Under-21 Championship Qualifying",
+            "name": "Georgia U21",
+            "slug": "georgia-u21"
+        },
         "georgia-women": {
             "league": "NCAA Women's Soccer",
             "name": "Georgia Women",
@@ -9571,6 +9601,11 @@
             "league": "UEFA Nations League",
             "name": "Greece",
             "slug": "greece"
+        },
+        "greece-u21": {
+            "league": "UEFA European Under-21 Championship Qualifying",
+            "name": "Greece U21",
+            "slug": "greece-u21"
         },
         "green-bay": {
             "league": "NCAA Men's Soccer",
@@ -10577,6 +10612,11 @@
             "name": "Hungary",
             "slug": "hungary"
         },
+        "hungary-u21": {
+            "league": "UEFA European Under-21 Championship Qualifying",
+            "name": "Hungary U21",
+            "slug": "hungary-u21"
+        },
         "hungerford-town": {
             "league": "English FA Cup Qualifying",
             "name": "Hungerford Town",
@@ -11027,6 +11067,11 @@
             "name": "Italy",
             "slug": "italy"
         },
+        "italy-u21": {
+            "league": "UEFA European Under-21 Championship Qualifying",
+            "name": "Italy U21",
+            "slug": "italy-u21"
+        },
         "ituzaingo": {
             "league": "Argentine Primera B",
             "name": "Ituzaing\u00f3",
@@ -11106,6 +11151,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Jacksonville Dolphins Women",
             "slug": "jacksonville-dolphins-women"
+        },
+        "jacksonville-state-gamecocks-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Jacksonville State Gamecocks Women",
+            "slug": "jacksonville-state-gamecocks-women"
         },
         "jacksonville-state-jacksonville-state-gamecocks-women": {
             "league": "NCAA Women's Soccer",
@@ -11982,6 +12032,11 @@
             "name": "Latvia",
             "slug": "latvia"
         },
+        "latvia-u21": {
+            "league": "UEFA European Under-21 Championship Qualifying",
+            "name": "Latvia U21",
+            "slug": "latvia-u21"
+        },
         "laverstock-ford": {
             "league": "English FA Cup Qualifying",
             "name": "Laverstock & Ford",
@@ -12278,7 +12333,7 @@
             "slug": "lichfield-city"
         },
         "liechtenstein": {
-            "league": "International Friendly",
+            "league": "UEFA Nations League",
             "name": "Liechtenstein",
             "slug": "liechtenstein"
         },
@@ -12406,6 +12461,11 @@
             "league": "International Friendly",
             "name": "Lithuania",
             "slug": "lithuania"
+        },
+        "lithuania-u21": {
+            "league": "UEFA European Under-21 Championship Qualifying",
+            "name": "Lithuania U21",
+            "slug": "lithuania-u21"
         },
         "little-common": {
             "league": "English FA Cup Qualifying",
@@ -12963,7 +13023,7 @@
             "slug": "malmo-ff-women"
         },
         "malta": {
-            "league": "International Friendly",
+            "league": "UEFA Nations League",
             "name": "Malta",
             "slug": "malta"
         },
@@ -13003,7 +13063,7 @@
             "slug": "manchester-city-u21"
         },
         "manchester-city-women": {
-            "league": "English Women's Super League",
+            "league": "UEFA Women's Champions League",
             "name": "Manchester City Women",
             "slug": "manchester-city-women"
         },
@@ -13228,7 +13288,7 @@
             "slug": "massachusetts"
         },
         "massachusetts-minutewomen": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAA Women's Soccer",
             "name": "Massachusetts MInutewomen",
             "slug": "massachusetts-minutewomen"
         },
@@ -13672,6 +13732,11 @@
             "name": "Missouri State Bears",
             "slug": "missouri-state-bears"
         },
+        "missouri-state-bears-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Missouri State Bears Women",
+            "slug": "missouri-state-bears-women"
+        },
         "missouri-state-missouri-state-bears": {
             "league": "NCAA Men's Soccer",
             "name": "Missouri State MISSOURI STATE BEARS",
@@ -13811,6 +13876,11 @@
             "league": "UEFA Nations League",
             "name": "Montenegro",
             "slug": "montenegro"
+        },
+        "montenegro-u21": {
+            "league": "UEFA European Under-21 Championship Qualifying",
+            "name": "Montenegro U21",
+            "slug": "montenegro-u21"
         },
         "monterey-bay": {
             "league": "USL Championship",
@@ -14517,6 +14587,11 @@
             "name": "NJIT Highlanders",
             "slug": "njit-highlanders"
         },
+        "njit-highlanders-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "NJIT Highlanders Women",
+            "slug": "njit-highlanders-women"
+        },
         "njit-njit-highlanders": {
             "league": "NCAA Men's Soccer",
             "name": "NJIT NJIT HIGHLANDERS",
@@ -14708,7 +14783,7 @@
             "slug": "north-macedonia"
         },
         "north-macedonia-u21": {
-            "league": "Under-21 International Friendly",
+            "league": "UEFA European Under-21 Championship Qualifying",
             "name": "North Macedonia U21",
             "slug": "north-macedonia-u21"
         },
@@ -14836,6 +14911,11 @@
             "league": "UEFA Nations League",
             "name": "Northern Ireland",
             "slug": "northern-ireland"
+        },
+        "northern-ireland-u21": {
+            "league": "UEFA European Under-21 Championship Qualifying",
+            "name": "Northern Ireland U21",
+            "slug": "northern-ireland-u21"
         },
         "northern-kentucky": {
             "league": "NCAA Men's Soccer",
@@ -15166,6 +15246,11 @@
             "league": "Taca de Portugal",
             "name": "Olhanense",
             "slug": "olhanense"
+        },
+        "olimpija-ljubljana": {
+            "league": "Club Friendly",
+            "name": "Olimpija Ljubljana",
+            "slug": "olimpija-ljubljana"
         },
         "oliveira-hospital": {
             "league": "Taca de Portugal",
@@ -15542,6 +15627,11 @@
             "name": "Palmeiras",
             "slug": "palmeiras"
         },
+        "palmese": {
+            "league": "Club Friendly",
+            "name": "Palmese",
+            "slug": "palmese"
+        },
         "panama": {
             "league": "International Friendly",
             "name": "Panama",
@@ -15913,7 +16003,7 @@
             "slug": "pittsburgh-women"
         },
         "platense": {
-            "league": "Honduran Liga Nacional",
+            "league": "Copa Argentina",
             "name": "Platense",
             "slug": "platense"
         },
@@ -16342,6 +16432,11 @@
             "name": "Purmersteijn",
             "slug": "purmersteijn"
         },
+        "puskas-akademia": {
+            "league": "Club Friendly",
+            "name": "Puskas Akademia",
+            "slug": "puskas-akademia"
+        },
         "pyramids-fc": {
             "league": "CAF Champions League",
             "name": "Pyramids FC",
@@ -16748,7 +16843,7 @@
             "slug": "real-bedford"
         },
         "real-betis": {
-            "league": "Spanish LALIGA",
+            "league": "Club Friendly",
             "name": "Real Betis",
             "slug": "real-betis"
         },
@@ -16793,7 +16888,7 @@
             "slug": "real-madrid-iii"
         },
         "real-madrid-women": {
-            "league": "Spanish Liga F",
+            "league": "UEFA Women's Champions League",
             "name": "Real Madrid Women",
             "slug": "real-madrid-women"
         },
@@ -18128,7 +18223,7 @@
             "slug": "sc-popesti-leordei"
         },
         "sc-rheindorf-altach": {
-            "league": "Austrian Bundesliga",
+            "league": "Club Friendly",
             "name": "SC Rheindorf Altach",
             "slug": "sc-rheindorf-altach"
         },
@@ -18657,6 +18752,11 @@
             "name": "SIU Edwardsville",
             "slug": "siu-edwardsville"
         },
+        "siu-edwardsville-cougars": {
+            "league": "NCAA Men's Soccer",
+            "name": "SIU Edwardsville Cougars",
+            "slug": "siu-edwardsville-cougars"
+        },
         "siu-edwardsville-siu-edwardsville-cougars": {
             "league": "NCAA Men's Soccer",
             "name": "SIU Edwardsville SIU EDWARDSVILLE COUGARS",
@@ -18711,6 +18811,11 @@
             "league": "Club Friendly",
             "name": "Skenderbeu Korce",
             "slug": "skenderbeu-korce"
+        },
+        "slaven-belupo-koprivnica": {
+            "league": "Club Friendly",
+            "name": "Slaven Belupo Koprivnica",
+            "slug": "slaven-belupo-koprivnica"
         },
         "slavia-prague": {
             "league": "UEFA Champions League",
@@ -19082,6 +19187,11 @@
             "name": "Southern Indiana Women",
             "slug": "southern-indiana-women"
         },
+        "southern-jaguars-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Southern Jaguars Women",
+            "slug": "southern-jaguars-women"
+        },
         "southern-miss-golden-eagles-women": {
             "league": "NCAA Women's Soccer",
             "name": "Southern Miss Golden Eagles Women",
@@ -19358,7 +19468,7 @@
             "slug": "spring-hill-women"
         },
         "spvgg-greuther-furth": {
-            "league": "German 2. Bundesliga",
+            "league": "Club Friendly",
             "name": "SpVgg Greuther F\u00fcrth",
             "slug": "spvgg-greuther-furth"
         },
@@ -19376,6 +19486,11 @@
             "league": "Club Friendly",
             "name": "SSC Giugliano",
             "slug": "ssc-giugliano"
+        },
+        "ssv-jahn-regensburg": {
+            "league": "Club Friendly",
+            "name": "SSV Jahn Regensburg",
+            "slug": "ssv-jahn-regensburg"
         },
         "ssv-jeddeloh-ii": {
             "league": "German Cup",
@@ -20633,7 +20748,7 @@
             "slug": "tp-mazembe"
         },
         "trabzonspor": {
-            "league": "Turkish Super Lig",
+            "league": "Club Friendly",
             "name": "Trabzonspor",
             "slug": "trabzonspor"
         },
@@ -20756,6 +20871,16 @@
             "league": "Club Friendly",
             "name": "TSV Hartberg",
             "slug": "tsv-hartberg"
+        },
+        "tsv-havelse": {
+            "league": "Club Friendly",
+            "name": "TSV Havelse",
+            "slug": "tsv-havelse"
+        },
+        "tsv-st-johann": {
+            "league": "Club Friendly",
+            "name": "TSV St. Johann",
+            "slug": "tsv-st-johann"
         },
         "tuffley-rovers": {
             "league": "English FA Cup Qualifying",
@@ -21873,7 +21998,7 @@
             "slug": "vfl-osnabruck"
         },
         "vfl-wolfsburg": {
-            "league": "German 2. Bundesliga",
+            "league": "Club Friendly",
             "name": "VfL Wolfsburg",
             "slug": "vfl-wolfsburg"
         },

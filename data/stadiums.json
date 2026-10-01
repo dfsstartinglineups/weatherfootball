@@ -4349,6 +4349,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11009": {
+        "city": "Santo Domingo",
+        "country": "Dominican Republic",
+        "id": "11009",
+        "lat": 18.47186,
+        "lon": -69.89232,
+        "name": "Stadio Ol\u00edmpico F\u00e9lix S\u00e1nchez",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11010": {
         "city": "San Luis",
         "country": "Argentina",
@@ -5239,6 +5249,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11220": {
+        "city": "Kennesaw, Georgia",
+        "country": "USA",
+        "id": "11220",
+        "lat": 34.02343,
+        "lon": -84.61549,
+        "name": "Walens Family Field at Fifth Third Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11221": {
         "city": "Birmingham, Alabama",
         "country": "USA",
@@ -5316,6 +5336,16 @@
         "lat": 39.73811,
         "lon": -84.17744,
         "name": "Baujan Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11231": {
+        "city": "",
+        "country": "USA",
+        "id": "11231",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Bobby Kramig Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5699,6 +5729,36 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11277": {
+        "city": "Erie, Pennsylvania",
+        "country": "USA",
+        "id": "11277",
+        "lat": 42.12922,
+        "lon": -80.08506,
+        "name": "Saxon Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11278": {
+        "city": "",
+        "country": "USA",
+        "id": "11278",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Paul Hotmer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11279": {
+        "city": "",
+        "country": "USA",
+        "id": "11279",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Zoeller Field at Dix Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11280": {
         "city": "Muncie",
         "country": "USA",
@@ -5706,6 +5766,16 @@
         "lat": 40.19338,
         "lon": -85.38636,
         "name": "Briner Sports Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11281": {
+        "city": "Bowling Green",
+        "country": "USA",
+        "id": "11281",
+        "lat": 36.99032,
+        "lon": -86.4436,
+        "name": "WKU Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5836,6 +5906,16 @@
         "lat": 38.99425,
         "lon": -104.86375,
         "name": "Cadet Soccer Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11297": {
+        "city": "Dayton",
+        "country": "USA",
+        "id": "11297",
+        "lat": 39.75895,
+        "lon": -84.19161,
+        "name": "Alumni Field at Rinzler Student Sports Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6009,6 +6089,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11323": {
+        "city": "New Britain",
+        "country": "USA",
+        "id": "11323",
+        "lat": 41.66121,
+        "lon": -72.77954,
+        "name": "CCSU Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11324": {
         "city": "",
         "country": "USA",
@@ -6146,6 +6236,16 @@
         "lat": 39.24611,
         "lon": -94.41912,
         "name": "Osborne Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11342": {
+        "city": "",
+        "country": "USA",
+        "id": "11342",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Catamount Athletic Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6599,6 +6699,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11404": {
+        "city": "",
+        "country": "USA",
+        "id": "11404",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "EWU Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11409": {
+        "city": "",
+        "country": "USA",
+        "id": "11409",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "A.W. Mumford Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11412": {
         "city": "",
         "country": "USA",
@@ -6626,16 +6746,6 @@
         "lat": 40.82649,
         "lon": -74.10681,
         "name": "Greene-Harbison Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11421": {
-        "city": "",
-        "country": "USA",
-        "id": "11421",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Matador Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6756,6 +6866,16 @@
         "lat": 39.09973,
         "lon": -94.57857,
         "name": "Stanley H. Durwood Soccer Stadium & Recreational Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11442": {
+        "city": "",
+        "country": "USA",
+        "id": "11442",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Thunderbird Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9936,6 +10056,26 @@
         "lat": 31.22222,
         "lon": 121.45806,
         "name": "Jinshan Sports Center Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11821": {
+        "city": "Regensburg",
+        "country": "Germany",
+        "id": "11821",
+        "lat": 49.01513,
+        "lon": 12.10161,
+        "name": "Sportpark am Kaulbachweg",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11826": {
+        "city": "Salzburg",
+        "country": "Austria",
+        "id": "11826",
+        "lat": 47.79941,
+        "lon": 13.04399,
+        "name": "Akademie Liefering Platz 2",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16019,6 +16159,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6332": {
+        "city": "Budapest",
+        "country": "Hungary",
+        "id": "6332",
+        "lat": 47.49835,
+        "lon": 19.04045,
+        "name": "Hidegkuti N\u00e1ndor Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6342": {
         "city": "Puerto Montt",
         "country": "Chile",
@@ -16519,6 +16669,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6656": {
+        "city": "Eupen",
+        "country": "Belgium",
+        "id": "6656",
+        "lat": 50.6279,
+        "lon": 6.03647,
+        "name": "Kehrwegstadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6657": {
         "city": "Beveren",
         "country": "Belgium",
@@ -16736,6 +16896,16 @@
         "lat": 51.4112,
         "lon": -0.83565,
         "name": "The Laithwaite Community Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6743": {
+        "city": "Ballymena",
+        "country": "Northern Ireland",
+        "id": "6743",
+        "lat": 54.86357,
+        "lon": -6.27628,
+        "name": "The Ballymena Showgrounds",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17386,6 +17556,16 @@
         "lat": 62.22655,
         "lon": -6.58901,
         "name": "Dj\u00fapumyrar",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7281": {
+        "city": "Bitola",
+        "country": "North Macedonia",
+        "id": "7281",
+        "lat": 41.03226,
+        "lon": 21.33553,
+        "name": "Stadion Petar Milosevski",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -18926,6 +19106,16 @@
         "lat": 17.74681,
         "lon": -64.70557,
         "name": "Bethlehem Soccer Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8677": {
+        "city": "Mayag\u00fcez",
+        "country": "Puerto Rico",
+        "id": "8677",
+        "lat": 18.20107,
+        "lon": -67.13962,
+        "name": "Estadio Centroamericano de Mayag\u00fcez",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -22879,6 +23069,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "dunajska-streda": {
+        "city": "",
+        "country": "",
+        "id": "dunajska-streda",
+        "lat": 47.99268,
+        "lon": 17.61211,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "dunstable": {
         "city": "",
         "country": "",
@@ -23123,6 +23323,16 @@
         "city": "",
         "country": "",
         "id": "fc-arges",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "fc-atert-bissen": {
+        "city": "",
+        "country": "",
+        "id": "fc-atert-bissen",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -25129,6 +25339,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "olimpija-ljubljana": {
+        "city": "",
+        "country": "",
+        "id": "olimpija-ljubljana",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "olot": {
         "city": "",
         "country": "",
@@ -26813,6 +27033,16 @@
         "city": "",
         "country": "",
         "id": "vegalta-sendai",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "vfl-wolfsburg": {
+        "city": "",
+        "country": "",
+        "id": "vfl-wolfsburg",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
