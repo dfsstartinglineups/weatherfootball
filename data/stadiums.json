@@ -12509,6 +12509,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "2975": {
+        "city": "Esbjerg",
+        "country": "Denmark",
+        "id": "2975",
+        "lat": 55.47028,
+        "lon": 8.45187,
+        "name": "Blue Water Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "2980": {
         "city": "Strasbourg",
         "country": "France",
@@ -23793,6 +23803,16 @@
         "city": "",
         "country": "",
         "id": "fc-peterborough",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "fc-silon-taborsko": {
+        "city": "",
+        "country": "",
+        "id": "fc-silon-taborsko",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
