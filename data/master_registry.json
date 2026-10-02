@@ -178,7 +178,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790963224.098304,
+            "last_updated": 1790964161.670071,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -210,7 +210,7 @@
         },
         "concacaf-nations-league": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790963125.291147,
+            "last_updated": 1790964042.902941,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2406.png",
             "name": "Concacaf Nations League",
             "pill": "concacaf.nations.league",
@@ -562,7 +562,7 @@
         },
         "international-friendly": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790963123.344233,
+            "last_updated": 1790964039.01376,
             "logo": "\ud83c\udf0e",
             "name": "International Friendly",
             "pill": "fifa.friendly",
@@ -642,7 +642,7 @@
         },
         "mexican-liga-bbva-mx-femenil": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790963126.672673,
+            "last_updated": 1790964046.87394,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga BBVA MX Femenil",
             "pill": "mex.w.1",
@@ -650,7 +650,7 @@
         },
         "mexican-liga-de-expansion-mx": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790963126.272649,
+            "last_updated": 1790964045.629046,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
@@ -682,7 +682,7 @@
         },
         "northern-super-league": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790963127.008091,
+            "last_updated": 1790964047.379809,
             "logo": "",
             "name": "Northern Super League",
             "pill": "can.w.nsl",
@@ -698,7 +698,7 @@
         },
         "nwsl": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790963123.96261,
+            "last_updated": 1790964040.061323,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -786,7 +786,7 @@
         },
         "scottish-cup": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790963125.7272,
+            "last_updated": 1790964044.313499,
             "logo": "https://flagcdn.com/w40/gb-sct.png",
             "name": "Scottish Cup",
             "pill": "sco.tennents",
@@ -978,7 +978,7 @@
         },
         "uefa-nations-league": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790963119.176214,
+            "last_updated": 1790964033.837457,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Nations League",
             "pill": "uefa.nations",
@@ -1066,7 +1066,7 @@
         },
         "usl-super-league": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790963125.591145,
+            "last_updated": 1790964043.911606,
             "logo": "",
             "name": "USL Super League",
             "pill": "usa.w.usl.1",
@@ -1090,7 +1090,7 @@
         },
         "womens-international-friendly": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790963125.448295,
+            "last_updated": 1790964043.410039,
             "logo": "\ud83c\udf0e",
             "name": "Women's International Friendly",
             "pill": "fifa.friendly.w",
@@ -13748,6 +13748,11 @@
             "name": "MFK Skalica",
             "slug": "mfk-skalica"
         },
+        "mfk-zemplin-michalovce": {
+            "league": "Club Friendly",
+            "name": "MFK Zemplin Michalovce",
+            "slug": "mfk-zemplin-michalovce"
+        },
         "miami-fc": {
             "league": "USL Championship",
             "name": "Miami FC",
@@ -15358,6 +15363,11 @@
             "name": "Nuneaton Town",
             "slug": "nuneaton-town"
         },
+        "nyiregyhaza": {
+            "league": "Club Friendly",
+            "name": "Nyiregyhaza",
+            "slug": "nyiregyhaza"
+        },
         "o-elvas": {
             "league": "Taca de Portugal",
             "name": "O Elvas",
@@ -16014,7 +16024,7 @@
             "slug": "parkgate"
         },
         "parma": {
-            "league": "Italian Serie A",
+            "league": "Club Friendly",
             "name": "Parma",
             "slug": "parma"
         },
@@ -22609,7 +22619,7 @@
             "slug": "virginia-women"
         },
         "virtus-entella": {
-            "league": "Italian Serie B",
+            "league": "Club Friendly",
             "name": "Virtus Entella",
             "slug": "virtus-entella"
         },

@@ -25869,6 +25869,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "nyiregyhaza": {
+        "city": "",
+        "country": "",
+        "id": "nyiregyhaza",
+        "lat": 47.95539,
+        "lon": 21.71671,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "oakleigh-cannons-fc": {
         "city": "",
         "country": "",
@@ -26045,6 +26055,16 @@
         "id": "paris-fc-women",
         "lat": 0.0,
         "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "parma": {
+        "city": "",
+        "country": "",
+        "id": "parma",
+        "lat": 44.79935,
+        "lon": 10.32618,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
