@@ -178,7 +178,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790965031.250039,
+            "last_updated": 1790965942.482276,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -210,7 +210,7 @@
         },
         "concacaf-nations-league": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790964931.016633,
+            "last_updated": 1790965833.384071,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2406.png",
             "name": "Concacaf Nations League",
             "pill": "concacaf.nations.league",
@@ -562,7 +562,7 @@
         },
         "international-friendly": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790964929.255941,
+            "last_updated": 1790965830.64218,
             "logo": "\ud83c\udf0e",
             "name": "International Friendly",
             "pill": "fifa.friendly",
@@ -642,7 +642,7 @@
         },
         "mexican-liga-bbva-mx-femenil": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790964932.767625,
+            "last_updated": 1790965836.328456,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga BBVA MX Femenil",
             "pill": "mex.w.1",
@@ -650,7 +650,7 @@
         },
         "mexican-liga-de-expansion-mx": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790964932.08507,
+            "last_updated": 1790965835.243024,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
@@ -682,7 +682,7 @@
         },
         "northern-super-league": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790964932.909491,
+            "last_updated": 1790965836.960228,
             "logo": "",
             "name": "Northern Super League",
             "pill": "can.w.nsl",
@@ -698,7 +698,7 @@
         },
         "nwsl": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790964929.643147,
+            "last_updated": 1790965831.171767,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -786,7 +786,7 @@
         },
         "scottish-cup": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790964931.484773,
+            "last_updated": 1790965834.32833,
             "logo": "https://flagcdn.com/w40/gb-sct.png",
             "name": "Scottish Cup",
             "pill": "sco.tennents",
@@ -978,7 +978,7 @@
         },
         "uefa-nations-league": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790964924.912178,
+            "last_updated": 1790965825.477735,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Nations League",
             "pill": "uefa.nations",
@@ -1066,7 +1066,7 @@
         },
         "usl-super-league": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790964931.343784,
+            "last_updated": 1790965834.12277,
             "logo": "",
             "name": "USL Super League",
             "pill": "usa.w.usl.1",
@@ -1090,7 +1090,7 @@
         },
         "womens-international-friendly": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790964931.153396,
+            "last_updated": 1790965833.582139,
             "logo": "\ud83c\udf0e",
             "name": "Women's International Friendly",
             "pill": "fifa.friendly.w",
@@ -8444,7 +8444,7 @@
             "slug": "fc-kbenhavn"
         },
         "fc-koper": {
-            "league": "UEFA Conference League Qualifying",
+            "league": "Club Friendly",
             "name": "FC Koper",
             "slug": "fc-koper"
         },
@@ -10567,6 +10567,11 @@
             "league": "Club Friendly",
             "name": "HNK Gorica",
             "slug": "hnk-gorica"
+        },
+        "hnk-orijent": {
+            "league": "Club Friendly",
+            "name": "HNK Orijent",
+            "slug": "hnk-orijent"
         },
         "hnk-segesta-sisak": {
             "league": "Club Friendly",
