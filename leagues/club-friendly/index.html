@@ -153,6 +153,25 @@
   {
     "@context": "https://schema.org",
     "@type": "SportsEvent",
+    "name": "Kladno at FC Hradec Kr\u00e1lov\u00e9",
+    "description": "Expect temperatures around 62\u00b0F at kickoff with 6 mph winds. Conditions look mostly clear with a minimal chance of rain.",
+    "startDate": "2026-10-02T09:00Z",
+    "location": {
+      "@type": "Place",
+      "name": "Malsovick\u00e1 Ar\u00e9na"
+    },
+    "homeTeam": {
+      "@type": "SportsTeam",
+      "name": "FC Hradec Kr\u00e1lov\u00e9"
+    },
+    "awayTeam": {
+      "@type": "SportsTeam",
+      "name": "Kladno"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsEvent",
     "name": "SK Prostejov at FC Zl\u00edn",
     "description": "Expect temperatures around 65\u00b0F at kickoff with 6 mph winds. Conditions look mostly clear with a minimal chance of rain.",
     "startDate": "2026-10-02T09:00Z",
@@ -642,6 +661,25 @@
     "awayTeam": {
       "@type": "SportsTeam",
       "name": "W\u00fcrzburger Kickers"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsEvent",
+    "name": "Servette at Annecy",
+    "description": "Expect temperatures around 62\u00b0F at kickoff with 4 mph winds. Conditions look mostly clear with a minimal chance of rain.",
+    "startDate": "2026-10-02T11:00Z",
+    "location": {
+      "@type": "Place",
+      "name": "Venue Unlisted"
+    },
+    "homeTeam": {
+      "@type": "SportsTeam",
+      "name": "Annecy"
+    },
+    "awayTeam": {
+      "@type": "SportsTeam",
+      "name": "Servette"
     }
   },
   {
@@ -1250,44 +1288,6 @@
     "awayTeam": {
       "@type": "SportsTeam",
       "name": "Galatasaray"
-    }
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "SportsEvent",
-    "name": "NK Jadran Luka Polc\fe at Zrinjski Mostar",
-    "description": "Stadium coordinates are unlisted. A detailed weather forecast is not available.",
-    "startDate": "2026-10-02T14:30Z",
-    "location": {
-      "@type": "Place",
-      "name": "Venue Unlisted"
-    },
-    "homeTeam": {
-      "@type": "SportsTeam",
-      "name": "Zrinjski Mostar"
-    },
-    "awayTeam": {
-      "@type": "SportsTeam",
-      "name": "NK Jadran Luka Polc\fe"
-    }
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "SportsEvent",
-    "name": "FC Blau-Wei\u00df Linz at RB Salzburg",
-    "description": "Expect temperatures around 58\u00b0F at kickoff with 4 mph winds. Conditions look mostly clear with a minimal chance of rain.",
-    "startDate": "2026-10-02T15:30Z",
-    "location": {
-      "@type": "Place",
-      "name": "Kulmlandstadion SV Pischelsdorf"
-    },
-    "homeTeam": {
-      "@type": "SportsTeam",
-      "name": "RB Salzburg"
-    },
-    "awayTeam": {
-      "@type": "SportsTeam",
-      "name": "FC Blau-Wei\u00df Linz"
     }
   }
 ]
@@ -3642,6 +3642,7 @@
 <option value="Kirkley & Pakerfield" data-url="/teams/kirkley-pakerfield/"></option>
 <option value="Kitara FC" data-url="/teams/kitara-fc/"></option>
 <option value="Kitchee" data-url="/teams/kitchee/"></option>
+<option value="Kladno" data-url="/teams/kladno/"></option>
 <option value="Kloetinge" data-url="/teams/kloetinge/"></option>
 <option value="Knaphill" data-url="/teams/knaphill/"></option>
 <option value="Knaresborough Town" data-url="/teams/knaresborough-town/"></option>
@@ -5048,6 +5049,7 @@
 <option value="Serbia" data-url="/teams/serbia/"></option>
 <option value="Serpa" data-url="/teams/serpa/"></option>
 <option value="Sertanense" data-url="/teams/sertanense/"></option>
+<option value="Servette" data-url="/teams/servette/"></option>
 <option value="Servette Women" data-url="/teams/servette-women/"></option>
 <option value="Sestao" data-url="/teams/sestao/"></option>
 <option value="Seton Hall" data-url="/teams/seton-hall/"></option>
@@ -6482,6 +6484,126 @@
         </div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=48.1&lon=16.28333&detailLat=48.1&detailLon=16.28333&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'DATENPOL ARENA')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401928129">
+        <div class="card game-card shadow-sm  bg-weather-sunny">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-10-02T09:00Z" style="font-size: 0.65rem;">Oct 02, 09:00 AM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️10% 🌡️62° 💨6mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">FC Hradec Králové</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Kladno</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span style="font-size: 1.1rem; margin-right: 6px; vertical-align: middle; line-height: 1;">🤝</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-10-02T09:00Z" style="font-size: 0.65rem;">Oct 02, 09:00 AM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Malsovická Aréna</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/fc-hradec-kralove/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">FC Hradec Králové</a>
+                                <a href="https://futbolstartingeleven.com/teams/fc-hradec-kralove/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/kladno/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Kladno</a>
+                                <a href="https://futbolstartingeleven.com/teams/kladno/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">62°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 38%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">10%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">6 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T08:00:00Z">8AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">59°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T09:00:00Z">9AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">62°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T10:00:00Z">10AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">64°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T11:00:00Z">11AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">66°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T12:00:00Z">12PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">66°</div>
+                </div></div>
+        <div class="mt-2 px-2 text-muted fst-italic" style="font-size: 0.75rem; line-height: 1.3; text-align: center;">
+            Expect temperatures around 62°F at kickoff with 6 mph winds. Conditions look mostly clear with a minimal chance of rain.
+        </div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=50.20923&lon=15.83277&detailLat=50.20923&detailLon=15.83277&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Malsovická Aréna')">
                 🗺️ Live Weather Radar
             </button>
         </div>
@@ -9125,6 +9247,126 @@
         </div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=48.67798&lon=10.15162&detailLat=48.67798&detailLon=10.15162&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Voith-Arena')">
+                🗺️ Live Weather Radar
+            </button>
+        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401927861">
+        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
+            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
+            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
+                
+                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
+                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-10-02T11:00Z" style="font-size: 0.65rem;">Oct 02, 11:00 AM UTC</span>
+                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
+                        🌧️21% 🌡️62° 💨4mph
+                    </div>
+                </div>
+                
+                <!-- Bottom Line: Teams Inline (Home vs Away) -->
+                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
+                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/18066.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Annecy</span>
+                        
+                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
+                        
+                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20032.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
+                        <span class="fw-bold text-dark text-truncate ms-1">Servette</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
+            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
+                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span style="font-size: 1.1rem; margin-right: 6px; vertical-align: middle; line-height: 1;">🤝</span>
+                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
+                    </div>
+                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-10-02T11:00Z" style="font-size: 0.65rem;">Oct 02, 11:00 AM UTC</span>
+                </div>
+                <div class="card-body px-2 pt-2 pb-2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Venue Unlisted</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
+                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/18066.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                            <div class="d-flex flex-column text-start text-truncate">
+                                <a href="/teams/annecy/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Annecy</a>
+                                <a href="https://futbolstartingeleven.com/teams/annecy/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                        </div>
+                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
+                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
+                            <div class="d-flex flex-column text-end text-truncate me-2">
+                                <a href="/teams/servette/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Servette</a>
+                                <a href="https://futbolstartingeleven.com/teams/servette/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
+                            </div>
+                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/20032.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                    
+        <div class="weather-row row text-center align-items-center mt-2 mx-0">
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold">62°F</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-dark">💧 69%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
+            </div>
+            <div class="col-3 border-end px-1">
+                <div class="fw-bold text-primary">21%</div>
+                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
+            </div>
+            <div class="col-3 px-1">
+                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
+                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
+            </div>
+        </div>
+        <div class="hourly-scroll-container">
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T10:00:00Z">10AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">21%</div>
+                    <div class="hour-temp">61°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T11:00:00Z">11AM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">62°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T12:00:00Z">12PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">64°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T13:00:00Z">1PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">64°</div>
+                </div>
+                <div class="hour-card">
+                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T14:00:00Z">2PM</div>
+                    <div class="hour-icon">⛅</div>
+                    <div class="hour-pop">&nbsp;</div>
+                    <div class="hour-temp">65°</div>
+                </div></div>
+        <div class="mt-2 px-2 text-muted fst-italic" style="font-size: 0.75rem; line-height: 1.3; text-align: center;">
+            Expect temperatures around 62°F at kickoff with 4 mph winds. Conditions look mostly clear with a minimal chance of rain.
+        </div>
+        <div class="mt-2 mb-1">
+            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=45.90878&lon=6.12565&detailLat=45.90878&detailLon=6.12565&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Venue Unlisted')">
                 🗺️ Live Weather Radar
             </button>
         </div>
@@ -12276,193 +12518,6 @@
         </div>
         <div class="mt-2 mb-1">
             <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=41.01384&lon=28.94966&detailLat=41.01384&detailLon=28.94966&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Siltas Yapi Pendik Stadium')">
-                🗺️ Live Weather Radar
-            </button>
-        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401926844">
-        <div class="card game-card shadow-sm  bg-light">
-            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
-            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                
-                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
-                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-10-02T14:30Z" style="font-size: 0.65rem;">Oct 02, 02:30 PM UTC</span>
-                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        ⚠️No Weather Info
-                    </div>
-                </div>
-                
-                <!-- Bottom Line: Teams Inline (Home vs Away) -->
-                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
-                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
-                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/5239.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
-                        <span class="fw-bold text-dark text-truncate ms-1">Zrinjski Mostar</span>
-                        
-                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
-                        
-                        <img src="" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
-                        <span class="fw-bold text-dark text-truncate ms-1">NK Jadran Luka Polce</span>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
-            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
-                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
-                    <div class="d-flex align-items-center text-truncate">
-                        <span style="font-size: 1.1rem; margin-right: 6px; vertical-align: middle; line-height: 1;">🤝</span>
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
-                    </div>
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-10-02T14:30Z" style="font-size: 0.65rem;">Oct 02, 02:30 PM UTC</span>
-                </div>
-                <div class="card-body px-2 pt-2 pb-2">
-                    <div class="d-flex justify-content-between align-items-center mb-2">
-                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Venue Unlisted</span>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
-                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/5239.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                            <div class="d-flex flex-column text-start text-truncate">
-                                <a href="/teams/zrinjski-mostar/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">Zrinjski Mostar</a>
-                                <a href="https://futbolstartingeleven.com/teams/zrinjski-mostar/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
-                            </div>
-                        </div>
-                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
-                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
-                            <div class="d-flex flex-column text-end text-truncate me-2">
-                                <a href="/teams/nk-jadran-luka-polc-e/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">NK Jadran Luka Polce</a>
-                                <a href="https://futbolstartingeleven.com/teams/nk-jadran-luka-polc-e/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
-                            </div>
-                            <img src="" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                        </div>
-                    </div>
-                    
-        <div class="text-center p-3 mt-2 border-top">
-            <h6 class="text-warning fw-bold mb-1">⚠️ Weather Info Not Available</h6>
-            <p class="small text-muted mb-0" style="font-size: 0.75rem;">Stadium coordinates unlisted.</p>
-        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-lg-3 animate-card mb-3 px-1" id="game-401923756">
-        <div class="card game-card shadow-sm border-warning border-3 bg-weather-rain">
-            <!-- COMPACT RIBBON VIEW (MLB STYLE) -->
-            <div class="ribbon-view p-2 position-relative" onclick="toggleSingleCard(this)" style="cursor: pointer; display: block;">
-                
-                <!-- Top Line: Time Badge & Weather (Left aligned together) -->
-                <div class="d-flex align-items-center justify-content-start mb-1 gap-2">
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-10-02T15:30Z" style="font-size: 0.65rem;">Oct 02, 03:30 PM UTC</span>
-                    <div class="fw-bold text-primary text-truncate" style="font-size: 0.72rem;">
-                        🌧️27% 🌡️58° 💨4mph
-                    </div>
-                </div>
-                
-                <!-- Bottom Line: Teams Inline (Home vs Away) -->
-                <div class="d-flex align-items-center justify-content-between w-100 mt-1">
-                    <div class="d-flex align-items-center text-truncate" style="font-size: 0.75rem; flex: 1; min-width: 0;">
-                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2790.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
-                        <span class="fw-bold text-dark text-truncate ms-1">RB Salzburg</span>
-                        
-                        <span class="mx-2 text-muted fw-bold" style="font-size: 0.70rem;">vs</span>
-                        
-                        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21950.png" style="width: 16px; height: 16px; object-fit: contain;" onerror="this.style.display='none'">
-                        <span class="fw-bold text-dark text-truncate ms-1">FC Blau-Weiß Linz</span>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- EXPANDED FULL CARD VIEW (HOME LEFT - AWAY RIGHT) -->
-            <div class="full-card-view" onclick="toggleSingleCard(this)" style="cursor: pointer; display: none;">
-                <div class="d-flex align-items-center justify-content-between p-2 bg-dark text-white">
-                    <div class="d-flex align-items-center text-truncate">
-                        <span style="font-size: 1.1rem; margin-right: 6px; vertical-align: middle; line-height: 1;">🤝</span>
-                        <span class="fw-bold text-truncate" style="font-size: 0.75rem;">Club Friendly</span>
-                    </div>
-                    <span class="badge bg-light text-dark border border-secondary flex-shrink-0 local-time-badge" data-gametime="2026-10-02T15:30Z" style="font-size: 0.65rem;">Oct 02, 03:30 PM UTC</span>
-                </div>
-                <div class="card-body px-2 pt-2 pb-2">
-                    <div class="d-flex justify-content-between align-items-center mb-2">
-                        <span class="stadium-name text-truncate fw-bold" style="font-size: 0.8rem;">📍 Kulmlandstadion SV Pischelsdorf</span>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center px-1 mb-1">
-                        <div class="d-flex align-items-center text-truncate" style="width: 45%;">
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/2790.png" class="me-2 flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                            <div class="d-flex flex-column text-start text-truncate">
-                                <a href="/teams/rb-salzburg/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">RB Salzburg</a>
-                                <a href="https://futbolstartingeleven.com/teams/rb-salzburg/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
-                            </div>
-                        </div>
-                        <div class="text-center text-muted fw-bold" style="width: 10%; font-size: 0.8rem;">vs</div>
-                        <div class="d-flex align-items-center justify-content-end text-truncate" style="width: 45%;">
-                            <div class="d-flex flex-column text-end text-truncate me-2">
-                                <a href="/teams/fc-blau-wei-linz/" class="text-dark text-decoration-none fw-bold text-truncate" style="font-size: 0.95rem;" onclick="event.stopPropagation();">FC Blau-Weiß Linz</a>
-                                <a href="https://futbolstartingeleven.com/teams/fc-blau-wei-linz/lineup/" class="text-primary text-decoration-none text-truncate" style="font-size: 0.65rem; margin-top: -2px;" onclick="event.stopPropagation();">lineup</a>
-                            </div>
-                            <img src="https://a.espncdn.com/i/teamlogos/soccer/500/21950.png" class="flex-shrink-0" style="width: 24px; height: 24px; object-fit: contain;" onerror="this.style.display='none'">
-                        </div>
-                    </div>
-                    
-        <div class="weather-row row text-center align-items-center mt-2 mx-0">
-            <div class="col-3 border-end px-1">
-                <div class="fw-bold">58°F</div>
-                <div class="small text-muted" style="font-size: 0.7rem;">Temp</div>
-            </div>
-            <div class="col-3 border-end px-1">
-                <div class="fw-bold text-dark">💧 65%</div>
-                <div class="small text-muted" style="font-size: 0.7rem;">Humidity</div>
-            </div>
-            <div class="col-3 border-end px-1">
-                <div class="fw-bold text-primary">27%</div>
-                <div class="small text-muted" style="font-size: 0.7rem;">Rain</div>
-            </div>
-            <div class="col-3 px-1">
-                <div class="fw-bold">4 <span style="font-size:0.7em">mph</span></div>
-                <span class="wind-badge bg-secondary text-white" style="font-size: 0.55rem; padding: 2px 4px;">💨</span>
-            </div>
-        </div>
-        <div class="hourly-scroll-container">
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T14:00:00Z">2PM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">59°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T15:00:00Z">3PM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">&nbsp;</div>
-                    <div class="hour-temp">58°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T16:00:00Z">4PM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">24%</div>
-                    <div class="hour-temp">54°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T17:00:00Z">5PM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">27%</div>
-                    <div class="hour-temp">49°</div>
-                </div>
-                <div class="hour-card">
-                    <div class="hour-time local-hour-time" data-timestamp="2026-10-02T18:00:00Z">6PM</div>
-                    <div class="hour-icon">⛅</div>
-                    <div class="hour-pop">21%</div>
-                    <div class="hour-temp">48°</div>
-                </div></div>
-        <div class="mt-2 px-2 text-muted fst-italic" style="font-size: 0.75rem; line-height: 1.3; text-align: center;">
-            Expect temperatures around 58°F at kickoff with 4 mph winds. Conditions look mostly clear with a minimal chance of rain.
-        </div>
-        <div class="mt-2 mb-1">
-            <button class="btn btn-sm btn-outline-primary w-100 py-1 fw-bold" style="font-size: 0.8rem;" onclick="event.stopPropagation(); showRadar('https://embed.windy.com/embed2.html?lat=47.33333&lon=13.33333&detailLat=47.33333&detailLon=13.33333&width=650&height=450&zoom=11&level=surface&overlay=rain&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1', 'Kulmlandstadion SV Pischelsdorf')">
                 🗺️ Live Weather Radar
             </button>
         </div>
