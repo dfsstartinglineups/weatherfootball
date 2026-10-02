@@ -178,7 +178,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790928144.79266,
+            "last_updated": 1790929023.24566,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -210,7 +210,7 @@
         },
         "concacaf-nations-league": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790928038.755745,
+            "last_updated": 1790928926.542687,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2406.png",
             "name": "Concacaf Nations League",
             "pill": "concacaf.nations.league",
@@ -562,7 +562,7 @@
         },
         "international-friendly": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790928035.48855,
+            "last_updated": 1790928924.487737,
             "logo": "\ud83c\udf0e",
             "name": "International Friendly",
             "pill": "fifa.friendly",
@@ -642,7 +642,7 @@
         },
         "mexican-liga-bbva-mx-femenil": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790928042.187356,
+            "last_updated": 1790928928.160628,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga BBVA MX Femenil",
             "pill": "mex.w.1",
@@ -650,7 +650,7 @@
         },
         "mexican-liga-de-expansion-mx": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790928041.102668,
+            "last_updated": 1790928927.745238,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
@@ -682,7 +682,7 @@
         },
         "northern-super-league": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790928042.537884,
+            "last_updated": 1790928928.292388,
             "logo": "",
             "name": "Northern Super League",
             "pill": "can.w.nsl",
@@ -698,7 +698,7 @@
         },
         "nwsl": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790928036.319614,
+            "last_updated": 1790928924.93815,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -786,7 +786,7 @@
         },
         "scottish-cup": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790928039.93496,
+            "last_updated": 1790928927.04933,
             "logo": "https://flagcdn.com/w40/gb-sct.png",
             "name": "Scottish Cup",
             "pill": "sco.tennents",
@@ -978,7 +978,7 @@
         },
         "uefa-nations-league": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790928030.510527,
+            "last_updated": 1790928920.206612,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Nations League",
             "pill": "uefa.nations",
@@ -1066,7 +1066,7 @@
         },
         "usl-super-league": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790928039.587689,
+            "last_updated": 1790928926.911844,
             "logo": "",
             "name": "USL Super League",
             "pill": "usa.w.usl.1",
@@ -1090,7 +1090,7 @@
         },
         "womens-international-friendly": {
             "last_crossover_date": "2026-10-02",
-            "last_updated": 1790928039.241546,
+            "last_updated": 1790928926.677868,
             "logo": "\ud83c\udf0e",
             "name": "Women's International Friendly",
             "pill": "fifa.friendly.w",
@@ -11609,7 +11609,7 @@
             "slug": "kansas-women"
         },
         "karlsruher-sc": {
-            "league": "German 2. Bundesliga",
+            "league": "Club Friendly",
             "name": "Karlsruher SC",
             "slug": "karlsruher-sc"
         },
@@ -20414,7 +20414,7 @@
             "slug": "sv-waldhof-mannheim"
         },
         "sv-wehen-wiesbaden": {
-            "league": "German Cup",
+            "league": "Club Friendly",
             "name": "SV Wehen Wiesbaden",
             "slug": "sv-wehen-wiesbaden"
         },
