@@ -149,6 +149,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10083": {
+        "city": "Elizondo",
+        "country": "Spain",
+        "id": "10083",
+        "lat": 43.14829,
+        "lon": -1.51785,
+        "name": "Paraje Gilxaurdi",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10089": {
         "city": "Las Palmas de Gran Canaria",
         "country": "Spain",
@@ -3759,6 +3769,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10882": {
+        "city": "Nairn",
+        "country": "Scotland",
+        "id": "10882",
+        "lat": 57.58094,
+        "lon": -3.87973,
+        "name": "Station Park (Nairn)",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10883": {
         "city": "Malacat\u00e1n",
         "country": "Guatemala",
@@ -4766,6 +4786,16 @@
         "lat": -20.21326,
         "lon": -70.15027,
         "name": "Estadio Tierra de Campeones Ram\u00f3n Estay Saavedra",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11141": {
+        "city": "Budapest",
+        "country": "Hungary",
+        "id": "11141",
+        "lat": 47.49835,
+        "lon": 19.04045,
+        "name": "Illovszky Rudolf Stadion",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9809,6 +9839,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11770": {
+        "city": "Northam",
+        "country": "Australia",
+        "id": "11770",
+        "lat": -31.64932,
+        "lon": 116.67423,
+        "name": "Henry Street Oval",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11773": {
         "city": "Stockholm",
         "country": "Sweden",
@@ -9886,6 +9926,16 @@
         "lat": 49.45421,
         "lon": 11.07752,
         "name": "Max-Morlock-Platz im Sportpark Valznerweiher",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11791": {
+        "city": "Newton Stewart",
+        "country": "Scotland",
+        "id": "11791",
+        "lat": 54.95784,
+        "lon": -4.48315,
+        "name": "Blairmount Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -10286,6 +10336,26 @@
         "lat": 52.42452,
         "lon": 10.7815,
         "name": "Trainingsgel\u00e4nde am VfL-Center",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11861": {
+        "city": "",
+        "country": "India",
+        "id": "11861",
+        "lat": 22.0,
+        "lon": 79.0,
+        "name": "Ella Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11862": {
+        "city": "",
+        "country": "Armenia",
+        "id": "11862",
+        "lat": 4.53656,
+        "lon": -75.67263,
+        "name": "Sports Complex Dzoraghbyur",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11109,6 +11179,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "175": {
+        "city": "Brechin",
+        "country": "Scotland",
+        "id": "175",
+        "lat": 56.72993,
+        "lon": -2.65729,
+        "name": "The Carnegie Fuels Stadium at Glebe Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1756": {
         "city": "Troms\u00f8",
         "country": "Norway",
@@ -11286,6 +11366,16 @@
         "lat": 5.35444,
         "lon": -4.00167,
         "name": "Felix Houphouet-Boigny",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1895": {
+        "city": "Paris",
+        "country": "France",
+        "id": "1895",
+        "lat": 48.85341,
+        "lon": 2.3488,
+        "name": "Stade S\u00e9bastien Charl\u00e9ty",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12279,6 +12369,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "2655": {
+        "city": "Banff",
+        "country": "Scotland",
+        "id": "2655",
+        "lat": 51.17622,
+        "lon": -115.56982,
+        "name": "Princess Royal Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "2658": {
         "city": "Santiago",
         "country": "Chile",
@@ -12306,6 +12406,16 @@
         "lat": 49.00937,
         "lon": 8.40444,
         "name": "BBBank Wildpark",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2710": {
+        "city": "Glendale, Arizona",
+        "country": "USA",
+        "id": "2710",
+        "lat": 33.53865,
+        "lon": -112.18599,
+        "name": "State Farm Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12649,6 +12759,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3096": {
+        "city": "Rothes",
+        "country": "Scotland",
+        "id": "3096",
+        "lat": 57.52624,
+        "lon": -3.20663,
+        "name": "Mackessack Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "3113": {
         "city": "Marseille",
         "country": "France",
@@ -12656,6 +12776,16 @@
         "lat": 43.29695,
         "lon": 5.38107,
         "name": "Stade V\u00e9lodrome",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3130": {
+        "city": "Linlithgow",
+        "country": "Scotland",
+        "id": "3130",
+        "lat": 42.16391,
+        "lon": -88.04091,
+        "name": "Prestonfield",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -13069,6 +13199,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3564": {
+        "city": "Forres",
+        "country": "Scotland",
+        "id": "3564",
+        "lat": 57.60997,
+        "lon": -3.62115,
+        "name": "Mosset Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "3596": {
         "city": "Villa Lynch",
         "country": "Argentina",
@@ -13126,6 +13266,16 @@
         "lat": 45.54672,
         "lon": 11.5475,
         "name": "Romeo Menti di Vicenza",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3657": {
+        "city": "Keith",
+        "country": "Scotland",
+        "id": "3657",
+        "lat": 57.53633,
+        "lon": -2.94811,
+        "name": "Kynoch Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -14066,6 +14216,16 @@
         "lat": 50.965,
         "lon": 5.50082,
         "name": "Cegeka Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4592": {
+        "city": "Galati",
+        "country": "Romania",
+        "id": "4592",
+        "lat": 45.43687,
+        "lon": 28.05028,
+        "name": "Stadionul Otelul",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -15619,6 +15779,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "5764": {
+        "city": "Luzern",
+        "country": "Switzerland",
+        "id": "5764",
+        "lat": 47.05048,
+        "lon": 8.30635,
+        "name": "Swissporarena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "5771": {
         "city": "Moscow",
         "country": "Russia",
@@ -15656,6 +15826,16 @@
         "lat": -34.61315,
         "lon": -58.37723,
         "name": "Centenario de Armenia",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5790": {
+        "city": "Ekaterinburg",
+        "country": "Russia",
+        "id": "5790",
+        "lat": 56.74311,
+        "lon": 60.80273,
+        "name": "Ekaterinburg Arena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17389,6 +17569,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6901": {
+        "city": "Edinburgh",
+        "country": "Scotland",
+        "id": "6901",
+        "lat": 55.95206,
+        "lon": -3.19648,
+        "name": "Christie Gillies Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6902": {
+        "city": "Beith",
+        "country": "Scotland",
+        "id": "6902",
+        "lat": 55.74923,
+        "lon": -4.6368,
+        "name": "Bellsdale Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6903": {
         "city": "Moscow",
         "country": "Russia",
@@ -18879,6 +19079,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8261": {
+        "city": "Motherwell",
+        "country": "Scotland",
+        "id": "8261",
+        "lat": 42.84148,
+        "lon": -70.92422,
+        "name": "Alliance Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8262": {
+        "city": "Dundee",
+        "country": "Scotland",
+        "id": "8262",
+        "lat": 1.35722,
+        "lon": 103.83639,
+        "name": "Thomson Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8265": {
         "city": "Harkema",
         "country": "Netherlands",
@@ -18966,6 +19186,16 @@
         "lat": -34.92126,
         "lon": -57.95442,
         "name": "Estadio Jorge Luis Hirschi",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8315": {
+        "city": "Melilla",
+        "country": "Spain",
+        "id": "8315",
+        "lat": 35.29369,
+        "lon": -2.93833,
+        "name": "La Espiguera",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19299,6 +19529,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8602": {
+        "city": "Tranent",
+        "country": "Scotland",
+        "id": "8602",
+        "lat": 55.94439,
+        "lon": -2.95412,
+        "name": "Foresters Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8603": {
+        "city": "Haddington",
+        "country": "Scotland",
+        "id": "8603",
+        "lat": 55.95612,
+        "lon": -2.78332,
+        "name": "Millfield Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8609": {
         "city": "Sao Joao del Rei",
         "country": "Brazil",
@@ -19306,6 +19556,16 @@
         "lat": -21.13556,
         "lon": -44.26167,
         "name": "Est\u00e1dio Joaquim Portugal",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8613": {
+        "city": "Aberdeen",
+        "country": "Scotland",
+        "id": "8613",
+        "lat": 42.03447,
+        "lon": -87.91451,
+        "name": "Westfield Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19636,6 +19896,16 @@
         "lat": 35.55487,
         "lon": -79.2378,
         "name": "Townhead Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8861": {
+        "city": "Bo'ness",
+        "country": "Scotland",
+        "id": "8861",
+        "lat": -38.15597,
+        "lon": 144.32153,
+        "name": "Newtown Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -20169,6 +20439,36 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9276": {
+        "city": "Glasgow",
+        "country": "Scotland",
+        "id": "9276",
+        "lat": 55.86515,
+        "lon": -4.25763,
+        "name": "Newlandsfield Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9277": {
+        "city": "Hill of Beath",
+        "country": "Scotland",
+        "id": "9277",
+        "lat": 56.09514,
+        "lon": -3.3683,
+        "name": "Keirs Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9280": {
+        "city": "Musselburgh",
+        "country": "Scotland",
+        "id": "9280",
+        "lat": 55.9417,
+        "lon": -3.04991,
+        "name": "Olivebank Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9281": {
         "city": "Jakarta",
         "country": "Indonesia",
@@ -20236,6 +20536,16 @@
         "lat": 38.01222,
         "lon": 39.95472,
         "name": "Diyarbakir Stadyumu",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9330": {
+        "city": "Ceuta",
+        "country": "Spain",
+        "id": "9330",
+        "lat": 35.88919,
+        "lon": -5.32042,
+        "name": "Estadio Jos\u00e9 Mart\u00ednez",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -22749,6 +23059,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "cd-tedeon": {
+        "city": "",
+        "country": "",
+        "id": "cd-tedeon",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "cd-utiel": {
         "city": "",
         "country": "",
@@ -24699,6 +25019,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "internazionale": {
+        "city": "",
+        "country": "",
+        "id": "internazionale",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "ir-tanger": {
         "city": "",
         "country": "",
@@ -26589,6 +26919,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "renfrew": {
+        "city": "",
+        "country": "",
+        "id": "renfrew",
+        "lat": 40.80673,
+        "lon": -79.96478,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "reus-fc-reddis": {
         "city": "",
         "country": "",
@@ -27009,6 +27349,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "slavia-sofia": {
+        "city": "",
+        "country": "",
+        "id": "slavia-sofia",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "slimbridge": {
         "city": "",
         "country": "",
@@ -27179,6 +27529,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "sri-lanka": {
+        "city": "",
+        "country": "",
+        "id": "sri-lanka",
+        "lat": 7.75,
+        "lon": 80.75,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "ssc-giugliano": {
         "city": "",
         "country": "",
@@ -27285,6 +27645,16 @@
         "id": "stourbridge",
         "lat": 52.45608,
         "lon": -2.14317,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "strathspey-thistle": {
+        "city": "",
+        "country": "",
+        "id": "strathspey-thistle",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
