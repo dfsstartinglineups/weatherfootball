@@ -1819,6 +1819,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10608": {
+        "city": "Tanger",
+        "country": "Morocco",
+        "id": "10608",
+        "lat": 35.76727,
+        "lon": -5.79975,
+        "name": "Ibn Batouta Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10609": {
         "city": "Jeddah",
         "country": "Saudi Arabia",
@@ -1846,6 +1856,16 @@
         "lat": 38.10586,
         "lon": -93.54465,
         "name": "Stade Omnisports de Malouzini",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10623": {
+        "city": "Backa Topola",
+        "country": "Serbia",
+        "id": "10623",
+        "lat": 45.81516,
+        "lon": 19.6318,
+        "name": "Gradski stadion Backa Topola",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9889,6 +9909,46 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11778": {
+        "city": "Manises",
+        "country": "Spain",
+        "id": "11778",
+        "lat": 39.07195,
+        "lon": -0.26623,
+        "name": "Tavernes de la Valldigna",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11779": {
+        "city": "Santander",
+        "country": "Spain",
+        "id": "11779",
+        "lat": 20.80972,
+        "lon": -101.48444,
+        "name": "La Caseta",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11780": {
+        "city": "Ciudad Real",
+        "country": "Spain",
+        "id": "11780",
+        "lat": 38.98626,
+        "lon": -3.92907,
+        "name": "Manuel Delgado Meco",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11781": {
+        "city": "El Prat De Llobregat",
+        "country": "Spain",
+        "id": "11781",
+        "lat": 41.32784,
+        "lon": 2.09472,
+        "name": "Municipal Sagnier",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11782": {
         "city": "La L\u00ednea de la Concepci\u00f3n",
         "country": "Spain",
@@ -10189,6 +10249,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11831": {
+        "city": "Moscow",
+        "country": "Russia",
+        "id": "11831",
+        "lat": 55.75204,
+        "lon": 37.61781,
+        "name": "Baza CSKA Moskva",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11833": {
         "city": "Pasching",
         "country": "Austria",
@@ -10216,6 +10286,16 @@
         "lat": 47.33333,
         "lon": 13.33333,
         "name": "Gmoan-Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11838": {
+        "city": "Santa Cruz de Tenerife",
+        "country": "Spain",
+        "id": "11838",
+        "lat": 28.46824,
+        "lon": -16.25462,
+        "name": "Estadio de Tasagaya",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -10306,6 +10386,16 @@
         "lat": 52.52437,
         "lon": 13.41053,
         "name": "Werner-Seelenbinder-Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11855": {
+        "city": "Khimki",
+        "country": "Russia",
+        "id": "11855",
+        "lat": 55.9001,
+        "lon": 37.42848,
+        "name": "VTB UTB Novogorsk-Dynamo",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -15736,6 +15826,16 @@
         "lat": -32.82033,
         "lon": -61.39513,
         "name": "Rep\u00fablica de Italia",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5715": {
+        "city": "San Juan",
+        "country": "Argentina",
+        "id": "5715",
+        "lat": -31.53726,
+        "lon": -68.52568,
+        "name": "San Juan del Bicentenario",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -23499,6 +23599,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "csm-slatina": {
+        "city": "",
+        "country": "",
+        "id": "csm-slatina",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "cultural-leonesa": {
         "city": "",
         "country": "",
@@ -23663,6 +23773,16 @@
         "city": "",
         "country": "",
         "id": "dinamo-city",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "dinamo-minsk": {
+        "city": "",
+        "country": "",
+        "id": "dinamo-minsk",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -24079,6 +24199,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "fc-kolos-kovalivka": {
+        "city": "",
+        "country": "",
+        "id": "fc-kolos-kovalivka",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "fc-koper": {
         "city": "",
         "country": "",
@@ -24473,6 +24603,16 @@
         "city": "",
         "country": "",
         "id": "girona-ii",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "gjilani": {
+        "city": "",
+        "country": "",
+        "id": "gjilani",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -28503,6 +28643,16 @@
         "city": "",
         "country": "",
         "id": "zbrojovka-brno",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "zenit-st-petersburg": {
+        "city": "",
+        "country": "",
+        "id": "zenit-st-petersburg",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
