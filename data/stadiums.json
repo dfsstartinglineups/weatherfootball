@@ -10459,6 +10459,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11867": {
+        "city": "Johannesburg",
+        "country": "South Africa",
+        "id": "11867",
+        "lat": -26.20227,
+        "lon": 28.04363,
+        "name": "FNB Training Pitch",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1198": {
         "city": "Tel-Aviv",
         "country": "Israel",
@@ -11359,6 +11369,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "1804": {
+        "city": "New South Wales",
+        "country": "Australia",
+        "id": "1804",
+        "lat": 25.23992,
+        "lon": 55.19986,
+        "name": "Central Coast Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "181": {
         "city": "Cardiff",
         "country": "Wales",
@@ -12096,6 +12116,16 @@
         "lat": 41.05453,
         "lon": -76.23327,
         "name": "Shielfield Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2417": {
+        "city": "Pescara",
+        "country": "Italy",
+        "id": "2417",
+        "lat": 42.4584,
+        "lon": 14.20283,
+        "name": "Stadio Adriatico",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -15419,6 +15449,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "5418": {
+        "city": "Itagui",
+        "country": "Colombia",
+        "id": "5418",
+        "lat": 6.18461,
+        "lon": -75.59913,
+        "name": "Metropolitano Ciudad de Itag\u00fc\u00ed",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "5426": {
         "city": "Antofagasta",
         "country": "Chile",
@@ -15816,6 +15856,16 @@
         "lat": -34.61315,
         "lon": -58.37723,
         "name": "Don Le\u00f3n Kolbovsky",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5673": {
+        "city": "Falkenberg",
+        "country": "Sweden",
+        "id": "5673",
+        "lat": 56.90552,
+        "lon": 12.49118,
+        "name": "Falcon Alkoholfri",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19796,6 +19846,16 @@
         "lat": 59.26667,
         "lon": 15.01667,
         "name": "Stora Valla",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8708": {
+        "city": "Podgorica",
+        "country": "Montenegro",
+        "id": "8708",
+        "lat": 42.44124,
+        "lon": 19.26309,
+        "name": "DG Arena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -27399,6 +27459,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "serbia-u21": {
+        "city": "",
+        "country": "",
+        "id": "serbia-u21",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "shakhtar-donetsk": {
         "city": "",
         "country": "",
@@ -28133,6 +28203,16 @@
         "city": "",
         "country": "",
         "id": "ud-ibiza",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "ukraine-u21": {
+        "city": "",
+        "country": "",
+        "id": "ukraine-u21",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",

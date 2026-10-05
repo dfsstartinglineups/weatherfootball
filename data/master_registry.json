@@ -49,8 +49,8 @@
             "slug": "arabian-gulf-cup"
         },
         "argentine-liga-profesional-de-futbol": {
-            "last_crossover_date": "2026-10-04",
-            "last_updated": 1791182752.678583,
+            "last_crossover_date": "2026-10-05",
+            "last_updated": 1791183657.525094,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png",
             "name": "Argentine Liga Profesional de F\u00fatbol",
             "pill": "arg.1",
@@ -65,16 +65,16 @@
             "slug": "argentine-lpf"
         },
         "argentine-nacional-b": {
-            "last_crossover_date": "2026-10-04",
-            "last_updated": 1791182754.325304,
+            "last_crossover_date": "2026-10-05",
+            "last_updated": 1791183657.661601,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2294.png",
             "name": "Argentine Nacional B",
             "pill": "arg.2",
             "slug": "argentine-nacional-b"
         },
         "argentine-primera-b": {
-            "last_crossover_date": "2026-10-04",
-            "last_updated": 1791182754.74948,
+            "last_crossover_date": "2026-10-05",
+            "last_updated": 1791183657.843714,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2308.png",
             "name": "Argentine Primera B",
             "pill": "arg.3",
@@ -193,8 +193,8 @@
             "slug": "col-1"
         },
         "colombian-primera-a": {
-            "last_crossover_date": "2026-10-04",
-            "last_updated": 1791182756.761257,
+            "last_crossover_date": "2026-10-05",
+            "last_updated": 1791183658.141135,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -209,8 +209,8 @@
             "slug": "concacaf-central-american-cup"
         },
         "concacaf-nations-league": {
-            "last_crossover_date": "2026-10-04",
-            "last_updated": 1791182728.306499,
+            "last_crossover_date": "2026-10-05",
+            "last_updated": 1791183630.627403,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2406.png",
             "name": "Concacaf Nations League",
             "pill": "concacaf.nations.league",
@@ -561,8 +561,8 @@
             "slug": "honduran-liga-nacional"
         },
         "international-friendly": {
-            "last_crossover_date": "2026-10-04",
-            "last_updated": 1791182723.679177,
+            "last_crossover_date": "2026-10-05",
+            "last_updated": 1791183629.656142,
             "logo": "\ud83c\udf0e",
             "name": "International Friendly",
             "pill": "fifa.friendly",
@@ -601,8 +601,8 @@
             "slug": "leagues-cup"
         },
         "liga-auf-uruguaya": {
-            "last_crossover_date": "2026-10-04",
-            "last_updated": 1791182755.912338,
+            "last_crossover_date": "2026-10-05",
+            "last_updated": 1791183658.003443,
             "logo": "https://flagcdn.com/w40/uy.png",
             "name": "Liga AUF Uruguaya",
             "pill": "uru.1",
@@ -705,8 +705,8 @@
             "slug": "nwsl"
         },
         "paraguayan-primera-division": {
-            "last_crossover_date": "2026-09-28",
-            "last_updated": 1790664343.787864,
+            "last_crossover_date": "2026-10-05",
+            "last_updated": 1791183663.302367,
             "logo": "https://flagcdn.com/w40/py.png",
             "name": "Paraguayan Primera Divisi\u00f3n",
             "pill": "par.1",
@@ -857,8 +857,8 @@
             "slug": "spanish-laliga"
         },
         "spanish-laliga-2": {
-            "last_crossover_date": "2026-10-04",
-            "last_updated": 1791182750.727497,
+            "last_crossover_date": "2026-10-05",
+            "last_updated": 1791183630.759438,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
             "name": "Spanish LALIGA 2",
             "pill": "esp.2",
@@ -969,16 +969,16 @@
             "slug": "uefa-europa-league-qualifying"
         },
         "uefa-european-under-21-championship-qualifying": {
-            "last_crossover_date": "2026-10-01",
-            "last_updated": 1790923547.931434,
+            "last_crossover_date": "2026-10-05",
+            "last_updated": 1791183640.756746,
             "logo": "\ud83c\udf0e",
             "name": "UEFA European Under-21 Championship Qualifying",
             "pill": "uefa.euro_u21_qual",
             "slug": "uefa-european-under-21-championship-qualifying"
         },
         "uefa-nations-league": {
-            "last_crossover_date": "2026-10-04",
-            "last_updated": 1791182722.655057,
+            "last_crossover_date": "2026-10-05",
+            "last_updated": 1791183624.025564,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Nations League",
             "pill": "uefa.nations",
@@ -1017,8 +1017,8 @@
             "slug": "uefa-womens-europa-cup"
         },
         "under-21-international-friendly": {
-            "last_crossover_date": "2026-09-28",
-            "last_updated": 1790664339.662302,
+            "last_crossover_date": "2026-10-05",
+            "last_updated": 1791183652.176862,
             "logo": "\ud83c\udf0e",
             "name": "Under-21 International Friendly",
             "pill": "fifa.friendly_u21",
@@ -1982,6 +1982,11 @@
             "league": "UEFA Nations League",
             "name": "Albania",
             "slug": "albania"
+        },
+        "albania-u21": {
+            "league": "Under-21 International Friendly",
+            "name": "Albania U21",
+            "slug": "albania-u21"
         },
         "albinoleffe": {
             "league": "Club Friendly",
@@ -3047,6 +3052,11 @@
             "league": "Club Friendly",
             "name": "Austria Lustenau",
             "slug": "austria-lustenau"
+        },
+        "austria-u21": {
+            "league": "Under-21 International Friendly",
+            "name": "Austria U21",
+            "slug": "austria-u21"
         },
         "austria-vienna": {
             "league": "Club Friendly",
@@ -6184,7 +6194,7 @@
             "slug": "corby-town"
         },
         "cordoba": {
-            "league": "Spanish Copa de la Reina",
+            "league": "Spanish LALIGA 2",
             "name": "C\u00f3rdoba",
             "slug": "cordoba"
         },
@@ -8079,7 +8089,7 @@
             "slug": "estudiantes-buenos-aires"
         },
         "estudiantes-de-la-plata": {
-            "league": "Copa Argentina",
+            "league": "Argentine Liga Profesional de F\u00fatbol",
             "name": "Estudiantes de La Plata",
             "slug": "estudiantes-de-la-plata"
         },
@@ -9604,7 +9614,7 @@
             "slug": "ghana-women"
         },
         "gibraltar": {
-            "league": "UEFA Nations League",
+            "league": "International Friendly",
             "name": "Gibraltar",
             "slug": "gibraltar"
         },
@@ -11939,7 +11949,7 @@
             "slug": "kentucky-women"
         },
         "kenya": {
-            "league": "Africa Cup of Nations Qualifying",
+            "league": "International Friendly",
             "name": "Kenya",
             "slug": "kenya"
         },
@@ -12749,7 +12759,7 @@
             "slug": "lichfield-city"
         },
         "liechtenstein": {
-            "league": "UEFA Nations League",
+            "league": "International Friendly",
             "name": "Liechtenstein",
             "slug": "liechtenstein"
         },
@@ -16574,7 +16584,7 @@
             "slug": "pittsburgh-women"
         },
         "platense": {
-            "league": "Copa Argentina",
+            "league": "Argentine Liga Profesional de F\u00fatbol",
             "name": "Platense",
             "slug": "platense"
         },
@@ -18204,7 +18214,7 @@
             "slug": "rw-oberhausen"
         },
         "rwanda": {
-            "league": "Africa Cup of Nations Qualifying",
+            "league": "International Friendly",
             "name": "Rwanda",
             "slug": "rwanda"
         },
@@ -19058,6 +19068,11 @@
             "name": "Serbia",
             "slug": "serbia"
         },
+        "serbia-u21": {
+            "league": "Under-21 International Friendly",
+            "name": "Serbia U21",
+            "slug": "serbia-u21"
+        },
         "serpa": {
             "league": "Taca de Portugal",
             "name": "Serpa",
@@ -19752,6 +19767,11 @@
             "league": "International Friendly",
             "name": "South Korea",
             "slug": "south-korea"
+        },
+        "south-korea-u21": {
+            "league": "Under-21 International Friendly",
+            "name": "South Korea U21",
+            "slug": "south-korea-u21"
         },
         "south-liverpool": {
             "league": "English FA Cup Qualifying",
@@ -21947,6 +21967,11 @@
             "league": "UEFA Nations League",
             "name": "Ukraine",
             "slug": "ukraine"
+        },
+        "ukraine-u21": {
+            "league": "Under-21 International Friendly",
+            "name": "Ukraine U21",
+            "slug": "ukraine-u21"
         },
         "ul-monroe-warhawks-women": {
             "league": "NCAA Women's Soccer",
