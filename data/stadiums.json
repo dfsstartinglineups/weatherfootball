@@ -519,6 +519,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10285": {
+        "city": "Druskininkai",
+        "country": "Lithuania",
+        "id": "10285",
+        "lat": 54.01573,
+        "lon": 23.98703,
+        "name": "LSC Sporto kompleksas Druskininkai",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10286": {
         "city": "Amaan Stadium",
         "country": "Tanzania",
@@ -2129,6 +2139,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10656": {
+        "city": "Nizhny Novgorod",
+        "country": "Russia",
+        "id": "10656",
+        "lat": 56.32867,
+        "lon": 44.00205,
+        "name": "Nizhny Novgorod Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10657": {
         "city": "Kaliningrad",
         "country": "Russia",
@@ -3676,6 +3696,16 @@
         "lat": 52.41426,
         "lon": -1.78094,
         "name": "ARMCO Areana",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10865": {
+        "city": "Norrk\u00f6ping",
+        "country": "Sweden",
+        "id": "10865",
+        "lat": 58.59419,
+        "lon": 16.1826,
+        "name": "Nya Parken",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -10109,6 +10139,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11811": {
+        "city": "Eivissa",
+        "country": "Spain",
+        "id": "11811",
+        "lat": 38.93057,
+        "lon": 1.36265,
+        "name": "Estadi Municipal de Can Misses",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11812": {
         "city": "Melbourne",
         "country": "Australia",
@@ -10466,6 +10506,16 @@
         "lat": -26.20227,
         "lon": 28.04363,
         "name": "FNB Training Pitch",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11869": {
+        "city": "",
+        "country": "England",
+        "id": "11869",
+        "lat": 34.54426,
+        "lon": -91.96903,
+        "name": "Scarborough Sports Village",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11266,6 +11316,16 @@
         "lat": -12.4501,
         "lon": 130.8331,
         "name": "Palmerston Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1722": {
+        "city": "Los Angeles, California",
+        "country": "USA",
+        "id": "1722",
+        "lat": 34.05223,
+        "lon": -118.24368,
+        "name": "Los Angeles Memorial Coliseum",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12699,6 +12759,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "2838": {
+        "city": "Orleans",
+        "country": "France",
+        "id": "2838",
+        "lat": 47.90248,
+        "lon": 1.90407,
+        "name": "Stade de la Source",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "2846": {
         "city": "M\u00e9rida",
         "country": "Venezuela",
@@ -13556,6 +13626,16 @@
         "lat": 54.9981,
         "lon": -7.30934,
         "name": "Brandywell Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3750": {
+        "city": "Lurgan",
+        "country": "Northern Ireland",
+        "id": "3750",
+        "lat": 40.09398,
+        "lon": -77.6311,
+        "name": "Mourneview Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -14499,6 +14579,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4643": {
+        "city": "Miami Gardens, Florida",
+        "country": "USA",
+        "id": "4643",
+        "lat": 25.94204,
+        "lon": -80.2456,
+        "name": "Hard Rock Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4644": {
         "city": "Estadio Cementos Progreso",
         "country": "Guatemala",
@@ -14706,6 +14796,16 @@
         "lat": 43.55135,
         "lon": 7.01275,
         "name": "Stade Pierre de Coubertin, Cannes",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4812": {
+        "city": "Leiria",
+        "country": "Portugal",
+        "id": "4812",
+        "lat": 39.74362,
+        "lon": -8.80705,
+        "name": "Est\u00e1dio Dr. Magalhaes Pessoa",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16046,6 +16146,16 @@
         "lat": 42.15387,
         "lon": 24.75001,
         "name": "Hristo Botev Stadium, Plovdiv",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5856": {
+        "city": "Esch-sur-Alzette",
+        "country": "Luxembourg",
+        "id": "5856",
+        "lat": 49.75,
+        "lon": 6.16667,
+        "name": "Stade de la Fronti\u00e8re",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17969,6 +18079,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7045": {
+        "city": "Indaiatuba",
+        "country": "Brazil",
+        "id": "7045",
+        "lat": -23.08842,
+        "lon": -47.2119,
+        "name": "Est\u00e1dio Italo M\u00e1rio Limongi",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7058": {
         "city": "Usti nad Labem",
         "country": "Czechia",
@@ -18889,6 +19009,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7851": {
+        "city": "Caernarfon",
+        "country": "Wales",
+        "id": "7851",
+        "lat": 53.14126,
+        "lon": -4.27016,
+        "name": "The Oval, Caernarfon",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7858": {
         "city": "Aberdeen",
         "country": "Scotland",
@@ -18926,6 +19056,16 @@
         "lat": 14.66667,
         "lon": -61.0,
         "name": "Stade Pierre-Aliker",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7907": {
+        "city": "Riga",
+        "country": "Latvia",
+        "id": "7907",
+        "lat": 56.946,
+        "lon": 24.10589,
+        "name": "Daugavas Stadions",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19016,6 +19156,16 @@
         "lat": 10.1,
         "lon": -70.03333,
         "name": "Estadio Regional de Los Andes",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8065": {
+        "city": "Gyeonggi-do",
+        "country": "South Korea",
+        "id": "8065",
+        "lat": 36.5,
+        "lon": 127.75,
+        "name": "Yongin Citizen Sports Park",
         "roof": "Open",
         "surface": "Grass"
     },
