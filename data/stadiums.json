@@ -5499,6 +5499,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11237": {
+        "city": "",
+        "country": "USA",
+        "id": "11237",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Madrid Sports Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11238": {
         "city": "Charleston",
         "country": "USA",
@@ -6076,6 +6086,16 @@
         "lat": 32.31232,
         "lon": -106.77834,
         "name": "Soccer Athletic Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11307": {
+        "city": "Oahu",
+        "country": "USA",
+        "id": "11307",
+        "lat": 20.70004,
+        "lon": -155.9972,
+        "name": "Waipi\u2018o Peninsula Soccer Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6799,6 +6819,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11410": {
+        "city": "",
+        "country": "USA",
+        "id": "11410",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "A-State Soccer Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11412": {
         "city": "",
         "country": "USA",
@@ -6806,6 +6836,16 @@
         "lat": 36.54848,
         "lon": -78.34194,
         "name": "Edens Field at Martin Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11417": {
+        "city": "Davis, California",
+        "country": "USA",
+        "id": "11417",
+        "lat": 38.54491,
+        "lon": -121.74052,
+        "name": "Aggie Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -10516,6 +10556,16 @@
         "lat": 34.54426,
         "lon": -91.96903,
         "name": "Scarborough Sports Village",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11873": {
+        "city": "Aqaba",
+        "country": "Jordan",
+        "id": "11873",
+        "lat": 29.52667,
+        "lon": 35.00778,
+        "name": "Aqaba Development Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -25833,6 +25883,16 @@
         "city": "",
         "country": "",
         "id": "libertad-ecuador",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "liechtenstein-women": {
+        "city": "",
+        "country": "",
+        "id": "liechtenstein-women",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",

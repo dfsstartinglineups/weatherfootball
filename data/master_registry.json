@@ -113,16 +113,16 @@
             "slug": "bolivian-liga-profesional"
         },
         "brazilian-serie-a": {
-            "last_crossover_date": "2026-09-16",
-            "last_updated": 1789627533.032846,
+            "last_crossover_date": "2026-10-07",
+            "last_updated": 1791356436.881578,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png",
             "name": "Brazilian Serie A",
             "pill": "bra.1",
             "slug": "brazilian-serie-a"
         },
         "brazilian-serie-b": {
-            "last_crossover_date": "2026-10-06",
-            "last_updated": 1791355532.839338,
+            "last_crossover_date": "2026-10-07",
+            "last_updated": 1791356437.766052,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
@@ -241,16 +241,16 @@
             "slug": "copa-argentina"
         },
         "copa-bolivia": {
-            "last_crossover_date": "2026-10-06",
-            "last_updated": 1791355533.99896,
+            "last_crossover_date": "2026-10-07",
+            "last_updated": 1791356438.605042,
             "logo": "",
             "name": "Copa Bolivia",
             "pill": "bol.copa",
             "slug": "copa-bolivia"
         },
         "copa-chile": {
-            "last_crossover_date": "2026-10-06",
-            "last_updated": 1791355533.040607,
+            "last_crossover_date": "2026-10-07",
+            "last_updated": 1791356438.037162,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2331.png",
             "name": "Copa Chile",
             "pill": "chi.copa_chi",
@@ -665,16 +665,16 @@
             "slug": "mls"
         },
         "ncaa-mens-soccer": {
-            "last_crossover_date": "2026-10-06",
-            "last_updated": 1791355537.6884,
+            "last_crossover_date": "2026-10-07",
+            "last_updated": 1791356441.615133,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
             "slug": "ncaa-mens-soccer"
         },
         "ncaa-womens-soccer": {
-            "last_crossover_date": "2026-10-01",
-            "last_updated": 1790923582.570158,
+            "last_crossover_date": "2026-10-07",
+            "last_updated": 1791356467.345455,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -1057,8 +1057,8 @@
             "slug": "usl-cup"
         },
         "usl-league-one": {
-            "last_crossover_date": "2026-10-03",
-            "last_updated": 1791096331.896303,
+            "last_crossover_date": "2026-10-07",
+            "last_updated": 1791356436.031127,
             "logo": "",
             "name": "USL League One",
             "pill": "usa.usl.l1",
@@ -1089,8 +1089,8 @@
             "slug": "womens-africa-cup-of-nations"
         },
         "womens-international-friendly": {
-            "last_crossover_date": "2026-10-03",
-            "last_updated": 1791096320.441139,
+            "last_crossover_date": "2026-10-07",
+            "last_updated": 1791356430.572575,
             "logo": "\ud83c\udf0e",
             "name": "Women's International Friendly",
             "pill": "fifa.friendly.w",
@@ -2517,6 +2517,11 @@
             "league": "UEFA European Under-21 Championship Qualifying",
             "name": "Armenia U21",
             "slug": "armenia-u21"
+        },
+        "armenia-women": {
+            "league": "Women's International Friendly",
+            "name": "Armenia Women",
+            "slug": "armenia-women"
         },
         "arminia-bielefeld": {
             "league": "German 2. Bundesliga",
@@ -6229,7 +6234,7 @@
             "slug": "corinthian-casuals"
         },
         "corinthians": {
-            "league": "CONMEBOL Libertadores",
+            "league": "Brazilian Serie A",
             "name": "Corinthians",
             "slug": "corinthians"
         },
@@ -9143,6 +9148,11 @@
             "name": "Fordham FORDHAM RAMS Women",
             "slug": "fordham-fordham-rams-women"
         },
+        "fordham-rams": {
+            "league": "NCAA Men's Soccer",
+            "name": "Fordham Rams",
+            "slug": "fordham-rams"
+        },
         "fordham-rams-women": {
             "league": "NCAA Women's Soccer",
             "name": "Fordham Rams Women",
@@ -9637,6 +9647,11 @@
             "league": "UEFA European Under-21 Championship Qualifying",
             "name": "Gibraltar U21",
             "slug": "gibraltar-u21"
+        },
+        "gibraltar-women": {
+            "league": "Women's International Friendly",
+            "name": "Gibraltar Women",
+            "slug": "gibraltar-women"
         },
         "gijon-industrial": {
             "league": "Club Friendly",
@@ -11688,6 +11703,11 @@
             "name": "Jordan",
             "slug": "jordan"
         },
+        "jordan-women": {
+            "league": "Women's International Friendly",
+            "name": "Jordan Women",
+            "slug": "jordan-women"
+        },
         "jos-watergraafsmeer": {
             "league": "Dutch KNVB Beker",
             "name": "JOS Watergraafsmeer",
@@ -12787,6 +12807,11 @@
             "league": "International Friendly",
             "name": "Liechtenstein",
             "slug": "liechtenstein"
+        },
+        "liechtenstein-women": {
+            "league": "Women's International Friendly",
+            "name": "Liechtenstein Women",
+            "slug": "liechtenstein-women"
         },
         "life-pacific-university": {
             "league": "NCAA Men's Soccer",
@@ -15953,6 +15978,11 @@
             "name": "Oral Roberts",
             "slug": "oral-roberts"
         },
+        "oral-roberts-golden-eagles": {
+            "league": "NCAA Men's Soccer",
+            "name": "Oral Roberts Golden Eagles",
+            "slug": "oral-roberts-golden-eagles"
+        },
         "oral-roberts-oral-roberts-golden-eagles": {
             "league": "NCAA Men's Soccer",
             "name": "Oral Roberts ORAL ROBERTS GOLDEN EAGLES",
@@ -16147,6 +16177,11 @@
             "league": "NCAA Men's Soccer",
             "name": "Pacific Tigers",
             "slug": "pacific-tigers"
+        },
+        "pacific-tigers-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Pacific Tigers Women",
+            "slug": "pacific-tigers-women"
         },
         "pacific-women": {
             "league": "NCAA Women's Soccer",
@@ -18784,7 +18819,7 @@
             "slug": "sao-joao-de-ver"
         },
         "sao-paulo": {
-            "league": "CONMEBOL Sudamericana",
+            "league": "Brazilian Serie A",
             "name": "S\u00e3o Paulo",
             "slug": "sao-paulo"
         },
@@ -19042,6 +19077,11 @@
             "league": "NCAA Men's Soccer",
             "name": "Seattle U Redhawks",
             "slug": "seattle-u-redhawks"
+        },
+        "seattle-u-redhawks-women": {
+            "league": "NCAA Women's Soccer",
+            "name": "Seattle U Redhawks Women",
+            "slug": "seattle-u-redhawks-women"
         },
         "seattle-u-seattle-u-redhawks": {
             "league": "NCAA Men's Soccer",
@@ -22113,6 +22153,11 @@
             "name": "UNC Greensboro",
             "slug": "unc-greensboro"
         },
+        "unc-greensboro-spartans": {
+            "league": "NCAA Men's Soccer",
+            "name": "UNC Greensboro Spartans",
+            "slug": "unc-greensboro-spartans"
+        },
         "unc-greensboro-spartans-women": {
             "league": "NCAA Women's Soccer",
             "name": "UNC Greensboro Spartans Women",
@@ -22659,7 +22704,7 @@
             "slug": "varzim"
         },
         "vasco-da-gama": {
-            "league": "CONMEBOL Sudamericana",
+            "league": "Brazilian Serie A",
             "name": "Vasco da Gama",
             "slug": "vasco-da-gama"
         },
