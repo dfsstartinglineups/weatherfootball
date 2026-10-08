@@ -113,16 +113,16 @@
             "slug": "bolivian-liga-profesional"
         },
         "brazilian-serie-a": {
-            "last_crossover_date": "2026-10-07",
-            "last_updated": 1791441928.819184,
+            "last_crossover_date": "2026-10-08",
+            "last_updated": 1791442833.276427,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png",
             "name": "Brazilian Serie A",
             "pill": "bra.1",
             "slug": "brazilian-serie-a"
         },
         "brazilian-serie-b": {
-            "last_crossover_date": "2026-10-07",
-            "last_updated": 1791441929.587257,
+            "last_crossover_date": "2026-10-08",
+            "last_updated": 1791442833.654027,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
@@ -193,8 +193,8 @@
             "slug": "col-1"
         },
         "colombian-primera-a": {
-            "last_crossover_date": "2026-10-05",
-            "last_updated": 1791269134.592008,
+            "last_crossover_date": "2026-10-08",
+            "last_updated": 1791442834.04,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -241,8 +241,8 @@
             "slug": "copa-argentina"
         },
         "copa-bolivia": {
-            "last_crossover_date": "2026-10-07",
-            "last_updated": 1791441930.282411,
+            "last_crossover_date": "2026-10-08",
+            "last_updated": 1791442834.757721,
             "logo": "",
             "name": "Copa Bolivia",
             "pill": "bol.copa",
@@ -545,8 +545,8 @@
             "slug": "greek-super-league"
         },
         "guatemalan-liga-nacional": {
-            "last_crossover_date": "2026-09-27",
-            "last_updated": 1790577966.323267,
+            "last_crossover_date": "2026-10-08",
+            "last_updated": 1791442834.940496,
             "logo": "https://flagcdn.com/w40/gt.png",
             "name": "Guatemalan Liga Nacional",
             "pill": "gua.1",
@@ -649,8 +649,8 @@
             "slug": "mexican-liga-bbva-mx-femenil"
         },
         "mexican-liga-de-expansion-mx": {
-            "last_crossover_date": "2026-10-04",
-            "last_updated": 1791182730.024561,
+            "last_crossover_date": "2026-10-08",
+            "last_updated": 1791442832.510471,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
@@ -665,16 +665,16 @@
             "slug": "mls"
         },
         "ncaa-mens-soccer": {
-            "last_crossover_date": "2026-10-07",
-            "last_updated": 1791441933.181947,
+            "last_crossover_date": "2026-10-08",
+            "last_updated": 1791442848.14475,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
             "slug": "ncaa-mens-soccer"
         },
         "ncaa-womens-soccer": {
-            "last_crossover_date": "2026-10-07",
-            "last_updated": 1791441942.666673,
+            "last_crossover_date": "2026-10-08",
+            "last_updated": 1791442984.720931,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -713,8 +713,8 @@
             "slug": "paraguayan-primera-division"
         },
         "peruvian-liga-1": {
-            "last_crossover_date": "2026-09-30",
-            "last_updated": 1790837143.511311,
+            "last_crossover_date": "2026-10-08",
+            "last_updated": 1791442834.394779,
             "logo": "https://flagcdn.com/w40/pe.png",
             "name": "Peruvian Liga 1",
             "pill": "per.1",
@@ -753,8 +753,8 @@
             "slug": "russian-premier-league"
         },
         "salvadoran-primera-division": {
-            "last_crossover_date": "2026-10-01",
-            "last_updated": 1790923548.97298,
+            "last_crossover_date": "2026-10-08",
+            "last_updated": 1791442835.110502,
             "logo": "https://flagcdn.com/w40/sv.png",
             "name": "Salvadoran Primera Division",
             "pill": "slv.1",
@@ -1089,8 +1089,8 @@
             "slug": "womens-africa-cup-of-nations"
         },
         "womens-international-friendly": {
-            "last_crossover_date": "2026-10-07",
-            "last_updated": 1791441927.354264,
+            "last_crossover_date": "2026-10-08",
+            "last_updated": 1791442826.626693,
             "logo": "\ud83c\udf0e",
             "name": "Women's International Friendly",
             "pill": "fifa.friendly.w",
@@ -2929,7 +2929,7 @@
             "slug": "atletico-melilla"
         },
         "atletico-mg": {
-            "league": "CONMEBOL Sudamericana",
+            "league": "Brazilian Serie A",
             "name": "Atl\u00e9tico-MG",
             "slug": "atletico-mg"
         },
@@ -8989,7 +8989,7 @@
             "slug": "flackwell-heath"
         },
         "flamengo": {
-            "league": "CONMEBOL Libertadores",
+            "league": "Brazilian Serie A",
             "name": "Flamengo",
             "slug": "flamengo"
         },
@@ -9119,7 +9119,7 @@
             "slug": "floridsdorfer-ac"
         },
         "fluminense": {
-            "league": "CONMEBOL Libertadores",
+            "league": "Brazilian Serie A",
             "name": "Fluminense",
             "slug": "fluminense"
         },
@@ -11242,6 +11242,11 @@
             "league": "International Friendly",
             "name": "India",
             "slug": "india"
+        },
+        "india-women": {
+            "league": "Women's International Friendly",
+            "name": "India Women",
+            "slug": "india-women"
         },
         "indiana": {
             "league": "NCAA Men's Soccer",
@@ -16249,7 +16254,7 @@
             "slug": "palestino"
         },
         "palmeiras": {
-            "league": "CONMEBOL Libertadores",
+            "league": "Brazilian Serie A",
             "name": "Palmeiras",
             "slug": "palmeiras"
         },
@@ -18238,6 +18243,11 @@
             "name": "Russia U21",
             "slug": "russia-u21"
         },
+        "russia-women": {
+            "league": "Women's International Friendly",
+            "name": "Russia Women",
+            "slug": "russia-women"
+        },
         "rusthall": {
             "league": "English FA Cup Qualifying",
             "name": "Rusthall",
@@ -18794,7 +18804,7 @@
             "slug": "santomera"
         },
         "santos": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Brazilian Serie A",
             "name": "Santos",
             "slug": "santos"
         },
