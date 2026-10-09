@@ -1609,6 +1609,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10541": {
+        "city": "Ar-Rayyan",
+        "country": "Qatar",
+        "id": "10541",
+        "lat": 25.29194,
+        "lon": 51.42444,
+        "name": "Aspire Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10548": {
         "city": "Parma",
         "country": "Italy",
@@ -4539,6 +4549,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11019": {
+        "city": "Bucuresti",
+        "country": "Romania",
+        "id": "11019",
+        "lat": 44.4913,
+        "lon": 26.03459,
+        "name": "Stadionul Arcul de Triumf",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11020": {
         "city": "Horsens",
         "country": "Denmark",
@@ -5216,16 +5236,6 @@
         "lat": 38.25424,
         "lon": -85.75941,
         "name": "Dr. Mark and Cindy Lynn Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11196": {
-        "city": "",
-        "country": "USA",
-        "id": "11196",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Buser Family Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6609,16 +6619,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11361": {
-        "city": "",
-        "country": "USA",
-        "id": "11361",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Morgan Bros. Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11362": {
         "city": "",
         "country": "USA",
@@ -6656,16 +6656,6 @@
         "lat": 31.76072,
         "lon": -93.08627,
         "name": "Lady Demon Soccer Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11366": {
-        "city": "",
-        "country": "USA",
-        "id": "11366",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Thibodaux Regional Sports Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6999,16 +6989,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11411": {
-        "city": "",
-        "country": "USA",
-        "id": "11411",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Brown Stadium (LA)",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11412": {
         "city": "",
         "country": "USA",
@@ -7016,16 +6996,6 @@
         "lat": 36.54848,
         "lon": -78.34194,
         "name": "Edens Field at Martin Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11415": {
-        "city": "",
-        "country": "USA",
-        "id": "11415",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "First Bank & Trust Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7086,16 +7056,6 @@
         "lat": 30.7968,
         "lon": -82.02887,
         "name": "Davis Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11424": {
-        "city": "",
-        "country": "USA",
-        "id": "11424",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Wildcat Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7296,16 +7256,6 @@
         "lat": 40.75594,
         "lon": -73.84791,
         "name": "Shea Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11454": {
-        "city": "",
-        "country": "USA",
-        "id": "11454",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Drass Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9829,6 +9779,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11732": {
+        "city": "Pucallpa",
+        "country": "Peru",
+        "id": "11732",
+        "lat": -8.37915,
+        "lon": -74.55387,
+        "name": "La Videnita",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11733": {
         "city": "Madalena",
         "country": "Portugal",
@@ -10356,6 +10316,16 @@
         "lat": 34.54426,
         "lon": -91.96903,
         "name": "Charles Century Community Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11797": {
+        "city": "Pardubice",
+        "country": "Czechia",
+        "id": "11797",
+        "lat": 50.04075,
+        "lon": 15.77659,
+        "name": "Stadion Arno\u0161ta Ko\u0161\u0165\u00e1la",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -13959,6 +13929,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3818": {
+        "city": "Shkoder",
+        "country": "Albania",
+        "id": "3818",
+        "lat": 42.06828,
+        "lon": 19.51258,
+        "name": "Loro Borici",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "3826": {
         "city": "Spiesen-Elversberg",
         "country": "Germany",
@@ -15106,6 +15086,16 @@
         "lat": 17.09563,
         "lon": -61.78366,
         "name": "Sir Vivian Richards Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4833": {
+        "city": "Pula",
+        "country": "Croatia",
+        "id": "4833",
+        "lat": 44.86833,
+        "lon": 13.84806,
+        "name": "Stadion Aldo Drosina",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17749,6 +17739,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6706": {
+        "city": "Felcs\u00fat",
+        "country": "Hungary",
+        "id": "6706",
+        "lat": 47.45797,
+        "lon": 18.58626,
+        "name": "Pancho Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6711": {
         "city": "Maria Enzersdorf",
         "country": "Austria",
@@ -18466,6 +18466,16 @@
         "lat": -16.67861,
         "lon": -49.25389,
         "name": "Est\u00e1dio Ant\u00f4nio Accioly",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7178": {
+        "city": "Tbilisi",
+        "country": "Georgia",
+        "id": "7178",
+        "lat": 41.69143,
+        "lon": 44.83412,
+        "name": "David Petriashvili Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
