@@ -10109,6 +10109,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11766": {
+        "city": "Mexico City",
+        "country": "Mexico",
+        "id": "11766",
+        "lat": 19.42847,
+        "lon": -99.12766,
+        "name": "Centro Nacional de Alto Rendimiento",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11768": {
         "city": "",
         "country": "Netherlands",
@@ -28173,6 +28183,16 @@
         "city": "",
         "country": "",
         "id": "sporting-hortaleza",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "sporting-jax": {
+        "city": "",
+        "country": "",
+        "id": "sporting-jax",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
