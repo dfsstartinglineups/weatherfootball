@@ -22809,6 +22809,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "atletico-union-guimar": {
+        "city": "",
+        "country": "",
+        "id": "atletico-union-guimar",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "atromitos": {
         "city": "",
         "country": "",
@@ -24003,6 +24013,16 @@
         "city": "",
         "country": "",
         "id": "congo-dr",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "consadole-sapporo": {
+        "city": "",
+        "country": "",
+        "id": "consadole-sapporo",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
