@@ -4639,6 +4639,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11041": {
+        "city": "Guwahati",
+        "country": "India",
+        "id": "11041",
+        "lat": 26.1844,
+        "lon": 91.7458,
+        "name": "Indira Gandhi Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11045": {
         "city": "Rustenburg",
         "country": "South Africa",
@@ -7126,6 +7136,16 @@
         "lat": 33.95335,
         "lon": -117.39616,
         "name": "CBU Soccer Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11434": {
+        "city": "Montgomery",
+        "country": "USA",
+        "id": "11434",
+        "lat": 32.36681,
+        "lon": -86.29997,
+        "name": "ASU Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -14989,6 +15009,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4781": {
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "id": "4781",
+        "lat": 25.07725,
+        "lon": 55.30927,
+        "name": "Zabeel Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4785": {
         "city": "Warsaw",
         "country": "Poland",
@@ -18366,6 +18396,16 @@
         "lat": 26.32599,
         "lon": 43.97497,
         "name": "King Abdullah Sport City Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7032": {
+        "city": "Ar-Rayyan",
+        "country": "Qatar",
+        "id": "7032",
+        "lat": 25.29194,
+        "lon": 51.42444,
+        "name": "Thani bin Jassim Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
