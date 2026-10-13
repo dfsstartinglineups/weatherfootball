@@ -509,6 +509,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10282": {
+        "city": "Cork",
+        "country": "Republic of Ireland",
+        "id": "10282",
+        "lat": 51.89797,
+        "lon": -8.47061,
+        "name": "SuperValu Pairc Ui Chaoimh",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10284": {
         "city": "Chongqing",
         "country": "China PR",
@@ -3599,6 +3609,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10835": {
+        "city": "Portim\u00e3o",
+        "country": "Portugal",
+        "id": "10835",
+        "lat": 37.13856,
+        "lon": -8.53775,
+        "name": "Est\u00e1dio Municipal de Portim\u00e3o",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10836": {
         "city": "Viseu",
         "country": "Portugal",
@@ -3656,6 +3676,16 @@
         "lat": 13.83333,
         "lon": -88.91667,
         "name": "Estadio El Cobre",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10847": {
+        "city": "Pohang",
+        "country": "South Korea",
+        "id": "10847",
+        "lat": 36.02917,
+        "lon": 129.3648,
+        "name": "Steelyard Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4106,6 +4136,16 @@
         "lat": -32.88946,
         "lon": -68.84582,
         "name": "Estadio V\u00edctor Antonio Legrotaglie",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10933": {
+        "city": "Recife",
+        "country": "Brazil",
+        "id": "10933",
+        "lat": -8.05389,
+        "lon": -34.88111,
+        "name": "Arena de Pernambuco",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4856,6 +4896,16 @@
         "lat": 46.01008,
         "lon": 8.96004,
         "name": "AIL Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11125": {
+        "city": "Vienna",
+        "country": "Austria",
+        "id": "11125",
+        "lat": 48.20849,
+        "lon": 16.37208,
+        "name": "Wiener Sportclub-Platz",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -10139,6 +10189,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11767": {
+        "city": "Rumelange",
+        "country": "Luxembourg",
+        "id": "11767",
+        "lat": 49.45964,
+        "lon": 6.03089,
+        "name": "Stade Municipal",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11768": {
         "city": "",
         "country": "Netherlands",
@@ -10769,6 +10829,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11865": {
+        "city": "Lendava",
+        "country": "Slovenia",
+        "id": "11865",
+        "lat": 46.56494,
+        "lon": 16.45091,
+        "name": "Sportni Park Lendava",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11867": {
         "city": "Johannesburg",
         "country": "South Africa",
@@ -10796,6 +10866,16 @@
         "lat": 29.52667,
         "lon": 35.00778,
         "name": "Aqaba Development Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11875": {
+        "city": "Santiago",
+        "country": "Chile",
+        "id": "11875",
+        "lat": -33.45694,
+        "lon": -70.64827,
+        "name": "CAR Jos\u00e9 Sulantay Silva",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -13969,6 +14049,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3791": {
+        "city": "Llanelli",
+        "country": "Wales",
+        "id": "3791",
+        "lat": 51.68195,
+        "lon": -4.16191,
+        "name": "Parc y Scarlets",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "3818": {
         "city": "Shkoder",
         "country": "Albania",
@@ -14426,6 +14516,16 @@
         "lat": 52.77917,
         "lon": 6.90694,
         "name": "De Oude Meerdijk",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4359": {
+        "city": "Doha",
+        "country": "Qatar",
+        "id": "4359",
+        "lat": 25.28545,
+        "lon": 51.53096,
+        "name": "Jassim Bin Hamad Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -15156,6 +15256,16 @@
         "lat": 47.26266,
         "lon": 11.39454,
         "name": "Tivoli Stadion Tirol",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4841": {
+        "city": "Gdansk",
+        "country": "Poland",
+        "id": "4841",
+        "lat": 54.35227,
+        "lon": 18.64912,
+        "name": "Polsat Plus Arena Gdansk",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16206,6 +16316,16 @@
         "lat": -16.39899,
         "lon": -71.53747,
         "name": "Estadio Monumental de la UNSA",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5572": {
+        "city": "Newcastle, New South Wales",
+        "country": "Australia",
+        "id": "5572",
+        "lat": -32.92953,
+        "lon": 151.7801,
+        "name": "McDonald Jones Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17349,6 +17469,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6477": {
+        "city": "Baku",
+        "country": "Azerbaijan",
+        "id": "6477",
+        "lat": 40.37767,
+        "lon": 49.89201,
+        "name": "Baku Olympic Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6482": {
         "city": "Brackley",
         "country": "England",
@@ -17946,6 +18076,16 @@
         "lat": 24.19167,
         "lon": 55.76056,
         "name": "Hazza Bin Zayed Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6753": {
+        "city": "Buriram",
+        "country": "Thailand",
+        "id": "6753",
+        "lat": 14.99433,
+        "lon": 103.10392,
+        "name": "Chang Arena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -18566,6 +18706,16 @@
         "lat": 40.38146,
         "lon": -79.85977,
         "name": "Arthur J. Rooney Athletic Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7225": {
+        "city": "Seeb",
+        "country": "Oman",
+        "id": "7225",
+        "lat": 23.67027,
+        "lon": 58.18911,
+        "name": "Seeb Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -20509,6 +20659,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8830": {
+        "city": "Stara Pazova",
+        "country": "Serbia",
+        "id": "8830",
+        "lat": 44.985,
+        "lon": 20.16083,
+        "name": "Sports Center of FA of Serbia",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8840": {
         "city": "Papillion, Nebraska",
         "country": "USA",
@@ -22026,6 +22186,16 @@
         "lat": 14.25853,
         "lon": 45.39564,
         "name": "Kingdom Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9865": {
+        "city": "Chambly",
+        "country": "France",
+        "id": "9865",
+        "lat": 49.16667,
+        "lon": 2.25,
+        "name": "Stade Walter Luzi",
         "roof": "Open",
         "surface": "Grass"
     },
