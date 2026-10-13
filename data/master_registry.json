@@ -2,7 +2,7 @@
     "leagues": {
         "afc-champions-league-elite": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925230.304292,
+            "last_updated": 1791926127.165063,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png",
             "name": "AFC Champions League Elite",
             "pill": "afc.champions",
@@ -18,7 +18,7 @@
         },
         "afc-champions-league-two": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925230.626482,
+            "last_updated": 1791926127.58023,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png",
             "name": "AFC Champions League Two",
             "pill": "afc.cup",
@@ -122,7 +122,7 @@
         },
         "brazilian-serie-b": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925235.010384,
+            "last_updated": 1791926132.00209,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2299.png",
             "name": "Brazilian Serie B",
             "pill": "bra.2",
@@ -194,7 +194,7 @@
         },
         "colombian-primera-a": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925235.286359,
+            "last_updated": 1791926132.27508,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -226,7 +226,7 @@
         },
         "conmebol-sudamericana": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925234.870943,
+            "last_updated": 1791926131.861928,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1208.png",
             "name": "CONMEBOL Sudamericana",
             "pill": "conmebol.sudamericana",
@@ -282,7 +282,7 @@
         },
         "costa-rican-primera-division": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925235.563502,
+            "last_updated": 1791926132.558799,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2245.png",
             "name": "Costa Rican Primera Division",
             "pill": "crc.1",
@@ -370,7 +370,7 @@
         },
         "english-efl-trophy": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925231.582032,
+            "last_updated": 1791926128.607191,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/42.png",
             "name": "English EFL Trophy",
             "pill": "eng.trophy",
@@ -402,7 +402,7 @@
         },
         "english-league-championship": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925225.005994,
+            "last_updated": 1791926121.743645,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
             "name": "English League Championship",
             "pill": "eng.2",
@@ -474,7 +474,7 @@
         },
         "fifa-womens-world-cup-qualifying-uefa": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925227.240558,
+            "last_updated": 1791926124.074477,
             "logo": "\ud83c\udf0e",
             "name": "FIFA Women's World Cup Qualifying - UEFA",
             "pill": "fifa.wworldq.uefa",
@@ -666,7 +666,7 @@
         },
         "mexican-liga-de-expansion-mx": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925230.761106,
+            "last_updated": 1791926127.717705,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
@@ -682,7 +682,7 @@
         },
         "ncaa-mens-soccer": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925236.988238,
+            "last_updated": 1791926133.790087,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
@@ -794,7 +794,7 @@
         },
         "scottish-championship": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925231.716761,
+            "last_updated": 1791926128.738857,
             "logo": "https://flagcdn.com/w40/gb-sct.png",
             "name": "Scottish Championship",
             "pill": "sco.2",
@@ -818,7 +818,7 @@
         },
         "scottish-league-challenge-cup": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925234.731178,
+            "last_updated": 1791926131.700163,
             "logo": "https://flagcdn.com/w40/gb-sct.png",
             "name": "Scottish League Challenge Cup",
             "pill": "sco.challenge",
@@ -842,7 +842,7 @@
         },
         "south-african-premiership": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925236.072391,
+            "last_updated": 1791926133.018299,
             "logo": "\ud83c\udf0d",
             "name": "South African Premiership",
             "pill": "rsa.1",
@@ -946,7 +946,7 @@
         },
         "uefa-champions-league": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925223.870041,
+            "last_updated": 1791926120.60834,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
             "name": "UEFA Champions League",
             "pill": "uefa.champions",
@@ -1106,7 +1106,7 @@
         },
         "womens-international-friendly": {
             "last_crossover_date": "2026-10-13",
-            "last_updated": 1791925229.041172,
+            "last_updated": 1791926126.042156,
             "logo": "\ud83c\udf0e",
             "name": "Women's International Friendly",
             "pill": "fifa.friendly.w",
