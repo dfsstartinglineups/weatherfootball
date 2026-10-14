@@ -1899,6 +1899,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10624": {
+        "city": "Melbourne",
+        "country": "Australia",
+        "id": "10624",
+        "lat": -37.814,
+        "lon": 144.96332,
+        "name": "Melbourne Rectangular Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10625": {
         "city": "Fortaleza",
         "country": "Brazil",
@@ -4709,6 +4719,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11052": {
+        "city": "New Delhi",
+        "country": "India",
+        "id": "11052",
+        "lat": 28.62137,
+        "lon": 77.2148,
+        "name": "Jawaharlal Nehru Stadium (Delhi)",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11057": {
         "city": "Jena",
         "country": "Germany",
@@ -6199,6 +6219,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11303": {
+        "city": "",
+        "country": "USA",
+        "id": "11303",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "George Allen Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11304": {
         "city": "",
         "country": "USA",
@@ -7109,6 +7139,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11421": {
+        "city": "Northridge, California",
+        "country": "USA",
+        "id": "11421",
+        "lat": 34.22834,
+        "lon": -118.53675,
+        "name": "Matador Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11422": {
         "city": "",
         "country": "USA",
@@ -7326,6 +7366,16 @@
         "lat": 40.75594,
         "lon": -73.84791,
         "name": "Shea Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11456": {
+        "city": "",
+        "country": "USA",
+        "id": "11456",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Rogers Stadium (VA)",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9206,6 +9256,16 @@
         "lat": 39.6945,
         "lon": -8.13057,
         "name": "Est\u00e1dio Municipal de Aljustrel",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11653": {
+        "city": "Sulaibikhat Stadium",
+        "country": "Kuwait",
+        "id": "11653",
+        "lat": 29.5,
+        "lon": 47.75,
+        "name": "Jaber Al-Mubarak Al-Hamad Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -15109,6 +15169,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4773": {
+        "city": "Qarshi",
+        "country": "Uzbekistan",
+        "id": "4773",
+        "lat": 38.86056,
+        "lon": 65.78905,
+        "name": "Qarshi Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "4781": {
         "city": "Dubai",
         "country": "United Arab Emirates",
@@ -19046,6 +19116,16 @@
         "lat": 52.645,
         "lon": 6.21111,
         "name": "Sportpark Het Noorderslag",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7474": {
+        "city": "Toyota Stadium",
+        "country": "USA",
+        "id": "7474",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Toyota Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
