@@ -5419,6 +5419,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11207": {
+        "city": "",
+        "country": "USA",
+        "id": "11207",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "CMU Soccer/Lacrosse Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11208": {
         "city": "",
         "country": "USA",
@@ -5619,6 +5629,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11231": {
+        "city": "Oxford",
+        "country": "USA",
+        "id": "11231",
+        "lat": 34.3665,
+        "lon": -89.51925,
+        "name": "Bobby Kramig Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11233": {
         "city": "Stillwater",
         "country": "USA",
@@ -5656,6 +5676,16 @@
         "lat": 30.22409,
         "lon": -92.01984,
         "name": "Home Bank Soccer/Track Facility",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11237": {
+        "city": "Laramie",
+        "country": "USA",
+        "id": "11237",
+        "lat": 41.31137,
+        "lon": -105.5911,
+        "name": "Madrid Sports Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5959,6 +5989,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11270": {
+        "city": "Arbutus, Maryland",
+        "country": "USA",
+        "id": "11270",
+        "lat": 39.25455,
+        "lon": -76.69997,
+        "name": "Retriever Soccer Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11271": {
         "city": "",
         "country": "USA",
@@ -6066,6 +6106,16 @@
         "lat": 37.80437,
         "lon": -122.2708,
         "name": "Oakland Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11283": {
+        "city": "Buffalo",
+        "country": "USA",
+        "id": "11283",
+        "lat": 42.88645,
+        "lon": -78.87837,
+        "name": "Broadview Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6989,6 +7039,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11397": {
+        "city": "",
+        "country": "USA",
+        "id": "11397",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Adelaide Street Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11398": {
         "city": "",
         "country": "USA",
@@ -7066,6 +7126,16 @@
         "lat": 35.19807,
         "lon": -111.65127,
         "name": "Max Spilsbury Field at Lumberjack Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11407": {
+        "city": "Missoula",
+        "country": "USA",
+        "id": "11407",
+        "lat": 46.87215,
+        "lon": -113.994,
+        "name": "South Campus Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7339,6 +7409,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11450": {
+        "city": "Charleston",
+        "country": "USA",
+        "id": "11450",
+        "lat": 32.77632,
+        "lon": -79.93275,
+        "name": "Lakeside Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11451": {
         "city": "Chicago, Illinois",
         "country": "USA",
@@ -7366,16 +7446,6 @@
         "lat": 40.75594,
         "lon": -73.84791,
         "name": "Shea Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11456": {
-        "city": "",
-        "country": "USA",
-        "id": "11456",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Rogers Stadium (VA)",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -9209,6 +9279,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11646": {
+        "city": "Gangneung",
+        "country": "South Korea",
+        "id": "11646",
+        "lat": 37.75266,
+        "lon": 128.87239,
+        "name": "Gangneung High1 Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11648": {
         "city": "",
         "country": "England",
@@ -9846,6 +9926,16 @@
         "lat": 41.1485,
         "lon": -8.61097,
         "name": "Est\u00e1dio Municipal da Guarda",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11715": {
+        "city": "Helsingborg",
+        "country": "Sweden",
+        "id": "11715",
+        "lat": 47.04491,
+        "lon": -122.90169,
+        "name": "Olympia",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -13646,6 +13736,16 @@
         "lat": 47.31344,
         "lon": 5.01391,
         "name": "Stade Gaston-G\u00e9rard",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3382": {
+        "city": "San Pedro Sula",
+        "country": "Honduras",
+        "id": "3382",
+        "lat": 15.50585,
+        "lon": -88.02588,
+        "name": "Estadio Ol\u00edmpico Metropolitano",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19119,16 +19219,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "7474": {
-        "city": "Toyota Stadium",
-        "country": "USA",
-        "id": "7474",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Toyota Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "7480": {
         "city": "Glasgow",
         "country": "Scotland",
@@ -19366,6 +19456,16 @@
         "lat": 6.09826,
         "lon": -69.3109,
         "name": "Complejo Deportivo Socialista",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7641": {
+        "city": "Pathum Thani",
+        "country": "Thailand",
+        "id": "7641",
+        "lat": 14.01346,
+        "lon": 100.53049,
+        "name": "BG Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -20106,6 +20206,16 @@
         "lat": 43.31117,
         "lon": -0.35583,
         "name": "Nouste Camp",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8383": {
+        "city": "Portland, Oregon",
+        "country": "USA",
+        "id": "8383",
+        "lat": 45.52345,
+        "lon": -122.67621,
+        "name": "Hillsboro Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -26283,6 +26393,16 @@
         "city": "",
         "country": "",
         "id": "ksour-essef",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "kuching-city": {
+        "city": "",
+        "country": "",
+        "id": "kuching-city",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
