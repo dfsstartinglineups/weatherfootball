@@ -50,7 +50,7 @@
         },
         "argentine-liga-profesional-de-futbol": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134922.208143,
+            "last_updated": 1792135855.152809,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1.png",
             "name": "Argentine Liga Profesional de F\u00fatbol",
             "pill": "arg.1",
@@ -66,7 +66,7 @@
         },
         "argentine-nacional-b": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134922.485575,
+            "last_updated": 1792135855.705561,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2294.png",
             "name": "Argentine Nacional B",
             "pill": "arg.2",
@@ -88,6 +88,14 @@
             "pill": "aff.championship",
             "slug": "asean-championship"
         },
+        "aus-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135847.576547,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png",
+            "name": "Aus 1",
+            "pill": "aus.1",
+            "slug": "aus-1"
+        },
         "australian-a-league-men": {
             "last_crossover_date": "2026-10-16",
             "last_updated": 1792134918.524919,
@@ -98,7 +106,7 @@
         },
         "austrian-bundesliga": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134920.715857,
+            "last_updated": 1792135851.890736,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/5.png",
             "name": "Austrian Bundesliga",
             "pill": "aut.1",
@@ -112,13 +120,37 @@
             "pill": "bel.1",
             "slug": "belgian-pro-league"
         },
+        "bol-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135858.151383,
+            "logo": "",
+            "name": "Bol 1",
+            "pill": "bol.1",
+            "slug": "bol-1"
+        },
         "bolivian-liga-profesional": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134923.857921,
+            "last_updated": 1792135858.523168,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1949.png",
             "name": "Bolivian Liga Profesional",
-            "pill": "bol.1",
+            "pill": "620",
             "slug": "bolivian-liga-profesional"
+        },
+        "bra-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135855.980217,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png",
+            "name": "Bra 1",
+            "pill": "bra.1",
+            "slug": "bra-1"
+        },
+        "bra-2": {
+            "last_crossover_date": "",
+            "last_updated": 1792135856.515229,
+            "logo": "",
+            "name": "Bra 2",
+            "pill": "bra.2",
+            "slug": "bra-2"
         },
         "brazilian-serie-a": {
             "last_crossover_date": "2026-10-16",
@@ -138,7 +170,7 @@
         },
         "caf-champions-league": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134924.536378,
+            "last_updated": 1792135860.074885,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2391.png",
             "name": "CAF Champions League",
             "pill": "caf.champions",
@@ -146,10 +178,10 @@
         },
         "caf-confederation-cup": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134924.927821,
+            "last_updated": 1792135860.635479,
             "logo": "\ud83c\udf0d",
             "name": "CAF Confederation Cup",
-            "pill": "caf.confed",
+            "pill": "18000",
             "slug": "caf-confederation-cup"
         },
         "campeones-cup": {
@@ -178,7 +210,7 @@
         },
         "chinese-super-league": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134920.853201,
+            "last_updated": 1792135852.160681,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2350.png",
             "name": "Chinese Super League",
             "pill": "chn.1",
@@ -186,7 +218,7 @@
         },
         "club-friendly": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134919.319498,
+            "last_updated": 1792135849.189336,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -298,7 +330,7 @@
         },
         "danish-superliga": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134921.932981,
+            "last_updated": 1792135854.43786,
             "logo": "https://flagcdn.com/w40/dk.png",
             "name": "Danish Superliga",
             "pill": "den.1",
@@ -338,7 +370,7 @@
         },
         "dutch-knvb-beker-vrouwen": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134921.66579,
+            "last_updated": 1792135853.899454,
             "logo": "https://flagcdn.com/w40/nl.png",
             "name": "Dutch KNVB Beker Vrouwen",
             "pill": "ned.w.knvb_cup",
@@ -351,6 +383,14 @@
             "name": "Dutch Vrouwen Eredivisie",
             "pill": "ned.w.1",
             "slug": "dutch-vrouwen-eredivisie"
+        },
+        "ecu-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135857.885519,
+            "logo": "",
+            "name": "Ecu 1",
+            "pill": "ecu.1",
+            "slug": "ecu-1"
         },
         "efl-league-one": {
             "last_crossover_date": "2026-10-15",
@@ -418,7 +458,7 @@
         },
         "english-league-championship": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134917.985479,
+            "last_updated": 1792135846.594894,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
             "name": "English League Championship",
             "pill": "eng.2",
@@ -480,6 +520,14 @@
             "pill": "esp.1",
             "slug": "esp-1"
         },
+        "esp-2": {
+            "last_crossover_date": "",
+            "last_updated": 1792135849.45479,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
+            "name": "Esp 2",
+            "pill": "esp.2",
+            "slug": "esp-2"
+        },
         "fifa-intercontinental-cup": {
             "last_crossover_date": "2026-08-26",
             "last_updated": 1787813132.994473,
@@ -496,6 +544,14 @@
             "pill": "fifa.wworldq.uefa",
             "slug": "fifa-womens-world-cup-qualifying-uefa"
         },
+        "fra-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135845.229015,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+            "name": "Fra 1",
+            "pill": "fra.1",
+            "slug": "fra-1"
+        },
         "french-ligue-1": {
             "last_crossover_date": "2026-10-16",
             "last_updated": 1792134917.312168,
@@ -506,7 +562,7 @@
         },
         "french-ligue-2": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134920.578461,
+            "last_updated": 1792135851.628518,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/96.png",
             "name": "French Ligue 2",
             "pill": "fra.2",
@@ -530,7 +586,7 @@
         },
         "german-2-bundesliga": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134919.742815,
+            "last_updated": 1792135849.979031,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
             "name": "German 2. Bundesliga",
             "pill": "ger.2",
@@ -538,7 +594,7 @@
         },
         "german-bundesliga": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134917.174038,
+            "last_updated": 1792135844.967127,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
             "name": "German Bundesliga",
             "pill": "ger.1",
@@ -584,6 +640,14 @@
             "pill": "3929",
             "slug": "honduran-liga-nacional"
         },
+        "ind-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135859.087805,
+            "logo": "",
+            "name": "Ind 1",
+            "pill": "ind.1",
+            "slug": "ind-1"
+        },
         "indian-super-league": {
             "last_crossover_date": "2026-10-16",
             "last_updated": 1792134924.132978,
@@ -600,9 +664,17 @@
             "pill": "fifa.friendly",
             "slug": "international-friendly"
         },
+        "ita-2": {
+            "last_crossover_date": "",
+            "last_updated": 1792135850.240404,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/99.png",
+            "name": "Ita 2",
+            "pill": "ita.2",
+            "slug": "ita-2"
+        },
         "italian-serie-a": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134917.036091,
+            "last_updated": 1792135844.703344,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
             "name": "Italian Serie A",
             "pill": "ita.1",
@@ -623,6 +695,14 @@
             "name": "Japanese J.League",
             "pill": "jpn.1",
             "slug": "japanese-jleague"
+        },
+        "ksa-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135847.837693,
+            "logo": "",
+            "name": "Ksa 1",
+            "pill": "ksa.1",
+            "slug": "ksa-1"
         },
         "leagues-cup": {
             "last_crossover_date": "2026-09-06",
@@ -672,6 +752,14 @@
             "pill": "ecu.1",
             "slug": "ligapro-ecuador"
         },
+        "mex-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135846.052473,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png",
+            "name": "Mex 1",
+            "pill": "mex.1",
+            "slug": "mex-1"
+        },
         "mexican-liga-bbva-mx": {
             "last_crossover_date": "2026-10-16",
             "last_updated": 1792134917.711356,
@@ -690,7 +778,7 @@
         },
         "mexican-liga-de-expansion-mx": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134919.188164,
+            "last_updated": 1792135848.909566,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
@@ -721,20 +809,36 @@
             "slug": "ncaa-womens-soccer"
         },
         "ncaam-soccer": {
-            "last_crossover_date": "2026-10-15",
-            "last_updated": 1792133129.55102,
+            "last_crossover_date": "2026-10-16",
+            "last_updated": 1792135865.476389,
             "logo": "",
             "name": "NCAAM Soccer",
             "pill": "5487",
             "slug": "ncaam-soccer"
         },
         "ncaaw-soccer": {
-            "last_crossover_date": "2026-10-15",
-            "last_updated": 1792133134.374949,
+            "last_crossover_date": "2026-10-16",
+            "last_updated": 1792135877.111546,
             "logo": "",
             "name": "NCAAW Soccer",
             "pill": "5499",
             "slug": "ncaaw-soccer"
+        },
+        "ned-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135846.333592,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
+            "name": "Ned 1",
+            "pill": "ned.1",
+            "slug": "ned-1"
+        },
+        "ned-2": {
+            "last_crossover_date": "",
+            "last_updated": 1792135853.527073,
+            "logo": "",
+            "name": "Ned 2",
+            "pill": "ned.2",
+            "slug": "ned-2"
         },
         "northern-super-league": {
             "last_crossover_date": "2026-10-04",
@@ -754,11 +858,19 @@
         },
         "nwsl": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134916.90546,
+            "last_updated": 1792135844.424588,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
             "slug": "nwsl"
+        },
+        "par-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135857.62354,
+            "logo": "",
+            "name": "Par 1",
+            "pill": "par.1",
+            "slug": "par-1"
         },
         "paraguayan-primera-division": {
             "last_crossover_date": "2026-10-16",
@@ -767,6 +879,14 @@
             "name": "Paraguayan Primera Divisi\u00f3n",
             "pill": "par.1",
             "slug": "paraguayan-primera-division"
+        },
+        "per-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135857.317759,
+            "logo": "",
+            "name": "Per 1",
+            "pill": "per.1",
+            "slug": "per-1"
         },
         "peruvian-liga-1": {
             "last_crossover_date": "2026-10-16",
@@ -777,8 +897,8 @@
             "slug": "peruvian-liga-1"
         },
         "por-taca-portugal": {
-            "last_crossover_date": "",
-            "last_updated": 1789719327.049957,
+            "last_crossover_date": "2026-10-16",
+            "last_updated": 1792135848.099892,
             "logo": "",
             "name": "Por Taca Portugal",
             "pill": "por.taca.portugal",
@@ -809,8 +929,8 @@
             "slug": "russian-premier-league"
         },
         "salvadoran-primera": {
-            "last_crossover_date": "2026-10-15",
-            "last_updated": 1792133128.175813,
+            "last_crossover_date": "2026-10-16",
+            "last_updated": 1792135858.803399,
             "logo": "https://flagcdn.com/w40/sv.png",
             "name": "Salvadoran Primera",
             "pill": "3943",
@@ -842,7 +962,7 @@
         },
         "scottish-championship": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134920.982676,
+            "last_updated": 1792135852.463494,
             "logo": "https://flagcdn.com/w40/gb-sct.png",
             "name": "Scottish Championship",
             "pill": "sco.2",
@@ -914,7 +1034,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134916.624982,
+            "last_updated": 1792135844.03,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -954,7 +1074,7 @@
         },
         "swedish-allsvenskan": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134921.799794,
+            "last_updated": 1792135854.173927,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png",
             "name": "Swedish Allsvenskan",
             "pill": "swe.1",
@@ -975,6 +1095,14 @@
             "name": "Trofeo Joan Gamper",
             "pill": "esp.joan_gamper",
             "slug": "trofeo-joan-gamper"
+        },
+        "tur-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135848.368177,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png",
+            "name": "Tur 1",
+            "pill": "tur.1",
+            "slug": "tur-1"
         },
         "turkish-super-lig": {
             "last_crossover_date": "2026-10-16",
@@ -1096,6 +1224,14 @@
             "pill": "fifa.friendly_u21",
             "slug": "under-21-international-friendly"
         },
+        "uru-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792135856.780532,
+            "logo": "",
+            "name": "Uru 1",
+            "pill": "uru.1",
+            "slug": "uru-1"
+        },
         "us-open-cup": {
             "last_crossover_date": "2026-09-16",
             "last_updated": 1789627521.425073,
@@ -1138,10 +1274,10 @@
         },
         "usl-super-league": {
             "last_crossover_date": "2026-10-16",
-            "last_updated": 1792134918.350841,
+            "last_updated": 1792135847.307387,
             "logo": "",
             "name": "USL Super League",
-            "pill": "usa.w.usl.1",
+            "pill": "23633",
             "slug": "usl-super-league"
         },
         "venezuelan-primera-division": {
@@ -1221,7 +1357,7 @@
             "slug": "aalesund"
         },
         "abb": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Bol 1",
             "name": "ABB",
             "slug": "abb"
         },
@@ -1256,9 +1392,14 @@
             "slug": "aberystwyth-town"
         },
         "abha": {
-            "league": "Saudi Pro League",
+            "league": "Ksa 1",
             "name": "Abha",
             "slug": "abha"
+        },
+        "abilene-christian": {
+            "league": "NCAAW Soccer",
+            "name": "Abilene Christian",
+            "slug": "abilene-christian"
         },
         "abilene-christian-wildcats-women": {
             "league": "NCAA Women's Soccer",
@@ -1446,7 +1587,7 @@
             "slug": "adrian"
         },
         "adt": {
-            "league": "Peruvian Liga 1",
+            "league": "Per 1",
             "name": "ADT",
             "slug": "adt"
         },
@@ -1711,7 +1852,7 @@
             "slug": "akritas-chlorakas"
         },
         "akron": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Akron",
             "slug": "akron"
         },
@@ -1911,7 +2052,7 @@
             "slug": "al-orobah"
         },
         "al-qadsiah": {
-            "league": "Saudi Pro League",
+            "league": "Ksa 1",
             "name": "Al Qadsiah",
             "slug": "al-qadsiah"
         },
@@ -2109,6 +2250,11 @@
             "league": "Taca de Portugal",
             "name": "Alcochetense",
             "slug": "alcochetense"
+        },
+        "alcorn-state": {
+            "league": "NCAAW Soccer",
+            "name": "Alcorn State",
+            "slug": "alcorn-state"
         },
         "alcorn-state-braves-women": {
             "league": "NCAA Women's Soccer",
@@ -2465,6 +2611,11 @@
             "name": "Apolonia Women",
             "slug": "apolonia-women"
         },
+        "app-state": {
+            "league": "NCAAW Soccer",
+            "name": "App State",
+            "slug": "app-state"
+        },
         "app-state-mountaineers-women": {
             "league": "NCAA Women's Soccer",
             "name": "App State Mountaineers Women",
@@ -2555,6 +2706,16 @@
             "name": "Aris Limassol",
             "slug": "aris-limassol"
         },
+        "arizona": {
+            "league": "NCAAW Soccer",
+            "name": "Arizona",
+            "slug": "arizona"
+        },
+        "arizona-state": {
+            "league": "NCAAW Soccer",
+            "name": "Arizona State",
+            "slug": "arizona-state"
+        },
         "arizona-state-sun-devils-women": {
             "league": "NCAA Women's Soccer",
             "name": "Arizona State Sun Devils Women",
@@ -2594,6 +2755,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Arkansas Razorbacks Women",
             "slug": "arkansas-razorbacks-women"
+        },
+        "arkansas-state": {
+            "league": "NCAAW Soccer",
+            "name": "Arkansas State",
+            "slug": "arkansas-state"
         },
         "arkansas-state-red-wolves-women": {
             "league": "NCAA Women's Soccer",
@@ -2926,7 +3092,7 @@
             "slug": "atlanta-united-fc"
         },
         "atlante": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Mex 1",
             "name": "Atlante",
             "slug": "atlante"
         },
@@ -2936,7 +3102,7 @@
             "slug": "atlante-women"
         },
         "atlas": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Mex 1",
             "name": "Atlas",
             "slug": "atlas"
         },
@@ -3006,7 +3172,7 @@
             "slug": "atletico-dos-arcos"
         },
         "atletico-goianiense": {
-            "league": "Brazilian Serie B",
+            "league": "Bra 2",
             "name": "Atl\u00e9tico Goianiense",
             "slug": "atletico-goianiense"
         },
@@ -3539,6 +3705,11 @@
             "league": "UEFA Women's Champions League",
             "name": "Bayern Munich Women",
             "slug": "bayern-munich-women"
+        },
+        "baylor": {
+            "league": "NCAAW Soccer",
+            "name": "Baylor",
+            "slug": "baylor"
         },
         "baylor-bears-women": {
             "league": "NCAA Women's Soccer",
@@ -4146,7 +4317,7 @@
             "slug": "bosnia-herzegovina-women"
         },
         "boston-college": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "Boston College",
             "slug": "boston-college"
         },
@@ -4596,7 +4767,7 @@
             "slug": "buckland-athletic"
         },
         "bucknell": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "Bucknell",
             "slug": "bucknell"
         },
@@ -4721,7 +4892,7 @@
             "slug": "bushnell-women"
         },
         "butler": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Butler",
             "slug": "butler"
         },
@@ -4749,6 +4920,11 @@
             "league": "Dutch KNVB Beker",
             "name": "BVV Barendrecht",
             "slug": "bvv-barendrecht"
+        },
+        "byu": {
+            "league": "NCAAW Soccer",
+            "name": "BYU",
+            "slug": "byu"
         },
         "byu-cougars-women": {
             "league": "NCAA Women's Soccer",
@@ -4906,7 +5082,7 @@
             "slug": "calgary-wild-fc-women"
         },
         "california": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "California",
             "slug": "california"
         },
@@ -5110,6 +5286,11 @@
             "name": "Carluke Rovers",
             "slug": "carluke-rovers"
         },
+        "carolina-ascent-fc": {
+            "league": "USL Super League",
+            "name": "Carolina Ascent FC",
+            "slug": "carolina-ascent-fc"
+        },
         "carolina-ascent-fc-women": {
             "league": "USL Super League",
             "name": "Carolina Ascent FC Women",
@@ -5166,7 +5347,7 @@
             "slug": "catania"
         },
         "catanzaro": {
-            "league": "Italian Serie B",
+            "league": "Ita 2",
             "name": "Catanzaro",
             "slug": "catanzaro"
         },
@@ -5181,7 +5362,7 @@
             "slug": "cavese"
         },
         "caykur-rizespor": {
-            "league": "Turkish Super Lig",
+            "league": "Tur 1",
             "name": "Caykur Rizespor",
             "slug": "caykur-rizespor"
         },
@@ -5311,7 +5492,7 @@
             "slug": "cd-minera"
         },
         "cd-municipal-limeno": {
-            "league": "Salvadoran Primera Division",
+            "league": "Salvadoran Primera",
             "name": "CD Municipal Lime\u00f1o",
             "slug": "cd-municipal-limeno"
         },
@@ -5516,12 +5697,12 @@
             "slug": "cerezo-osaka"
         },
         "cerro": {
-            "league": "Liga AUF Uruguaya",
+            "league": "Uru 1",
             "name": "Cerro",
             "slug": "cerro"
         },
         "cerro-largo": {
-            "league": "Liga AUF Uruguaya",
+            "league": "Uru 1",
             "name": "Cerro Largo",
             "slug": "cerro-largo"
         },
@@ -5910,6 +6091,11 @@
             "name": "Cieza",
             "slug": "cieza"
         },
+        "cincinnati": {
+            "league": "NCAAW Soccer",
+            "name": "Cincinnati",
+            "slug": "cincinnati"
+        },
         "cincinnati-bearcats-women": {
             "league": "NCAA Women's Soccer",
             "name": "Cincinnati Bearcats Women",
@@ -5966,7 +6152,7 @@
             "slug": "cleethorpes-town"
         },
         "clemson": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Clemson",
             "slug": "clemson"
         },
@@ -6240,6 +6426,11 @@
             "name": "Col\u00f3n (Santa Fe)",
             "slug": "colon-santa-fe"
         },
+        "colorado": {
+            "league": "NCAAW Soccer",
+            "name": "Colorado",
+            "slug": "colorado"
+        },
         "colorado-buffaloes-women": {
             "league": "NCAA Women's Soccer",
             "name": "Colorado Buffaloes Women",
@@ -6264,6 +6455,11 @@
             "league": "USL Championship",
             "name": "Colorado Springs Switchbacks FC",
             "slug": "colorado-springs-switchbacks-fc"
+        },
+        "colorado-state": {
+            "league": "NCAAW Soccer",
+            "name": "Colorado State",
+            "slug": "colorado-state"
         },
         "colorado-state-colorado-state-rams-women": {
             "league": "NCAA Women's Soccer",
@@ -6406,7 +6602,7 @@
             "slug": "corby-town"
         },
         "cordoba": {
-            "league": "Spanish LALIGA 2",
+            "league": "Esp 2",
             "name": "C\u00f3rdoba",
             "slug": "cordoba"
         },
@@ -6476,7 +6672,7 @@
             "slug": "correcaminos-uat"
         },
         "corum-fk": {
-            "league": "Turkish Super Lig",
+            "league": "Tur 1",
             "name": "\u00c7orum FK",
             "slug": "corum-fk"
         },
@@ -6791,7 +6987,7 @@
             "slug": "curzon-ashton"
         },
         "cusco-fc": {
-            "league": "Peruvian Liga 1",
+            "league": "Per 1",
             "name": "Cusco FC",
             "slug": "cusco-fc"
         },
@@ -6954,6 +7150,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Dayton Women",
             "slug": "dayton-women"
+        },
+        "dc-power-fc": {
+            "league": "USL Super League",
+            "name": "DC Power FC",
+            "slug": "dc-power-fc"
         },
         "dc-power-fc-women": {
             "league": "USL Super League",
@@ -7131,7 +7332,7 @@
             "slug": "denver-women"
         },
         "depaul": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "DePaul",
             "slug": "depaul"
         },
@@ -7226,7 +7427,7 @@
             "slug": "deportivo-cali"
         },
         "deportivo-cuenca": {
-            "league": "LigaPro Ecuador",
+            "league": "Ecu 1",
             "name": "Deportivo Cuenca",
             "slug": "deportivo-cuenca"
         },
@@ -7296,7 +7497,7 @@
             "slug": "deportivo-pereira"
         },
         "deportivo-recoleta": {
-            "league": "Paraguayan Primera Divisi\u00f3n",
+            "league": "Par 1",
             "name": "Deportivo Recoleta",
             "slug": "deportivo-recoleta"
         },
@@ -7646,7 +7847,7 @@
             "slug": "dukagjini"
         },
         "duke": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "Duke",
             "slug": "duke"
         },
@@ -8436,7 +8637,7 @@
             "slug": "evv-echt"
         },
         "excelsior": {
-            "league": "Dutch Eredivisie",
+            "league": "Ned 1",
             "name": "Excelsior",
             "slug": "excelsior"
         },
@@ -8721,7 +8922,7 @@
             "slug": "fc-dallas"
         },
         "fc-den-bosch": {
-            "league": "Dutch Keuken Kampioen Divisie",
+            "league": "Ned 2",
             "name": "FC Den Bosch",
             "slug": "fc-den-bosch"
         },
@@ -8731,7 +8932,7 @@
             "slug": "fc-dordrecht"
         },
         "fc-eindhoven": {
-            "league": "Dutch Keuken Kampioen Divisie",
+            "league": "Ned 2",
             "name": "FC Eindhoven",
             "slug": "fc-eindhoven"
         },
@@ -9346,7 +9547,7 @@
             "slug": "florida-international-women"
         },
         "florida-polytechnic": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Florida Polytechnic",
             "slug": "florida-polytechnic"
         },
@@ -9450,6 +9651,11 @@
             "name": "Forres Mechanics",
             "slug": "forres-mechanics"
         },
+        "fort-lauderdale-united-fc": {
+            "league": "USL Super League",
+            "name": "Fort Lauderdale United FC",
+            "slug": "fort-lauderdale-united-fc"
+        },
         "fort-lauderdale-united-fc-women": {
             "league": "USL Super League",
             "name": "Fort Lauderdale United FC Women",
@@ -9461,7 +9667,7 @@
             "slug": "fort-wayne"
         },
         "fortaleza": {
-            "league": "Brazilian Serie B",
+            "league": "Bra 2",
             "name": "Fortaleza",
             "slug": "fortaleza"
         },
@@ -9586,7 +9792,7 @@
             "slug": "fundacion-albacete"
         },
         "furman": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Furman",
             "slug": "furman"
         },
@@ -9696,7 +9902,7 @@
             "slug": "gazovik-orenburg"
         },
         "gd-chaves": {
-            "league": "Taca de Portugal",
+            "league": "Por Taca Portugal",
             "name": "GD Chaves",
             "slug": "gd-chaves"
         },
@@ -9766,7 +9972,7 @@
             "slug": "george-washington-women"
         },
         "georgetown": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Georgetown",
             "slug": "georgetown"
         },
@@ -10144,6 +10350,11 @@
             "league": "Club Friendly",
             "name": "Gozzano",
             "slug": "gozzano"
+        },
+        "grambling": {
+            "league": "NCAAW Soccer",
+            "name": "Grambling",
+            "slug": "grambling"
         },
         "grambling-grambling-tigers-women": {
             "league": "NCAA Women's Soccer",
@@ -10851,7 +11062,7 @@
             "slug": "heegan"
         },
         "heerenveen": {
-            "league": "Dutch Eredivisie",
+            "league": "Ned 1",
             "name": "Heerenveen",
             "slug": "heerenveen"
         },
@@ -10866,12 +11077,12 @@
             "slug": "heerjansdam"
         },
         "hellas-verona": {
-            "league": "Italian Serie B",
+            "league": "Ita 2",
             "name": "Hellas Verona",
             "slug": "hellas-verona"
         },
         "helmond-sport": {
-            "league": "Dutch Keuken Kampioen Divisie",
+            "league": "Ned 2",
             "name": "Helmond Sport",
             "slug": "helmond-sport"
         },
@@ -11164,6 +11375,11 @@
             "league": "Club Friendly",
             "name": "Hospitalet",
             "slug": "hospitalet"
+        },
+        "houston": {
+            "league": "NCAAW Soccer",
+            "name": "Houston",
+            "slug": "houston"
         },
         "houston-christian": {
             "league": "NCAAM Soccer",
@@ -11546,7 +11762,7 @@
             "slug": "india-women"
         },
         "indiana": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "Indiana",
             "slug": "indiana"
         },
@@ -11616,7 +11832,7 @@
             "slug": "inter-palmira"
         },
         "internacional": {
-            "league": "Brazilian Serie A",
+            "league": "Bra 1",
             "name": "Internacional",
             "slug": "internacional"
         },
@@ -11626,7 +11842,7 @@
             "slug": "internacional-de-bogota"
         },
         "internacional-santa-tecla": {
-            "league": "Salvadoran Primera Division",
+            "league": "Salvadoran Primera",
             "name": "Internacional Santa Tecla",
             "slug": "internacional-santa-tecla"
         },
@@ -11680,10 +11896,20 @@
             "name": "Iona Women",
             "slug": "iona-women"
         },
+        "iowa": {
+            "league": "NCAAW Soccer",
+            "name": "Iowa",
+            "slug": "iowa"
+        },
         "iowa-hawkeyes-women": {
             "league": "NCAA Women's Soccer",
             "name": "Iowa Hawkeyes Women",
             "slug": "iowa-hawkeyes-women"
+        },
+        "iowa-state": {
+            "league": "NCAAW Soccer",
+            "name": "Iowa State",
+            "slug": "iowa-state"
         },
         "iowa-state-cyclones-women": {
             "league": "NCAA Women's Soccer",
@@ -12001,7 +12227,7 @@
             "slug": "jong-ajax"
         },
         "jong-az": {
-            "league": "Dutch Keuken Kampioen Divisie",
+            "league": "Ned 2",
             "name": "Jong AZ",
             "slug": "jong-az"
         },
@@ -12145,6 +12371,11 @@
             "name": "Kalmar FF",
             "slug": "kalmar-ff"
         },
+        "kansas": {
+            "league": "NCAAW Soccer",
+            "name": "Kansas",
+            "slug": "kansas"
+        },
         "kansas-city": {
             "league": "NCAA Men's Soccer",
             "name": "Kansas City",
@@ -12179,6 +12410,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Kansas Jayhawks Women",
             "slug": "kansas-jayhawks-women"
+        },
+        "kansas-state": {
+            "league": "NCAAW Soccer",
+            "name": "Kansas State",
+            "slug": "kansas-state"
         },
         "kansas-state-kansas-state-wildcats-women": {
             "league": "NCAA Women's Soccer",
@@ -12301,7 +12537,7 @@
             "slug": "kent-state-women"
         },
         "kentucky": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Kentucky",
             "slug": "kentucky"
         },
@@ -12871,7 +13107,7 @@
             "slug": "le-havre-ac-women"
         },
         "le-mans": {
-            "league": "French Ligue 1",
+            "league": "Fra 1",
             "name": "Le Mans",
             "slug": "le-mans"
         },
@@ -12956,7 +13192,7 @@
             "slug": "leek-town-fc"
         },
         "leganes": {
-            "league": "Spanish LALIGA 2",
+            "league": "Esp 2",
             "name": "Legan\u00e9s",
             "slug": "leganes"
         },
@@ -13491,7 +13727,7 @@
             "slug": "los-andes"
         },
         "los-chankas": {
-            "league": "Peruvian Liga 1",
+            "league": "Per 1",
             "name": "Los Chankas",
             "slug": "los-chankas"
         },
@@ -13541,7 +13777,7 @@
             "slug": "louisiana-women"
         },
         "louisville": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Louisville",
             "slug": "louisville"
         },
@@ -14071,7 +14307,7 @@
             "slug": "marquense"
         },
         "marquette": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Marquette",
             "slug": "marquette"
         },
@@ -14136,7 +14372,7 @@
             "slug": "marumo-gallants"
         },
         "maryland": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "Maryland",
             "slug": "maryland"
         },
@@ -14431,12 +14667,12 @@
             "slug": "miami-women"
         },
         "michigan": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "Michigan",
             "slug": "michigan"
         },
         "michigan-state": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "Michigan State",
             "slug": "michigan-state"
         },
@@ -14621,7 +14857,7 @@
             "slug": "mirandes"
         },
         "mirassol": {
-            "league": "Brazilian Serie A",
+            "league": "Bra 1",
             "name": "Mirassol",
             "slug": "mirassol"
         },
@@ -14726,7 +14962,7 @@
             "slug": "mogadishu-city-club"
         },
         "mohun-bagan-super-giant": {
-            "league": "Indian Super League",
+            "league": "Ind 1",
             "name": "Mohun Bagan Super Giant",
             "slug": "mohun-bagan-super-giant"
         },
@@ -15086,7 +15322,7 @@
             "slug": "myanmar"
         },
         "nac-breda": {
-            "league": "Dutch Keuken Kampioen Divisie",
+            "league": "Ned 2",
             "name": "NAC Breda",
             "slug": "nac-breda"
         },
@@ -15171,7 +15407,7 @@
             "slug": "navarro-college-women"
         },
         "navy": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "Navy",
             "slug": "navy"
         },
@@ -15246,7 +15482,7 @@
             "slug": "nec-nijmegen"
         },
         "necaxa": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Mex 1",
             "name": "Necaxa",
             "slug": "necaxa"
         },
@@ -15696,7 +15932,7 @@
             "slug": "north-alabama-women"
         },
         "north-carolina": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "North Carolina",
             "slug": "north-carolina"
         },
@@ -15971,7 +16207,7 @@
             "slug": "northwest-university"
         },
         "northwestern": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Northwestern",
             "slug": "northwestern"
         },
@@ -16196,7 +16432,7 @@
             "slug": "ohio-bobcats-women"
         },
         "ohio-state": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Ohio State",
             "slug": "ohio-state"
         },
@@ -16229,6 +16465,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Oklahoma Sooners Women",
             "slug": "oklahoma-sooners-women"
+        },
+        "oklahoma-state": {
+            "league": "NCAAW Soccer",
+            "name": "Oklahoma State",
+            "slug": "oklahoma-state"
         },
         "oklahoma-state-cowboys-women": {
             "league": "NCAA Women's Soccer",
@@ -16356,7 +16597,7 @@
             "slug": "olympic-safi"
         },
         "omaha": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Omaha",
             "slug": "omaha"
         },
@@ -16431,7 +16672,7 @@
             "slug": "operario-pr"
         },
         "oral-roberts": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Oral Roberts",
             "slug": "oral-roberts"
         },
@@ -16459,6 +16700,11 @@
             "league": "USL Championship",
             "name": "Orange County SC",
             "slug": "orange-county-sc"
+        },
+        "oregon": {
+            "league": "NCAAW Soccer",
+            "name": "Oregon",
+            "slug": "oregon"
         },
         "oregon-ducks-women": {
             "league": "NCAA Women's Soccer",
@@ -16536,7 +16782,7 @@
             "slug": "os-belenenses"
         },
         "os-marialvas": {
-            "league": "Taca de Portugal",
+            "league": "Por Taca Portugal",
             "name": "Os Marialvas",
             "slug": "os-marialvas"
         },
@@ -16906,7 +17152,7 @@
             "slug": "penistone-church"
         },
         "penn-state": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Penn State",
             "slug": "penn-state"
         },
@@ -17111,7 +17357,7 @@
             "slug": "pisa"
         },
         "pittsburgh": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Pittsburgh",
             "slug": "pittsburgh"
         },
@@ -17236,7 +17482,7 @@
             "slug": "ponte-barca"
         },
         "ponte-preta": {
-            "league": "Brazilian Serie B",
+            "league": "Bra 2",
             "name": "Ponte Preta",
             "slug": "ponte-preta"
         },
@@ -17410,6 +17656,11 @@
             "name": "Pozuelo Alarc\u00f3n",
             "slug": "pozuelo-alarcon"
         },
+        "prairie-view-am": {
+            "league": "NCAAW Soccer",
+            "name": "Prairie View A&M",
+            "slug": "prairie-view-am"
+        },
         "prairie-view-am-lady-panthers-women": {
             "league": "NCAA Women's Soccer",
             "name": "Prairie View A&M Lady Panthers Women",
@@ -17506,7 +17757,7 @@
             "slug": "progreso"
         },
         "providence": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Providence",
             "slug": "providence"
         },
@@ -17541,7 +17792,7 @@
             "slug": "psv-eindhoven-women"
         },
         "puebla": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Mex 1",
             "name": "Puebla",
             "slug": "puebla"
         },
@@ -17561,7 +17812,7 @@
             "slug": "puerto-rico"
         },
         "pumas-unam": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Mex 1",
             "name": "Pumas UNAM",
             "slug": "pumas-unam"
         },
@@ -18116,7 +18367,7 @@
             "slug": "real-pilar"
         },
         "real-potosi": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Bol 1",
             "name": "Real Potos\u00ed",
             "slug": "real-potosi"
         },
@@ -18716,7 +18967,7 @@
             "slug": "rubin-kazan"
         },
         "rubio-nu": {
-            "league": "Paraguayan Primera Divisi\u00f3n",
+            "league": "Par 1",
             "name": "Rubio \u00d1\u00fa",
             "slug": "rubio-nu"
         },
@@ -18771,7 +19022,7 @@
             "slug": "rusthall"
         },
         "rutgers": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Rutgers",
             "slug": "rutgers"
         },
@@ -19716,7 +19967,7 @@
             "slug": "sestao"
         },
         "seton-hall": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Seton Hall",
             "slug": "seton-hall"
         },
@@ -20166,7 +20417,7 @@
             "slug": "slovenia-women"
         },
         "smu": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "SMU",
             "slug": "smu"
         },
@@ -20270,6 +20521,11 @@
             "name": "South Africa Women",
             "slug": "south-africa-women"
         },
+        "south-alabama": {
+            "league": "NCAAW Soccer",
+            "name": "South Alabama",
+            "slug": "south-alabama"
+        },
         "south-alabama-jaguars-women": {
             "league": "NCAA Women's Soccer",
             "name": "South Alabama Jaguars Women",
@@ -20304,6 +20560,11 @@
             "league": "NCAA Women's Soccer",
             "name": "South Carolina Gamecocks Women",
             "slug": "south-carolina-gamecocks-women"
+        },
+        "south-carolina-state": {
+            "league": "NCAAW Soccer",
+            "name": "South Carolina State",
+            "slug": "south-carolina-state"
         },
         "south-carolina-state-south-carolina-state-bulldogs-women": {
             "league": "NCAA Women's Soccer",
@@ -20465,6 +20726,11 @@
             "name": "Southend United",
             "slug": "southend-united"
         },
+        "southern": {
+            "league": "NCAAW Soccer",
+            "name": "Southern",
+            "slug": "southern"
+        },
         "southern-illinois-salukis-women": {
             "league": "NCAA Women's Soccer",
             "name": "Southern Illinois Salukis Women",
@@ -20499,6 +20765,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Southern Jaguars Women",
             "slug": "southern-jaguars-women"
+        },
+        "southern-miss": {
+            "league": "NCAAW Soccer",
+            "name": "Southern Miss",
+            "slug": "southern-miss"
         },
         "southern-miss-golden-eagles-women": {
             "league": "NCAA Women's Soccer",
@@ -20646,7 +20917,7 @@
             "slug": "spokane-velocity-fc"
         },
         "sport": {
-            "league": "Brazilian Serie B",
+            "league": "Bra 2",
             "name": "Sport",
             "slug": "sport"
         },
@@ -20661,7 +20932,7 @@
             "slug": "sport-extremadura"
         },
         "sport-huancayo": {
-            "league": "Peruvian Liga 1",
+            "league": "Per 1",
             "name": "Sport Huancayo",
             "slug": "sport-huancayo"
         },
@@ -20681,7 +20952,7 @@
             "slug": "sporting-bengal-united"
         },
         "sporting-club-delhi": {
-            "league": "Indian Super League",
+            "league": "Ind 1",
             "name": "Sporting Club Delhi",
             "slug": "sporting-club-delhi"
         },
@@ -20731,8 +21002,8 @@
             "slug": "sporting-hortaleza"
         },
         "sporting-jax": {
-            "league": "USL Championship",
-            "name": "Sporting JAX",
+            "league": "USL Super League",
+            "name": "Sporting Jax",
             "slug": "sporting-jax"
         },
         "sporting-jax-women": {
@@ -20891,7 +21162,7 @@
             "slug": "st-john-fisher"
         },
         "st-johns": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "St. John's",
             "slug": "st-johns"
         },
@@ -21061,7 +21332,7 @@
             "slug": "standard-liege"
         },
         "stanford": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "Stanford",
             "slug": "stanford"
         },
@@ -21111,7 +21382,7 @@
             "slug": "stephen-f-austin-women"
         },
         "stetson": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Stetson",
             "slug": "stetson"
         },
@@ -21471,7 +21742,7 @@
             "slug": "switzerland-women"
         },
         "sydney-fc": {
-            "league": "Australian A-League Men",
+            "league": "Aus 1",
             "name": "Sydney FC",
             "slug": "sydney-fc"
         },
@@ -21635,6 +21906,11 @@
             "name": "TBD Home Women",
             "slug": "tbd-home-women"
         },
+        "tcu": {
+            "league": "NCAAW Soccer",
+            "name": "TCU",
+            "slug": "tcu"
+        },
         "tcu-horned-frogs-women": {
             "league": "NCAA Women's Soccer",
             "name": "TCU Horned Frogs Women",
@@ -21651,7 +21927,7 @@
             "slug": "tec-vv"
         },
         "tecnico-universitario": {
-            "league": "LigaPro Ecuador",
+            "league": "Ecu 1",
             "name": "T\u00e9cnico Universitario",
             "slug": "tecnico-universitario"
         },
@@ -21790,6 +22066,11 @@
             "name": "Texas Southern Women",
             "slug": "texas-southern-women"
         },
+        "texas-state": {
+            "league": "NCAAW Soccer",
+            "name": "Texas State",
+            "slug": "texas-state"
+        },
         "texas-state-texas-state-bobcats-women": {
             "league": "NCAA Women's Soccer",
             "name": "Texas State TEXAS STATE BOBCATS Women",
@@ -21799,6 +22080,11 @@
             "league": "NCAA Women's Soccer",
             "name": "Texas State Women",
             "slug": "texas-state-women"
+        },
+        "texas-tech": {
+            "league": "NCAAW Soccer",
+            "name": "Texas Tech",
+            "slug": "texas-tech"
         },
         "texas-tech-red-raiders-women": {
             "league": "NCAA Women's Soccer",
@@ -21936,7 +22222,7 @@
             "slug": "tigres-uanl-women"
         },
         "tijuana": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Mex 1",
             "name": "Tijuana",
             "slug": "tijuana"
         },
@@ -22036,7 +22322,7 @@
             "slug": "tooting-mitcham-united"
         },
         "top-oss": {
-            "league": "Dutch Keuken Kampioen Divisie",
+            "league": "Ned 2",
             "name": "TOP Oss",
             "slug": "top-oss"
         },
@@ -22101,7 +22387,7 @@
             "slug": "tougaloo-women"
         },
         "toulouse": {
-            "league": "French Ligue 1",
+            "league": "Fra 1",
             "name": "Toulouse",
             "slug": "toulouse"
         },
@@ -22521,7 +22807,7 @@
             "slug": "ucam-murcia"
         },
         "ucf": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "UCF",
             "slug": "ucf"
         },
@@ -22541,7 +22827,7 @@
             "slug": "ucf-women"
         },
         "ucla": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "UCLA",
             "slug": "ucla"
         },
@@ -22561,7 +22847,7 @@
             "slug": "ucla-women"
         },
         "uconn": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "UConn",
             "slug": "uconn"
         },
@@ -23075,6 +23361,11 @@
             "name": "UT Rio Grande Valley Women",
             "slug": "ut-rio-grande-valley-women"
         },
+        "utah": {
+            "league": "NCAAW Soccer",
+            "name": "Utah",
+            "slug": "utah"
+        },
         "utah-royals": {
             "league": "NWSL",
             "name": "Utah Royals",
@@ -23571,7 +23862,7 @@
             "slug": "villa-simancas"
         },
         "villanova": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Villanova",
             "slug": "villanova"
         },
@@ -23611,7 +23902,7 @@
             "slug": "vipers-sc"
         },
         "virginia": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "Virginia",
             "slug": "virginia"
         },
@@ -23631,7 +23922,7 @@
             "slug": "virginia-state-women"
         },
         "virginia-tech": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "Virginia Tech",
             "slug": "virginia-tech"
         },
@@ -23681,7 +23972,7 @@
             "slug": "vissel-kobe"
         },
         "vitesse": {
-            "league": "Dutch Keuken Kampioen Divisie",
+            "league": "Ned 2",
             "name": "Vitesse",
             "slug": "vitesse"
         },
@@ -23791,7 +24082,7 @@
             "slug": "vvsb"
         },
         "vvv-venlo": {
-            "league": "Dutch Keuken Kampioen Divisie",
+            "league": "Ned 2",
             "name": "VVV-Venlo",
             "slug": "vvv-venlo"
         },
@@ -23916,7 +24207,7 @@
             "slug": "wartburg"
         },
         "washington": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "Washington",
             "slug": "washington"
         },
@@ -24085,6 +24376,11 @@
             "name": "West Florida Women",
             "slug": "west-florida-women"
         },
+        "west-georgia": {
+            "league": "NCAAW Soccer",
+            "name": "West Georgia",
+            "slug": "west-georgia"
+        },
         "west-georgia-wolves-women": {
             "league": "NCAA Women's Soccer",
             "name": "West Georgia Wolves Women",
@@ -24106,7 +24402,7 @@
             "slug": "west-ham-united-women"
         },
         "west-virginia": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAW Soccer",
             "name": "West Virginia",
             "slug": "west-virginia"
         },
@@ -24216,7 +24512,7 @@
             "slug": "western-oregon-women"
         },
         "western-sydney-wanderers": {
-            "league": "Australian A-League Men",
+            "league": "Aus 1",
             "name": "Western Sydney Wanderers",
             "slug": "western-sydney-wanderers"
         },
@@ -24436,7 +24732,7 @@
             "slug": "wisbech-town"
         },
         "wisconsin": {
-            "league": "NCAA Men's Soccer",
+            "league": "NCAAM Soccer",
             "name": "Wisconsin",
             "slug": "wisconsin"
         },
