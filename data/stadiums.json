@@ -5319,6 +5319,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11196": {
+        "city": "",
+        "country": "USA",
+        "id": "11196",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Buser Family Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11197": {
         "city": "Chestnut Hill",
         "country": "USA",
@@ -5919,6 +5929,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11261": {
+        "city": "Waco",
+        "country": "USA",
+        "id": "11261",
+        "lat": 31.54933,
+        "lon": -97.14667,
+        "name": "Betty Lou Mays Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11262": {
         "city": "",
         "country": "USA",
@@ -6259,6 +6279,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11301": {
+        "city": "Salt Lake City, Utah",
+        "country": "USA",
+        "id": "11301",
+        "lat": 40.76078,
+        "lon": -111.89105,
+        "name": "Ute Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11302": {
         "city": "Saint George",
         "country": "USA",
@@ -6316,6 +6346,16 @@
         "lat": 20.70004,
         "lon": -155.9972,
         "name": "Waipi\u2018o Peninsula Soccer Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11308": {
+        "city": "Abilene",
+        "country": "USA",
+        "id": "11308",
+        "lat": 32.44874,
+        "lon": -99.73314,
+        "name": "Elmer Gray Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16049,6 +16089,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "5370": {
+        "city": "Sydney",
+        "country": "Australia",
+        "id": "5370",
+        "lat": -33.86785,
+        "lon": 151.20732,
+        "name": "Allianz Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "5375": {
         "city": "Sao Paulo",
         "country": "Brazil",
@@ -18266,6 +18316,16 @@
         "lat": 25.0,
         "lon": 45.0,
         "name": "Prince Faisal bin Fahd Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6768": {
+        "city": "Chaves",
+        "country": "Portugal",
+        "id": "6768",
+        "lat": 41.74019,
+        "lon": -7.46879,
+        "name": "Est\u00e1dio Municipal Manuel Branco Teixeira",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -23485,6 +23545,16 @@
         "id": "belgium-u21",
         "lat": 0.0,
         "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "bellinzona": {
+        "city": "",
+        "country": "",
+        "id": "bellinzona",
+        "lat": 46.19278,
+        "lon": 9.01703,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
