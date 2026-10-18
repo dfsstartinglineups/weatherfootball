@@ -105,16 +105,16 @@
             "slug": "australian-a-league-men"
         },
         "australian-a-league-women": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305929.926347,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306835.724658,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2402.png",
             "name": "Australian A-League Women",
             "pill": "aus.w.1",
             "slug": "australian-a-league-women"
         },
         "austrian-bundesliga": {
-            "last_crossover_date": "2026-10-16",
-            "last_updated": 1792219529.989911,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306870.949388,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/5.png",
             "name": "Austrian Bundesliga",
             "pill": "aut.1",
@@ -225,8 +225,8 @@
             "slug": "chilean-primera-division"
         },
         "chinese-super-league": {
-            "last_crossover_date": "2026-10-16",
-            "last_updated": 1792219530.175329,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306871.889886,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2350.png",
             "name": "Chinese Super League",
             "pill": "chn.1",
@@ -353,8 +353,8 @@
             "slug": "danish-superliga"
         },
         "dutch-eredivisie": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305925.434918,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306827.327252,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
             "name": "Dutch Eredivisie",
             "pill": "ned.1",
@@ -505,24 +505,24 @@
             "slug": "english-national-league"
         },
         "english-premier-league": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305919.802698,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306823.779984,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
             "slug": "english-premier-league"
         },
         "english-womens-super-league": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305925.566707,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306828.72872,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2314.png",
             "name": "English Women's Super League",
             "pill": "eng.w.1",
             "slug": "english-womens-super-league"
         },
         "english-wsl-players-cup": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305927.22152,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306829.41425,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English WSL Players Cup",
             "pill": "eng.w.league_cup",
@@ -552,6 +552,14 @@
             "pill": "fifa.intercontinental_cup",
             "slug": "fifa-intercontinental-cup"
         },
+        "fifa-under-17-womens-world-cup": {
+            "last_crossover_date": "",
+            "last_updated": 1792306877.075967,
+            "logo": "\ud83c\udfc6",
+            "name": "FIFA Under-17 Women's World Cup",
+            "pill": "fifa.wworld.u17",
+            "slug": "fifa-under-17-womens-world-cup"
+        },
         "fifa-womens-world-cup-qualifying-uefa": {
             "last_crossover_date": "2026-10-13",
             "last_updated": 1791960322.129464,
@@ -569,8 +577,8 @@
             "slug": "fra-1"
         },
         "french-ligue-1": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305924.309372,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306826.511185,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
             "name": "French Ligue 1",
             "pill": "fra.1",
@@ -585,8 +593,8 @@
             "slug": "french-ligue-2"
         },
         "french-premiere-ligue": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305928.392658,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306835.444288,
             "logo": "https://flagcdn.com/w40/fr.png",
             "name": "French Premi\u00e8re Ligue",
             "pill": "fra.w.1",
@@ -601,16 +609,16 @@
             "slug": "french-trophee-des-champions"
         },
         "german-2-bundesliga": {
-            "last_crossover_date": "2026-10-16",
-            "last_updated": 1792219528.736681,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306870.078118,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
             "name": "German 2. Bundesliga",
             "pill": "ger.2",
             "slug": "german-2-bundesliga"
         },
         "german-bundesliga": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305923.911975,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306825.723773,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
             "name": "German Bundesliga",
             "pill": "ger.1",
@@ -633,8 +641,8 @@
             "slug": "german-supercup"
         },
         "greek-super-league": {
-            "last_crossover_date": "2026-10-12",
-            "last_updated": 1791873928.592095,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306871.46565,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/98.png",
             "name": "Greek Super League",
             "pill": "gre.1",
@@ -689,16 +697,16 @@
             "slug": "ita-2"
         },
         "italian-serie-a": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305923.21214,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306825.455012,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
             "name": "Italian Serie A",
             "pill": "ita.1",
             "slug": "italian-serie-a"
         },
         "italian-serie-b": {
-            "last_crossover_date": "2026-10-16",
-            "last_updated": 1792219528.901538,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306870.492665,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/99.png",
             "name": "Italian Serie B",
             "pill": "ita.2",
@@ -777,32 +785,32 @@
             "slug": "mex-1"
         },
         "mexican-liga-bbva-mx": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305925.013409,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306826.647396,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png",
             "name": "Mexican Liga BBVA MX",
             "pill": "mex.1",
             "slug": "mexican-liga-bbva-mx"
         },
         "mexican-liga-bbva-mx-femenil": {
-            "last_crossover_date": "2026-10-04",
-            "last_updated": 1791182730.575235,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306868.101023,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga BBVA MX Femenil",
             "pill": "mex.w.1",
             "slug": "mexican-liga-bbva-mx-femenil"
         },
         "mexican-liga-de-expansion-mx": {
-            "last_crossover_date": "2026-10-16",
-            "last_updated": 1792219528.047228,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306867.565822,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
             "slug": "mexican-liga-de-expansion-mx"
         },
         "mls": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305922.288877,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306824.474097,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -857,8 +865,8 @@
             "slug": "ned-2"
         },
         "northern-super-league": {
-            "last_crossover_date": "2026-10-04",
-            "last_updated": 1791182730.777272,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306868.403729,
             "logo": "",
             "name": "Northern Super League",
             "pill": "can.w.nsl",
@@ -873,8 +881,8 @@
             "slug": "norwegian-eliteserien"
         },
         "nwsl": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305922.810652,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306824.889432,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -937,8 +945,8 @@
             "slug": "russian-premier"
         },
         "russian-premier-league": {
-            "last_crossover_date": "2026-10-11",
-            "last_updated": 1791787536.81298,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306868.860444,
             "logo": "https://flagcdn.com/w40/ru.png",
             "name": "Russian Premier League",
             "pill": "rus.1",
@@ -969,8 +977,8 @@
             "slug": "saudi-kings-cup"
         },
         "saudi-pro-league": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305930.192866,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306840.735161,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png",
             "name": "Saudi Pro League",
             "pill": "ksa.1",
@@ -1017,8 +1025,8 @@
             "slug": "scottish-league-cup"
         },
         "scottish-premiership": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305928.954744,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306835.584201,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/45.png",
             "name": "Scottish Premiership",
             "pill": "sco.1",
@@ -1049,24 +1057,24 @@
             "slug": "spanish-copa-del-rey"
         },
         "spanish-laliga": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305920.323091,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306824.341554,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
             "slug": "spanish-laliga"
         },
         "spanish-laliga-2": {
-            "last_crossover_date": "2026-10-16",
-            "last_updated": 1792219528.403248,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306869.667661,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
             "name": "Spanish LALIGA 2",
             "pill": "esp.2",
             "slug": "spanish-laliga-2"
         },
         "spanish-liga-f": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305927.748394,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306835.308598,
             "logo": "https://flagcdn.com/w40/es.png",
             "name": "Spanish Liga F",
             "pill": "esp.w.1",
@@ -1097,8 +1105,8 @@
             "slug": "swedish-allsvenskan"
         },
         "taca-de-portugal": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305931.704318,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306861.982337,
             "logo": "",
             "name": "Taca de Portugal",
             "pill": "por.taca.portugal",
@@ -1121,8 +1129,8 @@
             "slug": "tur-1"
         },
         "turkish-super-lig": {
-            "last_crossover_date": "2026-10-17",
-            "last_updated": 1792305932.091971,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306867.384119,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png",
             "name": "Turkish Super Lig",
             "pill": "tur.1",
@@ -1265,8 +1273,8 @@
             "slug": "usa-1"
         },
         "usl-championship": {
-            "last_crossover_date": "2026-10-14",
-            "last_updated": 1792046732.306757,
+            "last_crossover_date": "2026-10-18",
+            "last_updated": 1792306867.431129,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2292.png",
             "name": "USL Championship",
             "pill": "usa.usl.1",
@@ -1458,7 +1466,7 @@
             "slug": "ac-leon-monzana-e-brianza"
         },
         "ac-milan": {
-            "league": "UEFA Europa League",
+            "league": "Italian Serie A",
             "name": "AC Milan",
             "slug": "ac-milan"
         },
@@ -1478,7 +1486,7 @@
             "slug": "academica-de-coimbra"
         },
         "academico-de-viseu": {
-            "league": "Portuguese Primeira Liga",
+            "league": "Taca de Portugal",
             "name": "Acad\u00e9mico de Viseu",
             "slug": "academico-de-viseu"
         },
@@ -1572,6 +1580,11 @@
             "name": "Adelaide United",
             "slug": "adelaide-united"
         },
+        "adelaide-united-women": {
+            "league": "Australian A-League Women",
+            "name": "Adelaide United Women",
+            "slug": "adelaide-united-women"
+        },
         "adelphi-panthers-women": {
             "league": "NCAA Women's Soccer",
             "name": "Adelphi Panthers Women",
@@ -1648,7 +1661,7 @@
             "slug": "afc-34"
         },
         "afc-bournemouth": {
-            "league": "UEFA Europa League",
+            "league": "English Premier League",
             "name": "AFC Bournemouth",
             "slug": "afc-bournemouth"
         },
@@ -1843,7 +1856,7 @@
             "slug": "ajax-amateurs"
         },
         "ajax-amsterdam": {
-            "league": "UEFA Conference League",
+            "league": "Dutch Eredivisie",
             "name": "Ajax Amsterdam",
             "slug": "ajax-amsterdam"
         },
@@ -2403,7 +2416,7 @@
             "slug": "alvechurch"
         },
         "alverca": {
-            "league": "Portuguese Primeira Liga",
+            "league": "Taca de Portugal",
             "name": "Alverca",
             "slug": "alverca"
         },
@@ -2683,7 +2696,7 @@
             "slug": "arenas-club"
         },
         "arezzo": {
-            "league": "Club Friendly",
+            "league": "Italian Serie B",
             "name": "Arezzo",
             "slug": "arezzo"
         },
@@ -2838,12 +2851,12 @@
             "slug": "army-women"
         },
         "arouca": {
-            "league": "Portuguese Primeira Liga",
+            "league": "Taca de Portugal",
             "name": "Arouca",
             "slug": "arouca"
         },
         "arsenal": {
-            "league": "UEFA Champions League",
+            "league": "English Premier League",
             "name": "Arsenal",
             "slug": "arsenal"
         },
@@ -2883,7 +2896,7 @@
             "slug": "as-mangasport"
         },
         "as-monaco": {
-            "league": "UEFA Conference League",
+            "league": "French Ligue 1",
             "name": "AS Monaco",
             "slug": "as-monaco"
         },
@@ -3043,7 +3056,7 @@
             "slug": "aston-villa-women"
         },
         "atalanta": {
-            "league": "UEFA Conference League",
+            "league": "Italian Serie A",
             "name": "Atalanta",
             "slug": "atalanta"
         },
@@ -3121,6 +3134,11 @@
             "league": "Mexican Liga BBVA MX",
             "name": "Atlas",
             "slug": "atlas"
+        },
+        "atlas-women": {
+            "league": "Mexican Liga BBVA MX Femenil",
+            "name": "Atlas Women",
+            "slug": "atlas-women"
         },
         "atletic-club-descaldes": {
             "league": "UEFA Conference League Qualifying",
@@ -3443,7 +3461,7 @@
             "slug": "ayutthaya-united"
         },
         "az-alkmaar": {
-            "league": "UEFA Europa League",
+            "league": "Dutch Eredivisie",
             "name": "AZ Alkmaar",
             "slug": "az-alkmaar"
         },
@@ -3708,7 +3726,7 @@
             "slug": "bay-fc-women"
         },
         "bayer-leverkusen": {
-            "league": "UEFA Europa League",
+            "league": "German Bundesliga",
             "name": "Bayer Leverkusen",
             "slug": "bayer-leverkusen"
         },
@@ -3793,7 +3811,7 @@
             "slug": "beerschot"
         },
         "beijing-guoan": {
-            "league": "AFC Champions League Elite",
+            "league": "Chinese Super League",
             "name": "Beijing Guoan",
             "slug": "beijing-guoan"
         },
@@ -4542,6 +4560,11 @@
             "name": "Brazil",
             "slug": "brazil"
         },
+        "brazil-u17-women": {
+            "league": "FIFA Under-17 Women's World Cup",
+            "name": "Brazil U17 Women",
+            "slug": "brazil-u17-women"
+        },
         "brazil-women": {
             "league": "Women's International Friendly",
             "name": "Brazil Women",
@@ -4598,7 +4621,7 @@
             "slug": "brighlingsea-regent"
         },
         "brighton-hove-albion": {
-            "league": "UEFA Conference League",
+            "league": "English Premier League",
             "name": "Brighton & Hove Albion",
             "slug": "brighton-hove-albion"
         },
@@ -4636,6 +4659,11 @@
             "league": "English League Championship",
             "name": "Bristol City",
             "slug": "bristol-city"
+        },
+        "bristol-city-women": {
+            "league": "English WSL Players Cup",
+            "name": "Bristol City Women",
+            "slug": "bristol-city-women"
         },
         "bristol-manor-farm": {
             "league": "English FA Cup Qualifying",
@@ -4876,6 +4904,11 @@
             "league": "English League Championship",
             "name": "Burnley",
             "slug": "burnley"
+        },
+        "burnley-women": {
+            "league": "English WSL Players Cup",
+            "name": "Burnley Women",
+            "slug": "burnley-women"
         },
         "burntisland-shipyard": {
             "league": "Scottish Cup Qualifying",
@@ -5222,6 +5255,11 @@
             "name": "Canada",
             "slug": "canada"
         },
+        "canada-u17-women": {
+            "league": "FIFA Under-17 Women's World Cup",
+            "name": "Canada U17 Women",
+            "slug": "canada-u17-women"
+        },
         "canada-women": {
             "league": "Women's International Friendly",
             "name": "Canada Women",
@@ -5338,7 +5376,7 @@
             "slug": "cartagines"
         },
         "casa-pia": {
-            "league": "Portuguese Primeira Liga",
+            "league": "Taca de Portugal",
             "name": "Casa Pia",
             "slug": "casa-pia"
         },
@@ -5598,12 +5636,12 @@
             "slug": "celoricense"
         },
         "celta-vigo": {
-            "league": "UEFA Europa League",
+            "league": "Spanish LALIGA",
             "name": "Celta Vigo",
             "slug": "celta-vigo"
         },
         "celtic": {
-            "league": "UEFA Europa League",
+            "league": "Scottish Premiership",
             "name": "Celtic",
             "slug": "celtic"
         },
@@ -6548,7 +6586,7 @@
             "slug": "comerciantes-unidos"
         },
         "como": {
-            "league": "UEFA Champions League",
+            "league": "Italian Serie A",
             "name": "Como",
             "slug": "como"
         },
@@ -6893,7 +6931,7 @@
             "slug": "cruzeiro"
         },
         "crystal-palace": {
-            "league": "UEFA Europa League",
+            "league": "English Premier League",
             "name": "Crystal Palace",
             "slug": "crystal-palace"
         },
@@ -8018,7 +8056,7 @@
             "slug": "dvs-33-ermelo"
         },
         "dynamo-dresden": {
-            "league": "Club Friendly",
+            "league": "German 2. Bundesliga",
             "name": "Dynamo Dresden",
             "slug": "dynamo-dresden"
         },
@@ -8553,7 +8591,7 @@
             "slug": "estonia-u21"
         },
         "estoril": {
-            "league": "Portuguese Primeira Liga",
+            "league": "Taca de Portugal",
             "name": "Estoril",
             "slug": "estoril"
         },
@@ -8978,7 +9016,7 @@
             "slug": "fc-erzgebirge-aue"
         },
         "fc-famalicao": {
-            "league": "Portuguese Primeira Liga",
+            "league": "Taca de Portugal",
             "name": "FC Famalicao",
             "slug": "fc-famalicao"
         },
@@ -9223,7 +9261,7 @@
             "slug": "fc-tulsa"
         },
         "fc-twente": {
-            "league": "UEFA Conference League",
+            "league": "Dutch Eredivisie",
             "name": "FC Twente",
             "slug": "fc-twente"
         },
@@ -10448,7 +10486,7 @@
             "slug": "grays-athletic"
         },
         "grazer-ak": {
-            "league": "Club Friendly",
+            "league": "Austrian Bundesliga",
             "name": "Grazer AK",
             "slug": "grazer-ak"
         },
@@ -11043,7 +11081,7 @@
             "slug": "heanor-town"
         },
         "heart-of-midlothian": {
-            "league": "UEFA Conference League",
+            "league": "Scottish Premiership",
             "name": "Heart of Midlothian",
             "slug": "heart-of-midlothian"
         },
@@ -12192,6 +12230,11 @@
             "name": "Japan",
             "slug": "japan"
         },
+        "japan-u17-women": {
+            "league": "FIFA Under-17 Women's World Cup",
+            "name": "Japan U17 Women",
+            "slug": "japan-u17-women"
+        },
         "japan-women": {
             "league": "Women's International Friendly",
             "name": "Japan Women",
@@ -12318,7 +12361,7 @@
             "slug": "juticalpa-fc"
         },
         "juve-stabia": {
-            "league": "Club Friendly",
+            "league": "Italian Serie B",
             "name": "Juve Stabia",
             "slug": "juve-stabia"
         },
@@ -12343,7 +12386,7 @@
             "slug": "juventude-lajense"
         },
         "juventus": {
-            "league": "UEFA Europa League",
+            "league": "Italian Serie A",
             "name": "Juventus",
             "slug": "juventus"
         },
@@ -13998,7 +14041,7 @@
             "slug": "lyngby-boldklub"
         },
         "lyon": {
-            "league": "UEFA Europa League",
+            "league": "French Ligue 1",
             "name": "Lyon",
             "slug": "lyon"
         },
@@ -14208,7 +14251,7 @@
             "slug": "manchester-city-women"
         },
         "manchester-united": {
-            "league": "UEFA Champions League",
+            "league": "English Premier League",
             "name": "Manchester United",
             "slug": "manchester-united"
         },
@@ -14318,7 +14361,7 @@
             "slug": "marist-women"
         },
         "maritimo": {
-            "league": "Portuguese Primeira Liga",
+            "league": "Taca de Portugal",
             "name": "Maritimo",
             "slug": "maritimo"
         },
@@ -14353,7 +14396,7 @@
             "slug": "marquette-women"
         },
         "marseille": {
-            "league": "UEFA Europa League",
+            "league": "French Ligue 1",
             "name": "Marseille",
             "slug": "marseille"
         },
@@ -15513,7 +15556,7 @@
             "slug": "nebraska-women"
         },
         "nec-nijmegen": {
-            "league": "UEFA Europa League",
+            "league": "Dutch Eredivisie",
             "name": "NEC Nijmegen",
             "slug": "nec-nijmegen"
         },
@@ -16433,7 +16476,7 @@
             "slug": "odisha-fc"
         },
         "ofi-crete": {
-            "league": "UEFA Europa League",
+            "league": "Greek Super League",
             "name": "OFI Crete",
             "slug": "ofi-crete"
         },
@@ -16613,7 +16656,7 @@
             "slug": "olympia-las-rozas"
         },
         "olympiacos": {
-            "league": "UEFA Europa League",
+            "league": "Greek Super League",
             "name": "Olympiacos",
             "slug": "olympiacos"
         },
@@ -17018,7 +17061,7 @@
             "slug": "panama-women"
         },
         "panathinaikos": {
-            "league": "UEFA Conference League",
+            "league": "Greek Super League",
             "name": "Panathinaikos",
             "slug": "panathinaikos"
         },
@@ -18273,7 +18316,7 @@
             "slug": "rb-leipzig"
         },
         "rb-salzburg": {
-            "league": "UEFA Europa League",
+            "league": "Austrian Bundesliga",
             "name": "RB Salzburg",
             "slug": "rb-salzburg"
         },
@@ -18363,7 +18406,7 @@
             "slug": "real-jaen-cf"
         },
         "real-madrid": {
-            "league": "UEFA Champions League",
+            "league": "Spanish LALIGA",
             "name": "Real Madrid",
             "slug": "real-madrid"
         },
@@ -18423,7 +18466,7 @@
             "slug": "real-salt-lake"
         },
         "real-sociedad": {
-            "league": "UEFA Europa League",
+            "league": "Spanish LALIGA",
             "name": "Real Sociedad",
             "slug": "real-sociedad"
         },
@@ -19563,7 +19606,7 @@
             "slug": "sanremese"
         },
         "santa-clara": {
-            "league": "Portuguese Primeira Liga",
+            "league": "Taca de Portugal",
             "name": "Santa Clara",
             "slug": "santa-clara"
         },
@@ -19728,7 +19771,7 @@
             "slug": "sc-farense"
         },
         "sc-freiburg": {
-            "league": "UEFA Conference League",
+            "league": "German Bundesliga",
             "name": "SC Freiburg",
             "slug": "sc-freiburg"
         },
@@ -20103,12 +20146,12 @@
             "slug": "shandong-taishan"
         },
         "shanghai-port": {
-            "league": "AFC Champions League Elite",
+            "league": "Chinese Super League",
             "name": "Shanghai Port",
             "slug": "shanghai-port"
         },
         "shanghai-shenhua": {
-            "league": "AFC Champions League Two",
+            "league": "Chinese Super League",
             "name": "Shanghai Shenhua",
             "slug": "shanghai-shenhua"
         },
@@ -20358,7 +20401,7 @@
             "slug": "sk-prostejov"
         },
         "sk-sturm-graz": {
-            "league": "UEFA Europa League",
+            "league": "Austrian Bundesliga",
             "name": "SK Sturm Graz",
             "slug": "sk-sturm-graz"
         },
@@ -21343,7 +21386,7 @@
             "slug": "stade-marocain"
         },
         "stade-rennais": {
-            "league": "UEFA Europa League",
+            "league": "French Ligue 1",
             "name": "Stade Rennais",
             "slug": "stade-rennais"
         },
@@ -21618,7 +21661,7 @@
             "slug": "sudan"
         },
         "sudtirol": {
-            "league": "Club Friendly",
+            "league": "Italian Serie B",
             "name": "Sudtirol",
             "slug": "sudtirol"
         },
@@ -21628,7 +21671,7 @@
             "slug": "sul-ross-state-women"
         },
         "sunderland": {
-            "league": "UEFA Europa League",
+            "league": "English Premier League",
             "name": "Sunderland",
             "slug": "sunderland"
         },
@@ -21693,7 +21736,7 @@
             "slug": "sv-blauw-geel-38"
         },
         "sv-darmstadt-98": {
-            "league": "Club Friendly",
+            "league": "German 2. Bundesliga",
             "name": "SV Darmstadt 98",
             "slug": "sv-darmstadt-98"
         },
@@ -21791,6 +21834,11 @@
             "league": "Australian A-League Men",
             "name": "Sydney FC",
             "slug": "sydney-fc"
+        },
+        "sydney-fc-women": {
+            "league": "Australian A-League Women",
+            "name": "Sydney FC Women",
+            "slug": "sydney-fc-women"
         },
         "syracuse": {
             "league": "NCAAW Soccer",
@@ -22583,7 +22631,7 @@
             "slug": "ts-galaxy-fc"
         },
         "tsg-hoffenheim": {
-            "league": "UEFA Europa League",
+            "league": "German Bundesliga",
             "name": "TSG Hoffenheim",
             "slug": "tsg-hoffenheim"
         },
@@ -23798,7 +23846,7 @@
             "slug": "vfl-bochum"
         },
         "vfl-osnabruck": {
-            "league": "Club Friendly",
+            "league": "German 2. Bundesliga",
             "name": "VfL Osnabruck",
             "slug": "vfl-osnabruck"
         },
@@ -24872,6 +24920,11 @@
             "name": "Wolverhampton Wanderers",
             "slug": "wolverhampton-wanderers"
         },
+        "wolverhampton-women": {
+            "league": "English WSL Players Cup",
+            "name": "Wolverhampton Women",
+            "slug": "wolverhampton-women"
+        },
         "woodbridge-town": {
             "league": "English FA Cup Qualifying",
             "name": "Woodbridge Town",
@@ -24948,7 +25001,7 @@
             "slug": "wroxham"
         },
         "wsg-swarovski-tirol": {
-            "league": "Club Friendly",
+            "league": "Austrian Bundesliga",
             "name": "WSG Swarovski Tirol",
             "slug": "wsg-swarovski-tirol"
         },
@@ -25147,6 +25200,11 @@
             "name": "Zambia",
             "slug": "zambia"
         },
+        "zambia-u17-women": {
+            "league": "FIFA Under-17 Women's World Cup",
+            "name": "Zambia U17 Women",
+            "slug": "zambia-u17-women"
+        },
         "zambia-women": {
             "league": "Women's Africa Cup of Nations",
             "name": "Zambia Women",
@@ -25183,7 +25241,7 @@
             "slug": "zeleznicar-pancevo"
         },
         "zenit-st-petersburg": {
-            "league": "Club Friendly",
+            "league": "Russian Premier League",
             "name": "Zenit St Petersburg",
             "slug": "zenit-st-petersburg"
         },
