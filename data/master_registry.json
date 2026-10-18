@@ -106,7 +106,7 @@
         },
         "australian-a-league-women": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330225.217362,
+            "last_updated": 1792331129.696903,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2402.png",
             "name": "Australian A-League Women",
             "pill": "aus.w.1",
@@ -114,7 +114,7 @@
         },
         "austrian-bundesliga": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330231.005246,
+            "last_updated": 1792331135.303183,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/5.png",
             "name": "Austrian Bundesliga",
             "pill": "aut.1",
@@ -226,7 +226,7 @@
         },
         "chinese-super-league": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330231.929691,
+            "last_updated": 1792331136.215611,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2350.png",
             "name": "Chinese Super League",
             "pill": "chn.1",
@@ -354,7 +354,7 @@
         },
         "dutch-eredivisie": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330222.691018,
+            "last_updated": 1792331127.194619,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
             "name": "Dutch Eredivisie",
             "pill": "ned.1",
@@ -506,7 +506,7 @@
         },
         "english-premier-league": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330219.037077,
+            "last_updated": 1792331123.709608,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -514,7 +514,7 @@
         },
         "english-womens-super-league": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330223.548325,
+            "last_updated": 1792331128.032235,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2314.png",
             "name": "English Women's Super League",
             "pill": "eng.w.1",
@@ -522,7 +522,7 @@
         },
         "english-wsl-players-cup": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330224.226805,
+            "last_updated": 1792331128.722634,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English WSL Players Cup",
             "pill": "eng.w.league_cup",
@@ -544,6 +544,14 @@
             "pill": "esp.2",
             "slug": "esp-2"
         },
+        "esp-w-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792331129.283169,
+            "logo": "",
+            "name": "Esp W 1",
+            "pill": "esp.w.1",
+            "slug": "esp-w-1"
+        },
         "fifa-intercontinental-cup": {
             "last_crossover_date": "2026-08-26",
             "last_updated": 1787813132.994473,
@@ -554,7 +562,7 @@
         },
         "fifa-under-17-womens-world-cup": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330232.199459,
+            "last_updated": 1792331136.508841,
             "logo": "\ud83c\udfc6",
             "name": "FIFA Under-17 Women's World Cup",
             "pill": "fifa.wworld.u17",
@@ -578,7 +586,7 @@
         },
         "french-ligue-1": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330221.806585,
+            "last_updated": 1792331126.356645,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
             "name": "French Ligue 1",
             "pill": "fra.1",
@@ -594,7 +602,7 @@
         },
         "french-premiere-ligue": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330224.95325,
+            "last_updated": 1792331129.423576,
             "logo": "https://flagcdn.com/w40/fr.png",
             "name": "French Premi\u00e8re Ligue",
             "pill": "fra.w.1",
@@ -610,7 +618,7 @@
         },
         "german-2-bundesliga": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330230.12157,
+            "last_updated": 1792331134.471044,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/97.png",
             "name": "German 2. Bundesliga",
             "pill": "ger.2",
@@ -618,7 +626,7 @@
         },
         "german-bundesliga": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330221.139293,
+            "last_updated": 1792331125.641096,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
             "name": "German Bundesliga",
             "pill": "ger.1",
@@ -642,7 +650,7 @@
         },
         "greek-super-league": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330231.517785,
+            "last_updated": 1792331135.804699,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/98.png",
             "name": "Greek Super League",
             "pill": "gre.1",
@@ -698,7 +706,7 @@
         },
         "italian-serie-a": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330220.840294,
+            "last_updated": 1792331125.365015,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
             "name": "Italian Serie A",
             "pill": "ita.1",
@@ -706,7 +714,7 @@
         },
         "italian-serie-b": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330230.619703,
+            "last_updated": 1792331134.896517,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/99.png",
             "name": "Italian Serie B",
             "pill": "ita.2",
@@ -752,6 +760,14 @@
             "pill": "3932",
             "slug": "liga-de-expansion-mx"
         },
+        "liga-f": {
+            "last_crossover_date": "",
+            "last_updated": 1792331129.007169,
+            "logo": "",
+            "name": "Liga F",
+            "pill": "20956",
+            "slug": "liga-f"
+        },
         "liga-fpd": {
             "last_crossover_date": "2026-10-15",
             "last_updated": 1792133127.554408,
@@ -784,9 +800,25 @@
             "pill": "mex.1",
             "slug": "mex-1"
         },
+        "mex-2": {
+            "last_crossover_date": "",
+            "last_updated": 1792331132.026571,
+            "logo": "",
+            "name": "Mex 2",
+            "pill": "mex.2",
+            "slug": "mex-2"
+        },
+        "mex-w-1": {
+            "last_crossover_date": "",
+            "last_updated": 1792331132.304263,
+            "logo": "",
+            "name": "Mex W 1",
+            "pill": "mex.w.1",
+            "slug": "mex-w-1"
+        },
         "mexican-liga-bbva-mx": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330222.012268,
+            "last_updated": 1792331132.604264,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png",
             "name": "Mexican Liga BBVA MX",
             "pill": "mex.1",
@@ -810,7 +842,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330219.865008,
+            "last_updated": 1792331124.404289,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -866,7 +898,7 @@
         },
         "northern-super-league": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330228.316616,
+            "last_updated": 1792331132.882522,
             "logo": "",
             "name": "Northern Super League",
             "pill": "can.w.nsl",
@@ -882,7 +914,7 @@
         },
         "nwsl": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330220.296483,
+            "last_updated": 1792331124.809231,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -946,7 +978,7 @@
         },
         "russian-premier-league": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330228.76516,
+            "last_updated": 1792331133.348861,
             "logo": "https://flagcdn.com/w40/ru.png",
             "name": "Russian Premier League",
             "pill": "rus.1",
@@ -978,7 +1010,7 @@
         },
         "saudi-pro-league": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330225.345809,
+            "last_updated": 1792331129.832412,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png",
             "name": "Saudi Pro League",
             "pill": "ksa.1",
@@ -1026,7 +1058,7 @@
         },
         "scottish-premiership": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330225.086733,
+            "last_updated": 1792331129.555903,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/45.png",
             "name": "Scottish Premiership",
             "pill": "sco.1",
@@ -1058,7 +1090,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330219.577943,
+            "last_updated": 1792331124.26735,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -1066,7 +1098,7 @@
         },
         "spanish-laliga-2": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330229.480779,
+            "last_updated": 1792331134.038874,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
             "name": "Spanish LALIGA 2",
             "pill": "esp.2",
@@ -1106,7 +1138,7 @@
         },
         "taca-de-portugal": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330226.906737,
+            "last_updated": 1792331131.366432,
             "logo": "",
             "name": "Taca de Portugal",
             "pill": "por.taca.portugal",
@@ -1130,7 +1162,7 @@
         },
         "turkish-super-lig": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330227.310986,
+            "last_updated": 1792331131.793184,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png",
             "name": "Turkish Super Lig",
             "pill": "tur.1",
@@ -1274,7 +1306,7 @@
         },
         "usl-championship": {
             "last_crossover_date": "2026-10-18",
-            "last_updated": 1792330227.353375,
+            "last_updated": 1792331131.839137,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2292.png",
             "name": "USL Championship",
             "pill": "usa.usl.1",
@@ -2216,7 +2248,7 @@
             "slug": "alashkert-fc"
         },
         "alaves": {
-            "league": "Spanish LALIGA",
+            "league": "Liga F",
             "name": "Alav\u00e9s",
             "slug": "alaves"
         },
@@ -2311,7 +2343,7 @@
             "slug": "aldosivi"
         },
         "alebrijes-de-oaxaca": {
-            "league": "Mexican Liga de Expansi\u00f3n MX",
+            "league": "Mex 2",
             "name": "Alebrijes de Oaxaca",
             "slug": "alebrijes-de-oaxaca"
         },
@@ -3136,7 +3168,7 @@
             "slug": "atlas"
         },
         "atlas-women": {
-            "league": "Mexican Liga BBVA MX Femenil",
+            "league": "Mex W 1",
             "name": "Atlas Women",
             "slug": "atlas-women"
         },
@@ -3196,7 +3228,7 @@
             "slug": "atletico-de-san-luis"
         },
         "atletico-de-san-luis-women": {
-            "league": "Mexican Liga BBVA MX Femenil",
+            "league": "Mex W 1",
             "name": "Atl\u00e9tico de San Luis Women",
             "slug": "atletico-de-san-luis-women"
         },
@@ -3231,7 +3263,7 @@
             "slug": "atletico-madrid-b"
         },
         "atletico-madrid-women": {
-            "league": "Spanish Liga F",
+            "league": "Esp W 1",
             "name": "Atl\u00e9tico Madrid Women",
             "slug": "atletico-madrid-women"
         },
@@ -3606,7 +3638,7 @@
             "slug": "barbados"
         },
         "barcelona": {
-            "league": "Spanish LALIGA",
+            "league": "Liga F",
             "name": "Barcelona",
             "slug": "barcelona"
         },
@@ -7581,7 +7613,7 @@
             "slug": "deportivo-tachira"
         },
         "deportivo-women": {
-            "league": "Spanish Liga F",
+            "league": "Esp W 1",
             "name": "Deportivo Women",
             "slug": "deportivo-women"
         },
@@ -8331,7 +8363,7 @@
             "slug": "eibar-ii"
         },
         "eibar-women": {
-            "league": "Spanish Liga F",
+            "league": "Esp W 1",
             "name": "Eibar Women",
             "slug": "eibar-women"
         },
@@ -9086,7 +9118,7 @@
             "slug": "fc-juarez"
         },
         "fc-juarez-women": {
-            "league": "Mexican Liga BBVA MX Femenil",
+            "league": "Mex W 1",
             "name": "FC Ju\u00e1rez Women",
             "slug": "fc-juarez-women"
         },
@@ -13346,7 +13378,7 @@
             "slug": "leones"
         },
         "leones-negros": {
-            "league": "Mexican Liga de Expansi\u00f3n MX",
+            "league": "Mex 2",
             "name": "Leones Negros",
             "slug": "leones-negros"
         },
@@ -14086,7 +14118,7 @@
             "slug": "madalena"
         },
         "madrid-cff-women": {
-            "league": "Spanish Liga F",
+            "league": "Esp W 1",
             "name": "Madrid CFF Women",
             "slug": "madrid-cff-women"
         },
@@ -17906,7 +17938,7 @@
             "slug": "pumas-unam"
         },
         "pumas-unam-women": {
-            "league": "Mexican Liga BBVA MX Femenil",
+            "league": "Mex W 1",
             "name": "Pumas UNAM Women",
             "slug": "pumas-unam-women"
         },
@@ -18466,7 +18498,7 @@
             "slug": "real-salt-lake"
         },
         "real-sociedad": {
-            "league": "Spanish LALIGA",
+            "league": "Liga F",
             "name": "Real Sociedad",
             "slug": "real-sociedad"
         },
@@ -20086,7 +20118,7 @@
             "slug": "sevenoaks-town"
         },
         "sevilla": {
-            "league": "Spanish LALIGA",
+            "league": "Liga F",
             "name": "Sevilla",
             "slug": "sevilla"
         },
