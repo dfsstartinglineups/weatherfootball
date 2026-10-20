@@ -10689,6 +10689,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11802": {
+        "city": "",
+        "country": "Australia",
+        "id": "11802",
+        "lat": -25.0,
+        "lon": 135.0,
+        "name": "Barlow's Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11806": {
         "city": "My\u015blenice",
         "country": "Poland",
@@ -11186,6 +11196,16 @@
         "lat": 39.03843,
         "lon": -80.46731,
         "name": "Hunter City Motor Group Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11888": {
+        "city": "Gloucester",
+        "country": "England",
+        "id": "11888",
+        "lat": 51.86568,
+        "lon": -2.2431,
+        "name": "KMM Energy Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
