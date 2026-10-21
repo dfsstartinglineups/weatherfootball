@@ -6319,6 +6319,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11299": {
+        "city": "West Point",
+        "country": "USA",
+        "id": "11299",
+        "lat": 33.60762,
+        "lon": -88.65033,
+        "name": "Malek Stadium at Clinton Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11300": {
         "city": "Boulder",
         "country": "USA",
@@ -10386,6 +10396,16 @@
         "lat": 42.34106,
         "lon": -3.70184,
         "name": "Ciudad Deportiva de Casta\u00f1ares",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11761": {
+        "city": "Nijmegen",
+        "country": "Netherlands",
+        "id": "11761",
+        "lat": 51.8425,
+        "lon": 5.85278,
+        "name": "Sportpark De Kwakkenberg Veld 1",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -16316,6 +16336,16 @@
         "lat": -19.92083,
         "lon": -43.93778,
         "name": "Est\u00e1dio Raimundo Sampaio (Independ\u00eancia)",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "5406": {
+        "city": "Santiago",
+        "country": "Chile",
+        "id": "5406",
+        "lat": -33.45694,
+        "lon": -70.64827,
+        "name": "Estadio Santa Laura-Universidad SEK",
         "roof": "Open",
         "surface": "Grass"
     },
