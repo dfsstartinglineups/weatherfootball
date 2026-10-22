@@ -5149,6 +5149,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11171": {
+        "city": "",
+        "country": "USA",
+        "id": "11171",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Demirjian Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11172": {
         "city": "",
         "country": "USA",
@@ -6589,6 +6599,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11328": {
+        "city": "",
+        "country": "USA",
+        "id": "11328",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Bill Clark Homes Field at Johnson Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11329": {
         "city": "",
         "country": "USA",
@@ -6949,6 +6969,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11372": {
+        "city": "Lake Charles",
+        "country": "USA",
+        "id": "11372",
+        "lat": 30.21309,
+        "lon": -93.2044,
+        "name": "Cowgirl Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11374": {
         "city": "Hammond",
         "country": "USA",
@@ -7206,6 +7236,16 @@
         "lat": 40.88732,
         "lon": -73.90152,
         "name": "Gaelic Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11404": {
+        "city": "Cheney",
+        "country": "USA",
+        "id": "11404",
+        "lat": 47.48739,
+        "lon": -117.57576,
+        "name": "EWU Soccer Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11226,6 +11266,26 @@
         "lat": 51.86568,
         "lon": -2.2431,
         "name": "KMM Energy Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11894": {
+        "city": "",
+        "country": "India",
+        "id": "11894",
+        "lat": 22.0,
+        "lon": 79.0,
+        "name": "Mahamaya Northern United Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11895": {
+        "city": "Braintree",
+        "country": "England",
+        "id": "11895",
+        "lat": 42.20384,
+        "lon": -71.00215,
+        "name": "The Sports Ground",
         "roof": "Open",
         "surface": "Grass"
     },
