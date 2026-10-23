@@ -4239,6 +4239,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10940": {
+        "city": "Casablanca",
+        "country": "Morocco",
+        "id": "10940",
+        "lat": 33.58831,
+        "lon": -7.61138,
+        "name": "Mohamed V Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10941": {
         "city": "Ouagadougou",
         "country": "Burkina Faso",
@@ -5146,16 +5156,6 @@
         "lat": 33.46179,
         "lon": -88.78839,
         "name": "MSU Soccer Field",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11171": {
-        "city": "",
-        "country": "USA",
-        "id": "11171",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Demirjian Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6596,16 +6596,6 @@
         "lat": 37.28717,
         "lon": -121.94996,
         "name": "Eakes Athletics Complex",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11328": {
-        "city": "",
-        "country": "USA",
-        "id": "11328",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Bill Clark Homes Field at Johnson Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17879,6 +17869,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6444": {
+        "city": "Pune",
+        "country": "India",
+        "id": "6444",
+        "lat": 18.51957,
+        "lon": 73.85535,
+        "name": "Shree Shiv Chhatrapati Sports Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6451": {
         "city": "San Antonio, Texas",
         "country": "USA",
@@ -20166,6 +20166,16 @@
         "lat": 8.51178,
         "lon": -81.0364,
         "name": "Municipal Villa Ingenio",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8044": {
+        "city": "Sydney",
+        "country": "Australia",
+        "id": "8044",
+        "lat": -33.86785,
+        "lon": 151.20732,
+        "name": "CommBank Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
