@@ -11199,6 +11199,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11868": {
+        "city": "Johnstone",
+        "country": "Scotland",
+        "id": "11868",
+        "lat": 55.82906,
+        "lon": -4.51605,
+        "name": "James Y. Keanie Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11869": {
         "city": "",
         "country": "England",
@@ -11206,6 +11216,26 @@
         "lat": 34.54426,
         "lon": -91.96903,
         "name": "Scarborough Sports Village",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11871": {
+        "city": "Troon",
+        "country": "Scotland",
+        "id": "11871",
+        "lat": 38.27368,
+        "lon": -85.79163,
+        "name": "Portland Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11872": {
+        "city": "Renfrew",
+        "country": "Scotland",
+        "id": "11872",
+        "lat": 40.80673,
+        "lon": -79.96478,
+        "name": "New Western Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11426,6 +11456,16 @@
         "lat": 52.9536,
         "lon": -1.15047,
         "name": "The City Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1322": {
+        "city": "Gretna",
+        "country": "Scotland",
+        "id": "1322",
+        "lat": 29.91465,
+        "lon": -90.05396,
+        "name": "Raydale Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -13726,6 +13766,16 @@
         "lat": 52.04172,
         "lon": -0.75583,
         "name": "Stadium MK",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3091": {
+        "city": "Brora",
+        "country": "Scotland",
+        "id": "3091",
+        "lat": 58.00989,
+        "lon": -3.85182,
+        "name": "Dudgeon Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17939,6 +17989,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6467": {
+        "city": "Huntly",
+        "country": "Scotland",
+        "id": "6467",
+        "lat": 51.0375,
+        "lon": -114.175,
+        "name": "Christie Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6473": {
         "city": "Maidstone",
         "country": "England",
@@ -19556,6 +19616,16 @@
         "lat": 52.645,
         "lon": 6.21111,
         "name": "Sportpark Het Noorderslag",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7474": {
+        "city": "Toyota Stadium",
+        "country": "USA",
+        "id": "7474",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Toyota Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -21876,6 +21946,16 @@
         "lat": -6.21462,
         "lon": 106.84513,
         "name": "Jakarta International Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9284": {
+        "city": "Adelaide",
+        "country": "Australia",
+        "id": "9284",
+        "lat": -34.92866,
+        "lon": 138.59863,
+        "name": "ServiceFM Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
