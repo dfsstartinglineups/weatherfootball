@@ -97,16 +97,16 @@
             "slug": "aus-1"
         },
         "australian-a-league-men": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910750.30164,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911766.871194,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png",
             "name": "Australian A-League Men",
             "pill": "aus.1",
             "slug": "australian-a-league-men"
         },
         "australian-a-league-women": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910751.076695,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911767.161951,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2402.png",
             "name": "Australian A-League Women",
             "pill": "aus.w.1",
@@ -353,8 +353,8 @@
             "slug": "danish-superliga"
         },
         "dutch-eredivisie": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910737.990737,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911636.805832,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
             "name": "Dutch Eredivisie",
             "pill": "ned.1",
@@ -505,24 +505,24 @@
             "slug": "english-national-league"
         },
         "english-premier-league": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910718.511039,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911625.427115,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
             "slug": "english-premier-league"
         },
         "english-womens-fa-cup": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910741.550765,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911766.062301,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English Women's FA Cup",
             "pill": "eng.w.fa",
             "slug": "english-womens-fa-cup"
         },
         "english-womens-super-league": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910738.403478,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911637.718198,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2314.png",
             "name": "English Women's Super League",
             "pill": "eng.w.1",
@@ -576,6 +576,14 @@
             "pill": "fifa.wworld.u17",
             "slug": "fifa-under-17-womens-world-cup"
         },
+        "fifa-womens-champions-cup": {
+            "last_crossover_date": "",
+            "last_updated": 1792911627.123024,
+            "logo": "\ud83c\udfc6",
+            "name": "FIFA Women's Champions Cup",
+            "pill": "fifa.w.champions_cup",
+            "slug": "fifa-womens-champions-cup"
+        },
         "fifa-womens-world-cup-qualifying-uefa": {
             "last_crossover_date": "2026-10-13",
             "last_updated": 1791960322.129464,
@@ -593,8 +601,8 @@
             "slug": "fra-1"
         },
         "french-ligue-1": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910736.429909,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911635.121283,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
             "name": "French Ligue 1",
             "pill": "fra.1",
@@ -633,8 +641,8 @@
             "slug": "german-2-bundesliga"
         },
         "german-bundesliga": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910736.172635,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911633.907834,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
             "name": "German Bundesliga",
             "pill": "ger.1",
@@ -713,8 +721,8 @@
             "slug": "ita-2"
         },
         "italian-serie-a": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910734.624836,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911633.556919,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
             "name": "Italian Serie A",
             "pill": "ita.1",
@@ -825,8 +833,8 @@
             "slug": "mex-w-1"
         },
         "mexican-liga-bbva-mx": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910737.211365,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911635.864098,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png",
             "name": "Mexican Liga BBVA MX",
             "pill": "mex.1",
@@ -849,8 +857,8 @@
             "slug": "mexican-liga-de-expansion-mx"
         },
         "mls": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910733.010319,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911626.375357,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -921,8 +929,8 @@
             "slug": "norwegian-eliteserien"
         },
         "nwsl": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910733.526,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911626.929326,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -969,8 +977,8 @@
             "slug": "por-taca-portugal"
         },
         "portuguese-primeira-liga": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910752.531741,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911767.740821,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
             "name": "Portuguese Primeira Liga",
             "pill": "por.1",
@@ -1065,8 +1073,8 @@
             "slug": "scottish-league-cup"
         },
         "scottish-premiership": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910745.055701,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911766.70543,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/45.png",
             "name": "Scottish Premiership",
             "pill": "sco.1",
@@ -1097,8 +1105,8 @@
             "slug": "spanish-copa-del-rey"
         },
         "spanish-laliga": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910719.540157,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911626.192576,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -1113,8 +1121,8 @@
             "slug": "spanish-laliga-2"
         },
         "spanish-liga-f": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910742.74958,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911766.326161,
             "logo": "https://flagcdn.com/w40/es.png",
             "name": "Spanish Liga F",
             "pill": "esp.w.1",
@@ -1169,8 +1177,8 @@
             "slug": "tur-1"
         },
         "turkish-super-lig": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910752.794789,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911767.922786,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png",
             "name": "Turkish Super Lig",
             "pill": "tur.1",
@@ -1345,8 +1353,8 @@
             "slug": "usl-league-one"
         },
         "usl-super-league": {
-            "last_crossover_date": "2026-10-24",
-            "last_updated": 1792910741.295334,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792911637.887938,
             "logo": "",
             "name": "USL Super League",
             "pill": "usa.w.usl.1",
@@ -1488,6 +1496,11 @@
             "name": "Abingdon United",
             "slug": "abingdon-united"
         },
+        "abingdon-united-women": {
+            "league": "English Women's FA Cup",
+            "name": "Abingdon United Women",
+            "slug": "abingdon-united-women"
+        },
         "ac-crema": {
             "league": "Club Friendly",
             "name": "AC Crema",
@@ -1514,7 +1527,7 @@
             "slug": "ac-leon-monzana-e-brianza"
         },
         "ac-milan": {
-            "league": "UEFA Europa League",
+            "league": "Italian Serie A",
             "name": "AC Milan",
             "slug": "ac-milan"
         },
@@ -1534,7 +1547,7 @@
             "slug": "academica-de-coimbra"
         },
         "academico-de-viseu": {
-            "league": "Taca de Portugal",
+            "league": "Portuguese Primeira Liga",
             "name": "Acad\u00e9mico de Viseu",
             "slug": "academico-de-viseu"
         },
@@ -1557,6 +1570,11 @@
             "league": "Dutch KNVB Beker",
             "name": "Achilles Veen",
             "slug": "achilles-veen"
+        },
+        "actonians-women": {
+            "league": "English Women's FA Cup",
+            "name": "Actonians Women",
+            "slug": "actonians-women"
         },
         "acv": {
             "league": "Dutch KNVB Beker",
@@ -1627,6 +1645,11 @@
             "league": "AFC Champions League Two",
             "name": "Adelaide United",
             "slug": "adelaide-united"
+        },
+        "adelaide-united-fc": {
+            "league": "Australian A-League Men",
+            "name": "Adelaide United FC",
+            "slug": "adelaide-united-fc"
         },
         "adelaide-united-women": {
             "league": "Australian A-League Women",
@@ -1709,7 +1732,7 @@
             "slug": "afc-34"
         },
         "afc-bournemouth": {
-            "league": "UEFA Europa League",
+            "league": "English Premier League",
             "name": "AFC Bournemouth",
             "slug": "afc-bournemouth"
         },
@@ -1722,6 +1745,11 @@
             "league": "English National League",
             "name": "AFC Fylde",
             "slug": "afc-fylde"
+        },
+        "afc-fylde-women": {
+            "league": "English Women's FA Cup",
+            "name": "AFC Fylde Women",
+            "slug": "afc-fylde-women"
         },
         "afc-greenwich-borough": {
             "league": "English FA Cup Qualifying",
@@ -1747,6 +1775,11 @@
             "league": "English FA Cup Qualifying",
             "name": "AFC Portchester",
             "slug": "afc-portchester"
+        },
+        "afc-portchester-women": {
+            "league": "English Women's FA Cup",
+            "name": "AFC Portchester Women",
+            "slug": "afc-portchester-women"
         },
         "afc-rushden-diamonds": {
             "league": "English FA Cup Qualifying",
@@ -1802,6 +1835,11 @@
             "league": "English League One",
             "name": "AFC Wimbledon",
             "slug": "afc-wimbledon"
+        },
+        "afc-wimbledon-women": {
+            "league": "English Women's FA Cup",
+            "name": "AFC Wimbledon Women",
+            "slug": "afc-wimbledon-women"
         },
         "afc-wolverhampton-city": {
             "league": "English FA Cup Qualifying",
@@ -1904,7 +1942,7 @@
             "slug": "ajax-amateurs"
         },
         "ajax-amsterdam": {
-            "league": "UEFA Conference League",
+            "league": "Dutch Eredivisie",
             "name": "Ajax Amsterdam",
             "slug": "ajax-amsterdam"
         },
@@ -2588,6 +2626,11 @@
             "name": "Andover New Street",
             "slug": "andover-new-street"
         },
+        "andover-new-street-women": {
+            "league": "English Women's FA Cup",
+            "name": "Andover New Street Women",
+            "slug": "andover-new-street-women"
+        },
         "angel-city-fc": {
             "league": "NWSL",
             "name": "Angel City FC",
@@ -2954,7 +2997,7 @@
             "slug": "as-mangasport"
         },
         "as-monaco": {
-            "league": "UEFA Conference League",
+            "league": "French Ligue 1",
             "name": "AS Monaco",
             "slug": "as-monaco"
         },
@@ -3109,12 +3152,12 @@
             "slug": "aston-villa-u21"
         },
         "aston-villa-women": {
-            "league": "English WSL Players Cup",
+            "league": "English Women's Super League",
             "name": "Aston Villa Women",
             "slug": "aston-villa-women"
         },
         "atalanta": {
-            "league": "UEFA Conference League",
+            "league": "Italian Serie A",
             "name": "Atalanta",
             "slug": "atalanta"
         },
@@ -3383,6 +3426,11 @@
             "name": "Auckland FC",
             "slug": "auckland-fc"
         },
+        "auckland-united-fc-women": {
+            "league": "FIFA Women's Champions Cup",
+            "name": "Auckland United FC Women",
+            "slug": "auckland-united-fc-women"
+        },
         "audax-italiano": {
             "league": "Chilean Primera Divisi\u00f3n",
             "name": "Audax Italiano",
@@ -3524,7 +3572,7 @@
             "slug": "ayutthaya-united"
         },
         "az-alkmaar": {
-            "league": "UEFA Europa League",
+            "league": "Dutch Eredivisie",
             "name": "AZ Alkmaar",
             "slug": "az-alkmaar"
         },
@@ -3669,7 +3717,7 @@
             "slug": "barbados"
         },
         "barcelona": {
-            "league": "UEFA Champions League",
+            "league": "Spanish LALIGA",
             "name": "Barcelona",
             "slug": "barcelona"
         },
@@ -3692,6 +3740,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Barking",
             "slug": "barking"
+        },
+        "barking-women": {
+            "league": "English Women's FA Cup",
+            "name": "Barking Women",
+            "slug": "barking-women"
         },
         "barnet": {
             "league": "English League Two",
@@ -3789,12 +3842,12 @@
             "slug": "bay-fc-women"
         },
         "bayer-leverkusen": {
-            "league": "UEFA Europa League",
+            "league": "German Bundesliga",
             "name": "Bayer Leverkusen",
             "slug": "bayer-leverkusen"
         },
         "bayern-munich": {
-            "league": "UEFA Champions League",
+            "league": "German Bundesliga",
             "name": "Bayern Munich",
             "slug": "bayern-munich"
         },
@@ -3862,6 +3915,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Bedford Town",
             "slug": "bedford-town"
+        },
+        "bedford-women": {
+            "league": "English Women's FA Cup",
+            "name": "Bedford Women",
+            "slug": "bedford-women"
         },
         "bedworth-united": {
             "league": "English FA Cup Qualifying",
@@ -4174,7 +4232,7 @@
             "slug": "birmingham-city"
         },
         "birmingham-city-women": {
-            "league": "English WSL Players Cup",
+            "league": "English Women's Super League",
             "name": "Birmingham City Women",
             "slug": "birmingham-city-women"
         },
@@ -4317,6 +4375,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Boldmere St. Michaels",
             "slug": "boldmere-st-michaels"
+        },
+        "boldmere-st-michaels-women": {
+            "league": "English Women's FA Cup",
+            "name": "Boldmere St. Michael's Women",
+            "slug": "boldmere-st-michaels-women"
         },
         "bolivar": {
             "league": "Copa Bolivia",
@@ -4533,6 +4596,11 @@
             "name": "Bournemouth Poppies",
             "slug": "bournemouth-poppies"
         },
+        "bournemouth-women": {
+            "league": "English Women's FA Cup",
+            "name": "Bournemouth Women",
+            "slug": "bournemouth-women"
+        },
         "bovey-tracey": {
             "league": "English FA Cup Qualifying",
             "name": "Bovey Tracey",
@@ -4604,7 +4672,7 @@
             "slug": "bradley-braves"
         },
         "braga": {
-            "league": "UEFA Conference League",
+            "league": "Portuguese Primeira Liga",
             "name": "Braga",
             "slug": "braga"
         },
@@ -4658,6 +4726,11 @@
             "name": "Brentford U21",
             "slug": "brentford-u21"
         },
+        "brentford-women": {
+            "league": "English Women's FA Cup",
+            "name": "Brentford Women",
+            "slug": "brentford-women"
+        },
         "brentwood-town": {
             "league": "English FA Cup Qualifying",
             "name": "Brentwood Town",
@@ -4678,6 +4751,11 @@
             "name": "Bridgwater United",
             "slug": "bridgwater-united"
         },
+        "bridgwater-united-women": {
+            "league": "English Women's FA Cup",
+            "name": "Bridgwater United Women",
+            "slug": "bridgwater-united-women"
+        },
         "bridlington-town": {
             "league": "English FA Cup Qualifying",
             "name": "Bridlington Town",
@@ -4689,7 +4767,7 @@
             "slug": "brighlingsea-regent"
         },
         "brighton-hove-albion": {
-            "league": "UEFA Conference League",
+            "league": "English Premier League",
             "name": "Brighton & Hove Albion",
             "slug": "brighton-hove-albion"
         },
@@ -4748,6 +4826,11 @@
             "name": "Bristol Rovers",
             "slug": "bristol-rovers"
         },
+        "bristol-rovers-women": {
+            "league": "English Women's FA Cup",
+            "name": "Bristol Rovers Women",
+            "slug": "bristol-rovers-women"
+        },
         "british-virgin-islands": {
             "league": "Concacaf Nations League",
             "name": "British Virgin Islands",
@@ -4792,6 +4875,11 @@
             "league": "English League One",
             "name": "Bromley",
             "slug": "bromley"
+        },
+        "bromley-women": {
+            "league": "English Women's FA Cup",
+            "name": "Bromley Women",
+            "slug": "bromley-women"
         },
         "bromsgrove-sporting": {
             "league": "English FA Cup Qualifying",
@@ -5278,6 +5366,11 @@
             "name": "Cambridge United",
             "slug": "cambridge-united"
         },
+        "cambridge-united-wfc-women": {
+            "league": "English Women's FA Cup",
+            "name": "Cambridge United WFC",
+            "slug": "cambridge-united-wfc-women"
+        },
         "camelon-juniors": {
             "league": "Scottish Cup Qualifying",
             "name": "Camelon Juniors",
@@ -5634,7 +5727,7 @@
             "slug": "cd-municipal-limeno"
         },
         "cd-nacional": {
-            "league": "Taca de Portugal",
+            "league": "Portuguese Primeira Liga",
             "name": "C.D. Nacional",
             "slug": "cd-nacional"
         },
@@ -5714,12 +5807,12 @@
             "slug": "celoricense"
         },
         "celta-vigo": {
-            "league": "UEFA Europa League",
+            "league": "Spanish LALIGA",
             "name": "Celta Vigo",
             "slug": "celta-vigo"
         },
         "celtic": {
-            "league": "UEFA Europa League",
+            "league": "Scottish Premiership",
             "name": "Celtic",
             "slug": "celtic"
         },
@@ -6009,7 +6102,7 @@
             "slug": "charlton-athletic"
         },
         "charlton-athletic-women": {
-            "league": "English WSL Players Cup",
+            "league": "English Women's Super League",
             "name": "Charlton Athletic Women",
             "slug": "charlton-athletic-women"
         },
@@ -6027,6 +6120,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Chatham Town",
             "slug": "chatham-town"
+        },
+        "chatham-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Chatham Town Women",
+            "slug": "chatham-town-women"
         },
         "chattanooga": {
             "league": "NCAAW Soccer",
@@ -6078,6 +6176,11 @@
             "name": "Cheltenham Town",
             "slug": "cheltenham-town"
         },
+        "cheltenham-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Cheltenham Town Women",
+            "slug": "cheltenham-town-women"
+        },
         "chemnitzer-gc": {
             "league": "Club Friendly",
             "name": "Chemnitzer GC",
@@ -6113,10 +6216,20 @@
             "name": "Chester FC",
             "slug": "chester-fc"
         },
+        "chester-le-street-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Chester-le-Street Town Women",
+            "slug": "chester-le-street-town-women"
+        },
         "chesterfield": {
             "league": "English League Two",
             "name": "Chesterfield",
             "slug": "chesterfield"
+        },
+        "chesterfield-women": {
+            "league": "English Women's FA Cup",
+            "name": "Chesterfield Women",
+            "slug": "chesterfield-women"
         },
         "chestnut": {
             "league": "English FA Cup Qualifying",
@@ -6232,6 +6345,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Chorley",
             "slug": "chorley"
+        },
+        "chorley-women": {
+            "league": "English Women's FA Cup",
+            "name": "Chorley Women",
+            "slug": "chorley-women"
         },
         "christchurch": {
             "league": "English FA Cup Qualifying",
@@ -6963,6 +7081,11 @@
             "name": "Crewe Alexandra",
             "slug": "crewe-alexandra"
         },
+        "crewe-alexandra-women": {
+            "league": "English Women's FA Cup",
+            "name": "Crewe Alexandra Women",
+            "slug": "crewe-alexandra-women"
+        },
         "cribbs": {
             "league": "English FA Cup Qualifying",
             "name": "Cribbs",
@@ -7029,7 +7152,7 @@
             "slug": "cruzeiro"
         },
         "crystal-palace": {
-            "league": "UEFA Europa League",
+            "league": "English Premier League",
             "name": "Crystal Palace",
             "slug": "crystal-palace"
         },
@@ -7039,7 +7162,7 @@
             "slug": "crystal-palace-u21"
         },
         "crystal-palace-women": {
-            "league": "English WSL Players Cup",
+            "league": "English Women's Super League",
             "name": "Crystal Palace Women",
             "slug": "crystal-palace-women"
         },
@@ -7242,6 +7365,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Dartford",
             "slug": "dartford"
+        },
+        "dartford-women": {
+            "league": "English Women's FA Cup",
+            "name": "Dartford Women",
+            "slug": "dartford-women"
         },
         "dartmouth": {
             "league": "NCAA Men's Soccer",
@@ -7693,6 +7821,11 @@
             "name": "Derby County",
             "slug": "derby-county"
         },
+        "derby-county-women": {
+            "league": "English Women's FA Cup",
+            "name": "Derby County Women",
+            "slug": "derby-county-women"
+        },
         "dereham-town": {
             "league": "English FA Cup Qualifying",
             "name": "Dereham Town",
@@ -8038,6 +8171,11 @@
             "name": "Dulwich Hamlet",
             "slug": "dulwich-hamlet"
         },
+        "dulwich-hamlet-women": {
+            "league": "English Women's FA Cup",
+            "name": "Dulwich Hamlet Women",
+            "slug": "dulwich-hamlet-women"
+        },
         "dumbarton": {
             "league": "Scottish Cup",
             "name": "Dumbarton",
@@ -8143,10 +8281,20 @@
             "name": "Durban City",
             "slug": "durban-city"
         },
+        "durham-cestria-women": {
+            "league": "English Women's FA Cup",
+            "name": "Durham Cestria Women",
+            "slug": "durham-cestria-women"
+        },
         "durham-women": {
             "league": "English WSL Players Cup",
             "name": "Durham Women",
             "slug": "durham-women"
+        },
+        "dussindale-hellesdon-women": {
+            "league": "English Women's FA Cup",
+            "name": "Dussindale & Hellesdon Women",
+            "slug": "dussindale-hellesdon-women"
         },
         "dux-logrono-women": {
             "league": "Spanish Liga F",
@@ -8578,6 +8726,11 @@
             "name": "Enfield Town",
             "slug": "enfield-town"
         },
+        "enfield-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Enfield Town Women",
+            "slug": "enfield-town-women"
+        },
         "england": {
             "league": "UEFA Nations League",
             "name": "England",
@@ -8699,7 +8852,7 @@
             "slug": "estonia-u21"
         },
         "estoril": {
-            "league": "Taca de Portugal",
+            "league": "Portuguese Primeira Liga",
             "name": "Estoril",
             "slug": "estoril"
         },
@@ -8794,7 +8947,7 @@
             "slug": "everton-u21"
         },
         "everton-women": {
-            "league": "English WSL Players Cup",
+            "league": "English Women's Super League",
             "name": "Everton Women",
             "slug": "everton-women"
         },
@@ -8832,6 +8985,11 @@
             "league": "English League Two",
             "name": "Exeter City",
             "slug": "exeter-city"
+        },
+        "exeter-city-women": {
+            "league": "English Women's FA Cup",
+            "name": "Exeter City Women",
+            "slug": "exeter-city-women"
         },
         "exmouth-town": {
             "league": "English FA Cup Qualifying",
@@ -9124,7 +9282,7 @@
             "slug": "fc-erzgebirge-aue"
         },
         "fc-famalicao": {
-            "league": "Taca de Portugal",
+            "league": "Portuguese Primeira Liga",
             "name": "FC Famalicao",
             "slug": "fc-famalicao"
         },
@@ -9369,7 +9527,7 @@
             "slug": "fc-tulsa"
         },
         "fc-twente": {
-            "league": "UEFA Conference League",
+            "league": "Dutch Eredivisie",
             "name": "FC Twente",
             "slug": "fc-twente"
         },
@@ -9463,6 +9621,11 @@
             "name": "Fenerbahce",
             "slug": "fenerbahce"
         },
+        "feniton-women": {
+            "league": "English Women's FA Cup",
+            "name": "Feniton Women",
+            "slug": "feniton-women"
+        },
         "ferencvaros": {
             "league": "UEFA Europa League",
             "name": "Ferencvaros",
@@ -9484,7 +9647,7 @@
             "slug": "ferro-carril-oeste"
         },
         "feyenoord-rotterdam": {
-            "league": "UEFA Champions League",
+            "league": "Dutch Eredivisie",
             "name": "Feyenoord Rotterdam",
             "slug": "feyenoord-rotterdam"
         },
@@ -9963,6 +10126,11 @@
             "name": "Fulham U21",
             "slug": "fulham-u21"
         },
+        "fulham-women": {
+            "league": "English Women's FA Cup",
+            "name": "Fulham Women",
+            "slug": "fulham-women"
+        },
         "fundacion-albacete": {
             "league": "Spanish Copa de la Reina",
             "name": "Fundaci\u00f3n Albacete",
@@ -10284,7 +10452,7 @@
             "slug": "gernika-club"
         },
         "getafe": {
-            "league": "UEFA Conference League",
+            "league": "Spanish LALIGA",
             "name": "Getafe",
             "slug": "getafe"
         },
@@ -10713,6 +10881,11 @@
             "name": "Grimsby Town",
             "slug": "grimsby-town"
         },
+        "grimsby-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Grimsby Town Women",
+            "slug": "grimsby-town-women"
+        },
         "grosseto": {
             "league": "Club Friendly",
             "name": "Grosseto",
@@ -10853,6 +11026,11 @@
             "name": "GVVV",
             "slug": "gvvv"
         },
+        "gwalia-united-women": {
+            "league": "English Women's FA Cup",
+            "name": "Gwalia United Women",
+            "slug": "gwalia-united-women"
+        },
         "gyori-eto-fc": {
             "league": "UEFA Conference League Qualifying",
             "name": "Gy\u00f6ri ETO FC",
@@ -10907,6 +11085,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Halesown Town FC",
             "slug": "halesown-town-fc"
+        },
+        "halifax-fc-women": {
+            "league": "English Women's FA Cup",
+            "name": "Halifax FC Women",
+            "slug": "halifax-fc-women"
         },
         "halifax-tides-fc": {
             "league": "Northern Super League",
@@ -10972,6 +11155,11 @@
             "league": "UEFA Women's Europa Cup",
             "name": "Hammarby IF Women",
             "slug": "hammarby-if-women"
+        },
+        "hammersmith-women": {
+            "league": "English Women's FA Cup",
+            "name": "Hammersmith Women",
+            "slug": "hammersmith-women"
         },
         "hampton-pirates-women": {
             "league": "NCAA Women's Soccer",
@@ -11053,6 +11241,11 @@
             "name": "Haringey Borough",
             "slug": "haringey-borough"
         },
+        "haringey-borough-women": {
+            "league": "English Women's FA Cup",
+            "name": "Haringey Borough Women",
+            "slug": "haringey-borough-women"
+        },
         "harkemase-boys": {
             "league": "Dutch KNVB Beker",
             "name": "Harkemase Boys",
@@ -11077,6 +11270,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Harpenden Town",
             "slug": "harpenden-town"
+        },
+        "harpenden-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Harpenden Town Women",
+            "slug": "harpenden-town-women"
         },
         "harrogate-town": {
             "league": "English FA Cup Qualifying",
@@ -11142,6 +11340,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Hashtag United",
             "slug": "hashtag-united"
+        },
+        "hashtag-united-fc-women": {
+            "league": "English Women's FA Cup",
+            "name": "Hashtag United FC Women",
+            "slug": "hashtag-united-fc-women"
         },
         "hassocks": {
             "league": "English FA Cup Qualifying",
@@ -11214,7 +11417,7 @@
             "slug": "heanor-town"
         },
         "heart-of-midlothian": {
-            "league": "UEFA Conference League",
+            "league": "Scottish Premiership",
             "name": "Heart of Midlothian",
             "slug": "heart-of-midlothian"
         },
@@ -11663,6 +11866,11 @@
             "name": "Huddersfield Town",
             "slug": "huddersfield-town"
         },
+        "huddersfield-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Huddersfield Town Women",
+            "slug": "huddersfield-town-women"
+        },
         "huesca": {
             "league": "Spanish Copa de la Reina",
             "name": "Huesca",
@@ -11672,6 +11880,11 @@
             "league": "English Premier League",
             "name": "Hull City",
             "slug": "hull-city"
+        },
+        "hull-city-women": {
+            "league": "English Women's FA Cup",
+            "name": "Hull City Women",
+            "slug": "hull-city-women"
         },
         "hullbridge-sports": {
             "league": "English FA Cup Qualifying",
@@ -11747,6 +11960,11 @@
             "league": "Dutch KNVB Beker",
             "name": "HZVV",
             "slug": "hzvv"
+        },
+        "i2i-international-women": {
+            "league": "English Women's FA Cup",
+            "name": "i2i International Women",
+            "slug": "i2i-international-women"
         },
         "iberia-1999": {
             "league": "UEFA Conference League",
@@ -12049,7 +12267,7 @@
             "slug": "internacional-santa-tecla"
         },
         "internazionale": {
-            "league": "UEFA Champions League",
+            "league": "Italian Serie A",
             "name": "Internazionale",
             "slug": "internazionale"
         },
@@ -12524,7 +12742,7 @@
             "slug": "juventude-lajense"
         },
         "juventus": {
-            "league": "UEFA Europa League",
+            "league": "Italian Serie A",
             "name": "Juventus",
             "slug": "juventus"
         },
@@ -12783,6 +13001,11 @@
             "name": "Kettering Town",
             "slug": "kettering-town"
         },
+        "keynsham-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Keynsham Town Women",
+            "slug": "keynsham-town-women"
+        },
         "keystone": {
             "league": "NCAA Men's Soccer",
             "name": "Keystone",
@@ -12847,6 +13070,11 @@
             "league": "English National League",
             "name": "Kidderminster Harriers",
             "slug": "kidderminster-harriers"
+        },
+        "kidderminster-women": {
+            "league": "English Women's FA Cup",
+            "name": "Kidderminster Women",
+            "slug": "kidderminster-women"
         },
         "kidlington": {
             "league": "English FA Cup Qualifying",
@@ -13343,6 +13571,11 @@
             "name": "Le Moyne Women",
             "slug": "le-moyne-women"
         },
+        "leafield-athletic-women": {
+            "league": "English Women's FA Cup",
+            "name": "Leafield Athletic Women",
+            "slug": "leafield-athletic-women"
+        },
         "lealtad": {
             "league": "Club Friendly",
             "name": "Lealtad",
@@ -13388,6 +13621,11 @@
             "name": "Lech Poznan",
             "slug": "lech-poznan"
         },
+        "leeds-modernians-women": {
+            "league": "English Women's FA Cup",
+            "name": "Leeds Modernians Women",
+            "slug": "leeds-modernians-women"
+        },
         "leeds-united": {
             "league": "English Premier League",
             "name": "Leeds United",
@@ -13397,6 +13635,11 @@
             "league": "English EFL Trophy",
             "name": "Leeds United U21",
             "slug": "leeds-united-u21"
+        },
+        "leeds-united-women": {
+            "league": "English Women's FA Cup",
+            "name": "Leeds United Women",
+            "slug": "leeds-united-women"
         },
         "leek-town-fc": {
             "league": "English FA Cup Qualifying",
@@ -13533,6 +13776,11 @@
             "name": "Lewes",
             "slug": "lewes"
         },
+        "lewes-women": {
+            "league": "English Women's FA Cup",
+            "name": "Lewes Women",
+            "slug": "lewes-women"
+        },
         "lexington": {
             "league": "USL Championship",
             "name": "Lexington",
@@ -13634,7 +13882,7 @@
             "slug": "lijabatho"
         },
         "lille": {
-            "league": "UEFA Champions League",
+            "league": "French Ligue 1",
             "name": "Lille",
             "slug": "lille"
         },
@@ -13652,6 +13900,11 @@
             "league": "English League Championship",
             "name": "Lincoln City",
             "slug": "lincoln-city"
+        },
+        "lincoln-fc-women": {
+            "league": "English Women's FA Cup",
+            "name": "Lincoln FC Women",
+            "slug": "lincoln-fc-women"
         },
         "lincoln-pa-women": {
             "league": "NCAA Women's Soccer",
@@ -13784,9 +14037,14 @@
             "slug": "littlehampton-town"
         },
         "liverpool": {
-            "league": "UEFA Champions League",
+            "league": "English Premier League",
             "name": "Liverpool",
             "slug": "liverpool"
+        },
+        "liverpool-feds-women": {
+            "league": "English Women's FA Cup",
+            "name": "Liverpool Feds Women",
+            "slug": "liverpool-feds-women"
         },
         "liverpool-u21": {
             "league": "English EFL Trophy",
@@ -13794,7 +14052,7 @@
             "slug": "liverpool-u21"
         },
         "liverpool-women": {
-            "league": "English WSL Players Cup",
+            "league": "English Women's Super League",
             "name": "Liverpool Women",
             "slug": "liverpool-women"
         },
@@ -13844,7 +14102,7 @@
             "slug": "lommel-sk"
         },
         "london-city-lionesses-women": {
-            "league": "English WSL Players Cup",
+            "league": "English Women's Super League",
             "name": "London City Lionesses Women",
             "slug": "london-city-lionesses-women"
         },
@@ -13962,6 +14220,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Loughborough Students",
             "slug": "loughborough-students"
+        },
+        "loughborough-women": {
+            "league": "English Women's FA Cup",
+            "name": "Loughborough Women",
+            "slug": "loughborough-women"
         },
         "louisiana-christian-women": {
             "league": "NCAA Women's Soccer",
@@ -14158,6 +14421,11 @@
             "name": "Luton Town",
             "slug": "luton-town"
         },
+        "luton-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Luton Town Women",
+            "slug": "luton-town-women"
+        },
         "lutterworth-town": {
             "league": "English FA Cup Qualifying",
             "name": "Lutterworth Town",
@@ -14262,6 +14530,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Maidenhead United",
             "slug": "maidenhead-united"
+        },
+        "maidenhead-united-women": {
+            "league": "English Women's FA Cup",
+            "name": "Maidenhead United Women",
+            "slug": "maidenhead-united-women"
         },
         "maidstone-united": {
             "league": "English FA Cup Qualifying",
@@ -14404,14 +14677,19 @@
             "slug": "manchester-city-women"
         },
         "manchester-united": {
-            "league": "UEFA Champions League",
+            "league": "English Premier League",
             "name": "Manchester United",
             "slug": "manchester-united"
         },
         "manchester-united-women": {
-            "league": "English WSL Players Cup",
+            "league": "English Women's Super League",
             "name": "Manchester United Women",
             "slug": "manchester-united-women"
+        },
+        "mancunian-unity-women": {
+            "league": "English Women's FA Cup",
+            "name": "Mancunian Unity Women",
+            "slug": "mancunian-unity-women"
         },
         "mangotsfield-united": {
             "league": "English FA Cup Qualifying",
@@ -14458,6 +14736,11 @@
             "name": "Mansfield Town",
             "slug": "mansfield-town"
         },
+        "mansfield-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Mansfield Town Women",
+            "slug": "mansfield-town-women"
+        },
         "manta-fc": {
             "league": "LigaPro Ecuador",
             "name": "Manta F.C.",
@@ -14492,6 +14775,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Marine",
             "slug": "marine"
+        },
+        "marine-academy-plymouth-women": {
+            "league": "English Women's FA Cup",
+            "name": "Marine Academy Plymouth Women",
+            "slug": "marine-academy-plymouth-women"
         },
         "marist": {
             "league": "NCAA Men's Soccer",
@@ -14549,7 +14837,7 @@
             "slug": "marquette-women"
         },
         "marseille": {
-            "league": "UEFA Europa League",
+            "league": "French Ligue 1",
             "name": "Marseille",
             "slug": "marseille"
         },
@@ -14973,6 +15261,11 @@
             "name": "Middlesbrough",
             "slug": "middlesbrough"
         },
+        "middlesbrough-women": {
+            "league": "English Women's FA Cup",
+            "name": "Middlesbrough Women",
+            "slug": "middlesbrough-women"
+        },
         "midhurst-easebourne": {
             "league": "English FA Cup Qualifying",
             "name": "Midhurst & Easebourne",
@@ -15018,10 +15311,20 @@
             "name": "Millwall",
             "slug": "millwall"
         },
+        "millwall-women": {
+            "league": "English Women's FA Cup",
+            "name": "Millwall Women",
+            "slug": "millwall-women"
+        },
         "milton-keynes-dons": {
             "league": "English League One",
             "name": "Milton Keynes Dons",
             "slug": "milton-keynes-dons"
+        },
+        "milton-keynes-dons-women": {
+            "league": "English Women's FA Cup",
+            "name": "Milton Keynes Dons Women",
+            "slug": "milton-keynes-dons-women"
         },
         "milton-keynes-irish": {
             "league": "English FA Cup Qualifying",
@@ -15233,6 +15536,11 @@
             "name": "MONEYFIELDS",
             "slug": "moneyfields"
         },
+        "moneyfields-women": {
+            "league": "English Women's FA Cup",
+            "name": "Moneyfields Women",
+            "slug": "moneyfields-women"
+        },
         "monmouth": {
             "league": "NCAA Men's Soccer",
             "name": "Monmouth",
@@ -15389,7 +15697,7 @@
             "slug": "morehead-state-women"
         },
         "moreirense": {
-            "league": "Taca de Portugal",
+            "league": "Portuguese Primeira Liga",
             "name": "Moreirense",
             "slug": "moreirense"
         },
@@ -15593,6 +15901,11 @@
             "name": "Nacional Potos\u00ed",
             "slug": "nacional-potosi"
         },
+        "naegohyang-women": {
+            "league": "FIFA Women's Champions Cup",
+            "name": "Naegohyang Women",
+            "slug": "naegohyang-women"
+        },
         "nagoya-grampus": {
             "league": "Japanese J.League",
             "name": "Nagoya Grampus",
@@ -15627,6 +15940,11 @@
             "league": "English FA Cup",
             "name": "Nantwich Town",
             "slug": "nantwich-town"
+        },
+        "nantwich-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Nantwich Town Women",
+            "slug": "nantwich-town-women"
         },
         "napoli": {
             "league": "Italian Serie A",
@@ -15729,7 +16047,7 @@
             "slug": "nebraska-women"
         },
         "nec-nijmegen": {
-            "league": "UEFA Europa League",
+            "league": "Dutch Eredivisie",
             "name": "NEC Nijmegen",
             "slug": "nec-nijmegen"
         },
@@ -16353,6 +16671,11 @@
             "name": "Northampton Town",
             "slug": "northampton-town"
         },
+        "northampton-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Northampton Town Women",
+            "slug": "northampton-town-women"
+        },
         "northeast-united-fc": {
             "league": "Indian Super League",
             "name": "NorthEast United FC",
@@ -16558,6 +16881,11 @@
             "name": "Norwich City",
             "slug": "norwich-city"
         },
+        "norwich-city-women": {
+            "league": "English Women's FA Cup",
+            "name": "Norwich City Women",
+            "slug": "norwich-city-women"
+        },
         "notre-dame": {
             "league": "NCAA Men's Soccer",
             "name": "Notre Dame",
@@ -16593,10 +16921,20 @@
             "name": "Nottingham Forest Women",
             "slug": "nottingham-forest-women"
         },
+        "nottingham-trent-university-fc-women": {
+            "league": "English Women's FA Cup",
+            "name": "Nottingham Trent University FC Women",
+            "slug": "nottingham-trent-university-fc-women"
+        },
         "notts-county": {
             "league": "English League One",
             "name": "Notts County",
             "slug": "notts-county"
+        },
+        "notts-county-women": {
+            "league": "English Women's FA Cup",
+            "name": "Notts County Women",
+            "slug": "notts-county-women"
         },
         "novorizontino": {
             "league": "Brazilian Serie B",
@@ -17148,6 +17486,11 @@
             "name": "Oxford United",
             "slug": "oxford-united"
         },
+        "oxford-united-women": {
+            "league": "English Women's FA Cup",
+            "name": "Oxford United Women",
+            "slug": "oxford-united-women"
+        },
         "pachuca": {
             "league": "Mexican Liga BBVA MX",
             "name": "Pachuca",
@@ -17568,6 +17911,11 @@
             "name": "Peterborough United",
             "slug": "peterborough-united"
         },
+        "peterborough-united-women": {
+            "league": "English Women's FA Cup",
+            "name": "Peterborough United Women",
+            "slug": "peterborough-united-women"
+        },
         "peterhead": {
             "league": "Scottish League Challenge Cup",
             "name": "Peterhead",
@@ -17702,6 +18050,11 @@
             "league": "English League One",
             "name": "Plymouth Argyle",
             "slug": "plymouth-argyle"
+        },
+        "plymouth-argyle-women": {
+            "league": "English Women's FA Cup",
+            "name": "Plymouth Argyle Women",
+            "slug": "plymouth-argyle-women"
         },
         "plymouth-parkway": {
             "league": "English FA Cup Qualifying",
@@ -17838,6 +18191,11 @@
             "name": "Port Vale",
             "slug": "port-vale"
         },
+        "port-vale-women": {
+            "league": "English Women's FA Cup",
+            "name": "Port Vale Women",
+            "slug": "port-vale-women"
+        },
         "portel": {
             "league": "Taca de Portugal",
             "name": "Portel",
@@ -17852,6 +18210,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Portishead Town",
             "slug": "portishead-town"
+        },
+        "portishead-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Portishead Town Women",
+            "slug": "portishead-town-women"
         },
         "portland": {
             "league": "NCAA Men's Soccer",
@@ -17917,6 +18280,11 @@
             "league": "English League Championship",
             "name": "Portsmouth",
             "slug": "portsmouth"
+        },
+        "portsmouth-women": {
+            "league": "English Women's FA Cup",
+            "name": "Portsmouth Women",
+            "slug": "portsmouth-women"
         },
         "portugal": {
             "league": "UEFA Nations League",
@@ -18028,6 +18396,11 @@
             "name": "Preston North End",
             "slug": "preston-north-end"
         },
+        "preston-north-end-women": {
+            "league": "English Women's FA Cup",
+            "name": "Preston North End Women",
+            "slug": "preston-north-end-women"
+        },
         "prestwich-keys": {
             "league": "English FA Cup Qualifying",
             "name": "Prestwich Keys",
@@ -18099,7 +18472,7 @@
             "slug": "psps-pekanbaru"
         },
         "psv-eindhoven": {
-            "league": "UEFA Champions League",
+            "league": "Dutch Eredivisie",
             "name": "PSV Eindhoven",
             "slug": "psv-eindhoven"
         },
@@ -18247,6 +18620,11 @@
             "league": "English League Championship",
             "name": "Queens Park Rangers",
             "slug": "queens-park-rangers"
+        },
+        "queens-park-rangers-women": {
+            "league": "English Women's FA Cup",
+            "name": "Queens Park Rangers Women",
+            "slug": "queens-park-rangers-women"
         },
         "queens-university": {
             "league": "NCAA Men's Soccer",
@@ -18624,7 +19002,7 @@
             "slug": "real-bedford"
         },
         "real-betis": {
-            "league": "UEFA Champions League",
+            "league": "Spanish LALIGA",
             "name": "Real Betis",
             "slug": "real-betis"
         },
@@ -18654,7 +19032,7 @@
             "slug": "real-jaen-cf"
         },
         "real-madrid": {
-            "league": "UEFA Champions League",
+            "league": "Spanish LALIGA",
             "name": "Real Madrid",
             "slug": "real-madrid"
         },
@@ -18714,7 +19092,7 @@
             "slug": "real-salt-lake"
         },
         "real-sociedad": {
-            "league": "UEFA Europa League",
+            "league": "Spanish LALIGA",
             "name": "Real Sociedad",
             "slug": "real-sociedad"
         },
@@ -18832,6 +19210,11 @@
             "league": "Club Friendly",
             "name": "Reddis",
             "slug": "reddis"
+        },
+        "redditch-borough-women": {
+            "league": "English Women's FA Cup",
+            "name": "Redditch Borough Women",
+            "slug": "redditch-borough-women"
         },
         "redditch-united": {
             "league": "English FA Cup Qualifying",
@@ -19029,7 +19412,7 @@
             "slug": "rijeka"
         },
         "rio-ave": {
-            "league": "Taca de Portugal",
+            "league": "Portuguese Primeira Liga",
             "name": "Rio Ave",
             "slug": "rio-ave"
         },
@@ -19248,6 +19631,11 @@
             "name": "Rotherham United",
             "slug": "rotherham-united"
         },
+        "rotherham-united-women": {
+            "league": "English Women's FA Cup",
+            "name": "Rotherham United Women",
+            "slug": "rotherham-united-women"
+        },
         "rothes": {
             "league": "Scottish Cup",
             "name": "Rothes",
@@ -19293,6 +19681,11 @@
             "name": "Royston Town",
             "slug": "royston-town"
         },
+        "royston-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Royston Town Women",
+            "slug": "royston-town-women"
+        },
         "rsb-berkane": {
             "league": "CAF Champions League",
             "name": "RSB Berkane",
@@ -19312,6 +19705,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Rugby Borough",
             "slug": "rugby-borough"
+        },
+        "rugby-borough-women": {
+            "league": "English Women's FA Cup",
+            "name": "Rugby Borough Women",
+            "slug": "rugby-borough-women"
         },
         "rugby-town": {
             "league": "English FA Cup Qualifying",
@@ -19617,6 +20015,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Saltash United",
             "slug": "saltash-united"
+        },
+        "saltdean-united-women": {
+            "league": "English Women's FA Cup",
+            "name": "Saltdean United Women",
+            "slug": "saltdean-united-women"
         },
         "sam-houston-bearkats-women": {
             "league": "NCAA Women's Soccer",
@@ -20029,7 +20432,7 @@
             "slug": "sc-farense"
         },
         "sc-freiburg": {
-            "league": "UEFA Conference League",
+            "league": "German Bundesliga",
             "name": "SC Freiburg",
             "slug": "sc-freiburg"
         },
@@ -20643,6 +21046,11 @@
             "name": "Siwelele",
             "slug": "siwelele"
         },
+        "sjr-workshop-women": {
+            "league": "English Women's FA Cup",
+            "name": "SJR Workshop Women",
+            "slug": "sjr-workshop-women"
+        },
         "sk-brann": {
             "league": "UEFA Conference League",
             "name": "SK Brann",
@@ -21028,6 +21436,11 @@
             "name": "South Shields",
             "slug": "south-shields"
         },
+        "south-shields-women": {
+            "league": "English Women's FA Cup",
+            "name": "South Shields Women",
+            "slug": "south-shields-women"
+        },
         "south-sudan": {
             "league": "Africa Cup of Nations Qualifying",
             "name": "South Sudan",
@@ -21319,7 +21732,7 @@
             "slug": "sporting-club-inkberrow"
         },
         "sporting-cp": {
-            "league": "UEFA Champions League",
+            "league": "Portuguese Primeira Liga",
             "name": "Sporting CP",
             "slug": "sporting-cp"
         },
@@ -21377,6 +21790,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Sporting Khalsa",
             "slug": "sporting-khalsa"
+        },
+        "sporting-khalsa-women": {
+            "league": "English Women's FA Cup",
+            "name": "Sporting Khalsa Women",
+            "slug": "sporting-khalsa-women"
         },
         "sporting-san-jose": {
             "league": "Costa Rican Primera Division",
@@ -21447,6 +21865,11 @@
             "league": "German Cup",
             "name": "SSV Jeddeloh II",
             "slug": "ssv-jeddeloh-ii"
+        },
+        "st-agnes-afc-women": {
+            "league": "English Women's FA Cup",
+            "name": "St Agnes AFC Women",
+            "slug": "st-agnes-afc-women"
         },
         "st-albans-city": {
             "league": "English FA Cup Qualifying",
@@ -21654,7 +22077,7 @@
             "slug": "stade-marocain"
         },
         "stade-rennais": {
-            "league": "UEFA Europa League",
+            "league": "French Ligue 1",
             "name": "Stade Rennais",
             "slug": "stade-rennais"
         },
@@ -21788,6 +22211,11 @@
             "name": "Stockport County",
             "slug": "stockport-county"
         },
+        "stockport-county-women": {
+            "league": "English Women's FA Cup",
+            "name": "Stockport County Women",
+            "slug": "stockport-county-women"
+        },
         "stockport-georgians": {
             "league": "English FA Cup Qualifying",
             "name": "Stockport Georgians",
@@ -21803,10 +22231,20 @@
             "name": "Stockton Town FC",
             "slug": "stockton-town-fc"
         },
+        "stockton-women": {
+            "league": "English Women's FA Cup",
+            "name": "Stockton Women",
+            "slug": "stockton-women"
+        },
         "stoke-city": {
             "league": "English League Championship",
             "name": "Stoke City",
             "slug": "stoke-city"
+        },
+        "stoke-city-women": {
+            "league": "English Women's FA Cup",
+            "name": "Stoke City Women",
+            "slug": "stoke-city-women"
         },
         "stone-old-alleynians": {
             "league": "English FA Cup Qualifying",
@@ -21939,7 +22377,7 @@
             "slug": "sul-ross-state-women"
         },
         "sunderland": {
-            "league": "UEFA Europa League",
+            "league": "English Premier League",
             "name": "Sunderland",
             "slug": "sunderland"
         },
@@ -21977,6 +22415,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Sutton Coldfield Town",
             "slug": "sutton-coldfield-town"
+        },
+        "sutton-coldfield-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Sutton Coldfield Town Women",
+            "slug": "sutton-coldfield-town-women"
         },
         "sutton-common-rovers": {
             "league": "English FA Cup Qualifying",
@@ -22082,6 +22525,11 @@
             "league": "English League Two",
             "name": "Swindon Town",
             "slug": "swindon-town"
+        },
+        "swindon-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Swindon Town Women",
+            "slug": "swindon-town-women"
         },
         "switzerland": {
             "league": "UEFA Nations League",
@@ -22538,6 +22986,11 @@
             "name": "Thornaby",
             "slug": "thornaby"
         },
+        "thornaby-women": {
+            "league": "English Women's FA Cup",
+            "name": "Thornaby Women",
+            "slug": "thornaby-women"
+        },
         "thornbury-town": {
             "league": "English FA Cup Qualifying",
             "name": "Thornbury Town",
@@ -22677,6 +23130,11 @@
             "league": "Taca de Portugal",
             "name": "Tondela",
             "slug": "tondela"
+        },
+        "tooting-bec-women": {
+            "league": "English Women's FA Cup",
+            "name": "Tooting Bec Women",
+            "slug": "tooting-bec-women"
         },
         "tooting-mitcham-united": {
             "league": "English FA Cup",
@@ -22899,7 +23357,7 @@
             "slug": "ts-galaxy-fc"
         },
         "tsg-hoffenheim": {
-            "league": "UEFA Europa League",
+            "league": "German Bundesliga",
             "name": "TSG Hoffenheim",
             "slug": "tsg-hoffenheim"
         },
@@ -24738,6 +25196,11 @@
             "name": "West Bromwich Albion",
             "slug": "west-bromwich-albion"
         },
+        "west-bromwich-albion-women": {
+            "league": "English Women's FA Cup",
+            "name": "West Bromwich Albion Women",
+            "slug": "west-bromwich-albion-women"
+        },
         "west-chester-women": {
             "league": "NCAA Women's Soccer",
             "name": "West Chester Women",
@@ -25028,6 +25491,11 @@
             "name": "Wigan Athletic",
             "slug": "wigan-athletic"
         },
+        "wigan-athletic-women": {
+            "league": "English Women's FA Cup",
+            "name": "Wigan Athletic Women",
+            "slug": "wigan-athletic-women"
+        },
         "wigtown-bladnoch": {
             "league": "Scottish Cup Qualifying",
             "name": "Wigtown & Bladnoch",
@@ -25087,6 +25555,11 @@
             "league": "English FA Cup Qualifying",
             "name": "WINCHESTER CITY",
             "slug": "winchester-city"
+        },
+        "winchester-city-flyers-women": {
+            "league": "English Women's FA Cup",
+            "name": "Winchester City Flyers Women",
+            "slug": "winchester-city-flyers-women"
         },
         "windsor-eton": {
             "league": "English FA Cup Qualifying",
@@ -25248,6 +25721,11 @@
             "name": "Workington",
             "slug": "workington"
         },
+        "workington-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Workington Town Women",
+            "slug": "workington-town-women"
+        },
         "worksop-town": {
             "league": "English FA Cup Qualifying",
             "name": "Worksop Town",
@@ -25297,6 +25775,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Wroxham",
             "slug": "wroxham"
+        },
+        "wroxham-women": {
+            "league": "English Women's FA Cup",
+            "name": "Wroxham Women",
+            "slug": "wroxham-women"
         },
         "wsg-swarovski-tirol": {
             "league": "Austrian Bundesliga",
@@ -25417,6 +25900,11 @@
             "league": "English FA Cup Qualifying",
             "name": "Yate Town",
             "slug": "yate-town"
+        },
+        "yate-town-women": {
+            "league": "English Women's FA Cup",
+            "name": "Yate Town Women",
+            "slug": "yate-town-women"
         },
         "yateley-united": {
             "league": "English FA Cup Qualifying",

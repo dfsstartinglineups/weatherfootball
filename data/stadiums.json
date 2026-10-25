@@ -289,6 +289,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10169": {
+        "city": "Winchester",
+        "country": "England",
+        "id": "10169",
+        "lat": 39.18566,
+        "lon": -78.16333,
+        "name": "Charters Community Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10173": {
         "city": "Burton Latimer",
         "country": "England",
@@ -1789,6 +1799,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10572": {
+        "city": "Droitwich",
+        "country": "England",
+        "id": "10572",
+        "lat": 52.26667,
+        "lon": -2.15,
+        "name": "King George V Playing Fields",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10573": {
+        "city": "Birmingham",
+        "country": "England",
+        "id": "10573",
+        "lat": 52.48142,
+        "lon": -1.89983,
+        "name": "Castle Vale Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10574": {
         "city": "Garforth",
         "country": "England",
@@ -1856,6 +1886,16 @@
         "lat": 43.36029,
         "lon": -5.84476,
         "name": "Ciudad Deportiva El Requex\u00f3n",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10605": {
+        "city": "Birmingham",
+        "country": "England",
+        "id": "10605",
+        "lat": 52.48142,
+        "lon": -1.89983,
+        "name": "Alexander Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3586,6 +3626,16 @@
         "lat": -20.81917,
         "lon": -49.52111,
         "name": "Estadio Municipal Jos\u00e9 Maria de Campos Maia",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10813": {
+        "city": "Barton",
+        "country": "England",
+        "id": "10813",
+        "lat": 51.96598,
+        "lon": -0.42731,
+        "name": "Sharpenhoe Road",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11259,6 +11309,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11876": {
+        "city": "South Shields",
+        "country": "England",
+        "id": "11876",
+        "lat": 54.99859,
+        "lon": -1.4323,
+        "name": "Harton and Westoe Miners Welfare Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11877": {
+        "city": "Stockton-on-Tees",
+        "country": "England",
+        "id": "11877",
+        "lat": 54.56848,
+        "lon": -1.3187,
+        "name": "Norton (Teesside) Sports Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11878": {
         "city": "",
         "country": "Lebanon",
@@ -11266,6 +11336,56 @@
         "lat": 33.83333,
         "lon": 35.83333,
         "name": "Fouad Shehab Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11880": {
+        "city": "Oxfordshire",
+        "country": "England",
+        "id": "11880",
+        "lat": 38.68178,
+        "lon": -77.50665,
+        "name": "The Northcourt",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11881": {
+        "city": "Pontypridd",
+        "country": "Wales",
+        "id": "11881",
+        "lat": 51.6021,
+        "lon": -3.34211,
+        "name": "USW Sport Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11882": {
+        "city": "Cornwall",
+        "country": "England",
+        "id": "11882",
+        "lat": 40.2737,
+        "lon": -76.40607,
+        "name": "Enys Parc",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11883": {
+        "city": "Yorkshire",
+        "country": "England",
+        "id": "11883",
+        "lat": 42.53006,
+        "lon": -78.4728,
+        "name": "GM Flooring Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11884": {
+        "city": "Grimsby",
+        "country": "England",
+        "id": "11884",
+        "lat": 53.56539,
+        "lon": -0.07553,
+        "name": "Clee Fields",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11279,6 +11399,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11887": {
+        "city": "London",
+        "country": "England",
+        "id": "11887",
+        "lat": 51.50853,
+        "lon": -0.12574,
+        "name": "Gunnersbury Park Sports Hub",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11888": {
         "city": "Gloucester",
         "country": "England",
@@ -11286,6 +11416,26 @@
         "lat": 51.86568,
         "lon": -2.2431,
         "name": "KMM Energy Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11890": {
+        "city": "Manchester",
+        "country": "England",
+        "id": "11890",
+        "lat": 53.48095,
+        "lon": -2.23743,
+        "name": "Edge Hall Road Community Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11891": {
+        "city": "Nottingham",
+        "country": "England",
+        "id": "11891",
+        "lat": 52.9536,
+        "lon": -1.15047,
+        "name": "Clifton Sports Hub",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11306,6 +11456,26 @@
         "lat": 42.20384,
         "lon": -71.00215,
         "name": "The Sports Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11912": {
+        "city": "Hangzhou",
+        "country": "China PR",
+        "id": "11912",
+        "lat": 30.29365,
+        "lon": 120.16142,
+        "name": "Shangcheng Sports Center Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11915": {
+        "city": "",
+        "country": "England",
+        "id": "11915",
+        "lat": 34.54426,
+        "lon": -91.96903,
+        "name": "Fibrus Community Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19619,16 +19789,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "7474": {
-        "city": "Toyota Stadium",
-        "country": "USA",
-        "id": "7474",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Toyota Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "7480": {
         "city": "Glasgow",
         "country": "Scotland",
@@ -21249,6 +21409,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8797": {
+        "city": "Stoke-on-Trent",
+        "country": "England",
+        "id": "8797",
+        "lat": 53.00415,
+        "lon": -2.18538,
+        "name": "Emerys Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8810": {
         "city": "Lincolnshire",
         "country": "England",
@@ -22109,6 +22279,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9390": {
+        "city": "Royston",
+        "country": "England",
+        "id": "9390",
+        "lat": 52.04832,
+        "lon": -0.02438,
+        "name": "Garden Walk",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9405": {
         "city": "Clapton",
         "country": "England",
@@ -22116,6 +22296,16 @@
         "lat": 51.46333,
         "lon": -2.75639,
         "name": "The Old Spotted Dog Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9415": {
+        "city": "Norwich",
+        "country": "England",
+        "id": "9415",
+        "lat": 40.94173,
+        "lon": -77.785,
+        "name": "The Nest",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -22639,6 +22829,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9790": {
+        "city": "London",
+        "country": "England",
+        "id": "9790",
+        "lat": 51.39189,
+        "lon": -0.24515,
+        "name": "Motspur Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9801": {
         "city": "Redditch",
         "country": "England",
@@ -22646,6 +22846,36 @@
         "lat": 52.3065,
         "lon": -1.94569,
         "name": "The Valley Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9807": {
+        "city": "Leeds",
+        "country": "England",
+        "id": "9807",
+        "lat": 53.79648,
+        "lon": -1.54785,
+        "name": "Leeds Modernians Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9811": {
+        "city": "Bedford",
+        "country": "England",
+        "id": "9811",
+        "lat": 52.13459,
+        "lon": -0.46632,
+        "name": "Ledger Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9812": {
+        "city": "Hertfordshire",
+        "country": "England",
+        "id": "9812",
+        "lat": 34.54426,
+        "lon": -91.96903,
+        "name": "Rothamsted Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -27253,6 +27483,16 @@
         "city": "",
         "country": "",
         "id": "lye-town",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "lye-town-women": {
+        "city": "",
+        "country": "",
+        "id": "lye-town-women",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
