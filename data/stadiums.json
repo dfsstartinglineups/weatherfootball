@@ -11129,6 +11129,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11849": {
+        "city": "Mexico City",
+        "country": "Mexico",
+        "id": "11849",
+        "lat": 19.42847,
+        "lon": -99.12766,
+        "name": "CAR Atlante Cancha 1",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11851": {
         "city": "",
         "country": "Switzerland",
@@ -21756,6 +21766,16 @@
         "lat": 39.50263,
         "lon": -0.44079,
         "name": "Estadio Antonio Puchades",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9071": {
+        "city": "Baghdad",
+        "country": "Iraq",
+        "id": "9071",
+        "lat": 33.34058,
+        "lon": 44.40088,
+        "name": "Al-Madina International Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
