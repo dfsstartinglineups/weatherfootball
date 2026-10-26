@@ -98,7 +98,7 @@
         },
         "australian-a-league-men": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992638.530707,
+            "last_updated": 1792993538.67376,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1308.png",
             "name": "Australian A-League Men",
             "pill": "aus.1",
@@ -106,7 +106,7 @@
         },
         "australian-a-league-women": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992638.665595,
+            "last_updated": 1792993538.80661,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2402.png",
             "name": "Australian A-League Women",
             "pill": "aus.w.1",
@@ -354,7 +354,7 @@
         },
         "dutch-eredivisie": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992627.549644,
+            "last_updated": 1792993527.8465,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
             "name": "Dutch Eredivisie",
             "pill": "ned.1",
@@ -506,7 +506,7 @@
         },
         "english-premier-league": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992623.061822,
+            "last_updated": 1792993523.220425,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
             "name": "English Premier League",
             "pill": "eng.1",
@@ -514,7 +514,7 @@
         },
         "english-womens-fa-cup": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992637.918939,
+            "last_updated": 1792993538.042734,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English Women's FA Cup",
             "pill": "eng.w.fa",
@@ -522,7 +522,7 @@
         },
         "english-womens-super-league": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992628.258942,
+            "last_updated": 1792993528.909356,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2314.png",
             "name": "English Women's Super League",
             "pill": "eng.w.1",
@@ -578,7 +578,7 @@
         },
         "fifa-womens-champions-cup": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992624.322114,
+            "last_updated": 1792993524.571586,
             "logo": "\ud83c\udfc6",
             "name": "FIFA Women's Champions Cup",
             "pill": "fifa.w.champions_cup",
@@ -602,7 +602,7 @@
         },
         "french-ligue-1": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992626.233319,
+            "last_updated": 1792993526.561274,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
             "name": "French Ligue 1",
             "pill": "fra.1",
@@ -642,7 +642,7 @@
         },
         "german-bundesliga": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992625.398577,
+            "last_updated": 1792993525.621456,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
             "name": "German Bundesliga",
             "pill": "ger.1",
@@ -722,7 +722,7 @@
         },
         "italian-serie-a": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992625.057514,
+            "last_updated": 1792993525.342122,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
             "name": "Italian Serie A",
             "pill": "ita.1",
@@ -842,15 +842,15 @@
         },
         "mexican-liga-bbva-mx": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992626.794418,
+            "last_updated": 1792993527.144853,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png",
             "name": "Mexican Liga BBVA MX",
             "pill": "mex.1",
             "slug": "mexican-liga-bbva-mx"
         },
         "mexican-liga-bbva-mx-femenil": {
-            "last_crossover_date": "2026-10-23",
-            "last_updated": 1792824320.808897,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792993540.022993,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga BBVA MX Femenil",
             "pill": "mex.w.1",
@@ -858,7 +858,7 @@
         },
         "mexican-liga-de-expansion-mx": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992639.655923,
+            "last_updated": 1792993539.870954,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
@@ -866,7 +866,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992623.791591,
+            "last_updated": 1792993524.010017,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -921,8 +921,8 @@
             "slug": "ned-2"
         },
         "northern-super-league": {
-            "last_crossover_date": "2026-10-23",
-            "last_updated": 1792824320.945131,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792993540.164368,
             "logo": "",
             "name": "Northern Super League",
             "pill": "can.w.nsl",
@@ -938,7 +938,7 @@
         },
         "nwsl": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992624.189198,
+            "last_updated": 1792993524.434447,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2323.png",
             "name": "NWSL",
             "pill": "usa.nwsl",
@@ -986,7 +986,7 @@
         },
         "portuguese-primeira-liga": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992639.113566,
+            "last_updated": 1792993539.297868,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
             "name": "Portuguese Primeira Liga",
             "pill": "por.1",
@@ -1001,8 +1001,8 @@
             "slug": "russian-premier"
         },
         "russian-premier-league": {
-            "last_crossover_date": "2026-10-23",
-            "last_updated": 1792824321.076613,
+            "last_crossover_date": "2026-10-25",
+            "last_updated": 1792993540.46047,
             "logo": "https://flagcdn.com/w40/ru.png",
             "name": "Russian Premier League",
             "pill": "rus.1",
@@ -1082,7 +1082,7 @@
         },
         "scottish-premiership": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992638.401993,
+            "last_updated": 1792993538.532474,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/45.png",
             "name": "Scottish Premiership",
             "pill": "sco.1",
@@ -1114,7 +1114,7 @@
         },
         "spanish-laliga": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992623.659924,
+            "last_updated": 1792993523.870979,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
             "name": "Spanish LALIGA",
             "pill": "esp.1",
@@ -1130,7 +1130,7 @@
         },
         "spanish-liga-f": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992638.097039,
+            "last_updated": 1792993538.243434,
             "logo": "https://flagcdn.com/w40/es.png",
             "name": "Spanish Liga F",
             "pill": "esp.w.1",
@@ -1186,7 +1186,7 @@
         },
         "turkish-super-lig": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992639.389381,
+            "last_updated": 1792993539.582601,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/18.png",
             "name": "Turkish Super Lig",
             "pill": "tur.1",
@@ -1362,7 +1362,7 @@
         },
         "usl-super-league": {
             "last_crossover_date": "2026-10-25",
-            "last_updated": 1792992628.386322,
+            "last_updated": 1792993529.042706,
             "logo": "",
             "name": "USL Super League",
             "pill": "usa.w.usl.1",
@@ -14095,7 +14095,7 @@
             "slug": "lochee-united"
         },
         "lokomotiv-moscow": {
-            "league": "Club Friendly",
+            "league": "Russian Premier League",
             "name": "Lokomotiv Moscow",
             "slug": "lokomotiv-moscow"
         },
