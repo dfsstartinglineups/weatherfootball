@@ -239,6 +239,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10131": {
+        "city": "Cuarte de Huerva",
+        "country": "Spain",
+        "id": "10131",
+        "lat": 41.59466,
+        "lon": -0.93268,
+        "name": "Estadio Municipal Juan Guerrero El Lobo",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10141": {
         "city": "Davie, Florida",
         "country": "USA",
@@ -1736,6 +1746,26 @@
         "lat": 47.21725,
         "lon": -1.55336,
         "name": "Stade de la Beaujoire",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10559": {
+        "city": "Alcal\u00e1 de Henares",
+        "country": "Spain",
+        "id": "10559",
+        "lat": 10.91667,
+        "lon": -68.27944,
+        "name": "Virgen del Val",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10560": {
+        "city": "Madrid",
+        "country": "Spain",
+        "id": "10560",
+        "lat": 18.27485,
+        "lon": -71.31596,
+        "name": "Las Salinas",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4356,6 +4386,16 @@
         "lat": 62.0,
         "lon": 15.0,
         "name": "\u00d6rjans Vall",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10948": {
+        "city": "Rijnsburg",
+        "country": "Netherlands",
+        "id": "10948",
+        "lat": 52.19,
+        "lon": 4.44167,
+        "name": "Sportpark Middelmors",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11469,6 +11509,56 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11896": {
+        "city": "Teruel",
+        "country": "Spain",
+        "id": "11896",
+        "lat": 40.3456,
+        "lon": -1.10646,
+        "name": "Campo De F\u00fatbol Jumaya Calamocha",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11897": {
+        "city": "San Pedro del Pinatar",
+        "country": "Spain",
+        "id": "11897",
+        "lat": 37.83568,
+        "lon": -0.79102,
+        "name": "Estadio Jos\u00e9 Antonio P\u00e9rez",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11898": {
+        "city": "Manacor",
+        "country": "Spain",
+        "id": "11898",
+        "lat": 39.56964,
+        "lon": 3.20955,
+        "name": "Poliesportiu Municipal Na Capellera",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11899": {
+        "city": "Huelva",
+        "country": "Spain",
+        "id": "11899",
+        "lat": 37.26638,
+        "lon": -6.94004,
+        "name": "Estadio Nuevo Colombino",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11900": {
+        "city": "Tudela",
+        "country": "Spain",
+        "id": "11900",
+        "lat": 42.06166,
+        "lon": -1.60452,
+        "name": "Estadio Municipal Ciudad de Tudela",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11912": {
         "city": "Hangzhou",
         "country": "China PR",
@@ -11476,6 +11566,16 @@
         "lat": 30.29365,
         "lon": 120.16142,
         "name": "Shangcheng Sports Center Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11914": {
+        "city": "Castell\u00f3n",
+        "country": "Spain",
+        "id": "11914",
+        "lat": 39.98567,
+        "lon": -0.04935,
+        "name": "Campe de F\u00fatbol Eliseo Pla Ram\u00edrez",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -13156,6 +13256,16 @@
         "lat": 55.95206,
         "lon": -3.19648,
         "name": "Tynecastle Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2378": {
+        "city": "Segovia",
+        "country": "Spain",
+        "id": "2378",
+        "lat": 38.71779,
+        "lon": -6.82326,
+        "name": "La Albuera",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -18889,6 +18999,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6793": {
+        "city": "Asturias",
+        "country": "Spain",
+        "id": "6793",
+        "lat": 10.5669,
+        "lon": 123.7161,
+        "name": "Hermanos Antu\u00f1a",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6802": {
+        "city": "Sestao",
+        "country": "Spain",
+        "id": "6802",
+        "lat": 43.11799,
+        "lon": -5.91521,
+        "name": "Las Llanas",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6827": {
         "city": "Paisley",
         "country": "Scotland",
@@ -19026,6 +19156,16 @@
         "lat": 52.19417,
         "lon": 4.42222,
         "name": "Sportpark De Kooltuin",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6875": {
+        "city": "Barendrecht",
+        "country": "Netherlands",
+        "id": "6875",
+        "lat": 51.85667,
+        "lon": 4.53472,
+        "name": "Sportpark De Bongerd",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -20319,6 +20459,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7896": {
+        "city": "Don Benito",
+        "country": "Spain",
+        "id": "7896",
+        "lat": 38.95627,
+        "lon": -5.86162,
+        "name": "Estadio Vicente Sanz",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7907": {
         "city": "Riga",
         "country": "Latvia",
@@ -21086,6 +21236,16 @@
         "lat": 43.17304,
         "lon": -2.30072,
         "name": "Txerloia",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8570": {
+        "city": "Lucena",
+        "country": "Spain",
+        "id": "8570",
+        "lat": 37.40881,
+        "lon": -4.48522,
+        "name": "Nuevo Estadio Municipal de Lucena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -22239,6 +22399,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9345": {
+        "city": "El Paso",
+        "country": "Spain",
+        "id": "9345",
+        "lat": 28.65007,
+        "lon": -17.88274,
+        "name": "Campo Municipal de El Paso",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9349": {
+        "city": "Manresa",
+        "country": "Spain",
+        "id": "9349",
+        "lat": 41.72815,
+        "lon": 1.82399,
+        "name": "Estadi Municipal el Congost",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9369": {
         "city": "Portishead",
         "country": "England",
@@ -22836,6 +23016,16 @@
         "lat": 34.54426,
         "lon": -91.96903,
         "name": "Trevor Brown Memorial Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9781": {
+        "city": "Villagarc\u00eda de Arosa",
+        "country": "Spain",
+        "id": "9781",
+        "lat": 46.77793,
+        "lon": 9.67621,
+        "name": "Estadio de A Lomba",
         "roof": "Open",
         "surface": "Grass"
     },
