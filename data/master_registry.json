@@ -2,7 +2,7 @@
     "leagues": {
         "afc-champions-league-elite": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793212260.898008,
+            "last_updated": 1793213150.788178,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png",
             "name": "AFC Champions League Elite",
             "pill": "afc.champions",
@@ -18,7 +18,7 @@
         },
         "afc-champions-league-two": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793212262.466493,
+            "last_updated": 1793213153.161817,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png",
             "name": "AFC Champions League Two",
             "pill": "afc.cup",
@@ -161,8 +161,8 @@
             "slug": "bra-2"
         },
         "brazilian-serie-a": {
-            "last_crossover_date": "2026-10-26",
-            "last_updated": 1793083524.999319,
+            "last_crossover_date": "2026-10-28",
+            "last_updated": 1793213160.336825,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png",
             "name": "Brazilian Serie A",
             "pill": "bra.1",
@@ -217,8 +217,8 @@
             "slug": "carabao-cup"
         },
         "chilean-primera-division": {
-            "last_crossover_date": "2026-10-26",
-            "last_updated": 1793083525.540581,
+            "last_crossover_date": "2026-10-28",
+            "last_updated": 1793213160.640452,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/86.png",
             "name": "Chilean Primera Divisi\u00f3n",
             "pill": "chi.1",
@@ -249,8 +249,8 @@
             "slug": "col-1"
         },
         "colombian-primera-a": {
-            "last_crossover_date": "2026-10-27",
-            "last_updated": 1793169938.524979,
+            "last_crossover_date": "2026-10-28",
+            "last_updated": 1793213161.235651,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -289,8 +289,8 @@
             "slug": "conmebol-sudamericana"
         },
         "copa-argentina": {
-            "last_crossover_date": "2026-10-01",
-            "last_updated": 1790923548.064122,
+            "last_crossover_date": "2026-10-28",
+            "last_updated": 1793213158.868504,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2320.png",
             "name": "Copa Argentina",
             "pill": "arg.copa",
@@ -378,7 +378,7 @@
         },
         "dutch-knvb-beker": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793212259.432091,
+            "last_updated": 1793213148.489878,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2196.png",
             "name": "Dutch KNVB Beker",
             "pill": "ned.cup",
@@ -434,7 +434,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793212230.084184,
+            "last_updated": 1793213123.716119,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -497,8 +497,8 @@
             "slug": "english-league-two"
         },
         "english-national-league": {
-            "last_crossover_date": "2026-10-27",
-            "last_updated": 1793169937.481146,
+            "last_crossover_date": "2026-10-28",
+            "last_updated": 1793213157.425354,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English National League",
             "pill": "eng.5",
@@ -530,7 +530,7 @@
         },
         "english-wsl-players-cup": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793212257.526674,
+            "last_updated": 1793213145.889424,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English WSL Players Cup",
             "pill": "eng.w.league_cup",
@@ -569,8 +569,8 @@
             "slug": "fifa-intercontinental-cup"
         },
         "fifa-under-17-womens-world-cup": {
-            "last_crossover_date": "2026-10-23",
-            "last_updated": 1792824322.83417,
+            "last_crossover_date": "2026-10-28",
+            "last_updated": 1793213156.673299,
             "logo": "\ud83c\udfc6",
             "name": "FIFA Under-17 Women's World Cup",
             "pill": "fifa.wworld.u17",
@@ -650,7 +650,7 @@
         },
         "german-cup": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793212256.248244,
+            "last_updated": 1793213143.660519,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2061.png",
             "name": "German Cup",
             "pill": "ger.dfb_pokal",
@@ -722,15 +722,15 @@
         },
         "italian-serie-a": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793212254.865668,
+            "last_updated": 1793213141.185572,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
             "name": "Italian Serie A",
             "pill": "ita.1",
             "slug": "italian-serie-a"
         },
         "italian-serie-b": {
-            "last_crossover_date": "2026-10-27",
-            "last_updated": 1793169934.01772,
+            "last_crossover_date": "2026-10-28",
+            "last_updated": 1793213155.754226,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/99.png",
             "name": "Italian Serie B",
             "pill": "ita.2",
@@ -842,7 +842,7 @@
         },
         "mexican-liga-bbva-mx": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793212256.41462,
+            "last_updated": 1793213143.945496,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png",
             "name": "Mexican Liga BBVA MX",
             "pill": "mex.1",
@@ -866,7 +866,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793212248.455294,
+            "last_updated": 1793213138.280305,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -969,8 +969,8 @@
             "slug": "per-1"
         },
         "peruvian-liga-1": {
-            "last_crossover_date": "2026-10-27",
-            "last_updated": 1793169938.708782,
+            "last_crossover_date": "2026-10-28",
+            "last_updated": 1793213161.541797,
             "logo": "https://flagcdn.com/w40/pe.png",
             "name": "Peruvian Liga 1",
             "pill": "per.1",
@@ -1082,7 +1082,7 @@
         },
         "scottish-premiership": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793212260.546938,
+            "last_updated": 1793213150.213218,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/45.png",
             "name": "Scottish Premiership",
             "pill": "sco.1",
@@ -1153,8 +1153,8 @@
             "slug": "spfl-premiership"
         },
         "swedish-allsvenskan": {
-            "last_crossover_date": "2026-10-27",
-            "last_updated": 1793169937.832288,
+            "last_crossover_date": "2026-10-28",
+            "last_updated": 1793213158.580539,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png",
             "name": "Swedish Allsvenskan",
             "pill": "swe.1",
@@ -1282,7 +1282,7 @@
         },
         "uefa-womens-champions-league": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793212253.999834,
+            "last_updated": 1793213139.626505,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Women's Champions League",
             "pill": "uefa.wchampions",
@@ -1298,7 +1298,7 @@
         },
         "uefa-womens-europa-cup": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793212263.625889,
+            "last_updated": 1793213154.883768,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Women's Europa Cup",
             "pill": "uefa.w.europa",
@@ -2450,7 +2450,7 @@
             "slug": "alcoyano"
         },
         "aldershot-town": {
-            "league": "English FA Cup Qualifying",
+            "league": "English National League",
             "name": "Aldershot Town",
             "slug": "aldershot-town"
         },
@@ -2495,7 +2495,7 @@
             "slug": "alianza-atletico"
         },
         "alianza-fc": {
-            "league": "Concacaf Central American Cup",
+            "league": "Colombian Primera A",
             "name": "Alianza FC",
             "slug": "alianza-fc"
         },
@@ -3455,7 +3455,7 @@
             "slug": "atletico-tordesillas"
         },
         "atletico-tucuman": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "Copa Argentina",
             "name": "Atl\u00e9tico Tucum\u00e1n",
             "slug": "atletico-tucuman"
         },
@@ -10045,7 +10045,7 @@
             "slug": "floridsdorfer-ac"
         },
         "fluminense": {
-            "league": "CONMEBOL Libertadores",
+            "league": "Brazilian Serie A",
             "name": "Fluminense",
             "slug": "fluminense"
         },
@@ -10090,7 +10090,7 @@
             "slug": "fordham-women"
         },
         "forest-green-rovers": {
-            "league": "English FA Cup Qualifying",
+            "league": "English National League",
             "name": "Forest Green Rovers",
             "slug": "forest-green-rovers"
         },
@@ -11415,7 +11415,7 @@
             "slug": "harpenden-town-women"
         },
         "harrogate-town": {
-            "league": "English FA Cup Qualifying",
+            "league": "English National League",
             "name": "Harrogate Town",
             "slug": "harrogate-town"
         },
@@ -12285,7 +12285,7 @@
             "slug": "independiente-del-valle"
         },
         "independiente-medellin": {
-            "league": "Copa Colombia",
+            "league": "Colombian Primera A",
             "name": "Independiente Medell\u00edn",
             "slug": "independiente-medellin"
         },
@@ -17755,7 +17755,7 @@
             "slug": "palestino"
         },
         "palmeiras": {
-            "league": "CONMEBOL Libertadores",
+            "league": "Brazilian Serie A",
             "name": "Palmeiras",
             "slug": "palmeiras"
         },
@@ -18200,7 +18200,7 @@
             "slug": "pittsburgh-women"
         },
         "platense": {
-            "league": "Argentine Liga Profesional de F\u00fatbol",
+            "league": "Copa Argentina",
             "name": "Platense",
             "slug": "platense"
         },
@@ -20505,7 +20505,7 @@
             "slug": "santomera"
         },
         "santos": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Brazilian Serie A",
             "name": "Santos",
             "slug": "santos"
         },
@@ -24255,7 +24255,7 @@
             "slug": "united-states-women"
         },
         "universidad-catolica": {
-            "league": "Copa Chile",
+            "league": "Chilean Primera Divisi\u00f3n",
             "name": "Universidad Cat\u00f3lica",
             "slug": "universidad-catolica"
         },
