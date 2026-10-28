@@ -2,7 +2,7 @@
     "leagues": {
         "afc-champions-league-elite": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209548.281117,
+            "last_updated": 1793210460.670573,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png",
             "name": "AFC Champions League Elite",
             "pill": "afc.champions",
@@ -18,7 +18,7 @@
         },
         "afc-champions-league-two": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209549.680592,
+            "last_updated": 1793210463.733608,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png",
             "name": "AFC Champions League Two",
             "pill": "afc.cup",
@@ -378,7 +378,7 @@
         },
         "dutch-knvb-beker": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209546.888523,
+            "last_updated": 1793210458.491946,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2196.png",
             "name": "Dutch KNVB Beker",
             "pill": "ned.cup",
@@ -434,7 +434,7 @@
         },
         "english-carabao-cup": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209523.39337,
+            "last_updated": 1793210428.705535,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/41.png",
             "name": "English Carabao Cup",
             "pill": "eng.league_cup",
@@ -530,7 +530,7 @@
         },
         "english-wsl-players-cup": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209545.298094,
+            "last_updated": 1793210456.06365,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English WSL Players Cup",
             "pill": "eng.w.league_cup",
@@ -650,7 +650,7 @@
         },
         "german-cup": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209544.03761,
+            "last_updated": 1793210454.006653,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2061.png",
             "name": "German Cup",
             "pill": "ger.dfb_pokal",
@@ -722,7 +722,7 @@
         },
         "italian-serie-a": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209542.62876,
+            "last_updated": 1793210451.874694,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
             "name": "Italian Serie A",
             "pill": "ita.1",
@@ -842,7 +842,7 @@
         },
         "mexican-liga-bbva-mx": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209544.218748,
+            "last_updated": 1793210454.275712,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/22.png",
             "name": "Mexican Liga BBVA MX",
             "pill": "mex.1",
@@ -866,7 +866,7 @@
         },
         "mls": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209536.667366,
+            "last_updated": 1793210442.65029,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
@@ -1082,7 +1082,7 @@
         },
         "scottish-premiership": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209547.948095,
+            "last_updated": 1793210460.10489,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/45.png",
             "name": "Scottish Premiership",
             "pill": "sco.1",
@@ -1106,7 +1106,7 @@
         },
         "spanish-copa-del-rey": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209540.923624,
+            "last_updated": 1793210449.283621,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png",
             "name": "Spanish Copa del Rey",
             "pill": "esp.copa_del_rey",
@@ -1282,7 +1282,7 @@
         },
         "uefa-womens-champions-league": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209541.753557,
+            "last_updated": 1793210450.535682,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Women's Champions League",
             "pill": "uefa.wchampions",
@@ -1298,7 +1298,7 @@
         },
         "uefa-womens-europa-cup": {
             "last_crossover_date": "2026-10-28",
-            "last_updated": 1793209550.74006,
+            "last_updated": 1793210465.440477,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Women's Europa Cup",
             "pill": "uefa.w.europa",
