@@ -249,6 +249,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10133": {
+        "city": "Estepona",
+        "country": "Spain",
+        "id": "10133",
+        "lat": 36.42764,
+        "lon": -5.14589,
+        "name": "Francisco Mu\u00f1oz P\u00e9rez",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10141": {
         "city": "Davie, Florida",
         "country": "USA",
@@ -346,6 +356,16 @@
         "lat": 37.26638,
         "lon": -6.94004,
         "name": "Ciudad Deportiva Decano del F\u00fatbol Espa\u00f1ol",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10192": {
+        "city": "Murcia",
+        "country": "Spain",
+        "id": "10192",
+        "lat": 37.98704,
+        "lon": -1.13004,
+        "name": "Estadio Municipal \u00c1ngel Celdr\u00e1n",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3719,6 +3739,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10824": {
+        "city": "Sa Pobla",
+        "country": "Spain",
+        "id": "10824",
+        "lat": 39.7692,
+        "lon": 3.02394,
+        "name": "Camp Nou de Sa Pobla",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10830": {
         "city": "Ja\u00e9n",
         "country": "Spain",
@@ -4406,6 +4436,16 @@
         "lat": 52.02863,
         "lon": 5.55891,
         "name": "Sportpark Panhuis",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10959": {
+        "city": "Katwijk",
+        "country": "Netherlands",
+        "id": "10959",
+        "lat": 52.19417,
+        "lon": 4.42222,
+        "name": "Sportpark Nioeuw Zuid",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11559,6 +11599,66 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11901": {
+        "city": "Galicia",
+        "country": "Spain",
+        "id": "11901",
+        "lat": 15.73278,
+        "lon": -92.35806,
+        "name": "Campo do Vao",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11902": {
+        "city": "Tafalia",
+        "country": "Spain",
+        "id": "11902",
+        "lat": 30.13574,
+        "lon": -8.27867,
+        "name": "Estadio de San Francisco",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11903": {
+        "city": "Cuenca",
+        "country": "Spain",
+        "id": "11903",
+        "lat": 40.06667,
+        "lon": -2.13333,
+        "name": "Polideportivo Estadio Municipal Taranc\u00f3n",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11904": {
+        "city": "Badajoz",
+        "country": "Spain",
+        "id": "11904",
+        "lat": 38.87789,
+        "lon": -6.97061,
+        "name": "Estadio Municipal Nuevo Vivero",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11905": {
+        "city": "Ciudad Real",
+        "country": "Spain",
+        "id": "11905",
+        "lat": 38.98626,
+        "lon": -3.92907,
+        "name": "Estadio Ciudad de Puertollano",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11906": {
+        "city": "Villares de la Reina",
+        "country": "Spain",
+        "id": "11906",
+        "lat": 41.00832,
+        "lon": -5.64881,
+        "name": "Estadio Helm\u00e1ntico",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11912": {
         "city": "Hangzhou",
         "country": "China PR",
@@ -11566,6 +11666,16 @@
         "lat": 30.29365,
         "lon": 120.16142,
         "name": "Shangcheng Sports Center Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11913": {
+        "city": "Pola de Siero",
+        "country": "Spain",
+        "id": "11913",
+        "lat": 43.39228,
+        "lon": -5.66335,
+        "name": "Estadio El Bayu",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12206,6 +12316,16 @@
         "lat": 30.06263,
         "lon": 31.24967,
         "name": "Cairo International Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1566": {
+        "city": "Soria",
+        "country": "Spain",
+        "id": "1566",
+        "lat": 18.56102,
+        "lon": -99.74254,
+        "name": "Los Pajaritos",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -14099,6 +14219,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3110": {
+        "city": "Manises",
+        "country": "Spain",
+        "id": "3110",
+        "lat": 8.9992,
+        "lon": -80.55139,
+        "name": "El Collao",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "3113": {
         "city": "Marseille",
         "country": "France",
@@ -14459,6 +14589,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3460": {
+        "city": "Jerez De La Frontera",
+        "country": "Spain",
+        "id": "3460",
+        "lat": 36.68645,
+        "lon": -6.13606,
+        "name": "Estadio Municipal de Chap\u00edn",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "3465": {
         "city": "Castell\u00f3n",
         "country": "Spain",
@@ -14556,6 +14696,16 @@
         "lat": 57.60997,
         "lon": -3.62115,
         "name": "Mosset Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3566": {
+        "city": "Portugalete",
+        "country": "Spain",
+        "id": "3566",
+        "lat": 38.12456,
+        "lon": -0.771,
+        "name": "La Florida",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -15156,6 +15306,16 @@
         "lat": -17.19747,
         "lon": -70.93587,
         "name": "Estadio 25 de Noviembre",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4205": {
+        "city": "Madrid",
+        "country": "Spain",
+        "id": "4205",
+        "lat": 40.4165,
+        "lon": -3.70256,
+        "name": "Municipal de Santo Domingo",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17589,6 +17749,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6002": {
+        "city": "Torrelavega",
+        "country": "Spain",
+        "id": "6002",
+        "lat": 21.33825,
+        "lon": -77.8906,
+        "name": "El Malecon",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "601": {
         "city": "Br\u00f8ndby",
         "country": "Denmark",
@@ -18206,6 +18376,16 @@
         "lat": 35.04563,
         "lon": -85.30968,
         "name": "Finley Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6423": {
+        "city": "Reus",
+        "country": "Spain",
+        "id": "6423",
+        "lat": 41.15612,
+        "lon": 1.10687,
+        "name": "Camp Nou Municipal",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19006,6 +19186,16 @@
         "lat": 10.5669,
         "lon": 123.7161,
         "name": "Hermanos Antu\u00f1a",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6801": {
+        "city": "Amorebieta",
+        "country": "Spain",
+        "id": "6801",
+        "lat": 43.21667,
+        "lon": -2.73333,
+        "name": "Urritxe",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19939,6 +20129,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7474": {
+        "city": "Toyota Stadium",
+        "country": "USA",
+        "id": "7474",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Toyota Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7480": {
         "city": "Glasgow",
         "country": "Scotland",
@@ -20486,6 +20686,36 @@
         "lat": 52.24304,
         "lon": 5.37884,
         "name": "Sportpark de Vinken",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7923": {
+        "city": "Maassluis",
+        "country": "Netherlands",
+        "id": "7923",
+        "lat": 51.92333,
+        "lon": 4.25,
+        "name": "Sportpark Dijkpolder",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7924": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "id": "7924",
+        "lat": 52.37403,
+        "lon": 4.88969,
+        "name": "Sportpark Goed Genoeg",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7931": {
+        "city": "Valle de Aranguren",
+        "country": "Spain",
+        "id": "7931",
+        "lat": 40.0,
+        "lon": -4.0,
+        "name": "Polideportivo Valle Aranguren",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -22399,6 +22629,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9343": {
+        "city": "Murcia",
+        "country": "Spain",
+        "id": "9343",
+        "lat": 37.98704,
+        "lon": -1.13004,
+        "name": "Estadio Municipal La Arboleja",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9345": {
         "city": "El Paso",
         "country": "Spain",
@@ -22416,6 +22656,16 @@
         "lat": 41.72815,
         "lon": 1.82399,
         "name": "Estadi Municipal el Congost",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9350": {
+        "city": "Utebo",
+        "country": "Spain",
+        "id": "9350",
+        "lat": 41.70826,
+        "lon": -0.99916,
+        "name": "Campo de F\u00fatbol Municipal Santa Ana",
         "roof": "Open",
         "surface": "Grass"
     },
