@@ -259,6 +259,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10136": {
+        "city": "\u00c1vila",
+        "country": "Spain",
+        "id": "10136",
+        "lat": 40.65724,
+        "lon": -4.69951,
+        "name": "Municipal Adolfo Su\u00e1rez",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10141": {
         "city": "Davie, Florida",
         "country": "USA",
@@ -3619,6 +3629,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10803": {
+        "city": "Orense",
+        "country": "Spain",
+        "id": "10803",
+        "lat": 17.4221,
+        "lon": 120.4906,
+        "name": "Estadio de O Couto",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10804": {
         "city": "Sabadell",
         "country": "Spain",
@@ -3746,6 +3766,16 @@
         "lat": 39.7692,
         "lon": 3.02394,
         "name": "Camp Nou de Sa Pobla",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10829": {
+        "city": "L\u00b4Hospitalet de Llobregat, Barcelona",
+        "country": "Spain",
+        "id": "10829",
+        "lat": 40.0,
+        "lon": -4.0,
+        "name": "Estadi Municipal de Futbol de L'Hospitalet",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5136,6 +5166,16 @@
         "lat": -20.21326,
         "lon": -70.15027,
         "name": "Estadio Tierra de Campeones Ram\u00f3n Estay Saavedra",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11136": {
+        "city": "Antequera",
+        "country": "Spain",
+        "id": "11136",
+        "lat": 37.01938,
+        "lon": -4.56123,
+        "name": "Estadio El Maul\u00ed",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -6839,6 +6879,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11342": {
+        "city": "Cullowhee",
+        "country": "USA",
+        "id": "11342",
+        "lat": 35.31371,
+        "lon": -83.17653,
+        "name": "Catamount Athletic Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11343": {
         "city": "",
         "country": "USA",
@@ -7416,6 +7466,16 @@
         "lat": 36.54848,
         "lon": -78.34194,
         "name": "Edens Field at Martin Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11415": {
+        "city": "",
+        "country": "USA",
+        "id": "11415",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "First Bank & Trust Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11659,6 +11719,36 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11907": {
+        "city": "San Sebastian",
+        "country": "Spain",
+        "id": "11907",
+        "lat": 28.09163,
+        "lon": -17.11331,
+        "name": "Estadio Municipal Nuevo Matapi\u00f1onera",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11908": {
+        "city": "Cuenca",
+        "country": "Spain",
+        "id": "11908",
+        "lat": 40.06667,
+        "lon": -2.13333,
+        "name": "Estadio La Fuensanta",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11911": {
+        "city": "Cantabria",
+        "country": "Spain",
+        "id": "11911",
+        "lat": 43.0,
+        "lon": -5.0,
+        "name": "Estadio El Paloma",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11912": {
         "city": "Hangzhou",
         "country": "China PR",
@@ -13576,6 +13666,16 @@
         "lat": 52.30667,
         "lon": 6.51806,
         "name": "Sportpark De Koerbelt",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2499": {
+        "city": "Groesbeek",
+        "country": "Netherlands",
+        "id": "2499",
+        "lat": 51.77667,
+        "lon": 5.93611,
+        "name": "Sportpark Zuid",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17739,6 +17839,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "5997": {
+        "city": "Guijuelo",
+        "country": "Spain",
+        "id": "5997",
+        "lat": 40.55757,
+        "lon": -5.67067,
+        "name": "Estadio Municipal Luis Ramos",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "600": {
         "city": "Brugge",
         "country": "Belgium",
@@ -19359,6 +19469,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6876": {
+        "city": "Werkendam",
+        "country": "Netherlands",
+        "id": "6876",
+        "lat": 51.81,
+        "lon": 4.89444,
+        "name": "Sportpark De Zwaaier",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6877": {
         "city": "Hardenberg",
         "country": "Netherlands",
@@ -20126,16 +20246,6 @@
         "lat": 52.645,
         "lon": 6.21111,
         "name": "Sportpark Het Noorderslag",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "7474": {
-        "city": "Toyota Stadium",
-        "country": "USA",
-        "id": "7474",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Toyota Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -21019,6 +21129,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8255": {
+        "city": "Hoek",
+        "country": "Netherlands",
+        "id": "8255",
+        "lat": 51.31,
+        "lon": 3.77778,
+        "name": "Sportpark Denoek",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8256": {
         "city": "",
         "country": "Netherlands",
@@ -21456,6 +21576,16 @@
         "lat": 42.34106,
         "lon": -3.70184,
         "name": "Estadio Municipal de El Plant\u00edo",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8559": {
+        "city": "Palma de Mallorca",
+        "country": "Spain",
+        "id": "8559",
+        "lat": 39.55,
+        "lon": 2.73333,
+        "name": "Estadio Balear",
         "roof": "Open",
         "surface": "Grass"
     },
