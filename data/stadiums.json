@@ -4989,6 +4989,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11078": {
+        "city": "Srinagar",
+        "country": "India",
+        "id": "11078",
+        "lat": 34.08565,
+        "lon": 74.80555,
+        "name": "TRC Turf Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11081": {
         "city": "Wythenshawe",
         "country": "England",
@@ -7466,16 +7476,6 @@
         "lat": 36.54848,
         "lon": -78.34194,
         "name": "Edens Field at Martin Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
-    "11415": {
-        "city": "",
-        "country": "USA",
-        "id": "11415",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "First Bank & Trust Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
