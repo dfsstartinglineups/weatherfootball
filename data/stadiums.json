@@ -11279,6 +11279,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11850": {
+        "city": "Mexico City",
+        "country": "Mexico",
+        "id": "11850",
+        "lat": 19.42847,
+        "lon": -99.12766,
+        "name": "Instalaciones Club Am\u00e9rica Coapa",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11851": {
         "city": "",
         "country": "Switzerland",
@@ -17419,6 +17429,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "5573": {
+        "city": "Perth",
+        "country": "Australia",
+        "id": "5573",
+        "lat": -31.95224,
+        "lon": 115.8614,
+        "name": "HBF Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "5580": {
         "city": "Lima",
         "country": "Peru",
@@ -21299,6 +21319,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8360": {
+        "city": "Canberra",
+        "country": "Australia",
+        "id": "8360",
+        "lat": 35.01509,
+        "lon": -89.9812,
+        "name": "McKellar Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8378": {
         "city": "Pau",
         "country": "France",
@@ -22936,6 +22966,16 @@
         "lat": -31.40648,
         "lon": -64.18853,
         "name": "Estadio Miguel Sancho",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9466": {
+        "city": "Sunderland",
+        "country": "England",
+        "id": "9466",
+        "lat": 54.90465,
+        "lon": -1.38222,
+        "name": "Eppleton Colliery Welfare Ground",
         "roof": "Open",
         "surface": "Grass"
     },
