@@ -1,8 +1,8 @@
 {
     "leagues": {
         "afc-champions-league-elite": {
-            "last_crossover_date": "2026-11-02",
-            "last_updated": 1793691921.778957,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692834.300557,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png",
             "name": "AFC Champions League Elite",
             "pill": "afc.champions",
@@ -17,8 +17,8 @@
             "slug": "afc-champions-league-elite-qualifying"
         },
         "afc-champions-league-two": {
-            "last_crossover_date": "2026-10-29",
-            "last_updated": 1793342725.854662,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692834.681374,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png",
             "name": "AFC Champions League Two",
             "pill": "afc.cup",
@@ -161,8 +161,8 @@
             "slug": "bra-2"
         },
         "brazilian-serie-a": {
-            "last_crossover_date": "2026-11-02",
-            "last_updated": 1793691925.442172,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692843.329992,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png",
             "name": "Brazilian Serie A",
             "pill": "bra.1",
@@ -233,8 +233,8 @@
             "slug": "chinese-super-league"
         },
         "club-friendly": {
-            "last_crossover_date": "2026-10-22",
-            "last_updated": 1792737926.814562,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692834.818412,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -249,8 +249,8 @@
             "slug": "col-1"
         },
         "colombian-primera-a": {
-            "last_crossover_date": "2026-11-02",
-            "last_updated": 1793691926.843183,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692843.993995,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -297,8 +297,8 @@
             "slug": "copa-argentina"
         },
         "copa-bolivia": {
-            "last_crossover_date": "2026-10-22",
-            "last_updated": 1792737927.382079,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692846.495691,
             "logo": "",
             "name": "Copa Bolivia",
             "pill": "bol.copa",
@@ -337,8 +337,8 @@
             "slug": "coppa-italia"
         },
         "costa-rican-primera-division": {
-            "last_crossover_date": "2026-10-30",
-            "last_updated": 1793429129.394004,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692846.63559,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2245.png",
             "name": "Costa Rican Primera Division",
             "pill": "crc.1",
@@ -441,8 +441,8 @@
             "slug": "english-carabao-cup"
         },
         "english-efl-trophy": {
-            "last_crossover_date": "2026-10-27",
-            "last_updated": 1793169934.738455,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692839.265237,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/42.png",
             "name": "English EFL Trophy",
             "pill": "eng.trophy",
@@ -473,24 +473,24 @@
             "slug": "english-fa-cup-qualifying"
         },
         "english-league-championship": {
-            "last_crossover_date": "2026-10-31",
-            "last_updated": 1793519129.44185,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692831.296424,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
             "name": "English League Championship",
             "pill": "eng.2",
             "slug": "english-league-championship"
         },
         "english-league-one": {
-            "last_crossover_date": "2026-10-27",
-            "last_updated": 1793169935.62335,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692839.696701,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/25.png",
             "name": "English League One",
             "pill": "eng.3",
             "slug": "english-league-one"
         },
         "english-league-two": {
-            "last_crossover_date": "2026-10-30",
-            "last_updated": 1793429125.054317,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692839.832138,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/26.png",
             "name": "English League Two",
             "pill": "eng.4",
@@ -673,8 +673,8 @@
             "slug": "greek-super-league"
         },
         "guatemalan-liga-nacional": {
-            "last_crossover_date": "2026-11-02",
-            "last_updated": 1793691927.816279,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692846.796961,
             "logo": "https://flagcdn.com/w40/gt.png",
             "name": "Guatemalan Liga Nacional",
             "pill": "gua.1",
@@ -817,8 +817,8 @@
             "slug": "liga-mx"
         },
         "ligapro-ecuador": {
-            "last_crossover_date": "2026-11-02",
-            "last_updated": 1793691927.393568,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692845.310852,
             "logo": "https://flagcdn.com/w40/ec.png",
             "name": "LigaPro Ecuador",
             "pill": "ecu.1",
@@ -881,16 +881,16 @@
             "slug": "mls"
         },
         "ncaa-mens-soccer": {
-            "last_crossover_date": "2026-10-30",
-            "last_updated": 1793429136.359779,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692851.611411,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
             "slug": "ncaa-mens-soccer"
         },
         "ncaa-womens-soccer": {
-            "last_crossover_date": "2026-10-29",
-            "last_updated": 1793342739.794054,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692859.862374,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -961,8 +961,8 @@
             "slug": "par-1"
         },
         "paraguayan-primera-division": {
-            "last_crossover_date": "2026-10-30",
-            "last_updated": 1793429128.65478,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692844.712314,
             "logo": "https://flagcdn.com/w40/py.png",
             "name": "Paraguayan Primera Divisi\u00f3n",
             "pill": "par.1",
@@ -977,8 +977,8 @@
             "slug": "per-1"
         },
         "peruvian-liga-1": {
-            "last_crossover_date": "2026-11-02",
-            "last_updated": 1793691927.251984,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692844.273887,
             "logo": "https://flagcdn.com/w40/pe.png",
             "name": "Peruvian Liga 1",
             "pill": "per.1",
@@ -1073,8 +1073,8 @@
             "slug": "scottish-cup-qualifying"
         },
         "scottish-league-challenge-cup": {
-            "last_crossover_date": "2026-10-13",
-            "last_updated": 1791960330.461453,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692842.823642,
             "logo": "https://flagcdn.com/w40/gb-sct.png",
             "name": "Scottish League Challenge Cup",
             "pill": "sco.challenge",
@@ -1105,16 +1105,16 @@
             "slug": "south-african-premiership"
         },
         "spanish-copa-de-la-reina": {
-            "last_crossover_date": "2026-09-30",
-            "last_updated": 1790837131.420746,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692831.438663,
             "logo": "https://flagcdn.com/w40/es.png",
             "name": "Spanish Copa de la Reina",
             "pill": "esp.copa_de_la_reina",
             "slug": "spanish-copa-de-la-reina"
         },
         "spanish-copa-del-rey": {
-            "last_crossover_date": "2026-10-29",
-            "last_updated": 1793342722.606662,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692829.91128,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png",
             "name": "Spanish Copa del Rey",
             "pill": "esp.copa_del_rey",
@@ -1161,8 +1161,8 @@
             "slug": "spfl-premiership"
         },
         "swedish-allsvenskan": {
-            "last_crossover_date": "2026-11-02",
-            "last_updated": 1793691923.905952,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692842.967258,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/16.png",
             "name": "Swedish Allsvenskan",
             "pill": "swe.1",
@@ -1217,8 +1217,8 @@
             "slug": "uecl-qualifying"
         },
         "uefa-champions-league": {
-            "last_crossover_date": "2026-10-21",
-            "last_updated": 1792651525.156437,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692829.509126,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
             "name": "UEFA Champions League",
             "pill": "uefa.champions",
@@ -1377,8 +1377,8 @@
             "slug": "usl-super-league"
         },
         "venezuelan-primera-division": {
-            "last_crossover_date": "2026-10-27",
-            "last_updated": 1793169939.080735,
+            "last_crossover_date": "2026-11-03",
+            "last_updated": 1793692845.74037,
             "logo": "",
             "name": "Venezuelan Primera Divisi\u00f3n",
             "pill": "ven.1",
@@ -2108,7 +2108,7 @@
             "slug": "al-hazem"
         },
         "al-hilal": {
-            "league": "Saudi Pro League",
+            "league": "AFC Champions League Elite",
             "name": "Al Hilal",
             "slug": "al-hilal"
         },
@@ -2368,7 +2368,7 @@
             "slug": "alashkert-fc"
         },
         "alaves": {
-            "league": "Spanish LALIGA",
+            "league": "Spanish Copa del Rey",
             "name": "Alav\u00e9s",
             "slug": "alaves"
         },
@@ -2733,7 +2733,7 @@
             "slug": "anguilla"
         },
         "annan-athletic": {
-            "league": "Scottish Cup",
+            "league": "Scottish League Challenge Cup",
             "name": "Annan Athletic",
             "slug": "annan-athletic"
         },
@@ -2838,7 +2838,7 @@
             "slug": "ararat-yerevan"
         },
         "arbroath": {
-            "league": "Scottish Championship",
+            "league": "Scottish League Challenge Cup",
             "name": "Arbroath",
             "slug": "arbroath"
         },
@@ -3103,7 +3103,7 @@
             "slug": "as-psi"
         },
         "as-roma": {
-            "league": "Italian Serie A",
+            "league": "UEFA Champions League",
             "name": "AS Roma",
             "slug": "as-roma"
         },
@@ -3228,7 +3228,7 @@
             "slug": "asteras-tripoli"
         },
         "aston-villa": {
-            "league": "English Premier League",
+            "league": "UEFA Champions League",
             "name": "Aston Villa",
             "slug": "aston-villa"
         },
@@ -3408,7 +3408,7 @@
             "slug": "atletico-junior"
         },
         "atletico-madrid": {
-            "league": "Spanish LALIGA",
+            "league": "UEFA Champions League",
             "name": "Atl\u00e9tico Madrid",
             "slug": "atletico-madrid"
         },
@@ -3533,7 +3533,7 @@
             "slug": "auriense-cented-academy"
         },
         "aurora": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Aurora",
             "slug": "aurora"
         },
@@ -3653,7 +3653,7 @@
             "slug": "aylestone-park"
         },
         "ayr-united": {
-            "league": "Scottish Championship",
+            "league": "Scottish League Challenge Cup",
             "name": "Ayr United",
             "slug": "ayr-united"
         },
@@ -3813,7 +3813,7 @@
             "slug": "barbados"
         },
         "barcelona": {
-            "league": "Spanish LALIGA",
+            "league": "UEFA Champions League",
             "name": "Barcelona",
             "slug": "barcelona"
         },
@@ -3943,7 +3943,7 @@
             "slug": "bayer-leverkusen"
         },
         "bayern-munich": {
-            "league": "German Bundesliga",
+            "league": "UEFA Champions League",
             "name": "Bayern Munich",
             "slug": "bayern-munich"
         },
@@ -4438,7 +4438,7 @@
             "slug": "boca-juniors"
         },
         "bodoglimt": {
-            "league": "Norwegian Eliteserien",
+            "league": "UEFA Champions League",
             "name": "Bodo/Glimt",
             "slug": "bodoglimt"
         },
@@ -5463,7 +5463,7 @@
             "slug": "cambridge-city"
         },
         "cambridge-united": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Cambridge United",
             "slug": "cambridge-united"
         },
@@ -5928,7 +5928,7 @@
             "slug": "celoricense"
         },
         "celta-vigo": {
-            "league": "Spanish LALIGA",
+            "league": "Spanish Copa de la Reina",
             "name": "Celta Vigo",
             "slug": "celta-vigo"
         },
@@ -6698,7 +6698,7 @@
             "slug": "clyde"
         },
         "clydebank": {
-            "league": "Scottish Cup",
+            "league": "Scottish League Challenge Cup",
             "name": "Clydebank",
             "slug": "clydebank"
         },
@@ -8148,7 +8148,7 @@
             "slug": "don-benito"
         },
         "doncaster-rovers": {
-            "league": "English League One",
+            "league": "English EFL Trophy",
             "name": "Doncaster Rovers",
             "slug": "doncaster-rovers"
         },
@@ -8378,7 +8378,7 @@
             "slug": "dundonald-bluebell"
         },
         "dunfermline-athletic": {
-            "league": "Scottish Championship",
+            "league": "Scottish League Challenge Cup",
             "name": "Dunfermline Athletic",
             "slug": "dunfermline-athletic"
         },
@@ -8693,7 +8693,7 @@
             "slug": "ecuador"
         },
         "edinburgh-city": {
-            "league": "Scottish Cup",
+            "league": "Scottish League Challenge Cup",
             "name": "Edinburgh City",
             "slug": "edinburgh-city"
         },
@@ -8808,7 +8808,7 @@
             "slug": "eldense-ii"
         },
         "elgin-city": {
-            "league": "Scottish Cup",
+            "league": "Scottish League Challenge Cup",
             "name": "Elgin City",
             "slug": "elgin-city"
         },
@@ -8963,7 +8963,7 @@
             "slug": "escorpiones-belen"
         },
         "espanyol": {
-            "league": "Spanish LALIGA",
+            "league": "Spanish Copa de la Reina",
             "name": "Espanyol",
             "slug": "espanyol"
         },
@@ -9808,7 +9808,7 @@
             "slug": "ferro-carril-oeste"
         },
         "feyenoord-rotterdam": {
-            "league": "Dutch Eredivisie",
+            "league": "UEFA Champions League",
             "name": "Feyenoord Rotterdam",
             "slug": "feyenoord-rotterdam"
         },
@@ -10143,7 +10143,7 @@
             "slug": "forfar-athletic"
         },
         "formartine-united": {
-            "league": "Scottish Cup",
+            "league": "Scottish League Challenge Cup",
             "name": "Formartine United",
             "slug": "formartine-united"
         },
@@ -10353,7 +10353,7 @@
             "slug": "gala-fairydean"
         },
         "galatasaray": {
-            "league": "Turkish Super Lig",
+            "league": "UEFA Champions League",
             "name": "Galatasaray",
             "slug": "galatasaray"
         },
@@ -11008,7 +11008,7 @@
             "slug": "green-mamba"
         },
         "greenock-morton": {
-            "league": "Scottish Championship",
+            "league": "Scottish League Challenge Cup",
             "name": "Greenock Morton",
             "slug": "greenock-morton"
         },
@@ -12328,7 +12328,7 @@
             "slug": "independiente-medellin"
         },
         "independiente-petrolero": {
-            "league": "Bolivian Liga Profesional",
+            "league": "Copa Bolivia",
             "name": "Independiente Petrolero",
             "slug": "independiente-petrolero"
         },
@@ -12443,7 +12443,7 @@
             "slug": "internacional-santa-tecla"
         },
         "internazionale": {
-            "league": "Italian Serie A",
+            "league": "UEFA Champions League",
             "name": "Internazionale",
             "slug": "internazionale"
         },
@@ -12463,7 +12463,7 @@
             "slug": "invergordon-fc"
         },
         "inverness-caledonian-thistle": {
-            "league": "Scottish Championship",
+            "league": "Scottish League Challenge Cup",
             "name": "Inverness Caledonian Thistle",
             "slug": "inverness-caledonian-thistle"
         },
@@ -13103,7 +13103,7 @@
             "slug": "keith"
         },
         "kelty-hearts": {
-            "league": "Scottish Cup",
+            "league": "Scottish League Challenge Cup",
             "name": "Kelty Hearts",
             "slug": "kelty-hearts"
         },
@@ -14068,7 +14068,7 @@
             "slug": "lijabatho"
         },
         "lille": {
-            "league": "French Ligue 1",
+            "league": "UEFA Champions League",
             "name": "Lille",
             "slug": "lille"
         },
@@ -14248,7 +14248,7 @@
             "slug": "liversedge"
         },
         "livingston": {
-            "league": "Scottish Championship",
+            "league": "Scottish League Challenge Cup",
             "name": "Livingston",
             "slug": "livingston"
         },
@@ -14873,7 +14873,7 @@
             "slug": "manchester-city-women"
         },
         "manchester-united": {
-            "league": "English Premier League",
+            "league": "UEFA Champions League",
             "name": "Manchester United",
             "slug": "manchester-united"
         },
@@ -16463,7 +16463,7 @@
             "slug": "newcastle-benfield"
         },
         "newcastle-jets": {
-            "league": "Australian A-League Men",
+            "league": "AFC Champions League Elite",
             "name": "Newcastle Jets",
             "slug": "newcastle-jets"
         },
@@ -16508,7 +16508,7 @@
             "slug": "newmarket-town"
         },
         "newport-county": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Newport County",
             "slug": "newport-county"
         },
@@ -17898,7 +17898,7 @@
             "slug": "paris-fc-women"
         },
         "paris-saint-germain": {
-            "league": "French Ligue 1",
+            "league": "UEFA Champions League",
             "name": "Paris Saint-Germain",
             "slug": "paris-saint-germain"
         },
@@ -17918,7 +17918,7 @@
             "slug": "parma"
         },
         "partick-thistle": {
-            "league": "Scottish Championship",
+            "league": "Scottish League Challenge Cup",
             "name": "Partick Thistle",
             "slug": "partick-thistle"
         },
@@ -18838,7 +18838,7 @@
             "slug": "queen-of-the-south"
         },
         "queens-park": {
-            "league": "Scottish Championship",
+            "league": "Scottish League Challenge Cup",
             "name": "Queen's Park",
             "slug": "queens-park"
         },
@@ -19048,7 +19048,7 @@
             "slug": "rahimo-fc"
         },
         "raith-rovers": {
-            "league": "Scottish Championship",
+            "league": "Scottish League Challenge Cup",
             "name": "Raith Rovers",
             "slug": "raith-rovers"
         },
@@ -19748,7 +19748,7 @@
             "slug": "robert-morris-women"
         },
         "rochdale": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Rochdale",
             "slug": "rochdale"
         },
@@ -19868,7 +19868,7 @@
             "slug": "rot-weiss-essen"
         },
         "rotherham-united": {
-            "league": "English League Two",
+            "league": "English EFL Trophy",
             "name": "Rotherham United",
             "slug": "rotherham-united"
         },
@@ -21938,7 +21938,7 @@
             "slug": "spartak-subotica-women"
         },
         "spartans-fc": {
-            "league": "Scottish Cup",
+            "league": "Scottish League Challenge Cup",
             "name": "Spartans FC",
             "slug": "spartans-fc"
         },
@@ -22003,7 +22003,7 @@
             "slug": "sporting-club-inkberrow"
         },
         "sporting-cp": {
-            "league": "Portuguese Primeira Liga",
+            "league": "UEFA Champions League",
             "name": "Sporting CP",
             "slug": "sporting-cp"
         },
@@ -22418,7 +22418,7 @@
             "slug": "stellenbosch"
         },
         "stenhousemuir": {
-            "league": "Scottish Championship",
+            "league": "Scottish League Challenge Cup",
             "name": "Stenhousemuir",
             "slug": "stenhousemuir"
         },
@@ -22463,7 +22463,7 @@
             "slug": "steyning-town"
         },
         "stirling-albion": {
-            "league": "Scottish Cup",
+            "league": "Scottish League Challenge Cup",
             "name": "Stirling Albion",
             "slug": "stirling-albion"
         },
@@ -24883,7 +24883,7 @@
             "slug": "vfb-krieschow"
         },
         "vfb-stuttgart": {
-            "league": "German Bundesliga",
+            "league": "UEFA Champions League",
             "name": "VfB Stuttgart",
             "slug": "vfb-stuttgart"
         },
@@ -25028,7 +25028,7 @@
             "slug": "villanova-women"
         },
         "villarreal": {
-            "league": "Spanish LALIGA",
+            "league": "UEFA Champions League",
             "name": "Villarreal",
             "slug": "villarreal"
         },
