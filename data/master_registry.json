@@ -2,7 +2,7 @@
     "leagues": {
         "afc-champions-league-elite": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787337.84323,
+            "last_updated": 1793789137.561772,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2200.png",
             "name": "AFC Champions League Elite",
             "pill": "afc.champions",
@@ -18,7 +18,7 @@
         },
         "afc-champions-league-two": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787339.275351,
+            "last_updated": 1793789138.782034,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2243.png",
             "name": "AFC Champions League Two",
             "pill": "afc.cup",
@@ -122,7 +122,7 @@
         },
         "belgian-pro-league": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787339.783818,
+            "last_updated": 1793789139.206856,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/6.png",
             "name": "Belgian Pro League",
             "pill": "bel.1",
@@ -162,7 +162,7 @@
         },
         "brazilian-serie-a": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787341.015401,
+            "last_updated": 1793789140.135319,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png",
             "name": "Brazilian Serie A",
             "pill": "bra.1",
@@ -250,7 +250,7 @@
         },
         "colombian-primera-a": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787341.537003,
+            "last_updated": 1793789140.562797,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -298,7 +298,7 @@
         },
         "copa-bolivia": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787343.110044,
+            "last_updated": 1793789141.718196,
             "logo": "",
             "name": "Copa Bolivia",
             "pill": "bol.copa",
@@ -306,7 +306,7 @@
         },
         "copa-chile": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787341.187139,
+            "last_updated": 1793789140.280407,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2331.png",
             "name": "Copa Chile",
             "pill": "chi.copa_chi",
@@ -338,7 +338,7 @@
         },
         "costa-rican-primera-division": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787344.17,
+            "last_updated": 1793789142.604405,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2245.png",
             "name": "Costa Rican Primera Division",
             "pill": "crc.1",
@@ -346,7 +346,7 @@
         },
         "coupe-de-france": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787325.821333,
+            "last_updated": 1793789126.034965,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/182.png",
             "name": "Coupe de France",
             "pill": "fra.coupe_de_france",
@@ -482,7 +482,7 @@
         },
         "english-league-championship": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787330.026717,
+            "last_updated": 1793789130.070536,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/24.png",
             "name": "English League Championship",
             "pill": "eng.2",
@@ -490,7 +490,7 @@
         },
         "english-league-one": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787340.180027,
+            "last_updated": 1793789139.557881,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/25.png",
             "name": "English League One",
             "pill": "eng.3",
@@ -578,7 +578,7 @@
         },
         "fifa-under-17-womens-world-cup": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787340.142096,
+            "last_updated": 1793789139.507955,
             "logo": "\ud83c\udfc6",
             "name": "FIFA Under-17 Women's World Cup",
             "pill": "fifa.wworld.u17",
@@ -690,7 +690,7 @@
         },
         "honduran-liga-nacional": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787343.701636,
+            "last_updated": 1793789142.253334,
             "logo": "",
             "name": "Honduran Liga Nacional",
             "pill": "hon.1",
@@ -874,7 +874,7 @@
         },
         "mexican-liga-de-expansion-mx": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787339.617711,
+            "last_updated": 1793789139.06132,
             "logo": "https://flagcdn.com/w40/mx.png",
             "name": "Mexican Liga de Expansi\u00f3n MX",
             "pill": "mex.2",
@@ -890,7 +890,7 @@
         },
         "ncaa-mens-soccer": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787350.254861,
+            "last_updated": 1793789147.571601,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
@@ -898,7 +898,7 @@
         },
         "ncaa-womens-soccer": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787351.310917,
+            "last_updated": 1793789148.420867,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -970,7 +970,7 @@
         },
         "paraguayan-primera-division": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787342.398361,
+            "last_updated": 1793789141.151985,
             "logo": "https://flagcdn.com/w40/py.png",
             "name": "Paraguayan Primera Divisi\u00f3n",
             "pill": "par.1",
@@ -986,7 +986,7 @@
         },
         "peruvian-liga-1": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787341.858269,
+            "last_updated": 1793789140.710495,
             "logo": "https://flagcdn.com/w40/pe.png",
             "name": "Peruvian Liga 1",
             "pill": "per.1",
@@ -1034,7 +1034,7 @@
         },
         "salvadoran-primera-division": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787344.519341,
+            "last_updated": 1793789142.898169,
             "logo": "https://flagcdn.com/w40/sv.png",
             "name": "Salvadoran Primera Division",
             "pill": "slv.1",
@@ -1106,7 +1106,7 @@
         },
         "south-african-premiership": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787345.745185,
+            "last_updated": 1793789143.976359,
             "logo": "\ud83c\udf0d",
             "name": "South African Premiership",
             "pill": "rsa.1",
@@ -1114,7 +1114,7 @@
         },
         "spanish-copa-de-la-reina": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787337.496768,
+            "last_updated": 1793789137.284466,
             "logo": "https://flagcdn.com/w40/es.png",
             "name": "Spanish Copa de la Reina",
             "pill": "esp.copa_de_la_reina",
@@ -1122,7 +1122,7 @@
         },
         "spanish-copa-del-rey": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787325.467074,
+            "last_updated": 1793789125.750906,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png",
             "name": "Spanish Copa del Rey",
             "pill": "esp.copa_del_rey",
@@ -1226,7 +1226,7 @@
         },
         "uefa-champions-league": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787324.40519,
+            "last_updated": 1793789124.909426,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2.png",
             "name": "UEFA Champions League",
             "pill": "uefa.champions",
@@ -1258,7 +1258,7 @@
         },
         "uefa-europa-league": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787325.641694,
+            "last_updated": 1793789125.898517,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2310.png",
             "name": "UEFA Europa League",
             "pill": "uefa.europa",
@@ -1386,7 +1386,7 @@
         },
         "venezuelan-primera-division": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787342.749344,
+            "last_updated": 1793789141.428414,
             "logo": "",
             "name": "Venezuelan Primera Divisi\u00f3n",
             "pill": "ven.1",
@@ -1402,7 +1402,7 @@
         },
         "womens-international-friendly": {
             "last_crossover_date": "2026-11-04",
-            "last_updated": 1793787333.647241,
+            "last_updated": 1793789133.522142,
             "logo": "\ud83c\udf0e",
             "name": "Women's International Friendly",
             "pill": "fifa.friendly.w",
