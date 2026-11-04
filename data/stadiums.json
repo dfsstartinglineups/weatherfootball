@@ -6779,16 +6779,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "11328": {
-        "city": "",
-        "country": "USA",
-        "id": "11328",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Bill Clark Homes Field at Johnson Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "11329": {
         "city": "",
         "country": "USA",
@@ -6956,6 +6946,16 @@
         "lat": 53.76282,
         "lon": -2.70452,
         "name": "Mill Farm Sports Village",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11349": {
+        "city": "Emmitsburg",
+        "country": "USA",
+        "id": "11349",
+        "lat": 39.70454,
+        "lon": -77.32693,
+        "name": "Waldron Family Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7166,6 +7166,16 @@
         "lat": 30.21309,
         "lon": -93.2044,
         "name": "Cowgirl Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11373": {
+        "city": "Corpus Christi",
+        "country": "USA",
+        "id": "11373",
+        "lat": 27.80058,
+        "lon": -97.39638,
+        "name": "Dr. Jack Dugan Soccer and Track & Field Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -22159,6 +22169,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8876": {
+        "city": "C\u00e1ceres",
+        "country": "Spain",
+        "id": "8876",
+        "lat": 39.47649,
+        "lon": -6.37224,
+        "name": "Estadio Manuel S\u00e1nchez Delgado",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8880": {
         "city": "Heemskerk",
         "country": "Netherlands",
@@ -22666,6 +22686,16 @@
         "lat": -25.74486,
         "lon": 28.18783,
         "name": "Solomon Mahlangu Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9270": {
+        "city": "Tajonar",
+        "country": "Spain",
+        "id": "9270",
+        "lat": 42.76878,
+        "lon": -1.6081,
+        "name": "Instalaciones Deportivas de Tajonar",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -25493,6 +25523,16 @@
         "city": "",
         "country": "",
         "id": "celoricense",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "central-african-republic-women": {
+        "city": "",
+        "country": "",
+        "id": "central-african-republic-women",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -29649,6 +29689,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "sao-tome-e-principe-women": {
+        "city": "",
+        "country": "",
+        "id": "sao-tome-e-principe-women",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "saumur": {
         "city": "",
         "country": "",
@@ -29983,6 +30033,16 @@
         "city": "",
         "country": "",
         "id": "sportfreunde-siegen",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "sporting-club-baie-mahault": {
+        "city": "",
+        "country": "",
+        "id": "sporting-club-baie-mahault",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
