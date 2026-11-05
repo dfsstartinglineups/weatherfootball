@@ -1119,6 +1119,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10382": {
+        "city": "La Paz",
+        "country": "Honduras",
+        "id": "10382",
+        "lat": 14.32124,
+        "lon": -87.67589,
+        "name": "Estadio Roberto Suazo Cordova",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10384": {
         "city": "Pazardzhik",
         "country": "Bulgaria",
@@ -2006,6 +2016,16 @@
         "lat": 38.10586,
         "lon": -93.54465,
         "name": "Stade Omnisports de Malouzini",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10621": {
+        "city": "Dhaka",
+        "country": "Bangladesh",
+        "id": "10621",
+        "lat": 23.7104,
+        "lon": 90.40744,
+        "name": "National Football Stadium Dhaka",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7569,6 +7589,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11424": {
+        "city": "Ogden",
+        "country": "USA",
+        "id": "11424",
+        "lat": 41.223,
+        "lon": -111.97383,
+        "name": "Wildcat Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11425": {
+        "city": "Murray",
+        "country": "USA",
+        "id": "11425",
+        "lat": 36.61033,
+        "lon": -88.31476,
+        "name": "Cutchin Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11426": {
         "city": "",
         "country": "USA",
@@ -7689,6 +7729,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11440": {
+        "city": "Cedar Falls",
+        "country": "USA",
+        "id": "11440",
+        "lat": 42.52776,
+        "lon": -92.44547,
+        "name": "UNI Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11441": {
+        "city": "Terre Haute, Indiana",
+        "country": "USA",
+        "id": "11441",
+        "lat": 39.4667,
+        "lon": -87.41391,
+        "name": "Memorial Stadium (Terre Haute, IN)",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11442": {
         "city": "Cedar City",
         "country": "USA",
@@ -7796,6 +7856,16 @@
         "lat": 37.72727,
         "lon": -89.21675,
         "name": "Lew Hartzog Track & Field Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11460": {
+        "city": "Pine Bluff, Arkansas",
+        "country": "USA",
+        "id": "11460",
+        "lat": 34.22843,
+        "lon": -92.0032,
+        "name": "Pumphrey Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11579,6 +11649,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11886": {
+        "city": "Sarawak",
+        "country": "Malaysia",
+        "id": "11886",
+        "lat": 44.63339,
+        "lon": -80.94972,
+        "name": "Taha Ariffin Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11887": {
         "city": "London",
         "country": "England",
@@ -11616,6 +11696,16 @@
         "lat": 52.9536,
         "lon": -1.15047,
         "name": "Clifton Sports Hub",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11892": {
+        "city": "Ranchi",
+        "country": "India",
+        "id": "11892",
+        "lat": 23.34316,
+        "lon": 85.3094,
+        "name": "Birsa Munda Athletics Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -18566,6 +18656,16 @@
         "lat": 18.51957,
         "lon": 73.85535,
         "name": "Shree Shiv Chhatrapati Sports Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6448": {
+        "city": "Fatorda, Goa",
+        "country": "India",
+        "id": "6448",
+        "lat": 22.0,
+        "lon": 79.0,
+        "name": "Pandit Jawaharlal Nehru Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
