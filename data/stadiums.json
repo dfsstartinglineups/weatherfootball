@@ -359,6 +359,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10189": {
+        "city": "Bangalore",
+        "country": "India",
+        "id": "10189",
+        "lat": 24.8717,
+        "lon": 67.0839,
+        "name": "Bangalore Football Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10190": {
         "city": "Huelva",
         "country": "Spain",
@@ -16239,6 +16249,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "4686": {
+        "city": "Oxford",
+        "country": "England",
+        "id": "4686",
+        "lat": 51.75222,
+        "lon": -1.25596,
+        "name": "RAW Charging Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "47": {
         "city": "Waalwijk",
         "country": "Netherlands",
@@ -23569,6 +23589,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9754": {
+        "city": "Shillong",
+        "country": "India",
+        "id": "9754",
+        "lat": 25.56892,
+        "lon": 91.88313,
+        "name": "SSA Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9756": {
         "city": "Halifax, Nova Scotia",
         "country": "Canada",
@@ -28935,6 +28965,16 @@
         "id": "olot",
         "lat": 42.18096,
         "lon": 2.49012,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "olympique-de-cayenne": {
+        "city": "",
+        "country": "",
+        "id": "olympique-de-cayenne",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
