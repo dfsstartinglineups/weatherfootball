@@ -11949,6 +11949,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11962": {
+        "city": "",
+        "country": "Gabon",
+        "id": "11962",
+        "lat": -1.0,
+        "lon": 11.75,
+        "name": "Stade de Nzeng Ayong",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1198": {
         "city": "Tel-Aviv",
         "country": "Israel",
@@ -15666,6 +15676,16 @@
         "lat": 62.73752,
         "lon": 7.15912,
         "name": "Aker Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4294": {
+        "city": "Guiseley",
+        "country": "England",
+        "id": "4294",
+        "lat": 53.87561,
+        "lon": -1.71232,
+        "name": "Nethermoor Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -20436,6 +20456,16 @@
         "lat": 52.645,
         "lon": 6.21111,
         "name": "Sportpark Het Noorderslag",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7474": {
+        "city": "Toyota Stadium",
+        "country": "USA",
+        "id": "7474",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Toyota Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
