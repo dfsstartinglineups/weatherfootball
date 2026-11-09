@@ -11879,6 +11879,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11910": {
+        "city": "Foley",
+        "country": "USA",
+        "id": "11910",
+        "lat": 45.66469,
+        "lon": -93.9097,
+        "name": "Foley Sports Tourism Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11911": {
         "city": "Cantabria",
         "country": "Spain",
@@ -22436,6 +22446,16 @@
         "lat": 53.38297,
         "lon": -1.4659,
         "name": "Coach and Horses Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8930": {
+        "city": "Plymouth",
+        "country": "England",
+        "id": "8930",
+        "lat": 50.37153,
+        "lon": -4.14305,
+        "name": "Manadon Sports Hub",
         "roof": "Open",
         "surface": "Grass"
     },

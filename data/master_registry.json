@@ -137,8 +137,8 @@
             "slug": "bol-1"
         },
         "bolivian-liga-profesional": {
-            "last_crossover_date": "2026-11-06",
-            "last_updated": 1794037543.587506,
+            "last_crossover_date": "2026-11-09",
+            "last_updated": 1794211235.675096,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1949.png",
             "name": "Bolivian Liga Profesional",
             "pill": "bol.1",
@@ -249,8 +249,8 @@
             "slug": "col-1"
         },
         "colombian-primera-a": {
-            "last_crossover_date": "2026-11-06",
-            "last_updated": 1794037543.064826,
+            "last_crossover_date": "2026-11-09",
+            "last_updated": 1794211234.464351,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
             "name": "Colombian Primera A",
             "pill": "col.1",
@@ -465,8 +465,8 @@
             "slug": "english-fa-community-shield"
         },
         "english-fa-cup": {
-            "last_crossover_date": "2026-11-08",
-            "last_updated": 1794210332.143877,
+            "last_crossover_date": "2026-11-09",
+            "last_updated": 1794211227.253691,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/40.png",
             "name": "English FA Cup",
             "pill": "eng.fa",
@@ -833,8 +833,8 @@
             "slug": "liga-mx"
         },
         "ligapro-ecuador": {
-            "last_crossover_date": "2026-11-03",
-            "last_updated": 1793778348.739736,
+            "last_crossover_date": "2026-11-09",
+            "last_updated": 1794211235.618249,
             "logo": "https://flagcdn.com/w40/ec.png",
             "name": "LigaPro Ecuador",
             "pill": "ecu.1",
@@ -897,16 +897,16 @@
             "slug": "mls"
         },
         "ncaa-mens-soccer": {
-            "last_crossover_date": "2026-11-06",
-            "last_updated": 1794037550.435069,
+            "last_crossover_date": "2026-11-09",
+            "last_updated": 1794211236.097513,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
             "slug": "ncaa-mens-soccer"
         },
         "ncaa-womens-soccer": {
-            "last_crossover_date": "2026-11-06",
-            "last_updated": 1794037552.000864,
+            "last_crossover_date": "2026-11-09",
+            "last_updated": 1794211242.279051,
             "logo": "",
             "name": "NCAA Women's Soccer",
             "pill": "usa.ncaa.w.1",
@@ -953,8 +953,8 @@
             "slug": "northern-super-league"
         },
         "norwegian-eliteserien": {
-            "last_crossover_date": "2026-10-30",
-            "last_updated": 1793429126.444726,
+            "last_crossover_date": "2026-11-09",
+            "last_updated": 1794211234.240305,
             "logo": "https://flagcdn.com/w40/no.png",
             "name": "Norwegian Eliteserien",
             "pill": "nor.1",
@@ -977,8 +977,8 @@
             "slug": "par-1"
         },
         "paraguayan-primera-division": {
-            "last_crossover_date": "2026-11-05",
-            "last_updated": 1793951129.431797,
+            "last_crossover_date": "2026-11-09",
+            "last_updated": 1794211234.975639,
             "logo": "https://flagcdn.com/w40/py.png",
             "name": "Paraguayan Primera Divisi\u00f3n",
             "pill": "par.1",
@@ -1153,16 +1153,16 @@
             "slug": "spanish-laliga"
         },
         "spanish-laliga-2": {
-            "last_crossover_date": "2026-11-08",
-            "last_updated": 1794210339.672701,
+            "last_crossover_date": "2026-11-09",
+            "last_updated": 1794211234.02113,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/107.png",
             "name": "Spanish LALIGA 2",
             "pill": "esp.2",
             "slug": "spanish-laliga-2"
         },
         "spanish-liga-f": {
-            "last_crossover_date": "2026-11-08",
-            "last_updated": 1794210334.667033,
+            "last_crossover_date": "2026-11-09",
+            "last_updated": 1794211233.34029,
             "logo": "https://flagcdn.com/w40/es.png",
             "name": "Spanish Liga F",
             "pill": "esp.w.1",
@@ -3562,7 +3562,7 @@
             "slug": "auriense-cented-academy"
         },
         "aurora": {
-            "league": "Copa Bolivia",
+            "league": "Bolivian Liga Profesional",
             "name": "Aurora",
             "slug": "aurora"
         },
@@ -4252,7 +4252,7 @@
             "slug": "bergantinos"
         },
         "berkhamsted": {
-            "league": "English FA Cup Qualifying",
+            "league": "English FA Cup",
             "name": "Berkhamsted",
             "slug": "berkhamsted"
         },
@@ -5902,7 +5902,7 @@
             "slug": "cd-revilla"
         },
         "cd-sabadell": {
-            "league": "Spanish Copa del Rey",
+            "league": "Spanish LALIGA 2",
             "name": "CD Sabadell",
             "slug": "cd-sabadell"
         },
@@ -13527,7 +13527,7 @@
             "slug": "krasnodar"
         },
         "kristiansund-bk": {
-            "league": "Club Friendly",
+            "league": "Norwegian Eliteserien",
             "name": "Kristiansund BK",
             "slug": "kristiansund-bk"
         },
@@ -18397,7 +18397,7 @@
             "slug": "plymouth-argyle-women"
         },
         "plymouth-parkway": {
-            "league": "English FA Cup Qualifying",
+            "league": "English FA Cup",
             "name": "Plymouth Parkway",
             "slug": "plymouth-parkway"
         },
