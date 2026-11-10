@@ -5929,6 +5929,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11232": {
+        "city": "Commerce",
+        "country": "USA",
+        "id": "11232",
+        "lat": 33.24706,
+        "lon": -95.89997,
+        "name": "Lion Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11233": {
         "city": "Stillwater",
         "country": "USA",
@@ -11876,6 +11886,16 @@
         "lat": 40.06667,
         "lon": -2.13333,
         "name": "Estadio La Fuensanta",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11909": {
+        "city": "Pensacola",
+        "country": "USA",
+        "id": "11909",
+        "lat": 30.42131,
+        "lon": -87.21691,
+        "name": "Ashton Brosnaham Soccer Complex",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -29905,6 +29925,16 @@
         "id": "saumur",
         "lat": 47.25931,
         "lon": -0.07808,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "sc-paderborn-07": {
+        "city": "",
+        "country": "",
+        "id": "sc-paderborn-07",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
