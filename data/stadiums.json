@@ -109,6 +109,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10059": {
+        "city": "Nam Dinh",
+        "country": "Vietnam",
+        "id": "10059",
+        "lat": 20.43389,
+        "lon": 106.17729,
+        "name": "Thien Truong Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10068": {
         "city": "Astillero",
         "country": "Spain",
@@ -5686,6 +5696,16 @@
         "lat": 43.04812,
         "lon": -76.14742,
         "name": "SU Soccer Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11204": {
+        "city": "Malibu, California",
+        "country": "USA",
+        "id": "11204",
+        "lat": 34.02577,
+        "lon": -118.7804,
+        "name": "Tari Frahm Rokus Field",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11989,6 +12009,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11970": {
+        "city": "Frankfurt",
+        "country": "Germany",
+        "id": "11970",
+        "lat": 50.11552,
+        "lon": 8.68417,
+        "name": "Waldstadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1198": {
         "city": "Tel-Aviv",
         "country": "Israel",
@@ -12346,6 +12376,16 @@
         "lat": 35.84701,
         "lon": -86.4861,
         "name": "Meadow Lane",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1451": {
+        "city": "Boyds, Maryland",
+        "country": "USA",
+        "id": "1451",
+        "lat": 48.724,
+        "lon": -118.132,
+        "name": "Maryland SoccerPlex",
         "roof": "Open",
         "surface": "Grass"
     },
