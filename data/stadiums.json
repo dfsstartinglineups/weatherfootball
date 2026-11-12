@@ -89,6 +89,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10037": {
+        "city": "Hannover",
+        "country": "Germany",
+        "id": "10037",
+        "lat": 52.37052,
+        "lon": 9.73322,
+        "name": "Eilenriedestadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10038": {
         "city": "Voronezh",
         "country": "Russia",
@@ -106,6 +116,16 @@
         "lat": 51.9225,
         "lon": 4.47917,
         "name": "De Kuip",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10053": {
+        "city": "Stade Roger Zami",
+        "country": "Guadeloupe",
+        "id": "10053",
+        "lat": 13.16453,
+        "lon": -59.55165,
+        "name": "Stade Roger Zami",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -4349,6 +4369,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10921": {
+        "city": "Leonora",
+        "country": "Guyana",
+        "id": "10921",
+        "lat": 6.86923,
+        "lon": -58.28903,
+        "name": "Leonora National Track and Field Facility",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10922": {
         "city": "BFA Technical Centre",
         "country": "Barbados",
@@ -4356,6 +4386,16 @@
         "lat": 13.16453,
         "lon": -59.55165,
         "name": "Wildey Turf",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10923": {
+        "city": "Oranjestad",
+        "country": "Aruba",
+        "id": "10923",
+        "lat": 12.52398,
+        "lon": -70.02703,
+        "name": "Guillermo Prospero Trinidad Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -7729,6 +7769,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11433": {
+        "city": "Martin, Tennessee",
+        "country": "USA",
+        "id": "11433",
+        "lat": 43.1725,
+        "lon": -101.73265,
+        "name": "Skyhawk Soccer Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11434": {
         "city": "Montgomery",
         "country": "USA",
@@ -11069,6 +11119,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11799": {
+        "city": "Bielefeld",
+        "country": "Germany",
+        "id": "11799",
+        "lat": 52.03333,
+        "lon": 8.53333,
+        "name": "Trainingsgel\u00e4nde DSC Arminia",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11802": {
         "city": "",
         "country": "Australia",
@@ -11639,6 +11699,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11879": {
+        "city": "Havana",
+        "country": "Cuba",
+        "id": "11879",
+        "lat": 23.13302,
+        "lon": -82.38304,
+        "name": "Estadio La Polar",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11880": {
         "city": "Oxfordshire",
         "country": "England",
@@ -12019,6 +12089,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11973": {
+        "city": "Vienna",
+        "country": "Austria",
+        "id": "11973",
+        "lat": 48.20849,
+        "lon": 16.37208,
+        "name": "K\u00f6rner Trainingszentrum",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1198": {
         "city": "Tel-Aviv",
         "country": "Israel",
@@ -12026,6 +12106,26 @@
         "lat": 32.08088,
         "lon": 34.78057,
         "name": "Bloomfield Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11992": {
+        "city": "Eschen",
+        "country": "Liechtenstein",
+        "id": "11992",
+        "lat": 47.21071,
+        "lon": 9.52223,
+        "name": "Sportanlage Gr\u00fcndenmoos",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11993": {
+        "city": "Lviv",
+        "country": "Ukraine",
+        "id": "11993",
+        "lat": 49.83826,
+        "lon": 24.02324,
+        "name": "Stadion Ukraina",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -15636,6 +15736,16 @@
         "lat": -29.8579,
         "lon": 31.0292,
         "name": "Moses Mabhida Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "4185": {
+        "city": "Ingolstadt",
+        "country": "Germany",
+        "id": "4185",
+        "lat": 48.76508,
+        "lon": 11.42372,
+        "name": "Audi Sportpark",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -21369,6 +21479,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8217": {
+        "city": "Gothenburg",
+        "country": "Sweden",
+        "id": "8217",
+        "lat": 57.70716,
+        "lon": 11.96679,
+        "name": "Valhalla IP",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8235": {
         "city": "Bissau",
         "country": "Guinea-Bissau",
@@ -23256,6 +23376,16 @@
         "lat": 54.90465,
         "lon": -1.38222,
         "name": "Eppleton Colliery Welfare Ground",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9469": {
+        "city": "Chambery",
+        "country": "France",
+        "id": "9469",
+        "lat": 45.56628,
+        "lon": 5.92079,
+        "name": "Stade Municipal de Chamb\u00e9ry",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -25273,6 +25403,16 @@
         "city": "",
         "country": "",
         "id": "borac-banja-luka",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "borussia-monchengladbach": {
+        "city": "",
+        "country": "",
+        "id": "borussia-monchengladbach",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -27649,6 +27789,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "holstein-kiel": {
+        "city": "",
+        "country": "",
+        "id": "holstein-kiel",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "holyport": {
         "city": "",
         "country": "",
@@ -27805,6 +27955,16 @@
         "id": "isidro-metapan",
         "lat": 0.0,
         "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "iskra": {
+        "city": "",
+        "country": "",
+        "id": "iskra",
+        "lat": 44.00113,
+        "lon": 26.96348,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -29339,6 +29499,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "pogon-szczecin": {
+        "city": "",
+        "country": "",
+        "id": "pogon-szczecin",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "ponferradina": {
         "city": "",
         "country": "",
@@ -29469,6 +29639,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "racing-genk": {
+        "city": "",
+        "country": "",
+        "id": "racing-genk",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "radnik-bijeljina": {
         "city": "",
         "country": "",
@@ -29523,6 +29703,16 @@
         "city": "",
         "country": "",
         "id": "rayo-cantabria",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "rb-leipzig": {
+        "city": "",
+        "country": "",
+        "id": "rb-leipzig",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -29983,6 +30173,16 @@
         "city": "",
         "country": "",
         "id": "sc-wiedenbruck-2000",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "scotland-u21": {
+        "city": "",
+        "country": "",
+        "id": "scotland-u21",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -31355,6 +31555,16 @@
         "id": "yaxley",
         "lat": 52.51768,
         "lon": -0.25852,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "young-boys": {
+        "city": "",
+        "country": "",
+        "id": "young-boys",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
