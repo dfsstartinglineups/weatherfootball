@@ -899,6 +899,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10340": {
+        "city": "Singapore",
+        "country": "Singapore",
+        "id": "10340",
+        "lat": 1.28967,
+        "lon": 103.85007,
+        "name": "Singapore National Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10342": {
         "city": "Lens",
         "country": "France",
@@ -3716,6 +3726,16 @@
         "lat": 41.54329,
         "lon": 2.10942,
         "name": "Estadi Municipal de la Nova Creu Alta",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10807": {
+        "city": "Melbourne",
+        "country": "Australia",
+        "id": "10807",
+        "lat": -37.814,
+        "lon": 144.96332,
+        "name": "Melbourne City Football Academy",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12049,6 +12069,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11918": {
+        "city": "Jaber Al-Ahmad International Stadium",
+        "country": "Kuwait",
+        "id": "11918",
+        "lat": 29.5,
+        "lon": 47.75,
+        "name": "Al-Sadaqua Walsalam Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11920": {
         "city": "Santiago de Quer\u00e9taro",
         "country": "Mexico",
@@ -12066,6 +12096,26 @@
         "lat": 46.0,
         "lon": 2.0,
         "name": "Stade Omnisports Fiesque Duchesne",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11946": {
+        "city": "Saint-Philbert-de-Grand-Lieu",
+        "country": "France",
+        "id": "11946",
+        "lat": 47.03573,
+        "lon": -1.64088,
+        "name": "Complexe sportif des Chevrets Terrain 3",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11960": {
+        "city": "Dresden",
+        "country": "Germany",
+        "id": "11960",
+        "lat": 51.05089,
+        "lon": 13.73832,
+        "name": "Walter-Fritzsch-Akademie Rasenplatz 1",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12099,6 +12149,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11974": {
+        "city": "Vienna",
+        "country": "Austria",
+        "id": "11974",
+        "lat": 48.20849,
+        "lon": 16.37208,
+        "name": "Akademie FK Austria Platz 1",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1198": {
         "city": "Tel-Aviv",
         "country": "Israel",
@@ -12126,6 +12186,16 @@
         "lat": 49.83826,
         "lon": 24.02324,
         "name": "Stadion Ukraina",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12004": {
+        "city": "",
+        "country": "Bulgaria",
+        "id": "12004",
+        "lat": 42.66667,
+        "lon": 25.25,
+        "name": "Gradski Stadion (Lovech)",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12256,6 +12326,16 @@
         "lat": 59.95597,
         "lon": 11.04918,
         "name": "Arasen Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "1305": {
+        "city": "Maribor",
+        "country": "Slovenia",
+        "id": "1305",
+        "lat": 46.55583,
+        "lon": 15.64593,
+        "name": "Ljudski vrt",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -17929,6 +18009,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "5733": {
+        "city": "Kapfenberg",
+        "country": "Austria",
+        "id": "5733",
+        "lat": 47.44458,
+        "lon": 15.29331,
+        "name": "Alpenstadion Kapfenberg",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "5742": {
         "city": "Curic\u00f3",
         "country": "Chile",
@@ -18526,6 +18616,16 @@
         "lat": 53.48095,
         "lon": -2.23743,
         "name": "Joie Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6254": {
+        "city": "Ar-Rayyan",
+        "country": "Qatar",
+        "id": "6254",
+        "lat": 25.29194,
+        "lon": 51.42444,
+        "name": "Abdullah bin Khalifa Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19676,6 +19776,16 @@
         "lat": 34.9221,
         "lon": 33.62794,
         "name": "AEK Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6792": {
+        "city": "Almendralejo",
+        "country": "Spain",
+        "id": "6792",
+        "lat": 38.68316,
+        "lon": -6.40747,
+        "name": "Francisco de la Hera",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -21699,6 +21809,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8363": {
+        "city": "Melbourne",
+        "country": "Australia",
+        "id": "8363",
+        "lat": -37.814,
+        "lon": 144.96332,
+        "name": "Lakeside Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8378": {
         "city": "Pau",
         "country": "France",
@@ -22989,6 +23109,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9240": {
+        "city": "B\u00e9thany",
+        "country": "France",
+        "id": "9240",
+        "lat": 40.26833,
+        "lon": -94.02829,
+        "name": "Stade Louis Bl\u00e9riot No. 2",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9246": {
         "city": "Junin",
         "country": "Argentina",
@@ -24079,6 +24209,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9847": {
+        "city": "Bregenz",
+        "country": "Austria",
+        "id": "9847",
+        "lat": 47.50311,
+        "lon": 9.7471,
+        "name": "ImmoAgentur Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9850": {
         "city": "Paphos",
         "country": "Cyprus",
@@ -24555,6 +24695,16 @@
         "id": "albacete",
         "lat": 38.99424,
         "lon": -1.85643,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "albania-u21": {
+        "city": "",
+        "country": "",
+        "id": "albania-u21",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
@@ -25413,6 +25563,16 @@
         "city": "",
         "country": "",
         "id": "borussia-monchengladbach",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "bosnia-herzegovina-u21": {
+        "city": "",
+        "country": "",
+        "id": "bosnia-herzegovina-u21",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -27013,6 +27173,16 @@
         "city": "",
         "country": "",
         "id": "fc-peterborough",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "fc-sellier-bellot-vlaim": {
+        "city": "",
+        "country": "",
+        "id": "fc-sellier-bellot-vlaim",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
@@ -29509,6 +29679,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "poland-u21": {
+        "city": "",
+        "country": "",
+        "id": "poland-u21",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "ponferradina": {
         "city": "",
         "country": "",
@@ -29663,6 +29843,16 @@
         "city": "",
         "country": "",
         "id": "radomiak-radom",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "rakow-czestochowa": {
+        "city": "",
+        "country": "",
+        "id": "rakow-czestochowa",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
