@@ -1459,6 +1459,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10442": {
+        "city": "New York City, New York",
+        "country": "USA",
+        "id": "10442",
+        "lat": 40.71427,
+        "lon": -74.00597,
+        "name": "Icahn Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10444": {
         "city": "Katowice",
         "country": "Poland",
@@ -1956,6 +1966,16 @@
         "lat": 53.79173,
         "lon": -1.38067,
         "name": "Bannister Prentice Community Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10577": {
+        "city": "Yarnfield",
+        "country": "England",
+        "id": "10577",
+        "lat": 52.89063,
+        "lon": -2.20096,
+        "name": "Wellbeing Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -3826,6 +3846,16 @@
         "lat": 35.20562,
         "lon": -97.43948,
         "name": "Memorial Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10816": {
+        "city": "Derby",
+        "country": "England",
+        "id": "10816",
+        "lat": 52.92277,
+        "lon": -1.47663,
+        "name": "Don Amot Arena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -11209,6 +11239,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11807": {
+        "city": "Worksop",
+        "country": "England",
+        "id": "11807",
+        "lat": 53.30182,
+        "lon": -1.12404,
+        "name": "KC Sofas Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11808": {
         "city": "Lausanne",
         "country": "Switzerland",
@@ -12109,6 +12149,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11916": {
+        "city": "Leicestershire",
+        "country": "England",
+        "id": "11916",
+        "lat": 34.54426,
+        "lon": -91.96903,
+        "name": "Loughborough University Football Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11918": {
         "city": "Jaber Al-Ahmad International Stadium",
         "country": "Kuwait",
@@ -12126,6 +12176,26 @@
         "lat": 20.58806,
         "lon": -100.38806,
         "name": "Centro Gallo de Alto Rendemiento",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11921": {
+        "city": "Stafford",
+        "country": "England",
+        "id": "11921",
+        "lat": 38.42207,
+        "lon": -77.40832,
+        "name": "Stan Robinson Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11922": {
+        "city": "Saint-Renan",
+        "country": "France",
+        "id": "11922",
+        "lat": 48.43114,
+        "lon": -4.62168,
+        "name": "Stade Abb\u00e9-Le-Gall",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12189,6 +12259,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11929": {
+        "city": "Houilles",
+        "country": "France",
+        "id": "11929",
+        "lat": 48.92161,
+        "lon": 2.19263,
+        "name": "Stade Maurice Baquet",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11930": {
         "city": "Contres",
         "country": "France",
@@ -12216,6 +12296,56 @@
         "lat": 47.74587,
         "lon": -2.10547,
         "name": "Stade Joseph et Michel Gardet",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11934": {
+        "city": "Veauche",
+        "country": "France",
+        "id": "11934",
+        "lat": 45.56326,
+        "lon": 4.29192,
+        "name": "Stade Ir\u00e9n\u00e9e Laurent",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11935": {
+        "city": "Vandoeuvre-les-Nancy",
+        "country": "France",
+        "id": "11935",
+        "lat": 48.66115,
+        "lon": 6.17114,
+        "name": "Stade Jacques Sonnet",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11936": {
+        "city": "Metz",
+        "country": "France",
+        "id": "11936",
+        "lat": 49.11911,
+        "lon": 6.17269,
+        "name": "Stade Haut de Blemont",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11937": {
+        "city": "Seyssinet-Pariset",
+        "country": "France",
+        "id": "11937",
+        "lat": 45.17675,
+        "lon": 5.69387,
+        "name": "Complexe Sportif Joseph Guetat",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11938": {
+        "city": "Metz",
+        "country": "France",
+        "id": "11938",
+        "lat": 49.11911,
+        "lon": 6.17269,
+        "name": "Stade Emile Weinberg",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12266,6 +12396,16 @@
         "lat": 49.18333,
         "lon": 6.5,
         "name": "Stade Charles Muller",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11944": {
+        "city": "Saint-Di\u00e9-des-Vosges",
+        "country": "France",
+        "id": "11944",
+        "lat": 48.28429,
+        "lon": 6.94921,
+        "name": "Stade Emile Jeanpierre",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12389,6 +12529,46 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11964": {
+        "city": "Manchester",
+        "country": "England",
+        "id": "11964",
+        "lat": 53.48095,
+        "lon": -2.23743,
+        "name": "Debdale Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11965": {
+        "city": "Marseille",
+        "country": "France",
+        "id": "11965",
+        "lat": 43.29695,
+        "lon": 5.38107,
+        "name": "Stade Malpasse",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11966": {
+        "city": "Villenave",
+        "country": "France",
+        "id": "11966",
+        "lat": 43.96897,
+        "lon": -0.8087,
+        "name": "Stade Pierre Brossolette 1",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11967": {
+        "city": "Perros-Guirec",
+        "country": "France",
+        "id": "11967",
+        "lat": 48.81411,
+        "lon": -3.4437,
+        "name": "Stade Yves Le Jannou",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11968": {
         "city": "Saint-S\u00e9bastien-sur-Loire",
         "country": "France",
@@ -12396,6 +12576,16 @@
         "lat": 47.20768,
         "lon": -1.50332,
         "name": "Stade Ren\u00e9 Mass\u00e9 1",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11969": {
+        "city": "Riom",
+        "country": "France",
+        "id": "11969",
+        "lat": 45.89362,
+        "lon": 3.11264,
+        "name": "Parc des Sports Du Cerey 3",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12429,6 +12619,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11975": {
+        "city": "Amiens",
+        "country": "France",
+        "id": "11975",
+        "lat": 49.9,
+        "lon": 2.3,
+        "name": "Stade \u00c9loi Auff\u00e8ve 1",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11976": {
         "city": "Rennes",
         "country": "France",
@@ -12436,6 +12636,16 @@
         "lat": 48.11109,
         "lon": -1.67431,
         "name": "Stade Municipal de Vitr\u00e9",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11977": {
+        "city": "Paris",
+        "country": "France",
+        "id": "11977",
+        "lat": 48.85341,
+        "lon": 2.3488,
+        "name": "Parc des sports Georges Prudhomme",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12449,6 +12659,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11979": {
+        "city": "Paris",
+        "country": "France",
+        "id": "11979",
+        "lat": 48.85341,
+        "lon": 2.3488,
+        "name": "Charles Finalt\u00e9ri Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "1198": {
         "city": "Tel-Aviv",
         "country": "Israel",
@@ -12456,6 +12676,16 @@
         "lat": 32.08088,
         "lon": 34.78057,
         "name": "Bloomfield Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11980": {
+        "city": "Caen",
+        "country": "France",
+        "id": "11980",
+        "lat": 49.18585,
+        "lon": -0.35912,
+        "name": "Michel Farr\u00e9 Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12489,6 +12719,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11984": {
+        "city": "Lens",
+        "country": "France",
+        "id": "11984",
+        "lat": 50.43302,
+        "lon": 2.82791,
+        "name": "Stade Leonard Danel 1",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11985": {
+        "city": "Lille",
+        "country": "France",
+        "id": "11985",
+        "lat": 50.63391,
+        "lon": 3.05512,
+        "name": "Stade du COSEC",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11986": {
         "city": "Brive-la-Gaillarde",
         "country": "France",
@@ -12496,6 +12746,36 @@
         "lat": 45.1589,
         "lon": 1.53326,
         "name": "Stade Andr\u00e9 Pestourie",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11987": {
+        "city": "Valence",
+        "country": "France",
+        "id": "11987",
+        "lat": 44.9256,
+        "lon": 4.90956,
+        "name": "Stade Paul Lafont",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11988": {
+        "city": "Rouen",
+        "country": "France",
+        "id": "11988",
+        "lat": 49.44313,
+        "lon": 1.09932,
+        "name": "Jean-Adret Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11989": {
+        "city": "Creteil",
+        "country": "France",
+        "id": "11989",
+        "lat": 48.79266,
+        "lon": 2.46569,
+        "name": "Parc des Sports de la Plaine Sud",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12519,6 +12799,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11994": {
+        "city": "Lviv",
+        "country": "Ukraine",
+        "id": "11994",
+        "lat": 49.83826,
+        "lon": 24.02324,
+        "name": "SOB FK Polissya pole 1",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11996": {
+        "city": "Senlis",
+        "country": "France",
+        "id": "11996",
+        "lat": 49.20724,
+        "lon": 2.58661,
+        "name": "Stade Municipal",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11997": {
         "city": "Paris",
         "country": "France",
@@ -12526,6 +12826,16 @@
         "lat": 48.85341,
         "lon": 2.3488,
         "name": "Stade Paul Cosyns",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11998": {
+        "city": "Perigny",
+        "country": "France",
+        "id": "11998",
+        "lat": 46.15447,
+        "lon": -1.09688,
+        "name": "Stade Municipal 1",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -12546,6 +12856,26 @@
         "lat": 46.0,
         "lon": 2.0,
         "name": "Stade Maurice-Tr\u00e9lut Terrain B",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12002": {
+        "city": "Krasnodar",
+        "country": "Russia",
+        "id": "12002",
+        "lat": 45.04534,
+        "lon": 38.98178,
+        "name": "Stadion Akademii FK Krasnodar",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12003": {
+        "city": "Hamburg Norderstedt",
+        "country": "Germany",
+        "id": "12003",
+        "lat": 51.5,
+        "lon": 10.5,
+        "name": "Trainingsplatz 6 am Volksparkstadion",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -14126,6 +14456,16 @@
         "lat": 52.42452,
         "lon": 10.7815,
         "name": "Volkswagen Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2322": {
+        "city": "Sedan",
+        "country": "France",
+        "id": "2322",
+        "lat": 49.70187,
+        "lon": 4.94028,
+        "name": "Stade Louis-Dugauguez",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19009,6 +19349,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6245": {
+        "city": "Bordeaux",
+        "country": "France",
+        "id": "6245",
+        "lat": 44.84124,
+        "lon": -0.58046,
+        "name": "Stade Atlantique",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6246": {
         "city": "Manchester",
         "country": "England",
@@ -20566,6 +20916,16 @@
         "lat": 37.98704,
         "lon": -1.13004,
         "name": "Pinatar Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6988": {
+        "city": "Charleville-M\u00e9zi\u00e8res",
+        "country": "France",
+        "id": "6988",
+        "lat": 49.7685,
+        "lon": 4.72487,
+        "name": "Stade du Petit Bois",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -22969,6 +23329,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8801": {
+        "city": "Keynsham",
+        "country": "England",
+        "id": "8801",
+        "lat": 51.41387,
+        "lon": -2.4978,
+        "name": "The AJN Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8810": {
         "city": "Lincolnshire",
         "country": "England",
@@ -23296,6 +23666,16 @@
         "lat": 47.05893,
         "lon": -0.87974,
         "name": "Stade Omnisports Jean Bouin",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8985": {
+        "city": "Bridgwater",
+        "country": "England",
+        "id": "8985",
+        "lat": 38.77761,
+        "lon": -77.24054,
+        "name": "Fairfax Park",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -24099,6 +24479,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9485": {
+        "city": "Vierzon",
+        "country": "France",
+        "id": "9485",
+        "lat": 47.22186,
+        "lon": 2.0684,
+        "name": "Stade de Brouhot",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9505": {
         "city": "Rome",
         "country": "Italy",
@@ -24286,6 +24676,16 @@
         "lat": 17.49326,
         "lon": 44.12766,
         "name": "Prince Hathloul Bin Abdulaziz Sport City Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9632": {
+        "city": "Osijek",
+        "country": "Croatia",
+        "id": "9632",
+        "lat": 45.55066,
+        "lon": 18.6942,
+        "name": "Opus Arena",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -24626,6 +25026,16 @@
         "lat": 34.54426,
         "lon": -91.96903,
         "name": "Rothamsted Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9813": {
+        "city": "Exeter",
+        "country": "England",
+        "id": "9813",
+        "lat": 50.7236,
+        "lon": -3.52751,
+        "name": "Erme Valley",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -28805,6 +29215,16 @@
         "id": "karvina",
         "lat": 49.854,
         "lon": 18.54169,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "kazakhstan-u21": {
+        "city": "",
+        "country": "",
+        "id": "kazakhstan-u21",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
