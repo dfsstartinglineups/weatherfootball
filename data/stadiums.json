@@ -14979,6 +14979,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "2597": {
+        "city": "Livorno",
+        "country": "Italy",
+        "id": "2597",
+        "lat": 43.54427,
+        "lon": 10.32615,
+        "name": "Armando Picchi",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "26": {
         "city": "Milano",
         "country": "Italy",
@@ -15546,6 +15556,16 @@
         "lat": 51.98,
         "lon": 5.91111,
         "name": "GelreDome",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "3182": {
+        "city": "",
+        "country": "Ghana",
+        "id": "3182",
+        "lat": 6.0,
+        "lon": 48.0,
+        "name": "Sekondi-Takoradi Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -29323,6 +29343,16 @@
         "city": "",
         "country": "",
         "id": "kolding-fc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "kosovo-u21": {
+        "city": "",
+        "country": "",
+        "id": "kosovo-u21",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
