@@ -12169,6 +12169,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11919": {
+        "city": "Nouakchott",
+        "country": "Mauritania",
+        "id": "11919",
+        "lat": 18.08581,
+        "lon": -15.9785,
+        "name": "Stade Olympique Nouakchott",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11920": {
         "city": "Santiago de Quer\u00e9taro",
         "country": "Mexico",
@@ -20479,6 +20489,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6752": {
+        "city": "Ar-Rayyan",
+        "country": "Qatar",
+        "id": "6752",
+        "lat": 25.29194,
+        "lon": 51.42444,
+        "name": "Suheim bin Hamad Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6753": {
         "city": "Buriram",
         "country": "Thailand",
@@ -27879,6 +27899,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "egypt-u21": {
+        "city": "",
+        "country": "",
+        "id": "egypt-u21",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "eibar-ii": {
         "city": "",
         "country": "",
@@ -30745,6 +30775,16 @@
         "id": "pontevedra",
         "lat": 42.431,
         "lon": -8.64435,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "portugal-u21": {
+        "city": "",
+        "country": "",
+        "id": "portugal-u21",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"

@@ -33,8 +33,8 @@
             "slug": "afc-champions-league-two-qualifying"
         },
         "africa-cup-of-nations-qualifying": {
-            "last_crossover_date": "2026-11-16",
-            "last_updated": 1794901538.49004,
+            "last_crossover_date": "2026-11-17",
+            "last_updated": 1794902457.451937,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/76.png",
             "name": "Africa Cup of Nations Qualifying",
             "pill": "caf.nations_qual",
@@ -273,8 +273,8 @@
             "slug": "concacaf-central-american-cup"
         },
         "concacaf-nations-league": {
-            "last_crossover_date": "2026-11-16",
-            "last_updated": 1794901535.040868,
+            "last_crossover_date": "2026-11-17",
+            "last_updated": 1794902437.757184,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2406.png",
             "name": "Concacaf Nations League",
             "pill": "concacaf.nations.league",
@@ -321,8 +321,8 @@
             "slug": "copa-chile"
         },
         "copa-colombia": {
-            "last_crossover_date": "2026-11-10",
-            "last_updated": 1794383136.693138,
+            "last_crossover_date": "2026-11-17",
+            "last_updated": 1794902472.543324,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2332.png",
             "name": "Copa Colombia",
             "pill": "col.copa",
@@ -457,8 +457,8 @@
             "slug": "english-carabao-cup"
         },
         "english-efl-trophy": {
-            "last_crossover_date": "2026-11-11",
-            "last_updated": 1794469529.159746,
+            "last_crossover_date": "2026-11-17",
+            "last_updated": 1794902472.128784,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/42.png",
             "name": "English EFL Trophy",
             "pill": "eng.trophy",
@@ -737,8 +737,8 @@
             "slug": "indian-super-league"
         },
         "international-friendly": {
-            "last_crossover_date": "2026-11-16",
-            "last_updated": 1794901537.271211,
+            "last_crossover_date": "2026-11-17",
+            "last_updated": 1794902448.481594,
             "logo": "\ud83c\udf0e",
             "name": "International Friendly",
             "pill": "fifa.friendly",
@@ -1041,8 +1041,8 @@
             "slug": "russian-premier-league"
         },
         "saff-championship": {
-            "last_crossover_date": "2026-11-11",
-            "last_updated": 1794469530.00517,
+            "last_crossover_date": "2026-11-17",
+            "last_updated": 1794902472.759546,
             "logo": "\ud83c\udf0e",
             "name": "SAFF Championship",
             "pill": "afc.saff.championship",
@@ -1297,16 +1297,16 @@
             "slug": "uefa-europa-league-qualifying"
         },
         "uefa-european-under-21-championship-qualifying": {
-            "last_crossover_date": "2026-11-16",
-            "last_updated": 1794901539.096862,
+            "last_crossover_date": "2026-11-17",
+            "last_updated": 1794902458.178333,
             "logo": "\ud83c\udf0e",
             "name": "UEFA European Under-21 Championship Qualifying",
             "pill": "uefa.euro_u21_qual",
             "slug": "uefa-european-under-21-championship-qualifying"
         },
         "uefa-nations-league": {
-            "last_crossover_date": "2026-11-16",
-            "last_updated": 1794901537.075094,
+            "last_crossover_date": "2026-11-17",
+            "last_updated": 1794902439.577601,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Nations League",
             "pill": "uefa.nations",
@@ -1345,8 +1345,8 @@
             "slug": "uefa-womens-europa-cup"
         },
         "under-21-international-friendly": {
-            "last_crossover_date": "2026-11-16",
-            "last_updated": 1794901547.03523,
+            "last_crossover_date": "2026-11-17",
+            "last_updated": 1794902468.742318,
             "logo": "\ud83c\udf0e",
             "name": "Under-21 International Friendly",
             "pill": "fifa.friendly_u21",
@@ -7545,7 +7545,7 @@
             "slug": "croatia"
         },
         "croatia-u21": {
-            "league": "UEFA European Under-21 Championship Qualifying",
+            "league": "Under-21 International Friendly",
             "name": "Croatia U21",
             "slug": "croatia-u21"
         },
@@ -8450,7 +8450,7 @@
             "slug": "dominica"
         },
         "dominican-republic": {
-            "league": "Concacaf Nations League",
+            "league": "International Friendly",
             "name": "Dominican Republic",
             "slug": "dominican-republic"
         },
@@ -9048,6 +9048,11 @@
             "league": "Africa Cup of Nations Qualifying",
             "name": "Egypt",
             "slug": "egypt"
+        },
+        "egypt-u21": {
+            "league": "Under-21 International Friendly",
+            "name": "Egypt U21",
+            "slug": "egypt-u21"
         },
         "egypt-women": {
             "league": "Women's Africa Cup of Nations",
@@ -12790,7 +12795,7 @@
             "slug": "independiente-santa-fe"
         },
         "india": {
-            "league": "International Friendly",
+            "league": "SAFF Championship",
             "name": "India",
             "slug": "india"
         },
@@ -12880,7 +12885,7 @@
             "slug": "internacional"
         },
         "internacional-de-bogota": {
-            "league": "Colombian Primera A",
+            "league": "Copa Colombia",
             "name": "Internacional de Bogot\u00e1",
             "slug": "internacional-de-bogota"
         },
@@ -15135,7 +15140,7 @@
             "slug": "lusitano-evora-1911"
         },
         "luton-town": {
-            "league": "English FA Cup",
+            "league": "English EFL Trophy",
             "name": "Luton Town",
             "slug": "luton-town"
         },
@@ -18800,7 +18805,7 @@
             "slug": "peru-women"
         },
         "peterborough-united": {
-            "league": "English FA Cup",
+            "league": "English EFL Trophy",
             "name": "Peterborough United",
             "slug": "peterborough-united"
         },
