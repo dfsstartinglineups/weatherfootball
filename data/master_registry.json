@@ -169,8 +169,8 @@
             "slug": "bra-2"
         },
         "brazilian-serie-a": {
-            "last_crossover_date": "2026-11-06",
-            "last_updated": 1794037542.293247,
+            "last_crossover_date": "2026-11-18",
+            "last_updated": 1794988829.812778,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png",
             "name": "Brazilian Serie A",
             "pill": "bra.1",
@@ -305,8 +305,8 @@
             "slug": "copa-argentina"
         },
         "copa-bolivia": {
-            "last_crossover_date": "2026-11-12",
-            "last_updated": 1794555976.274068,
+            "last_crossover_date": "2026-11-18",
+            "last_updated": 1794988830.095398,
             "logo": "",
             "name": "Copa Bolivia",
             "pill": "bol.copa",
@@ -529,8 +529,8 @@
             "slug": "english-premier-league"
         },
         "english-womens-fa-cup": {
-            "last_crossover_date": "2026-11-15",
-            "last_updated": 1794815130.932588,
+            "last_crossover_date": "2026-11-18",
+            "last_updated": 1794988827.881186,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English Women's FA Cup",
             "pill": "eng.w.fa",
@@ -545,8 +545,8 @@
             "slug": "english-womens-super-league"
         },
         "english-wsl-players-cup": {
-            "last_crossover_date": "2026-11-11",
-            "last_updated": 1794469523.348247,
+            "last_crossover_date": "2026-11-18",
+            "last_updated": 1794988828.487772,
             "logo": "https://flagcdn.com/w40/gb-eng.png",
             "name": "English WSL Players Cup",
             "pill": "eng.w.league_cup",
@@ -713,8 +713,8 @@
             "slug": "ind-1"
         },
         "indian-football-league": {
-            "last_crossover_date": "2026-11-13",
-            "last_updated": 1794642362.404613,
+            "last_crossover_date": "2026-11-18",
+            "last_updated": 1794988830.24076,
             "logo": "https://flagcdn.com/w40/in.png",
             "name": "Indian Football League",
             "pill": "ind.2",
@@ -1001,8 +1001,8 @@
             "slug": "per-1"
         },
         "peruvian-liga-1": {
-            "last_crossover_date": "2026-11-16",
-            "last_updated": 1794901547.861225,
+            "last_crossover_date": "2026-11-18",
+            "last_updated": 1794988829.960836,
             "logo": "https://flagcdn.com/w40/pe.png",
             "name": "Peruvian Liga 1",
             "pill": "per.1",
@@ -1137,16 +1137,16 @@
             "slug": "south-african-premiership"
         },
         "spanish-copa-de-la-reina": {
-            "last_crossover_date": "2026-11-12",
-            "last_updated": 1794555938.978113,
+            "last_crossover_date": "2026-11-18",
+            "last_updated": 1794988828.912923,
             "logo": "https://flagcdn.com/w40/es.png",
             "name": "Spanish Copa de la Reina",
             "pill": "esp.copa_de_la_reina",
             "slug": "spanish-copa-de-la-reina"
         },
         "spanish-copa-del-rey": {
-            "last_crossover_date": "2026-11-13",
-            "last_updated": 1794642330.272044,
+            "last_crossover_date": "2026-11-18",
+            "last_updated": 1794988827.748555,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/80.png",
             "name": "Spanish Copa del Rey",
             "pill": "esp.copa_del_rey",
@@ -1321,8 +1321,8 @@
             "slug": "uefa-super-cup"
         },
         "uefa-womens-champions-league": {
-            "last_crossover_date": "2026-11-12",
-            "last_updated": 1794555937.63687,
+            "last_crossover_date": "2026-11-18",
+            "last_updated": 1794988826.42127,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Women's Champions League",
             "pill": "uefa.wchampions",
@@ -2415,7 +2415,7 @@
             "slug": "alashkert-fc"
         },
         "alaves": {
-            "league": "Spanish Copa del Rey",
+            "league": "Spanish Copa de la Reina",
             "name": "Alav\u00e9s",
             "slug": "alaves"
         },
@@ -5045,7 +5045,7 @@
             "slug": "brighton-hove-albion-u21"
         },
         "brighton-hove-albion-women": {
-            "league": "English Women's Super League",
+            "league": "English WSL Players Cup",
             "name": "Brighton & Hove Albion Women",
             "slug": "brighton-hove-albion-women"
         },
@@ -6050,7 +6050,7 @@
             "slug": "cd-revilla"
         },
         "cd-sabadell": {
-            "league": "Spanish LALIGA 2",
+            "league": "Spanish Copa del Rey",
             "name": "CD Sabadell",
             "slug": "cd-sabadell"
         },
@@ -6540,7 +6540,7 @@
             "slug": "chelsea-u21"
         },
         "chelsea-women": {
-            "league": "English Women's Super League",
+            "league": "UEFA Women's Champions League",
             "name": "Chelsea Women",
             "slug": "chelsea-women"
         },
@@ -9060,7 +9060,7 @@
             "slug": "egypt-women"
         },
         "eibar": {
-            "league": "Spanish LALIGA 2",
+            "league": "Spanish Copa de la Reina",
             "name": "Eibar",
             "slug": "eibar"
         },
@@ -9470,7 +9470,7 @@
             "slug": "everton-u21"
         },
         "everton-women": {
-            "league": "English Women's Super League",
+            "league": "English WSL Players Cup",
             "name": "Everton Women",
             "slug": "everton-women"
         },
@@ -14475,7 +14475,7 @@
             "slug": "levadiakos"
         },
         "levante": {
-            "league": "Spanish Copa del Rey",
+            "league": "Spanish Copa de la Reina",
             "name": "Levante",
             "slug": "levante"
         },
@@ -14770,7 +14770,7 @@
             "slug": "liverpool-u21"
         },
         "liverpool-women": {
-            "league": "English Women's Super League",
+            "league": "English WSL Players Cup",
             "name": "Liverpool Women",
             "slug": "liverpool-women"
         },
@@ -14820,7 +14820,7 @@
             "slug": "lommel-sk"
         },
         "london-city-lionesses-women": {
-            "league": "English Women's Super League",
+            "league": "English WSL Players Cup",
             "name": "London City Lionesses Women",
             "slug": "london-city-lionesses-women"
         },
@@ -15345,7 +15345,7 @@
             "slug": "mali-women"
         },
         "mallorca": {
-            "league": "Spanish LALIGA 2",
+            "league": "Spanish Copa del Rey",
             "name": "Mallorca",
             "slug": "mallorca"
         },
@@ -15420,7 +15420,7 @@
             "slug": "manchester-city-u21"
         },
         "manchester-city-women": {
-            "league": "English Women's Super League",
+            "league": "UEFA Women's Champions League",
             "name": "Manchester City Women",
             "slug": "manchester-city-women"
         },
@@ -15430,7 +15430,7 @@
             "slug": "manchester-united"
         },
         "manchester-united-women": {
-            "league": "English Women's Super League",
+            "league": "English WSL Players Cup",
             "name": "Manchester United Women",
             "slug": "manchester-united-women"
         },
@@ -18575,7 +18575,7 @@
             "slug": "paris-saint-germain"
         },
         "paris-saint-germain-women": {
-            "league": "French Premi\u00e8re Ligue",
+            "league": "UEFA Women's Champions League",
             "name": "Paris Saint-Germain Women",
             "slug": "paris-saint-germain-women"
         },
@@ -20010,7 +20010,7 @@
             "slug": "real-madrid-iii"
         },
         "real-madrid-women": {
-            "league": "Spanish Liga F",
+            "league": "UEFA Women's Champions League",
             "name": "Real Madrid Women",
             "slug": "real-madrid-women"
         },
@@ -21400,7 +21400,7 @@
             "slug": "santomera"
         },
         "santos": {
-            "league": "Mexican Liga BBVA MX",
+            "league": "Brazilian Serie A",
             "name": "Santos",
             "slug": "santos"
         },
@@ -24015,7 +24015,7 @@
             "slug": "temple-women"
         },
         "tenerife": {
-            "league": "Spanish LALIGA 2",
+            "league": "Spanish Copa del Rey",
             "name": "Tenerife",
             "slug": "tenerife"
         },
@@ -24460,7 +24460,7 @@
             "slug": "tottenham-hotspur-u21"
         },
         "tottenham-hotspur-women": {
-            "league": "English Women's Super League",
+            "league": "English WSL Players Cup",
             "name": "Tottenham Hotspur Women",
             "slug": "tottenham-hotspur-women"
         },
@@ -25695,7 +25695,7 @@
             "slug": "vale-of-leithen"
         },
         "valencia": {
-            "league": "Spanish Copa del Rey",
+            "league": "Spanish Copa de la Reina",
             "name": "Valencia",
             "slug": "valencia"
         },
@@ -26680,7 +26680,7 @@
             "slug": "west-ham-united"
         },
         "west-ham-united-women": {
-            "league": "English Women's Super League",
+            "league": "English WSL Players Cup",
             "name": "West Ham United Women",
             "slug": "west-ham-united-women"
         },
