@@ -169,8 +169,8 @@
             "slug": "bra-2"
         },
         "brazilian-serie-a": {
-            "last_crossover_date": "2026-11-18",
-            "last_updated": 1795074328.971873,
+            "last_crossover_date": "2026-11-19",
+            "last_updated": 1795075269.728164,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/85.png",
             "name": "Brazilian Serie A",
             "pill": "bra.1",
@@ -241,8 +241,8 @@
             "slug": "chinese-super-league"
         },
         "club-friendly": {
-            "last_crossover_date": "2026-11-15",
-            "last_updated": 1794815132.705845,
+            "last_crossover_date": "2026-11-19",
+            "last_updated": 1795075234.818444,
             "logo": "\ud83e\udd1d",
             "name": "Club Friendly",
             "pill": "club.friendly",
@@ -592,6 +592,14 @@
             "pill": "fifa.wworld.u17",
             "slug": "fifa-under-17-womens-world-cup"
         },
+        "fifa-under-17-world-cup": {
+            "last_crossover_date": "",
+            "last_updated": 1795075264.596709,
+            "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png",
+            "name": "FIFA Under-17 World Cup",
+            "pill": "fifa.world.u17",
+            "slug": "fifa-under-17-world-cup"
+        },
         "fifa-womens-champions-cup": {
             "last_crossover_date": "2026-10-25",
             "last_updated": 1792997123.092153,
@@ -713,8 +721,8 @@
             "slug": "ind-1"
         },
         "indian-football-league": {
-            "last_crossover_date": "2026-11-18",
-            "last_updated": 1795074329.500118,
+            "last_crossover_date": "2026-11-19",
+            "last_updated": 1795075270.301723,
             "logo": "https://flagcdn.com/w40/in.png",
             "name": "Indian Football League",
             "pill": "ind.2",
@@ -801,8 +809,8 @@
             "slug": "leagues-cup"
         },
         "liga-auf-uruguaya": {
-            "last_crossover_date": "2026-11-16",
-            "last_updated": 1794901547.242829,
+            "last_crossover_date": "2026-11-19",
+            "last_updated": 1795075270.127855,
             "logo": "https://flagcdn.com/w40/uy.png",
             "name": "Liga AUF Uruguaya",
             "pill": "uru.1",
@@ -897,16 +905,16 @@
             "slug": "mexican-liga-de-expansion-mx"
         },
         "mls": {
-            "last_crossover_date": "2026-11-07",
-            "last_updated": 1794123935.550236,
+            "last_crossover_date": "2026-11-19",
+            "last_updated": 1795075233.252843,
             "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/19.png",
             "name": "MLS",
             "pill": "usa.1",
             "slug": "mls"
         },
         "ncaa-mens-soccer": {
-            "last_crossover_date": "2026-11-13",
-            "last_updated": 1794642362.543181,
+            "last_crossover_date": "2026-11-19",
+            "last_updated": 1795075277.352989,
             "logo": "",
             "name": "NCAA Men's Soccer",
             "pill": "usa.ncaa.m.1",
@@ -1137,8 +1145,8 @@
             "slug": "south-african-premiership"
         },
         "spanish-copa-de-la-reina": {
-            "last_crossover_date": "2026-11-18",
-            "last_updated": 1795074327.929464,
+            "last_crossover_date": "2026-11-19",
+            "last_updated": 1795075234.688944,
             "logo": "https://flagcdn.com/w40/es.png",
             "name": "Spanish Copa de la Reina",
             "pill": "esp.copa_de_la_reina",
@@ -1321,8 +1329,8 @@
             "slug": "uefa-super-cup"
         },
         "uefa-womens-champions-league": {
-            "last_crossover_date": "2026-11-18",
-            "last_updated": 1795074325.607088,
+            "last_crossover_date": "2026-11-19",
+            "last_updated": 1795075234.366031,
             "logo": "\ud83c\udf0e",
             "name": "UEFA Women's Champions League",
             "pill": "uefa.wchampions",
@@ -2940,7 +2948,7 @@
             "slug": "argentina"
         },
         "argentina-u17": {
-            "league": "U-17 WWC",
+            "league": "FIFA Under-17 World Cup",
             "name": "Argentina U17",
             "slug": "argentina-u17"
         },
@@ -3130,7 +3138,7 @@
             "slug": "arsenal-u21"
         },
         "arsenal-women": {
-            "league": "English Women's Super League",
+            "league": "UEFA Women's Champions League",
             "name": "Arsenal Women",
             "slug": "arsenal-women"
         },
@@ -3654,6 +3662,11 @@
             "name": "Australia",
             "slug": "australia"
         },
+        "australia-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "Australia U17",
+            "slug": "australia-u17"
+        },
         "australia-u17-women": {
             "league": "FIFA Under-17 Women's World Cup",
             "name": "Australia U17 Women",
@@ -3950,7 +3963,7 @@
             "slug": "barcelona-sc"
         },
         "barcelona-women": {
-            "league": "Spanish Liga F",
+            "league": "UEFA Women's Champions League",
             "name": "Barcelona Women",
             "slug": "barcelona-women"
         },
@@ -6120,7 +6133,7 @@
             "slug": "celoricense"
         },
         "celta-vigo": {
-            "league": "Spanish Copa del Rey",
+            "league": "Spanish Copa de la Reina",
             "name": "Celta Vigo",
             "slug": "celta-vigo"
         },
@@ -8044,6 +8057,11 @@
             "name": "Denmark",
             "slug": "denmark"
         },
+        "denmark-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "Denmark U17",
+            "slug": "denmark-u17"
+        },
         "denmark-u21": {
             "league": "UEFA European Under-21 Championship Qualifying",
             "name": "Denmark U21",
@@ -9019,6 +9037,11 @@
             "name": "Ecuador",
             "slug": "ecuador"
         },
+        "ecuador-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "Ecuador U17",
+            "slug": "ecuador-u17"
+        },
         "edinburgh-city": {
             "league": "Scottish League Challenge Cup",
             "name": "Edinburgh City",
@@ -9048,6 +9071,11 @@
             "league": "Africa Cup of Nations Qualifying",
             "name": "Egypt",
             "slug": "egypt"
+        },
+        "egypt-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "Egypt U17",
+            "slug": "egypt-u17"
         },
         "egypt-u21": {
             "league": "Under-21 International Friendly",
@@ -9325,7 +9353,7 @@
             "slug": "escorpiones-belen"
         },
         "espanyol": {
-            "league": "Spanish LALIGA",
+            "league": "Spanish Copa de la Reina",
             "name": "Espanyol",
             "slug": "espanyol"
         },
@@ -10614,6 +10642,11 @@
             "name": "France",
             "slug": "france"
         },
+        "france-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "France U17",
+            "slug": "france-u17"
+        },
         "france-u17-women": {
             "league": "FIFA Under-17 Women's World Cup",
             "name": "France U17 Women",
@@ -11404,6 +11437,11 @@
             "name": "Greece",
             "slug": "greece"
         },
+        "greece-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "Greece U17",
+            "slug": "greece-u17"
+        },
         "greece-u21": {
             "league": "UEFA European Under-21 Championship Qualifying",
             "name": "Greece U21",
@@ -11673,6 +11711,11 @@
             "league": "Concacaf Nations League",
             "name": "Haiti",
             "slug": "haiti"
+        },
+        "haiti-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "Haiti U17",
+            "slug": "haiti-u17"
         },
         "haiti-women": {
             "league": "Women's International Friendly",
@@ -13960,7 +14003,7 @@
             "slug": "kuching-city"
         },
         "kups-kuopio": {
-            "league": "UEFA Conference League",
+            "league": "Club Friendly",
             "name": "KuPS Kuopio",
             "slug": "kups-kuopio"
         },
@@ -16584,6 +16627,11 @@
             "name": "Mozambique",
             "slug": "mozambique"
         },
+        "mozambique-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "Mozambique U17",
+            "slug": "mozambique-u17"
+        },
         "msk-zilina": {
             "league": "Club Friendly",
             "name": "MSK Zilina",
@@ -16690,7 +16738,7 @@
             "slug": "naegohyang-women"
         },
         "nagaland-united-sc": {
-            "league": "Indian I-League",
+            "league": "Indian Football League",
             "name": "Nagaland United SC",
             "slug": "nagaland-united-sc"
         },
@@ -16928,6 +16976,11 @@
             "league": "International Friendly",
             "name": "New Caledonia",
             "slug": "new-caledonia"
+        },
+        "new-caledonia-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "New Caledonia U17",
+            "slug": "new-caledonia-u17"
         },
         "new-caledonia-women": {
             "league": "Women's International Friendly",
@@ -17970,7 +18023,7 @@
             "slug": "oks-odra-opole"
         },
         "ol-lyonnes-women": {
-            "league": "French Premi\u00e8re Ligue",
+            "league": "UEFA Women's Champions League",
             "name": "OL Lyonnes Women",
             "slug": "ol-lyonnes-women"
         },
@@ -18489,6 +18542,11 @@
             "name": "Panama",
             "slug": "panama"
         },
+        "panama-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "Panama U17",
+            "slug": "panama-u17"
+        },
         "panama-women": {
             "league": "Women's International Friendly",
             "name": "Panama Women",
@@ -18565,7 +18623,7 @@
             "slug": "paris-fc"
         },
         "paris-fc-women": {
-            "league": "French Premi\u00e8re Ligue",
+            "league": "UEFA Women's Champions League",
             "name": "Paris FC Women",
             "slug": "paris-fc-women"
         },
@@ -19523,6 +19581,11 @@
             "league": "International Friendly",
             "name": "Qatar",
             "slug": "qatar"
+        },
+        "qatar-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "Qatar U17",
+            "slug": "qatar-u17"
         },
         "qingdao-hainiu": {
             "league": "Chinese Super League",
@@ -21479,6 +21542,11 @@
             "name": "Saudi Arabia",
             "slug": "saudi-arabia"
         },
+        "saudi-arabia-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "Saudi Arabia U17",
+            "slug": "saudi-arabia-u17"
+        },
         "saudi-arabia-women": {
             "league": "Women's International Friendly",
             "name": "Saudi Arabia Women",
@@ -22558,6 +22626,11 @@
             "league": "International Friendly",
             "name": "South Korea",
             "slug": "south-korea"
+        },
+        "south-korea-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "South Korea U17",
+            "slug": "south-korea-u17"
         },
         "south-korea-u21": {
             "league": "Under-21 International Friendly",
@@ -25039,6 +25112,11 @@
             "name": "Uganda",
             "slug": "uganda"
         },
+        "uganda-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "Uganda U17",
+            "slug": "uganda-u17"
+        },
         "uic": {
             "league": "NCAA Men's Soccer",
             "name": "UIC",
@@ -25418,6 +25496,11 @@
             "league": "International Friendly",
             "name": "Uruguay",
             "slug": "uruguay"
+        },
+        "uruguay-u17": {
+            "league": "FIFA Under-17 World Cup",
+            "name": "Uruguay U17",
+            "slug": "uruguay-u17"
         },
         "us-avellino": {
             "league": "Italian Serie B",

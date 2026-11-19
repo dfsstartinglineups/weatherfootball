@@ -1759,6 +1759,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10539": {
+        "city": "Ar-Rayyan",
+        "country": "Qatar",
+        "id": "10539",
+        "lat": 25.29194,
+        "lon": 51.42444,
+        "name": "Aspire Zone Pitch 8",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10540": {
+        "city": "Ar-Rayyan",
+        "country": "Qatar",
+        "id": "10540",
+        "lat": 25.29194,
+        "lon": 51.42444,
+        "name": "Aspire Zone Pitch 3",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10541": {
         "city": "Ar-Rayyan",
         "country": "Qatar",
@@ -1766,6 +1786,36 @@
         "lat": 25.29194,
         "lon": 51.42444,
         "name": "Aspire Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10542": {
+        "city": "Ar-Rayyan",
+        "country": "Qatar",
+        "id": "10542",
+        "lat": 25.29194,
+        "lon": 51.42444,
+        "name": "Aspire Zone Pitch 5",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10543": {
+        "city": "Ar-Rayyan",
+        "country": "Qatar",
+        "id": "10543",
+        "lat": 25.29194,
+        "lon": 51.42444,
+        "name": "Aspire Zone Pitch 2",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10546": {
+        "city": "Ar-Rayyan",
+        "country": "Qatar",
+        "id": "10546",
+        "lat": 25.29194,
+        "lon": 51.42444,
+        "name": "Aspire Zone Pitch 9",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -2376,6 +2426,16 @@
         "lat": 53.20767,
         "lon": 50.13553,
         "name": "Samara Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10653": {
+        "city": "Ar-Rayyan",
+        "country": "Qatar",
+        "id": "10653",
+        "lat": 25.29194,
+        "lon": 51.42444,
+        "name": "Aspire Zone Pitch 7",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -5409,6 +5469,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11155": {
+        "city": "Ar-Rayyan",
+        "country": "Qatar",
+        "id": "11155",
+        "lat": 25.29194,
+        "lon": 51.42444,
+        "name": "Aspire Zone Pitch 4",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11158": {
         "city": "Lawrenceville",
         "country": "USA",
@@ -6986,6 +7056,16 @@
         "lat": 37.2707,
         "lon": -76.70746,
         "name": "Martin Family Stadium at Albert-Daly Field",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11331": {
+        "city": "Wilmington, North Carolina",
+        "country": "USA",
+        "id": "11331",
+        "lat": 34.23556,
+        "lon": -77.94604,
+        "name": "UNCW Soccer Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
