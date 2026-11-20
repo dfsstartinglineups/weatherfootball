@@ -2809,6 +2809,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10694": {
+        "city": "Lubbock, Texas",
+        "country": "USA",
+        "id": "10694",
+        "lat": 33.57786,
+        "lon": -101.85517,
+        "name": "John Walker Soccer Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10695": {
         "city": "Chill\u00e1n",
         "country": "Chile",
@@ -5216,6 +5226,16 @@
         "lat": 34.77873,
         "lon": -82.31012,
         "name": "GE Vernova Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "11077": {
+        "city": "Jaipur",
+        "country": "India",
+        "id": "11077",
+        "lat": 26.91962,
+        "lon": 75.78781,
+        "name": "Vidyadhar Nagar Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
