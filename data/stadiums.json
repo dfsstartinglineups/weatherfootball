@@ -15629,6 +15629,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "3153": {
+        "city": "Queensland",
+        "country": "Australia",
+        "id": "3153",
+        "lat": -21.48333,
+        "lon": 149.9333,
+        "name": "Dolphin Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "316": {
         "city": "Doetinchem",
         "country": "Netherlands",
@@ -21656,6 +21666,16 @@
         "lat": 52.645,
         "lon": 6.21111,
         "name": "Sportpark Het Noorderslag",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7474": {
+        "city": "Toyota Stadium",
+        "country": "USA",
+        "id": "7474",
+        "lat": 38.67351,
+        "lon": 29.4058,
+        "name": "Toyota Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -28429,6 +28449,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "fk-povazska-bystrica": {
+        "city": "",
+        "country": "",
+        "id": "fk-povazska-bystrica",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "fk-rabotnicki": {
         "city": "",
         "country": "",
@@ -30363,6 +30393,16 @@
         "city": "",
         "country": "",
         "id": "neom-sc",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "newcastle-jets-women": {
+        "city": "",
+        "country": "",
+        "id": "newcastle-jets-women",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
