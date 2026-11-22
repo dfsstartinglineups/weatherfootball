@@ -21669,16 +21669,6 @@
         "roof": "Open",
         "surface": "Grass"
     },
-    "7474": {
-        "city": "Toyota Stadium",
-        "country": "USA",
-        "id": "7474",
-        "lat": 38.67351,
-        "lon": 29.4058,
-        "name": "Toyota Stadium",
-        "roof": "Open",
-        "surface": "Grass"
-    },
     "7480": {
         "city": "Glasgow",
         "country": "Scotland",
@@ -22196,6 +22186,16 @@
         "lat": 37.73952,
         "lon": -25.66874,
         "name": "Est\u00e1dio de S\u00e3o Miguel",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7869": {
+        "city": "Oeiras",
+        "country": "Portugal",
+        "id": "7869",
+        "lat": 38.69105,
+        "lon": -9.31085,
+        "name": "Est\u00e1dio do Jamor",
         "roof": "Open",
         "surface": "Grass"
     },
