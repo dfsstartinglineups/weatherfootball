@@ -21769,6 +21769,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7525": {
+        "city": "Imphal",
+        "country": "India",
+        "id": "7525",
+        "lat": 24.80805,
+        "lon": 93.9442,
+        "name": "Khuman Lampak Main Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7533": {
         "city": "Rostov-on-Don",
         "country": "Russia",
@@ -24436,6 +24446,16 @@
         "lat": 41.70826,
         "lon": -0.99916,
         "name": "Campo de F\u00fatbol Municipal Santa Ana",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9366": {
+        "city": "Hyderabad",
+        "country": "India",
+        "id": "9366",
+        "lat": 17.38405,
+        "lon": 78.45636,
+        "name": "Deccan Arena",
         "roof": "Open",
         "surface": "Grass"
     },
