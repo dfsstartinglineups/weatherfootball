@@ -19189,6 +19189,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "5966": {
+        "city": "Geelong",
+        "country": "Australia",
+        "id": "5966",
+        "lat": -38.14711,
+        "lon": 144.36069,
+        "name": "GMHBA Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "5997": {
         "city": "Guijuelo",
         "country": "Spain",
@@ -21979,6 +21989,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7689": {
+        "city": "Jaber Al-Ahmad International Stadium",
+        "country": "Kuwait",
+        "id": "7689",
+        "lat": 29.5,
+        "lon": 47.75,
+        "name": "Jaber Al-Ahmad International Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7702": {
         "city": "Bakau",
         "country": "Gambia",
@@ -21986,6 +22006,16 @@
         "lat": 13.47806,
         "lon": -16.68194,
         "name": "Independence Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7703": {
+        "city": "Bandung",
+        "country": "Indonesia",
+        "id": "7703",
+        "lat": -6.92222,
+        "lon": 107.60694,
+        "name": "Gelora Bandung Lautan Api Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
