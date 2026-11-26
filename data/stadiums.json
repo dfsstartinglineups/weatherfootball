@@ -9899,6 +9899,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11637": {
+        "city": "Sofia",
+        "country": "Bulgaria",
+        "id": "11637",
+        "lat": 42.69751,
+        "lon": 23.32415,
+        "name": "Balgarska Armia Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11638": {
         "city": "",
         "country": "Australia",
@@ -28585,6 +28595,16 @@
         "id": "fraserburgh",
         "lat": 57.68744,
         "lon": -2.01844,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "frederiksberg-alliancen-2000": {
+        "city": "",
+        "country": "",
+        "id": "frederiksberg-alliancen-2000",
+        "lat": 0.0,
+        "lon": 0.0,
         "name": "Venue Unlisted",
         "roof": "Open",
         "surface": "Grass"
