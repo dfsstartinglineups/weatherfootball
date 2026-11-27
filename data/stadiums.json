@@ -1,4 +1,14 @@
 {
+    "1-fc-tatran-presov": {
+        "city": "",
+        "country": "",
+        "id": "1-fc-tatran-presov",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10008": {
         "city": "Radomlje",
         "country": "Slovenia",
@@ -12269,6 +12279,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "11917": {
+        "city": "Largs",
+        "country": "Scotland",
+        "id": "11917",
+        "lat": 55.79629,
+        "lon": -4.86337,
+        "name": "Barrfields Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "11918": {
         "city": "Jaber Al-Ahmad International Stadium",
         "country": "Kuwait",
@@ -13006,6 +13026,26 @@
         "lat": 42.66667,
         "lon": 25.25,
         "name": "Gradski Stadion (Lovech)",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12019": {
+        "city": "Le Plessis-Belleville",
+        "country": "France",
+        "id": "12019",
+        "lat": 49.09501,
+        "lon": 2.75614,
+        "name": "Stade Municipal Olivier-Lovighi",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12020": {
+        "city": "Vaxjo",
+        "country": "Sweden",
+        "id": "12020",
+        "lat": 56.87767,
+        "lon": 14.80906,
+        "name": "V\u00e4rendsvallen C-Plan",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -23089,6 +23129,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8521": {
+        "city": "Stellenbosch",
+        "country": "South Africa",
+        "id": "8521",
+        "lat": -33.93462,
+        "lon": 18.86676,
+        "name": "Danie Craven Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8525": {
         "city": "",
         "country": "England",
@@ -28289,6 +28339,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "fc-basel-ii": {
+        "city": "",
+        "country": "",
+        "id": "fc-basel-ii",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "fc-cartagena": {
         "city": "",
         "country": "",
@@ -28613,6 +28673,16 @@
         "city": "",
         "country": "",
         "id": "frenford",
+        "lat": 0.0,
+        "lon": 0.0,
+        "name": "Venue Unlisted",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "fsc-eggendorf": {
+        "city": "",
+        "country": "",
+        "id": "fsc-eggendorf",
         "lat": 0.0,
         "lon": 0.0,
         "name": "Venue Unlisted",
