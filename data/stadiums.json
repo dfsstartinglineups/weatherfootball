@@ -1329,6 +1329,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "10418": {
+        "city": "Chongqing",
+        "country": "China PR",
+        "id": "10418",
+        "lat": 29.56026,
+        "lon": 106.55771,
+        "name": "Yongchuang Sports Center",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "10419": {
         "city": "Cartago",
         "country": "Costa Rica",
@@ -2326,6 +2336,16 @@
         "lat": 22.13361,
         "lon": -98.14333,
         "name": "La Rosaleda",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "10639": {
+        "city": "Le\u00f3n",
+        "country": "Spain",
+        "id": "10639",
+        "lat": 42.60003,
+        "lon": -5.57032,
+        "name": "Estadio Reino de Le\u00f3n",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -13029,6 +13049,76 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "12008": {
+        "city": "Saint-Renan",
+        "country": "France",
+        "id": "12008",
+        "lat": 48.43114,
+        "lon": -4.62168,
+        "name": "Stade Municipal de Pen Ar Gu\u00e9ar",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12010": {
+        "city": "Cosne-Cours-sur-Loire",
+        "country": "France",
+        "id": "12010",
+        "lat": 47.41101,
+        "lon": 2.92528,
+        "name": "Parc Municipal des Sports Rapha\u00ebl Giraux",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12011": {
+        "city": "Corsica",
+        "country": "France",
+        "id": "12011",
+        "lat": 42.15829,
+        "lon": 9.09637,
+        "name": "Stade Dominique Ventimila",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12012": {
+        "city": "Besan\u00e7on",
+        "country": "France",
+        "id": "12012",
+        "lat": 47.24878,
+        "lon": 6.01815,
+        "name": "Stade Paul-Robbe",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12014": {
+        "city": "Moulins",
+        "country": "France",
+        "id": "12014",
+        "lat": 46.56459,
+        "lon": 3.33243,
+        "name": "Stade Dunlop 1",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12016": {
+        "city": "Bayonne",
+        "country": "France",
+        "id": "12016",
+        "lat": 43.49316,
+        "lon": -1.473,
+        "name": "Stade Didier-Deschamps",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12017": {
+        "city": "Haute-Goulaine",
+        "country": "France",
+        "id": "12017",
+        "lat": 47.19904,
+        "lon": -1.43012,
+        "name": "Complexe sportif de Lautard",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "12019": {
         "city": "Le Plessis-Belleville",
         "country": "France",
@@ -13046,6 +13136,26 @@
         "lat": 56.87767,
         "lon": 14.80906,
         "name": "V\u00e4rendsvallen C-Plan",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12023": {
+        "city": "",
+        "country": "France",
+        "id": "12023",
+        "lat": 46.0,
+        "lon": 2.0,
+        "name": "Stade Raoul-Barri\u00e8re",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "12024": {
+        "city": "",
+        "country": "France",
+        "id": "12024",
+        "lat": 48.93307,
+        "lon": 7.46404,
+        "name": "Stade \u00c9ric Riffel",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -15376,6 +15486,16 @@
         "lat": 55.70927,
         "lon": 9.5357,
         "name": "Vejle Stadion",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "2829": {
+        "city": "Vannes",
+        "country": "France",
+        "id": "2829",
+        "lat": 47.65688,
+        "lon": -2.76205,
+        "name": "Stade de la Rabine",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -19909,6 +20029,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "6412": {
+        "city": "Bourg-en-Bresse",
+        "country": "France",
+        "id": "6412",
+        "lat": 46.20574,
+        "lon": 5.2258,
+        "name": "Stade Marcel-Verchere",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "6420": {
         "city": "Chattanooga, Tennessee",
         "country": "USA",
@@ -20336,6 +20466,16 @@
         "lat": 38.60758,
         "lon": -83.29518,
         "name": "Jesse Owens Memorial Stadium",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "6650": {
+        "city": "Canberra",
+        "country": "Australia",
+        "id": "6650",
+        "lat": -35.28346,
+        "lon": 149.12807,
+        "name": "GIO Stadium",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -21949,6 +22089,26 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7609": {
+        "city": "Biesheim",
+        "country": "France",
+        "id": "7609",
+        "lat": 48.04118,
+        "lon": 7.54474,
+        "name": "Stade Biesheim",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7610": {
+        "city": "Epinal",
+        "country": "France",
+        "id": "7610",
+        "lat": 48.18324,
+        "lon": 6.45304,
+        "name": "Stade de la Colombi\u00e8re",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7611": {
         "city": "Saint-Brieuc",
         "country": "France",
@@ -22359,6 +22519,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "7926": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "id": "7926",
+        "lat": 41.38879,
+        "lon": 2.15899,
+        "name": "Narc\u00eds Sala",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "7931": {
         "city": "Valle de Aranguren",
         "country": "Spain",
@@ -22436,6 +22606,16 @@
         "lat": 31.75872,
         "lon": -106.48693,
         "name": "Southwest University Park",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "7998": {
+        "city": "Saint-Pryv\u00e9-Saint-Mesmin",
+        "country": "France",
+        "id": "7998",
+        "lat": 47.88177,
+        "lon": 1.8695,
+        "name": "Stade du Grand Clos",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -23319,6 +23499,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "8625": {
+        "city": "Remire-Montjoly",
+        "country": "French Guiana",
+        "id": "8625",
+        "lat": 4.91667,
+        "lon": -52.26667,
+        "name": "Stade Municipal Dr. Edmard Lama",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "8633": {
         "city": "Chiba",
         "country": "Japan",
@@ -23326,6 +23516,16 @@
         "lat": 35.6,
         "lon": 140.11667,
         "name": "Fukuda Denshi Arena",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8643": {
+        "city": "Loon-Plage",
+        "country": "France",
+        "id": "8643",
+        "lat": 50.99647,
+        "lon": 2.2177,
+        "name": "Stade Marcel Rosseel",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -23916,6 +24116,16 @@
         "lat": 46.61667,
         "lon": 0.48333,
         "name": "Stade Michel-Amand",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "8976": {
+        "city": "Feurs",
+        "country": "France",
+        "id": "8976",
+        "lat": 45.73337,
+        "lon": 4.22755,
+        "name": "Stade Maurice Rousson",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -24649,6 +24859,16 @@
         "roof": "Open",
         "surface": "Grass"
     },
+    "9447": {
+        "city": "La Roche-sur-Yon",
+        "country": "France",
+        "id": "9447",
+        "lat": 46.66974,
+        "lon": -1.42757,
+        "name": "Stade Henri-Desgrange",
+        "roof": "Open",
+        "surface": "Grass"
+    },
     "9450": {
         "city": "Amneville-les-Thermes",
         "country": "France",
@@ -24666,6 +24886,16 @@
         "lat": 51.65147,
         "lon": -0.08497,
         "name": "Tottenham Hotspur Training Centre",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9457": {
+        "city": "N\u00eemes",
+        "country": "France",
+        "id": "9457",
+        "lat": 43.83665,
+        "lon": 4.35788,
+        "name": "Stade des Antonins",
         "roof": "Open",
         "surface": "Grass"
     },
@@ -25736,6 +25966,16 @@
         "lat": 50.88506,
         "lon": 4.07601,
         "name": "DENDER Football Complex",
+        "roof": "Open",
+        "surface": "Grass"
+    },
+    "9981": {
+        "city": "Acquaviva",
+        "country": "San Marino",
+        "id": "9981",
+        "lat": 43.94593,
+        "lon": 12.4185,
+        "name": "Campo Sportivo di Acquaviva",
         "roof": "Open",
         "surface": "Grass"
     },
